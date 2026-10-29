@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17676B">
+<meta name="description" content="CACE Imatges. Biblioteca visual per cercar, organitzar i mostrar fotografies i dibuixos amb el vocabulari CACE.">
+<title>CACE Imatges · Biblioteca visual</title>
+<style>/*__STYLES__*/</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Anar al contingut</a>
+<aside id="sidebar" class="sidebar" aria-label="Navegació principal"></aside>
+<button class="sidebar-shade" id="sidebarShade" aria-label="Tancar menú"></button>
+<div class="app-column">
+  <header class="topbar">
+    <button class="icon-btn mobile-menu" id="menuToggle" aria-label="Obrir menú"></button>
+    <div class="search-wrap">
+      <span class="search-icon" id="searchIcon"></span>
+      <input id="search" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="searchSuggestions" aria-label="Cerca per paraules CACE" placeholder="Cerca per paraules CACE…">
+      <button id="clearSearch" class="clear-search icon-btn" aria-label="Netejar cerca" hidden></button>
+      <div id="searchSuggestions" class="suggestions" role="listbox" hidden></div>
+    </div>
+    <div class="top-actions">
+      <div class="language-switch" role="group" aria-label="Idioma">
+        <button id="langCa" data-lang="ca" class="active" aria-pressed="true">CA</button><span></span><button id="langEs" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button class="icon-btn top-help" data-action="about" id="aboutTop" aria-label="Sobre CACE Imatges"></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="storageNotice" class="storage-notice" role="status" hidden></div>
+<dialog id="dialog" class="dialog"></dialog>
+<input id="backupFile" type="file" accept=".json,application/json" hidden>
+<script id="catalog-data" type="application/json">/*__DATA__*/</script>
+<script>/*__APP__*/</script>
+</body>
+</html>

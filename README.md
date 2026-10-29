@@ -11,7 +11,8 @@ La revisió visual de producció no equival a una validació clínica o psicomè
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `dist/`: web construïda i les 744 imatges que utilitza.
+- `bank/`: les 744 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
 
@@ -41,10 +42,13 @@ Es desa a `output/CACE_Imatges_v0.1.html`. Aquest fitxer gran es genera localmen
 ```bash
 python scripts/import-production.py --package /ruta/al/paquet.zip --version 0.1.11
 python scripts/build.py --site-only
+python scripts/pack-bank.py
 python scripts/check-site.py
 ```
 
 Els originals PNG dels estímuls es conserven als paquets de producció. La web utilitza còpies WebP amb les mateixes dimensions, qualitat 93 i comprovació SHA-256 de cada fitxer.
+
+La construcció restaura automàticament les imatges que falten a `dist/assets/` a partir de `bank/`, sense canviar-ne els píxels. Després d'incorporar imatges noves, cal actualitzar el banc amb `pack-bank.py` i versionar `bank/` juntament amb el catàleg. La web publicada serveix les imatges individuals habituals, no els arxius en parts.
 
 ## Publicació
 
