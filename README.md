@@ -4,16 +4,16 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.28 conté **1308 estímuls generats i revisats visualment per a 327 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.29 conté **1324 estímuls generats i revisats visualment per a 331 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
-Els increments del 30 d’octubre incorporen 572 imatges noves. L'últim lot conté MUNTANYA, BOSC, RIU, PLATJA, MAR i HORT (24 imatges). `production/` conserva els briefs i una cua de 458 entrades d'una sola paraula encara pendents de revisió semàntica i producció. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+Els increments del 30 d’octubre incorporen 588 imatges noves. L'últim lot conté PISCINA, CÀMPING, GRANJA i CIRC (16 imatges). `production/` conserva els briefs i una cua de 454 entrades d'una sola paraula encara pendents de revisió semàntica i producció. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 1316 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 1332 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
