@@ -19,6 +19,6 @@ for brief_path in sorted((root/'output').glob('brief-*.json')):
     for variant, record in brief['images'].items():
         record['file'] = f"output/production/{brief['slug']}/{variant}.png"
     (folder/(brief['slug']+'.json')).write_text(json.dumps(brief,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-progress = {'catalogVersion': catalog['version'], 'totalImages': len(catalog['assets']), 'completeVocabularyEntries': len(complete), 'pendingSingleWordEntries': len(pending), 'criteria': {'variants':['foto-01','foto-02','realista-01','pla-01'], 'differentConcreteExemplars':True, 'reviewEveryImageBeforeImport':True, 'canonicalRepository':'https://github.com/utacub/cace_imgs', 'hosting':'GitHub Pages'}, 'pending':pending}
+progress = {'catalogVersion': catalog['version'], 'totalImages': len(catalog['assets']), 'completeVocabularyEntries': len(complete), 'pendingSingleWordEntries': len(pending), 'criteria': {'variants':['foto-01','foto-02','realista-01','pla-01'], 'differentConcreteExemplars':True, 'reviewEveryImageBeforeImport':True, 'noTextInAnyImage':True, 'canonicalRepository':'https://github.com/utacub/cace_imgs', 'hosting':'GitHub Pages'}, 'pending':pending}
 (folder/'progress.json').write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({key:value for key,value in progress.items() if key not in ('pending','criteria')}))
