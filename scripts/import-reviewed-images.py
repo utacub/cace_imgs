@@ -10,6 +10,7 @@ import hashlib
 import json
 import shutil
 import sys
+import time
 from PIL import Image
 
 root = Path(__file__).resolve().parents[1]
@@ -52,6 +53,16 @@ for variant, record in brief['images'].items():
     next(c for c in catalog['collections'] if c['id'] == collection_id)['items'].append(row['id'])
 catalog['assets'] = rows + catalog['assets']
 catalog['version'] = brief['version']
-catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+catalog_text = json.dumps(catalog, ensure_ascii=False, indent=2) + '\n'
+temporary_catalog = catalog_path.with_suffix('.json.tmp')
+for attempt in range(3):
+    try:
+        temporary_catalog.write_text(catalog_text, encoding='utf-8')
+        temporary_catalog.replace(catalog_path)
+        break
+    except OSError:
+        if attempt == 2:
+            raise
+        time.sleep(0.5)
 (archive_dir / 'brief.json').write_text(json.dumps(brief, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(json.dumps({'word': word['ca'], 'added': len(rows), 'images': len(catalog['assets'])}, ensure_ascii=False))
