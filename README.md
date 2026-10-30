@@ -4,16 +4,16 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.35 conté **1472 estímuls generats i revisats visualment per a 368 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.36 conté **1484 estímuls generats i revisats visualment per a 371 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
-Els increments del 30 d’octubre incorporen 736 imatges noves. L'últim lot conté LILA, BLANC, NEGRE, OR, PLATA i ROSA (24 imatges). `production/` conserva els briefs i una cua de 417 entrades d'una sola paraula encara pendents de revisió semàntica i producció. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+Els increments del 30 d’octubre incorporen 748 imatges noves. L'últim lot conté RATLLES, QUADRES i TOPOS (12 imatges). `production/` conserva els briefs i una cua de 414 entrades d'una sola paraula encara pendents de revisió semàntica i producció. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 1480 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 1492 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
