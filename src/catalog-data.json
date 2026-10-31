@@ -1,5 +1,5 @@
 {
-  "version": "0.1.56",
+  "version": "0.1.57",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,126 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-99fb04ebd651-foto-01",
+      "src": "assets/individuals/verbs/punxar/foto-01.webp",
+      "title": {
+        "ca": "PUNXAR · fotografia 1",
+        "es": "PINCHAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una persona punxant un tros de poma amb una forquilla.",
+        "es": "Una persona pinchando un trozo de manzana con un tenedor."
+      },
+      "tags": [
+        "w-603f03bd6475"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-10-31T20:38:44.691899Z",
+      "target": "concept-99fb04ebd651",
+      "targetWordIds": [
+        "w-603f03bd6475"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "5a1f065cba39dc9301cfddaabb7f0f68b8afa66d801c2d67d9868a46399e511e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "76b262bd60ae47760237ee4ad42f03507e314375bcbeaf127242b71c9164a077"
+    },
+    {
+      "id": "cace-concept-99fb04ebd651-foto-02",
+      "src": "assets/individuals/verbs/punxar/foto-02.webp",
+      "title": {
+        "ca": "PUNXAR · fotografia 2",
+        "es": "PINCHAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una persona punxant un tros de poma amb una forquilla.",
+        "es": "Una persona pinchando un trozo de manzana con un tenedor."
+      },
+      "tags": [
+        "w-603f03bd6475"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-10-31T20:38:44.691899Z",
+      "target": "concept-99fb04ebd651",
+      "targetWordIds": [
+        "w-603f03bd6475"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "b6998a26b4d7fa9662f84b17f3c26e48b6696591060287b9984a5b1016af89df",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "336ebdfb16665779019053aaf3cf643ce496853ff6564431e6a005fdaf571c38"
+    },
+    {
+      "id": "cace-concept-99fb04ebd651-realista-01",
+      "src": "assets/individuals/verbs/punxar/realista-01.webp",
+      "title": {
+        "ca": "PUNXAR · dibuix realista",
+        "es": "PINCHAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una persona punxant un tros de poma amb una forquilla.",
+        "es": "Una persona pinchando un trozo de manzana con un tenedor."
+      },
+      "tags": [
+        "w-603f03bd6475"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-10-31T20:38:44.691899Z",
+      "target": "concept-99fb04ebd651",
+      "targetWordIds": [
+        "w-603f03bd6475"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "7fa8282eac5c4c166403ad52ab156a5896268fbc0d8c95c3c3a0795a1f22c951",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d6373d4eb9bdcb19043108cdd04b220985a22e4bbaa98c9b30453c39557d5592"
+    },
+    {
+      "id": "cace-concept-99fb04ebd651-pla-01",
+      "src": "assets/individuals/verbs/punxar/pla-01.webp",
+      "title": {
+        "ca": "PUNXAR · il·lustració plana",
+        "es": "PINCHAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una persona punxant un tros de poma amb una forquilla.",
+        "es": "Una persona pinchando un trozo de manzana con un tenedor."
+      },
+      "tags": [
+        "w-603f03bd6475"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-10-31T20:38:44.691899Z",
+      "target": "concept-99fb04ebd651",
+      "targetWordIds": [
+        "w-603f03bd6475"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "a5baede353c5cceabfdd3571ffe8a544441dbee75a74a6b674f34d98327799bc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9dad484b174825dd09e28e9a2d6266372292e7a5d399ba221a11dbc35d9dcc8c"
+    },
     {
       "id": "cace-concept-14ed89f049af-foto-01",
       "src": "assets/individuals/verbs/desvestir/foto-01.webp",
@@ -68809,7 +68929,9 @@
         "cace-concept-b309ab430324-foto-01",
         "cace-concept-b309ab430324-foto-02",
         "cace-concept-14ed89f049af-foto-01",
-        "cace-concept-14ed89f049af-foto-02"
+        "cace-concept-14ed89f049af-foto-02",
+        "cace-concept-99fb04ebd651-foto-01",
+        "cace-concept-99fb04ebd651-foto-02"
       ]
     },
     {
@@ -69282,7 +69404,8 @@
         "cace-concept-72d7eb478e20-realista-01",
         "cace-concept-fa01e5de7884-realista-01",
         "cace-concept-b309ab430324-realista-01",
-        "cace-concept-14ed89f049af-realista-01"
+        "cace-concept-14ed89f049af-realista-01",
+        "cace-concept-99fb04ebd651-realista-01"
       ]
     },
     {
@@ -69755,7 +69878,8 @@
         "cace-concept-72d7eb478e20-pla-01",
         "cace-concept-fa01e5de7884-pla-01",
         "cace-concept-b309ab430324-pla-01",
-        "cace-concept-14ed89f049af-pla-01"
+        "cace-concept-14ed89f049af-pla-01",
+        "cace-concept-99fb04ebd651-pla-01"
       ]
     }
   ]
