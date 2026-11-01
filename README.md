@@ -4,16 +4,16 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.62 conté **1932 estímuls generats i revisats visualment per a 483 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.63 conté **1944 estímuls generats i revisats visualment per a 486 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
-L'últim lot conté AEROPORT, VACANCES i COLÒNIES (12 imatges). `production/` conserva els briefs i una cua de 199 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+L'últim lot conté APARCAR, ESPERAR i CELEBRAR (12 imatges). `production/` conserva els briefs i una cua de 196 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 1940 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 1952 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
