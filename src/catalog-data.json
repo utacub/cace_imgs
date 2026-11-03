@@ -1,5 +1,5 @@
 {
-  "version": "0.1.67",
+  "version": "0.1.68",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,726 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-9ab10c9df925-foto-01",
+      "src": "assets/individuals/llocs/pati/foto-01.webp",
+      "title": {
+        "ca": "PATI · fotografia 1",
+        "es": "PATIO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dos infants juguen amb una pilota vermella al pati de l’escola.",
+        "es": "Dos niños juegan con una pelota roja en el patio de la escuela."
+      },
+      "tags": [
+        "w-b8852b37e441"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:35.851003Z",
+      "target": "concept-9ab10c9df925",
+      "targetWordIds": [
+        "w-b8852b37e441"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "46efec2cb3f9bcbc87943b10115691a07dfc6d70bdf24e77d956cef2ce221730",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dbd46a7400b62530b0536f42ab24a3e28aadc367334152853299c9f5f87476c5"
+    },
+    {
+      "id": "cace-concept-9ab10c9df925-foto-02",
+      "src": "assets/individuals/llocs/pati/foto-02.webp",
+      "title": {
+        "ca": "PATI · fotografia 2",
+        "es": "PATIO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Tres infants juguen a passar-se una pilota blava al pati, a prop d’un arbre.",
+        "es": "Tres niños juegan a pasarse una pelota azul en el patio, cerca de un árbol."
+      },
+      "tags": [
+        "w-b8852b37e441"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:35.851003Z",
+      "target": "concept-9ab10c9df925",
+      "targetWordIds": [
+        "w-b8852b37e441"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "9bc6f9c765ad9c5e8fa0717fbce40ae14ac5431b41b664d9cdcf88fd487bafdd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1be54b49b43cc3de23d72f77522d29be8ee4786dec76508b0b83c0278ce43a72"
+    },
+    {
+      "id": "cace-concept-9ab10c9df925-realista-01",
+      "src": "assets/individuals/llocs/pati/realista-01.webp",
+      "title": {
+        "ca": "PATI · dibuix realista",
+        "es": "PATIO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dos infants juguen amb una pilota groga al pati de l’escola.",
+        "es": "Dos niños juegan con una pelota amarilla en el patio escolar."
+      },
+      "tags": [
+        "w-b8852b37e441"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:35.851003Z",
+      "target": "concept-9ab10c9df925",
+      "targetWordIds": [
+        "w-b8852b37e441"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "092327f786247ab3fabffd849e469ea5a1b89bf919ff334e4d8ca9090315e5d3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f8ea5edc9adc1f3f6290a8342a38a595b27024a6ebe1b99730be0c0a7b3048cb"
+    },
+    {
+      "id": "cace-concept-9ab10c9df925-pla-01",
+      "src": "assets/individuals/llocs/pati/pla-01.webp",
+      "title": {
+        "ca": "PATI · il·lustració plana",
+        "es": "PATIO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dos infants es passen una pilota al pati, amb un arbre i un banc al costat.",
+        "es": "Dos niños se pasan una pelota en el patio, con un árbol y un banco al lado."
+      },
+      "tags": [
+        "w-b8852b37e441"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:35.851003Z",
+      "target": "concept-9ab10c9df925",
+      "targetWordIds": [
+        "w-b8852b37e441"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "bec91ab9eeabda26e91ef0df25b0eeb461d71e9590cbe67f26e1f4040a33046b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "15828d5be32041805cc952c644cd4a0ac9839d60fa4c045cdc14430c0978f8f3"
+    },
+    {
+      "id": "cace-concept-c9edfb221c21-foto-01",
+      "src": "assets/individuals/llocs/fira/foto-01.webp",
+      "title": {
+        "ca": "FIRA · fotografia 1",
+        "es": "FERIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Fira amb una roda de fira vermella i un carrusel de cavallets.",
+        "es": "Feria con una noria roja y un carrusel de caballitos."
+      },
+      "tags": [
+        "w-60d30b0567f1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:32.029461Z",
+      "target": "concept-c9edfb221c21",
+      "targetWordIds": [
+        "w-60d30b0567f1"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "9afb1621ed227987971ba1f11774002306a659fa2cc8fc724c99f87bbb3c7583",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0f9f098fa14c1c000d0bd035c292315a0bc04f983407599eceed6bf24a1d4231"
+    },
+    {
+      "id": "cace-concept-c9edfb221c21-foto-02",
+      "src": "assets/individuals/llocs/fira/foto-02.webp",
+      "title": {
+        "ca": "FIRA · fotografia 2",
+        "es": "FERIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Fira amb una roda de cabines de colors i una atracció de cadires voladores.",
+        "es": "Feria con una noria de cabinas de colores y una atracción de sillas voladoras."
+      },
+      "tags": [
+        "w-60d30b0567f1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:32.029461Z",
+      "target": "concept-c9edfb221c21",
+      "targetWordIds": [
+        "w-60d30b0567f1"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "b5d4be803ac295c8fcc094cd6990d2c4f0af7928019146dc51f14deb777771d8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0ed299e8fded12328b856e42562bfeda745ebd4e63b1d43de9456d253e1e0731"
+    },
+    {
+      "id": "cace-concept-c9edfb221c21-realista-01",
+      "src": "assets/individuals/llocs/fira/realista-01.webp",
+      "title": {
+        "ca": "FIRA · dibuix realista",
+        "es": "FERIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Fira amb una roda groga de cabines vermelles i un carrusel.",
+        "es": "Feria con una noria amarilla de cabinas rojas y un carrusel."
+      },
+      "tags": [
+        "w-60d30b0567f1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:32.029461Z",
+      "target": "concept-c9edfb221c21",
+      "targetWordIds": [
+        "w-60d30b0567f1"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "397665203514e7cbf6d81fc174f5c7bdea945f1b979d161ee572c666b11ee22f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "461324c81054aa1075fb4818634a0be3494252312ad7cd74df6fa6164d1ced94"
+    },
+    {
+      "id": "cace-concept-c9edfb221c21-pla-01",
+      "src": "assets/individuals/llocs/fira/pla-01.webp",
+      "title": {
+        "ca": "FIRA · il·lustració plana",
+        "es": "FERIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una roda de fira de colors i uns cavallets sota una coberta de ratlles.",
+        "es": "Una noria de colores y unos caballitos bajo una cubierta de rayas."
+      },
+      "tags": [
+        "w-60d30b0567f1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:32.029461Z",
+      "target": "concept-c9edfb221c21",
+      "targetWordIds": [
+        "w-60d30b0567f1"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "171e48c3b4cd8fa98647b7dd1da5e54aa4d3ec70fa3b6cfeeabd86143ab33a73",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "311865835355603993d1fd442f829c6c2ce9656f76f58f74e6f71fa212f7b755"
+    },
+    {
+      "id": "cace-concept-19f431b0ffa9-foto-01",
+      "src": "assets/individuals/activitats/logopedia/foto-01.webp",
+      "title": {
+        "ca": "LOGOPÈDIA · fotografia 1",
+        "es": "LOGOPEDIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "En una sessió de logopèdia, una nena amb un mirall imita la posició dels llavis de la logopeda.",
+        "es": "En una sesión de logopedia, una niña con un espejo imita la posición de los labios de la logopeda."
+      },
+      "tags": [
+        "w-2b4ed0ae831c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:27.863663Z",
+      "target": "concept-19f431b0ffa9",
+      "targetWordIds": [
+        "w-2b4ed0ae831c"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "cdfbe4936046bc455c526521b3f401eb51fdd2910dc34fd34d39d0731fbc4b72",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1d1db453fbffac7975fe0c27e4f981a9f40c22bee03f343f424f4b3b187d6da7"
+    },
+    {
+      "id": "cace-concept-19f431b0ffa9-foto-02",
+      "src": "assets/individuals/activitats/logopedia/foto-02.webp",
+      "title": {
+        "ca": "LOGOPÈDIA · fotografia 2",
+        "es": "LOGOPEDIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un logopeda mostra com arrodonir els llavis i una dona gran ho practica amb un mirall.",
+        "es": "Un logopeda muestra cómo redondear los labios y una mujer mayor lo practica con un espejo."
+      },
+      "tags": [
+        "w-2b4ed0ae831c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:27.863663Z",
+      "target": "concept-19f431b0ffa9",
+      "targetWordIds": [
+        "w-2b4ed0ae831c"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "c9c35691cfc27d15f3a90ee33c690001978bc5fe61df62624805c1854f1fa7a6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f7fff430f0ace513925a4f4b1a6ec34a075318e3b0255bb7ebadb55ba528bed7"
+    },
+    {
+      "id": "cace-concept-19f431b0ffa9-realista-01",
+      "src": "assets/individuals/activitats/logopedia/realista-01.webp",
+      "title": {
+        "ca": "LOGOPÈDIA · dibuix realista",
+        "es": "LOGOPEDIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una logopeda fa servir una làmina amb una pera mentre l’altra persona practica davant del mirall.",
+        "es": "Una logopeda usa una lámina con una pera mientras la otra persona practica delante del espejo."
+      },
+      "tags": [
+        "w-2b4ed0ae831c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:27.863663Z",
+      "target": "concept-19f431b0ffa9",
+      "targetWordIds": [
+        "w-2b4ed0ae831c"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "06fff0d1ac3ad67714e6d43ac518f7a0d59992f9afebfd8e7039a72829977635",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "95aee7feaf2ffaab2d60050e718989c77b21a6ab662c4aa26793c8f02cf456ac"
+    },
+    {
+      "id": "cace-concept-19f431b0ffa9-pla-01",
+      "src": "assets/individuals/activitats/logopedia/pla-01.webp",
+      "title": {
+        "ca": "LOGOPÈDIA · il·lustració plana",
+        "es": "LOGOPEDIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un nen amb un mirall imita la posició de la boca de la logopeda.",
+        "es": "Un niño con un espejo imita la posición de la boca de la logopeda."
+      },
+      "tags": [
+        "w-2b4ed0ae831c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:27.863663Z",
+      "target": "concept-19f431b0ffa9",
+      "targetWordIds": [
+        "w-2b4ed0ae831c"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "8c9adae21182eaf9d123b8fbd31e1e3843ab65bb6befb85ae41df0bf985c3d93",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "00b1fbf3384aa7e2a81faf8a0f0a53f2dee7434e2b3f4af86e5e2181dd3a3773"
+    },
+    {
+      "id": "cace-concept-589a134243f4-foto-01",
+      "src": "assets/individuals/activitats/fisioterapia/foto-01.webp",
+      "title": {
+        "ca": "FISIOTERÀPIA · fotografia 1",
+        "es": "FISIOTERAPIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una fisioterapeuta sosté la cama d’una dona que seu en una llitera.",
+        "es": "Una fisioterapeuta sostiene la pierna de una mujer sentada en una camilla."
+      },
+      "tags": [
+        "w-f4e520ce4c56"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:23.646075Z",
+      "target": "concept-589a134243f4",
+      "targetWordIds": [
+        "w-f4e520ce4c56"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "e1719c17f9e50c64e0b93e5caabf4249e2ffdc73f7506ca267cda90215c91aff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8d3a8a40670fd29064fb6886268009a7642fb752d2334555db765bc08d0ef070"
+    },
+    {
+      "id": "cace-concept-589a134243f4-foto-02",
+      "src": "assets/individuals/activitats/fisioterapia/foto-02.webp",
+      "title": {
+        "ca": "FISIOTERÀPIA · fotografia 2",
+        "es": "FISIOTERAPIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una fisioterapeuta acompanya un home que practica la marxa entre barres paral·leles.",
+        "es": "Una fisioterapeuta acompaña a un hombre que practica la marcha entre barras paralelas."
+      },
+      "tags": [
+        "w-f4e520ce4c56"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:23.646075Z",
+      "target": "concept-589a134243f4",
+      "targetWordIds": [
+        "w-f4e520ce4c56"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "e4ce0e5134e341893e96fccbceef63a06325da7a3fa1ec1a8b96638d49373626",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "77e748e8c764715aaa8fdd23f80b8e18aa6ce9b73efca8019dc47da57e097a09"
+    },
+    {
+      "id": "cace-concept-589a134243f4-realista-01",
+      "src": "assets/individuals/activitats/fisioterapia/realista-01.webp",
+      "title": {
+        "ca": "FISIOTERÀPIA · dibuix realista",
+        "es": "FISIOTERAPIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una fisioterapeuta ajuda una dona a aixecar el braç durant la sessió.",
+        "es": "Una fisioterapeuta ayuda a una mujer a levantar el brazo durante la sesión."
+      },
+      "tags": [
+        "w-f4e520ce4c56"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:23.646075Z",
+      "target": "concept-589a134243f4",
+      "targetWordIds": [
+        "w-f4e520ce4c56"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "7f3ac7ef6cb778a6f1d95320e972e58781d819136b1ac42ddaf72b442655bd3d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a3148beff90d362124ee7edc77dd47b9b2d446710dfdaea9b20ac2d8d7526d93"
+    },
+    {
+      "id": "cace-concept-589a134243f4-pla-01",
+      "src": "assets/individuals/activitats/fisioterapia/pla-01.webp",
+      "title": {
+        "ca": "FISIOTERÀPIA · il·lustració plana",
+        "es": "FISIOTERAPIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un fisioterapeuta guia la flexió del genoll d’una persona asseguda en una llitera.",
+        "es": "Un fisioterapeuta guía la flexión de la rodilla de una persona sentada en una camilla."
+      },
+      "tags": [
+        "w-f4e520ce4c56"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:23.646075Z",
+      "target": "concept-589a134243f4",
+      "targetWordIds": [
+        "w-f4e520ce4c56"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "7b2a5ddf462a7adc6a38b59f1b777831188901ceccad5e76fbfe51d20568abdf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3f1d448a3d5e545869bce6b83e318a4636c33cbf390f424b5aa5d8e48f57f9a7"
+    },
+    {
+      "id": "cace-concept-5fc670f908f2-foto-01",
+      "src": "assets/individuals/objectes/comic/foto-01.webp",
+      "title": {
+        "ca": "CÒMIC · fotografia 1",
+        "es": "CÓMIC · fotografía 1"
+      },
+      "alt": {
+        "ca": "Còmic obert amb vinyetes d’un gat negre que persegueix una pilota.",
+        "es": "Cómic abierto con viñetas de un gato negro que persigue una pelota."
+      },
+      "tags": [
+        "w-30471c345a4c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:14.734820Z",
+      "target": "concept-5fc670f908f2",
+      "targetWordIds": [
+        "w-30471c345a4c"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "dab4fe45486211847e0f828f713220bf914fbd283138f6429b27af028bcd284d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dabb8317876a788dbeb0b7bc4e51b6c2a31a259ddfc0049639b7e06b28152968"
+    },
+    {
+      "id": "cace-concept-5fc670f908f2-foto-02",
+      "src": "assets/individuals/objectes/comic/foto-02.webp",
+      "title": {
+        "ca": "CÒMIC · fotografia 2",
+        "es": "CÓMIC · fotografía 2"
+      },
+      "alt": {
+        "ca": "Còmic obert amb vinyetes d’una nena que fa volar un avió de paper.",
+        "es": "Cómic abierto con viñetas de una niña que hace volar un avión de papel."
+      },
+      "tags": [
+        "w-30471c345a4c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:14.734820Z",
+      "target": "concept-5fc670f908f2",
+      "targetWordIds": [
+        "w-30471c345a4c"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "1e24918e7763a917bf8f64c1b784b1d70f119b2e18edfa713102f2649722ba3a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "68b12e6dca0f294ecd6bb65ce84125f7dc99d67275f36081699d70526b7b2c2d"
+    },
+    {
+      "id": "cace-concept-5fc670f908f2-realista-01",
+      "src": "assets/individuals/objectes/comic/realista-01.webp",
+      "title": {
+        "ca": "CÒMIC · dibuix realista",
+        "es": "CÓMIC · dibujo realista"
+      },
+      "alt": {
+        "ca": "Còmic amb vinyetes d’un gos que va a buscar una pilota vermella.",
+        "es": "Cómic con viñetas de un perro que va a buscar una pelota roja."
+      },
+      "tags": [
+        "w-30471c345a4c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:14.734820Z",
+      "target": "concept-5fc670f908f2",
+      "targetWordIds": [
+        "w-30471c345a4c"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "51376832826f6f3fbd20ff305164d2b1fd842c8f7c2f8082fababce1e6c14bfc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ca1f43d07406093954911ae811a3e500077d00735c068accebd368f9a077dfc6"
+    },
+    {
+      "id": "cace-concept-5fc670f908f2-pla-01",
+      "src": "assets/individuals/objectes/comic/pla-01.webp",
+      "title": {
+        "ca": "CÒMIC · il·lustració plana",
+        "es": "CÓMIC · ilustración plana"
+      },
+      "alt": {
+        "ca": "Còmic obert amb tres vinyetes d’un conill que troba una pastanaga.",
+        "es": "Cómic abierto con tres viñetas de un conejo que encuentra una zanahoria."
+      },
+      "tags": [
+        "w-30471c345a4c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:14.734820Z",
+      "target": "concept-5fc670f908f2",
+      "targetWordIds": [
+        "w-30471c345a4c"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "bd6e365804e932e26c7f6db8bdcf120be39ce65ce43b438c608d36b94918c253",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "90f5905657725026b7b3272bc1f05f2f942e64b02f74a20322a5af55933ac763"
+    },
+    {
+      "id": "cace-concept-52ba5335da91-foto-01",
+      "src": "assets/individuals/objectes/conte/foto-01.webp",
+      "title": {
+        "ca": "CONTE · fotografia 1",
+        "es": "CUENTO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Conte obert amb una guineu que s’acosta a un castell.",
+        "es": "Cuento abierto con un zorro que se acerca a un castillo."
+      },
+      "tags": [
+        "w-22f3876c9741"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:08.811038Z",
+      "target": "concept-52ba5335da91",
+      "targetWordIds": [
+        "w-22f3876c9741"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "fef1c54a22b169d37e70f325772313c6bbe025d5bc28a09184b0f9d8d5f23c8d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c495424079f807c1da5d3e0def6efdea19b9140ba793dbf64097f390e0b8b169"
+    },
+    {
+      "id": "cace-concept-52ba5335da91-foto-02",
+      "src": "assets/individuals/objectes/conte/foto-02.webp",
+      "title": {
+        "ca": "CONTE · fotografia 2",
+        "es": "CUENTO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Conte obert amb un infant i un drac davant d’una caseta.",
+        "es": "Cuento abierto con un niño y un dragón delante de una casita."
+      },
+      "tags": [
+        "w-22f3876c9741"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:08.811038Z",
+      "target": "concept-52ba5335da91",
+      "targetWordIds": [
+        "w-22f3876c9741"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "570969f20837a4339f09b8b2f81413d8b2b220b1963fd15501bb1b2a3a76c654",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5738cfd961a29b19580a37ed5a71ea300a13de731d9b746ab978a78215ea73e5"
+    },
+    {
+      "id": "cace-concept-52ba5335da91-realista-01",
+      "src": "assets/individuals/objectes/conte/realista-01.webp",
+      "title": {
+        "ca": "CONTE · dibuix realista",
+        "es": "CUENTO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Conte il·lustrat amb un conill que entra en una casa del bosc.",
+        "es": "Cuento ilustrado con un conejo que entra en una casa del bosque."
+      },
+      "tags": [
+        "w-22f3876c9741"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:08.811038Z",
+      "target": "concept-52ba5335da91",
+      "targetWordIds": [
+        "w-22f3876c9741"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "c952775478f49f67fdad13284bac2192b267d3e0e8975f9328c8d2cdc8958999",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b02115a1af54006743153bf23504d7272a20e3f843804a48adba94cebe3475c0"
+    },
+    {
+      "id": "cace-concept-52ba5335da91-pla-01",
+      "src": "assets/individuals/objectes/conte/pla-01.webp",
+      "title": {
+        "ca": "CONTE · il·lustració plana",
+        "es": "CUENTO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Conte obert amb un cavaller, un drac i un castell.",
+        "es": "Cuento abierto con un caballero, un dragón y un castillo."
+      },
+      "tags": [
+        "w-22f3876c9741"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T20:42:08.811038Z",
+      "target": "concept-52ba5335da91",
+      "targetWordIds": [
+        "w-22f3876c9741"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "e2ddb0126e6d0fc027d691b5b14aaaa73fd986bb0eac30af9d33faefc5e67947",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "38883666adbba8f401f7124bcf6bcd71aecbd3cae69231b7ee321d4f100f2779"
+    },
     {
       "id": "cace-concept-6307f85ac843-foto-01",
       "src": "assets/individuals/activitats/aniversari-activitats/foto-01.webp",
@@ -72957,7 +73677,19 @@
         "cace-concept-4438d440e90f-foto-01",
         "cace-concept-4438d440e90f-foto-02",
         "cace-concept-6307f85ac843-foto-01",
-        "cace-concept-6307f85ac843-foto-02"
+        "cace-concept-6307f85ac843-foto-02",
+        "cace-concept-52ba5335da91-foto-01",
+        "cace-concept-52ba5335da91-foto-02",
+        "cace-concept-5fc670f908f2-foto-01",
+        "cace-concept-5fc670f908f2-foto-02",
+        "cace-concept-589a134243f4-foto-01",
+        "cace-concept-589a134243f4-foto-02",
+        "cace-concept-19f431b0ffa9-foto-01",
+        "cace-concept-19f431b0ffa9-foto-02",
+        "cace-concept-c9edfb221c21-foto-01",
+        "cace-concept-c9edfb221c21-foto-02",
+        "cace-concept-9ab10c9df925-foto-01",
+        "cace-concept-9ab10c9df925-foto-02"
       ]
     },
     {
@@ -73464,7 +74196,13 @@
         "cace-concept-edec1325c473-realista-01",
         "cace-concept-db41bca9cf8c-realista-01",
         "cace-concept-4438d440e90f-realista-01",
-        "cace-concept-6307f85ac843-realista-01"
+        "cace-concept-6307f85ac843-realista-01",
+        "cace-concept-52ba5335da91-realista-01",
+        "cace-concept-5fc670f908f2-realista-01",
+        "cace-concept-589a134243f4-realista-01",
+        "cace-concept-19f431b0ffa9-realista-01",
+        "cace-concept-c9edfb221c21-realista-01",
+        "cace-concept-9ab10c9df925-realista-01"
       ]
     },
     {
@@ -73971,7 +74709,13 @@
         "cace-concept-edec1325c473-pla-01",
         "cace-concept-db41bca9cf8c-pla-01",
         "cace-concept-4438d440e90f-pla-01",
-        "cace-concept-6307f85ac843-pla-01"
+        "cace-concept-6307f85ac843-pla-01",
+        "cace-concept-52ba5335da91-pla-01",
+        "cace-concept-5fc670f908f2-pla-01",
+        "cace-concept-589a134243f4-pla-01",
+        "cace-concept-19f431b0ffa9-pla-01",
+        "cace-concept-c9edfb221c21-pla-01",
+        "cace-concept-9ab10c9df925-pla-01"
       ]
     }
   ]
