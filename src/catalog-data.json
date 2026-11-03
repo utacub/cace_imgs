@@ -1,5 +1,5 @@
 {
-  "version": "0.1.70",
+  "version": "0.1.71",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,726 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-2d9387d022f6-foto-01",
+      "src": "assets/individuals/persones/familia-persones/foto-01.webp",
+      "title": {
+        "ca": "FAMÍLIA · fotografia 1",
+        "es": "FAMILIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una família amb un pare, una mare i dos infants posa per a un retrat.",
+        "es": "Una familia con un padre, una madre y dos niños posa para un retrato."
+      },
+      "tags": [
+        "w-a3bfa5c6b2df"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:46.243856Z",
+      "target": "concept-2d9387d022f6",
+      "targetWordIds": [
+        "w-a3bfa5c6b2df"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "e8aff5869f8779f6cc83cd51ee8b98d479a5d35c42f75ebf3abb466113158a53",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "51092c41796bd01e6e36d5d0891dcb0a7d7777de7e73caed8b6ce6e1fd1ca3b8"
+    },
+    {
+      "id": "cace-concept-2d9387d022f6-foto-02",
+      "src": "assets/individuals/persones/familia-persones/foto-02.webp",
+      "title": {
+        "ca": "FAMÍLIA · fotografia 2",
+        "es": "FAMILIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una família amb dues mares i dos infants somriu a la càmera.",
+        "es": "Una familia con dos madres y dos niños sonríe a la cámara."
+      },
+      "tags": [
+        "w-a3bfa5c6b2df"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:46.243856Z",
+      "target": "concept-2d9387d022f6",
+      "targetWordIds": [
+        "w-a3bfa5c6b2df"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "4e76e9cf8b72ce2c1dad39473a41f377c641f65b33782297a8d60fe03e363c5f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9af0f29f5b6f239123fdaeeba222652a2f668e652c6ba2cdb210848b8f103b10"
+    },
+    {
+      "id": "cace-concept-2d9387d022f6-realista-01",
+      "src": "assets/individuals/persones/familia-persones/realista-01.webp",
+      "title": {
+        "ca": "FAMÍLIA · dibuix realista",
+        "es": "FAMILIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Tres generacions d’una família reunides amb l’àvia, els pares i l’infant.",
+        "es": "Tres generaciones de una familia reunidas con la abuela, los padres y el niño."
+      },
+      "tags": [
+        "w-a3bfa5c6b2df"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:46.243856Z",
+      "target": "concept-2d9387d022f6",
+      "targetWordIds": [
+        "w-a3bfa5c6b2df"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "d159f0c93309d1de19a19023c500c5a7c2a677d9c251d3be729b59faf406bb25",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1be838d0c95410e33830d2bfb7765fb42534c3c1cf6e4ec8d0fc264eea7603bf"
+    },
+    {
+      "id": "cace-concept-2d9387d022f6-pla-01",
+      "src": "assets/individuals/persones/familia-persones/pla-01.webp",
+      "title": {
+        "ca": "FAMÍLIA · il·lustració plana",
+        "es": "FAMILIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una família de quatre persones, amb el més petit en braços del pare.",
+        "es": "Una familia de cuatro personas, con el más pequeño en brazos del padre."
+      },
+      "tags": [
+        "w-a3bfa5c6b2df"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:46.243856Z",
+      "target": "concept-2d9387d022f6",
+      "targetWordIds": [
+        "w-a3bfa5c6b2df"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "83571d1a66d2a1a211867b962fbfb30dc545c9c5336af892da226b9816b61008",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6410b725bff847a22d20be876d2c7cb843c8abcb37283673c122517c3d3859a0"
+    },
+    {
+      "id": "cace-concept-c774b80759f8-foto-01",
+      "src": "assets/individuals/persones/pare/foto-01.webp",
+      "title": {
+        "ca": "PARE · fotografia 1",
+        "es": "PADRE · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un pare amb camisa blava sosté el seu nadó amb les dues mans.",
+        "es": "Un padre con camisa azul sostiene a su bebé con las dos manos."
+      },
+      "tags": [
+        "w-af29831f7616"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:43.022069Z",
+      "target": "concept-c774b80759f8",
+      "targetWordIds": [
+        "w-af29831f7616"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "aec1601575c5a8a40b6f8e1b318a07c9208c2c1648b7a544fc4b59ea6b5afb04",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f75f3f1e52f4e2e71a16dfd317e1a67fc73399dd44a090c17bbe6d07eda58542"
+    },
+    {
+      "id": "cace-concept-c774b80759f8-foto-02",
+      "src": "assets/individuals/persones/pare/foto-02.webp",
+      "title": {
+        "ca": "PARE · fotografia 2",
+        "es": "PADRE · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un pare amb un polo de color teula somriu al fill que té als braços.",
+        "es": "Un padre con un polo de color teja sonríe al hijo que tiene en brazos."
+      },
+      "tags": [
+        "w-af29831f7616"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:43.022069Z",
+      "target": "concept-c774b80759f8",
+      "targetWordIds": [
+        "w-af29831f7616"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "71ebf103222f1c48329f83a9a25b722bd280f473bc5dc5959760937911d116fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0f57f751ebe13fec899ffacbba24b073f4b3f781843c973aa05311ee2bf393de"
+    },
+    {
+      "id": "cace-concept-c774b80759f8-realista-01",
+      "src": "assets/individuals/persones/pare/realista-01.webp",
+      "title": {
+        "ca": "PARE · dibuix realista",
+        "es": "PADRE · dibujo realista"
+      },
+      "alt": {
+        "ca": "Un pare amb ulleres seu amb el seu fill a la falda.",
+        "es": "Un padre con gafas está sentado con su hijo en el regazo."
+      },
+      "tags": [
+        "w-af29831f7616"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:43.022069Z",
+      "target": "concept-c774b80759f8",
+      "targetWordIds": [
+        "w-af29831f7616"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "a2dfbdb72e66768408e4532580fcbb668b394d579de66846f15f23a6c59a7867",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "112ab29f340770cf71f26afc10251ea6579e9ef50620533e44e741c6c5640e8a"
+    },
+    {
+      "id": "cace-concept-c774b80759f8-pla-01",
+      "src": "assets/individuals/persones/pare/pla-01.webp",
+      "title": {
+        "ca": "PARE · il·lustració plana",
+        "es": "PADRE · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un pare amb camisa vermella agafa el seu nadó vestit de blau.",
+        "es": "Un padre con camisa roja sostiene a su bebé vestido de azul."
+      },
+      "tags": [
+        "w-af29831f7616"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:43.022069Z",
+      "target": "concept-c774b80759f8",
+      "targetWordIds": [
+        "w-af29831f7616"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "e138c834c6f3f14fbf6b808aceef60cc26e36a8fc44acad12ee8c587f6cb3783",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e49c51da74a88d12788bc9dcc09e766610ac4b7da882f4e0596c6c7d4a22c87e"
+    },
+    {
+      "id": "cace-concept-6af4630b0a39-foto-01",
+      "src": "assets/individuals/persones/mare/foto-01.webp",
+      "title": {
+        "ca": "MARE · fotografia 1",
+        "es": "MADRE · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una mare amb una jaqueta groga mira el nadó que té als braços.",
+        "es": "Una madre con chaqueta amarilla mira al bebé que tiene en brazos."
+      },
+      "tags": [
+        "w-5e850a6eabe4"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:39.448289Z",
+      "target": "concept-6af4630b0a39",
+      "targetWordIds": [
+        "w-5e850a6eabe4"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "58964301bb37f210833952316b2866750a11529dcf6c560729a779c9e683ab37",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d917e93b825c3ad2e7c9b2d18e8de207d27b579fd9cf9cd6f0db8f672b8bd6f3"
+    },
+    {
+      "id": "cace-concept-6af4630b0a39-foto-02",
+      "src": "assets/individuals/persones/mare/foto-02.webp",
+      "title": {
+        "ca": "MARE · fotografia 2",
+        "es": "MADRE · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una mare amb brusa verda sosté el seu fill petit al maluc.",
+        "es": "Una madre con blusa verde sostiene a su hijo pequeño en la cadera."
+      },
+      "tags": [
+        "w-5e850a6eabe4"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:39.448289Z",
+      "target": "concept-6af4630b0a39",
+      "targetWordIds": [
+        "w-5e850a6eabe4"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "9c7e9ee8fd97e923b7453e816eaaab6827d12eb57feb30b632d03a0f66de7074",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f5821484a1d39ead8970ff2058e3beb4458b27de4cfbf4c5833d2b97e38335f0"
+    },
+    {
+      "id": "cace-concept-6af4630b0a39-realista-01",
+      "src": "assets/individuals/persones/mare/realista-01.webp",
+      "title": {
+        "ca": "MARE · dibuix realista",
+        "es": "MADRE · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una mare asseguda té l’infant a la falda i tots dos es miren.",
+        "es": "Una madre sentada tiene a su hijo en el regazo y ambos se miran."
+      },
+      "tags": [
+        "w-5e850a6eabe4"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:39.448289Z",
+      "target": "concept-6af4630b0a39",
+      "targetWordIds": [
+        "w-5e850a6eabe4"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "bc72d18930d3f516fb7ea6174a4f9ac5abd47b8605a2429bf5a4a7cdebec1daf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b49224ae1a78f81a5d59693e347a04239154d75710fd210c7d44835117cc1cb7"
+    },
+    {
+      "id": "cace-concept-6af4630b0a39-pla-01",
+      "src": "assets/individuals/persones/mare/pla-01.webp",
+      "title": {
+        "ca": "MARE · il·lustració plana",
+        "es": "MADRE · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una mare amb samarreta verda sosté el seu nadó.",
+        "es": "Una madre con camiseta verde sostiene a su bebé."
+      },
+      "tags": [
+        "w-5e850a6eabe4"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:39.448289Z",
+      "target": "concept-6af4630b0a39",
+      "targetWordIds": [
+        "w-5e850a6eabe4"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "dcfb506e8d23e148d9eca7809042a3c973fd93dd6366246de33633e7dcc3c5ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5ea0010718d4486e7a8f51a30435f4d0c8b74410e0828dff74ad7f4c3bbe59d2"
+    },
+    {
+      "id": "cace-concept-6dbd71b48308-foto-01",
+      "src": "assets/individuals/verbs/vendre/foto-01.webp",
+      "title": {
+        "ca": "VENDRE · fotografia 1",
+        "es": "VENDER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un venedor lliura una bossa de taronges a una clienta a la parada.",
+        "es": "Un vendedor entrega una bolsa de naranjas a una clienta en el puesto."
+      },
+      "tags": [
+        "w-84babcc35ef8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:37.589761Z",
+      "target": "concept-6dbd71b48308",
+      "targetWordIds": [
+        "w-84babcc35ef8"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "ab7f828d2f47595ea18fc41fb649980858e5b8964831a73cc3d80b11cd992902",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d10674c9233683434801df75f864abd9067a9931bcfe197702f4c295818d1e0d"
+    },
+    {
+      "id": "cace-concept-6dbd71b48308-foto-02",
+      "src": "assets/individuals/verbs/vendre/foto-02.webp",
+      "title": {
+        "ca": "VENDRE · fotografia 2",
+        "es": "VENDER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una venedora ven una bossa de pomes a una clienta.",
+        "es": "Una vendedora vende una bolsa de manzanas a una clienta."
+      },
+      "tags": [
+        "w-84babcc35ef8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:37.589761Z",
+      "target": "concept-6dbd71b48308",
+      "targetWordIds": [
+        "w-84babcc35ef8"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "eef111e2041b7e6cf8bf1f101658df3fe4f120759a894bd6e61fbd7662291076",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f9759bf1571e2ed964558c4dc4639181b5ea2569e7fd604eab058837867ec4a1"
+    },
+    {
+      "id": "cace-concept-6dbd71b48308-realista-01",
+      "src": "assets/individuals/verbs/vendre/realista-01.webp",
+      "title": {
+        "ca": "VENDRE · dibuix realista",
+        "es": "VENDER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Un venedor amb davantal blau lliura una bossa de peres a una clienta.",
+        "es": "Un vendedor con delantal azul entrega una bolsa de peras a una clienta."
+      },
+      "tags": [
+        "w-84babcc35ef8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:37.589761Z",
+      "target": "concept-6dbd71b48308",
+      "targetWordIds": [
+        "w-84babcc35ef8"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "7c18c5375db43b448aff724d97d2eccbef2dfec6260f7e1c054ee645ff7df81c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "681688f02289069be01946f57c4ef6564310eb19b7539be99fd0e7650c29fa58"
+    },
+    {
+      "id": "cace-concept-6dbd71b48308-pla-01",
+      "src": "assets/individuals/verbs/vendre/pla-01.webp",
+      "title": {
+        "ca": "VENDRE · il·lustració plana",
+        "es": "VENDER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una venedora ofereix una bossa de préssecs a un client a la parada.",
+        "es": "Una vendedora ofrece una bolsa de melocotones a un cliente en el puesto."
+      },
+      "tags": [
+        "w-84babcc35ef8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:37.589761Z",
+      "target": "concept-6dbd71b48308",
+      "targetWordIds": [
+        "w-84babcc35ef8"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "b166e0413a4204971bcacdc4c5adbb37ecdd0ea16245e34e7d76a9d140126cfe",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "eea14e6eecb0813796c0e4d1729f9b3aed8265e19d955987c15e30b75a857fdb"
+    },
+    {
+      "id": "cace-concept-4d5272bad641-foto-01",
+      "src": "assets/individuals/verbs/pagar/foto-01.webp",
+      "title": {
+        "ca": "PAGAR · fotografia 1",
+        "es": "PAGAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un client paga el pa acostant una targeta blava al datàfon.",
+        "es": "Un cliente paga el pan acercando una tarjeta azul al datáfono."
+      },
+      "tags": [
+        "w-eac4fec3f647"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:35.912757Z",
+      "target": "concept-4d5272bad641",
+      "targetWordIds": [
+        "w-eac4fec3f647"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "48a2060e75823cb02ced00d58f5d4b6ab52554d5f0a25b62053ad76ca0c20589",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0b48f4584485e5f8919162f10dd70638b92562d3acd3836d76b32210b11855e7"
+    },
+    {
+      "id": "cace-concept-4d5272bad641-foto-02",
+      "src": "assets/individuals/verbs/pagar/foto-02.webp",
+      "title": {
+        "ca": "PAGAR · fotografia 2",
+        "es": "PAGAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona paga la compra amb una targeta verda.",
+        "es": "Una mujer paga la compra con una tarjeta verde."
+      },
+      "tags": [
+        "w-eac4fec3f647"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:35.912757Z",
+      "target": "concept-4d5272bad641",
+      "targetWordIds": [
+        "w-eac4fec3f647"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "f6a313afd379ab859209428c744113b71ac7b99d56f45f2c44b985d8093dbda0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7fbd63b46338320107ca2d43cb527aad35bf86ea73a4ef70b96cb3b585706177"
+    },
+    {
+      "id": "cace-concept-4d5272bad641-realista-01",
+      "src": "assets/individuals/verbs/pagar/realista-01.webp",
+      "title": {
+        "ca": "PAGAR · dibuix realista",
+        "es": "PAGAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una clienta paga amb una targeta taronja que acosta al datàfon.",
+        "es": "Una clienta paga con una tarjeta naranja que acerca al datáfono."
+      },
+      "tags": [
+        "w-eac4fec3f647"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:35.912757Z",
+      "target": "concept-4d5272bad641",
+      "targetWordIds": [
+        "w-eac4fec3f647"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "c1ced5e50140b84a87d6f74daa0cd1154af32d9ad393fb6d13df9f1ad8fa2c8e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d9d853c2fda9c3be8affe5b92dfc5ebd5a7423a7fab244bc4705583abaf4542e"
+    },
+    {
+      "id": "cace-concept-4d5272bad641-pla-01",
+      "src": "assets/individuals/verbs/pagar/pla-01.webp",
+      "title": {
+        "ca": "PAGAR · il·lustració plana",
+        "es": "PAGAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un client paga amb una targeta blava al taulell d’una botiga.",
+        "es": "Un cliente paga con una tarjeta azul en el mostrador de una tienda."
+      },
+      "tags": [
+        "w-eac4fec3f647"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:35.912757Z",
+      "target": "concept-4d5272bad641",
+      "targetWordIds": [
+        "w-eac4fec3f647"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "5726cbd0e4dade01f69479bbd2a327114a798e0ef1603ae572c64288281b20e5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "114a6c1c2f784b9bc007994c879390e7107d09413d907c67f6b192c635e71bc6"
+    },
+    {
+      "id": "cace-concept-6e5c466fcc10-foto-01",
+      "src": "assets/individuals/verbs/comprar/foto-01.webp",
+      "title": {
+        "ca": "COMPRAR · fotografia 1",
+        "es": "COMPRAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una clienta amb un cistell tria una poma en una parada de fruita.",
+        "es": "Una clienta con una cesta elige una manzana en un puesto de fruta."
+      },
+      "tags": [
+        "w-57b3143c692c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:34.206312Z",
+      "target": "concept-6e5c466fcc10",
+      "targetWordIds": [
+        "w-57b3143c692c"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "25a3ba918111c875c8936bbb8650ad120212848a0c212f02ca19bd5a98b7006b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "03014e8e18f9b9f0c76b3971473a7754e027345f99e74b9d95709a1cf68387eb"
+    },
+    {
+      "id": "cace-concept-6e5c466fcc10-foto-02",
+      "src": "assets/individuals/verbs/comprar/foto-02.webp",
+      "title": {
+        "ca": "COMPRAR · fotografia 2",
+        "es": "COMPRAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home posa un pebrot vermell al carretó de la compra.",
+        "es": "Un hombre pone un pimiento rojo en el carrito de la compra."
+      },
+      "tags": [
+        "w-57b3143c692c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:34.206312Z",
+      "target": "concept-6e5c466fcc10",
+      "targetWordIds": [
+        "w-57b3143c692c"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "6767ec768a796555e9e71eb690571ed2b8d27d7f2d348693386d0cdbb65f69f6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d014df02aacb1be4a9809f4c37fea7de1b9e735a942aba6403d7428b6571d880"
+    },
+    {
+      "id": "cace-concept-6e5c466fcc10-realista-01",
+      "src": "assets/individuals/verbs/comprar/realista-01.webp",
+      "title": {
+        "ca": "COMPRAR · dibuix realista",
+        "es": "COMPRAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una dona posa una taronja a la cistella de la compra.",
+        "es": "Una mujer pone una naranja en la cesta de la compra."
+      },
+      "tags": [
+        "w-57b3143c692c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:34.206312Z",
+      "target": "concept-6e5c466fcc10",
+      "targetWordIds": [
+        "w-57b3143c692c"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "97857895b8620a41255c719e6c7376711d26068829ea8f97eb7a9542821a0b1b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7e47a8df1436d77cab0bafefa0c3b354d2afc3389ab696a48cc9c9e0617318cd"
+    },
+    {
+      "id": "cace-concept-6e5c466fcc10-pla-01",
+      "src": "assets/individuals/verbs/comprar/pla-01.webp",
+      "title": {
+        "ca": "COMPRAR · il·lustració plana",
+        "es": "COMPRAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una clienta amb una cistella tria una pera a la fruiteria.",
+        "es": "Una clienta con una cesta elige una pera en la frutería."
+      },
+      "tags": [
+        "w-57b3143c692c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:24:34.206312Z",
+      "target": "concept-6e5c466fcc10",
+      "targetWordIds": [
+        "w-57b3143c692c"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "f840a63c67f105c20feb25e2308dc9450c38b2a5a402f4895ce96c7fbe157822",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3d3c85e382de81dd30b567bd54213199c00f8bdcce817f8db3f39981a4762f68"
+    },
     {
       "id": "cace-concept-cf3b6d8ddaeb-foto-01",
       "src": "assets/individuals/transports/metro/foto-01.webp",
@@ -74787,7 +75507,19 @@
         "cace-concept-1c060eb4f23b-foto-01",
         "cace-concept-1c060eb4f23b-foto-02",
         "cace-concept-cf3b6d8ddaeb-foto-01",
-        "cace-concept-cf3b6d8ddaeb-foto-02"
+        "cace-concept-cf3b6d8ddaeb-foto-02",
+        "cace-concept-6e5c466fcc10-foto-01",
+        "cace-concept-6e5c466fcc10-foto-02",
+        "cace-concept-4d5272bad641-foto-01",
+        "cace-concept-4d5272bad641-foto-02",
+        "cace-concept-6dbd71b48308-foto-01",
+        "cace-concept-6dbd71b48308-foto-02",
+        "cace-concept-6af4630b0a39-foto-01",
+        "cace-concept-6af4630b0a39-foto-02",
+        "cace-concept-c774b80759f8-foto-01",
+        "cace-concept-c774b80759f8-foto-02",
+        "cace-concept-2d9387d022f6-foto-01",
+        "cace-concept-2d9387d022f6-foto-02"
       ]
     },
     {
@@ -75309,7 +76041,13 @@
         "cace-concept-80adc3329817-realista-01",
         "cace-concept-14707b3d019e-realista-01",
         "cace-concept-1c060eb4f23b-realista-01",
-        "cace-concept-cf3b6d8ddaeb-realista-01"
+        "cace-concept-cf3b6d8ddaeb-realista-01",
+        "cace-concept-6e5c466fcc10-realista-01",
+        "cace-concept-4d5272bad641-realista-01",
+        "cace-concept-6dbd71b48308-realista-01",
+        "cace-concept-6af4630b0a39-realista-01",
+        "cace-concept-c774b80759f8-realista-01",
+        "cace-concept-2d9387d022f6-realista-01"
       ]
     },
     {
@@ -75831,7 +76569,13 @@
         "cace-concept-80adc3329817-pla-01",
         "cace-concept-14707b3d019e-pla-01",
         "cace-concept-1c060eb4f23b-pla-01",
-        "cace-concept-cf3b6d8ddaeb-pla-01"
+        "cace-concept-cf3b6d8ddaeb-pla-01",
+        "cace-concept-6e5c466fcc10-pla-01",
+        "cace-concept-4d5272bad641-pla-01",
+        "cace-concept-6dbd71b48308-pla-01",
+        "cace-concept-6af4630b0a39-pla-01",
+        "cace-concept-c774b80759f8-pla-01",
+        "cace-concept-2d9387d022f6-pla-01"
       ]
     }
   ]
