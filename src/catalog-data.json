@@ -1,5 +1,5 @@
 {
-  "version": "0.1.69",
+  "version": "0.1.70",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,486 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-cf3b6d8ddaeb-foto-01",
+      "src": "assets/individuals/transports/metro/foto-01.webp",
+      "title": {
+        "ca": "METRO · fotografia 1",
+        "es": "METRO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Metro platejat amb franja vermella a l’andana d’una estació subterrània.",
+        "es": "Metro plateado con franja roja en el andén de una estación subterránea."
+      },
+      "tags": [
+        "w-72cfa2208848"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:31.684532Z",
+      "target": "concept-cf3b6d8ddaeb",
+      "targetWordIds": [
+        "w-72cfa2208848"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "3381b40cfc2b4739ca4c11f416e5dd0eba2e9ee9a7dcec0042751fd8ea59c273",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b40307daf4a59b7ec636d824e341eaaa1398a33fc8b26316b33d4dc8f1c9b669"
+    },
+    {
+      "id": "cace-concept-cf3b6d8ddaeb-foto-02",
+      "src": "assets/individuals/transports/metro/foto-02.webp",
+      "title": {
+        "ca": "METRO · fotografia 2",
+        "es": "METRO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Metro blanc i blau aturat a l’andana amb una porta oberta.",
+        "es": "Metro blanco y azul parado en el andén con una puerta abierta."
+      },
+      "tags": [
+        "w-72cfa2208848"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:31.684532Z",
+      "target": "concept-cf3b6d8ddaeb",
+      "targetWordIds": [
+        "w-72cfa2208848"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "3ae5ae279fb9e76bd4083a2b18ceef5de7167a9ddced7c316158c1672f18159d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b3b2fe776db28fc62e5139e25c0bc896f5fabe12ea9aeb74767a596bdd31e61c"
+    },
+    {
+      "id": "cace-concept-cf3b6d8ddaeb-realista-01",
+      "src": "assets/individuals/transports/metro/realista-01.webp",
+      "title": {
+        "ca": "METRO · dibuix realista",
+        "es": "METRO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Vagó de metro de color crema i verd al costat d’una andana subterrània.",
+        "es": "Vagón de metro de color crema y verde junto a un andén subterráneo."
+      },
+      "tags": [
+        "w-72cfa2208848"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:31.684532Z",
+      "target": "concept-cf3b6d8ddaeb",
+      "targetWordIds": [
+        "w-72cfa2208848"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "d84fd062f2b64007bc156b01b67bd02628f95d3f8f2c399c7fe4e9876d388b60",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b93f0e8bab763a2e0be14bcc766c0d173d077caf4df5d5db99eee0ce5c91b08b"
+    },
+    {
+      "id": "cace-concept-cf3b6d8ddaeb-pla-01",
+      "src": "assets/individuals/transports/metro/pla-01.webp",
+      "title": {
+        "ca": "METRO · il·lustració plana",
+        "es": "METRO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Metro vermell i gris al costat d’una andana, sota la volta d’un túnel.",
+        "es": "Metro rojo y gris junto a un andén, bajo la bóveda de un túnel."
+      },
+      "tags": [
+        "w-72cfa2208848"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:31.684532Z",
+      "target": "concept-cf3b6d8ddaeb",
+      "targetWordIds": [
+        "w-72cfa2208848"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "a7f7b15e8c6b2059dd3e7e3390ffff38d58dce508a1374b772f25de1f5c30027",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3e1f5b8654b3961521e17aae4ac3382d47ae95fdf6c6b1b00ed8f54916325dd9"
+    },
+    {
+      "id": "cace-concept-1c060eb4f23b-foto-01",
+      "src": "assets/individuals/transports/taxi/foto-01.webp",
+      "title": {
+        "ca": "TAXI · fotografia 1",
+        "es": "TAXI · fotografía 1"
+      },
+      "alt": {
+        "ca": "Taxi negre amb portes grogues i un llum al sostre, vist de costat.",
+        "es": "Taxi negro con puertas amarillas y una luz en el techo, visto de lado."
+      },
+      "tags": [
+        "w-e2b0443a42a7"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:26.362075Z",
+      "target": "concept-1c060eb4f23b",
+      "targetWordIds": [
+        "w-e2b0443a42a7"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "9921f4ae07f26c3d5f6e8eab11a9d858a184d7c2d2aac1c737928a3267c8e3d3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "be790fb54cc72789348d073fc2cdb5f10463b16ccee746c36afa72714ccbbb10"
+    },
+    {
+      "id": "cace-concept-1c060eb4f23b-foto-02",
+      "src": "assets/individuals/transports/taxi/foto-02.webp",
+      "title": {
+        "ca": "TAXI · fotografia 2",
+        "es": "TAXI · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una viatgera amb maleta espera al costat de la porta oberta d’un taxi groc.",
+        "es": "Una viajera con maleta espera junto a la puerta abierta de un taxi amarillo."
+      },
+      "tags": [
+        "w-e2b0443a42a7"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:26.362075Z",
+      "target": "concept-1c060eb4f23b",
+      "targetWordIds": [
+        "w-e2b0443a42a7"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "daf1fef1146f02b5c26d739c23fdfe6e6789934bc714be2a26ae3bfea828e68c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "18f35cd3478b7c303d06e02181318a7f44fe975f46d54db9212cd6d2684cd807"
+    },
+    {
+      "id": "cace-concept-1c060eb4f23b-realista-01",
+      "src": "assets/individuals/transports/taxi/realista-01.webp",
+      "title": {
+        "ca": "TAXI · dibuix realista",
+        "es": "TAXI · dibujo realista"
+      },
+      "alt": {
+        "ca": "Un viatger amb maleta alça la mà per aturar un taxi negre i groc.",
+        "es": "Un viajero con maleta levanta la mano para parar un taxi negro y amarillo."
+      },
+      "tags": [
+        "w-e2b0443a42a7"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:26.362075Z",
+      "target": "concept-1c060eb4f23b",
+      "targetWordIds": [
+        "w-e2b0443a42a7"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "4a8960a8cb21f2ff99f2f61ebb46a4c716ca38792d550a7edb908bd980c34d12",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9842a3598bc57b4ddb3f0591646ea57f1dc9e9c4dd3276a738a523cea526aba9"
+    },
+    {
+      "id": "cace-concept-1c060eb4f23b-pla-01",
+      "src": "assets/individuals/transports/taxi/pla-01.webp",
+      "title": {
+        "ca": "TAXI · il·lustració plana",
+        "es": "TAXI · ilustración plana"
+      },
+      "alt": {
+        "ca": "Taxi groc amb un llum al sostre, vist de costat.",
+        "es": "Taxi amarillo con una luz en el techo, visto de lado."
+      },
+      "tags": [
+        "w-e2b0443a42a7"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:26.362075Z",
+      "target": "concept-1c060eb4f23b",
+      "targetWordIds": [
+        "w-e2b0443a42a7"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "c1c78cfff4a18fa6d418b7de9af80aa7fcbc4ecdca2f171759dd41d02d3067a7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bc911658b6b2fa7e6f6871a1e4679489e5ea417a7c464e0d83318526c325dc4c"
+    },
+    {
+      "id": "cace-concept-14707b3d019e-foto-01",
+      "src": "assets/individuals/llocs/farmacia/foto-01.webp",
+      "title": {
+        "ca": "FARMÀCIA · fotografia 1",
+        "es": "FARMACIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "En una farmàcia, una farmacèutica lliura un blíster a un client gran.",
+        "es": "En una farmacia, una farmacéutica entrega un blíster a un cliente mayor."
+      },
+      "tags": [
+        "w-818ffc8c7d62"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:21.811232Z",
+      "target": "concept-14707b3d019e",
+      "targetWordIds": [
+        "w-818ffc8c7d62"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "6e7de2fe74aab54f54dfbfe1160f4fc459c8890680ed04ceee8c12fff2506cc5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d38bac1767a5e49c9b32a464294c0dabedea00db441f4f8952198ee1f7c1abf2"
+    },
+    {
+      "id": "cace-concept-14707b3d019e-foto-02",
+      "src": "assets/individuals/llocs/farmacia/foto-02.webp",
+      "title": {
+        "ca": "FARMÀCIA · fotografia 2",
+        "es": "FARMACIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un farmacèutic lliura una capsa de medicaments a una clienta al taulell de la farmàcia.",
+        "es": "Un farmacéutico entrega una caja de medicamentos a una clienta en el mostrador de la farmacia."
+      },
+      "tags": [
+        "w-818ffc8c7d62"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:21.811232Z",
+      "target": "concept-14707b3d019e",
+      "targetWordIds": [
+        "w-818ffc8c7d62"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "791e4156b5220b71b543df891dd1102eaf60fd39677b6904db3e5c6453c7ab9d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3cc9d08fc7f9c18fc91081cf876dd6b8eb6aa30480f0e40d7ab254f2296ce719"
+    },
+    {
+      "id": "cace-concept-14707b3d019e-realista-01",
+      "src": "assets/individuals/llocs/farmacia/realista-01.webp",
+      "title": {
+        "ca": "FARMÀCIA · dibuix realista",
+        "es": "FARMACIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una farmacèutica dispensa un blíster des d’un taulell de fusta.",
+        "es": "Una farmacéutica dispensa un blíster desde un mostrador de madera."
+      },
+      "tags": [
+        "w-818ffc8c7d62"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:21.811232Z",
+      "target": "concept-14707b3d019e",
+      "targetWordIds": [
+        "w-818ffc8c7d62"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "a1ab04a3c74d26d7fde2c0b7b263ef0b3b6d4410e0321fe8ecc4eff017445d92",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "95d25a7b4ba68e7c74b5126360631f11e5e233201772dfc053ebe72c4029219f"
+    },
+    {
+      "id": "cace-concept-14707b3d019e-pla-01",
+      "src": "assets/individuals/llocs/farmacia/pla-01.webp",
+      "title": {
+        "ca": "FARMÀCIA · il·lustració plana",
+        "es": "FARMACIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una farmacèutica lliura un blíster a un client des d’un taulell verd.",
+        "es": "Una farmacéutica entrega un blíster a un cliente desde un mostrador verde."
+      },
+      "tags": [
+        "w-818ffc8c7d62"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:21.811232Z",
+      "target": "concept-14707b3d019e",
+      "targetWordIds": [
+        "w-818ffc8c7d62"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "6f136e8c088a2744dd6cd7324ca857e08373f986ae18cdc6d3e6dde48bc2422d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9edf05f372086e60f7ad70e5774f1b0d2c80b6f4acb990fc849acd4d68765e24"
+    },
+    {
+      "id": "cace-concept-80adc3329817-foto-01",
+      "src": "assets/individuals/llocs/hospital/foto-01.webp",
+      "title": {
+        "ca": "HOSPITAL · fotografia 1",
+        "es": "HOSPITAL · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una infermera atén un pacient en un llit d’hospital al costat d’un suport de sèrum.",
+        "es": "Una enfermera atiende a un paciente en una cama de hospital junto a un soporte de suero."
+      },
+      "tags": [
+        "w-f4c6c15f62e8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:17.162869Z",
+      "target": "concept-80adc3329817",
+      "targetWordIds": [
+        "w-f4c6c15f62e8"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "902d02fd1c6eba891a30e399b28d1c33222ac56df49daa4d889988c153f13486",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "69363321255e1291d42623ebcfd0b23821db326ea66b292579217f222c624727"
+    },
+    {
+      "id": "cace-concept-80adc3329817-foto-02",
+      "src": "assets/individuals/llocs/hospital/foto-02.webp",
+      "title": {
+        "ca": "HOSPITAL · fotografia 2",
+        "es": "HOSPITAL · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una infermera visita una dona gran en una habitació d’hospital amb una cortina verda.",
+        "es": "Una enfermera visita a una mujer mayor en una habitación de hospital con una cortina verde."
+      },
+      "tags": [
+        "w-f4c6c15f62e8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:17.162869Z",
+      "target": "concept-80adc3329817",
+      "targetWordIds": [
+        "w-f4c6c15f62e8"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "11086aa4d3a841fa15765ec54d3d94dc3632cb8ec5cab304c55d05d8215264c4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ebae5e358033eb946ed37d2176b55b195075d805295ca5fc49f41c61f88ea737"
+    },
+    {
+      "id": "cace-concept-80adc3329817-realista-01",
+      "src": "assets/individuals/llocs/hospital/realista-01.webp",
+      "title": {
+        "ca": "HOSPITAL · dibuix realista",
+        "es": "HOSPITAL · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una infermera amb uniforme porpra acompanya una pacient al llit d’hospital.",
+        "es": "Una enfermera con uniforme morado acompaña a una paciente en la cama del hospital."
+      },
+      "tags": [
+        "w-f4c6c15f62e8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:17.162869Z",
+      "target": "concept-80adc3329817",
+      "targetWordIds": [
+        "w-f4c6c15f62e8"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "b91e17d4f31d4f63ab5fbe45570f5ff1ebcae2b95a9420451f6b3bc8fe4572d9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3d00ba678c0b4a01d7c236b1e0d691f34bced9fa1915a4556642d7a78c372533"
+    },
+    {
+      "id": "cace-concept-80adc3329817-pla-01",
+      "src": "assets/individuals/llocs/hospital/pla-01.webp",
+      "title": {
+        "ca": "HOSPITAL · il·lustració plana",
+        "es": "HOSPITAL · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una infermera atén un pacient en un llit d’hospital amb baranes i rodes.",
+        "es": "Una enfermera atiende a un paciente en una cama de hospital con barandillas y ruedas."
+      },
+      "tags": [
+        "w-f4c6c15f62e8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-03T21:16:17.162869Z",
+      "target": "concept-80adc3329817",
+      "targetWordIds": [
+        "w-f4c6c15f62e8"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "06343dd65dd298622d52d6a2422678eba07904d40806ff92f4c54caf88b49c75",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b2c3bc76c3f203e2f89dcf8389a0918d924f2f736b8a14ef911585885ac4743a"
+    },
     {
       "id": "cace-concept-49d515a0bd1b-foto-01",
       "src": "assets/individuals/cos/termometre/foto-01.webp",
@@ -74299,7 +74779,15 @@
         "cace-concept-c7e545ca08d0-foto-01",
         "cace-concept-c7e545ca08d0-foto-02",
         "cace-concept-49d515a0bd1b-foto-01",
-        "cace-concept-49d515a0bd1b-foto-02"
+        "cace-concept-49d515a0bd1b-foto-02",
+        "cace-concept-80adc3329817-foto-01",
+        "cace-concept-80adc3329817-foto-02",
+        "cace-concept-14707b3d019e-foto-01",
+        "cace-concept-14707b3d019e-foto-02",
+        "cace-concept-1c060eb4f23b-foto-01",
+        "cace-concept-1c060eb4f23b-foto-02",
+        "cace-concept-cf3b6d8ddaeb-foto-01",
+        "cace-concept-cf3b6d8ddaeb-foto-02"
       ]
     },
     {
@@ -74817,7 +75305,11 @@
         "cace-concept-ed7bc3dfa6d3-realista-01",
         "cace-concept-e6f81d4ca031-realista-01",
         "cace-concept-c7e545ca08d0-realista-01",
-        "cace-concept-49d515a0bd1b-realista-01"
+        "cace-concept-49d515a0bd1b-realista-01",
+        "cace-concept-80adc3329817-realista-01",
+        "cace-concept-14707b3d019e-realista-01",
+        "cace-concept-1c060eb4f23b-realista-01",
+        "cace-concept-cf3b6d8ddaeb-realista-01"
       ]
     },
     {
@@ -75335,7 +75827,11 @@
         "cace-concept-ed7bc3dfa6d3-pla-01",
         "cace-concept-e6f81d4ca031-pla-01",
         "cace-concept-c7e545ca08d0-pla-01",
-        "cace-concept-49d515a0bd1b-pla-01"
+        "cace-concept-49d515a0bd1b-pla-01",
+        "cace-concept-80adc3329817-pla-01",
+        "cace-concept-14707b3d019e-pla-01",
+        "cace-concept-1c060eb4f23b-pla-01",
+        "cace-concept-cf3b6d8ddaeb-pla-01"
       ]
     }
   ]
