@@ -4,16 +4,16 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.81 conté **2376 estímuls generats i revisats visualment per a 594 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.82 conté **2408 estímuls generats i revisats visualment per a 602 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
-L'últim lot conté CUL, REGLA, ESPLAI, MEDI, COMISSARIA, INTERNET, NOSALTRES i VOSALTRES (32 imatges). `production/` conserva els briefs i una cua de 88 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+L'últim lot conté ELLS, FITXA, MÉS, MENYS, LOTERIA, MOLESTAR, DIA i NIT (32 imatges). `production/` conserva els briefs i una cua de 80 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 2384 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 2416 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
