@@ -1,5 +1,5 @@
 {
-  "version": "0.1.82",
+  "version": "0.1.83",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-9942c07faef7-foto-01",
+      "src": "assets/individuals/verbs/perdre/foto-01.webp",
+      "title": {
+        "ca": "PERDRE · fotografia 1",
+        "es": "PERDER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona busca la cartera perduda i mostra les butxaques buides; la cartera és sota una cadira.",
+        "es": "Una mujer busca la cartera perdida y muestra los bolsillos vacíos; la cartera está bajo una silla."
+      },
+      "tags": [
+        "w-73213e7c0be1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:50.568488Z",
+      "target": "concept-9942c07faef7",
+      "targetWordIds": [
+        "w-73213e7c0be1"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b162e8b50fb5aaf159f19895fd535abfd1398a43556ebdf55f1435d77d598417",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f016c9f2b5ab39facec6242d6b55b92cd6e7bb59acc0bd12ee11de1ac5692ff6"
+    },
+    {
+      "id": "cace-concept-9942c07faef7-foto-02",
+      "src": "assets/individuals/verbs/perdre/foto-02.webp",
+      "title": {
+        "ca": "PERDRE · fotografia 2",
+        "es": "PERDER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home busca unes claus perdudes sota una taula.",
+        "es": "Un hombre busca unas llaves perdidas bajo una mesa."
+      },
+      "tags": [
+        "w-73213e7c0be1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:50.568488Z",
+      "target": "concept-9942c07faef7",
+      "targetWordIds": [
+        "w-73213e7c0be1"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "804362ecd3113360530554509a9414cbf310ddde27868ae69d52a0448518184c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d5bc20a4c42ed0fd27cecbfad72ce516099e9f342e80a30a048ec4cfeebdde42"
+    },
+    {
+      "id": "cace-concept-9942c07faef7-realista-01",
+      "src": "assets/individuals/verbs/perdre/realista-01.webp",
+      "title": {
+        "ca": "PERDRE · dibuix realista",
+        "es": "PERDER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que busca la cartera perduda sota una cadira.",
+        "es": "Dibujo a lápiz de una mujer que busca la cartera perdida bajo una silla."
+      },
+      "tags": [
+        "w-73213e7c0be1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:50.568488Z",
+      "target": "concept-9942c07faef7",
+      "targetWordIds": [
+        "w-73213e7c0be1"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "d18e4b50ae1e04acd0520a8b6e29018ad2e680a464ce99f4a93afdab79a5ef33",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ae164d83a7736d74a2c95aaa98deb8240ca3411ee05c55953698fb8bdebb3ce2"
+    },
+    {
+      "id": "cace-concept-9942c07faef7-pla-01",
+      "src": "assets/individuals/verbs/perdre/pla-01.webp",
+      "title": {
+        "ca": "PERDRE · il·lustració plana",
+        "es": "PERDER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home mostra les butxaques buides mentre la cartera perduda és sota una cadira.",
+        "es": "Un hombre muestra los bolsillos vacíos mientras la cartera perdida está bajo una silla."
+      },
+      "tags": [
+        "w-73213e7c0be1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:50.568488Z",
+      "target": "concept-9942c07faef7",
+      "targetWordIds": [
+        "w-73213e7c0be1"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "3bb0b77424ab8da1b76d76cebd3b64f024ca2a1b2f7ca0206ccd1ac8c2a9c15b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "55041e5c257cba69a61d51f1e51f178a9f079f572e36f47b3ed68394331657c4"
+    },
+    {
+      "id": "cace-concept-c7fa7f9fe4a0-foto-01",
+      "src": "assets/individuals/verbs/necessitar/foto-01.webp",
+      "title": {
+        "ca": "NECESSITAR · fotografia 1",
+        "es": "NECESITAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona necessita un llapis nou perquè el que té a la mà està trencat.",
+        "es": "Una mujer necesita un lápiz nuevo porque el que tiene en la mano está roto."
+      },
+      "tags": [
+        "w-dcdcadbd9b00"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:45.475556Z",
+      "target": "concept-c7fa7f9fe4a0",
+      "targetWordIds": [
+        "w-dcdcadbd9b00"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "69f7734311e25e6a8604d8687d633ee2fa6b8abf38b8921678b175117d079a40",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a73b375998f2933ed481ba4c929ca14344611e7139084455e0fe40da0ca143d3"
+    },
+    {
+      "id": "cace-concept-c7fa7f9fe4a0-foto-02",
+      "src": "assets/individuals/verbs/necessitar/foto-02.webp",
+      "title": {
+        "ca": "NECESSITAR · fotografia 2",
+        "es": "NECESITAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home necessita pintura blava per pintar una caseta de fusta.",
+        "es": "Un hombre necesita pintura azul para pintar una casita de madera."
+      },
+      "tags": [
+        "w-dcdcadbd9b00"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:45.475556Z",
+      "target": "concept-c7fa7f9fe4a0",
+      "targetWordIds": [
+        "w-dcdcadbd9b00"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "d2017c6637d4457f54817a931e2816f36547865a75be904bb487ce258e99c35d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "83584c12ad0f7eff32d549af4991186ee1e77bbf5132291e14e967fa62472a56"
+    },
+    {
+      "id": "cace-concept-c7fa7f9fe4a0-realista-01",
+      "src": "assets/individuals/verbs/necessitar/realista-01.webp",
+      "title": {
+        "ca": "NECESSITAR · dibuix realista",
+        "es": "NECESITAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que necessita substituir un llapis trencat.",
+        "es": "Dibujo a lápiz de una mujer que necesita sustituir un lápiz roto."
+      },
+      "tags": [
+        "w-dcdcadbd9b00"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:45.475556Z",
+      "target": "concept-c7fa7f9fe4a0",
+      "targetWordIds": [
+        "w-dcdcadbd9b00"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "0f087c333abcce26a9ebf50b1746e9c4c6a7c988e539f8254b1b36765622b417",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d4e57e008935435c2e101bbe48c50549c3f71de9503d33cffd261710bc66235f"
+    },
+    {
+      "id": "cace-concept-c7fa7f9fe4a0-pla-01",
+      "src": "assets/individuals/verbs/necessitar/pla-01.webp",
+      "title": {
+        "ca": "NECESSITAR · il·lustració plana",
+        "es": "NECESITAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona amb un llapis trencat demana un altre llapis per continuar dibuixant.",
+        "es": "Una mujer con un lápiz roto pide otro lápiz para seguir dibujando."
+      },
+      "tags": [
+        "w-dcdcadbd9b00"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:45.475556Z",
+      "target": "concept-c7fa7f9fe4a0",
+      "targetWordIds": [
+        "w-dcdcadbd9b00"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "75138164bbbb3423af679cddc12c1938e8a4251677bc4b032c5dcaa640c5c0cb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ecf1c1fdf64a4ed03760886870eb020c4a7317258b0544c16a892ca8aefd0add"
+    },
+    {
+      "id": "cace-concept-7eb11676fe80-foto-01",
+      "src": "assets/individuals/verbs/barallar-se/foto-01.webp",
+      "title": {
+        "ca": "BARALLAR-SE · fotografia 1",
+        "es": "PELEARSE · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dos homes es barallen verbalment i s’assenyalen l’un a l’altre.",
+        "es": "Dos hombres se pelean verbalmente y se señalan el uno al otro."
+      },
+      "tags": [
+        "w-ded03ab378e0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:38.477095Z",
+      "target": "concept-7eb11676fe80",
+      "targetWordIds": [
+        "w-ded03ab378e0"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "208c13ce7a8a7a49cee61d3ede65227468cd9b6194257ec2dc2a081baaa7bca8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6a1370917e424439ab7f819a394b2c2dfa23d68d3aa8f353071175087a1100bd"
+    },
+    {
+      "id": "cace-concept-7eb11676fe80-foto-02",
+      "src": "assets/individuals/verbs/barallar-se/foto-02.webp",
+      "title": {
+        "ca": "BARALLAR-SE · fotografia 2",
+        "es": "PELEARSE · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dues dones es barallen verbalment amb gestos d’enuig.",
+        "es": "Dos mujeres se pelean verbalmente con gestos de enfado."
+      },
+      "tags": [
+        "w-ded03ab378e0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:38.477095Z",
+      "target": "concept-7eb11676fe80",
+      "targetWordIds": [
+        "w-ded03ab378e0"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "0c23a2179d37784a946128c01ceea6d3ae462153019d3dde4381afc569a53c18",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0afc463b41622f819211a365268fda802b77b1ef874a983084a9133f11e99ba1"
+    },
+    {
+      "id": "cace-concept-7eb11676fe80-realista-01",
+      "src": "assets/individuals/verbs/barallar-se/realista-01.webp",
+      "title": {
+        "ca": "BARALLAR-SE · dibuix realista",
+        "es": "PELEARSE · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de dos homes que es barallen verbalment.",
+        "es": "Dibujo a lápiz de dos hombres que se pelean verbalmente."
+      },
+      "tags": [
+        "w-ded03ab378e0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:38.477095Z",
+      "target": "concept-7eb11676fe80",
+      "targetWordIds": [
+        "w-ded03ab378e0"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "51bca682391f5cd9408c7878dc8fe24829503d108f3c3386fc19914eca720dd4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5c8614d7d3934ccc9850e5b360009c421849ec17f6f51e13bab4a80443467e29"
+    },
+    {
+      "id": "cace-concept-7eb11676fe80-pla-01",
+      "src": "assets/individuals/verbs/barallar-se/pla-01.webp",
+      "title": {
+        "ca": "BARALLAR-SE · il·lustració plana",
+        "es": "PELEARSE · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dues persones es barallen verbalment i s’assenyalen mútuament.",
+        "es": "Dos personas se pelean verbalmente y se señalan mutuamente."
+      },
+      "tags": [
+        "w-ded03ab378e0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:38.477095Z",
+      "target": "concept-7eb11676fe80",
+      "targetWordIds": [
+        "w-ded03ab378e0"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "7cd9c2024abecdd8544cabc845fc1140b46367d4987df93c6d0527198a00d5c5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f29d662f887408416bd10e717ee5a917a53b60d1413181fd2749acfb0e70d7c4"
+    },
+    {
+      "id": "cace-concept-1a600fd85f69-foto-01",
+      "src": "assets/individuals/verbs/pegar/foto-01.webp",
+      "title": {
+        "ca": "PEGAR · fotografia 1",
+        "es": "PEGAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un home pega un cop amb la mà oberta al braç d’un altre home.",
+        "es": "Un hombre pega un golpe con la mano abierta en el brazo de otro hombre."
+      },
+      "tags": [
+        "w-f2a87d0edeb1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:31.798430Z",
+      "target": "concept-1a600fd85f69",
+      "targetWordIds": [
+        "w-f2a87d0edeb1"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "a293fb030f418bcee6a35496ac500f43299c0c5b26aff2e57a6a6da33e8b0e94",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0edb0835240162fa7886635ab9eecb4210962de77847f15609a674da98fc1b0f"
+    },
+    {
+      "id": "cace-concept-1a600fd85f69-foto-02",
+      "src": "assets/individuals/verbs/pegar/foto-02.webp",
+      "title": {
+        "ca": "PEGAR · fotografia 2",
+        "es": "PEGAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona pega un cop amb la mà oberta al braç d’una altra dona.",
+        "es": "Una mujer pega un golpe con la mano abierta en el brazo de otra mujer."
+      },
+      "tags": [
+        "w-f2a87d0edeb1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:31.798430Z",
+      "target": "concept-1a600fd85f69",
+      "targetWordIds": [
+        "w-f2a87d0edeb1"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "cdc7d49310c0f4dfa66d4b63067bf863dc30af10c5648a70d5b0d66bbd2f3684",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c007420cf32364d25de3397a34f57bda38071e4031840dab4a854d7d4993db54"
+    },
+    {
+      "id": "cace-concept-1a600fd85f69-realista-01",
+      "src": "assets/individuals/verbs/pegar/realista-01.webp",
+      "title": {
+        "ca": "PEGAR · dibuix realista",
+        "es": "PEGAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’un home que pega al braç d’un altre home.",
+        "es": "Dibujo a lápiz de un hombre que pega en el brazo de otro hombre."
+      },
+      "tags": [
+        "w-f2a87d0edeb1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:31.798430Z",
+      "target": "concept-1a600fd85f69",
+      "targetWordIds": [
+        "w-f2a87d0edeb1"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "2077414af1e2f952394a609e72b91bce1e44e4ee13c6bf17b2609b1bedb35c37",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5d1ac5442650300fb56f2b7ccc6007d741d50a6c1d2401517b3498b3c0f9dc7c"
+    },
+    {
+      "id": "cace-concept-1a600fd85f69-pla-01",
+      "src": "assets/individuals/verbs/pegar/pla-01.webp",
+      "title": {
+        "ca": "PEGAR · il·lustració plana",
+        "es": "PEGAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona pega al braç d’un home que es fa enrere.",
+        "es": "Una mujer pega en el brazo de un hombre que se echa hacia atrás."
+      },
+      "tags": [
+        "w-f2a87d0edeb1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:31.798430Z",
+      "target": "concept-1a600fd85f69",
+      "targetWordIds": [
+        "w-f2a87d0edeb1"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "e61c90e85a0b744e93216f3861dd38833d0da5fdb745b4ee5df1970bd9bd76d6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bd08f6e3eab2eb1daa46cf211687a19424d8adc2c9ebb7029c417467972afe1a"
+    },
+    {
+      "id": "cace-concept-eeb52a219d03-foto-01",
+      "src": "assets/individuals/verbs/tornar/foto-01.webp",
+      "title": {
+        "ca": "TORNAR · fotografia 1",
+        "es": "VOLVER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona torna cap a una porta oberta seguint una fletxa de retorn.",
+        "es": "Una mujer vuelve hacia una puerta abierta siguiendo una flecha de regreso."
+      },
+      "tags": [
+        "w-c011365e24bc"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:23.121900Z",
+      "target": "concept-eeb52a219d03",
+      "targetWordIds": [
+        "w-c011365e24bc"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "792fcf0d9c025653a30b1c360081c25a4f99cf47f818cddfef234f3d2404724f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "47de8c42923622525160124b4de9548b1a4f3658b2ad1a1f186bae619dad038f"
+    },
+    {
+      "id": "cace-concept-eeb52a219d03-foto-02",
+      "src": "assets/individuals/verbs/tornar/foto-02.webp",
+      "title": {
+        "ca": "TORNAR · fotografia 2",
+        "es": "VOLVER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home torna un llibre blau a un altre home.",
+        "es": "Un hombre devuelve un libro azul a otro hombre."
+      },
+      "tags": [
+        "w-c011365e24bc"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:23.121900Z",
+      "target": "concept-eeb52a219d03",
+      "targetWordIds": [
+        "w-c011365e24bc"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "315739ebc50decf5bbf36d250bdd3b02ebb841ab8bac66d37ed5e7ea0eb1a0bf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7b32114293bd921d1ddc37dca89fe2fdbb84d639ec804b9cbb065e072d6cb5fc"
+    },
+    {
+      "id": "cace-concept-eeb52a219d03-realista-01",
+      "src": "assets/individuals/verbs/tornar/realista-01.webp",
+      "title": {
+        "ca": "TORNAR · dibuix realista",
+        "es": "VOLVER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que torna a casa amb una fletxa de retorn.",
+        "es": "Dibujo a lápiz de una mujer que vuelve a casa con una flecha de regreso."
+      },
+      "tags": [
+        "w-c011365e24bc"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:23.121900Z",
+      "target": "concept-eeb52a219d03",
+      "targetWordIds": [
+        "w-c011365e24bc"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "1a79a4b29eff7d1a544221feec750ba7ee8d4de0d285001aab34cf9cdfdf27bb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7d9b08f6459c659768f82dd99f6665ae1543de17ad4764f80ab96d59e536689d"
+    },
+    {
+      "id": "cace-concept-eeb52a219d03-pla-01",
+      "src": "assets/individuals/verbs/tornar/pla-01.webp",
+      "title": {
+        "ca": "TORNAR · il·lustració plana",
+        "es": "VOLVER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home torna cap a una porta oberta amb una fletxa corba.",
+        "es": "Un hombre vuelve hacia una puerta abierta con una flecha curva."
+      },
+      "tags": [
+        "w-c011365e24bc"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:23.121900Z",
+      "target": "concept-eeb52a219d03",
+      "targetWordIds": [
+        "w-c011365e24bc"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "7d8fe2ab90fb643720e45c7d3b95affd00765b5b75a25965c54d5a1155e4560e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a167ffce8c128b1c3f78e7712a1cfa6401c105e2fa520505ba4286e831f32184"
+    },
+    {
+      "id": "cace-concept-531cb331e9c0-foto-01",
+      "src": "assets/individuals/verbs/tenir/foto-01.webp",
+      "title": {
+        "ca": "TENIR · fotografia 1",
+        "es": "TENER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona té una pilota vermella i s’assenyala el pit.",
+        "es": "Una mujer tiene una pelota roja y se señala el pecho."
+      },
+      "tags": [
+        "w-562394fa1e77"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:15.654074Z",
+      "target": "concept-531cb331e9c0",
+      "targetWordIds": [
+        "w-562394fa1e77"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "e9c1ad54bb60be9f4ee4b578a8d97b77b60ea5765a18a0c310187430304221f9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fe5588836be7600c8ddaeccb07c02458000743166af937b1a8bbd376c3ccd5e3"
+    },
+    {
+      "id": "cace-concept-531cb331e9c0-foto-02",
+      "src": "assets/individuals/verbs/tenir/foto-02.webp",
+      "title": {
+        "ca": "TENIR · fotografia 2",
+        "es": "TENER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home té una motxilla marró i s’assenyala el pit.",
+        "es": "Un hombre tiene una mochila marrón y se señala el pecho."
+      },
+      "tags": [
+        "w-562394fa1e77"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:15.654074Z",
+      "target": "concept-531cb331e9c0",
+      "targetWordIds": [
+        "w-562394fa1e77"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "ac5b2b8672177ab8db358e0723b3759c65f3b324614dcafda87355165be5b2f0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "da205c15746694c2d7712ba418028defcbb90efda9db8d8e56b9f10c6cac5a4b"
+    },
+    {
+      "id": "cace-concept-531cb331e9c0-realista-01",
+      "src": "assets/individuals/verbs/tenir/realista-01.webp",
+      "title": {
+        "ca": "TENIR · dibuix realista",
+        "es": "TENER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que té un llibre verd.",
+        "es": "Dibujo a lápiz de una mujer que tiene un libro verde."
+      },
+      "tags": [
+        "w-562394fa1e77"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:15.654074Z",
+      "target": "concept-531cb331e9c0",
+      "targetWordIds": [
+        "w-562394fa1e77"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "e3824e8db94e7af0a17559d4f454f43bc983d6d6c607bb104787f5f9735386f7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b5dd4ab763cb5eed96f0dfe789cdcaed2b953099dd7457f0640130d0ea72f96f"
+    },
+    {
+      "id": "cace-concept-531cb331e9c0-pla-01",
+      "src": "assets/individuals/verbs/tenir/pla-01.webp",
+      "title": {
+        "ca": "TENIR · il·lustració plana",
+        "es": "TENER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home té una pilota vermella agafada contra el cos.",
+        "es": "Un hombre tiene una pelota roja sujeta contra el cuerpo."
+      },
+      "tags": [
+        "w-562394fa1e77"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:15.654074Z",
+      "target": "concept-531cb331e9c0",
+      "targetWordIds": [
+        "w-562394fa1e77"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "4db4403593c37d117d2f3459f3c8feb17123cddc09b4008f3de353094647b17b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d117125499f6f323f755d07115e4a255d168b41ba79eb1f29231cbff9c8cbe1b"
+    },
+    {
+      "id": "cace-concept-fd13381f3a89-foto-01",
+      "src": "assets/individuals/verbs/agradar/foto-01.webp",
+      "title": {
+        "ca": "AGRADAR · fotografia 1",
+        "es": "GUSTAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona mostra amb el polze aixecat que li agrada una poma.",
+        "es": "Una mujer muestra con el pulgar levantado que le gusta una manzana."
+      },
+      "tags": [
+        "w-886c170837b3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:08.914744Z",
+      "target": "concept-fd13381f3a89",
+      "targetWordIds": [
+        "w-886c170837b3"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "48d3ead5c606856fdb0cec06c3dbf68e63752e7612e428fa41b7d233bf4f5767",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ef38da34f7a3c0061a84b273e91029d5f31993c8e736571aee0b6f18db57d953"
+    },
+    {
+      "id": "cace-concept-fd13381f3a89-foto-02",
+      "src": "assets/individuals/verbs/agradar/foto-02.webp",
+      "title": {
+        "ca": "AGRADAR · fotografia 2",
+        "es": "GUSTAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home mostra que li agrada la guitarra amb el polze aixecat i un cor.",
+        "es": "Un hombre muestra que le gusta la guitarra con el pulgar levantado y un corazón."
+      },
+      "tags": [
+        "w-886c170837b3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:08.914744Z",
+      "target": "concept-fd13381f3a89",
+      "targetWordIds": [
+        "w-886c170837b3"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "037a578a14cba42da424d53828bf3057f71f772699af42afcfa0a0f55100f440",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d8a107ff20430bbc2b9c17bfa6b1ec28051bc16414e5f4a2cf81fd026651365d"
+    },
+    {
+      "id": "cace-concept-fd13381f3a89-realista-01",
+      "src": "assets/individuals/verbs/agradar/realista-01.webp",
+      "title": {
+        "ca": "AGRADAR · dibuix realista",
+        "es": "GUSTAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que mostra que li agraden les maduixes.",
+        "es": "Dibujo a lápiz de una mujer que muestra que le gustan las fresas."
+      },
+      "tags": [
+        "w-886c170837b3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:08.914744Z",
+      "target": "concept-fd13381f3a89",
+      "targetWordIds": [
+        "w-886c170837b3"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "35b4d02efd17eec3d74a43e268ece8649c18a07dc7151e0b0bc556b9f119d4c8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9e8dd8ff6a9798174d571c0a053390a9252fc3443056125d8608368627149288"
+    },
+    {
+      "id": "cace-concept-fd13381f3a89-pla-01",
+      "src": "assets/individuals/verbs/agradar/pla-01.webp",
+      "title": {
+        "ca": "AGRADAR · il·lustració plana",
+        "es": "GUSTAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home mostra amb el polze aixecat i un cor que li agrada una poma.",
+        "es": "Un hombre muestra con el pulgar levantado y un corazón que le gusta una manzana."
+      },
+      "tags": [
+        "w-886c170837b3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:08.914744Z",
+      "target": "concept-fd13381f3a89",
+      "targetWordIds": [
+        "w-886c170837b3"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "0a1f4f63c5d8af415218458da1292b59e2afd39784fdbdc2139508453f343ccd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5d37b4bedff29a8c57a74c38fa556f63e781542e8dd5ae4e236211b8524d0d9e"
+    },
+    {
+      "id": "cace-concept-6af024b04e6d-foto-01",
+      "src": "assets/individuals/verbs/voler/foto-01.webp",
+      "title": {
+        "ca": "VOLER · fotografia 1",
+        "es": "QUERER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona vol una poma i hi estén les mans.",
+        "es": "Una mujer quiere una manzana y extiende las manos hacia ella."
+      },
+      "tags": [
+        "w-60ce6fd7b1be"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:00.162531Z",
+      "target": "concept-6af024b04e6d",
+      "targetWordIds": [
+        "w-60ce6fd7b1be"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "9b1aa403f28ce7f519ac7f9050baa618b4c291abd7052519183d2680b5491782",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "04b1da57db0d1a7edbbf43df6ec9d8cbcb1e1b9d055afd3d8e0a1ff6b54ae39e"
+    },
+    {
+      "id": "cace-concept-6af024b04e6d-foto-02",
+      "src": "assets/individuals/verbs/voler/foto-02.webp",
+      "title": {
+        "ca": "VOLER · fotografia 2",
+        "es": "QUERER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home vol una pilota blava i hi estén les mans.",
+        "es": "Un hombre quiere una pelota azul y extiende las manos hacia ella."
+      },
+      "tags": [
+        "w-60ce6fd7b1be"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:00.162531Z",
+      "target": "concept-6af024b04e6d",
+      "targetWordIds": [
+        "w-60ce6fd7b1be"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "3675604249581d9c8a4bef68953a244cef1d6abe56c459eef4574fc93ab09e43",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a66bdbe401eaecad18933fba24589c6af7637d8d6d3ab8f034406779f26dfcb8"
+    },
+    {
+      "id": "cace-concept-6af024b04e6d-realista-01",
+      "src": "assets/individuals/verbs/voler/realista-01.webp",
+      "title": {
+        "ca": "VOLER · dibuix realista",
+        "es": "QUERER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que vol una poma sobre una taula.",
+        "es": "Dibujo a lápiz de una mujer que quiere una manzana sobre una mesa."
+      },
+      "tags": [
+        "w-60ce6fd7b1be"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:00.162531Z",
+      "target": "concept-6af024b04e6d",
+      "targetWordIds": [
+        "w-60ce6fd7b1be"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "5d1b3ff72256970b024abb49d3dbca1c534baed6eb75a61292dcf39e66e95c27",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0da970eb1dfd6db42b295873ab9cebb5c65d63bf418d8b89f187bddb3c9733dd"
+    },
+    {
+      "id": "cace-concept-6af024b04e6d-pla-01",
+      "src": "assets/individuals/verbs/voler/pla-01.webp",
+      "title": {
+        "ca": "VOLER · il·lustració plana",
+        "es": "QUERER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home vol una pilota blava i l’imagina en una bafarada.",
+        "es": "Un hombre quiere una pelota azul y la imagina en un globo de pensamiento."
+      },
+      "tags": [
+        "w-60ce6fd7b1be"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T21:36:00.162531Z",
+      "target": "concept-6af024b04e6d",
+      "targetWordIds": [
+        "w-60ce6fd7b1be"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "cb1c353b168c37b510148828b9631eb10d02a3a7f2cbbece509fa0a80480ac9e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ffbe22eac2029b268978e4a57b36ad45e02bc1f96fda14d2117eaaa1c8fab27e"
+    },
     {
       "id": "cace-concept-885101279a11-foto-01",
       "src": "assets/individuals/temps/nit/foto-01.webp",
@@ -85279,7 +86239,23 @@
         "cace-concept-9af419634c42-foto-01",
         "cace-concept-9af419634c42-foto-02",
         "cace-concept-885101279a11-foto-01",
-        "cace-concept-885101279a11-foto-02"
+        "cace-concept-885101279a11-foto-02",
+        "cace-concept-6af024b04e6d-foto-01",
+        "cace-concept-6af024b04e6d-foto-02",
+        "cace-concept-fd13381f3a89-foto-01",
+        "cace-concept-fd13381f3a89-foto-02",
+        "cace-concept-531cb331e9c0-foto-01",
+        "cace-concept-531cb331e9c0-foto-02",
+        "cace-concept-eeb52a219d03-foto-01",
+        "cace-concept-eeb52a219d03-foto-02",
+        "cace-concept-1a600fd85f69-foto-01",
+        "cace-concept-1a600fd85f69-foto-02",
+        "cace-concept-7eb11676fe80-foto-01",
+        "cace-concept-7eb11676fe80-foto-02",
+        "cace-concept-c7fa7f9fe4a0-foto-01",
+        "cace-concept-c7fa7f9fe4a0-foto-02",
+        "cace-concept-9942c07faef7-foto-01",
+        "cace-concept-9942c07faef7-foto-02"
       ]
     },
     {
@@ -85887,7 +86863,15 @@
         "cace-concept-3a84241827c1-realista-01",
         "cace-concept-39b5f4b6969c-realista-01",
         "cace-concept-9af419634c42-realista-01",
-        "cace-concept-885101279a11-realista-01"
+        "cace-concept-885101279a11-realista-01",
+        "cace-concept-6af024b04e6d-realista-01",
+        "cace-concept-fd13381f3a89-realista-01",
+        "cace-concept-531cb331e9c0-realista-01",
+        "cace-concept-eeb52a219d03-realista-01",
+        "cace-concept-1a600fd85f69-realista-01",
+        "cace-concept-7eb11676fe80-realista-01",
+        "cace-concept-c7fa7f9fe4a0-realista-01",
+        "cace-concept-9942c07faef7-realista-01"
       ]
     },
     {
@@ -86495,7 +87479,15 @@
         "cace-concept-3a84241827c1-pla-01",
         "cace-concept-39b5f4b6969c-pla-01",
         "cace-concept-9af419634c42-pla-01",
-        "cace-concept-885101279a11-pla-01"
+        "cace-concept-885101279a11-pla-01",
+        "cace-concept-6af024b04e6d-pla-01",
+        "cace-concept-fd13381f3a89-pla-01",
+        "cace-concept-531cb331e9c0-pla-01",
+        "cace-concept-eeb52a219d03-pla-01",
+        "cace-concept-1a600fd85f69-pla-01",
+        "cace-concept-7eb11676fe80-pla-01",
+        "cace-concept-c7fa7f9fe4a0-pla-01",
+        "cace-concept-9942c07faef7-pla-01"
       ]
     }
   ]
