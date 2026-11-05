@@ -1,5 +1,5 @@
 {
-  "version": "0.1.80",
+  "version": "0.1.81",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-6b4b1f27dc4b-foto-01",
+      "src": "assets/individuals/persones/vosaltres/foto-01.webp",
+      "title": {
+        "ca": "VOSALTRES · fotografia 1",
+        "es": "VOSOTROS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un home s’adreça a dues persones encerclades en vermell: vosaltres.",
+        "es": "Un hombre se dirige a dos personas rodeadas en rojo: vosotros."
+      },
+      "tags": [
+        "w-374595eb5a9e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:38.690484Z",
+      "target": "concept-6b4b1f27dc4b",
+      "targetWordIds": [
+        "w-374595eb5a9e"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "e08cf3cada8dafa2ffa6b0ec41f23d8b4eb8cee3740df13878ac26e9816dceea",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ff1a242a1db0ea669042299dc5f158e562f020205171fb2c01e5e4010858c956"
+    },
+    {
+      "id": "cace-concept-6b4b1f27dc4b-foto-02",
+      "src": "assets/individuals/persones/vosaltres/foto-02.webp",
+      "title": {
+        "ca": "VOSALTRES · fotografia 2",
+        "es": "VOSOTROS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona s’adreça a dues dones encerclades en vermell: vosaltres.",
+        "es": "Una mujer se dirige a dos mujeres rodeadas en rojo: vosotras."
+      },
+      "tags": [
+        "w-374595eb5a9e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:38.690484Z",
+      "target": "concept-6b4b1f27dc4b",
+      "targetWordIds": [
+        "w-374595eb5a9e"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "cee16f9f89008eb44c00866a709907db577f760c1860dbdfd9a047b537a9da20",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4ad67083e07cde66564c612b7a383d6c931460f5d9d459dec0056ceef8daac2a"
+    },
+    {
+      "id": "cace-concept-6b4b1f27dc4b-realista-01",
+      "src": "assets/individuals/persones/vosaltres/realista-01.webp",
+      "title": {
+        "ca": "VOSALTRES · dibuix realista",
+        "es": "VOSOTROS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’un home que s’adreça a dues persones que l’escolten.",
+        "es": "Dibujo a lápiz de un hombre que se dirige a dos personas que lo escuchan."
+      },
+      "tags": [
+        "w-374595eb5a9e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:38.690484Z",
+      "target": "concept-6b4b1f27dc4b",
+      "targetWordIds": [
+        "w-374595eb5a9e"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "ffec4912644e14e99b253cb78e83547016b1647b61767cb279eef4005d9b576d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a74c9897751a123bdee84161daee791feeecee3b694d1f95b1dd0e104f346220"
+    },
+    {
+      "id": "cace-concept-6b4b1f27dc4b-pla-01",
+      "src": "assets/individuals/persones/vosaltres/pla-01.webp",
+      "title": {
+        "ca": "VOSALTRES · il·lustració plana",
+        "es": "VOSOTROS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home parla directament a dues persones encerclades en vermell.",
+        "es": "Un hombre habla directamente a dos personas rodeadas en rojo."
+      },
+      "tags": [
+        "w-374595eb5a9e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:38.690484Z",
+      "target": "concept-6b4b1f27dc4b",
+      "targetWordIds": [
+        "w-374595eb5a9e"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ed82430ea433d65adc5307649882a60e0f63377448c5cfd657dd42f622d20e59",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e3be46cf696d80d3b97e0e9acca7796804a2d4dcf6cda6ef6d34b4e1513129a4"
+    },
+    {
+      "id": "cace-concept-79d353706d01-foto-01",
+      "src": "assets/individuals/persones/nosaltres/foto-01.webp",
+      "title": {
+        "ca": "NOSALTRES · fotografia 1",
+        "es": "NOSOTROS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dues persones s’assenyalen el pit dins d’un oval vermell: nosaltres.",
+        "es": "Dos personas se señalan el pecho dentro de un óvalo rojo: nosotros."
+      },
+      "tags": [
+        "w-eea2f886dc60"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:35.198402Z",
+      "target": "concept-79d353706d01",
+      "targetWordIds": [
+        "w-eea2f886dc60"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "8342177a45185cc300c611028b91c127c4944d755567b9772bace4f47d7c8394",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "34025983bf2f489dfde7795e7a8089ab17936bc904e7a30bcf950d5d32b1ddf2"
+    },
+    {
+      "id": "cace-concept-79d353706d01-foto-02",
+      "src": "assets/individuals/persones/nosaltres/foto-02.webp",
+      "title": {
+        "ca": "NOSALTRES · fotografia 2",
+        "es": "NOSOTROS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Tres persones es posen la mà al pit dins del mateix oval: nosaltres.",
+        "es": "Tres personas se ponen la mano en el pecho dentro del mismo óvalo: nosotros."
+      },
+      "tags": [
+        "w-eea2f886dc60"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:35.198402Z",
+      "target": "concept-79d353706d01",
+      "targetWordIds": [
+        "w-eea2f886dc60"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "ed0224cf557a6b40b2510261915fdc71c2306411e335c38c769ddbb8dc326774",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d9b832b9d720838122b3b393525183d0ac0cb6350e9acc27320d4325cfe68ca6"
+    },
+    {
+      "id": "cace-concept-79d353706d01-realista-01",
+      "src": "assets/individuals/persones/nosaltres/realista-01.webp",
+      "title": {
+        "ca": "NOSALTRES · dibuix realista",
+        "es": "NOSOTROS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de dues persones que s’assenyalen a si mateixes com a grup.",
+        "es": "Dibujo a lápiz de dos personas que se señalan a sí mismas como grupo."
+      },
+      "tags": [
+        "w-eea2f886dc60"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:35.198402Z",
+      "target": "concept-79d353706d01",
+      "targetWordIds": [
+        "w-eea2f886dc60"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "5d66931b3ee60560ba2843f54cd8092bb73a666c4f4afdd7ee3e26a0873c5175",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dbaa2310d1570471423d0177626efda01a34418beb88414764f9448379386225"
+    },
+    {
+      "id": "cace-concept-79d353706d01-pla-01",
+      "src": "assets/individuals/persones/nosaltres/pla-01.webp",
+      "title": {
+        "ca": "NOSALTRES · il·lustració plana",
+        "es": "NOSOTROS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dues persones s’assenyalen el pit, encerclades juntes en vermell.",
+        "es": "Dos personas se señalan el pecho, rodeadas juntas en rojo."
+      },
+      "tags": [
+        "w-eea2f886dc60"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:35.198402Z",
+      "target": "concept-79d353706d01",
+      "targetWordIds": [
+        "w-eea2f886dc60"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "de40c5ec7f21107399e782d55f1c9c29946eb5d9729ca4d353014bfb5e173b32",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0e6a1e7511e0dbf45aa2e41ced75fddb76a9786795b331b35b1c9ab826340e6f"
+    },
+    {
+      "id": "cace-concept-a4a161716de5-foto-01",
+      "src": "assets/individuals/mobles/internet/foto-01.webp",
+      "title": {
+        "ca": "INTERNET · fotografia 1",
+        "es": "INTERNET · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un ordinador portàtil, un mòbil, una tauleta i un encaminador connectats amb el món.",
+        "es": "Un ordenador portátil, un móvil, una tableta y un rúter conectados con el mundo."
+      },
+      "tags": [
+        "w-3a5ee625cf24"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:30.857752Z",
+      "target": "concept-a4a161716de5",
+      "targetWordIds": [
+        "w-3a5ee625cf24"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "ffd76f2fa4f0cfd4014bb8cd39ac29157393f16b1a650d1bd009abd0624a628f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f54407c3756c31a19f97e3c96a9b21e3505a69d0eafb2e536d2e94a485361acc"
+    },
+    {
+      "id": "cace-concept-a4a161716de5-foto-02",
+      "src": "assets/individuals/mobles/internet/foto-02.webp",
+      "title": {
+        "ca": "INTERNET · fotografia 2",
+        "es": "INTERNET · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un portàtil i un mòbil connectats a internet amb un encaminador blau.",
+        "es": "Un portátil y un móvil conectados a internet con un rúter azul."
+      },
+      "tags": [
+        "w-3a5ee625cf24"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:30.857752Z",
+      "target": "concept-a4a161716de5",
+      "targetWordIds": [
+        "w-3a5ee625cf24"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "788577557f2ddf9225242ce3674990abd6e13a02691b8e964d60ecd5f91e35e2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f1d71cd322937b04df49b89ffad229c97365de0eb99bd80ddb3df9afa2a0d00e"
+    },
+    {
+      "id": "cace-concept-a4a161716de5-realista-01",
+      "src": "assets/individuals/mobles/internet/realista-01.webp",
+      "title": {
+        "ca": "INTERNET · dibuix realista",
+        "es": "INTERNET · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’un portàtil, un mòbil i un encaminador units a un globus terraqüi.",
+        "es": "Dibujo a lápiz de un portátil, un móvil y un rúter unidos a un globo terráqueo."
+      },
+      "tags": [
+        "w-3a5ee625cf24"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:30.857752Z",
+      "target": "concept-a4a161716de5",
+      "targetWordIds": [
+        "w-3a5ee625cf24"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "9bdbbb854cefc3a5443bf28fa69d4a4573042a76a649174648bc8ac9c6c7c566",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8cf7aac91fce7dbbed8d028a0890a841dab668b09edecf1e83d900fe297bae65"
+    },
+    {
+      "id": "cace-concept-a4a161716de5-pla-01",
+      "src": "assets/individuals/mobles/internet/pla-01.webp",
+      "title": {
+        "ca": "INTERNET · il·lustració plana",
+        "es": "INTERNET · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un portàtil, un mòbil i un encaminador connectats a un globus terraqüi.",
+        "es": "Un portátil, un móvil y un rúter conectados a un globo terráqueo."
+      },
+      "tags": [
+        "w-3a5ee625cf24"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:30.857752Z",
+      "target": "concept-a4a161716de5",
+      "targetWordIds": [
+        "w-3a5ee625cf24"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "876b41715a99d0d60adf315c1220053ba5a81b6497f3a68beec87dacd8c7018c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "576a3976eafdd76f0f594b95dad566cc67c1757f5b5b8097a437d1da3eb0e52b"
+    },
+    {
+      "id": "cace-concept-159a83ff3b59-foto-01",
+      "src": "assets/individuals/llocs/comissaria/foto-01.webp",
+      "title": {
+        "ca": "COMISSARIA · fotografia 1",
+        "es": "COMISARÍA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona parla amb dos policies a la recepció d’una comissaria.",
+        "es": "Una mujer habla con dos policías en la recepción de una comisaría."
+      },
+      "tags": [
+        "w-294abc8a39f0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:25.581532Z",
+      "target": "concept-159a83ff3b59",
+      "targetWordIds": [
+        "w-294abc8a39f0"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "bc4efbb5778db2dcb4438fd7de9783026de307fc0092b81c16b062d2ba0a701d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2dabd70bb0ecaa028bfbef68e5ec5cc81689b6854c98184239fd8b9c3e2ee981"
+    },
+    {
+      "id": "cace-concept-159a83ff3b59-foto-02",
+      "src": "assets/individuals/llocs/comissaria/foto-02.webp",
+      "title": {
+        "ca": "COMISSARIA · fotografia 2",
+        "es": "COMISARÍA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home parla amb una policia al despatx d’una comissaria.",
+        "es": "Un hombre habla con una policía en el despacho de una comisaría."
+      },
+      "tags": [
+        "w-294abc8a39f0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:25.581532Z",
+      "target": "concept-159a83ff3b59",
+      "targetWordIds": [
+        "w-294abc8a39f0"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "45c32971bf4853a9e41bdc0c3c6f74e3096888518c089655f3fd564bc6b798ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "511e52953d404d2e1e94ac22e1b4ad9e25f4f37e047d343b98d411be79cdf85f"
+    },
+    {
+      "id": "cace-concept-159a83ff3b59-realista-01",
+      "src": "assets/individuals/llocs/comissaria/realista-01.webp",
+      "title": {
+        "ca": "COMISSARIA · dibuix realista",
+        "es": "COMISARÍA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que parla amb dos policies a la comissaria.",
+        "es": "Dibujo a lápiz de una mujer que habla con dos policías en la comisaría."
+      },
+      "tags": [
+        "w-294abc8a39f0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:25.581532Z",
+      "target": "concept-159a83ff3b59",
+      "targetWordIds": [
+        "w-294abc8a39f0"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "86a1b565a3264088af9bb8e1733e872731b2b80b638fa36adb4b412a76629b21",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "baf335009a96fdb3473792324b15cffc9318fde73c8595238c47aee75183d0c3"
+    },
+    {
+      "id": "cace-concept-159a83ff3b59-pla-01",
+      "src": "assets/individuals/llocs/comissaria/pla-01.webp",
+      "title": {
+        "ca": "COMISSARIA · il·lustració plana",
+        "es": "COMISARÍA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona és atesa per dos policies a la recepció d’una comissaria.",
+        "es": "Una mujer es atendida por dos policías en la recepción de una comisaría."
+      },
+      "tags": [
+        "w-294abc8a39f0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:25.581532Z",
+      "target": "concept-159a83ff3b59",
+      "targetWordIds": [
+        "w-294abc8a39f0"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "50cb9c08c943921b00169e63bc9dcc10174d9f90dffeb15d2f7962c7bc29f2e8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "aada90ab002b8d2c539e7dba2cb2194a03b7ba0c336d296213eb015c9892ae92"
+    },
+    {
+      "id": "cace-concept-4d943e6d0fb3-foto-01",
+      "src": "assets/individuals/activitats/medi/foto-01.webp",
+      "title": {
+        "ca": "MEDI · fotografia 1",
+        "es": "MEDIO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una mestra i dos infants observen una planta i un globus terraqüi a classe de medi.",
+        "es": "Una maestra y dos niños observan una planta y un globo terráqueo en clase de conocimiento del medio."
+      },
+      "tags": [
+        "w-0bf2222b61aa"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:20.524134Z",
+      "target": "concept-4d943e6d0fb3",
+      "targetWordIds": [
+        "w-0bf2222b61aa"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "554fa0f4a856f12d3c507d8c9d39a562d6e753624eef8939945afb6fea637dd4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b63b43abd805ae7dac7040c0073c161507c72c9bd9c3c5fc77229aa66cec9418"
+    },
+    {
+      "id": "cace-concept-4d943e6d0fb3-foto-02",
+      "src": "assets/individuals/activitats/medi/foto-02.webp",
+      "title": {
+        "ca": "MEDI · fotografia 2",
+        "es": "MEDIO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una mestra i dos infants exploren una pedra, una fulla i una planta amb una lupa.",
+        "es": "Una maestra y dos niños exploran una piedra, una hoja y una planta con una lupa."
+      },
+      "tags": [
+        "w-0bf2222b61aa"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:20.524134Z",
+      "target": "concept-4d943e6d0fb3",
+      "targetWordIds": [
+        "w-0bf2222b61aa"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "dbf50df6a0b5985e64905e378f568d1362dd8bf9edbfe1f2a21debb115a18226",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "29930f472293a2f6c420fdb9a5ed9d77db7ca98aeb34ee0f5c1c384c2b5e09a5"
+    },
+    {
+      "id": "cace-concept-4d943e6d0fb3-realista-01",
+      "src": "assets/individuals/activitats/medi/realista-01.webp",
+      "title": {
+        "ca": "MEDI · dibuix realista",
+        "es": "MEDIO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una classe de medi amb plantes, una pedra, una fulla i un globus terraqüi.",
+        "es": "Dibujo a lápiz de una clase de conocimiento del medio con plantas, una piedra, una hoja y un globo terráqueo."
+      },
+      "tags": [
+        "w-0bf2222b61aa"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:20.524134Z",
+      "target": "concept-4d943e6d0fb3",
+      "targetWordIds": [
+        "w-0bf2222b61aa"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "b2f130cc7fa48948af71f2d675a25bf22dd7336d1d07e16cb1ec7aff7b5dacff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2bd029e4d897909f5b0529e452d86d1eea881a3144f24f07eb6103ba220b1cc5"
+    },
+    {
+      "id": "cace-concept-4d943e6d0fb3-pla-01",
+      "src": "assets/individuals/activitats/medi/pla-01.webp",
+      "title": {
+        "ca": "MEDI · il·lustració plana",
+        "es": "MEDIO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una mestra i dos infants estudien una planta amb una lupa al costat d’un globus terraqüi.",
+        "es": "Una maestra y dos niños estudian una planta con una lupa junto a un globo terráqueo."
+      },
+      "tags": [
+        "w-0bf2222b61aa"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:20.524134Z",
+      "target": "concept-4d943e6d0fb3",
+      "targetWordIds": [
+        "w-0bf2222b61aa"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "397981581b15c60a81428a569fa359f9fd69248f411b9d8a2ee1350c9def9be8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "29ea6577d08cb3638cf76b933f2793ade0b583ab0f3e105a26eaa7bb62b433e1"
+    },
+    {
+      "id": "cace-concept-fca8a3cb6396-foto-01",
+      "src": "assets/individuals/llocs/esplai/foto-01.webp",
+      "title": {
+        "ca": "ESPLAI · fotografia 1",
+        "es": "ESPLAI · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una monitora i tres infants juguen amb un paracaigudes de colors a l’esplai.",
+        "es": "Una monitora y tres niños juegan con un paracaídas de colores en un centro de ocio."
+      },
+      "tags": [
+        "w-a584ee1b6c27"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:16.162952Z",
+      "target": "concept-fca8a3cb6396",
+      "targetWordIds": [
+        "w-a584ee1b6c27"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b7042f3cfd876251137af838ef8bc2463e090229337e36f15b8461cb562d15fa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2bf2cb76460d540e80090086400af4fb791bf179f4a65072afc3db92055b0677"
+    },
+    {
+      "id": "cace-concept-fca8a3cb6396-foto-02",
+      "src": "assets/individuals/llocs/esplai/foto-02.webp",
+      "title": {
+        "ca": "ESPLAI · fotografia 2",
+        "es": "ESPLAI · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una monitora acompanya tres infants fent manualitats a l’esplai.",
+        "es": "Una monitora acompaña a tres niños haciendo manualidades en un centro de ocio."
+      },
+      "tags": [
+        "w-a584ee1b6c27"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:16.162952Z",
+      "target": "concept-fca8a3cb6396",
+      "targetWordIds": [
+        "w-a584ee1b6c27"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "c1fcb2aa267a0cdb6c8df177a8bff384e0f727296be312164e09ca05d12427bd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4d903e26db15faa293af468b4289353e049fcee78be123eb023158cbdb1f7fd0"
+    },
+    {
+      "id": "cace-concept-fca8a3cb6396-realista-01",
+      "src": "assets/individuals/llocs/esplai/realista-01.webp",
+      "title": {
+        "ca": "ESPLAI · dibuix realista",
+        "es": "ESPLAI · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una monitora amb tres infants que juguen amb una pilota.",
+        "es": "Dibujo a lápiz de una monitora con tres niños que juegan con una pelota."
+      },
+      "tags": [
+        "w-a584ee1b6c27"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:16.162952Z",
+      "target": "concept-fca8a3cb6396",
+      "targetWordIds": [
+        "w-a584ee1b6c27"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "733054cd615e9e74d6bb29a0cccef6291efb4143f6c0fc2509e561a9f0727208",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "12beb02a5c313d7417afec9e3919130e2491d53254a98e1fe681ecc49026cb76"
+    },
+    {
+      "id": "cace-concept-fca8a3cb6396-pla-01",
+      "src": "assets/individuals/llocs/esplai/pla-01.webp",
+      "title": {
+        "ca": "ESPLAI · il·lustració plana",
+        "es": "ESPLAI · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una monitora supervisa tres infants que juguen amb un paracaigudes de colors.",
+        "es": "Una monitora supervisa a tres niños que juegan con un paracaídas de colores."
+      },
+      "tags": [
+        "w-a584ee1b6c27"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:16.162952Z",
+      "target": "concept-fca8a3cb6396",
+      "targetWordIds": [
+        "w-a584ee1b6c27"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "21083cd596b8b136d33bd68a57c6f24fbec7c1810a99462d72a50fd9e493f2c5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "eabb9059eebc7dd798bc86ee629b6fc68732882fe1493ad00a9d7ff219292e20"
+    },
+    {
+      "id": "cace-concept-b901733dc9e8-foto-01",
+      "src": "assets/individuals/cos/regla-cos/foto-01.webp",
+      "title": {
+        "ca": "REGLA · fotografia 1",
+        "es": "REGLA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una compresa amb una petita taca menstrual al costat d’una compresa neta plegada.",
+        "es": "Una compresa con una pequeña mancha menstrual junto a una compresa limpia doblada."
+      },
+      "tags": [
+        "w-69c0718f1e4b"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:12.418650Z",
+      "target": "concept-b901733dc9e8",
+      "targetWordIds": [
+        "w-69c0718f1e4b"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "8b30ac55e217a545ea462944e637e70373862573e37f5daee9c9c1c9e8fd77af",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d253b0907150c6b82463c2f2eb7082c237daabdc4b5fc40305a9098c4edbee59"
+    },
+    {
+      "id": "cace-concept-b901733dc9e8-foto-02",
+      "src": "assets/individuals/cos/regla-cos/foto-02.webp",
+      "title": {
+        "ca": "REGLA · fotografia 2",
+        "es": "REGLA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una copa menstrual rosa al costat d’una compresa amb una petita taca.",
+        "es": "Una copa menstrual rosa junto a una compresa con una pequeña mancha."
+      },
+      "tags": [
+        "w-69c0718f1e4b"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:12.418650Z",
+      "target": "concept-b901733dc9e8",
+      "targetWordIds": [
+        "w-69c0718f1e4b"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "0217cf74a8ff09fa85ae3525ea1e33b55635dd94127cdf9f9532cd258b66201d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "207d193b53f7f7d8ab48ce17138b6f99f9f53470f41fb72b5361484b948b26ad"
+    },
+    {
+      "id": "cace-concept-b901733dc9e8-realista-01",
+      "src": "assets/individuals/cos/regla-cos/realista-01.webp",
+      "title": {
+        "ca": "REGLA · dibuix realista",
+        "es": "REGLA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una compresa amb una petita taca menstrual i una copa menstrual.",
+        "es": "Dibujo a lápiz de una compresa con una pequeña mancha menstrual y una copa menstrual."
+      },
+      "tags": [
+        "w-69c0718f1e4b"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:12.418650Z",
+      "target": "concept-b901733dc9e8",
+      "targetWordIds": [
+        "w-69c0718f1e4b"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "6a382ca500fda0427c7d0d73181912f1da152bde1347cc11bab9b99ef82fb1e0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "948524b518a1480144ab3a4f58cb4713cedfc869881080a2077355eb628f894a"
+    },
+    {
+      "id": "cace-concept-b901733dc9e8-pla-01",
+      "src": "assets/individuals/cos/regla-cos/pla-01.webp",
+      "title": {
+        "ca": "REGLA · il·lustració plana",
+        "es": "REGLA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració d’una compresa amb una petita taca menstrual i una copa rosa.",
+        "es": "Ilustración de una compresa con una pequeña mancha menstrual y una copa rosa."
+      },
+      "tags": [
+        "w-69c0718f1e4b"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:12.418650Z",
+      "target": "concept-b901733dc9e8",
+      "targetWordIds": [
+        "w-69c0718f1e4b"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "b62f96c6b17c89a87ee3f9667f7f6efa99a9c836830fcacdd76d2ee1f7e6a619",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b2544c7435dac360fafc558c380f02b2b04156ed06ed08d31896077bf859ac40"
+    },
+    {
+      "id": "cace-concept-bcf56e7b6478-foto-01",
+      "src": "assets/individuals/cos/cul/foto-01.webp",
+      "title": {
+        "ca": "CUL · fotografia 1",
+        "es": "CULO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el cul d’una dona vestida amb texans, vista d’esquena.",
+        "es": "Una flecha señala el culo de una mujer vestida con vaqueros, vista de espaldas."
+      },
+      "tags": [
+        "w-a4fb670c48a3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:10.741527Z",
+      "target": "concept-bcf56e7b6478",
+      "targetWordIds": [
+        "w-a4fb670c48a3"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "0030cd9862bf62bfa03e34b7bb43414a977f16cfff4284b3e734739a2e0a0937",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "52f7f4eb85623ee2b3ab7eb4c5cce7bded4e33e306e830297c747911b04b7dd1"
+    },
+    {
+      "id": "cace-concept-bcf56e7b6478-foto-02",
+      "src": "assets/individuals/cos/cul/foto-02.webp",
+      "title": {
+        "ca": "CUL · fotografia 2",
+        "es": "CULO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el cul sobre uns pantalons curts verds, vist d’esquena.",
+        "es": "Una flecha señala el culo sobre unos pantalones cortos verdes, visto de espaldas."
+      },
+      "tags": [
+        "w-a4fb670c48a3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:10.741527Z",
+      "target": "concept-bcf56e7b6478",
+      "targetWordIds": [
+        "w-a4fb670c48a3"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "f76547a182faf67b020724a27bd0e20dacd0c4ae95a9170ee5cdb1caac8070c9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9d614dab6f0cf8896b453355fec850c514901f0b72850fbd5954f8aef823190a"
+    },
+    {
+      "id": "cace-concept-bcf56e7b6478-realista-01",
+      "src": "assets/individuals/cos/cul/realista-01.webp",
+      "title": {
+        "ca": "CUL · dibuix realista",
+        "es": "CULO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis del cul assenyalat amb una fletxa sobre uns pantalons blaus.",
+        "es": "Dibujo a lápiz del culo señalado con una flecha sobre unos pantalones azules."
+      },
+      "tags": [
+        "w-a4fb670c48a3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:10.741527Z",
+      "target": "concept-bcf56e7b6478",
+      "targetWordIds": [
+        "w-a4fb670c48a3"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "c0fb2c2d158a4a6ef08f4bcfbb3587a863fb535a7e736f7c3a1d682aeacf5935",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "62b4aec0da54329571919803882442338d1b4a3342ae5f936e1ea71964064265"
+    },
+    {
+      "id": "cace-concept-bcf56e7b6478-pla-01",
+      "src": "assets/individuals/cos/cul/pla-01.webp",
+      "title": {
+        "ca": "CUL · il·lustració plana",
+        "es": "CULO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el cul d’un adult vestit, vist d’esquena.",
+        "es": "Una flecha señala el culo de un adulto vestido, visto de espaldas."
+      },
+      "tags": [
+        "w-a4fb670c48a3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:57:10.741527Z",
+      "target": "concept-bcf56e7b6478",
+      "targetWordIds": [
+        "w-a4fb670c48a3"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "daaffd4b50050d74a41b1f4e3928855f40d5ae7619d65cc9a4208bc7424e4a06",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3b9b0bdc6eb215d3a08fcd67896cc774fb4a77eacf5d23c7e0db1c5285059aed"
+    },
     {
       "id": "cace-concept-398c012f6a56-foto-01",
       "src": "assets/individuals/llocs/correus/foto-01.webp",
@@ -83327,7 +84287,23 @@
         "cace-concept-584e790dbf3e-foto-01",
         "cace-concept-584e790dbf3e-foto-02",
         "cace-concept-398c012f6a56-foto-01",
-        "cace-concept-398c012f6a56-foto-02"
+        "cace-concept-398c012f6a56-foto-02",
+        "cace-concept-bcf56e7b6478-foto-01",
+        "cace-concept-bcf56e7b6478-foto-02",
+        "cace-concept-b901733dc9e8-foto-01",
+        "cace-concept-b901733dc9e8-foto-02",
+        "cace-concept-fca8a3cb6396-foto-01",
+        "cace-concept-fca8a3cb6396-foto-02",
+        "cace-concept-4d943e6d0fb3-foto-01",
+        "cace-concept-4d943e6d0fb3-foto-02",
+        "cace-concept-159a83ff3b59-foto-01",
+        "cace-concept-159a83ff3b59-foto-02",
+        "cace-concept-a4a161716de5-foto-01",
+        "cace-concept-a4a161716de5-foto-02",
+        "cace-concept-79d353706d01-foto-01",
+        "cace-concept-79d353706d01-foto-02",
+        "cace-concept-6b4b1f27dc4b-foto-01",
+        "cace-concept-6b4b1f27dc4b-foto-02"
       ]
     },
     {
@@ -83919,7 +84895,15 @@
         "cace-concept-35f0d2f3854d-realista-01",
         "cace-concept-dad7e16b0f83-realista-01",
         "cace-concept-584e790dbf3e-realista-01",
-        "cace-concept-398c012f6a56-realista-01"
+        "cace-concept-398c012f6a56-realista-01",
+        "cace-concept-bcf56e7b6478-realista-01",
+        "cace-concept-b901733dc9e8-realista-01",
+        "cace-concept-fca8a3cb6396-realista-01",
+        "cace-concept-4d943e6d0fb3-realista-01",
+        "cace-concept-159a83ff3b59-realista-01",
+        "cace-concept-a4a161716de5-realista-01",
+        "cace-concept-79d353706d01-realista-01",
+        "cace-concept-6b4b1f27dc4b-realista-01"
       ]
     },
     {
@@ -84511,7 +85495,15 @@
         "cace-concept-35f0d2f3854d-pla-01",
         "cace-concept-dad7e16b0f83-pla-01",
         "cace-concept-584e790dbf3e-pla-01",
-        "cace-concept-398c012f6a56-pla-01"
+        "cace-concept-398c012f6a56-pla-01",
+        "cace-concept-bcf56e7b6478-pla-01",
+        "cace-concept-b901733dc9e8-pla-01",
+        "cace-concept-fca8a3cb6396-pla-01",
+        "cace-concept-4d943e6d0fb3-pla-01",
+        "cace-concept-159a83ff3b59-pla-01",
+        "cace-concept-a4a161716de5-pla-01",
+        "cace-concept-79d353706d01-pla-01",
+        "cace-concept-6b4b1f27dc4b-pla-01"
       ]
     }
   ]
