@@ -1,5 +1,5 @@
 {
-  "version": "0.1.76",
+  "version": "0.1.77",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-f53cfc6c2bd7-foto-01",
+      "src": "assets/individuals/verbs/convidar/foto-01.webp",
+      "title": {
+        "ca": "CONVIDAR · fotografia 1",
+        "es": "INVITAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona convida una altra a seure a una taula amb dues tasses.",
+        "es": "Una mujer invita a otra a sentarse a una mesa con dos tazas."
+      },
+      "tags": [
+        "w-b3ab8ac33460"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:31.344648Z",
+      "target": "concept-f53cfc6c2bd7",
+      "targetWordIds": [
+        "w-b3ab8ac33460"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "2ba67e19239e5494c52a730f4ac7ff7bd73b525421b6909393394cd771f07fd3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4383f686891954a71529079b3a2c7c54f2c5d7a1983225097d7c962497cbfbf4"
+    },
+    {
+      "id": "cace-concept-f53cfc6c2bd7-foto-02",
+      "src": "assets/individuals/verbs/convidar/foto-02.webp",
+      "title": {
+        "ca": "CONVIDAR · fotografia 2",
+        "es": "INVITAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un nen convida una nena a seure i participar en un joc de taula.",
+        "es": "Un niño invita a una niña a sentarse y participar en un juego de mesa."
+      },
+      "tags": [
+        "w-b3ab8ac33460"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:31.344648Z",
+      "target": "concept-f53cfc6c2bd7",
+      "targetWordIds": [
+        "w-b3ab8ac33460"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "fa3697b4a62fbcc3892765097efcbea9dff796c2304b720b83666eed02951ed3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "402825e2cc131457106da2d4eef6d61901e42f1540853fea2a02e2c546d02a22"
+    },
+    {
+      "id": "cace-concept-f53cfc6c2bd7-realista-01",
+      "src": "assets/individuals/verbs/convidar/realista-01.webp",
+      "title": {
+        "ca": "CONVIDAR · dibuix realista",
+        "es": "INVITAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’un home convidant un altre a entrar i seure.",
+        "es": "Dibujo a lápices de colores de un hombre invitando a otro a entrar y sentarse."
+      },
+      "tags": [
+        "w-b3ab8ac33460"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:31.344648Z",
+      "target": "concept-f53cfc6c2bd7",
+      "targetWordIds": [
+        "w-b3ab8ac33460"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "029995986b5b5f08d40fed01feeec2b78295c5f725058877e6012618681e0941",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7765751e88e837e85e9d8c39ec8b98ce2ec8e4bccd2ff18ccf83fb8f757c9921"
+    },
+    {
+      "id": "cace-concept-f53cfc6c2bd7-pla-01",
+      "src": "assets/individuals/verbs/convidar/pla-01.webp",
+      "title": {
+        "ca": "CONVIDAR · il·lustració plana",
+        "es": "INVITAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’una dona convidant una altra a compartir una taula.",
+        "es": "Ilustración plana de una mujer invitando a otra a compartir una mesa."
+      },
+      "tags": [
+        "w-b3ab8ac33460"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:31.344648Z",
+      "target": "concept-f53cfc6c2bd7",
+      "targetWordIds": [
+        "w-b3ab8ac33460"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "b9a2289afe4de17d8b044eb9a7ece09c792caf79ccffec11c3acb9c48e7e14eb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8d4d14779722b5027d9141aed5e94bca4c26404b238604f9e8be5c04beeac743"
+    },
+    {
+      "id": "cace-concept-e1086e5c4d5f-foto-01",
+      "src": "assets/individuals/activitats/deures/foto-01.webp",
+      "title": {
+        "ca": "DEURES · fotografia 1",
+        "es": "DEBERES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un nen amb jersei verd fa deures a un escriptori, amb una motxilla i un llum.",
+        "es": "Un niño con jersey verde hace los deberes en un escritorio, con una mochila y una lámpara."
+      },
+      "tags": [
+        "w-e4f334fe9535"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:27.807777Z",
+      "target": "concept-e1086e5c4d5f",
+      "targetWordIds": [
+        "w-e4f334fe9535"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "39060beeb2a200c0b5b445c34f5d4a67bad71f49ff818b5c26e46cb88161217b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4da6700c8df8b387fe4c0c8ce3595dd517f54fcf51d44450b4e5bf228f644147"
+    },
+    {
+      "id": "cace-concept-e1086e5c4d5f-foto-02",
+      "src": "assets/individuals/activitats/deures/foto-02.webp",
+      "title": {
+        "ca": "DEURES · fotografia 2",
+        "es": "DEBERES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un adolescent amb jersei blau treballa en un full de figures geomètriques al seu escriptori.",
+        "es": "Un adolescente con jersey azul trabaja en una hoja de figuras geométricas en su escritorio."
+      },
+      "tags": [
+        "w-e4f334fe9535"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:27.807777Z",
+      "target": "concept-e1086e5c4d5f",
+      "targetWordIds": [
+        "w-e4f334fe9535"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "18ac8d26f5800e3baf78b79315a362052af3de68d1b525cef2ec1303fa7cf208",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "55cdae0ff7b92dc67cfe37a948337a7a0ffc3cc2d2a0425968477e0b2f5fa6b2"
+    },
+    {
+      "id": "cace-concept-e1086e5c4d5f-realista-01",
+      "src": "assets/individuals/activitats/deures/realista-01.webp",
+      "title": {
+        "ca": "DEURES · dibuix realista",
+        "es": "DEBERES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’una nena fent deures, amb un llum i una motxilla al costat.",
+        "es": "Dibujo a lápices de colores de una niña haciendo los deberes, con una lámpara y una mochila al lado."
+      },
+      "tags": [
+        "w-e4f334fe9535"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:27.807777Z",
+      "target": "concept-e1086e5c4d5f",
+      "targetWordIds": [
+        "w-e4f334fe9535"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "00d96613ae836e5c5b6d00772cf133b9c5b5ab531dff401f45451968e18b41e1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fa4d576fadd8dd592c120ef52cf99c7e6535aba60bf5a871a38f4aa9ce114df1"
+    },
+    {
+      "id": "cace-concept-e1086e5c4d5f-pla-01",
+      "src": "assets/individuals/activitats/deures/pla-01.webp",
+      "title": {
+        "ca": "DEURES · il·lustració plana",
+        "es": "DEBERES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’un nen fent deures davant d’un full amb figures geomètriques.",
+        "es": "Ilustración plana de un niño haciendo los deberes ante una hoja con figuras geométricas."
+      },
+      "tags": [
+        "w-e4f334fe9535"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:27.807777Z",
+      "target": "concept-e1086e5c4d5f",
+      "targetWordIds": [
+        "w-e4f334fe9535"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "4a52cebac2938524a5888cccf0fd651044cf141a7d9384f2522828a378a95c91",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "059e2c5b045907da4d736f7553d1d059cf625f65fa860243f6f980eb4069414f"
+    },
+    {
+      "id": "cace-concept-6c4c88f15893-foto-01",
+      "src": "assets/individuals/activitats/matematiques/foto-01.webp",
+      "title": {
+        "ca": "MATEMÀTIQUES · fotografia 1",
+        "es": "MATEMÁTICAS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un nen i una mestra fan recompte amb un àbac i grups de cubs vermells.",
+        "es": "Un niño y una maestra hacen recuentos con un ábaco y grupos de cubos rojos."
+      },
+      "tags": [
+        "w-4678febaaf05"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:23.780799Z",
+      "target": "concept-6c4c88f15893",
+      "targetWordIds": [
+        "w-4678febaaf05"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "d2189f5d0f316cc2ac36604510f32349d1ae1da7a34c022a37d637aa6ad7f1e8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "962b440b4a686b30a1f53cd4cef7ce7be2053070ce53f7044f178beaefb5dcdd"
+    },
+    {
+      "id": "cace-concept-6c4c88f15893-foto-02",
+      "src": "assets/individuals/activitats/matematiques/foto-02.webp",
+      "title": {
+        "ca": "MATEMÀTIQUES · fotografia 2",
+        "es": "MATEMÁTICAS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una nena treballa amb fitxes de fusta i un àbac damunt d’una taula.",
+        "es": "Una niña trabaja con fichas de madera y un ábaco sobre una mesa."
+      },
+      "tags": [
+        "w-4678febaaf05"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:23.780799Z",
+      "target": "concept-6c4c88f15893",
+      "targetWordIds": [
+        "w-4678febaaf05"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "d064100db515d702f891c3b8c1cbcb4adf1f7be912cff7c6992cb8a262a1fd48",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b39351c6be8f039eae4a6fcfde9f2ba88189932dc573fe6d597f3b73045375e7"
+    },
+    {
+      "id": "cace-concept-6c4c88f15893-realista-01",
+      "src": "assets/individuals/activitats/matematiques/realista-01.webp",
+      "title": {
+        "ca": "MATEMÀTIQUES · dibuix realista",
+        "es": "MATEMÁTICAS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’un nen i una mestra comptant amb un àbac i fitxes vermelles.",
+        "es": "Dibujo a lápices de colores de un niño y una maestra contando con un ábaco y fichas rojas."
+      },
+      "tags": [
+        "w-4678febaaf05"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:23.780799Z",
+      "target": "concept-6c4c88f15893",
+      "targetWordIds": [
+        "w-4678febaaf05"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "6a48cf49480d6a24620a00d7b97c5e9bbd35c4c5dc7dc82bdbfbda7baa42fec2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "76993b0020c041a67b0f65956081fea53de078898c71b4efbe87b4e01a2cccac"
+    },
+    {
+      "id": "cace-concept-6c4c88f15893-pla-01",
+      "src": "assets/individuals/activitats/matematiques/pla-01.webp",
+      "title": {
+        "ca": "MATEMÀTIQUES · il·lustració plana",
+        "es": "MATEMÁTICAS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’una nena fent recompte amb un àbac i grups de cubs vermells.",
+        "es": "Ilustración plana de una niña haciendo recuentos con un ábaco y grupos de cubos rojos."
+      },
+      "tags": [
+        "w-4678febaaf05"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:23.780799Z",
+      "target": "concept-6c4c88f15893",
+      "targetWordIds": [
+        "w-4678febaaf05"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "381b72497ec442dc4ca449ecc26dc7fadff62e14c3a138736ccb5996edaa8c50",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "13555c973cb03951c682e2c7d6e23894f7eb3be5021bc790bcef3e0b42b12a39"
+    },
+    {
+      "id": "cace-concept-a67d5a4933e8-foto-01",
+      "src": "assets/individuals/persones/vei/foto-01.webp",
+      "title": {
+        "ca": "VEÍ · fotografia 1",
+        "es": "VECINO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un home i una dona se saluden des de les portes contigües de casa seva.",
+        "es": "Un hombre y una mujer se saludan desde las puertas contiguas de sus casas."
+      },
+      "tags": [
+        "w-75f47bedb8f6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:18.309285Z",
+      "target": "concept-a67d5a4933e8",
+      "targetWordIds": [
+        "w-75f47bedb8f6"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "cfebc659ac51554f32382b6b02cf34eaa67f52ea516fd16fedb2003970839d91",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "56d0e6dca933e0a833ae4a830be5b22c458f4b64af82bfa5ea351cd18f6a1cf0"
+    },
+    {
+      "id": "cace-concept-a67d5a4933e8-foto-02",
+      "src": "assets/individuals/persones/vei/foto-02.webp",
+      "title": {
+        "ca": "VEÍ · fotografia 2",
+        "es": "VECINO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dos homes grans se saluden des de dues portes contigües.",
+        "es": "Dos hombres mayores se saludan desde dos puertas contiguas."
+      },
+      "tags": [
+        "w-75f47bedb8f6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:18.309285Z",
+      "target": "concept-a67d5a4933e8",
+      "targetWordIds": [
+        "w-75f47bedb8f6"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "8cea9b9ac3718144a42806ea474373dff912b6a9c50c4da63fc9f3c052bee9d7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c6416a1ee558d8f6ab99643e64ba76295385d068d3c9fe618159672e9d43ca32"
+    },
+    {
+      "id": "cace-concept-a67d5a4933e8-realista-01",
+      "src": "assets/individuals/persones/vei/realista-01.webp",
+      "title": {
+        "ca": "VEÍ · dibuix realista",
+        "es": "VECINO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’un home i una dona saludant-se des de dos habitatges contigus.",
+        "es": "Dibujo a lápices de colores de un hombre y una mujer saludándose desde dos viviendas contiguas."
+      },
+      "tags": [
+        "w-75f47bedb8f6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:18.309285Z",
+      "target": "concept-a67d5a4933e8",
+      "targetWordIds": [
+        "w-75f47bedb8f6"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "7e5a481c99f666091df944622cbadfe0c9b6b03d8ce6d3609818b935ff820b28",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "488a98c9eb2eae1eedb0d89f88c785132dca21989f3db96e473efc06485a91f6"
+    },
+    {
+      "id": "cace-concept-a67d5a4933e8-pla-01",
+      "src": "assets/individuals/persones/vei/pla-01.webp",
+      "title": {
+        "ca": "VEÍ · il·lustració plana",
+        "es": "VECINO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’un home i una dona que se saluden des de dues cases veïnes.",
+        "es": "Ilustración plana de un hombre y una mujer que se saludan desde dos casas vecinas."
+      },
+      "tags": [
+        "w-75f47bedb8f6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:18.309285Z",
+      "target": "concept-a67d5a4933e8",
+      "targetWordIds": [
+        "w-75f47bedb8f6"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "72a41f1ff4ff2a2b3efdd2161fe5fa854386ad8421326477147c2525e159b73d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4f60d185234c5b094a94d0178ad3dc8f4430add9639ee1f68dc77daab0cba0c8"
+    },
+    {
+      "id": "cace-concept-77cd9908c54c-foto-01",
+      "src": "assets/individuals/verbs/veure/foto-01.webp",
+      "title": {
+        "ca": "VEURE · fotografia 1",
+        "es": "VER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona amb jersei groc mira una papallona taronja situada a l’altura dels seus ulls.",
+        "es": "Una mujer con jersey amarillo mira una mariposa naranja situada a la altura de sus ojos."
+      },
+      "tags": [
+        "w-c53e5833e5d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:14.214224Z",
+      "target": "concept-77cd9908c54c",
+      "targetWordIds": [
+        "w-c53e5833e5d3"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "2c976d6f2b95c3bc6372f6a663d4ecf395f8db9dc1981d56de8c41b5669dc787",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ec346087a054d18455920a56b2cd8b4d004122fbd5116e2c8be397afbfaa97f0"
+    },
+    {
+      "id": "cace-concept-77cd9908c54c-foto-02",
+      "src": "assets/individuals/verbs/veure/foto-02.webp",
+      "title": {
+        "ca": "VEURE · fotografia 2",
+        "es": "VER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home gran amb jaqueta blava mira un ocell vermell posat en una branca.",
+        "es": "Un hombre mayor con chaqueta azul mira un pájaro rojo posado en una rama."
+      },
+      "tags": [
+        "w-c53e5833e5d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:14.214224Z",
+      "target": "concept-77cd9908c54c",
+      "targetWordIds": [
+        "w-c53e5833e5d3"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "bf98cc8aa10486a0762b2e6415e097ab6a0df1d60476c93bb2dc2e8e1bfa5afa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "80e7007b97fc1da0c933e3720754a5ae1201bcff89c5bad3ddde9e48c4f52784"
+    },
+    {
+      "id": "cace-concept-77cd9908c54c-realista-01",
+      "src": "assets/individuals/verbs/veure/realista-01.webp",
+      "title": {
+        "ca": "VEURE · dibuix realista",
+        "es": "VER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’una nena observant una papallona sobre una flor.",
+        "es": "Dibujo a lápices de colores de una niña observando una mariposa sobre una flor."
+      },
+      "tags": [
+        "w-c53e5833e5d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:14.214224Z",
+      "target": "concept-77cd9908c54c",
+      "targetWordIds": [
+        "w-c53e5833e5d3"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "5986f264491d783e367468e5bfc4edd80ca24026d9b1c6800f940b73b8cb900c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e09d5b4195c3ab5bae8629126af42d788a1c819d4c09a2bcb051375abfe07c6f"
+    },
+    {
+      "id": "cace-concept-77cd9908c54c-pla-01",
+      "src": "assets/individuals/verbs/veure/pla-01.webp",
+      "title": {
+        "ca": "VEURE · il·lustració plana",
+        "es": "VER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’un nen mirant una papallona blava damunt d’una planta.",
+        "es": "Ilustración plana de un niño mirando una mariposa azul sobre una planta."
+      },
+      "tags": [
+        "w-c53e5833e5d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:14.214224Z",
+      "target": "concept-77cd9908c54c",
+      "targetWordIds": [
+        "w-c53e5833e5d3"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "5fc99ceee4381c28c98b247af18a0534a7198b260ed42752c157493adac0f690",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5a97e1377cf1483dc5f1d20aec736174971fda9dc7e1b1654f6dbe34e31126e2"
+    },
+    {
+      "id": "cace-concept-f7d60be25966-foto-01",
+      "src": "assets/individuals/personal/aficions-personal/foto-01.webp",
+      "title": {
+        "ca": "AFICIONS · fotografia 1",
+        "es": "AFICIONES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una guitarra, un llibre verd i una paleta de pintor amb un pinzell.",
+        "es": "Una guitarra, un libro verde y una paleta de pintor con un pincel."
+      },
+      "tags": [
+        "w-18df7dae0df1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:11.280051Z",
+      "target": "concept-f7d60be25966",
+      "targetWordIds": [
+        "w-18df7dae0df1"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b9ead971b976199e728c2336cf69184c43ec05a67ea301b74f98e6959b78d76e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6d298b9830e8b4e55478d7cfab0be77aa4969c24d4c51f7def144ad8029da909"
+    },
+    {
+      "id": "cace-concept-f7d60be25966-foto-02",
+      "src": "assets/individuals/personal/aficions-personal/foto-02.webp",
+      "title": {
+        "ca": "AFICIONS · fotografia 2",
+        "es": "AFICIONES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dos cabdells de llana, dues agulles de fer mitja, un llibre vermell i un tauler d’escacs amb peces.",
+        "es": "Dos ovillos de lana, dos agujas de tejer, un libro rojo y un tablero de ajedrez con piezas."
+      },
+      "tags": [
+        "w-18df7dae0df1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:11.280051Z",
+      "target": "concept-f7d60be25966",
+      "targetWordIds": [
+        "w-18df7dae0df1"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "534a56cefba4ff7c6db726eb49f57bd0e5c27db5fc26e92d3e0a885d77c15466",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7dc58a6de7d77b868324c91de40570d06126f8e43798d399c24af009cbfa936c"
+    },
+    {
+      "id": "cace-concept-f7d60be25966-realista-01",
+      "src": "assets/individuals/personal/aficions-personal/realista-01.webp",
+      "title": {
+        "ca": "AFICIONS · dibuix realista",
+        "es": "AFICIONES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors d’una guitarra, un llibre blau i una paleta amb pintures i un pinzell.",
+        "es": "Dibujo a lápices de colores de una guitarra, un libro azul y una paleta con pinturas y un pincel."
+      },
+      "tags": [
+        "w-18df7dae0df1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:11.280051Z",
+      "target": "concept-f7d60be25966",
+      "targetWordIds": [
+        "w-18df7dae0df1"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "3c5547c829db39963b8cc708772123895a16b95bb1753ef5f9cf2e4b8ba826f5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7259429fbd80f5088f91a5926e947101babe6759f187b941f1c5951e2d7a6c19"
+    },
+    {
+      "id": "cace-concept-f7d60be25966-pla-01",
+      "src": "assets/individuals/personal/aficions-personal/pla-01.webp",
+      "title": {
+        "ca": "AFICIONS · il·lustració plana",
+        "es": "AFICIONES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’una guitarra, un llibre verd i una paleta amb un pinzell.",
+        "es": "Ilustración plana de una guitarra, un libro verde y una paleta con un pincel."
+      },
+      "tags": [
+        "w-18df7dae0df1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:11.280051Z",
+      "target": "concept-f7d60be25966",
+      "targetWordIds": [
+        "w-18df7dae0df1"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "f327b2246213a24331ca60852c30fe1d3d4bd682a36a37ed249fd0d3b5788d8b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5bebf70b60435ae88712f6508fb3bbd5722072175c6743dfddab32c70d3c50ba"
+    },
+    {
+      "id": "cace-concept-25e89611b0f1-foto-01",
+      "src": "assets/individuals/personal/color-personal/foto-01.webp",
+      "title": {
+        "ca": "COLOR · fotografia 1",
+        "es": "COLOR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Cinc blocs de fusta pintats de vermell, groc, verd, blau i lila.",
+        "es": "Cinco bloques de madera pintados de rojo, amarillo, verde, azul y morado."
+      },
+      "tags": [
+        "w-0320a718c599"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:09.718509Z",
+      "target": "concept-25e89611b0f1",
+      "targetWordIds": [
+        "w-0320a718c599"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "af5e83889acad64245212202414f2e81b980ed2721c30826b8fa37b033a5f312",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fa3cef2607201e5b59d294be28fbcbab66165844f76cd6c91669b65271e65923"
+    },
+    {
+      "id": "cace-concept-25e89611b0f1-foto-02",
+      "src": "assets/individuals/personal/color-personal/foto-02.webp",
+      "title": {
+        "ca": "COLOR · fotografia 2",
+        "es": "COLOR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Cinc bols blancs amb pigments de colors diferents.",
+        "es": "Cinco cuencos blancos con pigmentos de distintos colores."
+      },
+      "tags": [
+        "w-0320a718c599"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:09.718509Z",
+      "target": "concept-25e89611b0f1",
+      "targetWordIds": [
+        "w-0320a718c599"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "c5a1e99a473282cbcea8efd1838306ff2f5791a923f6cd4ded251dafc87012e4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "00f63ea4c1cf1bb9d3775f630675c0512cf95b8658992f020b56237379d6469b"
+    },
+    {
+      "id": "cace-concept-25e89611b0f1-realista-01",
+      "src": "assets/individuals/personal/color-personal/realista-01.webp",
+      "title": {
+        "ca": "COLOR · dibuix realista",
+        "es": "COLOR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors de cinc blocs de fusta vermell, groc, verd, blau i lila.",
+        "es": "Dibujo a lápices de colores de cinco bloques de madera rojo, amarillo, verde, azul y morado."
+      },
+      "tags": [
+        "w-0320a718c599"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:09.718509Z",
+      "target": "concept-25e89611b0f1",
+      "targetWordIds": [
+        "w-0320a718c599"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "463d7b0f0f992965bcde65917ac736eb0656d8e61966367fe7d27528161e38b9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8868e511725c2007bb90d508d3e463858484f0999a35bf03e4e768e8f524cfb3"
+    },
+    {
+      "id": "cace-concept-25e89611b0f1-pla-01",
+      "src": "assets/individuals/personal/color-personal/pla-01.webp",
+      "title": {
+        "ca": "COLOR · il·lustració plana",
+        "es": "COLOR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’un nen agenollat que sosté cinc ceres de colors diferents.",
+        "es": "Ilustración plana de un niño arrodillado que sostiene cinco ceras de distintos colores."
+      },
+      "tags": [
+        "w-0320a718c599"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:09.718509Z",
+      "target": "concept-25e89611b0f1",
+      "targetWordIds": [
+        "w-0320a718c599"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "03b470a5701a03cfd0adb657522e259e3f88747ecb7f1d3aa592fc7e9d10310e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cbc54143084bf0d59aab5349a7d2568917f260a6f300b71ecfbdc7d4082d78c0"
+    },
+    {
+      "id": "cace-concept-b2c3b7732ba4-foto-01",
+      "src": "assets/individuals/personal/musica-personal/foto-01.webp",
+      "title": {
+        "ca": "MÚSICA · fotografia 1",
+        "es": "MÚSICA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una guitarra de fusta, una pandereta verda i dues maraques vermelles.",
+        "es": "Una guitarra de madera, una pandereta verde y dos maracas rojas."
+      },
+      "tags": [
+        "w-0360962feb47"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:07.585254Z",
+      "target": "concept-b2c3b7732ba4",
+      "targetWordIds": [
+        "w-0360962feb47"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "7ed1aec0637460b0cac2de25d1ac68609d223c41b7bd2a334820d26b2f0071c6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5d291fb33d5fc142091272f62572ab4e97046e5e1013141aa49ed021562e6da1"
+    },
+    {
+      "id": "cace-concept-b2c3b7732ba4-foto-02",
+      "src": "assets/individuals/personal/musica-personal/foto-02.webp",
+      "title": {
+        "ca": "MÚSICA · fotografia 2",
+        "es": "MÚSICA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un violí amb l’arc, un tambor de mà i dues claves de fusta.",
+        "es": "Un violín con su arco, un tambor de mano y dos claves de madera."
+      },
+      "tags": [
+        "w-0360962feb47"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:07.585254Z",
+      "target": "concept-b2c3b7732ba4",
+      "targetWordIds": [
+        "w-0360962feb47"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "33b11c51ba59a72a518d4fde2fa6c651ec78805711c685999b2e97593fb97b48",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7c6db3b0d0958436b4b9672e53e31adccb278f5bded468b6192f8fb050dda818"
+    },
+    {
+      "id": "cace-concept-b2c3b7732ba4-realista-01",
+      "src": "assets/individuals/personal/musica-personal/realista-01.webp",
+      "title": {
+        "ca": "MÚSICA · dibuix realista",
+        "es": "MÚSICA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de colors de tres persones tocant la guitarra, un tambor de mà i la flauta de bec.",
+        "es": "Dibujo a lápices de colores de tres personas tocando la guitarra, un tambor de mano y la flauta dulce."
+      },
+      "tags": [
+        "w-0360962feb47"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:07.585254Z",
+      "target": "concept-b2c3b7732ba4",
+      "targetWordIds": [
+        "w-0360962feb47"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "e1bc7db16382f6764fa179d52fc3a89859caa34872f704e6649c1dcc2e58f38e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b2d8ff98688527827ccd7d235e4fa53bba123ac629041d031b22ae7482f20210"
+    },
+    {
+      "id": "cace-concept-b2c3b7732ba4-pla-01",
+      "src": "assets/individuals/personal/musica-personal/pla-01.webp",
+      "title": {
+        "ca": "MÚSICA · il·lustració plana",
+        "es": "MÚSICA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració plana d’una guitarra, una pandereta verda i dues maraques taronges.",
+        "es": "Ilustración plana de una guitarra, una pandereta verde y dos maracas naranjas."
+      },
+      "tags": [
+        "w-0360962feb47"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:11:07.585254Z",
+      "target": "concept-b2c3b7732ba4",
+      "targetWordIds": [
+        "w-0360962feb47"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "d9b6d68092e4e7f97cf8ef6717958e120b654a7f9ae292ad08437c5e8e78f58e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9f7ef68e85717186d410dd4e65c3dcaa18f9139ef484a603b6b75a65f763ec0a"
+    },
     {
       "id": "cace-concept-f795eccf52a1-foto-01",
       "src": "assets/individuals/verbs/aprendre/foto-01.webp",
@@ -79423,7 +80383,23 @@
         "cace-concept-796b09347f01-foto-01",
         "cace-concept-796b09347f01-foto-02",
         "cace-concept-f795eccf52a1-foto-01",
-        "cace-concept-f795eccf52a1-foto-02"
+        "cace-concept-f795eccf52a1-foto-02",
+        "cace-concept-b2c3b7732ba4-foto-01",
+        "cace-concept-b2c3b7732ba4-foto-02",
+        "cace-concept-25e89611b0f1-foto-01",
+        "cace-concept-25e89611b0f1-foto-02",
+        "cace-concept-f7d60be25966-foto-01",
+        "cace-concept-f7d60be25966-foto-02",
+        "cace-concept-77cd9908c54c-foto-01",
+        "cace-concept-77cd9908c54c-foto-02",
+        "cace-concept-a67d5a4933e8-foto-01",
+        "cace-concept-a67d5a4933e8-foto-02",
+        "cace-concept-6c4c88f15893-foto-01",
+        "cace-concept-6c4c88f15893-foto-02",
+        "cace-concept-e1086e5c4d5f-foto-01",
+        "cace-concept-e1086e5c4d5f-foto-02",
+        "cace-concept-f53cfc6c2bd7-foto-01",
+        "cace-concept-f53cfc6c2bd7-foto-02"
       ]
     },
     {
@@ -79983,7 +80959,15 @@
         "cace-concept-a1beb785256f-realista-01",
         "cace-concept-5b7447ff44dd-realista-01",
         "cace-concept-796b09347f01-realista-01",
-        "cace-concept-f795eccf52a1-realista-01"
+        "cace-concept-f795eccf52a1-realista-01",
+        "cace-concept-b2c3b7732ba4-realista-01",
+        "cace-concept-25e89611b0f1-realista-01",
+        "cace-concept-f7d60be25966-realista-01",
+        "cace-concept-77cd9908c54c-realista-01",
+        "cace-concept-a67d5a4933e8-realista-01",
+        "cace-concept-6c4c88f15893-realista-01",
+        "cace-concept-e1086e5c4d5f-realista-01",
+        "cace-concept-f53cfc6c2bd7-realista-01"
       ]
     },
     {
@@ -80543,7 +81527,15 @@
         "cace-concept-a1beb785256f-pla-01",
         "cace-concept-5b7447ff44dd-pla-01",
         "cace-concept-796b09347f01-pla-01",
-        "cace-concept-f795eccf52a1-pla-01"
+        "cace-concept-f795eccf52a1-pla-01",
+        "cace-concept-b2c3b7732ba4-pla-01",
+        "cace-concept-25e89611b0f1-pla-01",
+        "cace-concept-f7d60be25966-pla-01",
+        "cace-concept-77cd9908c54c-pla-01",
+        "cace-concept-a67d5a4933e8-pla-01",
+        "cace-concept-6c4c88f15893-pla-01",
+        "cace-concept-e1086e5c4d5f-pla-01",
+        "cace-concept-f53cfc6c2bd7-pla-01"
       ]
     }
   ]
