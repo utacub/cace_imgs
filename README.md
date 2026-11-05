@@ -4,16 +4,16 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.83 conté **2440 estímuls generats i revisats visualment per a 610 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.84 conté **2480 estímuls generats i revisats visualment per a 620 paraules**, més **8 mostres inicials**. Cada grup complet inclou dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
-L'últim lot conté VOLER, AGRADAR, TENIR, TORNAR, PEGAR, BARALLAR-SE, NECESSITAR i PERDRE (32 imatges). `production/` conserva els briefs i una cua de 72 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+L'últim lot conté MATÍ, TARDA, TOT, RES, TRO, TEMPS, OBLIDAR, RECORDAR, FEBRE i ENCÀRREC (40 imatges). `production/` conserva els briefs i una cua de 62 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 2448 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 2488 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
