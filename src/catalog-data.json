@@ -1,5 +1,5 @@
 {
-  "version": "0.1.79",
+  "version": "0.1.80",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-398c012f6a56-foto-01",
+      "src": "assets/individuals/llocs/correus/foto-01.webp",
+      "title": {
+        "ca": "CORREUS · fotografia 1",
+        "es": "CORREOS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una clienta entrega un sobre al taulell de correus, amb un classificador i paquets al darrere.",
+        "es": "Una clienta entrega un sobre en el mostrador de correos, con un clasificador y paquetes detrás."
+      },
+      "tags": [
+        "w-672b6da3feee"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:40.840871Z",
+      "target": "concept-398c012f6a56",
+      "targetWordIds": [
+        "w-672b6da3feee"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b223c454caa4887020e6927aa4fa034e2ec65e0023e5e1313e7c06ed008aadbe",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "74833c73d4843931c8c5a78c75d73bf5d5171d692b7cc3d996e174bfe1dc0c39"
+    },
+    {
+      "id": "cace-concept-398c012f6a56-foto-02",
+      "src": "assets/individuals/llocs/correus/foto-02.webp",
+      "title": {
+        "ca": "CORREUS · fotografia 2",
+        "es": "CORREOS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una clienta entrega un paquet al taulell de correus blau.",
+        "es": "Una clienta entrega un paquete en el mostrador de correos azul."
+      },
+      "tags": [
+        "w-672b6da3feee"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:40.840871Z",
+      "target": "concept-398c012f6a56",
+      "targetWordIds": [
+        "w-672b6da3feee"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "ee3ff437ae38cabeb3b4df1057adae9f6a70652e840b7373028fba0c2a9d3278",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "df04e86b5399736d5750e87b7b7bab9f87edadc733417acc136eed4194535fa7"
+    },
+    {
+      "id": "cace-concept-398c012f6a56-realista-01",
+      "src": "assets/individuals/llocs/correus/realista-01.webp",
+      "title": {
+        "ca": "CORREUS · dibuix realista",
+        "es": "CORREOS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis del taulell de correus amb sobres i paquets.",
+        "es": "Dibujo a lápiz del mostrador de correos con sobres y paquetes."
+      },
+      "tags": [
+        "w-672b6da3feee"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:40.840871Z",
+      "target": "concept-398c012f6a56",
+      "targetWordIds": [
+        "w-672b6da3feee"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "366eafbd6594b8e26cb1f6c011ba0a279ba71b5bd7dbf6150abccc8b37b6edce",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1c1ccaaa8db99563d574320b9cf4261e5091a814c43008c1b67141fba272f17e"
+    },
+    {
+      "id": "cace-concept-398c012f6a56-pla-01",
+      "src": "assets/individuals/llocs/correus/pla-01.webp",
+      "title": {
+        "ca": "CORREUS · il·lustració plana",
+        "es": "CORREOS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un client entrega un paquet a una treballadora de correus davant d’un classificador de sobres.",
+        "es": "Un cliente entrega un paquete a una trabajadora de correos ante un clasificador de sobres."
+      },
+      "tags": [
+        "w-672b6da3feee"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:40.840871Z",
+      "target": "concept-398c012f6a56",
+      "targetWordIds": [
+        "w-672b6da3feee"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ddcd3b9255bbd08e234048ae2c2b8427a72a284254bb66a8c6eb4c9a8b3b5a98",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "85b24068bfd7b3a0e042a9fcb121dee7cfeede4894a94a2caac0d96aad7fded8"
+    },
+    {
+      "id": "cace-concept-584e790dbf3e-foto-01",
+      "src": "assets/individuals/llocs/residencia/foto-01.webp",
+      "title": {
+        "ca": "RESIDÈNCIA · fotografia 1",
+        "es": "RESIDENCIA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una cuidadora acompanya dues persones grans a la sala d’estar d’una residència.",
+        "es": "Una cuidadora acompaña a dos personas mayores en la sala de estar de una residencia."
+      },
+      "tags": [
+        "w-4d289ce9f411"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:36.359053Z",
+      "target": "concept-584e790dbf3e",
+      "targetWordIds": [
+        "w-4d289ce9f411"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "8fdd04740454a119a7bec20bd3a3d2f36c41423768c057b7ecc11fe71737b1e4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6657ed0044e19ce5874b9c30456a4dc9939d59e9b1d1f033285cc7c0e3701ed9"
+    },
+    {
+      "id": "cace-concept-584e790dbf3e-foto-02",
+      "src": "assets/individuals/llocs/residencia/foto-02.webp",
+      "title": {
+        "ca": "RESIDÈNCIA · fotografia 2",
+        "es": "RESIDENCIA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dues dones grans seuen en un sofà amb una cuidadora al costat, a la residència.",
+        "es": "Dos mujeres mayores se sientan en un sofá con una cuidadora al lado, en la residencia."
+      },
+      "tags": [
+        "w-4d289ce9f411"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:36.359053Z",
+      "target": "concept-584e790dbf3e",
+      "targetWordIds": [
+        "w-4d289ce9f411"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "4fe5e7d7aba794885f5f2c7c5fc27fbe2d46ea6acbb2134ff2c77a170f32ceb9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "28e284af9a0af03c18ad3875d88caf67ffdffed1114a3ab899c3428e0a6494ae"
+    },
+    {
+      "id": "cace-concept-584e790dbf3e-realista-01",
+      "src": "assets/individuals/llocs/residencia/realista-01.webp",
+      "title": {
+        "ca": "RESIDÈNCIA · dibuix realista",
+        "es": "RESIDENCIA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una cuidadora que acompanya dues persones grans en una residència.",
+        "es": "Dibujo a lápiz de una cuidadora que acompaña a dos personas mayores en una residencia."
+      },
+      "tags": [
+        "w-4d289ce9f411"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:36.359053Z",
+      "target": "concept-584e790dbf3e",
+      "targetWordIds": [
+        "w-4d289ce9f411"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "c4a0958e9d0fe61b8a6e8976aa66f2ff4a04b0537d25a303afd018eb0c882ae8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "753d6ea39e55cc22cdf9d09612efbcf0a01857a275728cc99ac7edc93a969c5b"
+    },
+    {
+      "id": "cace-concept-584e790dbf3e-pla-01",
+      "src": "assets/individuals/llocs/residencia/pla-01.webp",
+      "title": {
+        "ca": "RESIDÈNCIA · il·lustració plana",
+        "es": "RESIDENCIA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una cuidadora amb dues persones grans en una sala d’estar d’una residència.",
+        "es": "Una cuidadora con dos personas mayores en una sala de estar de una residencia."
+      },
+      "tags": [
+        "w-4d289ce9f411"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:36.359053Z",
+      "target": "concept-584e790dbf3e",
+      "targetWordIds": [
+        "w-4d289ce9f411"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "9e788eb46151d78a90ada34598c59ac5e67a3e94ffc9c15cc20b5e3118390ce7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f4b9b91b08a63b1eae99e1fe7edd08ef63518bace644605f57d7158c882868da"
+    },
+    {
+      "id": "cace-concept-dad7e16b0f83-foto-01",
+      "src": "assets/individuals/verbs/canviar/foto-01.webp",
+      "title": {
+        "ca": "CANVIAR · fotografia 1",
+        "es": "CAMBIAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona i un home canvien una poma per una pera.",
+        "es": "Una mujer y un hombre cambian una manzana por una pera."
+      },
+      "tags": [
+        "w-c219d9b9c8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:32.078034Z",
+      "target": "concept-dad7e16b0f83",
+      "targetWordIds": [
+        "w-c219d9b9c8d3"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "7563378d1b028eb7cd558b68c0075ac34d0c181f2bf764c728e0efceae189953",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0e10ac83bc13fee6390816d20a4189c736a4c8cd1c7725e54577e8ea2f2e721e"
+    },
+    {
+      "id": "cace-concept-dad7e16b0f83-foto-02",
+      "src": "assets/individuals/verbs/canviar/foto-02.webp",
+      "title": {
+        "ca": "CANVIAR · fotografia 2",
+        "es": "CAMBIAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dues dones canvien un jersei blau per un de taronja.",
+        "es": "Dos mujeres cambian un jersey azul por uno naranja."
+      },
+      "tags": [
+        "w-c219d9b9c8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:32.078034Z",
+      "target": "concept-dad7e16b0f83",
+      "targetWordIds": [
+        "w-c219d9b9c8d3"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "895147d91057697839af17a1dcb452778eadafc9b5c7deeb75e3f128d6521649",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1f3f0793de4ac034b111988c0d31457ce28e248f49087ca64238ebf6e6339535"
+    },
+    {
+      "id": "cace-concept-dad7e16b0f83-realista-01",
+      "src": "assets/individuals/verbs/canviar/realista-01.webp",
+      "title": {
+        "ca": "CANVIAR · dibuix realista",
+        "es": "CAMBIAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de dues persones que canvien una poma per una pera.",
+        "es": "Dibujo a lápiz de dos personas que cambian una manzana por una pera."
+      },
+      "tags": [
+        "w-c219d9b9c8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:32.078034Z",
+      "target": "concept-dad7e16b0f83",
+      "targetWordIds": [
+        "w-c219d9b9c8d3"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "3644ab4f6e0d445119b85b3c5aab424e6835aa815530f2c9802ac3ef2adc8d4a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b52beba67b9dc564615962bb993e6a122a4626ff11b82ae54d866b308b399293"
+    },
+    {
+      "id": "cace-concept-dad7e16b0f83-pla-01",
+      "src": "assets/individuals/verbs/canviar/pla-01.webp",
+      "title": {
+        "ca": "CANVIAR · il·lustració plana",
+        "es": "CAMBIAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dues persones canvien una poma per una pera, amb fletxes en sentits oposats.",
+        "es": "Dos personas cambian una manzana por una pera, con flechas en sentidos opuestos."
+      },
+      "tags": [
+        "w-c219d9b9c8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:32.078034Z",
+      "target": "concept-dad7e16b0f83",
+      "targetWordIds": [
+        "w-c219d9b9c8d3"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "568ae1299ef6e1b89b231e506f204b69df5c4d8608eda76a2ddcdbd519e51826",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b5adcc98a8a3ba88e06b33734ee912a3721d01be69ef9594dd07b6310feaff94"
+    },
+    {
+      "id": "cace-concept-35f0d2f3854d-foto-01",
+      "src": "assets/individuals/verbs/pensar/foto-01.webp",
+      "title": {
+        "ca": "PENSAR · fotografia 1",
+        "es": "PENSAR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona pensa en una poma, amb el dit a la templa.",
+        "es": "Una mujer piensa en una manzana, con el dedo en la sien."
+      },
+      "tags": [
+        "w-c1bcee32b1a0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:27.184114Z",
+      "target": "concept-35f0d2f3854d",
+      "targetWordIds": [
+        "w-c1bcee32b1a0"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "cc22b7b0af189f6fc38ef5eb4e85d21813d5b8773aa61a18ad018726a3bfe9da",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cb7be39830daa5fee1c351429c812fd599306d853824eea79d41e60db7864b6f"
+    },
+    {
+      "id": "cace-concept-35f0d2f3854d-foto-02",
+      "src": "assets/individuals/verbs/pensar/foto-02.webp",
+      "title": {
+        "ca": "PENSAR · fotografia 2",
+        "es": "PENSAR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home pensa en una bicicleta amb la mà a la barbeta.",
+        "es": "Un hombre piensa en una bicicleta con la mano en la barbilla."
+      },
+      "tags": [
+        "w-c1bcee32b1a0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:27.184114Z",
+      "target": "concept-35f0d2f3854d",
+      "targetWordIds": [
+        "w-c1bcee32b1a0"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "f9130d22cf599d79c80ed51ea5a6d8f06c4b378d69fe7d39f0d03395810e736b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e82206580cb55bba700b73d66883c0c1bd2a1519bcb63045338baf74464685cf"
+    },
+    {
+      "id": "cace-concept-35f0d2f3854d-realista-01",
+      "src": "assets/individuals/verbs/pensar/realista-01.webp",
+      "title": {
+        "ca": "PENSAR · dibuix realista",
+        "es": "PENSAR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que pensa en una casa.",
+        "es": "Dibujo a lápiz de una mujer que piensa en una casa."
+      },
+      "tags": [
+        "w-c1bcee32b1a0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:27.184114Z",
+      "target": "concept-35f0d2f3854d",
+      "targetWordIds": [
+        "w-c1bcee32b1a0"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "fe2606e38e2b51b84ddfddfaed5e39c9921f071991805e7a2f27f195e0d2b4d0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "947792d0a8ce6c525a16c54aa22a123ddd6d52759dc2b7df63e835d31a4d0b61"
+    },
+    {
+      "id": "cace-concept-35f0d2f3854d-pla-01",
+      "src": "assets/individuals/verbs/pensar/pla-01.webp",
+      "title": {
+        "ca": "PENSAR · il·lustració plana",
+        "es": "PENSAR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home pensa en una poma en una il·lustració plana.",
+        "es": "Un hombre piensa en una manzana en una ilustración plana."
+      },
+      "tags": [
+        "w-c1bcee32b1a0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:27.184114Z",
+      "target": "concept-35f0d2f3854d",
+      "targetWordIds": [
+        "w-c1bcee32b1a0"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "6d386634c86ce9d6c3359170a0cfbe083068ca992592bcdb5bff3d8ab9f84614",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3bad4b0841b99d5581e0330e83aa3c4462c119b0eeed514908ca7f9d65f0988a"
+    },
+    {
+      "id": "cace-concept-302b881d5a8b-foto-01",
+      "src": "assets/individuals/cos/maluc/foto-01.webp",
+      "title": {
+        "ca": "MALUC · fotografia 1",
+        "es": "CADERA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el maluc d’una dona vestida amb pantalons curts.",
+        "es": "Una flecha señala la cadera de una mujer vestida con pantalones cortos."
+      },
+      "tags": [
+        "w-51354d58a5d6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:21.959800Z",
+      "target": "concept-302b881d5a8b",
+      "targetWordIds": [
+        "w-51354d58a5d6"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "af98609a2a6c46576dd05b31ae0979768aae13045b2ac7a1cdf4cb531bbb8112",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c32a3a8c7e5fdaf8e1be8b5701a962c808ef164265f2a2b57da6e9cee511fcee"
+    },
+    {
+      "id": "cace-concept-302b881d5a8b-foto-02",
+      "src": "assets/individuals/cos/maluc/foto-02.webp",
+      "title": {
+        "ca": "MALUC · fotografia 2",
+        "es": "CADERA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el maluc d’un home vist de costat amb pantalons blaus.",
+        "es": "Una flecha señala la cadera de un hombre visto de lado con pantalones azules."
+      },
+      "tags": [
+        "w-51354d58a5d6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:21.959800Z",
+      "target": "concept-302b881d5a8b",
+      "targetWordIds": [
+        "w-51354d58a5d6"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "2f0db1dc6bc6579adbb358dc4aadf3bff474558a970f80a572f232e74cf372e4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "50946372e62c87a433746ebb62b81b494603cb31e11e1115681529102101b719"
+    },
+    {
+      "id": "cace-concept-302b881d5a8b-realista-01",
+      "src": "assets/individuals/cos/maluc/realista-01.webp",
+      "title": {
+        "ca": "MALUC · dibuix realista",
+        "es": "CADERA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis del maluc assenyalat amb una fletxa sobre uns pantalons verds.",
+        "es": "Dibujo a lápiz de la cadera señalada con una flecha sobre unos pantalones verdes."
+      },
+      "tags": [
+        "w-51354d58a5d6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:21.959800Z",
+      "target": "concept-302b881d5a8b",
+      "targetWordIds": [
+        "w-51354d58a5d6"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "79ff849195b390f800b2aa165d134df134938e2833a43917306e6b0be40ff903",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4d94724aa76243b637e975810bbff86224fd1059dbcee59dffa289b010840799"
+    },
+    {
+      "id": "cace-concept-302b881d5a8b-pla-01",
+      "src": "assets/individuals/cos/maluc/pla-01.webp",
+      "title": {
+        "ca": "MALUC · il·lustració plana",
+        "es": "CADERA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala el maluc d’un home en una il·lustració plana.",
+        "es": "Una flecha señala la cadera de un hombre en una ilustración plana."
+      },
+      "tags": [
+        "w-51354d58a5d6"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:21.959800Z",
+      "target": "concept-302b881d5a8b",
+      "targetWordIds": [
+        "w-51354d58a5d6"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "6459199cb8b481473df8e4110350555a2724340ed2c134a2bbe884ddba055fe8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dd685c0b5339bee6feaa9fd422f8306a029c8d439426ad8857df8178b3aa96fd"
+    },
+    {
+      "id": "cace-concept-bb8cb05a4a9b-foto-01",
+      "src": "assets/individuals/cos/cos/foto-01.webp",
+      "title": {
+        "ca": "COS · fotografia 1",
+        "es": "CUERPO · fotografía 1"
+      },
+      "alt": {
+        "ca": "El cos sencer d’una dona, amb els braços una mica separats.",
+        "es": "El cuerpo entero de una mujer, con los brazos ligeramente separados."
+      },
+      "tags": [
+        "w-b95d76a3f869"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:17.784013Z",
+      "target": "concept-bb8cb05a4a9b",
+      "targetWordIds": [
+        "w-b95d76a3f869"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "99ddd93178808f7749ed3058c5d289e91a3a21e94003e973c6bcecbb1f104c71",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6654a868107b201d6cff06ebf7793d02fb86bc6654af34543bbb71fef9be34fa"
+    },
+    {
+      "id": "cace-concept-bb8cb05a4a9b-foto-02",
+      "src": "assets/individuals/cos/cos/foto-02.webp",
+      "title": {
+        "ca": "COS · fotografia 2",
+        "es": "CUERPO · fotografía 2"
+      },
+      "alt": {
+        "ca": "El cos sencer d’un home, assenyalat de cap a peus.",
+        "es": "El cuerpo entero de un hombre, señalado de la cabeza a los pies."
+      },
+      "tags": [
+        "w-b95d76a3f869"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:17.784013Z",
+      "target": "concept-bb8cb05a4a9b",
+      "targetWordIds": [
+        "w-b95d76a3f869"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "166a9514cbb001381c804a26adc6bf1fe4cbf7291087973b3cd916255aba00d1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "84ec46a4fdff4bb4f4212f876fa37aec286e93189dba90fbcdf72911928af7a8"
+    },
+    {
+      "id": "cace-concept-bb8cb05a4a9b-realista-01",
+      "src": "assets/individuals/cos/cos/realista-01.webp",
+      "title": {
+        "ca": "COS · dibuix realista",
+        "es": "CUERPO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis del cos sencer d’una dona amb samarreta verda.",
+        "es": "Dibujo a lápiz del cuerpo entero de una mujer con camiseta verde."
+      },
+      "tags": [
+        "w-b95d76a3f869"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:17.784013Z",
+      "target": "concept-bb8cb05a4a9b",
+      "targetWordIds": [
+        "w-b95d76a3f869"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "beabd0a28502c9b0a4496db91f9ede26dae4ef8e1c51d855a6753b050ba14db8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "04998f94264fcdd5f25a82aaf545bb3bfaf3a42fd2c2328fd870b73e133d2ac5"
+    },
+    {
+      "id": "cace-concept-bb8cb05a4a9b-pla-01",
+      "src": "assets/individuals/cos/cos/pla-01.webp",
+      "title": {
+        "ca": "COS · il·lustració plana",
+        "es": "CUERPO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració del cos sencer d’un home amb samarreta blava i pantalons verds.",
+        "es": "Ilustración del cuerpo entero de un hombre con camiseta azul y pantalones verdes."
+      },
+      "tags": [
+        "w-b95d76a3f869"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:17.784013Z",
+      "target": "concept-bb8cb05a4a9b",
+      "targetWordIds": [
+        "w-b95d76a3f869"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "f18d9f713e4d413e480437a5c8e868b7d3b9cdb8b56b5583231b6bc68967c730",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "73cb80e6493674e5aebdfae67acc665c928468d12855973ccd324f4a68a6d079"
+    },
+    {
+      "id": "cace-concept-50ec9187fb48-foto-01",
+      "src": "assets/individuals/verbs/fer/foto-01.webp",
+      "title": {
+        "ca": "FER · fotografia 1",
+        "es": "HACER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona fa una torre amb blocs de colors.",
+        "es": "Una mujer hace una torre con bloques de colores."
+      },
+      "tags": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:15.390611Z",
+      "target": "concept-50ec9187fb48",
+      "targetWordIds": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "f857594ebd34e1faf2580f5509ee249c438a704d09dc53459fce132d71b830a5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "224c606b5c0354d6ba710417f688e60e58a94d3e99d7f28ecc58302da10e6c3d"
+    },
+    {
+      "id": "cace-concept-50ec9187fb48-foto-02",
+      "src": "assets/individuals/verbs/fer/foto-02.webp",
+      "title": {
+        "ca": "FER · fotografia 2",
+        "es": "HACER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home fa un bol modelant argila amb les mans.",
+        "es": "Un hombre hace un cuenco modelando arcilla con las manos."
+      },
+      "tags": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:15.390611Z",
+      "target": "concept-50ec9187fb48",
+      "targetWordIds": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "5f2ddb3ae8018561c37137a6372760bd62112330a6821872eb1c9206e5550d74",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0a709686e41fe2a314bce3a585001106ba503fcb2224c14a34685b03ef58e344"
+    },
+    {
+      "id": "cace-concept-50ec9187fb48-realista-01",
+      "src": "assets/individuals/verbs/fer/realista-01.webp",
+      "title": {
+        "ca": "FER · dibuix realista",
+        "es": "HACER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que fa una caseta amb blocs de fusta.",
+        "es": "Dibujo a lápiz de una mujer que hace una casita con bloques de madera."
+      },
+      "tags": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:15.390611Z",
+      "target": "concept-50ec9187fb48",
+      "targetWordIds": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "eb2591f21d4a5adb08753d0e34556afbb858ad147161c3e1900427e420fa3c1a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f9476e0b52308b620df4b61b3ef577bce0f54dd634d3c7c41bf856625763122f"
+    },
+    {
+      "id": "cace-concept-50ec9187fb48-pla-01",
+      "src": "assets/individuals/verbs/fer/pla-01.webp",
+      "title": {
+        "ca": "FER · il·lustració plana",
+        "es": "HACER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona fa una torre de blocs en una il·lustració plana.",
+        "es": "Una mujer hace una torre de bloques en una ilustración plana."
+      },
+      "tags": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:15.390611Z",
+      "target": "concept-50ec9187fb48",
+      "targetWordIds": [
+        "w-1e6bbd1f8ae5"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "077ac7578bf6f0bc17d1a89de59a1d9c0cbd476ce33d4589681e8d0db66fad7d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6a6685b80d1d4503ac64d39e7ffc4197e9a3f52dcc6d619ea81666545b83547b"
+    },
+    {
+      "id": "cace-concept-e5beb1ceba87-foto-01",
+      "src": "assets/individuals/verbs/anar/foto-01.webp",
+      "title": {
+        "ca": "ANAR · fotografia 1",
+        "es": "IR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona va caminant cap a una porta oberta.",
+        "es": "Una mujer va caminando hacia una puerta abierta."
+      },
+      "tags": [
+        "w-3cb459137885"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:13.870053Z",
+      "target": "concept-e5beb1ceba87",
+      "targetWordIds": [
+        "w-3cb459137885"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "5010e07a3f258f5e5e1bcd111a9d5962c64404b3b31c175055d7de375867e627",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e769808fc63a3655b9b7f8cce933fbed134da41ae84624a561cf289f222f71f4"
+    },
+    {
+      "id": "cace-concept-e5beb1ceba87-foto-02",
+      "src": "assets/individuals/verbs/anar/foto-02.webp",
+      "title": {
+        "ca": "ANAR · fotografia 2",
+        "es": "IR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un home va caminant cap a un banc vermell.",
+        "es": "Un hombre va caminando hacia un banco rojo."
+      },
+      "tags": [
+        "w-3cb459137885"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:13.870053Z",
+      "target": "concept-e5beb1ceba87",
+      "targetWordIds": [
+        "w-3cb459137885"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "853d0f840523262f89a17b55ab43607bc0499b633a42752b78fb43f3397d89f5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cc019453530a14ac6627009625347c91133202138915a4005697688cfcbfe9cf"
+    },
+    {
+      "id": "cace-concept-e5beb1ceba87-realista-01",
+      "src": "assets/individuals/verbs/anar/realista-01.webp",
+      "title": {
+        "ca": "ANAR · dibuix realista",
+        "es": "IR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona que va cap a una porta oberta.",
+        "es": "Dibujo a lápiz de una mujer que va hacia una puerta abierta."
+      },
+      "tags": [
+        "w-3cb459137885"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:13.870053Z",
+      "target": "concept-e5beb1ceba87",
+      "targetWordIds": [
+        "w-3cb459137885"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "f96cbacb61de9bd148922ec69daaa9b0e2ae1db8b48fa7fb3a3d79ec92f647bf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a10f6a7c560549e90f3fca9491d1ffc9e4bb2b6b6792011bc460bed50721bc31"
+    },
+    {
+      "id": "cace-concept-e5beb1ceba87-pla-01",
+      "src": "assets/individuals/verbs/anar/pla-01.webp",
+      "title": {
+        "ca": "ANAR · il·lustració plana",
+        "es": "IR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un home va cap a una porta oberta seguint la direcció d’una fletxa.",
+        "es": "Un hombre va hacia una puerta abierta siguiendo la dirección de una flecha."
+      },
+      "tags": [
+        "w-3cb459137885"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:47:13.870053Z",
+      "target": "concept-e5beb1ceba87",
+      "targetWordIds": [
+        "w-3cb459137885"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "1c8df72b9f25dc5293a4b1e4153bdd4628c4d304b46fbdebd2e7a4b09c25863a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1043d020228ffd2108578224089ef0963bd81b25118d33a297d1957adcb2de86"
+    },
     {
       "id": "cace-concept-09e15115b5aa-foto-01",
       "src": "assets/individuals/jocs/oca/foto-01.webp",
@@ -82351,7 +83311,23 @@
         "cace-concept-b1b7baa6eb74-foto-01",
         "cace-concept-b1b7baa6eb74-foto-02",
         "cace-concept-09e15115b5aa-foto-01",
-        "cace-concept-09e15115b5aa-foto-02"
+        "cace-concept-09e15115b5aa-foto-02",
+        "cace-concept-e5beb1ceba87-foto-01",
+        "cace-concept-e5beb1ceba87-foto-02",
+        "cace-concept-50ec9187fb48-foto-01",
+        "cace-concept-50ec9187fb48-foto-02",
+        "cace-concept-bb8cb05a4a9b-foto-01",
+        "cace-concept-bb8cb05a4a9b-foto-02",
+        "cace-concept-302b881d5a8b-foto-01",
+        "cace-concept-302b881d5a8b-foto-02",
+        "cace-concept-35f0d2f3854d-foto-01",
+        "cace-concept-35f0d2f3854d-foto-02",
+        "cace-concept-dad7e16b0f83-foto-01",
+        "cace-concept-dad7e16b0f83-foto-02",
+        "cace-concept-584e790dbf3e-foto-01",
+        "cace-concept-584e790dbf3e-foto-02",
+        "cace-concept-398c012f6a56-foto-01",
+        "cace-concept-398c012f6a56-foto-02"
       ]
     },
     {
@@ -82935,7 +83911,15 @@
         "cace-concept-877ebfc8946c-realista-01",
         "cace-concept-0b2225feecc1-realista-01",
         "cace-concept-b1b7baa6eb74-realista-01",
-        "cace-concept-09e15115b5aa-realista-01"
+        "cace-concept-09e15115b5aa-realista-01",
+        "cace-concept-e5beb1ceba87-realista-01",
+        "cace-concept-50ec9187fb48-realista-01",
+        "cace-concept-bb8cb05a4a9b-realista-01",
+        "cace-concept-302b881d5a8b-realista-01",
+        "cace-concept-35f0d2f3854d-realista-01",
+        "cace-concept-dad7e16b0f83-realista-01",
+        "cace-concept-584e790dbf3e-realista-01",
+        "cace-concept-398c012f6a56-realista-01"
       ]
     },
     {
@@ -83519,7 +84503,15 @@
         "cace-concept-877ebfc8946c-pla-01",
         "cace-concept-0b2225feecc1-pla-01",
         "cace-concept-b1b7baa6eb74-pla-01",
-        "cace-concept-09e15115b5aa-pla-01"
+        "cace-concept-09e15115b5aa-pla-01",
+        "cace-concept-e5beb1ceba87-pla-01",
+        "cace-concept-50ec9187fb48-pla-01",
+        "cace-concept-bb8cb05a4a9b-pla-01",
+        "cace-concept-302b881d5a8b-pla-01",
+        "cace-concept-35f0d2f3854d-pla-01",
+        "cace-concept-dad7e16b0f83-pla-01",
+        "cace-concept-584e790dbf3e-pla-01",
+        "cace-concept-398c012f6a56-pla-01"
       ]
     }
   ]
