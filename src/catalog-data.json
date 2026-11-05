@@ -1,5 +1,5 @@
 {
-  "version": "0.1.78",
+  "version": "0.1.79",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-09e15115b5aa-foto-01",
+      "src": "assets/individuals/jocs/oca/foto-01.webp",
+      "title": {
+        "ca": "OCA · fotografia 1",
+        "es": "OCA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona i un nen juguen a l’oca en un tauler quadrat.",
+        "es": "Una mujer y un niño juegan a la oca en un tablero cuadrado."
+      },
+      "tags": [
+        "w-2c87dd484b18"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:37.793017Z",
+      "target": "concept-09e15115b5aa",
+      "targetWordIds": [
+        "w-2c87dd484b18"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "0f74f652b4840fe706049bea318081f2e7de71c9fcc9e0b1deba31e3bcf08219",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b6893847a2791c5bb1642d4364b56a300b562adbad41b3711506ab4a04e0818b"
+    },
+    {
+      "id": "cace-concept-09e15115b5aa-foto-02",
+      "src": "assets/individuals/jocs/oca/foto-02.webp",
+      "title": {
+        "ca": "OCA · fotografia 2",
+        "es": "OCA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un joc de l’oca de fusta rodó, amb oques, dos peons i un dau.",
+        "es": "Un juego de la oca de madera redondo, con ocas, dos peones y un dado."
+      },
+      "tags": [
+        "w-2c87dd484b18"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:37.793017Z",
+      "target": "concept-09e15115b5aa",
+      "targetWordIds": [
+        "w-2c87dd484b18"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "29a974e9ca79a7930fe21edfa0dfe453ce0ba63b90596032da3eae9a57618a5c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bb95d17273d6c65b234c9999c6ad30ea9243c67b8a62a47bc61c754b73f7401d"
+    },
+    {
+      "id": "cace-concept-09e15115b5aa-realista-01",
+      "src": "assets/individuals/jocs/oca/realista-01.webp",
+      "title": {
+        "ca": "OCA · dibuix realista",
+        "es": "OCA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de dos infants que juguen a l’oca.",
+        "es": "Dibujo a lápiz de dos niños que juegan a la oca."
+      },
+      "tags": [
+        "w-2c87dd484b18"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:37.793017Z",
+      "target": "concept-09e15115b5aa",
+      "targetWordIds": [
+        "w-2c87dd484b18"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "53547ce3d1d11a5bf29fb8434f7c938d5db421525d48fd839971c32c84dd9e14",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "71fc24de8f9e8df71ebccfe1bbcc34d03a2d8cdfa3656d7460bad54d01c4d7e5"
+    },
+    {
+      "id": "cace-concept-09e15115b5aa-pla-01",
+      "src": "assets/individuals/jocs/oca/pla-01.webp",
+      "title": {
+        "ca": "OCA · il·lustració plana",
+        "es": "OCA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dos infants juguen a l’oca en un tauler verd amb un recorregut en espiral.",
+        "es": "Dos niños juegan a la oca en un tablero verde con un recorrido en espiral."
+      },
+      "tags": [
+        "w-2c87dd484b18"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:37.793017Z",
+      "target": "concept-09e15115b5aa",
+      "targetWordIds": [
+        "w-2c87dd484b18"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "1790be25bdbeefb2c282a65054dd255484cf327ef2cb340c58bf600df8d19b74",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e26b6d258507bb5611eefc91df9f112840a5c5b7a8779728c7d09374358fedb4"
+    },
+    {
+      "id": "cace-concept-b1b7baa6eb74-foto-01",
+      "src": "assets/individuals/jocs/parxis/foto-01.webp",
+      "title": {
+        "ca": "PARXÍS · fotografia 1",
+        "es": "PARCHÍS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Un tauler de parxís amb peons vermells, blaus, verds i grocs i dos daus.",
+        "es": "Un tablero de parchís con peones rojos, azules, verdes y amarillos y dos dados."
+      },
+      "tags": [
+        "w-ef7a02dfdb6c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:31.858963Z",
+      "target": "concept-b1b7baa6eb74",
+      "targetWordIds": [
+        "w-ef7a02dfdb6c"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "209bf14b0355c30fce4dc377a26d2c915c87c85f166cbb637fbb5db82537d164",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "63f241fb699edbaf879c918bed911cbb91909f66714d5f2ef24b058071ad6d93"
+    },
+    {
+      "id": "cace-concept-b1b7baa6eb74-foto-02",
+      "src": "assets/individuals/jocs/parxis/foto-02.webp",
+      "title": {
+        "ca": "PARXÍS · fotografia 2",
+        "es": "PARCHÍS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dues persones juguen al parxís en un tauler de fusta.",
+        "es": "Dos personas juegan al parchís en un tablero de madera."
+      },
+      "tags": [
+        "w-ef7a02dfdb6c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:31.858963Z",
+      "target": "concept-b1b7baa6eb74",
+      "targetWordIds": [
+        "w-ef7a02dfdb6c"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "e36cb88d5db197f7712f2ffb39100f7ad05980a26c2d2fc31182509d95bb5182",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "623e7766352279c4f52af27c1e296a6950a44ff430f5c3ea4930a1b8f613decd"
+    },
+    {
+      "id": "cace-concept-b1b7baa6eb74-realista-01",
+      "src": "assets/individuals/jocs/parxis/realista-01.webp",
+      "title": {
+        "ca": "PARXÍS · dibuix realista",
+        "es": "PARCHÍS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una família que juga al parxís.",
+        "es": "Dibujo a lápiz de una familia que juega al parchís."
+      },
+      "tags": [
+        "w-ef7a02dfdb6c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:31.858963Z",
+      "target": "concept-b1b7baa6eb74",
+      "targetWordIds": [
+        "w-ef7a02dfdb6c"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "39625949ca7dfb27f74f7f56d91ff977785b6c79977be484775498ab58983dae",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e5a73c8180cec698969b4b671ca52e4784306abff6da4aa41f1bf46ebcaad14c"
+    },
+    {
+      "id": "cace-concept-b1b7baa6eb74-pla-01",
+      "src": "assets/individuals/jocs/parxis/pla-01.webp",
+      "title": {
+        "ca": "PARXÍS · il·lustració plana",
+        "es": "PARCHÍS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dos infants juguen al parxís amb un tauler de quatre colors.",
+        "es": "Dos niños juegan al parchís con un tablero de cuatro colores."
+      },
+      "tags": [
+        "w-ef7a02dfdb6c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:31.858963Z",
+      "target": "concept-b1b7baa6eb74",
+      "targetWordIds": [
+        "w-ef7a02dfdb6c"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "89655b097a69c4aa94a68ce2db301bec25bf17507599d4e0de6290ec1b37314e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "652f3b8a4c8ba7879f53103aa853dd4aeb73d4b5abfc44b106384e07759c78cb"
+    },
+    {
+      "id": "cace-concept-0b2225feecc1-foto-01",
+      "src": "assets/individuals/colors/mida-colors/foto-01.webp",
+      "title": {
+        "ca": "MIDA · fotografia 1",
+        "es": "MEDIDA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona compara tres cubs de fusta de mides diferents.",
+        "es": "Una mujer compara tres cubos de madera de tamaños distintos."
+      },
+      "tags": [
+        "w-2ec7d3797ecd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:27.921594Z",
+      "target": "concept-0b2225feecc1",
+      "targetWordIds": [
+        "w-2ec7d3797ecd"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "479d9188620a2361b6a67618de3c5e5295b36288d8032eb92ee5ca7fd8c756b7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dd2fab9777f8a9a9b20b80fd17d8ac10f7481e4e1ff7f88806895aa6b02b3408"
+    },
+    {
+      "id": "cace-concept-0b2225feecc1-foto-02",
+      "src": "assets/individuals/colors/mida-colors/foto-02.webp",
+      "title": {
+        "ca": "MIDA · fotografia 2",
+        "es": "MEDIDA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona presenta tres pilotes vermelles de mides diferents.",
+        "es": "Una mujer presenta tres pelotas rojas de tamaños distintos."
+      },
+      "tags": [
+        "w-2ec7d3797ecd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:27.921594Z",
+      "target": "concept-0b2225feecc1",
+      "targetWordIds": [
+        "w-2ec7d3797ecd"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "f1dc1869081e2e8e63f8597e93db4e648093627bd0250bc84c716b7cf3acb6d7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0d8cc90d1bdbfba879b997fe6b4811a7b4b86e2fef92a3b9efb45f5dea224ac6"
+    },
+    {
+      "id": "cace-concept-0b2225feecc1-realista-01",
+      "src": "assets/individuals/colors/mida-colors/realista-01.webp",
+      "title": {
+        "ca": "MIDA · dibuix realista",
+        "es": "MEDIDA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de dos infants que comparen tres cubs verds de mides diferents.",
+        "es": "Dibujo a lápiz de dos niños que comparan tres cubos verdes de tamaños distintos."
+      },
+      "tags": [
+        "w-2ec7d3797ecd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:27.921594Z",
+      "target": "concept-0b2225feecc1",
+      "targetWordIds": [
+        "w-2ec7d3797ecd"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "f472c9917dd73feaeea91786c27d04573c6e1f6fed1414a65db81a39fefd5578",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6da0f782800fbeaa7403a8e6ba6bb4f5c032223abad7db7b9b35f02ecea65cf3"
+    },
+    {
+      "id": "cace-concept-0b2225feecc1-pla-01",
+      "src": "assets/individuals/colors/mida-colors/pla-01.webp",
+      "title": {
+        "ca": "MIDA · il·lustració plana",
+        "es": "MEDIDA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un nen presenta tres cercles blaus de mides diferents.",
+        "es": "Un niño presenta tres círculos azules de tamaños distintos."
+      },
+      "tags": [
+        "w-2ec7d3797ecd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:27.921594Z",
+      "target": "concept-0b2225feecc1",
+      "targetWordIds": [
+        "w-2ec7d3797ecd"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "07dea41433ca723263cdd70137779c24109b0ef8ea9de37182fe61af2124cb58",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e7c6a546fd10675b55d8f2c2f04828eb1d47ac6aa42beabd13185306dd86640b"
+    },
+    {
+      "id": "cace-concept-877ebfc8946c-foto-01",
+      "src": "assets/individuals/objectes/menu/foto-01.webp",
+      "title": {
+        "ca": "MENÚ · fotografia 1",
+        "es": "MANÚ · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una cambrera mostra un menú obert amb fotografies dels plats.",
+        "es": "Una camarera muestra un menú abierto con fotografías de los platos."
+      },
+      "tags": [
+        "w-7cbadca40a88"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:23.766547Z",
+      "target": "concept-877ebfc8946c",
+      "targetWordIds": [
+        "w-7cbadca40a88"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "a15a25fe3ac98f0a9defb2b9cc2f6cfb31bbd9d252a315eb84a20523598430b5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9dc139b761ac411eeeeb07b1e5c3450c36a9e1bdf4895d30b2de3bb71cc5afb3"
+    },
+    {
+      "id": "cace-concept-877ebfc8946c-foto-02",
+      "src": "assets/individuals/objectes/menu/foto-02.webp",
+      "title": {
+        "ca": "MENÚ · fotografia 2",
+        "es": "MANÚ · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un cambrer presenta a una clienta un menú amb fotografies dels plats.",
+        "es": "Un camarero presenta a una clienta un menú con fotografías de los platos."
+      },
+      "tags": [
+        "w-7cbadca40a88"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:23.766547Z",
+      "target": "concept-877ebfc8946c",
+      "targetWordIds": [
+        "w-7cbadca40a88"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "fe796982921a175302cbc1a1a2dd680c13752088d7df92fffbdbaba83a2a8d59",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f0fe8e52c38454419b13866b2e6c43f7065e38c8b5e50f19a30a45540d575e55"
+    },
+    {
+      "id": "cace-concept-877ebfc8946c-realista-01",
+      "src": "assets/individuals/objectes/menu/realista-01.webp",
+      "title": {
+        "ca": "MENÚ · dibuix realista",
+        "es": "MANÚ · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una cambrera que mostra un menú il·lustrat.",
+        "es": "Dibujo a lápiz de una camarera que muestra un menú ilustrado."
+      },
+      "tags": [
+        "w-7cbadca40a88"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:23.766547Z",
+      "target": "concept-877ebfc8946c",
+      "targetWordIds": [
+        "w-7cbadca40a88"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "18b86c2e9398a440cdfba7ef87cf3370b293acf80c7006823b1efe06720b23bd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3ce0fb4c443da4f93435c3b171ce6d70d3b7f48de19338b4b177f461791ff9db"
+    },
+    {
+      "id": "cace-concept-877ebfc8946c-pla-01",
+      "src": "assets/individuals/objectes/menu/pla-01.webp",
+      "title": {
+        "ca": "MENÚ · il·lustració plana",
+        "es": "MANÚ · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dues persones consulten un menú amb dibuixos de plats al restaurant.",
+        "es": "Dos personas consultan un menú con dibujos de platos en el restaurante."
+      },
+      "tags": [
+        "w-7cbadca40a88"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:23.766547Z",
+      "target": "concept-877ebfc8946c",
+      "targetWordIds": [
+        "w-7cbadca40a88"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "d2e9449aa12fda78704fa2918df2d1117decbc0f8e338edd2c5ba554e6196249",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c89f466d368b8e5002fafacd376958a46a7d7bcde86afa9541f4ac827571447f"
+    },
+    {
+      "id": "cace-concept-9351dc502a19-foto-01",
+      "src": "assets/individuals/objectes/calendari/foto-01.webp",
+      "title": {
+        "ca": "CALENDARI · fotografia 1",
+        "es": "CALENDARIO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona presenta un calendari de sobretaula vermell amb una casella groga.",
+        "es": "Una mujer presenta un calendario de sobremesa rojo con una casilla amarilla."
+      },
+      "tags": [
+        "w-09066e6c0e5c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:19.240919Z",
+      "target": "concept-9351dc502a19",
+      "targetWordIds": [
+        "w-09066e6c0e5c"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "976f5550537f826946e2f4b071e1a6c9b81b09d1f6e3b7c515e377b28ff6923e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4d8c35b91b36ff6dbaac379989dbe74cb838cc879352f87392ea10d0bd9d8e17"
+    },
+    {
+      "id": "cace-concept-9351dc502a19-foto-02",
+      "src": "assets/individuals/objectes/calendari/foto-02.webp",
+      "title": {
+        "ca": "CALENDARI · fotografia 2",
+        "es": "CALENDARIO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona sosté un calendari blau amb una casella encerclada.",
+        "es": "Una mujer sostiene un calendario azul con una casilla rodeada."
+      },
+      "tags": [
+        "w-09066e6c0e5c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:19.240919Z",
+      "target": "concept-9351dc502a19",
+      "targetWordIds": [
+        "w-09066e6c0e5c"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "ebadbf6e9cea520b31560995f9a39bb877e672e00f49afbbf218df427cdb83e3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e5b2e7e769242f54dd358d1413254050e35456b3080a4a3536d339ae45645772"
+    },
+    {
+      "id": "cace-concept-9351dc502a19-realista-01",
+      "src": "assets/individuals/objectes/calendari/realista-01.webp",
+      "title": {
+        "ca": "CALENDARI · dibuix realista",
+        "es": "CALENDARIO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una dona al costat d’un calendari verd.",
+        "es": "Dibujo a lápiz de una mujer junto a un calendario verde."
+      },
+      "tags": [
+        "w-09066e6c0e5c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:19.240919Z",
+      "target": "concept-9351dc502a19",
+      "targetWordIds": [
+        "w-09066e6c0e5c"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "712059fe109d169543cb98122cd6e720693aacedfeaa833209aa80e45e4018ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "65959d8079abe09abcd8c8a397d30c7cbf55817dbb08f8dbbdfc0ea1c4464455"
+    },
+    {
+      "id": "cace-concept-9351dc502a19-pla-01",
+      "src": "assets/individuals/objectes/calendari/pla-01.webp",
+      "title": {
+        "ca": "CALENDARI · il·lustració plana",
+        "es": "CALENDARIO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona assenyala un calendari de paret amb una casella blava.",
+        "es": "Una mujer señala un calendario de pared con una casilla azul."
+      },
+      "tags": [
+        "w-09066e6c0e5c"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:19.240919Z",
+      "target": "concept-9351dc502a19",
+      "targetWordIds": [
+        "w-09066e6c0e5c"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "714336308d969a1168150c8649ffc5b7df0ecc0f9674ff389d501b340d8e40e1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d55407573cdd17bd63ea6a915407a20def00a5e239ccd7960f9869e693d5c759"
+    },
+    {
+      "id": "cace-concept-9050bbbc070a-foto-01",
+      "src": "assets/individuals/objectes/targeta/foto-01.webp",
+      "title": {
+        "ca": "TARGETA · fotografia 1",
+        "es": "TARJETA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una dona mostra una targeta blava amb un xip daurat.",
+        "es": "Una mujer muestra una tarjeta azul con un chip dorado."
+      },
+      "tags": [
+        "w-71048f407cf0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:14.169093Z",
+      "target": "concept-9050bbbc070a",
+      "targetWordIds": [
+        "w-71048f407cf0"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b235d685d9283032f605acf8ba6f5c54cad3e284b8cea05e7727d778ecbf1604",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "314fd49f1dbb16c75a6c445cda8a774d455b5491adc91c01250a6b862956a31a"
+    },
+    {
+      "id": "cace-concept-9050bbbc070a-foto-02",
+      "src": "assets/individuals/objectes/targeta/foto-02.webp",
+      "title": {
+        "ca": "TARGETA · fotografia 2",
+        "es": "TARJETA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una dona mostra el revers d’una targeta granat amb banda magnètica.",
+        "es": "Una mujer muestra el reverso de una tarjeta granate con banda magnética."
+      },
+      "tags": [
+        "w-71048f407cf0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:14.169093Z",
+      "target": "concept-9050bbbc070a",
+      "targetWordIds": [
+        "w-71048f407cf0"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "a77414195fed5fa0c822844c9fa2d049aae37b3dbeeda8e61f271916c284b90a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7c6c77eada3439ecb08b7de349035949a6165352faeea49d18e462a73df32c00"
+    },
+    {
+      "id": "cace-concept-9050bbbc070a-realista-01",
+      "src": "assets/individuals/objectes/targeta/realista-01.webp",
+      "title": {
+        "ca": "TARGETA · dibuix realista",
+        "es": "TARJETA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’un home que mostra una targeta verda amb xip.",
+        "es": "Dibujo a lápiz de un hombre que muestra una tarjeta verde con chip."
+      },
+      "tags": [
+        "w-71048f407cf0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:14.169093Z",
+      "target": "concept-9050bbbc070a",
+      "targetWordIds": [
+        "w-71048f407cf0"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "fd7a96e5ab957f9033d246b6e8424dee8b78ae35f4e08d3d93e8a00f635413c8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4af281aae966c0d226c8b0ba7855726cc9c1313cfaa42b9aec4d9825ae90f029"
+    },
+    {
+      "id": "cace-concept-9050bbbc070a-pla-01",
+      "src": "assets/individuals/objectes/targeta/pla-01.webp",
+      "title": {
+        "ca": "TARGETA · il·lustració plana",
+        "es": "TARJETA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una dona mostra una targeta blava en una il·lustració plana.",
+        "es": "Una mujer muestra una tarjeta azul en una ilustración plana."
+      },
+      "tags": [
+        "w-71048f407cf0"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:14.169093Z",
+      "target": "concept-9050bbbc070a",
+      "targetWordIds": [
+        "w-71048f407cf0"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "54852e2a7aea6949214c2638e72d98bf7941772440007981b3798a884e7cb72b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "04fed841ed66d4a40edbbb464688a6c6f664d6443dcd29d7edc83485b647583c"
+    },
+    {
+      "id": "cace-concept-4554e6ad9f76-foto-01",
+      "src": "assets/individuals/cos/sang/foto-01.webp",
+      "title": {
+        "ca": "SANG · fotografia 1",
+        "es": "SANGRE · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una petita gota de sang a la punta d’un dit.",
+        "es": "Una pequeña gota de sangre en la punta de un dedo."
+      },
+      "tags": [
+        "w-0cab4217f9ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:10.421226Z",
+      "target": "concept-4554e6ad9f76",
+      "targetWordIds": [
+        "w-0cab4217f9ec"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "92a96893965f05e75d4633a1d007a5fe7ebff85052fad26bda4f070f625839fd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "372ff96de5363a4136bb5812ea36c5f19389db3eef23e53fba25b10c197c7336"
+    },
+    {
+      "id": "cace-concept-4554e6ad9f76-foto-02",
+      "src": "assets/individuals/cos/sang/foto-02.webp",
+      "title": {
+        "ca": "SANG · fotografia 2",
+        "es": "SANGRE · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala una taca de sang en una gasa, al costat d’una bola de cotó.",
+        "es": "Una flecha señala una mancha de sangre en una gasa, junto a una bola de algodón."
+      },
+      "tags": [
+        "w-0cab4217f9ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:10.421226Z",
+      "target": "concept-4554e6ad9f76",
+      "targetWordIds": [
+        "w-0cab4217f9ec"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "d50567e91d9f4c3bdaca2bac1f72f7bb977978c947313d15243a818f8a04a138",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "97306c07819b2df63c3410526191a03e47ac3649c94e3a0c0959882e637050b2"
+    },
+    {
+      "id": "cace-concept-4554e6ad9f76-realista-01",
+      "src": "assets/individuals/cos/sang/realista-01.webp",
+      "title": {
+        "ca": "SANG · dibuix realista",
+        "es": "SANGRE · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis d’una gota de sang i una gasa amb una petita taca vermella.",
+        "es": "Dibujo a lápiz de una gota de sangre y una gasa con una pequeña mancha roja."
+      },
+      "tags": [
+        "w-0cab4217f9ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:10.421226Z",
+      "target": "concept-4554e6ad9f76",
+      "targetWordIds": [
+        "w-0cab4217f9ec"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "86daccc51755bb033d3ab2f698ba8ddd84eee95c4fcf3cd32a698f05d86e9bde",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3dca6a82c7f3a0a286bb424c54d3b2fa7f87c61af30ee53acbfea39b75de0e3f"
+    },
+    {
+      "id": "cace-concept-4554e6ad9f76-pla-01",
+      "src": "assets/individuals/cos/sang/pla-01.webp",
+      "title": {
+        "ca": "SANG · il·lustració plana",
+        "es": "SANGRE · ilustración plana"
+      },
+      "alt": {
+        "ca": "Una gota de sang vermella amb contorn fosc.",
+        "es": "Una gota de sangre roja con contorno oscuro."
+      },
+      "tags": [
+        "w-0cab4217f9ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:10.421226Z",
+      "target": "concept-4554e6ad9f76",
+      "targetWordIds": [
+        "w-0cab4217f9ec"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "fe99907c2390184ae5c35f0185935feb11cc9c2916843c8b52684cae019d3be0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "33d21941771b439b3bd7f3f58d3ba94af63ad207c72a3573ee8a374b929717c0"
+    },
+    {
+      "id": "cace-concept-f780adfdeff4-foto-01",
+      "src": "assets/individuals/cos/pell/foto-01.webp",
+      "title": {
+        "ca": "PELL · fotografia 1",
+        "es": "PIEL · fotografía 1"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala la pell de l’avantbraç.",
+        "es": "Una flecha señala la piel del antebrazo."
+      },
+      "tags": [
+        "w-7135eb196763"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:07.285758Z",
+      "target": "concept-f780adfdeff4",
+      "targetWordIds": [
+        "w-7135eb196763"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "c3930304f528327625b400f9eb6b2012a37fb55ba1df708c2ef98df2c3a5ab0c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c21b7406b96f2fbb5fe38be64aac1d5bebf0f1b4b639376ea0e59352b6cc71c1"
+    },
+    {
+      "id": "cace-concept-f780adfdeff4-foto-02",
+      "src": "assets/individuals/cos/pell/foto-02.webp",
+      "title": {
+        "ca": "PELL · fotografia 2",
+        "es": "PIEL · fotografía 2"
+      },
+      "alt": {
+        "ca": "Una fletxa assenyala la pell del dors d’una mà de pell fosca.",
+        "es": "Una flecha señala la piel del dorso de una mano de piel oscura."
+      },
+      "tags": [
+        "w-7135eb196763"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:07.285758Z",
+      "target": "concept-f780adfdeff4",
+      "targetWordIds": [
+        "w-7135eb196763"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "dc9befe3ef10ed408144ba1dd9fe56623c66bfddabeb056f16dff5b6633135fa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1cb67cdce0496a949d110b99ce490d9cf614e8c0c83aa0db686f8cd7ab694060"
+    },
+    {
+      "id": "cace-concept-f780adfdeff4-realista-01",
+      "src": "assets/individuals/cos/pell/realista-01.webp",
+      "title": {
+        "ca": "PELL · dibuix realista",
+        "es": "PIEL · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dibuix a llapis de la pell de l’avantbraç assenyalada amb una fletxa.",
+        "es": "Dibujo a lápiz de la piel del antebrazo señalada con una flecha."
+      },
+      "tags": [
+        "w-7135eb196763"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:07.285758Z",
+      "target": "concept-f780adfdeff4",
+      "targetWordIds": [
+        "w-7135eb196763"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "6424c98848e2a2b3944d55e6a1bbd174edac6213a7bb0d4322b3a8c86404e454",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "37d07ead95737a18ed4c3b807b37ce5846a71a2ec82cb4d23720908b7a8a73b0"
+    },
+    {
+      "id": "cace-concept-f780adfdeff4-pla-01",
+      "src": "assets/individuals/cos/pell/pla-01.webp",
+      "title": {
+        "ca": "PELL · il·lustració plana",
+        "es": "PIEL · ilustración plana"
+      },
+      "alt": {
+        "ca": "Il·lustració d’un braç i una mà amb una fletxa que assenyala la pell.",
+        "es": "Ilustración de un brazo y una mano con una flecha que señala la piel."
+      },
+      "tags": [
+        "w-7135eb196763"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-05T20:35:07.285758Z",
+      "target": "concept-f780adfdeff4",
+      "targetWordIds": [
+        "w-7135eb196763"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "5284c9beb8dad2c0e68c0e8c7ce36f7eabc0ec730742a15550df9a0553a14cab",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3ca4b9bcac14679b7ee12ea52e31df96c819fab134b4150e09a11acd1fb335a4"
+    },
     {
       "id": "cace-concept-2fac903ff14b-foto-01",
       "src": "assets/individuals/colors/poc-colors/foto-01.webp",
@@ -81375,7 +82335,23 @@
         "cace-concept-02065240be7e-foto-01",
         "cace-concept-02065240be7e-foto-02",
         "cace-concept-2fac903ff14b-foto-01",
-        "cace-concept-2fac903ff14b-foto-02"
+        "cace-concept-2fac903ff14b-foto-02",
+        "cace-concept-f780adfdeff4-foto-01",
+        "cace-concept-f780adfdeff4-foto-02",
+        "cace-concept-4554e6ad9f76-foto-01",
+        "cace-concept-4554e6ad9f76-foto-02",
+        "cace-concept-9050bbbc070a-foto-01",
+        "cace-concept-9050bbbc070a-foto-02",
+        "cace-concept-9351dc502a19-foto-01",
+        "cace-concept-9351dc502a19-foto-02",
+        "cace-concept-877ebfc8946c-foto-01",
+        "cace-concept-877ebfc8946c-foto-02",
+        "cace-concept-0b2225feecc1-foto-01",
+        "cace-concept-0b2225feecc1-foto-02",
+        "cace-concept-b1b7baa6eb74-foto-01",
+        "cace-concept-b1b7baa6eb74-foto-02",
+        "cace-concept-09e15115b5aa-foto-01",
+        "cace-concept-09e15115b5aa-foto-02"
       ]
     },
     {
@@ -81951,7 +82927,15 @@
         "cace-concept-a2fdf57f6057-realista-01",
         "cace-concept-7425a9f73bf3-realista-01",
         "cace-concept-02065240be7e-realista-01",
-        "cace-concept-2fac903ff14b-realista-01"
+        "cace-concept-2fac903ff14b-realista-01",
+        "cace-concept-f780adfdeff4-realista-01",
+        "cace-concept-4554e6ad9f76-realista-01",
+        "cace-concept-9050bbbc070a-realista-01",
+        "cace-concept-9351dc502a19-realista-01",
+        "cace-concept-877ebfc8946c-realista-01",
+        "cace-concept-0b2225feecc1-realista-01",
+        "cace-concept-b1b7baa6eb74-realista-01",
+        "cace-concept-09e15115b5aa-realista-01"
       ]
     },
     {
@@ -82527,7 +83511,15 @@
         "cace-concept-a2fdf57f6057-pla-01",
         "cace-concept-7425a9f73bf3-pla-01",
         "cace-concept-02065240be7e-pla-01",
-        "cace-concept-2fac903ff14b-pla-01"
+        "cace-concept-2fac903ff14b-pla-01",
+        "cace-concept-f780adfdeff4-pla-01",
+        "cace-concept-4554e6ad9f76-pla-01",
+        "cace-concept-9050bbbc070a-pla-01",
+        "cace-concept-9351dc502a19-pla-01",
+        "cace-concept-877ebfc8946c-pla-01",
+        "cace-concept-0b2225feecc1-pla-01",
+        "cace-concept-b1b7baa6eb74-pla-01",
+        "cace-concept-09e15115b5aa-pla-01"
       ]
     }
   ]
