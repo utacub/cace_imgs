@@ -1,8 +1,8 @@
 {
-  "catalogVersion": "0.1.91",
-  "totalImages": 2459,
-  "completeVocabularyEntries": 675,
-  "pendingSingleWordEntries": 7,
+  "catalogVersion": "0.1.92",
+  "totalImages": 2479,
+  "completeVocabularyEntries": 680,
+  "pendingSingleWordEntries": 2,
   "criteria": {
     "variants": [
       "foto-01",
@@ -12,7 +12,7 @@
     ],
     "differentConcreteExemplars": true,
     "reviewEveryImageBeforeImport": true,
-    "noTextInAnyImage": true,
+    "noTextInAnyImage": false,
     "canonicalRepository": "https://github.com/utacub/cace_imgs",
     "hosting": "GitHub Pages",
     "excludedSingleWordCategories": [
@@ -139,24 +139,21 @@
       "variants": [
         "pla-01"
       ]
+    },
+    "noTextOutsideExplicitExceptions": true,
+    "textAndBrandExceptions": {
+      "words": [
+        "BARÇA",
+        "COCA-COLA",
+        "COLA-CAO",
+        "FANTA",
+        "LLETRES"
+      ],
+      "instructionDate": "2026-11-06",
+      "scope": "Only alphabet letters or identifying brand words and marks; no unrelated text or branding."
     }
   },
   "pending": [
-    {
-      "id": "w-aed5b3cfeddc",
-      "ca": "BARÇA",
-      "es": "BARÇA",
-      "category": "jocs",
-      "refs": [
-        {
-          "board": "JOCS I ESPORTS",
-          "x": 4,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
     {
       "id": "w-b2d6340ab0f0",
       "ca": "VULVA",
@@ -182,66 +179,6 @@
           "board": "COS, HIGIENE I SALUT",
           "x": 7,
           "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-07594da0d52f",
-      "ca": "LLETRES",
-      "es": "LETRAS",
-      "category": "objectes",
-      "refs": [
-        {
-          "board": "OBJECTES",
-          "x": 7,
-          "y": 1
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-976cd7a3cd39",
-      "ca": "COLA-CAO",
-      "es": "COLA-CAO",
-      "category": "aliments",
-      "refs": [
-        {
-          "board": "ALIMENTS I BEGUDES 3",
-          "x": 2,
-          "y": 1
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-556bda65d752",
-      "ca": "FANTA",
-      "es": "FANTA",
-      "category": "aliments",
-      "refs": [
-        {
-          "board": "ALIMENTS I BEGUDES 3",
-          "x": 3,
-          "y": 1
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-4499f072a319",
-      "ca": "COCA-COLA",
-      "es": "COCA-COLA",
-      "category": "aliments",
-      "refs": [
-        {
-          "board": "ALIMENTS I BEGUDES 3",
-          "x": 4,
-          "y": 1
         }
       ],
       "status": "pending",

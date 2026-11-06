@@ -2,7 +2,7 @@
 from pathlib import Path
 import json
 from collections import defaultdict
-from production_policy import required_variants, SINGLE_IMAGE_TIME_WORDS, SINGLE_IMAGE_ABSTRACT_WORDS
+from production_policy import required_variants, SINGLE_IMAGE_TIME_WORDS, SINGLE_IMAGE_ABSTRACT_WORDS, TEXT_BRAND_EXCEPTIONS
 
 root = Path(__file__).resolve().parents[1]
 catalog = json.loads((root/'src/catalog-data.json').read_text(encoding='utf-8'))
@@ -26,5 +26,8 @@ progress = {'catalogVersion': catalog['version'], 'totalImages': len(catalog['as
 progress['criteria']['excludedSingleWordCategories'] = sorted(excluded_categories)
 progress['criteria']['singleImageWords'] = {'category': 'temps', 'words': sorted(SINGLE_IMAGE_TIME_WORDS), 'variants': ['pla-01']}
 progress['criteria']['singleImageAbstractWords'] = {'categories': SINGLE_IMAGE_ABSTRACT_WORDS, 'variants': ['pla-01']}
+progress['criteria']['noTextInAnyImage'] = False
+progress['criteria']['noTextOutsideExplicitExceptions'] = True
+progress['criteria']['textAndBrandExceptions'] = {'words': sorted(TEXT_BRAND_EXCEPTIONS), 'instructionDate': '2026-11-06', 'scope': 'Only alphabet letters or identifying brand words and marks; no unrelated text or branding.'}
 (folder/'progress.json').write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({key:value for key,value in progress.items() if key not in ('pending','criteria')}))

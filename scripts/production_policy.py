@@ -1,6 +1,7 @@
 """The user's requested number of variants for each vocabulary entry."""
 
 DEFAULT_VARIANTS = {'foto-01', 'foto-02', 'realista-01', 'pla-01'}
+TEXT_BRAND_EXCEPTIONS = {'LLETRES', 'BARÇA', 'COLA-CAO', 'FANTA', 'COCA-COLA'}
 SINGLE_IMAGE_TIME_WORDS = {
     'DILLUNS', 'DIMARTS', 'DIMECRES', 'DIJOUS', 'DIVENDRES', 'DISSABTE', 'DIUMENGE',
     'GENER', 'FEBRER', 'MARÇ', 'ABRIL', 'MAIG', 'JUNY', 'JULIOL', 'AGOST',
