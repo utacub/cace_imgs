@@ -1,5 +1,5 @@
 {
-  "version": "0.1.87",
+  "version": "0.1.88",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-1ee5c8c85c89-foto-01",
+      "src": "assets/individuals/temps/ara/foto-01.webp",
+      "title": {
+        "ca": "ARA · fotografia 1",
+        "es": "AHORA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Espelma encesa destacada com el moment d'ara, entre l'estat anterior i el posterior.",
+        "es": "Vela encendida resaltada como el momento de ahora, entre el estado anterior y el posterior."
+      },
+      "tags": [
+        "w-1f969e369519"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:55.572565Z",
+      "target": "concept-1ee5c8c85c89",
+      "targetWordIds": [
+        "w-1f969e369519"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "5c1ddcb64e2563b7c559819f75cc1e35d35c96de688d8282c5a7c82fe07e916c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b44af318f93b14dff374977a1326fcbc87bc5884f18d39179b8f52a42299484f"
+    },
+    {
+      "id": "cace-concept-1ee5c8c85c89-foto-02",
+      "src": "assets/individuals/temps/ara/foto-02.webp",
+      "title": {
+        "ca": "ARA · fotografia 2",
+        "es": "AHORA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Flor oberta destacada com l'estat d'ara en una seqüència temporal.",
+        "es": "Flor abierta resaltada como el estado de ahora en una secuencia temporal."
+      },
+      "tags": [
+        "w-1f969e369519"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:55.572565Z",
+      "target": "concept-1ee5c8c85c89",
+      "targetWordIds": [
+        "w-1f969e369519"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "5e793a004f333f46355e0387cca7d3e3d6043b5f3d2f91e1d3c7d337874026fd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2752a308fa5d3003e4a5fb97719d70beb2a0939ddc1a360279ccd3d710cc585d"
+    },
+    {
+      "id": "cace-concept-1ee5c8c85c89-realista-01",
+      "src": "assets/individuals/temps/ara/realista-01.webp",
+      "title": {
+        "ca": "ARA · dibuix realista",
+        "es": "AHORA · dibujo realista"
+      },
+      "alt": {
+        "ca": "El moment d'ara destacat en una seqüència d'una espelma, amb llapis de colors.",
+        "es": "El momento de ahora resaltado en una secuencia de una vela, a lápiz de color."
+      },
+      "tags": [
+        "w-1f969e369519"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:55.572565Z",
+      "target": "concept-1ee5c8c85c89",
+      "targetWordIds": [
+        "w-1f969e369519"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "adb13704205baefe3b4d47e7b0376bd1e1d166e1e5e572ec3de9e88383737045",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3ef275ff136da0441550a1d730069d34144a8f881a4ac406cf7c7c408dd7d05a"
+    },
+    {
+      "id": "cace-concept-1ee5c8c85c89-pla-01",
+      "src": "assets/individuals/temps/ara/pla-01.webp",
+      "title": {
+        "ca": "ARA · il·lustració plana",
+        "es": "AHORA · ilustración plana"
+      },
+      "alt": {
+        "ca": "L'estat actual d'una flor destacat al centre de la seqüència, en estil pla.",
+        "es": "El estado actual de una flor resaltado en el centro de la secuencia, en estilo plano."
+      },
+      "tags": [
+        "w-1f969e369519"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:55.572565Z",
+      "target": "concept-1ee5c8c85c89",
+      "targetWordIds": [
+        "w-1f969e369519"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ac310772842ab8a0c81ce74d496c801e22d51365b67ef4fb160ef817807bafd8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1d355e617b718fd2c8a5fc155bbed7e4de3260ec9aa372ed771f0b3497ff40b2"
+    },
+    {
+      "id": "cace-concept-1ae1e826b301-foto-01",
+      "src": "assets/individuals/temps/despres/foto-01.webp",
+      "title": {
+        "ca": "DESPRÉS · fotografia 1",
+        "es": "DESPUÉS · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona amb la poma menjada destacada com l'estat de després.",
+        "es": "Mujer con la manzana comida resaltada como el estado de después."
+      },
+      "tags": [
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:53.829281Z",
+      "target": "concept-1ae1e826b301",
+      "targetWordIds": [
+        "w-5ed1f93250a1"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "440e166ba99e8795300e0cf436b819c573f958afb87ee9e7759ee4a0cc47e230",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "19e7d73c90b397f08ff7ad1b5089d0260d00ab57f5b8a135c26bdb40ca514fb0"
+    },
+    {
+      "id": "cace-concept-1ae1e826b301-foto-02",
+      "src": "assets/individuals/temps/despres/foto-02.webp",
+      "title": {
+        "ca": "DESPRÉS · fotografia 2",
+        "es": "DESPUÉS · fotografía 2"
+      },
+      "alt": {
+        "ca": "Taronja pelada destacada com l'estat de després de pelar-la.",
+        "es": "Naranja pelada resaltada como el estado de después de pelarla."
+      },
+      "tags": [
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:53.829281Z",
+      "target": "concept-1ae1e826b301",
+      "targetWordIds": [
+        "w-5ed1f93250a1"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "0e1cf754e5c6186a917e48b29ade19881f048846e5a3393cb1c67173dc809b64",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bf4eea53fa6f14ceeac8ba6916038a304822ed7e32c5692dab8685965b0884de"
+    },
+    {
+      "id": "cace-concept-1ae1e826b301-realista-01",
+      "src": "assets/individuals/temps/despres/realista-01.webp",
+      "title": {
+        "ca": "DESPRÉS · dibuix realista",
+        "es": "DESPUÉS · dibujo realista"
+      },
+      "alt": {
+        "ca": "Estat de després de menjar una poma, dibuixat amb llapis de colors.",
+        "es": "Estado de después de comer una manzana, dibujado a lápiz de color."
+      },
+      "tags": [
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:53.829281Z",
+      "target": "concept-1ae1e826b301",
+      "targetWordIds": [
+        "w-5ed1f93250a1"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "7dc56a19555797f767b04e651424b11232d6bd963a17a8db8216b6686de0615b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d854e3d9026087cdcbe98a9b8d973cb6421db8cc97937637026caf38e3c013e7"
+    },
+    {
+      "id": "cace-concept-1ae1e826b301-pla-01",
+      "src": "assets/individuals/temps/despres/pla-01.webp",
+      "title": {
+        "ca": "DESPRÉS · il·lustració plana",
+        "es": "DESPUÉS · ilustración plana"
+      },
+      "alt": {
+        "ca": "Taronja pelada destacada com l'estat de després, en estil pla.",
+        "es": "Naranja pelada resaltada como el estado de después, en estilo plano."
+      },
+      "tags": [
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:53.829281Z",
+      "target": "concept-1ae1e826b301",
+      "targetWordIds": [
+        "w-5ed1f93250a1"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "22cfa86e309f11664b495dd366d0bb676ab0b894d72c3d7a5765974cf8336007",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d8ff023168f602a8dfbae8c7b0540a9807096077755ee0f67a112438d3a0cbd1"
+    },
+    {
+      "id": "cace-concept-2e51365dfe65-foto-01",
+      "src": "assets/individuals/temps/abans/foto-01.webp",
+      "title": {
+        "ca": "ABANS · fotografia 1",
+        "es": "ANTES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Poma sencera destacada com l'estat d'abans de menjar-la.",
+        "es": "Manzana entera resaltada como el estado de antes de comerla."
+      },
+      "tags": [
+        "w-94e24987455e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:52.294100Z",
+      "target": "concept-2e51365dfe65",
+      "targetWordIds": [
+        "w-94e24987455e"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "740f696fd6c089e26f4bb59bd6bd754e13909b09b6ad0eff98ae1d1240dbd5da",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fb6a5fad63df593165c3f5ea582dc887e32685c6ab742e92de5d969914cb5558"
+    },
+    {
+      "id": "cace-concept-2e51365dfe65-foto-02",
+      "src": "assets/individuals/temps/abans/foto-02.webp",
+      "title": {
+        "ca": "ABANS · fotografia 2",
+        "es": "ANTES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Taronja sencera destacada com l'estat d'abans de pelar-la.",
+        "es": "Naranja entera resaltada como el estado de antes de pelarla."
+      },
+      "tags": [
+        "w-94e24987455e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:52.294100Z",
+      "target": "concept-2e51365dfe65",
+      "targetWordIds": [
+        "w-94e24987455e"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "d137c76e696e3e33f0edbaa61b0cbebd7a29963af3db77de7868a5b986ee67fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "35dd293e74f04fb55f7dc098f9723bd555684bbb5b07b1ae2285a1ceb40e6580"
+    },
+    {
+      "id": "cace-concept-2e51365dfe65-realista-01",
+      "src": "assets/individuals/temps/abans/realista-01.webp",
+      "title": {
+        "ca": "ABANS · dibuix realista",
+        "es": "ANTES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Estat d'abans de menjar una poma, dibuixat amb llapis de colors.",
+        "es": "Estado de antes de comer una manzana, dibujado a lápiz de color."
+      },
+      "tags": [
+        "w-94e24987455e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:52.294100Z",
+      "target": "concept-2e51365dfe65",
+      "targetWordIds": [
+        "w-94e24987455e"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "b8c0b372996ef48f85bba8d39c96052125e51e3e1c380afac5bd8f3c1a97824d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "60183c29571714014ce3a7b322c0472fa2baefece365458b124479285f747d19"
+    },
+    {
+      "id": "cace-concept-2e51365dfe65-pla-01",
+      "src": "assets/individuals/temps/abans/pla-01.webp",
+      "title": {
+        "ca": "ABANS · il·lustració plana",
+        "es": "ANTES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Estat d'abans de pelar una taronja destacat, en estil pla.",
+        "es": "Estado de antes de pelar una naranja resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-94e24987455e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:52.294100Z",
+      "target": "concept-2e51365dfe65",
+      "targetWordIds": [
+        "w-94e24987455e"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "f142142f9e72ae492a55d99b87f721e6c25dede73460497ac1883b673e4a1a67",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "28f839191116b6dcdc1f064d6593c9505dac19fa7ac90f54441a0a1299a52a30"
+    },
+    {
+      "id": "cace-concept-52e1a6242e6c-foto-01",
+      "src": "assets/individuals/temps/any/foto-01.webp",
+      "title": {
+        "ca": "ANY · fotografia 1",
+        "es": "AÑO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona que assenyala un any sencer de dotze mesos emmarcats.",
+        "es": "Mujer que señala un año entero de doce meses enmarcados."
+      },
+      "tags": [
+        "w-0ec8396dc858"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:50.653609Z",
+      "target": "concept-52e1a6242e6c",
+      "targetWordIds": [
+        "w-0ec8396dc858"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "bdccfd1fdd314559a98ad3e6628a1caf9429e8ac994d82657e7a8e64c4b04500",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1a4e3f5a6eb01459afa702196bd0b00ba372a472af935489229a12bd4334899a"
+    },
+    {
+      "id": "cace-concept-52e1a6242e6c-foto-02",
+      "src": "assets/individuals/temps/any/foto-02.webp",
+      "title": {
+        "ca": "ANY · fotografia 2",
+        "es": "AÑO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dona al costat d'un planificador anual amb els dotze mesos emmarcats junts.",
+        "es": "Mujer junto a un planificador anual con los doce meses enmarcados juntos."
+      },
+      "tags": [
+        "w-0ec8396dc858"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:50.653609Z",
+      "target": "concept-52e1a6242e6c",
+      "targetWordIds": [
+        "w-0ec8396dc858"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "9723498278d41fe394ff1287dcea3d3151672d52826dee23a5aac633b9c6311a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "309585a1d5485c3b3bf4b6a4d76d5d6484969f5e40dbee14b2c4f527e95b85f2"
+    },
+    {
+      "id": "cace-concept-52e1a6242e6c-realista-01",
+      "src": "assets/individuals/temps/any/realista-01.webp",
+      "title": {
+        "ca": "ANY · dibuix realista",
+        "es": "AÑO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Un any de dotze mesos, dibuixat amb llapis de colors.",
+        "es": "Un año de doce meses, dibujado a lápiz de color."
+      },
+      "tags": [
+        "w-0ec8396dc858"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:50.653609Z",
+      "target": "concept-52e1a6242e6c",
+      "targetWordIds": [
+        "w-0ec8396dc858"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "db1eabe130db3abb362ce6b4c4618bc99e062796a3d102ce8212de998bff2497",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "14a077fe21db35bde9ddba50b5f4c6104cc725d359196855115f06de63881ca3"
+    },
+    {
+      "id": "cace-concept-52e1a6242e6c-pla-01",
+      "src": "assets/individuals/temps/any/pla-01.webp",
+      "title": {
+        "ca": "ANY · il·lustració plana",
+        "es": "AÑO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Dotze mesos englobats en un únic marc per representar un any, en estil pla.",
+        "es": "Doce meses englobados en un único marco para representar un año, en estilo plano."
+      },
+      "tags": [
+        "w-0ec8396dc858"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:50.653609Z",
+      "target": "concept-52e1a6242e6c",
+      "targetWordIds": [
+        "w-0ec8396dc858"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "2bd91128ab8cd48e08d78777060ded97997549bf132394fc64b13235d13578e3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f277e306b3d02b5cf30f0bbfe10c3fc5e7a86560fe524246714105f2dd0a8b15"
+    },
+    {
+      "id": "cace-concept-ebacfd8ef8f6-foto-01",
+      "src": "assets/individuals/temps/mes/foto-01.webp",
+      "title": {
+        "ca": "MES · fotografia 1",
+        "es": "MES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari que emmarca tots els dies d'un mes.",
+        "es": "Calendario que enmarca todos los días de un mes."
+      },
+      "tags": [
+        "w-9379bde4d86a"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:49.166331Z",
+      "target": "concept-ebacfd8ef8f6",
+      "targetWordIds": [
+        "w-9379bde4d86a"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "d9072acf319ae0d1a072ad484cd38f5855d90b30dd9f6a2af8639faa6b6b7857",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "17e3964e5893f7dc2e31d898cb2e9393c2dc5027b0255288e79f2801366c747d"
+    },
+    {
+      "id": "cace-concept-ebacfd8ef8f6-foto-02",
+      "src": "assets/individuals/temps/mes/foto-02.webp",
+      "title": {
+        "ca": "MES · fotografia 2",
+        "es": "MES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Planificador mensual amb el mes sencer emmarcat.",
+        "es": "Planificador mensual con el mes entero enmarcado."
+      },
+      "tags": [
+        "w-9379bde4d86a"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:49.166331Z",
+      "target": "concept-ebacfd8ef8f6",
+      "targetWordIds": [
+        "w-9379bde4d86a"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "bac0d312fb9cf9870d29691fb6d73ef269f0e0aaff66555ba1baebfb8f7bcff5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3f3cc495eb3838e96d7855e62e5c8199bfcc1adadd4019a019b69746420f8700"
+    },
+    {
+      "id": "cace-concept-ebacfd8ef8f6-realista-01",
+      "src": "assets/individuals/temps/mes/realista-01.webp",
+      "title": {
+        "ca": "MES · dibuix realista",
+        "es": "MES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Un mes de calendari dibuixat amb llapis de colors.",
+        "es": "Un mes de calendario dibujado a lápiz de color."
+      },
+      "tags": [
+        "w-9379bde4d86a"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:49.166331Z",
+      "target": "concept-ebacfd8ef8f6",
+      "targetWordIds": [
+        "w-9379bde4d86a"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "412cd15c76d3a7c03e59a5f96a78e898eb6e0b9a9b480a58737167282989a737",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ca88e88069eb6598896a387cc82084e628e29cd56c7b7accb47dd97e56d6d4a9"
+    },
+    {
+      "id": "cace-concept-ebacfd8ef8f6-pla-01",
+      "src": "assets/individuals/temps/mes/pla-01.webp",
+      "title": {
+        "ca": "MES · il·lustració plana",
+        "es": "MES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Un mes de calendari amb marc vermell, en estil pla.",
+        "es": "Un mes de calendario con marco rojo, en estilo plano."
+      },
+      "tags": [
+        "w-9379bde4d86a"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:49.166331Z",
+      "target": "concept-ebacfd8ef8f6",
+      "targetWordIds": [
+        "w-9379bde4d86a"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "b4e5dcca0f4c2cbd1aad3a92d144bd6f26e752d6d18933673aef45c6e117e34f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2c42e4c5ee1796e02756c8ac43b0418bb07f33fb64809069d214b08f9582af5e"
+    },
+    {
+      "id": "cace-concept-1bc6338ac9d1-foto-01",
+      "src": "assets/individuals/temps/dema/foto-01.webp",
+      "title": {
+        "ca": "DEMÀ · fotografia 1",
+        "es": "MAÑANA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Tres dies amb el següent destacat i el dia actual indicat en blau.",
+        "es": "Tres días con el siguiente resaltado y el día actual indicado en azul."
+      },
+      "tags": [
+        "w-e9fb7a33bb06"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:47.138089Z",
+      "target": "concept-1bc6338ac9d1",
+      "targetWordIds": [
+        "w-e9fb7a33bb06"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "557c0fb09e84de8b916b5db8fdc818882071468be1f5eadae3de8db0b2a0a2cd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "abae5b5b22b06dd28eec67bbbb7055f3df229a744c52de03f26edc50f89f4ef5"
+    },
+    {
+      "id": "cace-concept-1bc6338ac9d1-foto-02",
+      "src": "assets/individuals/temps/dema/foto-02.webp",
+      "title": {
+        "ca": "DEMÀ · fotografia 2",
+        "es": "MAÑANA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Planificador de tres dies amb el següent destacat respecte del dia actual.",
+        "es": "Planificador de tres días con el siguiente resaltado respecto al día actual."
+      },
+      "tags": [
+        "w-e9fb7a33bb06"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:47.138089Z",
+      "target": "concept-1bc6338ac9d1",
+      "targetWordIds": [
+        "w-e9fb7a33bb06"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "745a5d5036714472d6c7004545e06b5bfe88e0c1545d0565ce15467fcd8da95c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7391a68f853f059c5d11d6f294c91a1b4fa22f57d34c967c609d5835167e0c3c"
+    },
+    {
+      "id": "cace-concept-1bc6338ac9d1-realista-01",
+      "src": "assets/individuals/temps/dema/realista-01.webp",
+      "title": {
+        "ca": "DEMÀ · dibuix realista",
+        "es": "MAÑANA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Tres dies amb el següent destacat, dibuixats amb llapis de colors.",
+        "es": "Tres días con el siguiente resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-e9fb7a33bb06"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:47.138089Z",
+      "target": "concept-1bc6338ac9d1",
+      "targetWordIds": [
+        "w-e9fb7a33bb06"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "be93494d7b3c6d4df1d6235788074722931f1a937a755089861c96c496deb74e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0ff3b094f8b746809dc872968a078a6dfd410e8e45e59f979d6c93427dcc269e"
+    },
+    {
+      "id": "cace-concept-1bc6338ac9d1-pla-01",
+      "src": "assets/individuals/temps/dema/pla-01.webp",
+      "title": {
+        "ca": "DEMÀ · il·lustració plana",
+        "es": "MAÑANA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Tres dies amb el següent destacat i referència blava al dia actual, en estil pla.",
+        "es": "Tres días con el siguiente resaltado y referencia azul al día actual, en estilo plano."
+      },
+      "tags": [
+        "w-e9fb7a33bb06"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:47.138089Z",
+      "target": "concept-1bc6338ac9d1",
+      "targetWordIds": [
+        "w-e9fb7a33bb06"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "cdcd9e929f40776da1fac325763a5bc35c1e7f81eb70d942e52e740d2fee6c83",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ead281368aad996a9b75f70328276a30c899e42b7964d89a40cc09b24fc1b50e"
+    },
+    {
+      "id": "cace-concept-e41c147f83e4-foto-01",
+      "src": "assets/individuals/temps/avui/foto-01.webp",
+      "title": {
+        "ca": "AVUI · fotografia 1",
+        "es": "HOY · fotografía 1"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'actual destacat i el dia actual indicat en blau.",
+        "es": "Tres días con el actual resaltado y el día actual indicado en azul."
+      },
+      "tags": [
+        "w-c48342438297"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:45.719107Z",
+      "target": "concept-e41c147f83e4",
+      "targetWordIds": [
+        "w-c48342438297"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "0dbe221d1259c5619bb4322e4b903b69789719c6450e60ef66ec8bd7130efe88",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5661ccea3b040ee9ca2d1c2554f8cc59bf64f906b053752fb5ed34b109930d10"
+    },
+    {
+      "id": "cace-concept-e41c147f83e4-foto-02",
+      "src": "assets/individuals/temps/avui/foto-02.webp",
+      "title": {
+        "ca": "AVUI · fotografia 2",
+        "es": "HOY · fotografía 2"
+      },
+      "alt": {
+        "ca": "Planificador de tres dies amb l'actual destacat respecte del dia actual.",
+        "es": "Planificador de tres días con el actual resaltado respecto al día actual."
+      },
+      "tags": [
+        "w-c48342438297"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:45.719107Z",
+      "target": "concept-e41c147f83e4",
+      "targetWordIds": [
+        "w-c48342438297"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "e3b8dd750d9a9d5fa7e94de06728be8870996733836656c8009c930b3321d306",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8a16333d4f02efb5eacb613c8717e9e3ca0354609a7f99a5d3285444542928d8"
+    },
+    {
+      "id": "cace-concept-e41c147f83e4-realista-01",
+      "src": "assets/individuals/temps/avui/realista-01.webp",
+      "title": {
+        "ca": "AVUI · dibuix realista",
+        "es": "HOY · dibujo realista"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'actual destacat, dibuixats amb llapis de colors.",
+        "es": "Tres días con el actual resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-c48342438297"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:45.719107Z",
+      "target": "concept-e41c147f83e4",
+      "targetWordIds": [
+        "w-c48342438297"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "77e86c062317c1461752bd7e0d7d4a0615eb0e22d915fe85bbc5bd82ff519d55",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "78a54fdba14f312bf8ef13c4f7345bd93f99c6991e12566674cfeebd123b070c"
+    },
+    {
+      "id": "cace-concept-e41c147f83e4-pla-01",
+      "src": "assets/individuals/temps/avui/pla-01.webp",
+      "title": {
+        "ca": "AVUI · il·lustració plana",
+        "es": "HOY · ilustración plana"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'actual destacat i referència blava al dia actual, en estil pla.",
+        "es": "Tres días con el actual resaltado y referencia azul al día actual, en estilo plano."
+      },
+      "tags": [
+        "w-c48342438297"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:45.719107Z",
+      "target": "concept-e41c147f83e4",
+      "targetWordIds": [
+        "w-c48342438297"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "c6a62844881ebe77bb52bc3ab3e91ca36ebe724321de2c26014a016aa3e4143a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7b3d4c936eb8881fe4d7330de0ce9f518762b6cd5c29ad520c465cd7dea9f8be"
+    },
+    {
+      "id": "cace-concept-7e3ccf0e3cfe-foto-01",
+      "src": "assets/individuals/temps/ahir/foto-01.webp",
+      "title": {
+        "ca": "AHIR · fotografia 1",
+        "es": "AYER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'anterior destacat i el dia actual indicat en blau.",
+        "es": "Tres días con el anterior resaltado y el día actual indicado en azul."
+      },
+      "tags": [
+        "w-405614f8a340"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:44.252577Z",
+      "target": "concept-7e3ccf0e3cfe",
+      "targetWordIds": [
+        "w-405614f8a340"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "32e7cdd7a2a9baf2ee6fe7bb3ca70593a65524eb9e93ad215ecfcb03362eff2e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "91cd87119fea73e248c799dfd266d72d054da9a6dcf32033e195c8e0c34d2387"
+    },
+    {
+      "id": "cace-concept-7e3ccf0e3cfe-foto-02",
+      "src": "assets/individuals/temps/ahir/foto-02.webp",
+      "title": {
+        "ca": "AHIR · fotografia 2",
+        "es": "AYER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Planificador de tres dies amb l'anterior destacat respecte del dia actual.",
+        "es": "Planificador de tres días con el anterior resaltado respecto al día actual."
+      },
+      "tags": [
+        "w-405614f8a340"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:44.252577Z",
+      "target": "concept-7e3ccf0e3cfe",
+      "targetWordIds": [
+        "w-405614f8a340"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "aa0781ac3960d756024fdd752c6837a2d2911f350c6b0340f96684c1c1187d5b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c7c8ca80e02500ad3ba9daad18aa01264ec821343f32aa910463324d552e74ea"
+    },
+    {
+      "id": "cace-concept-7e3ccf0e3cfe-realista-01",
+      "src": "assets/individuals/temps/ahir/realista-01.webp",
+      "title": {
+        "ca": "AHIR · dibuix realista",
+        "es": "AYER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'anterior destacat, dibuixats amb llapis de colors.",
+        "es": "Tres días con el anterior resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-405614f8a340"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:44.252577Z",
+      "target": "concept-7e3ccf0e3cfe",
+      "targetWordIds": [
+        "w-405614f8a340"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "a45e15fea640112e1e8b063a2c5a90e560cfa1f47d011a0bea30c8cc01e3d4af",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5b939dda21c6eb4468e573dcf913758890adb2c61a22b56c01515d0fbcea943c"
+    },
+    {
+      "id": "cace-concept-7e3ccf0e3cfe-pla-01",
+      "src": "assets/individuals/temps/ahir/pla-01.webp",
+      "title": {
+        "ca": "AHIR · il·lustració plana",
+        "es": "AYER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Tres dies amb l'anterior destacat i referència blava al dia actual, en estil pla.",
+        "es": "Tres días con el anterior resaltado y referencia azul al día actual, en estilo plano."
+      },
+      "tags": [
+        "w-405614f8a340"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T20:25:44.252577Z",
+      "target": "concept-7e3ccf0e3cfe",
+      "targetWordIds": [
+        "w-405614f8a340"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ec0835298443d5c57d3568d5a3648fd01eddd7bffdf3d7abec64a8e38284b9c5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e4638e406c3acab9f6ee4ad3afbfd01c572ac8d34d60f88166c170885279e2e0"
+    },
     {
       "id": "cace-concept-7b0cd82b56a2-pla-01",
       "src": "assets/individuals/temps/desembre/pla-01.webp",
@@ -89143,7 +90103,23 @@
         "cace-concept-226b4ed47be0-foto-01",
         "cace-concept-226b4ed47be0-foto-02",
         "cace-concept-798a2263b234-foto-01",
-        "cace-concept-798a2263b234-foto-02"
+        "cace-concept-798a2263b234-foto-02",
+        "cace-concept-7e3ccf0e3cfe-foto-01",
+        "cace-concept-7e3ccf0e3cfe-foto-02",
+        "cace-concept-e41c147f83e4-foto-01",
+        "cace-concept-e41c147f83e4-foto-02",
+        "cace-concept-1bc6338ac9d1-foto-01",
+        "cace-concept-1bc6338ac9d1-foto-02",
+        "cace-concept-ebacfd8ef8f6-foto-01",
+        "cace-concept-ebacfd8ef8f6-foto-02",
+        "cace-concept-52e1a6242e6c-foto-01",
+        "cace-concept-52e1a6242e6c-foto-02",
+        "cace-concept-2e51365dfe65-foto-01",
+        "cace-concept-2e51365dfe65-foto-02",
+        "cace-concept-1ae1e826b301-foto-01",
+        "cace-concept-1ae1e826b301-foto-02",
+        "cace-concept-1ee5c8c85c89-foto-01",
+        "cace-concept-1ee5c8c85c89-foto-02"
       ]
     },
     {
@@ -89778,7 +90754,15 @@
         "cace-concept-4da83edfba6e-realista-01",
         "cace-concept-e2a0c8db2424-realista-01",
         "cace-concept-226b4ed47be0-realista-01",
-        "cace-concept-798a2263b234-realista-01"
+        "cace-concept-798a2263b234-realista-01",
+        "cace-concept-7e3ccf0e3cfe-realista-01",
+        "cace-concept-e41c147f83e4-realista-01",
+        "cace-concept-1bc6338ac9d1-realista-01",
+        "cace-concept-ebacfd8ef8f6-realista-01",
+        "cace-concept-52e1a6242e6c-realista-01",
+        "cace-concept-2e51365dfe65-realista-01",
+        "cace-concept-1ae1e826b301-realista-01",
+        "cace-concept-1ee5c8c85c89-realista-01"
       ]
     },
     {
@@ -90432,7 +91416,15 @@
         "cace-concept-67ea9c62e5a9-pla-01",
         "cace-concept-6dcf00753e4c-pla-01",
         "cace-concept-0feaaf086c7d-pla-01",
-        "cace-concept-7b0cd82b56a2-pla-01"
+        "cace-concept-7b0cd82b56a2-pla-01",
+        "cace-concept-7e3ccf0e3cfe-pla-01",
+        "cace-concept-e41c147f83e4-pla-01",
+        "cace-concept-1bc6338ac9d1-pla-01",
+        "cace-concept-ebacfd8ef8f6-pla-01",
+        "cace-concept-52e1a6242e6c-pla-01",
+        "cace-concept-2e51365dfe65-pla-01",
+        "cace-concept-1ae1e826b301-pla-01",
+        "cace-concept-1ee5c8c85c89-pla-01"
       ]
     }
   ]
