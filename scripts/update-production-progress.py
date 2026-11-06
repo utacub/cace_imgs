@@ -2,7 +2,7 @@
 from pathlib import Path
 import json
 from collections import defaultdict
-from production_policy import required_variants, SINGLE_IMAGE_TIME_WORDS
+from production_policy import required_variants, SINGLE_IMAGE_TIME_WORDS, SINGLE_IMAGE_ABSTRACT_WORDS
 
 root = Path(__file__).resolve().parents[1]
 catalog = json.loads((root/'src/catalog-data.json').read_text(encoding='utf-8'))
@@ -25,5 +25,6 @@ for brief_path in sorted((root/'output').glob('brief-*.json')):
 progress = {'catalogVersion': catalog['version'], 'totalImages': len(catalog['assets']), 'completeVocabularyEntries': len(complete), 'pendingSingleWordEntries': len(pending), 'criteria': {'variants':['foto-01','foto-02','realista-01','pla-01'], 'differentConcreteExemplars':True, 'reviewEveryImageBeforeImport':True, 'noTextInAnyImage':True, 'canonicalRepository':'https://github.com/utacub/cace_imgs', 'hosting':'GitHub Pages'}, 'pending':pending}
 progress['criteria']['excludedSingleWordCategories'] = sorted(excluded_categories)
 progress['criteria']['singleImageWords'] = {'category': 'temps', 'words': sorted(SINGLE_IMAGE_TIME_WORDS), 'variants': ['pla-01']}
+progress['criteria']['singleImageAbstractWords'] = {'categories': SINGLE_IMAGE_ABSTRACT_WORDS, 'variants': ['pla-01']}
 (folder/'progress.json').write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({key:value for key,value in progress.items() if key not in ('pending','criteria')}))

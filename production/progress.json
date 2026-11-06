@@ -1,8 +1,8 @@
 {
-  "catalogVersion": "0.1.88",
-  "totalImages": 2575,
-  "completeVocabularyEntries": 656,
-  "pendingSingleWordEntries": 26,
+  "catalogVersion": "0.1.89",
+  "totalImages": 2439,
+  "completeVocabularyEntries": 664,
+  "pendingSingleWordEntries": 18,
   "criteria": {
     "variants": [
       "foto-01",
@@ -48,24 +48,100 @@
       "variants": [
         "pla-01"
       ]
+    },
+    "singleImageAbstractWords": {
+      "categories": {
+        "persones": [
+          "JO",
+          "TU",
+          "ELL",
+          "ELLA",
+          "NOSALTRES",
+          "VOSALTRES",
+          "ELLS",
+          "TIET",
+          "TIETA",
+          "COSÍ",
+          "COSINA"
+        ],
+        "verbs": [
+          "VOLER",
+          "AGRADAR",
+          "FER",
+          "NECESSITAR",
+          "TENIR",
+          "SER",
+          "ESTAR",
+          "ESPERAR",
+          "PENSAR",
+          "ESTIMAR",
+          "OBLIDAR",
+          "RECORDAR",
+          "APRENDRE",
+          "SABER",
+          "PERDRE",
+          "GUANYAR",
+          "CONVIDAR",
+          "MOLESTAR"
+        ],
+        "objectes": [
+          "COSA",
+          "OBJECTES"
+        ],
+        "colors": [
+          "MIDA",
+          "FORMA",
+          "TOT",
+          "RES",
+          "MÉS",
+          "MENYS",
+          "MOLT",
+          "POC"
+        ],
+        "temps": [
+          "CAP DE SETMANA",
+          "AHIR",
+          "AVUI",
+          "DEMÀ",
+          "ABANS",
+          "DESPRÉS",
+          "ARA",
+          "DIA",
+          "SETMANA",
+          "MES",
+          "ANY",
+          "HORA",
+          "MINUT",
+          "SEGON",
+          "AVIAT",
+          "TARD"
+        ],
+        "llocs": [
+          "LLOC"
+        ],
+        "mobles": [
+          "INTERNET"
+        ],
+        "activitats": [
+          "LLENGUA",
+          "MEDI",
+          "MATEMÀTIQUES"
+        ],
+        "personal": [
+          "NOM",
+          "EDAT",
+          "M'AGRADA",
+          "NO M'AGRADA",
+          "NECESSITATS",
+          "AFICIONS"
+        ]
+      },
+      "variants": [
+        "pla-01"
+      ]
     }
   },
   "pending": [
-    {
-      "id": "w-46ed7abfd69e",
-      "ca": "TIET",
-      "es": "TÍO",
-      "category": "persones",
-      "refs": [
-        {
-          "board": "PERSONES",
-          "x": 6,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
     {
       "id": "w-aed5b3cfeddc",
       "ca": "BARÇA",
@@ -75,21 +151,6 @@
         {
           "board": "JOCS I ESPORTS",
           "x": 4,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-1084c9d129f4",
-      "ca": "VEIG-VEIG",
-      "es": "VEO-VEO",
-      "category": "jocs",
-      "refs": [
-        {
-          "board": "JOCS I ESPORTS",
-          "x": 6,
           "y": 3
         }
       ],
@@ -247,51 +308,6 @@
       "needsSemanticReview": true
     },
     {
-      "id": "w-1d305f2f5fd1",
-      "ca": "TIETA",
-      "es": "TIA",
-      "category": "persones",
-      "refs": [
-        {
-          "board": "PERSONES (2)",
-          "x": 0,
-          "y": 0
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-bc95a0b3e622",
-      "ca": "COSÍ",
-      "es": "PRIMO",
-      "category": "persones",
-      "refs": [
-        {
-          "board": "PERSONES (2)",
-          "x": 1,
-          "y": 0
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-0e03d1235411",
-      "ca": "COSINA",
-      "es": "PRIMA",
-      "category": "persones",
-      "refs": [
-        {
-          "board": "PERSONES (2)",
-          "x": 2,
-          "y": 0
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
       "id": "w-976cd7a3cd39",
       "ca": "COLA-CAO",
       "es": "COLA-CAO",
@@ -361,51 +377,6 @@
           "board": "OBJECTES 2",
           "x": 2,
           "y": 0
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-6a0f3db4b6f6",
-      "ca": "HORA",
-      "es": "HORA",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS 2",
-          "x": 0,
-          "y": 1
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-693e7cd55877",
-      "ca": "MINUT",
-      "es": "MINUTO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS 2",
-          "x": 1,
-          "y": 1
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-560586e09535",
-      "ca": "SEGON",
-      "es": "SEGUNDO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS 2",
-          "x": 2,
-          "y": 1
         }
       ],
       "status": "pending",
