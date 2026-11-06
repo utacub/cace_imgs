@@ -1,5 +1,5 @@
 {
-  "version": "0.1.84",
+  "version": "0.1.85",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-226b4ed47be0-foto-01",
+      "src": "assets/individuals/verbs/saber/foto-01.webp",
+      "title": {
+        "ca": "SABER · fotografia 1",
+        "es": "SABER · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona que sap quina peça triangular encaixa i ho mostra amb el gest al cap.",
+        "es": "Mujer que sabe qué pieza triangular encaja y lo muestra con el gesto en la cabeza."
+      },
+      "tags": [
+        "w-a996d4eae794"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:17.029983Z",
+      "target": "concept-226b4ed47be0",
+      "targetWordIds": [
+        "w-a996d4eae794"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "a8639e7bac84fc30082c44b9449d32249ffeb347de2cb6f652af91a26b9eb592",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cf9a235ca2bd02194342bafa9290ca18208f3d7211d8de55c04df54da9d638a1"
+    },
+    {
+      "id": "cace-concept-226b4ed47be0-foto-02",
+      "src": "assets/individuals/verbs/saber/foto-02.webp",
+      "title": {
+        "ca": "SABER · fotografia 2",
+        "es": "SABER · fotografía 2"
+      },
+      "alt": {
+        "ca": "Home que sap que la peça rodona encaixa al forat circular.",
+        "es": "Hombre que sabe que la pieza redonda encaja en el hueco circular."
+      },
+      "tags": [
+        "w-a996d4eae794"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:17.029983Z",
+      "target": "concept-226b4ed47be0",
+      "targetWordIds": [
+        "w-a996d4eae794"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "097d5449577d939b94303a7fccb223d57b19e9fbf0d110bc7e61f91abdaca7e4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a6ae86a066c2e71ff0cab757c156a23518931e93fe0ce72809853ea3fca5ab85"
+    },
+    {
+      "id": "cace-concept-226b4ed47be0-realista-01",
+      "src": "assets/individuals/verbs/saber/realista-01.webp",
+      "title": {
+        "ca": "SABER · dibuix realista",
+        "es": "SABER · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dona que sap quina peça encaixa, dibuixada amb llapis de colors.",
+        "es": "Mujer que sabe qué pieza encaja, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-a996d4eae794"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:17.029983Z",
+      "target": "concept-226b4ed47be0",
+      "targetWordIds": [
+        "w-a996d4eae794"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "9e16e620610a80fc318343d4bbd76383838dc5a70356484f2b22172545bd245e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fc21b04535da790731cb7c02494be88e37d7aa5754f87199eb037a8969e7e2e8"
+    },
+    {
+      "id": "cace-concept-226b4ed47be0-pla-01",
+      "src": "assets/individuals/verbs/saber/pla-01.webp",
+      "title": {
+        "ca": "SABER · il·lustració plana",
+        "es": "SABER · ilustración plana"
+      },
+      "alt": {
+        "ca": "Home que sap quina peça rodona encaixa, en estil pla.",
+        "es": "Hombre que sabe qué pieza redonda encaja, en estilo plano."
+      },
+      "tags": [
+        "w-a996d4eae794"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:17.029983Z",
+      "target": "concept-226b4ed47be0",
+      "targetWordIds": [
+        "w-a996d4eae794"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "d8d1863202f2d550ef2a7d381c0729c04984c55bbc59e3bfd7db02bc4ab43b8b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5160d216999700a752799992f7bdf3badd177acbd6272e32a03b56b7ca9107c2"
+    },
+    {
+      "id": "cace-concept-e2a0c8db2424-foto-01",
+      "src": "assets/individuals/personal/necessitats-personal/foto-01.webp",
+      "title": {
+        "ca": "NECESSITATS · fotografia 1",
+        "es": "NECESIDADES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona amb quatre bafarades que representen les necessitats d'aigua, menjar, descans i lavabo.",
+        "es": "Mujer con cuatro burbujas que representan las necesidades de agua, comida, descanso y aseo."
+      },
+      "tags": [
+        "w-2905129647ac"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:15.257205Z",
+      "target": "concept-e2a0c8db2424",
+      "targetWordIds": [
+        "w-2905129647ac"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "ba4c9ca258bf5b2da9382809cc1be3da2f346413a425608f82be811ee8de1074",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9933087001c83dfa2b5528c633842a5b4dffd4c16ad735c59e0d7db6f162ed7b"
+    },
+    {
+      "id": "cace-concept-e2a0c8db2424-foto-02",
+      "src": "assets/individuals/personal/necessitats-personal/foto-02.webp",
+      "title": {
+        "ca": "NECESSITATS · fotografia 2",
+        "es": "NECESIDADES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Home que pensa en les necessitats d'aigua, alimentació, son i lavabo.",
+        "es": "Hombre que piensa en las necesidades de agua, alimentación, sueño y aseo."
+      },
+      "tags": [
+        "w-2905129647ac"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:15.257205Z",
+      "target": "concept-e2a0c8db2424",
+      "targetWordIds": [
+        "w-2905129647ac"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "bf26d03d1da3171f81331f53e5640fce01d268ec0f55373e45569bdfbc86f6d7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "81e2dfa6e80f5b2740d751e9f613486bd5ef2d4bc4bfcbff0b8be9dabf466f28"
+    },
+    {
+      "id": "cace-concept-e2a0c8db2424-realista-01",
+      "src": "assets/individuals/personal/necessitats-personal/realista-01.webp",
+      "title": {
+        "ca": "NECESSITATS · dibuix realista",
+        "es": "NECESIDADES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Necessitats bàsiques al voltant d'una dona, dibuixades amb llapis de colors.",
+        "es": "Necesidades básicas alrededor de una mujer, dibujadas a lápiz de color."
+      },
+      "tags": [
+        "w-2905129647ac"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:15.257205Z",
+      "target": "concept-e2a0c8db2424",
+      "targetWordIds": [
+        "w-2905129647ac"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "20e4185b07c49e7e931a377d40f5e4ff3129ced319d5a878ef5ce6b3869831fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "581bfa0c25882f64228f5aed521429bf844b77c80d0858c947ffcdefbde08f6e"
+    },
+    {
+      "id": "cace-concept-e2a0c8db2424-pla-01",
+      "src": "assets/individuals/personal/necessitats-personal/pla-01.webp",
+      "title": {
+        "ca": "NECESSITATS · il·lustració plana",
+        "es": "NECESIDADES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Home amb les necessitats bàsiques d'aigua, menjar, llit i lavabo, en estil pla.",
+        "es": "Hombre con las necesidades básicas de agua, comida, cama y aseo, en estilo plano."
+      },
+      "tags": [
+        "w-2905129647ac"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:15.257205Z",
+      "target": "concept-e2a0c8db2424",
+      "targetWordIds": [
+        "w-2905129647ac"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "2d5a627f0964dbfa6f07f9a38ec85fda2abccb20938d766eb5e02cf49aa5149a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9360876bf340890394c310e30d82ba1714449b0981d640e769a0d02d19b333ff"
+    },
+    {
+      "id": "cace-concept-4da83edfba6e-foto-01",
+      "src": "assets/individuals/personal/magrada-personal/foto-01.webp",
+      "title": {
+        "ca": "M'AGRADA · fotografia 1",
+        "es": "ME GUSTA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona que mostra que li agrada una poma, amb el polze amunt i un cor.",
+        "es": "Mujer que muestra que le gusta una manzana, con el pulgar arriba y un corazón."
+      },
+      "tags": [
+        "w-73323b946d6e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:13.622399Z",
+      "target": "concept-4da83edfba6e",
+      "targetWordIds": [
+        "w-73323b946d6e"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "bff0c7137863e15c8f5a3b6a1b78f587a405dc5d87713402c28e2f418890d630",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "59e10f29f0e1557c84b8ca192f3b91230a6355ecde27f17043feede58006cf4a"
+    },
+    {
+      "id": "cace-concept-4da83edfba6e-foto-02",
+      "src": "assets/individuals/personal/magrada-personal/foto-02.webp",
+      "title": {
+        "ca": "M'AGRADA · fotografia 2",
+        "es": "ME GUSTA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Home que mostra que li agrada escoltar música amb auriculars.",
+        "es": "Hombre que muestra que le gusta escuchar música con auriculares."
+      },
+      "tags": [
+        "w-73323b946d6e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:13.622399Z",
+      "target": "concept-4da83edfba6e",
+      "targetWordIds": [
+        "w-73323b946d6e"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "a4832564a3f78dd44d6749547362f534b75c86242495a30c331017b88c5edeb9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "62a7eb4ff671a99f7f1aa8c909ede418de0f39e9c1e62c1acca7938ae94ff3b5"
+    },
+    {
+      "id": "cace-concept-4da83edfba6e-realista-01",
+      "src": "assets/individuals/personal/magrada-personal/realista-01.webp",
+      "title": {
+        "ca": "M'AGRADA · dibuix realista",
+        "es": "ME GUSTA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dona que expressa que li agrada una poma, dibuixada amb llapis de colors.",
+        "es": "Mujer que expresa que le gusta una manzana, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-73323b946d6e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:13.622399Z",
+      "target": "concept-4da83edfba6e",
+      "targetWordIds": [
+        "w-73323b946d6e"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "f98c1c79e708d9e0900b98be9bfc2bb2a6d3aa07a9a6511e97834a0f9e4b1d0e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a6485b7045a5a6566ff0e2fc5409452695690e595192fea2d9697b8f4d10edc8"
+    },
+    {
+      "id": "cace-concept-4da83edfba6e-pla-01",
+      "src": "assets/individuals/personal/magrada-personal/pla-01.webp",
+      "title": {
+        "ca": "M'AGRADA · il·lustració plana",
+        "es": "ME GUSTA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Home que expressa que li agrada la música, en estil pla.",
+        "es": "Hombre que expresa que le gusta la música, en estilo plano."
+      },
+      "tags": [
+        "w-73323b946d6e"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:13.622399Z",
+      "target": "concept-4da83edfba6e",
+      "targetWordIds": [
+        "w-73323b946d6e"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "9418a549ae25bc711c9a759d8be11be03c09cc462e3fe6264a3247c4dc5530d7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a79766d6f695e3251918acecbd976f5e84f75ececda06ea0cf327bac9247bc2e"
+    },
+    {
+      "id": "cace-concept-b412d241124e-foto-01",
+      "src": "assets/individuals/personal/edat/foto-01.webp",
+      "title": {
+        "ca": "EDAT · fotografia 1",
+        "es": "EDAD · fotografía 1"
+      },
+      "alt": {
+        "ca": "Quatre etapes d'edat, des d'un nen petit fins a un home gran, amb una fletxa de progressió.",
+        "es": "Cuatro etapas de edad, desde un niño pequeño hasta un hombre mayor, con una flecha de progresión."
+      },
+      "tags": [
+        "w-ab3f9d0f7211"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:11.790721Z",
+      "target": "concept-b412d241124e",
+      "targetWordIds": [
+        "w-ab3f9d0f7211"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "ed7d57b4f2e4c384ebea171247823528f794a78febdc09f3ab79529dbee4c976",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "685087e101d5ba1beec61aa42896866ace512e6492addd8e0a29f623d4ce1898"
+    },
+    {
+      "id": "cace-concept-b412d241124e-foto-02",
+      "src": "assets/individuals/personal/edat/foto-02.webp",
+      "title": {
+        "ca": "EDAT · fotografia 2",
+        "es": "EDAD · fotografía 2"
+      },
+      "alt": {
+        "ca": "Quatre etapes d'edat femenines, des d'una nena fins a una dona gran.",
+        "es": "Cuatro etapas de edad femeninas, desde una niña hasta una mujer mayor."
+      },
+      "tags": [
+        "w-ab3f9d0f7211"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:11.790721Z",
+      "target": "concept-b412d241124e",
+      "targetWordIds": [
+        "w-ab3f9d0f7211"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "0a8e398d7cb3a6bf0a1d163e73d91af3fdba4d3f6868212ead67abcc38561702",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "af07d4e48e69e2ff4202e9294940f36784c589b79d6d4ace62014f7387317886"
+    },
+    {
+      "id": "cace-concept-b412d241124e-realista-01",
+      "src": "assets/individuals/personal/edat/realista-01.webp",
+      "title": {
+        "ca": "EDAT · dibuix realista",
+        "es": "EDAD · dibujo realista"
+      },
+      "alt": {
+        "ca": "Edat al llarg de la vida, dibuixada amb llapis de colors.",
+        "es": "Edad a lo largo de la vida, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-ab3f9d0f7211"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:11.790721Z",
+      "target": "concept-b412d241124e",
+      "targetWordIds": [
+        "w-ab3f9d0f7211"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "9201011557643ca643c26a6f0cb699181ec879e70bbccd75457f7e72a0b62720",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ebb2b5183d8b011c38e5f15f88b2a0786e37f06104ff7cdef34d57be740cfe7f"
+    },
+    {
+      "id": "cace-concept-b412d241124e-pla-01",
+      "src": "assets/individuals/personal/edat/pla-01.webp",
+      "title": {
+        "ca": "EDAT · il·lustració plana",
+        "es": "EDAD · ilustración plana"
+      },
+      "alt": {
+        "ca": "Quatre edats femenines ordenades de menor a major, en estil pla.",
+        "es": "Cuatro edades femeninas ordenadas de menor a mayor, en estilo plano."
+      },
+      "tags": [
+        "w-ab3f9d0f7211"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:11.790721Z",
+      "target": "concept-b412d241124e",
+      "targetWordIds": [
+        "w-ab3f9d0f7211"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "7cddb0e359acdc8e3db80852bd01713ab0f75d50717d26868bb0672553c50915",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7ca4b8e1968dc589b48afb3aea44eeed9f2c0e97f43f15754d4b08df69638a48"
+    },
+    {
+      "id": "cace-concept-8cfb5fd5003a-foto-01",
+      "src": "assets/individuals/objectes/bitllet/foto-01.webp",
+      "title": {
+        "ca": "BITLLET · fotografia 1",
+        "es": "BILLETE · fotografía 1"
+      },
+      "alt": {
+        "ca": "Bitllet verd amb retrat i sanefes decoratives, sense inscripcions.",
+        "es": "Billete verde con retrato y cenefas decorativas, sin inscripciones."
+      },
+      "tags": [
+        "w-347d008a50d8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:09.894568Z",
+      "target": "concept-8cfb5fd5003a",
+      "targetWordIds": [
+        "w-347d008a50d8"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "61173a99ae3b18d8039bba6c12e959385f8eb33e8c051651ec967a8eb2938b56",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0788430e942f4efd3fac5580f740eb98c9f510d3e069ccc6b60232f65fd445c6"
+    },
+    {
+      "id": "cace-concept-8cfb5fd5003a-foto-02",
+      "src": "assets/individuals/objectes/bitllet/foto-02.webp",
+      "title": {
+        "ca": "BITLLET · fotografia 2",
+        "es": "BILLETE · fotografía 2"
+      },
+      "alt": {
+        "ca": "Bitllet blau amb gravat arquitectònic, sense inscripcions.",
+        "es": "Billete azul con grabado arquitectónico, sin inscripciones."
+      },
+      "tags": [
+        "w-347d008a50d8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:09.894568Z",
+      "target": "concept-8cfb5fd5003a",
+      "targetWordIds": [
+        "w-347d008a50d8"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "dddf86df6353857dfc867769a2777a500fc0827a7ea64aa8fbf3b1fd22440f0d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "599690243dc40efe2e00228341f92f35471c761a9083d55aaad575daa5d96f77"
+    },
+    {
+      "id": "cace-concept-8cfb5fd5003a-realista-01",
+      "src": "assets/individuals/objectes/bitllet/realista-01.webp",
+      "title": {
+        "ca": "BITLLET · dibuix realista",
+        "es": "BILLETE · dibujo realista"
+      },
+      "alt": {
+        "ca": "Bitllet verd dibuixat amb llapis de colors.",
+        "es": "Billete verde dibujado a lápiz de color."
+      },
+      "tags": [
+        "w-347d008a50d8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:09.894568Z",
+      "target": "concept-8cfb5fd5003a",
+      "targetWordIds": [
+        "w-347d008a50d8"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "8037ebe9885723877733bbc2eb68c4414f8f53b0980f97464644c7e2b3143b47",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1c7807eb758edc639f9efc15c7a7f2ae078c4629cdc38481186645dae4e5b416"
+    },
+    {
+      "id": "cace-concept-8cfb5fd5003a-pla-01",
+      "src": "assets/individuals/objectes/bitllet/pla-01.webp",
+      "title": {
+        "ca": "BITLLET · il·lustració plana",
+        "es": "BILLETE · ilustración plana"
+      },
+      "alt": {
+        "ca": "Bitllet verd amb retrat i ornaments, en estil pla.",
+        "es": "Billete verde con retrato y adornos, en estilo plano."
+      },
+      "tags": [
+        "w-347d008a50d8"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:09.894568Z",
+      "target": "concept-8cfb5fd5003a",
+      "targetWordIds": [
+        "w-347d008a50d8"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "a3dbbae98cf0244513d2db481badfdf44685c13eef2199678f6bf5d32e60fb48",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1accda683460455ea909c0f54a92e8873754acd7e3b6a2e7c59e010312dcd71f"
+    },
+    {
+      "id": "cace-concept-7acfe560078c-foto-01",
+      "src": "assets/individuals/objectes/diners/foto-01.webp",
+      "title": {
+        "ca": "DINERS · fotografia 1",
+        "es": "DINERO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Cartera oberta amb bitllets decoratius i monedes sense inscripcions.",
+        "es": "Cartera abierta con billetes decorativos y monedas sin inscripciones."
+      },
+      "tags": [
+        "w-59396ad8fd78"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:07.749076Z",
+      "target": "concept-7acfe560078c",
+      "targetWordIds": [
+        "w-59396ad8fd78"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "bd1ccc2caa4c396c569e6fbf757b58cbb303be0e010d43192690617c89a82109",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ce4f123bba8d346f3dbd5dc96915dae30d3affff94ce27b68c6af924c53ee2e7"
+    },
+    {
+      "id": "cace-concept-7acfe560078c-foto-02",
+      "src": "assets/individuals/objectes/diners/foto-02.webp",
+      "title": {
+        "ca": "DINERS · fotografia 2",
+        "es": "DINERO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Feix de bitllets blaus i verds amb monedes de diversos metalls.",
+        "es": "Fajo de billetes azules y verdes con monedas de distintos metales."
+      },
+      "tags": [
+        "w-59396ad8fd78"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:07.749076Z",
+      "target": "concept-7acfe560078c",
+      "targetWordIds": [
+        "w-59396ad8fd78"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "a286f56d8338c8182069453fb9f1e3171d24c9dcaffdd460c480993bcd02e99e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "782b343bca7ccdee08d542479cbc8d8b968802ebe6a105ca79e69ddcbcd8f7b4"
+    },
+    {
+      "id": "cace-concept-7acfe560078c-realista-01",
+      "src": "assets/individuals/objectes/diners/realista-01.webp",
+      "title": {
+        "ca": "DINERS · dibuix realista",
+        "es": "DINERO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Cartera amb diners, dibuixada amb llapis de colors.",
+        "es": "Cartera con dinero, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-59396ad8fd78"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:07.749076Z",
+      "target": "concept-7acfe560078c",
+      "targetWordIds": [
+        "w-59396ad8fd78"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "1d2b1d1c660c84fd4510359e636e797f24b6e0d47f41d234489120bb2c3c9659",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "53fba2e950d3e697f550097ef2bf0185c7db10a399a08d18aca217a8ea3ef83b"
+    },
+    {
+      "id": "cace-concept-7acfe560078c-pla-01",
+      "src": "assets/individuals/objectes/diners/pla-01.webp",
+      "title": {
+        "ca": "DINERS · il·lustració plana",
+        "es": "DINERO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Cartera amb bitllets i monedes, en estil pla.",
+        "es": "Cartera con billetes y monedas, en estilo plano."
+      },
+      "tags": [
+        "w-59396ad8fd78"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:07.749076Z",
+      "target": "concept-7acfe560078c",
+      "targetWordIds": [
+        "w-59396ad8fd78"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "c294fe7c9fc7e8e1470ca4ad8e81c685e83e09ca081cbb7ce2feafab7ed16558",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e01fe1e262e54d85fe39a10955426cea383b9f5d4cd46207904b0b7d9949217f"
+    },
+    {
+      "id": "cace-concept-e3a9183740c3-foto-01",
+      "src": "assets/individuals/cos/vitamina/foto-01.webp",
+      "title": {
+        "ca": "VITAMINA · fotografia 1",
+        "es": "VITAMINA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Càpsules i comprimits de vitamines en un bol, amb taronja i espinacs.",
+        "es": "Cápsulas y comprimidos de vitaminas en un cuenco, con naranja y espinacas."
+      },
+      "tags": [
+        "w-9b0a0295d1ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:06.038528Z",
+      "target": "concept-e3a9183740c3",
+      "targetWordIds": [
+        "w-9b0a0295d1ec"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "729a925acfaa293dd773e2ce8b1245be322c1a71e63889aceb84acec1a931a19",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5808bbf19378deabe7d68a82a7c370adebaafa4f280e455cf75700f59bfed292"
+    },
+    {
+      "id": "cace-concept-e3a9183740c3-foto-02",
+      "src": "assets/individuals/cos/vitamina/foto-02.webp",
+      "title": {
+        "ca": "VITAMINA · fotografia 2",
+        "es": "VITAMINA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Pot sense etiqueta amb comprimits de vitamines, kiwi i mandarina.",
+        "es": "Frasco sin etiqueta con comprimidos de vitaminas, kiwi y mandarina."
+      },
+      "tags": [
+        "w-9b0a0295d1ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:06.038528Z",
+      "target": "concept-e3a9183740c3",
+      "targetWordIds": [
+        "w-9b0a0295d1ec"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "6bf48fcaef5054a4672d9397d2b48fbf6a4adfa1345d0278e82554f04e8e80ef",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "73210d892836f465e4044eb4b32b99f30a9780027c650bca3ffac46e6b9793dd"
+    },
+    {
+      "id": "cace-concept-e3a9183740c3-realista-01",
+      "src": "assets/individuals/cos/vitamina/realista-01.webp",
+      "title": {
+        "ca": "VITAMINA · dibuix realista",
+        "es": "VITAMINA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Vitamines en un bol amb taronja i espinacs, dibuixades amb llapis de colors.",
+        "es": "Vitaminas en un cuenco con naranja y espinacas, dibujadas a lápiz de color."
+      },
+      "tags": [
+        "w-9b0a0295d1ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:06.038528Z",
+      "target": "concept-e3a9183740c3",
+      "targetWordIds": [
+        "w-9b0a0295d1ec"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "ffdb08f58dbc82329e9f18142e295be3568eeb29abc8be2194fbac80675ce046",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "241dbb1617b643ac3fbde3585097904999b3f58925adb5f8adab3d41f79b4438"
+    },
+    {
+      "id": "cace-concept-e3a9183740c3-pla-01",
+      "src": "assets/individuals/cos/vitamina/pla-01.webp",
+      "title": {
+        "ca": "VITAMINA · il·lustració plana",
+        "es": "VITAMINA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Pot sense etiqueta i vitamines amb taronja, en estil pla.",
+        "es": "Frasco sin etiqueta y vitaminas con naranja, en estilo plano."
+      },
+      "tags": [
+        "w-9b0a0295d1ec"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:06.038528Z",
+      "target": "concept-e3a9183740c3",
+      "targetWordIds": [
+        "w-9b0a0295d1ec"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "db95c543f6192b80b4bd953b3511a411ccf2fcd0196f15fe79a80a6f8b4b3d41",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "673f153de6c8545bcd33871cec4e189ecc9b8416960e1173c3bb692baedf52b9"
+    },
+    {
+      "id": "cace-concept-1a78047f9059-foto-01",
+      "src": "assets/individuals/mobles/bipedestador/foto-01.webp",
+      "title": {
+        "ca": "BIPEDESTADOR · fotografia 1",
+        "es": "BIPEDESTADOR · fotografía 1"
+      },
+      "alt": {
+        "ca": "Dona dreta en un bipedestador amb suports de genolls, malucs i tronc.",
+        "es": "Mujer de pie en un bipedestador con apoyos en rodillas, cadera y tronco."
+      },
+      "tags": [
+        "w-c3990b6fe1fe"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:04.285521Z",
+      "target": "concept-1a78047f9059",
+      "targetWordIds": [
+        "w-c3990b6fe1fe"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "b13541c8c4878035083d8ff29aaa86173d7bddda155a6f2a51449080a0665c97",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7f84e313a1822ccb188c93d2fbfae137a230ba7dc47798505c559cb807eb4bb7"
+    },
+    {
+      "id": "cace-concept-1a78047f9059-foto-02",
+      "src": "assets/individuals/mobles/bipedestador/foto-02.webp",
+      "title": {
+        "ca": "BIPEDESTADOR · fotografia 2",
+        "es": "BIPEDESTADOR · fotografía 2"
+      },
+      "alt": {
+        "ca": "Home dret en un bipedestador blau amb plataforma per als peus i safata.",
+        "es": "Hombre de pie en un bipedestador azul con plataforma para los pies y bandeja."
+      },
+      "tags": [
+        "w-c3990b6fe1fe"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:04.285521Z",
+      "target": "concept-1a78047f9059",
+      "targetWordIds": [
+        "w-c3990b6fe1fe"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "f174f6cafc5645ea44afb3ded097fb4820c5bc8b4cb4bea92a5c098122360fcf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cef223e62f7eed03c94412dc234279ccf15ccd0c5d4ded301758d31f70d21c48"
+    },
+    {
+      "id": "cace-concept-1a78047f9059-realista-01",
+      "src": "assets/individuals/mobles/bipedestador/realista-01.webp",
+      "title": {
+        "ca": "BIPEDESTADOR · dibuix realista",
+        "es": "BIPEDESTADOR · dibujo realista"
+      },
+      "alt": {
+        "ca": "Dona en un bipedestador, dibuixada amb llapis de colors.",
+        "es": "Mujer en un bipedestador, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-c3990b6fe1fe"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:04.285521Z",
+      "target": "concept-1a78047f9059",
+      "targetWordIds": [
+        "w-c3990b6fe1fe"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "4703111e6931def2cfa458e891eb87787940f03724ab3d88078ce826f8362323",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "00fcfbe051e0190bdcb03c32be37d87e2164f0bf2192275a462176c2dab29f98"
+    },
+    {
+      "id": "cace-concept-1a78047f9059-pla-01",
+      "src": "assets/individuals/mobles/bipedestador/pla-01.webp",
+      "title": {
+        "ca": "BIPEDESTADOR · il·lustració plana",
+        "es": "BIPEDESTADOR · ilustración plana"
+      },
+      "alt": {
+        "ca": "Home en un bipedestador amb suports i plataforma, en estil pla.",
+        "es": "Hombre en un bipedestador con apoyos y plataforma, en estilo plano."
+      },
+      "tags": [
+        "w-c3990b6fe1fe"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:33:04.285521Z",
+      "target": "concept-1a78047f9059",
+      "targetWordIds": [
+        "w-c3990b6fe1fe"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ad63f071fb49f962dc47188aed535242a84fc284ac67650db9653ffb40254f41",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4eaf186e4613806c6c594745cf1116a2635f4f2371cefa63003c67d4a99738c1"
+    },
     {
       "id": "cace-concept-82696aefbbe3-foto-01",
       "src": "assets/individuals/activitats/encarrec/foto-01.webp",
@@ -87475,7 +88435,23 @@
         "cace-concept-6c9d7e0283e0-foto-01",
         "cace-concept-6c9d7e0283e0-foto-02",
         "cace-concept-82696aefbbe3-foto-01",
-        "cace-concept-82696aefbbe3-foto-02"
+        "cace-concept-82696aefbbe3-foto-02",
+        "cace-concept-1a78047f9059-foto-01",
+        "cace-concept-1a78047f9059-foto-02",
+        "cace-concept-e3a9183740c3-foto-01",
+        "cace-concept-e3a9183740c3-foto-02",
+        "cace-concept-7acfe560078c-foto-01",
+        "cace-concept-7acfe560078c-foto-02",
+        "cace-concept-8cfb5fd5003a-foto-01",
+        "cace-concept-8cfb5fd5003a-foto-02",
+        "cace-concept-b412d241124e-foto-01",
+        "cace-concept-b412d241124e-foto-02",
+        "cace-concept-4da83edfba6e-foto-01",
+        "cace-concept-4da83edfba6e-foto-02",
+        "cace-concept-e2a0c8db2424-foto-01",
+        "cace-concept-e2a0c8db2424-foto-02",
+        "cace-concept-226b4ed47be0-foto-01",
+        "cace-concept-226b4ed47be0-foto-02"
       ]
     },
     {
@@ -88101,7 +89077,15 @@
         "cace-concept-66d5f56e5810-realista-01",
         "cace-concept-c881f5e72973-realista-01",
         "cace-concept-6c9d7e0283e0-realista-01",
-        "cace-concept-82696aefbbe3-realista-01"
+        "cace-concept-82696aefbbe3-realista-01",
+        "cace-concept-1a78047f9059-realista-01",
+        "cace-concept-e3a9183740c3-realista-01",
+        "cace-concept-7acfe560078c-realista-01",
+        "cace-concept-8cfb5fd5003a-realista-01",
+        "cace-concept-b412d241124e-realista-01",
+        "cace-concept-4da83edfba6e-realista-01",
+        "cace-concept-e2a0c8db2424-realista-01",
+        "cace-concept-226b4ed47be0-realista-01"
       ]
     },
     {
@@ -88727,7 +89711,15 @@
         "cace-concept-66d5f56e5810-pla-01",
         "cace-concept-c881f5e72973-pla-01",
         "cace-concept-6c9d7e0283e0-pla-01",
-        "cace-concept-82696aefbbe3-pla-01"
+        "cace-concept-82696aefbbe3-pla-01",
+        "cace-concept-1a78047f9059-pla-01",
+        "cace-concept-e3a9183740c3-pla-01",
+        "cace-concept-7acfe560078c-pla-01",
+        "cace-concept-8cfb5fd5003a-pla-01",
+        "cace-concept-b412d241124e-pla-01",
+        "cace-concept-4da83edfba6e-pla-01",
+        "cace-concept-e2a0c8db2424-pla-01",
+        "cace-concept-226b4ed47be0-pla-01"
       ]
     }
   ]
