@@ -1,5 +1,5 @@
 {
-  "version": "0.1.85",
+  "version": "0.1.86",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-concept-798a2263b234-foto-01",
+      "src": "assets/individuals/temps/setmana/foto-01.webp",
+      "title": {
+        "ca": "SETMANA · fotografia 1",
+        "es": "SEMANA · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari que destaca el conjunt dels set dies d'una setmana.",
+        "es": "Calendario que destaca el conjunto de los siete días de una semana."
+      },
+      "tags": [
+        "w-a54bd948acbd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:46.862805Z",
+      "target": "concept-798a2263b234",
+      "targetWordIds": [
+        "w-a54bd948acbd"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "451b176fd49ec37bc965afb16cb0ae2fd5871ea3cbf7726240e0d120cdf5b689",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "db5c574c28fba9aceb4b68fb8e5e25a3cbdc48db6072be2b2403df06b7a22ff0"
+    },
+    {
+      "id": "cace-concept-798a2263b234-foto-02",
+      "src": "assets/individuals/temps/setmana/foto-02.webp",
+      "title": {
+        "ca": "SETMANA · fotografia 2",
+        "es": "SEMANA · fotografía 2"
+      },
+      "alt": {
+        "ca": "Planificador amb els set dies de la setmana emmarcats junts.",
+        "es": "Planificador con los siete días de la semana enmarcados juntos."
+      },
+      "tags": [
+        "w-a54bd948acbd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:46.862805Z",
+      "target": "concept-798a2263b234",
+      "targetWordIds": [
+        "w-a54bd948acbd"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "ca18efd81a8b10384216db65616eec87a1af63eacda02dcc3e85d54114fec077",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7667b52d049ab23cf2ef323d72ae713fce23ae9c8a72abed053ba8522062099b"
+    },
+    {
+      "id": "cace-concept-798a2263b234-realista-01",
+      "src": "assets/individuals/temps/setmana/realista-01.webp",
+      "title": {
+        "ca": "SETMANA · dibuix realista",
+        "es": "SEMANA · dibujo realista"
+      },
+      "alt": {
+        "ca": "Una setmana de set dies, dibuixada amb llapis de colors.",
+        "es": "Una semana de siete días, dibujada a lápiz de color."
+      },
+      "tags": [
+        "w-a54bd948acbd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:46.862805Z",
+      "target": "concept-798a2263b234",
+      "targetWordIds": [
+        "w-a54bd948acbd"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "f870cb5029710ffdf89f62bec0ca2eb0016c9b34a57cc9dd67e4b5d32dd1e8da",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "df8a9f44922507506022ca4d698052a356d5e1c753a244832feb00259eed18e7"
+    },
+    {
+      "id": "cace-concept-798a2263b234-pla-01",
+      "src": "assets/individuals/temps/setmana/pla-01.webp",
+      "title": {
+        "ca": "SETMANA · il·lustració plana",
+        "es": "SEMANA · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies englobats en un únic marc per representar una setmana, en estil pla.",
+        "es": "Siete días englobados en un único marco para representar una semana, en estilo plano."
+      },
+      "tags": [
+        "w-a54bd948acbd"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:46.862805Z",
+      "target": "concept-798a2263b234",
+      "targetWordIds": [
+        "w-a54bd948acbd"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "aaf1069d4d14585cf06d46f879af94aa69c65cc5012704191da9b2c73add6fa6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1f2552e4173516c02be07aa6edfcb0abfbe121b7d1f8cd249d4129f02f9566f6"
+    },
+    {
+      "id": "cace-concept-663cf12ee0d3-foto-01",
+      "src": "assets/individuals/temps/diumenge/foto-01.webp",
+      "title": {
+        "ca": "DIUMENGE · fotografia 1",
+        "es": "DOMINGO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el setè dia ressaltat per representar diumenge.",
+        "es": "Calendario semanal de siete días con el séptimo día resaltado para representar el domingo."
+      },
+      "tags": [
+        "w-eabd5965e655"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:42.725757Z",
+      "target": "concept-663cf12ee0d3",
+      "targetWordIds": [
+        "w-eabd5965e655"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "2923f27db1da3c07fb467c77a790930af8b89efae5ce2226d8b5da42e7358360",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "11d0e6a836729002efc0abddac5c9c6b941068c9240970568e411f377888f1c9"
+    },
+    {
+      "id": "cace-concept-663cf12ee0d3-foto-02",
+      "src": "assets/individuals/temps/diumenge/foto-02.webp",
+      "title": {
+        "ca": "DIUMENGE · fotografia 2",
+        "es": "DOMINGO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el setè dia destacat.",
+        "es": "Un planificador semanal con el séptimo día resaltado."
+      },
+      "tags": [
+        "w-eabd5965e655"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:42.725757Z",
+      "target": "concept-663cf12ee0d3",
+      "targetWordIds": [
+        "w-eabd5965e655"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "5699833a54c52f9347990bece5eccb343411189690bb7c94d95517bcc9abb2ee",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "252185d7f6fee9a4bdd116b0e0e4dd3a4c13a6fc6e4942b3ec01736a404a0f91"
+    },
+    {
+      "id": "cace-concept-663cf12ee0d3-realista-01",
+      "src": "assets/individuals/temps/diumenge/realista-01.webp",
+      "title": {
+        "ca": "DIUMENGE · dibuix realista",
+        "es": "DOMINGO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el setè dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el séptimo día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-eabd5965e655"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:42.725757Z",
+      "target": "concept-663cf12ee0d3",
+      "targetWordIds": [
+        "w-eabd5965e655"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "c20294e4a05a2cf9a0faa11543481d479bbf4484845503386b9272f9536bf56f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f9bdc7cb34348a903ba769b9d4a27586935a435a14107af0a3bc090d166fa4a6"
+    },
+    {
+      "id": "cace-concept-663cf12ee0d3-pla-01",
+      "src": "assets/individuals/temps/diumenge/pla-01.webp",
+      "title": {
+        "ca": "DIUMENGE · il·lustració plana",
+        "es": "DOMINGO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el setè dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el séptimo día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-eabd5965e655"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:42.725757Z",
+      "target": "concept-663cf12ee0d3",
+      "targetWordIds": [
+        "w-eabd5965e655"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "5a3677a51be90b227b28ce0dc0aed0265b88d2bc8bd7a2257233c3b19e30a13b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "618e77484b4236e4ff525458633256c5c67d3d91b77e871d2a3fad14950c8dd4"
+    },
+    {
+      "id": "cace-concept-4b59b08a2599-foto-01",
+      "src": "assets/individuals/temps/dissabte/foto-01.webp",
+      "title": {
+        "ca": "DISSABTE · fotografia 1",
+        "es": "SÁBADO · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el sisè dia ressaltat per representar dissabte.",
+        "es": "Calendario semanal de siete días con el sexto día resaltado para representar el sábado."
+      },
+      "tags": [
+        "w-dd9a69b9cbb5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:39.142955Z",
+      "target": "concept-4b59b08a2599",
+      "targetWordIds": [
+        "w-dd9a69b9cbb5"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "1bffaba7e2fd15ab1f5ef96e82dd00c751ea19569d398eded014002e78c75684",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ff30d2a0597bddfa8f454b3fe2f439f3a9cca50c74f1492130a02377c2040e86"
+    },
+    {
+      "id": "cace-concept-4b59b08a2599-foto-02",
+      "src": "assets/individuals/temps/dissabte/foto-02.webp",
+      "title": {
+        "ca": "DISSABTE · fotografia 2",
+        "es": "SÁBADO · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el sisè dia destacat.",
+        "es": "Un planificador semanal con el sexto día resaltado."
+      },
+      "tags": [
+        "w-dd9a69b9cbb5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:39.142955Z",
+      "target": "concept-4b59b08a2599",
+      "targetWordIds": [
+        "w-dd9a69b9cbb5"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "65d7765c4192beb53223a7ea229f63ae45a6c05bf1c2fae29b9ea889f393c727",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b3c1a2f02616126c494594c8ee99c66fd2ad29b75a2a96a5891cbeed3e3401d1"
+    },
+    {
+      "id": "cace-concept-4b59b08a2599-realista-01",
+      "src": "assets/individuals/temps/dissabte/realista-01.webp",
+      "title": {
+        "ca": "DISSABTE · dibuix realista",
+        "es": "SÁBADO · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el sisè dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el sexto día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-dd9a69b9cbb5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:39.142955Z",
+      "target": "concept-4b59b08a2599",
+      "targetWordIds": [
+        "w-dd9a69b9cbb5"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "78361019a151d2dd9ea23a033d9b39f0c391d7af07c75e34c8775b63bab897aa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f873618c9ba7f2135e5e7b03a37d680c1e590dcc8d605e19174497389a1fb49a"
+    },
+    {
+      "id": "cace-concept-4b59b08a2599-pla-01",
+      "src": "assets/individuals/temps/dissabte/pla-01.webp",
+      "title": {
+        "ca": "DISSABTE · il·lustració plana",
+        "es": "SÁBADO · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el sisè dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el sexto día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-dd9a69b9cbb5"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:39.142955Z",
+      "target": "concept-4b59b08a2599",
+      "targetWordIds": [
+        "w-dd9a69b9cbb5"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "86d0607ad9261ebf652a9983848b4701412915a6ffb1e912f3d6e4a68d717fbb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b4846099cf3f75e62f5853a35523a50548649d466d266fb20667e4e68c94a5b4"
+    },
+    {
+      "id": "cace-concept-2812a9e6305c-foto-01",
+      "src": "assets/individuals/temps/divendres/foto-01.webp",
+      "title": {
+        "ca": "DIVENDRES · fotografia 1",
+        "es": "VIERNES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el cinquè dia ressaltat per representar divendres.",
+        "es": "Calendario semanal de siete días con el quinto día resaltado para representar el viernes."
+      },
+      "tags": [
+        "w-670aced92240"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:36.486538Z",
+      "target": "concept-2812a9e6305c",
+      "targetWordIds": [
+        "w-670aced92240"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "03d5771ae529f81959a659eda03247a870c3b702b69b840df6ba1a3a83cb9953",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3aa4f6dd6eb86a9bdcc49f44652de0f378ab54b7b4a23845088b958aad088854"
+    },
+    {
+      "id": "cace-concept-2812a9e6305c-foto-02",
+      "src": "assets/individuals/temps/divendres/foto-02.webp",
+      "title": {
+        "ca": "DIVENDRES · fotografia 2",
+        "es": "VIERNES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el cinquè dia destacat.",
+        "es": "Un planificador semanal con el quinto día resaltado."
+      },
+      "tags": [
+        "w-670aced92240"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:36.486538Z",
+      "target": "concept-2812a9e6305c",
+      "targetWordIds": [
+        "w-670aced92240"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "9d226ed3750a904ebb8c95035da1096aa1715efa902b76cea472ac9f5c870824",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c32fba7d829a46214dbaa46101c213db2f90f8e8b2e7f432dec478f9eae85c56"
+    },
+    {
+      "id": "cace-concept-2812a9e6305c-realista-01",
+      "src": "assets/individuals/temps/divendres/realista-01.webp",
+      "title": {
+        "ca": "DIVENDRES · dibuix realista",
+        "es": "VIERNES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el cinquè dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el quinto día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-670aced92240"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:36.486538Z",
+      "target": "concept-2812a9e6305c",
+      "targetWordIds": [
+        "w-670aced92240"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "6e68b08220ca2b4d620f3603b4035b08090b4f5a9edc5c1d216109e6411f7816",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3c68c4b23d13fa580c3f80ef1569698f47750879f19f039a353c0d820168bed1"
+    },
+    {
+      "id": "cace-concept-2812a9e6305c-pla-01",
+      "src": "assets/individuals/temps/divendres/pla-01.webp",
+      "title": {
+        "ca": "DIVENDRES · il·lustració plana",
+        "es": "VIERNES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el cinquè dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el quinto día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-670aced92240"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:36.486538Z",
+      "target": "concept-2812a9e6305c",
+      "targetWordIds": [
+        "w-670aced92240"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "8ded142bbca65877e5e5e09f3a895210e2682ff90622ba1d19fbe2e75f187738",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "433293cd2414fad57b860f7eef523ffa26ffc81c93c009e2f9b1757c736b314d"
+    },
+    {
+      "id": "cace-concept-e049f17a56b1-foto-01",
+      "src": "assets/individuals/temps/dijous/foto-01.webp",
+      "title": {
+        "ca": "DIJOUS · fotografia 1",
+        "es": "JUEVES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el quart dia ressaltat per representar dijous.",
+        "es": "Calendario semanal de siete días con el cuarto día resaltado para representar el jueves."
+      },
+      "tags": [
+        "w-ac8a72c7f462"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:35.030006Z",
+      "target": "concept-e049f17a56b1",
+      "targetWordIds": [
+        "w-ac8a72c7f462"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "ae86496378f2e53e7138fa2532094595ab66ed16d54ce5901b33de1fe5ca8a18",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d54cf6592659c346a4cbe98fa260020041c509a08b6f9a967f840e05d96e3cca"
+    },
+    {
+      "id": "cace-concept-e049f17a56b1-foto-02",
+      "src": "assets/individuals/temps/dijous/foto-02.webp",
+      "title": {
+        "ca": "DIJOUS · fotografia 2",
+        "es": "JUEVES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el quart dia destacat.",
+        "es": "Un planificador semanal con el cuarto día resaltado."
+      },
+      "tags": [
+        "w-ac8a72c7f462"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:35.030006Z",
+      "target": "concept-e049f17a56b1",
+      "targetWordIds": [
+        "w-ac8a72c7f462"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "7d9e2ed552a029c8d4c17eeea375f59eb9adb4f70f3da7f31479f114c1ca8db1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "42c5177a08aebc4d94cb419c5cc47bda1c6e766ddc7592e4c69ace68c1eb0054"
+    },
+    {
+      "id": "cace-concept-e049f17a56b1-realista-01",
+      "src": "assets/individuals/temps/dijous/realista-01.webp",
+      "title": {
+        "ca": "DIJOUS · dibuix realista",
+        "es": "JUEVES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el quart dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el cuarto día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-ac8a72c7f462"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:35.030006Z",
+      "target": "concept-e049f17a56b1",
+      "targetWordIds": [
+        "w-ac8a72c7f462"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "d4987ccd23b3d16f458876efe98f70470b60bea56208e49eee0480b01fbc5979",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "107ef860ab8e315cf4ae5cc1e77af7efdc6c516eed515b5b9f3c8029f2175b3f"
+    },
+    {
+      "id": "cace-concept-e049f17a56b1-pla-01",
+      "src": "assets/individuals/temps/dijous/pla-01.webp",
+      "title": {
+        "ca": "DIJOUS · il·lustració plana",
+        "es": "JUEVES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el quart dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el cuarto día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-ac8a72c7f462"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:35.030006Z",
+      "target": "concept-e049f17a56b1",
+      "targetWordIds": [
+        "w-ac8a72c7f462"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "55a8863c119c3f844285549c5ce145024cfb4520c553e7f945b6871f78ded34d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d71553e9ed261ccd1932f138dd3ae639c16390b1a63aaed3e6e557af2f9984c5"
+    },
+    {
+      "id": "cace-concept-07ab2a09581c-foto-01",
+      "src": "assets/individuals/temps/dimecres/foto-01.webp",
+      "title": {
+        "ca": "DIMECRES · fotografia 1",
+        "es": "MIÉRCOLES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el tercer dia ressaltat per representar dimecres.",
+        "es": "Calendario semanal de siete días con el tercer día resaltado para representar el miércoles."
+      },
+      "tags": [
+        "w-f8e637644640"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:33.623205Z",
+      "target": "concept-07ab2a09581c",
+      "targetWordIds": [
+        "w-f8e637644640"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "1dc9ef10c1dcfe2581dd1b0ef31840699e95a86ae015a1dfcf6b807e73646a1f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "359da41cf5f0fafa644aafe6e25bda96576cffbca94d45f70838c39836fdb7eb"
+    },
+    {
+      "id": "cace-concept-07ab2a09581c-foto-02",
+      "src": "assets/individuals/temps/dimecres/foto-02.webp",
+      "title": {
+        "ca": "DIMECRES · fotografia 2",
+        "es": "MIÉRCOLES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el tercer dia destacat.",
+        "es": "Un planificador semanal con el tercer día resaltado."
+      },
+      "tags": [
+        "w-f8e637644640"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:33.623205Z",
+      "target": "concept-07ab2a09581c",
+      "targetWordIds": [
+        "w-f8e637644640"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "16a6bf4e26a27b59231e1933cc2b36209eb0e56bcdb21096d18affa4e63f3739",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f32340388d036ab7168629b11aa6a274c5fbf4befefd7f23a840a75c0d405289"
+    },
+    {
+      "id": "cace-concept-07ab2a09581c-realista-01",
+      "src": "assets/individuals/temps/dimecres/realista-01.webp",
+      "title": {
+        "ca": "DIMECRES · dibuix realista",
+        "es": "MIÉRCOLES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el tercer dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el tercer día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-f8e637644640"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:33.623205Z",
+      "target": "concept-07ab2a09581c",
+      "targetWordIds": [
+        "w-f8e637644640"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "fbf61be306426a9acbd509631bba678f14e8c6f1c33e57dc4c85324aaa21ad39",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2653b709e5a3a76a6265b08738d1d78283a9f4fa2566aab98ee3f23d410d1522"
+    },
+    {
+      "id": "cace-concept-07ab2a09581c-pla-01",
+      "src": "assets/individuals/temps/dimecres/pla-01.webp",
+      "title": {
+        "ca": "DIMECRES · il·lustració plana",
+        "es": "MIÉRCOLES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el tercer dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el tercer día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-f8e637644640"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:33.623205Z",
+      "target": "concept-07ab2a09581c",
+      "targetWordIds": [
+        "w-f8e637644640"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "f4ff66570d5c6f626b6b3fab36d4fb8cc366deec60fd7789ce967b9c79dac183",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a90e57795fbb52211cce049094a4569d74203dac1aa6f8eba3ff87165e1ba711"
+    },
+    {
+      "id": "cace-concept-04bd6271bac7-foto-01",
+      "src": "assets/individuals/temps/dimarts/foto-01.webp",
+      "title": {
+        "ca": "DIMARTS · fotografia 1",
+        "es": "MARTES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el segon dia ressaltat per representar dimarts.",
+        "es": "Calendario semanal de siete días con el segundo día resaltado para representar el martes."
+      },
+      "tags": [
+        "w-8d842a1cf126"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:32.251045Z",
+      "target": "concept-04bd6271bac7",
+      "targetWordIds": [
+        "w-8d842a1cf126"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "9f2268f665226688c26e705921b2a4aa68669ab3c1b3ee49931c09712fa0ce4a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "18a2a3823593bae89b5d552d8edc8fe43d43ff8597a569806d770df3e38a3c4d"
+    },
+    {
+      "id": "cace-concept-04bd6271bac7-foto-02",
+      "src": "assets/individuals/temps/dimarts/foto-02.webp",
+      "title": {
+        "ca": "DIMARTS · fotografia 2",
+        "es": "MARTES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Un planificador setmanal amb el segon dia destacat.",
+        "es": "Un planificador semanal con el segundo día resaltado."
+      },
+      "tags": [
+        "w-8d842a1cf126"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:32.251045Z",
+      "target": "concept-04bd6271bac7",
+      "targetWordIds": [
+        "w-8d842a1cf126"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "3c99ebac0fa3f64abbcae6519932dccbed27134258478ab8c04275a20dd31c54",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1051a1346f5093b8509c0e644275db70af36e3cdd143b213a6793eb6f76598e1"
+    },
+    {
+      "id": "cace-concept-04bd6271bac7-realista-01",
+      "src": "assets/individuals/temps/dimarts/realista-01.webp",
+      "title": {
+        "ca": "DIMARTS · dibuix realista",
+        "es": "MARTES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el segon dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el segundo día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-8d842a1cf126"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:32.251045Z",
+      "target": "concept-04bd6271bac7",
+      "targetWordIds": [
+        "w-8d842a1cf126"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "0b7764d1f758e2b4993ea81c60310ac9972c9fc07f226093390db8704d38090f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "eea76886e411dde851aa20971addaf04f0287ad38c5c27a5d339c054d68fbdf7"
+    },
+    {
+      "id": "cace-concept-04bd6271bac7-pla-01",
+      "src": "assets/individuals/temps/dimarts/pla-01.webp",
+      "title": {
+        "ca": "DIMARTS · il·lustració plana",
+        "es": "MARTES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el segon dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el segundo día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-8d842a1cf126"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:32.251045Z",
+      "target": "concept-04bd6271bac7",
+      "targetWordIds": [
+        "w-8d842a1cf126"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "ec9b49dc0cb2fede2beb57b1eab3ffa7262e693138aeeb5f197bdd1956718d18",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "623df9015374f85d6ab1e62f22068236a7ff9c852bec589eb5c7a8b52d98f7ba"
+    },
+    {
+      "id": "cace-concept-65ad99e60fc6-foto-01",
+      "src": "assets/individuals/temps/dilluns/foto-01.webp",
+      "title": {
+        "ca": "DILLUNS · fotografia 1",
+        "es": "LUNES · fotografía 1"
+      },
+      "alt": {
+        "ca": "Calendari setmanal de set dies amb el primer dia ressaltat per representar dilluns.",
+        "es": "Calendario semanal de siete días con el primer día resaltado para representar el lunes."
+      },
+      "tags": [
+        "w-742896b6d8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:30.895265Z",
+      "target": "concept-65ad99e60fc6",
+      "targetWordIds": [
+        "w-742896b6d8d3"
+      ],
+      "variant": "foto-01",
+      "originalSha256": "895742b1f1f09c458f77edada6d4fd0a74643d7b3ac996e8d47655ae4338045d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fa4e2b36785f4e5d5be620ab918cfb99f547cb90e65b4cb6a6d411aeb5dd2412"
+    },
+    {
+      "id": "cace-concept-65ad99e60fc6-foto-02",
+      "src": "assets/individuals/temps/dilluns/foto-02.webp",
+      "title": {
+        "ca": "DILLUNS · fotografia 2",
+        "es": "LUNES · fotografía 2"
+      },
+      "alt": {
+        "ca": "Dona que sosté un planificador setmanal amb el primer dia destacat.",
+        "es": "Mujer que sostiene un planificador semanal con el primer día resaltado."
+      },
+      "tags": [
+        "w-742896b6d8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:30.895265Z",
+      "target": "concept-65ad99e60fc6",
+      "targetWordIds": [
+        "w-742896b6d8d3"
+      ],
+      "variant": "foto-02",
+      "originalSha256": "68314d2729537644c49b052558b0973d848c568b651f9052386719b21653d7ad",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "12fe73ab7f297e2ba14969d9c424607721b937b988088af3f6f2e4c0d9d97099"
+    },
+    {
+      "id": "cace-concept-65ad99e60fc6-realista-01",
+      "src": "assets/individuals/temps/dilluns/realista-01.webp",
+      "title": {
+        "ca": "DILLUNS · dibuix realista",
+        "es": "LUNES · dibujo realista"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el primer dia destacat, dibuixats amb llapis de colors.",
+        "es": "Siete días de la semana con el primer día resaltado, dibujados a lápiz de color."
+      },
+      "tags": [
+        "w-742896b6d8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:30.895265Z",
+      "target": "concept-65ad99e60fc6",
+      "targetWordIds": [
+        "w-742896b6d8d3"
+      ],
+      "variant": "realista-01",
+      "originalSha256": "f952f8a943b1578e5836dbdf6839d44efb1ddcd65532d7189414931c716a74e6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "78d756f58882e9e97bd937de2c42e6e54f4d1efd22662d5886290e5b2ff40d5c"
+    },
+    {
+      "id": "cace-concept-65ad99e60fc6-pla-01",
+      "src": "assets/individuals/temps/dilluns/pla-01.webp",
+      "title": {
+        "ca": "DILLUNS · il·lustració plana",
+        "es": "LUNES · ilustración plana"
+      },
+      "alt": {
+        "ca": "Set dies de la setmana amb el primer dia destacat, en estil pla.",
+        "es": "Siete días de la semana con el primer día resaltado, en estilo plano."
+      },
+      "tags": [
+        "w-742896b6d8d3"
+      ],
+      "levels": [
+        1
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-06T19:43:30.895265Z",
+      "target": "concept-65ad99e60fc6",
+      "targetWordIds": [
+        "w-742896b6d8d3"
+      ],
+      "variant": "pla-01",
+      "originalSha256": "97d63e699ff1eef627497e1314d82aedc5e2daba6f2a4a0f14c6d7ea3018f7c4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fb1cdd72ff67e55af693c5893b2137e377e159eabfd120fad8d35445d37d6d06"
+    },
     {
       "id": "cace-concept-226b4ed47be0-foto-01",
       "src": "assets/individuals/verbs/saber/foto-01.webp",
@@ -88451,7 +89411,23 @@
         "cace-concept-e2a0c8db2424-foto-01",
         "cace-concept-e2a0c8db2424-foto-02",
         "cace-concept-226b4ed47be0-foto-01",
-        "cace-concept-226b4ed47be0-foto-02"
+        "cace-concept-226b4ed47be0-foto-02",
+        "cace-concept-65ad99e60fc6-foto-01",
+        "cace-concept-65ad99e60fc6-foto-02",
+        "cace-concept-04bd6271bac7-foto-01",
+        "cace-concept-04bd6271bac7-foto-02",
+        "cace-concept-07ab2a09581c-foto-01",
+        "cace-concept-07ab2a09581c-foto-02",
+        "cace-concept-e049f17a56b1-foto-01",
+        "cace-concept-e049f17a56b1-foto-02",
+        "cace-concept-2812a9e6305c-foto-01",
+        "cace-concept-2812a9e6305c-foto-02",
+        "cace-concept-4b59b08a2599-foto-01",
+        "cace-concept-4b59b08a2599-foto-02",
+        "cace-concept-663cf12ee0d3-foto-01",
+        "cace-concept-663cf12ee0d3-foto-02",
+        "cace-concept-798a2263b234-foto-01",
+        "cace-concept-798a2263b234-foto-02"
       ]
     },
     {
@@ -89085,7 +90061,15 @@
         "cace-concept-b412d241124e-realista-01",
         "cace-concept-4da83edfba6e-realista-01",
         "cace-concept-e2a0c8db2424-realista-01",
-        "cace-concept-226b4ed47be0-realista-01"
+        "cace-concept-226b4ed47be0-realista-01",
+        "cace-concept-65ad99e60fc6-realista-01",
+        "cace-concept-04bd6271bac7-realista-01",
+        "cace-concept-07ab2a09581c-realista-01",
+        "cace-concept-e049f17a56b1-realista-01",
+        "cace-concept-2812a9e6305c-realista-01",
+        "cace-concept-4b59b08a2599-realista-01",
+        "cace-concept-663cf12ee0d3-realista-01",
+        "cace-concept-798a2263b234-realista-01"
       ]
     },
     {
@@ -89719,7 +90703,15 @@
         "cace-concept-b412d241124e-pla-01",
         "cace-concept-4da83edfba6e-pla-01",
         "cace-concept-e2a0c8db2424-pla-01",
-        "cace-concept-226b4ed47be0-pla-01"
+        "cace-concept-226b4ed47be0-pla-01",
+        "cace-concept-65ad99e60fc6-pla-01",
+        "cace-concept-04bd6271bac7-pla-01",
+        "cace-concept-07ab2a09581c-pla-01",
+        "cace-concept-e049f17a56b1-pla-01",
+        "cace-concept-2812a9e6305c-pla-01",
+        "cace-concept-4b59b08a2599-pla-01",
+        "cace-concept-663cf12ee0d3-pla-01",
+        "cace-concept-798a2263b234-pla-01"
       ]
     }
   ]
