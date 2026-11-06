@@ -1,8 +1,8 @@
-"""Import a complete, visually reviewed four-image concept from a JSON brief.
+"""Import a complete, visually reviewed concept from a JSON brief.
 
 Usage: python scripts/import-reviewed-images.py output/brief.json
-The brief records the exact prompts and local originals; all four variants are
-required before the catalogue is changed. Existing assets are never replaced.
+The brief records exact prompts and local originals. The production policy
+defines the required variants. Existing assets are never replaced.
 """
 from pathlib import Path
 import copy
@@ -12,15 +12,15 @@ import shutil
 import sys
 import time
 from PIL import Image
+from production_policy import required_variants
 
 root = Path(__file__).resolve().parents[1]
 brief_path = Path(sys.argv[1]).resolve()
 brief = json.loads(brief_path.read_text(encoding='utf-8'))
 catalog_path = root / 'src/catalog-data.json'
 catalog = json.loads(catalog_path.read_text(encoding='utf-8'))
-variants = {'foto-01', 'foto-02', 'realista-01', 'pla-01'}
-assert set(brief['images']) == variants
 word = next(w for w in catalog['words'] if w['id'] == brief['word_id'])
+assert set(brief['images']) == required_variants(word)
 target = 'concept-' + hashlib.sha256(word['id'].encode()).hexdigest()[:12]
 assert not any(word['id'] in a.get('targetWordIds', []) for a in catalog['assets'])
 for record in brief['images'].values():

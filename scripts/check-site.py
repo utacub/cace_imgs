@@ -5,6 +5,7 @@ from pathlib import Path, PurePosixPath
 import hashlib
 import json
 from PIL import Image
+from production_policy import required_variants
 
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root / 'src/catalog-data.json').read_text())
@@ -32,6 +33,8 @@ assert json.loads(''.join(parser.chunks)) == data, 'Built HTML contains an outda
 assert len({a['id'] for a in data['assets']}) == len(data['assets'])
 words = {w['id'] for w in data['words']}
 targets = defaultdict(set)
+target_words = defaultdict(set)
+word_records = {word['id']: word for word in data['words']}
 for asset in data['assets']:
     relative = PurePosixPath(asset['src'])
     assert not relative.is_absolute() and '..' not in relative.parts, relative
@@ -44,7 +47,10 @@ for asset in data['assets']:
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
     if asset.get('origin') == 'generated':
         targets[asset['target']].add(asset['variant'])
-assert all(variants == {'foto-01', 'foto-02', 'realista-01', 'pla-01'} for variants in targets.values())
+        target_words[asset['target']].update(asset['targetWordIds'])
+for target, variants in targets.items():
+    assert target_words[target]
+    assert all(variants == required_variants(word_records[word_id]) for word_id in target_words[target]), target
 assert not any(path.stat().st_size == 0 for path in (root / 'dist/assets').rglob('*') if path.is_file())
 assert not list((root / 'dist').rglob('*.tmp'))
 print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'vocabulary_entries': len(data['words'])}))

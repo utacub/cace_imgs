@@ -1,8 +1,8 @@
 {
-  "catalogVersion": "0.1.86",
-  "totalImages": 2552,
-  "completeVocabularyEntries": 636,
-  "pendingSingleWordEntries": 46,
+  "catalogVersion": "0.1.87",
+  "totalImages": 2543,
+  "completeVocabularyEntries": 648,
+  "pendingSingleWordEntries": 34,
   "criteria": {
     "variants": [
       "foto-01",
@@ -21,7 +21,34 @@
       "expressions",
       "particules",
       "sensacions"
-    ]
+    ],
+    "singleImageWords": {
+      "category": "temps",
+      "words": [
+        "ABRIL",
+        "AGOST",
+        "DESEMBRE",
+        "DIJOUS",
+        "DILLUNS",
+        "DIMARTS",
+        "DIMECRES",
+        "DISSABTE",
+        "DIUMENGE",
+        "DIVENDRES",
+        "FEBRER",
+        "GENER",
+        "JULIOL",
+        "JUNY",
+        "MAIG",
+        "MARÇ",
+        "NOVEMBRE",
+        "OCTUBRE",
+        "SETEMBRE"
+      ],
+      "variants": [
+        "pla-01"
+      ]
+    }
   },
   "pending": [
     {
@@ -259,186 +286,6 @@
           "board": "TEMPS",
           "x": 0,
           "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-2a77e0251159",
-      "ca": "GENER",
-      "es": "ENERO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 1,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-ae6655f70c94",
-      "ca": "FEBRER",
-      "es": "FEBRERO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 2,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-1d5c3ab567e0",
-      "ca": "MARÇ",
-      "es": "MARZO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 3,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-6c173b1cf134",
-      "ca": "ABRIL",
-      "es": "ABRIL",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 4,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-69792176f25a",
-      "ca": "MAIG",
-      "es": "MAYO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 5,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-be9ff8d00b8e",
-      "ca": "JUNY",
-      "es": "JUNIO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 6,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-82dc1b43eb39",
-      "ca": "JULIOL",
-      "es": "JULIO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 7,
-          "y": 2
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-be72467309c8",
-      "ca": "AGOST",
-      "es": "AGOSTO",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 0,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-e3457dd1415e",
-      "ca": "SETEMBRE",
-      "es": "SEPTIEMBRE",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 1,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-7164f6718048",
-      "ca": "OCTUBRE",
-      "es": "OCTUBRE",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 2,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-3aa469ebbf60",
-      "ca": "NOVEMBRE",
-      "es": "NOVIEMBRE",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 3,
-          "y": 3
-        }
-      ],
-      "status": "pending",
-      "needsSemanticReview": true
-    },
-    {
-      "id": "w-cd01aa58c0c3",
-      "ca": "DESEMBRE",
-      "es": "DICIEMBRE",
-      "category": "temps",
-      "refs": [
-        {
-          "board": "TEMPS",
-          "x": 4,
-          "y": 3
         }
       ],
       "status": "pending",
