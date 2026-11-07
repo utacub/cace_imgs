@@ -175,6 +175,19 @@ test('N3 subject and action combinations respect both tags, the level and their 
   assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n3-')).map(row => row.id)));
 });
 
+test('N4 combines subject, action and object with the level and collection filters', () => {
+  const construction = catalog.assets.find(row => row.constructionId === 'n4-076');
+  assert.ok(construction, 'The cow reading a story must be present');
+  assert.equal(construction.tags.length, 3);
+  const a = app();
+  a.run(`state.level=4; state.tags=${JSON.stringify(construction.tags)}; state.wordMode='all'`);
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [construction.id]);
+  a.run('state.level=3');
+  assert.equal(a.read('results().length'), 0);
+  a.run("state.tags=[]; state.level=4; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n4-subjecte-accio-objecte'");
+  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n4-')).map(row => row.id)));
+});
+
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
   for (const row of catalog.assets) {
     assert.ok(row.tags.includes(row.primaryWordId), row.id);

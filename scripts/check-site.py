@@ -40,6 +40,9 @@ n2_assets = defaultdict(list)
 n3_plan_path = root / 'production/n3-plan.json'
 n3_plan = {item['id']: item for item in json.loads(n3_plan_path.read_text(encoding='utf-8'))['items']} if n3_plan_path.exists() else {}
 n3_assets = defaultdict(list)
+n4_plan_path = root / 'production/n4-plan.json'
+n4_plan = {item['id']: item for item in json.loads(n4_plan_path.read_text(encoding='utf-8'))['items']} if n4_plan_path.exists() else {}
+n4_assets = defaultdict(list)
 word_records = {word['id']: word for word in data['words']}
 for asset in data['assets']:
     relative = PurePosixPath(asset['src'])
@@ -53,13 +56,13 @@ for asset in data['assets']:
     assert asset.get('primaryWordId') in asset['tags'], asset['id']
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
     if asset.get('constructionId'):
-        is_n3 = asset['constructionId'] in n3_plan
-        construction = (n3_plan if is_n3 else n2_plan)[asset['constructionId']]
-        assert asset['origin'] == 'generated' and asset['levels'] == [3 if is_n3 else 2], asset['id']
+        level, plan, level_assets = next((level, plan, assets) for level, plan, assets in [(2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets)] if asset['constructionId'] in plan)
+        construction = plan[asset['constructionId']]
+        assert asset['origin'] == 'generated' and asset['levels'] == [level], asset['id']
         assert asset['targetWordIds'] == construction['wordIds'] == asset['tags'], asset['id']
         assert asset['variant'] == construction['variant'] and asset['kind'] == construction['kind'], asset['id']
         assert asset['primaryWordId'] == construction['wordIds'][0], asset['id']
-        (n3_assets if is_n3 else n2_assets)[asset['constructionId']].append(asset['id'])
+        level_assets[asset['constructionId']].append(asset['id'])
     elif asset.get('origin') == 'generated':
         targets[asset['target']].add(asset['variant'])
         target_words[asset['target']].update(asset['targetWordIds'])
@@ -68,6 +71,7 @@ for target, variants in targets.items():
     assert all(variants == required_variants(word_records[word_id]) for word_id in target_words[target]), target
 assert all(len(assets) == 1 for assets in n2_assets.values()), 'Each N2 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n3_assets.values()), 'Each N3 construction must have exactly one image'
+assert all(len(assets) == 1 for assets in n4_assets.values()), 'Each N4 construction must have exactly one image'
 assert not any(path.stat().st_size == 0 for path in (root / 'dist/assets').rglob('*') if path.is_file())
 assert not list((root / 'dist').rglob('*.tmp'))
-print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'vocabulary_entries': len(data['words'])}))
+print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'complete_n4_constructions': len(n4_assets), 'vocabulary_entries': len(data['words'])}))

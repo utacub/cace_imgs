@@ -4,11 +4,13 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.102 conté **2869 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2 o N3 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.103 conté **2881 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **12 construccions N4** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3 o N4 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
 El N3 conté **150 de les 150 construccions aprovades** (75 habituals i 75 insòlites), amb dues entrades CACE existents: subjecte i acció. Es troben al nivell 3 i a la col·lecció «N3 · Subjecte i acció». Pla: `production/n3-plan.json`; progrés: `production/n3-progress.json`; prompts i revisions: `production/n3/`. Una imatge per estímul, amb només els elements de suport necessaris per fer visible l'acció.
+
+El N4 conté **12 de les 200 construccions aprovades** (100 habituals i 100 insòlites), amb tres entrades CACE existents: subjecte, acció i objecte. Es troben al nivell 4 i a la col·lecció «N4 · Subjecte, acció i objecte». Pla: `production/n4-plan.json`; progrés: `production/n4-progress.json`; prompts i revisions: `production/n4/`. Una imatge per estímul, amb el subjecte actuant sobre l'objecte indicat i el context mínim necessari.
 
 L'últim lot completa les 24 entrades temàtiques amb diverses paraules autoritzades el 7 de novembre (90 imatges). CAP DE SETMANA i BON NADAL tenen una sola il·lustració plana; les altres 22 entrades tenen quatre variants. La selecció exacta és a `production/multiword-selection.json`: FER PIPI, FER CACA i les 19 entrades amb diverses paraules de Sobre mi queden descartades de nova producció, conservant el vocabulari del catàleg. `production/` conserva els briefs i dos pendents anatòmics bloquejats per l'eina, VULVA i PENIS, que no s'han tornat a sol·licitar. Les exclusions d'Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai continuen vigents; es conserven les imatges existents. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
@@ -21,7 +23,7 @@ La cerca consulta només els noms, les paraules clau i les descripcions de l’i
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 2869 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 2881 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
