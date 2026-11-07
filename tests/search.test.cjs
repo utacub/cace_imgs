@@ -160,7 +160,19 @@ test('N2 constructions work with both CACE tags, the level filter and their cata
   assert.equal(a.read('results().length'), 0);
   a.run("state.level=2; state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n2-entitat-atribut'");
   const ids = a.read('results().map(row=>row.id)');
-  assert.deepEqual(new Set(ids), new Set(catalog.assets.filter(row => row.constructionId).map(row => row.id)));
+  assert.deepEqual(new Set(ids), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n2-')).map(row => row.id)));
+});
+
+test('N3 subject and action combinations respect both tags, the level and their own collection', () => {
+  const construction = catalog.assets.find(row => row.constructionId === 'n3-076');
+  assert.ok(construction, 'The dancing cow must be present');
+  const a = app();
+  a.run(`state.level=3; state.tags=${JSON.stringify(construction.tags)}; state.wordMode='all'`);
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [construction.id]);
+  a.run("state.level=2");
+  assert.equal(a.read('results().length'), 0);
+  a.run("state.tags=[]; state.level=3; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n3-subjecte-accio'");
+  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n3-')).map(row => row.id)));
 });
 
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
