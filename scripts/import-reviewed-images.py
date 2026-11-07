@@ -45,7 +45,7 @@ for variant, record in brief['images'].items():
     row.update(id=f'cace-{target}-{variant}', src=source,
                title={lang: word[lang] + ' · ' + template['title'][lang].split(' · ')[1] for lang in ('ca','es')},
                alt=record['alt'], tags=[word['id']], target=target,
-               targetWordIds=[word['id']], created=brief['created'],
+               targetWordIds=[word['id']], primaryWordId=word['id'], created=brief['created'],
                originalSha256=hashlib.sha256(original.read_bytes()).hexdigest(),
                displaySha256=hashlib.sha256(destination.read_bytes()).hexdigest())
     rows.append(row)

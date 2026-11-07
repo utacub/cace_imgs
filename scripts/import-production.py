@@ -51,6 +51,8 @@ with zipfile.ZipFile(args.package) as archive:
         destination.parent.mkdir(parents=True,exist_ok=True)
         write_verified(destination,image_bytes)
         a.update(src=relative,origin='generated',target=concept['id'],targetWordIds=concept['word_ids'],variant=record['variant'],originalSha256=record['sha256'])
+        a['primaryWordId']=concept.get('primary_word_id') or concept['word_ids'][0]
+        assert a['primaryWordId'] in a['tags']
 new_ids={a['id'] for a in rows}
 existing=[a for a in catalog['assets'] if a['id'] not in new_ids]
 catalog['assets']=rows+existing

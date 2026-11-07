@@ -44,6 +44,7 @@ for asset in data['assets']:
     with Image.open(image_path) as image:
         image.load()
     assert asset['tags'] and set(asset['tags']) <= words
+    assert asset.get('primaryWordId') in asset['tags'], asset['id']
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
     if asset.get('origin') == 'generated':
         targets[asset['target']].add(asset['variant'])

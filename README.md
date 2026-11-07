@@ -4,13 +4,15 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.92 conté **2471 estímuls generats i revisats visualment per a 680 paraules**, més **8 mostres inicials**. Els dies de la setmana, els mesos i els conceptes massa abstractes tenen una sola il·lustració plana cadascun, segons la selecció de scripts/production_policy.py. Els grups concrets complets inclouen dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.93 conté **2471 estímuls generats i revisats visualment per a 680 paraules**, més **8 mostres inicials**. Els dies de la setmana, els mesos i els conceptes massa abstractes tenen una sola il·lustració plana cadascun, segons la selecció de scripts/production_policy.py. Els grups concrets complets inclouen dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
 
 L'últim lot conté LLETRES, BARÇA, COLA-CAO, FANTA i COCA-COLA (20 imatges). `production/` conserva els briefs i una cua de 2 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 Per autorització explícita del 6 de novembre, només LLETRES, BARÇA, COLA-CAO, FANTA i COCA-COLA poden mostrar les lletres o marques necessàries per identificar el concepte. La norma general de no incloure text ni marques es manté per a la resta.
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
+
+La cerca consulta només els noms, les paraules clau i les descripcions de l’idioma actiu. Cada imatge té una paraula clau CACE principal, editable a la fitxa: les coincidències amb aquest concepte tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció. Quan hi ha una cerca, l’ordre predeterminat és per rellevància; l’ordre alfabètic i per data es poden triar explícitament.
 
 ## Estructura
 
@@ -53,6 +55,10 @@ python scripts/check-site.py
 Els originals PNG dels estímuls es conserven als paquets de producció. La web utilitza còpies WebP amb les mateixes dimensions, qualitat 93 i comprovació SHA-256 de cada fitxer.
 
 La construcció restaura automàticament les imatges que falten a `dist/assets/` a partir de `bank/`, sense canviar-ne els píxels. Després d'incorporar imatges noves, cal actualitzar el banc amb `pack-bank.py` i versionar `bank/` juntament amb el catàleg. La web publicada serveix les imatges individuals habituals, no els arxius en parts.
+
+## Comprovar la cerca
+
+Executar `npm test` (o `node --test tests/search.test.cjs`). Les proves comproven la separació d’idiomes, la prioritat de la paraula clau, els filtres i la compatibilitat de les còpies de seguretat. `primaryWordId` identifica la paraula principal de cada imatge; ha de formar part de `tags` i es tradueix amb el vocabulari CACE de l’idioma actiu. La construcció completa les metadades dels catàlegs anteriors amb `scripts/update-search-keywords.py`.
 
 ## Publicació
 
