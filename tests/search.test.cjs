@@ -69,9 +69,11 @@ test('Selecting a suggested word also puts its primary images first', () => {
   const a = app();
   a.run(`state.tags=[${JSON.stringify(appleId)}]`);
   const rows = a.read('results()');
-  assert.equal(rows.length, 7);
-  assert.ok(rows.slice(0, 5).every(row => row.primaryWordId === appleId));
-  assert.ok(rows.slice(5).every(row => row.primaryWordId !== appleId));
+  const expected = catalog.assets.filter(row => row.tags.includes(appleId));
+  const primaryCount = expected.filter(row => row.primaryWordId === appleId).length;
+  assert.deepEqual(new Set(rows.map(row => row.id)), new Set(expected.map(row => row.id)));
+  assert.ok(rows.slice(0, primaryCount).every(row => row.primaryWordId === appleId));
+  assert.ok(rows.slice(primaryCount).every(row => row.primaryWordId !== appleId));
   assert.match(a.read('filterToolbar()'), /Rellevància/);
 });
 
