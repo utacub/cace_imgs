@@ -8,7 +8,7 @@ root = Path(__file__).resolve().parents[1]
 catalog = json.loads((root/'src/catalog-data.json').read_text(encoding='utf-8'))
 targets = defaultdict(set)
 for asset in catalog['assets']:
-    if asset.get('origin') == 'generated':
+    if asset.get('origin') == 'generated' and not asset.get('constructionId'):
         for word_id in asset.get('targetWordIds', []):
             targets[word_id].add(asset['variant'])
 words = {word['id']: word for word in catalog['words']}

@@ -53,15 +53,15 @@ test('Spanish search is symmetric, including after a language change', () => {
   assert.equal(a.read('results().length'), 0);
 });
 
-test('An apple alone ranks ahead of scenes mentioning apples in both languages', () => {
+test('Primary apple concepts rank ahead of incidental apple mentions in both languages', () => {
   const direct = catalog.assets.filter(a => a.targetWordIds?.includes(appleId) || a.id === 'sample-apple').map(a => a.id);
-  assert.equal(direct.length, 5);
+  assert.ok(direct.length >= 5);
   for (const [language, query] of [['ca', 'poma'], ['es', 'manzana']]) {
     const a = app();
     a.run(`lang=${JSON.stringify(language)}; state.query=${JSON.stringify(query)}`);
     const ids = a.read('results().map(a=>a.id)');
-    assert.deepEqual(new Set(ids.slice(0, 5)), new Set(direct));
-    assert.ok(ids.length > 5, 'Related scenes should remain available after the direct images');
+    assert.deepEqual(new Set(ids.slice(0, direct.length)), new Set(direct));
+    assert.ok(ids.length > direct.length, 'Related scenes should remain available after the direct images');
   }
 });
 
@@ -144,6 +144,21 @@ test('Explicit alphabetical/recent order works and an empty search retains catal
   a.run("state.sort='new'");
   const dates = a.read("results().map(a=>a.created||'')");
   assert.deepEqual(dates, [...dates].sort((a, b) => b.localeCompare(a)));
+});
+
+test('N2 constructions work with both CACE tags, the level filter and their catalogue collection', () => {
+  const construction = catalog.assets.find(row => row.constructionId === 'n2-076');
+  assert.ok(construction, 'The pink cow construction must be present');
+  const a = app();
+  a.run(`state.level=2; state.tags=${JSON.stringify(construction.tags)}; state.wordMode='all'`);
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [construction.id]);
+  a.run("state.tags=[]; state.query='vaca rosa'; lang='ca'");
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [construction.id]);
+  a.run("state.level=1");
+  assert.equal(a.read('results().length'), 0);
+  a.run("state.level=2; state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n2-entitat-atribut'");
+  const ids = a.read('results().map(row=>row.id)');
+  assert.deepEqual(new Set(ids), new Set(catalog.assets.filter(row => row.constructionId).map(row => row.id)));
 });
 
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
