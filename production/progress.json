@@ -1,7 +1,7 @@
 {
-  "catalogVersion": "0.1.93",
-  "totalImages": 2479,
-  "completeVocabularyEntries": 680,
+  "catalogVersion": "0.1.94",
+  "totalImages": 2569,
+  "completeVocabularyEntries": 704,
   "pendingSingleWordEntries": 2,
   "criteria": {
     "variants": [
@@ -21,6 +21,190 @@
       "expressions",
       "particules",
       "sensacions"
+    ],
+    "authorizedMultiwordEntries": [
+      {
+        "ca": "CADIRA DE RODES",
+        "category": "transports"
+      },
+      {
+        "ca": "CADIRA AMB MOTOR",
+        "category": "transports"
+      },
+      {
+        "ca": "PAPER VÀTER",
+        "category": "cos"
+      },
+      {
+        "ca": "RASPALL DE DENTS",
+        "category": "cos"
+      },
+      {
+        "ca": "PASTA DE DENTS",
+        "category": "cos"
+      },
+      {
+        "ca": "BOSSA DE MÀ",
+        "category": "roba"
+      },
+      {
+        "ca": "ENSALADILLA RUSSA",
+        "category": "aliments"
+      },
+      {
+        "ca": "CAIXA XINESA",
+        "category": "objectes"
+      },
+      {
+        "ca": "SAC DE DORMIR",
+        "category": "objectes"
+      },
+      {
+        "ca": "FORN DE PA",
+        "category": "llocs"
+      },
+      {
+        "ca": "JOC DE TAULA",
+        "category": "jocs"
+      },
+      {
+        "ca": "JOCS OLÍMPICS",
+        "category": "jocs"
+      },
+      {
+        "ca": "FER UN PETÓ",
+        "category": "verbs"
+      },
+      {
+        "ca": "CAP DE SETMANA",
+        "category": "temps"
+      },
+      {
+        "ca": "CAP D'ANY",
+        "category": "activitats"
+      },
+      {
+        "ca": "BON NADAL",
+        "category": "activitats"
+      },
+      {
+        "ca": "PARE NOËL",
+        "category": "activitats"
+      },
+      {
+        "ca": "REIS MAGS",
+        "category": "activitats"
+      },
+      {
+        "ca": "SANT JORDI",
+        "category": "activitats"
+      },
+      {
+        "ca": "SANT JOAN",
+        "category": "activitats"
+      },
+      {
+        "ca": "LA MONA",
+        "category": "activitats"
+      },
+      {
+        "ca": "SETMANA SANTA",
+        "category": "activitats"
+      },
+      {
+        "ca": "PASSAR LLISTA",
+        "category": "activitats"
+      },
+      {
+        "ca": "EDUCACIÓ FÍSICA",
+        "category": "activitats"
+      }
+    ],
+    "discardedMultiwordEntries": [
+      {
+        "ca": "FER CACA",
+        "category": "cos"
+      },
+      {
+        "ca": "FER PIPI",
+        "category": "cos"
+      },
+      {
+        "ca": "COM ET DIUS?",
+        "category": "personal"
+      },
+      {
+        "ca": "COM ÉS LA TEVA FAMÍLIA?",
+        "category": "personal"
+      },
+      {
+        "ca": "NO M'AGRADA",
+        "category": "personal"
+      },
+      {
+        "ca": "ON VAS?",
+        "category": "personal"
+      },
+      {
+        "ca": "ON VIUS?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUAN FAS ANYS?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUANTS ANYS TENS?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUIN ESPORT T'AGRADA?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUIN ÉS EL TEU COLOR PREFERIT?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUIN ÉS EL TEU MENJAR PREFERIT?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUINA MÚSICA T'AGRADA?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUINES AFICIONS TENS?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUÈ NECESSITES",
+        "category": "personal"
+      },
+      {
+        "ca": "QUÈ NO T'AGRADA?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUÈ T'AGRADA VEURE A LA TELE?",
+        "category": "personal"
+      },
+      {
+        "ca": "QUÈ T'AGRADA?",
+        "category": "personal"
+      },
+      {
+        "ca": "TENS ANIMALS?",
+        "category": "personal"
+      },
+      {
+        "ca": "VAIG A...",
+        "category": "personal"
+      },
+      {
+        "ca": "VISC A...",
+        "category": "personal"
+      }
     ],
     "singleImageWords": {
       "category": "temps",
@@ -123,6 +307,7 @@
           "INTERNET"
         ],
         "activitats": [
+          "BON NADAL",
           "LLENGUA",
           "MEDI",
           "MATEMÀTIQUES"
@@ -184,5 +369,6 @@
       "status": "pending",
       "needsSemanticReview": true
     }
-  ]
+  ],
+  "pendingMultiwordEntries": 0
 }

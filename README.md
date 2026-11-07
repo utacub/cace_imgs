@@ -4,9 +4,9 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.93 conté **2471 estímuls generats i revisats visualment per a 680 paraules**, més **8 mostres inicials**. Els dies de la setmana, els mesos i els conceptes massa abstractes tenen una sola il·lustració plana cadascun, segons la selecció de scripts/production_policy.py. Els grups concrets complets inclouen dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; la producció d'imatges encara és incompleta.
+La versió 0.1.94 conté **2561 estímuls generats i revisats visualment per a 704 entrades de vocabulari**, més **8 mostres inicials**. Els dies de la setmana, els mesos i els conceptes més abstractes tenen una sola il·lustració plana cadascun, segons la selecció de scripts/production_policy.py. Els grups concrets complets inclouen dues fotografies sintètiques diferents, un dibuix realista i una il·lustració plana, amb exemplars diferents. El catàleg recull 861 entrades de vocabulari; aquesta xifra no és una autorització per produir-les totes.
 
-L'últim lot conté LLETRES, BARÇA, COLA-CAO, FANTA i COCA-COLA (20 imatges). `production/` conserva els briefs i una cua de 2 entrades d'una sola paraula encara pendents de revisió semàntica i producció. La cua exclou Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai per instrucció de l'usuari; es conserven les imatges existents d'aquestes categories. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
+L'últim lot completa les 24 entrades temàtiques amb diverses paraules autoritzades el 7 de novembre (90 imatges). CAP DE SETMANA i BON NADAL tenen una sola il·lustració plana; les altres 22 entrades tenen quatre variants. La selecció exacta és a `production/multiword-selection.json`: FER PIPI, FER CACA i les 19 entrades amb diverses paraules de Sobre mi queden descartades de nova producció, conservant el vocabulari del catàleg. `production/` conserva els briefs i dos pendents anatòmics bloquejats per l'eina, VULVA i PENIS, que no s'han tornat a sol·licitar. Les exclusions d'Expressions, Preguntes i partícules, Atributs, Sensacions i sentiments i Espai continuen vigents; es conserven les imatges existents. Els originals PNG i els briefs locals són a `output/production/`; les còpies WebP distribuïdes amb l'app estan incloses al banc versionat.
 
 Per autorització explícita del 6 de novembre, només LLETRES, BARÇA, COLA-CAO, FANTA i COCA-COLA poden mostrar les lletres o marques necessàries per identificar el concepte. La norma general de no incloure text ni marques es manté per a la resta.
 
@@ -17,7 +17,7 @@ La cerca consulta només els noms, les paraules clau i les descripcions de l’i
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 2479 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 2569 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.

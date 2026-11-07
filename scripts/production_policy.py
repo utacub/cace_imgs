@@ -83,6 +83,7 @@ SINGLE_IMAGE_ABSTRACT_WORDS = {
         "INTERNET"
     ],
     "activitats": [
+        "BON NADAL",
         "LLENGUA",
         "MEDI",
         "MATEMÀTIQUES"

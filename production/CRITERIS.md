@@ -1,5 +1,7 @@
 # Criteris de producció
 
+Actualització explícita del 7 de novembre de 2026: produir només les 24 entrades temàtiques amb diverses paraules enumerades a `production/multiword-selection.json`. Descartar de nova producció FER PIPI, FER CACA i les 19 entrades amb diverses paraules de Sobre mi, conservant el vocabulari del catàleg. Aquesta ampliació no autoritza nivells de frases ni aixeca les exclusions anteriors. Els conceptes més abstractes tenen una sola il·lustració plana: CAP DE SETMANA i BON NADAL; la resta de les 24 entrades es representen amb referents, accions o celebracions concretes i mantenen quatre variants. LA MONA representa el pastís de Pasqua. Sense text ni marques; JOCS OLÍMPICS no amplia l'excepció de logos.
+
 Actualització de l’usuari del 31 d’octubre de 2026: no generar noves imatges per a paraules individuals de les categories Expressions (`expressions`), Preguntes i partícules (`particules`), Atributs (`atributs`), Sensacions i sentiments (`sensacions`) ni Espai (`espai`). Conservar totes les imatges ja creades d’aquestes categories. Excloure aquestes categories de la cua de nova producció.
 
 Cada paraula té quatre imatges revisades visualment: dues fotografies sintètiques d’exemplars diferents, un dibuix realista i una il·lustració plana. Cal variar trets concrets com el color, la forma, el material, la posició o l’exemplar.
