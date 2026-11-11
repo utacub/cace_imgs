@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-044",
+  "file": "output/production/n6/n6-044/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + DONAR + TOVALLOLA + NEN. Semantic focus: destinatari. Human appearance: agent NOIA is a tall teenage girl aged 17; recipient NEN is a boy aged 7. Correct age proportions. Exact scene: NOIA lliura TOVALLOLA a NEN. Tovallola de ris plegada; donant amb braços estesos i receptor amb les mans sota el plec. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-044",
+    "number": 44,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · donar · tovallola · nen"
+    },
+    "labels": [
+      "NOIA",
+      "DONAR",
+      "TOVALLOLA",
+      "NEN"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-dd80e4e4de38",
+      "w-045fa0b1ae9d",
+      "w-b4012100fe09"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      },
+      {
+        "role": "recipient",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      }
+    ],
+    "visualDescription": "NOIA lliura TOVALLOLA a NEN. Tovallola de ris plegada; donant amb braços estesos i receptor amb les mans sota el plec. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NOIA|DONAR|TOVALLOLA|receptor:NEN",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:33:16.779Z",
+  "review": "Noia adolescent dona tovallola de ris plegada a nen que la rep amb dues mans. Un objecte compartit, cossos sencers.",
+  "alt": {
+    "ca": "noia · donar · tovallola · nen.",
+    "es": "CHICA · DAR · TOALLA · NIÑO."
+  },
+  "originalSha256": "858b8ff69cd2de547b770bb2bd5b05771bb562cdc007ab8b26ba698305161aa4",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:37:47.870Z"
+}

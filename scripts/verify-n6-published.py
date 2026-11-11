@@ -2,10 +2,12 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from concurrent.futures import ThreadPoolExecutor
-import hashlib, json, time, urllib.request, sys
+import hashlib, json, time, urllib.request, sys, subprocess
 
 root = Path(__file__).resolve().parents[1]
 expected = json.loads((root/'src/catalog-data.json').read_text(encoding='utf-8'))
+if len(sys.argv)>1:
+    expected=json.loads(subprocess.check_output(['git','show',sys.argv[1]+':src/catalog-data.json'],cwd=root))
 base = 'https://utacub.github.io/cace_imgs/'
 def fetch(url):
     request = urllib.request.Request(url, headers={'User-Agent': 'CACE-publication-verification'})
@@ -37,4 +39,5 @@ with ThreadPoolExecutor(max_workers=8) as pool:
 report = {'status': 'verified', 'version': expected['version'], 'catalogImages': len(expected['assets']),
           'n6DownloadsVerified': len(verified), 'verifiedIds': verified, 'verifiedAtUtc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
 (root/'output/n6-publication-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+(root/f"output/n6-publication-{expected['version']}.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items() if k != 'verifiedIds'}))

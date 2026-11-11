@@ -1,0 +1,76 @@
+{
+  "constructionId": "n6-011",
+  "file": "output/production/n6/n6-011/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + TALLAR + PLASTILINA + AMB + TISORES. Semantic focus: instrument. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: Tisores escolars de punta rodona mig tancades travessen una tira tova de plastilina sobre una base. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-011",
+    "number": 11,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tallar · plastilina · tisores"
+    },
+    "labels": [
+      "NOIA",
+      "TALLAR",
+      "PLASTILINA",
+      "AMB",
+      "TISORES"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-7a101d803c16",
+      "w-0606be9fcf92",
+      "w-11fbfd8fa777",
+      "w-f33c4296204d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TALLAR",
+        "wordId": "w-7a101d803c16"
+      },
+      {
+        "role": "patient",
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "TISORES",
+        "wordId": "w-f33c4296204d"
+      }
+    ],
+    "visualDescription": "NOIA: Tisores escolars de punta rodona mig tancades travessen una tira tova de plastilina sobre una base. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NOIA|TALLAR|PLASTILINA|eina:TISORES",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:33:17.044Z",
+  "review": "Noia adolescent talla tira de plastilina amb tisores de punta rodona en contacte. Peça separada visible, cos i taula complets.",
+  "alt": {
+    "ca": "noia · tallar · plastilina · tisores.",
+    "es": "CHICA · CORTAR · PLASTILINA · CON · TIJERAS."
+  },
+  "originalSha256": "fb28b5a69b3ffe9fde64b250e930a53aaa835d6b1280d9b5538c88517fde3c00",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:37:48.415Z"
+}

@@ -1,0 +1,76 @@
+{
+  "constructionId": "n6-010",
+  "file": "output/production/n6/n6-010/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + MENJAR + PASTÍS + AMB + CULLERA. Semantic focus: instrument. Human appearance: agent NEN is a boy aged 7. Correct age proportions. Exact scene: NEN: La cullera sosté un mos de pastís entre el tall visible i la boca; cavitat còncava llegible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-010",
+    "number": 10,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · menjar · pastís · cullera"
+    },
+    "labels": [
+      "NEN",
+      "MENJAR",
+      "PASTÍS",
+      "AMB",
+      "CULLERA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c248ebfe6f67",
+      "w-d7e3d6f746de",
+      "w-11fbfd8fa777",
+      "w-9c9849fac1d3"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "role": "patient",
+        "label": "PASTÍS",
+        "wordId": "w-d7e3d6f746de"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "visualDescription": "NEN: La cullera sosté un mos de pastís entre el tall visible i la boca; cavitat còncava llegible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NEN|MENJAR|PASTÍS|eina:CULLERA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:33:16.546Z",
+  "review": "Nen menja pastis amb cullera de cavitat visible, mos a la boca i tall de pastis al plat. Cos i suport complets.",
+  "alt": {
+    "ca": "nen · menjar · pastís · cullera.",
+    "es": "NIÑO · COMER · PASTEL · CON · CUCHARA."
+  },
+  "originalSha256": "98dbf694efd7ca37849f73ec3acede8325f11c248a96d8dba52ebd91623a9207",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:37:47.528Z"
+}

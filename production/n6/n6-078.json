@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-078",
+  "file": "output/production/n6/n6-078/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + BEURE + AIGUA + MENJADOR. Semantic focus: lloc. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: Inclina un got transparent amb aigua fins als llavis, asseguda a taula. Taula domèstica parada amb dos serveis i cadires, més aparador baix; cap fogó ni taulell de cuina. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-078",
+    "number": 78,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · beure · aigua · menjador"
+    },
+    "labels": [
+      "NENA",
+      "BEURE",
+      "AIGUA",
+      "MENJADOR"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-a5ddba336d84",
+      "w-00e8b2c10536",
+      "w-32c0089441f0"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "role": "patient",
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "role": "location",
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "visualDescription": "NENA: Inclina un got transparent amb aigua fins als llavis, asseguda a taula. Taula domèstica parada amb dos serveis i cadires, més aparador baix; cap fogó ni taulell de cuina. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NENA|BEURE|AIGUA|escenari:MENJADOR",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:33:17.346Z",
+  "review": "Nena beu aigua en got transparent als llavis en menjador amb taula parada i aparador. Cos i mobles complets.",
+  "alt": {
+    "ca": "nena · beure · aigua · menjador.",
+    "es": "NIÑA · BEBER · AGUA · COMEDOR."
+  },
+  "originalSha256": "4437d6648d55677e0a22319068503312fa012602851bbe1bfa3bda3d61a57cb0",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:37:48.921Z"
+}

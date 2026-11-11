@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-079",
+  "file": "output/production/n6/n6-079/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PORTAR + PLAT + MENJADOR. Semantic focus: lloc. Human appearance: agent NOI is a tall teenage boy aged 17. Correct age proportions. Exact scene: NOI: Camina amb un plat buit ben subjectat cap a un lloc lliure de la taula parada. Taula domèstica parada amb dos serveis i cadires, més aparador baix; cap fogó ni taulell de cuina. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-079",
+    "number": 79,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · portar · plat · menjador"
+    },
+    "labels": [
+      "NOI",
+      "PORTAR",
+      "PLAT",
+      "MENJADOR"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-55d250f4cf1e",
+      "w-32c0089441f0"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "role": "location",
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "visualDescription": "NOI: Camina amb un plat buit ben subjectat cap a un lloc lliure de la taula parada. Taula domèstica parada amb dos serveis i cadires, més aparador baix; cap fogó ni taulell de cuina. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NOI|PORTAR|PLAT|escenari:MENJADOR",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:37:49.530Z"
+}

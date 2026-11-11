@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-080",
+  "file": "output/production/n6/n6-080/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + LLEGIR + CÒMIC + HABITACIÓ. Semantic focus: lloc. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: Asseguda al llit, llegeix un còmic de vinyetes mudes. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-080",
+    "number": 80,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · llegir · còmic · habitació"
+    },
+    "labels": [
+      "NOIA",
+      "LLEGIR",
+      "CÒMIC",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-ef0bd41d6ee3",
+      "w-30471c345a4c",
+      "w-23dafac8fd59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "role": "patient",
+        "label": "CÒMIC",
+        "wordId": "w-30471c345a4c"
+      },
+      {
+        "role": "location",
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "visualDescription": "NOIA: Asseguda al llit, llegeix un còmic de vinyetes mudes. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NOIA|LLEGIR|CÒMIC|escenari:HABITACIÓ",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:37:49.982Z"
+}
