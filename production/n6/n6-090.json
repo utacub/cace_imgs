@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-090",
+  "file": "output/production/n6/n6-090/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + PLANTAR + FLOR + HORT. Semantic focus: lloc. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: Col·loca una flor amb arrels en un clot del bancal i hi acosta terra amb una mà. Dos bancals baixos amb rengleres d’hortalisses i tomaqueres entutorades; terra cultivada, sense estable. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-090",
+    "number": 90,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · plantar · flor · hort"
+    },
+    "labels": [
+      "NENA",
+      "PLANTAR",
+      "FLOR",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-6af4a2a10994",
+      "w-6c5def9143c8",
+      "w-7338bad6a84a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "PLANTAR",
+        "wordId": "w-6af4a2a10994"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "location",
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "visualDescription": "NENA: Col·loca una flor amb arrels en un clot del bancal i hi acosta terra amb una mà. Dos bancals baixos amb rengleres d’hortalisses i tomaqueres entutorades; terra cultivada, sense estable. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NENA|PLANTAR|FLOR|escenari:HORT",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:08:17.847Z"
+}

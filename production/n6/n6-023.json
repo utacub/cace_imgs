@@ -1,0 +1,66 @@
+{
+  "constructionId": "n6-023",
+  "file": "output/production/n6/n6-023/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + MENJAR + ARRÒS + AMB + CULLERA. Semantic focus: instrument. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: La cullera aixeca un mos d’arròs d’un plat cap a la boca; grans recognoscibles i mànec visible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-023",
+    "number": 23,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · menjar · arròs · cullera"
+    },
+    "labels": [
+      "NENA",
+      "MENJAR",
+      "ARRÒS",
+      "AMB",
+      "CULLERA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c248ebfe6f67",
+      "w-d7dde06020b1",
+      "w-11fbfd8fa777",
+      "w-9c9849fac1d3"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "role": "patient",
+        "label": "ARRÒS",
+        "wordId": "w-d7dde06020b1"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "visualDescription": "NENA: La cullera aixeca un mos d’arròs d’un plat cap a la boca; grans recognoscibles i mànec visible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NENA|MENJAR|ARRÒS|eina:CULLERA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:08:17.498Z"
+}

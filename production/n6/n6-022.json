@@ -1,0 +1,66 @@
+{
+  "constructionId": "n6-022",
+  "file": "output/production/n6/n6-022/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + OBRIR + CAIXA + AMB + CLAU. Semantic focus: instrument. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: La clau és inserida al pany d’una caixa i es gira; la tapa s’entreobre, amb pany i clau completament visibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-022",
+    "number": 22,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · obrir · caixa · clau"
+    },
+    "labels": [
+      "NOIA",
+      "OBRIR",
+      "CAIXA",
+      "AMB",
+      "CLAU"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-a10b29af07c7",
+      "w-696b7c739d30",
+      "w-11fbfd8fa777",
+      "w-49f4bdd9a93a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "CLAU",
+        "wordId": "w-49f4bdd9a93a"
+      }
+    ],
+    "visualDescription": "NOIA: La clau és inserida al pany d’una caixa i es gira; la tapa s’entreobre, amb pany i clau completament visibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NOIA|OBRIR|CAIXA|eina:CLAU",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:08:17.026Z"
+}
