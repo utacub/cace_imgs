@@ -1,3 +1,11 @@
+# N5 · Tancament de la sessió de tarda · 11 de novembre de 2026
+
+Generació aturada a 2026-11-11T17:21:25.265Z, reservant el tram final per publicar i verificar abans de les 18:30 Europe/Madrid. 179/200 N5 revisades i importades (84 noves en aquesta represa); 21 pendents, enumerades a production/n5-progress.json. Versió 0.1.115, 3248 imatges totals. Espai i possessió complets; els pendents són de contingut. Cap nova generació després del tall; una nova sessió necessita una nova instrucció.
+
+Originals PNG i galeria a output/production/n5 i output/n5-review.html. Les còpies WebP es distribueixen amb el banc versionat. La publicació final està preparada després de comprovar el catàleg, les imatges i la preservació del banc anterior. La comprovació pública posterior es desa a output/n5-publication-verification.json; consultar-la per l’estat final verificat.
+
+---
+
 # N5 · Represa autoritzada fins a les 18:30 · 11 de novembre de 2026
 
 Primer lot publicat i verificat: versió 0.1.108, commit 72cf613145ae1dfdbff8f3557ffe6483f23af25b, GitHub Actions 43056590014 success. 95 descàrregues N5 verificades SHA-256; 3164 imatges totals. La generació següent només incorpora pendents del pla. Evidència pública a output/n5-publication-verification.json.
