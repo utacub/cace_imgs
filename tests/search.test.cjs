@@ -188,6 +188,24 @@ test('N4 combines subject, action and object with the level and collection filte
   assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n4-')).map(row => row.id)));
 });
 
+test('N5 relations support exact CACE tags, search and their collection without mixing levels', () => {
+  const a = app();
+  for (const id of ['n5-001', 'n5-041', 'n5-071', 'n5-112']) {
+    const row = catalog.assets.find(x => x.constructionId === id);
+    assert.ok(row, id);
+    a.run(`state.view='all'; state.query=''; state.level=5; state.tags=${JSON.stringify(row.tags)}; state.wordMode='all'`);
+    assert.deepEqual(a.read('results().map(x=>x.id)'), [row.id]);
+    a.run('state.level=4');
+    assert.equal(a.read('results().length'), 0);
+  }
+  a.run("state.level=5; state.tags=[]; state.query='elefant dins tassa'; lang='ca'");
+  assert.deepEqual(a.read('results().map(x=>x.constructionId)'), ['n5-112']);
+  a.run("state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n5-relacions'");
+  const expected = catalog.assets.filter(x => x.constructionId?.startsWith('n5-')).map(x => x.id);
+  assert.ok(expected.length >= 95);
+  assert.deepEqual(new Set(a.read('results().map(x=>x.id)')), new Set(expected));
+});
+
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
   for (const row of catalog.assets) {
     assert.ok(row.tags.includes(row.primaryWordId), row.id);

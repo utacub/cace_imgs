@@ -1,0 +1,53 @@
+{
+  "constructionId": "n5-109",
+  "file": "output/production/n5/n5-109/image.png",
+  "prompt": "Edit this image for CACE school vocabulary. Preserve exactly the friendly flat drawing of the penguin standing on the ice cream cone, no new objects and no text. ZOOM OUT substantially: shrink the whole existing penguin-plus-ice-cream composition so its full height occupies ONLY 60 percent of the square canvas, centered. Add a large pure white empty margin of at least 20 percent canvas height ABOVE the penguin and BELOW the cone tip. Keep both figures entirely unchanged in appearance, correct proportions, penguin feet touching ice cream, pure white background. The current image is much too close to the top and bottom edges; correcting this framing is the only requested change.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n5-109",
+    "number": 109,
+    "level": 5,
+    "group": "insolita",
+    "relationType": "espai",
+    "labels": [
+      "PINGUÍ",
+      "SOBRE",
+      "GELAT"
+    ],
+    "wordIds": [
+      "w-5993b1ea57aa",
+      "w-d44584204864",
+      "w-cb071abb9231"
+    ],
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "Pinguí · sobre · gelat",
+      "es": "PINGÜINO · SOBRE · HELADO"
+    }
+  },
+  "created": "2026-11-11T08:36:09.115Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n5/n5-109/rejected-01.png",
+      "reason": "Marges superior i inferior massa estrets; cal ampliar espai blanc.",
+      "prompt": "Use case: scientific-educational. CACE N5 school vocabulary stimulus. ONE square image, one scene, pure white seamless background, only the named referents and indispensable support, no bystanders or unrelated objects. Entire composition centered in central 70 percent with broad white margin ALL sides; whole figures and objects, correct natural anatomy, friendly and suitable for primary school. Absolutely no text, letters, numbers, logos, labels, symbols, watermark or collage. Make the exact spatial/possession/content relation visually unambiguous. Medium: friendly flat 2D educational drawing, no 3D. Exact target PINGUÍ + SOBRE + GELAT. One recognizable friendly penguin standing comfortably ON TOP of one large rounded scoop of ice cream in a waffle cone standing upright. Both penguin feet visibly rest on the ice-cream surface; no licking or eating. Entire penguin including flippers and feet, entire scoop and cone complete. Whimsical scale, ice cream clearly frozen scoop with soft rounded surface, not snow or a rock. Only penguin and ice cream, no dripping mess or extra props.",
+      "rejectedAt": "2026-11-11T08:37:10.622Z"
+    }
+  ],
+  "review": "Versió refeta amb marges blancs amplis; pingüí amb peus sobre el gelat, referents complets i recognoscibles.",
+  "alt": {
+    "ca": "Pinguí · sobre · gelat.",
+    "es": "PINGÜINO · SOBRE · HELADO."
+  },
+  "originalSha256": "94a3cd8704f86b0d81a8c9721eafa9a9bf1579341092db181fbe51301fbd6f6c",
+  "width": 1254,
+  "height": 1254,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T08:37:37.448Z",
+  "publicationVersion": "0.1.108",
+  "importedAt": "2026-11-11T09:37:05.499073+00:00"
+}

@@ -1,0 +1,4641 @@
+{
+  "level": 5,
+  "name": "Relacions",
+  "description": "Espai, possessió i contingut.",
+  "status": "proposal-only",
+  "authorization": "Només proposta i llista per revisar. No generar imatges, importar, publicar, fer commit, push ni desplegament.",
+  "variantsPerConstruction": 1,
+  "habitual": 100,
+  "insolita": 100,
+  "distributionPerGroup": {
+    "espai": 40,
+    "possessio": 30,
+    "contingut": 30
+  },
+  "relationPolicy": {
+    "espai": "Referent + relació espacial exacta + referent de suport. ENTRE mostra dos exemplars del mateix suport. FORA mostra el recipient o recinte obert i buit, amb el referent clarament a l’exterior.",
+    "possessio": "Posseïdor + TENIR + possessió. Escena estàtica: el posseïdor sosté o porta el seu objecte personal. TENIR expressa tinença; no es pretén demostrar propietat legal ni representar una altra acció.",
+    "contingut": "Contenidor o suport + AMB + contingut. El contingut ocupa visiblement l’interior del recipient o la superfície funcional del suport. AMB no expressa instrument ni simple proximitat."
+  },
+  "visualPolicy": [
+    "Una sola imatge per estímul en una producció futura que requerirà nova autorització.",
+    "Fotografia habitual i dibuix insòlit proposats, sense producció en aquesta tasca.",
+    "Fons blanc, marges amplis, referents recognoscibles i complets; només el context necessari.",
+    "Sense text, xifres ni marques; cap violència ni perill; animals i criatures amables.",
+    "Les escenes insòlites poden tenir proporcions fantàstiques, però cada referent conserva els trets recognoscibles. No representar joguines o estampats en lloc dels conceptes.",
+    "En possessió, variar aparença humana sense atribuir professions o parentius no visibles.",
+    "No utilitzar colors, estampats ni mides com a única font de diversitat."
+  ],
+  "items": [
+    {
+      "id": "n5-001",
+      "number": 1,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PILOTA",
+        "SOTA",
+        "TAULA"
+      ],
+      "wordIds": [
+        "w-b7f578451973",
+        "w-e0a6aeb46069",
+        "w-1544f4efec59"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Pilota · sota · taula",
+        "es": "PELOTA · BAJO · MESA"
+      }
+    },
+    {
+      "id": "n5-002",
+      "number": 2,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GAT",
+        "SOTA",
+        "CADIRA"
+      ],
+      "wordIds": [
+        "w-11ff74d27c02",
+        "w-e0a6aeb46069",
+        "w-e1efe2c4e23d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gat · sota · cadira",
+        "es": "GATO · BAJO · SILLA"
+      }
+    },
+    {
+      "id": "n5-003",
+      "number": 3,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "SABATES",
+        "SOTA",
+        "LLIT"
+      ],
+      "wordIds": [
+        "w-6e2a67944770",
+        "w-e0a6aeb46069",
+        "w-5f7c1679605f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Sabates · sota · llit",
+        "es": "ZAPATOS · BAJO · CAMA"
+      }
+    },
+    {
+      "id": "n5-004",
+      "number": 4,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "MOTXILLA",
+        "SOTA",
+        "PRESTATGERIA"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-e0a6aeb46069",
+        "w-d6d32ee8f603"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Motxilla · sota · prestatgeria",
+        "es": "MOCHILA · BAJO · ESTANTERÍA"
+      }
+    },
+    {
+      "id": "n5-005",
+      "number": 5,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GOS",
+        "SOTA",
+        "ARBRE"
+      ],
+      "wordIds": [
+        "w-4761fde107a7",
+        "w-e0a6aeb46069",
+        "w-f68092bfabd1"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gos · sota · arbre",
+        "es": "PERRO · BAJO · ÁRBOL"
+      }
+    },
+    {
+      "id": "n5-006",
+      "number": 6,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "LLIBRE",
+        "SOBRE",
+        "TAULA"
+      ],
+      "wordIds": [
+        "w-3bb995df42bf",
+        "w-d44584204864",
+        "w-1544f4efec59"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Llibre · sobre · taula",
+        "es": "LIBRO · SOBRE · MESA"
+      }
+    },
+    {
+      "id": "n5-007",
+      "number": 7,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "COIXÍ",
+        "SOBRE",
+        "SOFÀ"
+      ],
+      "wordIds": [
+        "w-44260b79b61e",
+        "w-d44584204864",
+        "w-2b6bc3660479"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Coixí · sobre · sofà",
+        "es": "ALMOHADA · SOBRE · SOFÁ"
+      }
+    },
+    {
+      "id": "n5-008",
+      "number": 8,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "TASSA",
+        "SOBRE",
+        "PLAT"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-d44584204864",
+        "w-55d250f4cf1e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Tassa · sobre · plat",
+        "es": "TAZA · SOBRE · PLATO"
+      }
+    },
+    {
+      "id": "n5-009",
+      "number": 9,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "OCELL",
+        "SOBRE",
+        "TRONC"
+      ],
+      "wordIds": [
+        "w-52fa5badbff5",
+        "w-d44584204864",
+        "w-0e96266ac635"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Ocell · sobre · tronc",
+        "es": "PÁJARO · SOBRE · TRONCO"
+      }
+    },
+    {
+      "id": "n5-010",
+      "number": 10,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "MANTA",
+        "SOBRE",
+        "LLIT"
+      ],
+      "wordIds": [
+        "w-732ff8e447b5",
+        "w-d44584204864",
+        "w-5f7c1679605f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Manta · sobre · llit",
+        "es": "MANTA · SOBRE · CAMA"
+      }
+    },
+    {
+      "id": "n5-011",
+      "number": 11,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "LLAPIS",
+        "DINS",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-1775aa96869e",
+        "w-f871f670a944",
+        "w-696b7c739d30"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Llapis · dins · caixa",
+        "es": "LÁPIZ · DENTRO · CAJA"
+      }
+    },
+    {
+      "id": "n5-012",
+      "number": 12,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "NINA",
+        "DINS",
+        "CISTELL"
+      ],
+      "wordIds": [
+        "w-db89958a3c63",
+        "w-f871f670a944",
+        "w-120fb6b37e88"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nina · dins · cistell",
+        "es": "MUÑECA · DENTRO · CESTA"
+      }
+    },
+    {
+      "id": "n5-013",
+      "number": 13,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PLAT",
+        "DINS",
+        "ARMARI"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-f871f670a944",
+        "w-2286891fbee6"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Plat · dins · armari",
+        "es": "PLATO · DENTRO · ARMARIO"
+      }
+    },
+    {
+      "id": "n5-014",
+      "number": 14,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "POMA",
+        "DINS",
+        "BOSSA"
+      ],
+      "wordIds": [
+        "w-809c680b5699",
+        "w-f871f670a944",
+        "w-7db8d682fed4"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Poma · dins · bossa",
+        "es": "MANZANA · DENTRO · BOLSA"
+      }
+    },
+    {
+      "id": "n5-015",
+      "number": 15,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "NEN",
+        "DINS",
+        "CASA"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-f871f670a944",
+        "w-57ca61c8d99d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · dins · casa",
+        "es": "NIÑO · DENTRO · CASA"
+      }
+    },
+    {
+      "id": "n5-016",
+      "number": 16,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GOS",
+        "FORA",
+        "CASA"
+      ],
+      "wordIds": [
+        "w-4761fde107a7",
+        "w-9daa4c89a9c6",
+        "w-57ca61c8d99d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gos · fora · casa",
+        "es": "PERRO · FUERA · CASA"
+      }
+    },
+    {
+      "id": "n5-017",
+      "number": 17,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "BICICLETA",
+        "FORA",
+        "ESCOLA"
+      ],
+      "wordIds": [
+        "w-77e4851b2d97",
+        "w-9daa4c89a9c6",
+        "w-0156c87f929a"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bicicleta · fora · escola",
+        "es": "BICICLETA · FUERA · ESCUELA"
+      }
+    },
+    {
+      "id": "n5-018",
+      "number": 18,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GALLEDA",
+        "FORA",
+        "ARMARI"
+      ],
+      "wordIds": [
+        "w-7f04619a8649",
+        "w-9daa4c89a9c6",
+        "w-2286891fbee6"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Galleda · fora · armari",
+        "es": "CUBO · FUERA · ARMARIO"
+      }
+    },
+    {
+      "id": "n5-019",
+      "number": 19,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "SABATES",
+        "FORA",
+        "MOTXILLA"
+      ],
+      "wordIds": [
+        "w-6e2a67944770",
+        "w-9daa4c89a9c6",
+        "w-43db0ea26088"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Sabates · fora · motxilla",
+        "es": "ZAPATOS · FUERA · MOCHILA"
+      }
+    },
+    {
+      "id": "n5-020",
+      "number": 20,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PILOTA",
+        "FORA",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-b7f578451973",
+        "w-9daa4c89a9c6",
+        "w-696b7c739d30"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Pilota · fora · caixa",
+        "es": "PELOTA · FUERA · CAJA"
+      }
+    },
+    {
+      "id": "n5-021",
+      "number": 21,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "NENA",
+        "DAVANT",
+        "PISSARRA"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-8f33e707f0af",
+        "w-8a3a439bdb8e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · davant · pissarra",
+        "es": "NIÑA · ANTE · PIZARRA"
+      }
+    },
+    {
+      "id": "n5-022",
+      "number": 22,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "COTXE",
+        "DAVANT",
+        "CASA"
+      ],
+      "wordIds": [
+        "w-1088e4bd6972",
+        "w-8f33e707f0af",
+        "w-57ca61c8d99d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cotxe · davant · casa",
+        "es": "COCHE · ANTE · CASA"
+      }
+    },
+    {
+      "id": "n5-023",
+      "number": 23,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "CADIRA",
+        "DAVANT",
+        "ORDINADOR"
+      ],
+      "wordIds": [
+        "w-e1efe2c4e23d",
+        "w-8f33e707f0af",
+        "w-fd586876e91e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cadira · davant · ordinador",
+        "es": "SILLA · ANTE · ORDENADOR"
+      }
+    },
+    {
+      "id": "n5-024",
+      "number": 24,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GAT",
+        "DAVANT",
+        "PORTA"
+      ],
+      "wordIds": [
+        "w-11ff74d27c02",
+        "w-8f33e707f0af",
+        "w-e2209c0332a6"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gat · davant · porta",
+        "es": "GATO · ANTE · PUERTA"
+      }
+    },
+    {
+      "id": "n5-025",
+      "number": 25,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PATINET",
+        "DAVANT",
+        "ESCOLA"
+      ],
+      "wordIds": [
+        "w-930357f518b5",
+        "w-8f33e707f0af",
+        "w-0156c87f929a"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Patinet · davant · escola",
+        "es": "PATINETE · ANTE · ESCUELA"
+      }
+    },
+    {
+      "id": "n5-026",
+      "number": 26,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GOS",
+        "DARRERE",
+        "SOFÀ"
+      ],
+      "wordIds": [
+        "w-4761fde107a7",
+        "w-f3d35a0fe919",
+        "w-2b6bc3660479"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gos · darrere · sofà",
+        "es": "PERRO · DETRÁS · SOFÁ"
+      }
+    },
+    {
+      "id": "n5-027",
+      "number": 27,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "NEN",
+        "DARRERE",
+        "ARBRE"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-f3d35a0fe919",
+        "w-f68092bfabd1"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · darrere · arbre",
+        "es": "NIÑO · DETRÁS · ÁRBOL"
+      }
+    },
+    {
+      "id": "n5-028",
+      "number": 28,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PILOTA",
+        "DARRERE",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-b7f578451973",
+        "w-f3d35a0fe919",
+        "w-696b7c739d30"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Pilota · darrere · caixa",
+        "es": "PELOTA · DETRÁS · CAJA"
+      }
+    },
+    {
+      "id": "n5-029",
+      "number": 29,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "BICICLETA",
+        "DARRERE",
+        "COTXE"
+      ],
+      "wordIds": [
+        "w-77e4851b2d97",
+        "w-f3d35a0fe919",
+        "w-1088e4bd6972"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bicicleta · darrere · cotxe",
+        "es": "BICICLETA · DETRÁS · COCHE"
+      }
+    },
+    {
+      "id": "n5-030",
+      "number": 30,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GAT",
+        "DARRERE",
+        "ARMARI"
+      ],
+      "wordIds": [
+        "w-11ff74d27c02",
+        "w-f3d35a0fe919",
+        "w-2286891fbee6"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gat · darrere · armari",
+        "es": "GATO · DETRÁS · ARMARIO"
+      }
+    },
+    {
+      "id": "n5-031",
+      "number": 31,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "CADIRA DE RODES",
+        "AL COSTAT",
+        "TAULA"
+      ],
+      "wordIds": [
+        "w-90b638b2f8d3",
+        "w-4b1aa97e6891",
+        "w-1544f4efec59"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cadira de rodes · al costat · taula",
+        "es": "SILLA DE RUEDAS · AL LADO · MESA"
+      }
+    },
+    {
+      "id": "n5-032",
+      "number": 32,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "LLUM",
+        "AL COSTAT",
+        "LLIT"
+      ],
+      "wordIds": [
+        "w-30c924a12d6f",
+        "w-4b1aa97e6891",
+        "w-5f7c1679605f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Llum · al costat · llit",
+        "es": "LUZ · AL LADO · CAMA"
+      }
+    },
+    {
+      "id": "n5-033",
+      "number": 33,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "CULLERA",
+        "AL COSTAT",
+        "PLAT"
+      ],
+      "wordIds": [
+        "w-9c9849fac1d3",
+        "w-4b1aa97e6891",
+        "w-55d250f4cf1e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cullera · al costat · plat",
+        "es": "CUCHARA · AL LADO · PLATO"
+      }
+    },
+    {
+      "id": "n5-034",
+      "number": 34,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "MOTXILLA",
+        "AL COSTAT",
+        "CADIRA"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-4b1aa97e6891",
+        "w-e1efe2c4e23d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Motxilla · al costat · cadira",
+        "es": "MOCHILA · AL LADO · SILLA"
+      }
+    },
+    {
+      "id": "n5-035",
+      "number": 35,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "FLOR",
+        "AL COSTAT",
+        "FINESTRA"
+      ],
+      "wordIds": [
+        "w-6c5def9143c8",
+        "w-4b1aa97e6891",
+        "w-59560a6c11b6"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Flor · al costat · finestra",
+        "es": "FLOR · AL LADO · VENTANA"
+      }
+    },
+    {
+      "id": "n5-036",
+      "number": 36,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "LLIBRE",
+        "ENTRE",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-3bb995df42bf",
+        "w-4a974f8cc99c",
+        "w-696b7c739d30"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Llibre · entre · caixa",
+        "es": "LIBRO · ENTRE · CAJA"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-037",
+      "number": 37,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "PILOTA",
+        "ENTRE",
+        "CADIRA"
+      ],
+      "wordIds": [
+        "w-b7f578451973",
+        "w-4a974f8cc99c",
+        "w-e1efe2c4e23d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Pilota · entre · cadira",
+        "es": "PELOTA · ENTRE · SILLA"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-038",
+      "number": 38,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "GAT",
+        "ENTRE",
+        "COIXÍ"
+      ],
+      "wordIds": [
+        "w-11ff74d27c02",
+        "w-4a974f8cc99c",
+        "w-44260b79b61e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Gat · entre · coixí",
+        "es": "GATO · ENTRE · ALMOHADA"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-039",
+      "number": 39,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "NENA",
+        "ENTRE",
+        "ARBRE"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-4a974f8cc99c",
+        "w-f68092bfabd1"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · entre · arbre",
+        "es": "NIÑA · ENTRE · ÁRBOL"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-040",
+      "number": 40,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "espai",
+      "labels": [
+        "BICICLETA",
+        "ENTRE",
+        "COTXE"
+      ],
+      "wordIds": [
+        "w-77e4851b2d97",
+        "w-4a974f8cc99c",
+        "w-1088e4bd6972"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bicicleta · entre · cotxe",
+        "es": "BICICLETA · ENTRE · COCHE"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-041",
+      "number": 41,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NEN",
+        "TENIR",
+        "MOTXILLA"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-562394fa1e77",
+        "w-43db0ea26088"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · té · motxilla",
+        "es": "NIÑO · TENER · MOCHILA"
+      }
+    },
+    {
+      "id": "n5-042",
+      "number": 42,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NENA",
+        "TENIR",
+        "CONTE"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-562394fa1e77",
+        "w-22f3876c9741"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · té · conte",
+        "es": "NIÑA · TENER · CUENTO"
+      }
+    },
+    {
+      "id": "n5-043",
+      "number": 43,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOI",
+        "TENIR",
+        "BICICLETA"
+      ],
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-562394fa1e77",
+        "w-77e4851b2d97"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noi · té · bicicleta",
+        "es": "CHICO · TENER · BICICLETA"
+      }
+    },
+    {
+      "id": "n5-044",
+      "number": 44,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOIA",
+        "TENIR",
+        "PATINET"
+      ],
+      "wordIds": [
+        "w-b38ff488f862",
+        "w-562394fa1e77",
+        "w-930357f518b5"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noia · té · patinet",
+        "es": "CHICA · TENER · PATINETE"
+      }
+    },
+    {
+      "id": "n5-045",
+      "number": 45,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "DONA",
+        "TENIR",
+        "BOSSA DE MÀ"
+      ],
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-562394fa1e77",
+        "w-227ea9ad182c"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Dona · té · bossa de mà",
+        "es": "MUJER · TENER · BOLSA DE MANO"
+      }
+    },
+    {
+      "id": "n5-046",
+      "number": 46,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "HOME",
+        "TENIR",
+        "PARAIGUA"
+      ],
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-562394fa1e77",
+        "w-057e09311c15"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Home · té · paraigua",
+        "es": "HOMBRE · TENER · PARAGUAS"
+      }
+    },
+    {
+      "id": "n5-047",
+      "number": 47,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NADÓ",
+        "TENIR",
+        "PITET"
+      ],
+      "wordIds": [
+        "w-bb8cd0de68c8",
+        "w-562394fa1e77",
+        "w-c24497570270"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nadó · té · pitet",
+        "es": "BEBÉ · TENER · BABERO"
+      }
+    },
+    {
+      "id": "n5-048",
+      "number": 48,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NEN",
+        "TENIR",
+        "PILOTA"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-562394fa1e77",
+        "w-b7f578451973"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · té · pilota",
+        "es": "NIÑO · TENER · PELOTA"
+      }
+    },
+    {
+      "id": "n5-049",
+      "number": 49,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NENA",
+        "TENIR",
+        "NINA"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-562394fa1e77",
+        "w-db89958a3c63"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · té · nina",
+        "es": "NIÑA · TENER · MUÑECA"
+      }
+    },
+    {
+      "id": "n5-050",
+      "number": 50,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOI",
+        "TENIR",
+        "COMUNICADOR"
+      ],
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-562394fa1e77",
+        "w-47f69ba08f48"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noi · té · comunicador",
+        "es": "CHICO · TENER · COMUNICADOR"
+      }
+    },
+    {
+      "id": "n5-051",
+      "number": 51,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOIA",
+        "TENIR",
+        "CÀMERA"
+      ],
+      "wordIds": [
+        "w-b38ff488f862",
+        "w-562394fa1e77",
+        "w-b9b63d370891"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noia · té · càmera",
+        "es": "CHICA · TENER · CÁMARA"
+      }
+    },
+    {
+      "id": "n5-052",
+      "number": 52,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "DONA",
+        "TENIR",
+        "MONEDER"
+      ],
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-562394fa1e77",
+        "w-1c7dc27a398b"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Dona · té · moneder",
+        "es": "MUJER · TENER · MONEDERO"
+      }
+    },
+    {
+      "id": "n5-053",
+      "number": 53,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "HOME",
+        "TENIR",
+        "RELLOTGE"
+      ],
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-562394fa1e77",
+        "w-52c71c163e38"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Home · té · rellotge",
+        "es": "HOMBRE · TENER · RELOJ"
+      }
+    },
+    {
+      "id": "n5-054",
+      "number": 54,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NADÓ",
+        "TENIR",
+        "MANTA"
+      ],
+      "wordIds": [
+        "w-bb8cd0de68c8",
+        "w-562394fa1e77",
+        "w-732ff8e447b5"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nadó · té · manta",
+        "es": "BEBÉ · TENER · MANTA"
+      }
+    },
+    {
+      "id": "n5-055",
+      "number": 55,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NEN",
+        "TENIR",
+        "CROMOS"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-562394fa1e77",
+        "w-8797b9b05556"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · té · cromos",
+        "es": "NIÑO · TENER · CROMOS"
+      }
+    },
+    {
+      "id": "n5-056",
+      "number": 56,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NENA",
+        "TENIR",
+        "PUZLE"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-562394fa1e77",
+        "w-0006cf1ffdae"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · té · puzle",
+        "es": "NIÑA · TENER · PUZZLE"
+      }
+    },
+    {
+      "id": "n5-057",
+      "number": 57,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOI",
+        "TENIR",
+        "GUITARRA"
+      ],
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-562394fa1e77",
+        "w-b69870bdd5ab"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noi · té · guitarra",
+        "es": "CHICO · TENER · GUITARRA"
+      }
+    },
+    {
+      "id": "n5-058",
+      "number": 58,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOIA",
+        "TENIR",
+        "CARPETA"
+      ],
+      "wordIds": [
+        "w-b38ff488f862",
+        "w-562394fa1e77",
+        "w-46f884632cd7"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noia · té · carpeta",
+        "es": "CHICA · TENER · CARPETA"
+      }
+    },
+    {
+      "id": "n5-059",
+      "number": 59,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "DONA",
+        "TENIR",
+        "TELÈFON"
+      ],
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-562394fa1e77",
+        "w-9f650a9a866e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Dona · té · telèfon",
+        "es": "MUJER · TENER · TELÉFONO"
+      }
+    },
+    {
+      "id": "n5-060",
+      "number": 60,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "HOME",
+        "TENIR",
+        "CLAU"
+      ],
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-562394fa1e77",
+        "w-49f4bdd9a93a"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Home · té · clau",
+        "es": "HOMBRE · TENER · LLAVE"
+      }
+    },
+    {
+      "id": "n5-061",
+      "number": 61,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NEN",
+        "TENIR",
+        "MÀRFEGA"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-562394fa1e77",
+        "w-61588d5b9bb9"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · té · màrfega",
+        "es": "NIÑO · TENER · ESTERILLA"
+      }
+    },
+    {
+      "id": "n5-062",
+      "number": 62,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NENA",
+        "TENIR",
+        "SAC DE DORMIR"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-562394fa1e77",
+        "w-569e63515616"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · té · sac de dormir",
+        "es": "NIÑA · TENER · SACO DE DORMIR"
+      }
+    },
+    {
+      "id": "n5-063",
+      "number": 63,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOI",
+        "TENIR",
+        "CÒMIC"
+      ],
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-562394fa1e77",
+        "w-30471c345a4c"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noi · té · còmic",
+        "es": "CHICO · TENER · CÓMIC"
+      }
+    },
+    {
+      "id": "n5-064",
+      "number": 64,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOIA",
+        "TENIR",
+        "AGENDA"
+      ],
+      "wordIds": [
+        "w-b38ff488f862",
+        "w-562394fa1e77",
+        "w-666412ac4913"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noia · té · agenda",
+        "es": "CHICA · TENER · AGENDA"
+      }
+    },
+    {
+      "id": "n5-065",
+      "number": 65,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "DONA",
+        "TENIR",
+        "ULLERES"
+      ],
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-562394fa1e77",
+        "w-2ab74322bbef"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Dona · té · ulleres",
+        "es": "MUJER · TENER · GAFAS"
+      }
+    },
+    {
+      "id": "n5-066",
+      "number": 66,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "HOME",
+        "TENIR",
+        "BOSSA"
+      ],
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-562394fa1e77",
+        "w-7db8d682fed4"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Home · té · bossa",
+        "es": "HOMBRE · TENER · BOLSA"
+      }
+    },
+    {
+      "id": "n5-067",
+      "number": 67,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NEN",
+        "TENIR",
+        "TITELLA"
+      ],
+      "wordIds": [
+        "w-b4012100fe09",
+        "w-562394fa1e77",
+        "w-3063ed1cff1f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nen · té · titella",
+        "es": "NIÑO · TENER · TÍTERE"
+      }
+    },
+    {
+      "id": "n5-068",
+      "number": 68,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NENA",
+        "TENIR",
+        "COLLARET"
+      ],
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-562394fa1e77",
+        "w-072184ba0291"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Nena · té · collaret",
+        "es": "NIÑA · TENER · COLLAR"
+      }
+    },
+    {
+      "id": "n5-069",
+      "number": 69,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOI",
+        "TENIR",
+        "MONOPATÍ"
+      ],
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-562394fa1e77",
+        "w-15d46a7eab04"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noi · té · monopatí",
+        "es": "CHICO · TENER · MONOPATÍN"
+      }
+    },
+    {
+      "id": "n5-070",
+      "number": 70,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "possessio",
+      "labels": [
+        "NOIA",
+        "TENIR",
+        "PANDERETA"
+      ],
+      "wordIds": [
+        "w-b38ff488f862",
+        "w-562394fa1e77",
+        "w-f986e24ccb0e"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Noia · té · pandereta",
+        "es": "CHICA · TENER · PANDERETA"
+      }
+    },
+    {
+      "id": "n5-071",
+      "number": 71,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "AIGUA"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-00e8b2c10536"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Got · amb · aigua",
+        "es": "VASO · CON · AGUA"
+      }
+    },
+    {
+      "id": "n5-072",
+      "number": 72,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "LLET"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-e596f4e7a6bb"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Tassa · amb · llet",
+        "es": "TAZA · CON · LECHE"
+      }
+    },
+    {
+      "id": "n5-073",
+      "number": 73,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "ARRÒS"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-d7dde06020b1"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Plat · amb · arròs",
+        "es": "PLATO · CON · ARROZ"
+      }
+    },
+    {
+      "id": "n5-074",
+      "number": 74,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "MACARRONS"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-6c9b528800eb"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Carmanyola · amb · macarrons",
+        "es": "FIAMBRERA · CON · MACARRONES"
+      }
+    },
+    {
+      "id": "n5-075",
+      "number": 75,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "POMA"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-809c680b5699"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cistell · amb · poma",
+        "es": "CESTA · CON · MANZANA"
+      }
+    },
+    {
+      "id": "n5-076",
+      "number": 76,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "PA"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-96e21018e871"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bossa · amb · pa",
+        "es": "BOLSA · CON · PAN"
+      }
+    },
+    {
+      "id": "n5-077",
+      "number": 77,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "GOMETS"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-aefa398e3d70"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Caixa · amb · gomets",
+        "es": "CAJA · CON · PEGATINAS"
+      }
+    },
+    {
+      "id": "n5-078",
+      "number": 78,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "LLIBRE"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-3bb995df42bf"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Motxilla · amb · llibre",
+        "es": "MOCHILA · CON · LIBRO"
+      }
+    },
+    {
+      "id": "n5-079",
+      "number": 79,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "MONEDER",
+        "AMB",
+        "CÈNTIMS"
+      ],
+      "wordIds": [
+        "w-1c7dc27a398b",
+        "w-11fbfd8fa777",
+        "w-b48ec38350bc"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Moneder · amb · cèntims",
+        "es": "MONEDERO · CON · CÉNTIMOS"
+      }
+    },
+    {
+      "id": "n5-080",
+      "number": 80,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "ARMARI",
+        "AMB",
+        "ROBA"
+      ],
+      "wordIds": [
+        "w-2286891fbee6",
+        "w-11fbfd8fa777",
+        "w-7dc88016e698"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Armari · amb · roba",
+        "es": "ARMARIO · CON · ROPA"
+      }
+    },
+    {
+      "id": "n5-081",
+      "number": 81,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "XOCOLATA"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-1f4f66a7bc82"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Tassa · amb · xocolata",
+        "es": "TAZA · CON · CHOCOLATE"
+      }
+    },
+    {
+      "id": "n5-082",
+      "number": 82,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "SUC"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-e5decd679111"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Got · amb · suc",
+        "es": "VASO · CON · ZUMO"
+      }
+    },
+    {
+      "id": "n5-083",
+      "number": 83,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "LLENTIES"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-48b3f6b68c6c"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Plat · amb · llenties",
+        "es": "PLATO · CON · LENTEJAS"
+      }
+    },
+    {
+      "id": "n5-084",
+      "number": 84,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "ENTREPÀ"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-0c47f11deffa"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Carmanyola · amb · entrepà",
+        "es": "FIAMBRERA · CON · BOCADILLO"
+      }
+    },
+    {
+      "id": "n5-085",
+      "number": 85,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "PERA"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-9630a1d828c9"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cistell · amb · pera",
+        "es": "CESTA · CON · PERA"
+      }
+    },
+    {
+      "id": "n5-086",
+      "number": 86,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "GALETES"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-eecb1a704a59"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bossa · amb · galetes",
+        "es": "BOLSA · CON · GALLETAS"
+      }
+    },
+    {
+      "id": "n5-087",
+      "number": 87,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "PECES"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-776ec487889f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Caixa · amb · peces",
+        "es": "CAJA · CON · PIEZAS"
+      }
+    },
+    {
+      "id": "n5-088",
+      "number": 88,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "CARPETA"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-46f884632cd7"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Motxilla · amb · carpeta",
+        "es": "MOCHILA · CON · CARPETA"
+      }
+    },
+    {
+      "id": "n5-089",
+      "number": 89,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "GALLEDA",
+        "AMB",
+        "AIGUA"
+      ],
+      "wordIds": [
+        "w-7f04619a8649",
+        "w-11fbfd8fa777",
+        "w-00e8b2c10536"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Galleda · amb · aigua",
+        "es": "CUBO · CON · AGUA"
+      }
+    },
+    {
+      "id": "n5-090",
+      "number": 90,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "PRESTATGERIA",
+        "AMB",
+        "CONTE"
+      ],
+      "wordIds": [
+        "w-d6d32ee8f603",
+        "w-11fbfd8fa777",
+        "w-22f3876c9741"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Prestatgeria · amb · conte",
+        "es": "ESTANTERÍA · CON · CUENTO"
+      }
+    },
+    {
+      "id": "n5-091",
+      "number": 91,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "AMANIDA"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-ef2139ab0c9d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Plat · amb · amanida",
+        "es": "PLATO · CON · ENSALADA"
+      }
+    },
+    {
+      "id": "n5-092",
+      "number": 92,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "CIGRONS"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-308dd0cd558d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Carmanyola · amb · cigrons",
+        "es": "FIAMBRERA · CON · GARBANZOS"
+      }
+    },
+    {
+      "id": "n5-093",
+      "number": 93,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "MANDARINA"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-3e6fe7410a4f"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Cistell · amb · mandarina",
+        "es": "CESTA · CON · MANDARINA"
+      }
+    },
+    {
+      "id": "n5-094",
+      "number": 94,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "PATATA"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-c2834e700445"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Bossa · amb · patata",
+        "es": "BOLSA · CON · PATATA"
+      }
+    },
+    {
+      "id": "n5-095",
+      "number": 95,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "BALES"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-ca4be36ed0da"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Caixa · amb · bales",
+        "es": "CAJA · CON · CANICAS"
+      }
+    },
+    {
+      "id": "n5-096",
+      "number": 96,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "TOVALLOLA"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-045fa0b1ae9d"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Motxilla · amb · tovallola",
+        "es": "MOCHILA · CON · TOALLA"
+      }
+    },
+    {
+      "id": "n5-097",
+      "number": 97,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "MONEDER",
+        "AMB",
+        "BITLLET"
+      ],
+      "wordIds": [
+        "w-1c7dc27a398b",
+        "w-11fbfd8fa777",
+        "w-347d008a50d8"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Moneder · amb · bitllet",
+        "es": "MONEDERO · CON · BILLETE"
+      }
+    },
+    {
+      "id": "n5-098",
+      "number": 98,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "ARMARI",
+        "AMB",
+        "SABATES"
+      ],
+      "wordIds": [
+        "w-2286891fbee6",
+        "w-11fbfd8fa777",
+        "w-6e2a67944770"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Armari · amb · sabates",
+        "es": "ARMARIO · CON · ZAPATOS"
+      }
+    },
+    {
+      "id": "n5-099",
+      "number": 99,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "LLET"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-e596f4e7a6bb"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Got · amb · llet",
+        "es": "VASO · CON · LECHE"
+      }
+    },
+    {
+      "id": "n5-100",
+      "number": 100,
+      "level": 5,
+      "group": "habitual",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "CAFÈ"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-0cfa5a3e0773"
+      ],
+      "kind": "photo",
+      "variant": "foto-01",
+      "title": {
+        "ca": "Tassa · amb · cafè",
+        "es": "TAZA · CON · CAFÉ"
+      }
+    },
+    {
+      "id": "n5-101",
+      "number": 101,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ELEFANT",
+        "SOTA",
+        "CADIRA"
+      ],
+      "wordIds": [
+        "w-b059d8ef0bc9",
+        "w-e0a6aeb46069",
+        "w-e1efe2c4e23d"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Elefant · sota · cadira",
+        "es": "ELEFANTE · BAJO · SILLA"
+      }
+    },
+    {
+      "id": "n5-102",
+      "number": 102,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "GIRAFA",
+        "SOTA",
+        "PARAIGUA"
+      ],
+      "wordIds": [
+        "w-e60f76be7b6c",
+        "w-e0a6aeb46069",
+        "w-057e09311c15"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Girafa · sota · paraigua",
+        "es": "JIRAFA · BAJO · PARAGUAS"
+      }
+    },
+    {
+      "id": "n5-103",
+      "number": 103,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "DINOSAURE",
+        "SOTA",
+        "LLIT"
+      ],
+      "wordIds": [
+        "w-ffca0eb5d89e",
+        "w-e0a6aeb46069",
+        "w-5f7c1679605f"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Dinosaure · sota · llit",
+        "es": "DINOSAURIO · BAJO · CAMA"
+      }
+    },
+    {
+      "id": "n5-104",
+      "number": 104,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "BALENA",
+        "SOTA",
+        "PONT"
+      ],
+      "wordIds": [
+        "w-022bf269b686",
+        "w-e0a6aeb46069",
+        "w-887bf8a73186"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Balena · sota · pont",
+        "es": "BALLENA · BAJO · PUENTE"
+      }
+    },
+    {
+      "id": "n5-105",
+      "number": 105,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "MONSTRE",
+        "SOTA",
+        "TASSA"
+      ],
+      "wordIds": [
+        "w-0addfe6a405a",
+        "w-e0a6aeb46069",
+        "w-adecb8403118"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Monstre · sota · tassa",
+        "es": "MONSTRUO · BAJO · TAZA"
+      }
+    },
+    {
+      "id": "n5-106",
+      "number": 106,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COTXE",
+        "SOBRE",
+        "PASTÍS"
+      ],
+      "wordIds": [
+        "w-1088e4bd6972",
+        "w-d44584204864",
+        "w-d7e3d6f746de"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cotxe · sobre · pastís",
+        "es": "COCHE · SOBRE · PASTEL"
+      }
+    },
+    {
+      "id": "n5-107",
+      "number": 107,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "VACA",
+        "SOBRE",
+        "SOFÀ"
+      ],
+      "wordIds": [
+        "w-c54f45209550",
+        "w-d44584204864",
+        "w-2b6bc3660479"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Vaca · sobre · sofà",
+        "es": "VACA · SOBRE · SOFÁ"
+      }
+    },
+    {
+      "id": "n5-108",
+      "number": 108,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COET",
+        "SOBRE",
+        "TAULA"
+      ],
+      "wordIds": [
+        "w-c576c52a5c0c",
+        "w-d44584204864",
+        "w-1544f4efec59"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Coet · sobre · taula",
+        "es": "COHETE · SOBRE · MESA"
+      }
+    },
+    {
+      "id": "n5-109",
+      "number": 109,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "PINGUÍ",
+        "SOBRE",
+        "GELAT"
+      ],
+      "wordIds": [
+        "w-5993b1ea57aa",
+        "w-d44584204864",
+        "w-cb071abb9231"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pinguí · sobre · gelat",
+        "es": "PINGÜINO · SOBRE · HELADO"
+      }
+    },
+    {
+      "id": "n5-110",
+      "number": 110,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "CASA",
+        "SOBRE",
+        "TORTUGA"
+      ],
+      "wordIds": [
+        "w-57ca61c8d99d",
+        "w-d44584204864",
+        "w-12dcca2ee56e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Casa · sobre · tortuga",
+        "es": "CASA · SOBRE · TORTUGA"
+      }
+    },
+    {
+      "id": "n5-111",
+      "number": 111,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "GIRAFA",
+        "DINS",
+        "MOTXILLA"
+      ],
+      "wordIds": [
+        "w-e60f76be7b6c",
+        "w-f871f670a944",
+        "w-43db0ea26088"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Girafa · dins · motxilla",
+        "es": "JIRAFA · DENTRO · MOCHILA"
+      }
+    },
+    {
+      "id": "n5-112",
+      "number": 112,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ELEFANT",
+        "DINS",
+        "TASSA"
+      ],
+      "wordIds": [
+        "w-b059d8ef0bc9",
+        "w-f871f670a944",
+        "w-adecb8403118"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Elefant · dins · tassa",
+        "es": "ELEFANTE · DENTRO · TAZA"
+      }
+    },
+    {
+      "id": "n5-113",
+      "number": 113,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COET",
+        "DINS",
+        "ARMARI"
+      ],
+      "wordIds": [
+        "w-c576c52a5c0c",
+        "w-f871f670a944",
+        "w-2286891fbee6"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Coet · dins · armari",
+        "es": "COHETE · DENTRO · ARMARIO"
+      }
+    },
+    {
+      "id": "n5-114",
+      "number": 114,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "DINOSAURE",
+        "DINS",
+        "CARMANYOLA"
+      ],
+      "wordIds": [
+        "w-ffca0eb5d89e",
+        "w-f871f670a944",
+        "w-c3b8bd56e942"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Dinosaure · dins · carmanyola",
+        "es": "DINOSAURIO · DENTRO · FIAMBRERA"
+      }
+    },
+    {
+      "id": "n5-115",
+      "number": 115,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "VAIXELL",
+        "DINS",
+        "SABATES"
+      ],
+      "wordIds": [
+        "w-f94e3ce6d6e3",
+        "w-f871f670a944",
+        "w-6e2a67944770"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Vaixell · dins · sabates",
+        "es": "BARCO · DENTRO · ZAPATOS"
+      }
+    },
+    {
+      "id": "n5-116",
+      "number": 116,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "BALENA",
+        "FORA",
+        "GOT"
+      ],
+      "wordIds": [
+        "w-022bf269b686",
+        "w-9daa4c89a9c6",
+        "w-1bed9f18ebab"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Balena · fora · got",
+        "es": "BALLENA · FUERA · VASO"
+      }
+    },
+    {
+      "id": "n5-117",
+      "number": 117,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "MONSTRE",
+        "FORA",
+        "MONEDER"
+      ],
+      "wordIds": [
+        "w-0addfe6a405a",
+        "w-9daa4c89a9c6",
+        "w-1c7dc27a398b"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Monstre · fora · moneder",
+        "es": "MONSTRUO · FUERA · MONEDERO"
+      }
+    },
+    {
+      "id": "n5-118",
+      "number": 118,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "TREN",
+        "FORA",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-b961c4c94862",
+        "w-9daa4c89a9c6",
+        "w-696b7c739d30"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tren · fora · caixa",
+        "es": "TREN · FUERA · CAJA"
+      }
+    },
+    {
+      "id": "n5-119",
+      "number": 119,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "VACA",
+        "FORA",
+        "MOTXILLA"
+      ],
+      "wordIds": [
+        "w-c54f45209550",
+        "w-9daa4c89a9c6",
+        "w-43db0ea26088"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Vaca · fora · motxilla",
+        "es": "VACA · FUERA · MOCHILA"
+      }
+    },
+    {
+      "id": "n5-120",
+      "number": 120,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ARBRE",
+        "FORA",
+        "CARMANYOLA"
+      ],
+      "wordIds": [
+        "w-f68092bfabd1",
+        "w-9daa4c89a9c6",
+        "w-c3b8bd56e942"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Arbre · fora · carmanyola",
+        "es": "ÁRBOL · FUERA · FIAMBRERA"
+      }
+    },
+    {
+      "id": "n5-121",
+      "number": 121,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "PIZZA",
+        "DAVANT",
+        "PISSARRA"
+      ],
+      "wordIds": [
+        "w-73267bbcc2fe",
+        "w-8f33e707f0af",
+        "w-8a3a439bdb8e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pizza · davant · pissarra",
+        "es": "PIZZA · ANTE · PIZARRA"
+      }
+    },
+    {
+      "id": "n5-122",
+      "number": 122,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "LLEÓ",
+        "DAVANT",
+        "MIRALL"
+      ],
+      "wordIds": [
+        "w-fbc89c059c15",
+        "w-8f33e707f0af",
+        "w-3be1783fe5a1"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Lleó · davant · mirall",
+        "es": "LEÓN · ANTE · ESPEJO"
+      }
+    },
+    {
+      "id": "n5-123",
+      "number": 123,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COET",
+        "DAVANT",
+        "FINESTRA"
+      ],
+      "wordIds": [
+        "w-c576c52a5c0c",
+        "w-8f33e707f0af",
+        "w-59560a6c11b6"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Coet · davant · finestra",
+        "es": "COHETE · ANTE · VENTANA"
+      }
+    },
+    {
+      "id": "n5-124",
+      "number": 124,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "PINGUÍ",
+        "DAVANT",
+        "ORDINADOR"
+      ],
+      "wordIds": [
+        "w-5993b1ea57aa",
+        "w-8f33e707f0af",
+        "w-fd586876e91e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pinguí · davant · ordinador",
+        "es": "PINGÜINO · ANTE · ORDENADOR"
+      }
+    },
+    {
+      "id": "n5-125",
+      "number": 125,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "PASTÍS",
+        "DAVANT",
+        "PORTA"
+      ],
+      "wordIds": [
+        "w-d7e3d6f746de",
+        "w-8f33e707f0af",
+        "w-e2209c0332a6"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pastís · davant · porta",
+        "es": "PASTEL · ANTE · PUERTA"
+      }
+    },
+    {
+      "id": "n5-126",
+      "number": 126,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ELEFANT",
+        "DARRERE",
+        "LLAPIS"
+      ],
+      "wordIds": [
+        "w-b059d8ef0bc9",
+        "w-f3d35a0fe919",
+        "w-1775aa96869e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Elefant · darrere · llapis",
+        "es": "ELEFANTE · DETRÁS · LÁPIZ"
+      }
+    },
+    {
+      "id": "n5-127",
+      "number": 127,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "GIRAFA",
+        "DARRERE",
+        "TASSA"
+      ],
+      "wordIds": [
+        "w-e60f76be7b6c",
+        "w-f3d35a0fe919",
+        "w-adecb8403118"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Girafa · darrere · tassa",
+        "es": "JIRAFA · DETRÁS · TAZA"
+      }
+    },
+    {
+      "id": "n5-128",
+      "number": 128,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "DINOSAURE",
+        "DARRERE",
+        "COIXÍ"
+      ],
+      "wordIds": [
+        "w-ffca0eb5d89e",
+        "w-f3d35a0fe919",
+        "w-44260b79b61e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Dinosaure · darrere · coixí",
+        "es": "DINOSAURIO · DETRÁS · ALMOHADA"
+      }
+    },
+    {
+      "id": "n5-129",
+      "number": 129,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "BALENA",
+        "DARRERE",
+        "CAIXA"
+      ],
+      "wordIds": [
+        "w-022bf269b686",
+        "w-f3d35a0fe919",
+        "w-696b7c739d30"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Balena · darrere · caixa",
+        "es": "BALLENA · DETRÁS · CAJA"
+      }
+    },
+    {
+      "id": "n5-130",
+      "number": 130,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "MONSTRE",
+        "DARRERE",
+        "POMA"
+      ],
+      "wordIds": [
+        "w-0addfe6a405a",
+        "w-f3d35a0fe919",
+        "w-809c680b5699"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Monstre · darrere · poma",
+        "es": "MONSTRUO · DETRÁS · MANZANA"
+      }
+    },
+    {
+      "id": "n5-131",
+      "number": 131,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "LLUNA",
+        "AL COSTAT",
+        "LLIT"
+      ],
+      "wordIds": [
+        "w-c54e3916e7ba",
+        "w-4b1aa97e6891",
+        "w-5f7c1679605f"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Lluna · al costat · llit",
+        "es": "LUNA · AL LADO · CAMA"
+      }
+    },
+    {
+      "id": "n5-132",
+      "number": 132,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COET",
+        "AL COSTAT",
+        "BICICLETA"
+      ],
+      "wordIds": [
+        "w-c576c52a5c0c",
+        "w-4b1aa97e6891",
+        "w-77e4851b2d97"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Coet · al costat · bicicleta",
+        "es": "COHETE · AL LADO · BICICLETA"
+      }
+    },
+    {
+      "id": "n5-133",
+      "number": 133,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "NEU",
+        "AL COSTAT",
+        "TROMPETA"
+      ],
+      "wordIds": [
+        "w-c6b3b33c5456",
+        "w-4b1aa97e6891",
+        "w-23d6626b9b4d"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Neu · al costat · trompeta",
+        "es": "NIEVE · AL LADO · TROMPETA"
+      }
+    },
+    {
+      "id": "n5-134",
+      "number": 134,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ARBRE",
+        "AL COSTAT",
+        "PIANO"
+      ],
+      "wordIds": [
+        "w-f68092bfabd1",
+        "w-4b1aa97e6891",
+        "w-40cbb67094c1"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Arbre · al costat · piano",
+        "es": "ÁRBOL · AL LADO · PIANO"
+      }
+    },
+    {
+      "id": "n5-135",
+      "number": 135,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "NÚVOL",
+        "AL COSTAT",
+        "CADIRA"
+      ],
+      "wordIds": [
+        "w-eea01ab9cb0a",
+        "w-4b1aa97e6891",
+        "w-e1efe2c4e23d"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Núvol · al costat · cadira",
+        "es": "NUBE · AL LADO · SILLA"
+      }
+    },
+    {
+      "id": "n5-136",
+      "number": 136,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "ELEFANT",
+        "ENTRE",
+        "TASSA"
+      ],
+      "wordIds": [
+        "w-b059d8ef0bc9",
+        "w-4a974f8cc99c",
+        "w-adecb8403118"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Elefant · entre · tassa",
+        "es": "ELEFANTE · ENTRE · TAZA"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-137",
+      "number": 137,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "COET",
+        "ENTRE",
+        "SABATES"
+      ],
+      "wordIds": [
+        "w-c576c52a5c0c",
+        "w-4a974f8cc99c",
+        "w-6e2a67944770"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Coet · entre · sabates",
+        "es": "COHETE · ENTRE · ZAPATOS"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-138",
+      "number": 138,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "GIRAFA",
+        "ENTRE",
+        "LLAPIS"
+      ],
+      "wordIds": [
+        "w-e60f76be7b6c",
+        "w-4a974f8cc99c",
+        "w-1775aa96869e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Girafa · entre · llapis",
+        "es": "JIRAFA · ENTRE · LÁPIZ"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-139",
+      "number": 139,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "PASTÍS",
+        "ENTRE",
+        "ARBRE"
+      ],
+      "wordIds": [
+        "w-d7e3d6f746de",
+        "w-4a974f8cc99c",
+        "w-f68092bfabd1"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pastís · entre · arbre",
+        "es": "PASTEL · ENTRE · ÁRBOL"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-140",
+      "number": 140,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "espai",
+      "labels": [
+        "MONSTRE",
+        "ENTRE",
+        "PLAT"
+      ],
+      "wordIds": [
+        "w-0addfe6a405a",
+        "w-4a974f8cc99c",
+        "w-55d250f4cf1e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Monstre · entre · plat",
+        "es": "MONSTRUO · ENTRE · PLATO"
+      },
+      "visualNote": "Dos exemplars del referent final, un a cada costat; el primer referent queda entre tots dos. Només tres conceptes diferents."
+    },
+    {
+      "id": "n5-141",
+      "number": 141,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "GAT",
+        "TENIR",
+        "MONEDER"
+      ],
+      "wordIds": [
+        "w-11ff74d27c02",
+        "w-562394fa1e77",
+        "w-1c7dc27a398b"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Gat · té · moneder",
+        "es": "GATO · TENER · MONEDERO"
+      }
+    },
+    {
+      "id": "n5-142",
+      "number": 142,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "GOS",
+        "TENIR",
+        "AGENDA"
+      ],
+      "wordIds": [
+        "w-4761fde107a7",
+        "w-562394fa1e77",
+        "w-666412ac4913"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Gos · té · agenda",
+        "es": "PERRO · TENER · AGENDA"
+      }
+    },
+    {
+      "id": "n5-143",
+      "number": 143,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "CONILL",
+        "TENIR",
+        "PARAIGUA"
+      ],
+      "wordIds": [
+        "w-51a7805e979b",
+        "w-562394fa1e77",
+        "w-057e09311c15"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Conill · té · paraigua",
+        "es": "CONEJO · TENER · PARAGUAS"
+      }
+    },
+    {
+      "id": "n5-144",
+      "number": 144,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "TORTUGA",
+        "TENIR",
+        "MONOPATÍ"
+      ],
+      "wordIds": [
+        "w-12dcca2ee56e",
+        "w-562394fa1e77",
+        "w-15d46a7eab04"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tortuga · té · monopatí",
+        "es": "TORTUGA · TENER · MONOPATÍN"
+      }
+    },
+    {
+      "id": "n5-145",
+      "number": 145,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "PINGUÍ",
+        "TENIR",
+        "SAC DE DORMIR"
+      ],
+      "wordIds": [
+        "w-5993b1ea57aa",
+        "w-562394fa1e77",
+        "w-569e63515616"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Pinguí · té · sac de dormir",
+        "es": "PINGÜINO · TENER · SACO DE DORMIR"
+      }
+    },
+    {
+      "id": "n5-146",
+      "number": 146,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "ELEFANT",
+        "TENIR",
+        "PANDERETA"
+      ],
+      "wordIds": [
+        "w-b059d8ef0bc9",
+        "w-562394fa1e77",
+        "w-f986e24ccb0e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Elefant · té · pandereta",
+        "es": "ELEFANTE · TENER · PANDERETA"
+      }
+    },
+    {
+      "id": "n5-147",
+      "number": 147,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "GIRAFA",
+        "TENIR",
+        "BOSSA DE MÀ"
+      ],
+      "wordIds": [
+        "w-e60f76be7b6c",
+        "w-562394fa1e77",
+        "w-227ea9ad182c"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Girafa · té · bossa de mà",
+        "es": "JIRAFA · TENER · BOLSA DE MANO"
+      }
+    },
+    {
+      "id": "n5-148",
+      "number": 148,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "MICO",
+        "TENIR",
+        "COMUNICADOR"
+      ],
+      "wordIds": [
+        "w-12a87560751b",
+        "w-562394fa1e77",
+        "w-47f69ba08f48"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Mico · té · comunicador",
+        "es": "MONO · TENER · COMUNICADOR"
+      }
+    },
+    {
+      "id": "n5-149",
+      "number": 149,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "ÓS",
+        "TENIR",
+        "CÀMERA"
+      ],
+      "wordIds": [
+        "w-a06249642996",
+        "w-562394fa1e77",
+        "w-b9b63d370891"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Ós · té · càmera",
+        "es": "OSO · TENER · CÁMARA"
+      }
+    },
+    {
+      "id": "n5-150",
+      "number": 150,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "DINOSAURE",
+        "TENIR",
+        "CONTE"
+      ],
+      "wordIds": [
+        "w-ffca0eb5d89e",
+        "w-562394fa1e77",
+        "w-22f3876c9741"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Dinosaure · té · conte",
+        "es": "DINOSAURIO · TENER · CUENTO"
+      }
+    },
+    {
+      "id": "n5-151",
+      "number": 151,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "MONSTRE",
+        "TENIR",
+        "NINA"
+      ],
+      "wordIds": [
+        "w-0addfe6a405a",
+        "w-562394fa1e77",
+        "w-db89958a3c63"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Monstre · té · nina",
+        "es": "MONSTRUO · TENER · MUÑECA"
+      }
+    },
+    {
+      "id": "n5-152",
+      "number": 152,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "VAMPIR",
+        "TENIR",
+        "TITELLA"
+      ],
+      "wordIds": [
+        "w-e15583d3ce5e",
+        "w-562394fa1e77",
+        "w-3063ed1cff1f"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Vampir · té · titella",
+        "es": "VAMPIRO · TENER · TÍTERE"
+      }
+    },
+    {
+      "id": "n5-153",
+      "number": 153,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "GALLINA",
+        "TENIR",
+        "RELLOTGE"
+      ],
+      "wordIds": [
+        "w-4d6a5f3635ee",
+        "w-562394fa1e77",
+        "w-52c71c163e38"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Gallina · té · rellotge",
+        "es": "GALLINA · TENER · RELOJ"
+      }
+    },
+    {
+      "id": "n5-154",
+      "number": 154,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "ÀNEC",
+        "TENIR",
+        "MOTXILLA"
+      ],
+      "wordIds": [
+        "w-6b6071dc0667",
+        "w-562394fa1e77",
+        "w-43db0ea26088"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Ànec · té · motxilla",
+        "es": "PATO · TENER · MOCHILA"
+      }
+    },
+    {
+      "id": "n5-155",
+      "number": 155,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "OVELLA",
+        "TENIR",
+        "CÒMIC"
+      ],
+      "wordIds": [
+        "w-6ac33b2a7a1d",
+        "w-562394fa1e77",
+        "w-30471c345a4c"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Ovella · té · còmic",
+        "es": "OVEJA · TENER · CÓMIC"
+      }
+    },
+    {
+      "id": "n5-156",
+      "number": 156,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "CABRA",
+        "TENIR",
+        "TELÈFON"
+      ],
+      "wordIds": [
+        "w-30698858c09a",
+        "w-562394fa1e77",
+        "w-9f650a9a866e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cabra · té · telèfon",
+        "es": "CABRA · TENER · TELÉFONO"
+      }
+    },
+    {
+      "id": "n5-157",
+      "number": 157,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "RUC",
+        "TENIR",
+        "GUITARRA"
+      ],
+      "wordIds": [
+        "w-444243ea062c",
+        "w-562394fa1e77",
+        "w-b69870bdd5ab"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Ruc · té · guitarra",
+        "es": "BURRO · TENER · GUITARRA"
+      }
+    },
+    {
+      "id": "n5-158",
+      "number": 158,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "CAVALL",
+        "TENIR",
+        "PATINET"
+      ],
+      "wordIds": [
+        "w-bfc2c0186592",
+        "w-562394fa1e77",
+        "w-930357f518b5"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cavall · té · patinet",
+        "es": "CABALLO · TENER · PATINETE"
+      }
+    },
+    {
+      "id": "n5-159",
+      "number": 159,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "PORC",
+        "TENIR",
+        "PUZLE"
+      ],
+      "wordIds": [
+        "w-7db51860bac9",
+        "w-562394fa1e77",
+        "w-0006cf1ffdae"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Porc · té · puzle",
+        "es": "CERDO · TENER · PUZZLE"
+      }
+    },
+    {
+      "id": "n5-160",
+      "number": 160,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "VACA",
+        "TENIR",
+        "CARPETA"
+      ],
+      "wordIds": [
+        "w-c54f45209550",
+        "w-562394fa1e77",
+        "w-46f884632cd7"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Vaca · té · carpeta",
+        "es": "VACA · TENER · CARPETA"
+      }
+    },
+    {
+      "id": "n5-161",
+      "number": 161,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "LLOP",
+        "TENIR",
+        "MÀRFEGA"
+      ],
+      "wordIds": [
+        "w-7c30412f82e7",
+        "w-562394fa1e77",
+        "w-61588d5b9bb9"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Llop · té · màrfega",
+        "es": "LOBO · TENER · ESTERILLA"
+      }
+    },
+    {
+      "id": "n5-162",
+      "number": 162,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "RATOLÍ",
+        "TENIR",
+        "BICICLETA"
+      ],
+      "wordIds": [
+        "w-4fffcc7ee56a",
+        "w-562394fa1e77",
+        "w-77e4851b2d97"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Ratolí · té · bicicleta",
+        "es": "RATÓN · TENER · BICICLETA"
+      }
+    },
+    {
+      "id": "n5-163",
+      "number": 163,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "MUSSOL",
+        "TENIR",
+        "ULLERES"
+      ],
+      "wordIds": [
+        "w-659880eef69e",
+        "w-562394fa1e77",
+        "w-2ab74322bbef"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Mussol · té · ulleres",
+        "es": "BÚHO · TENER · GAFAS"
+      }
+    },
+    {
+      "id": "n5-164",
+      "number": 164,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "ESQUIROL",
+        "TENIR",
+        "TAMBOR"
+      ],
+      "wordIds": [
+        "w-cc5063e253e2",
+        "w-562394fa1e77",
+        "w-e54dc34d54dc"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Esquirol · té · tambor",
+        "es": "ARDILLA · TENER · TAMBOR"
+      }
+    },
+    {
+      "id": "n5-165",
+      "number": 165,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "GRANOTA",
+        "TENIR",
+        "CROMOS"
+      ],
+      "wordIds": [
+        "w-b3b4665cff67",
+        "w-562394fa1e77",
+        "w-8797b9b05556"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Granota · té · cromos",
+        "es": "RANA · TENER · CROMOS"
+      }
+    },
+    {
+      "id": "n5-166",
+      "number": 166,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "LLEÓ",
+        "TENIR",
+        "PINTA"
+      ],
+      "wordIds": [
+        "w-fbc89c059c15",
+        "w-562394fa1e77",
+        "w-b91f3bd4d776"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Lleó · té · pinta",
+        "es": "LEÓN · TENER · PEINE"
+      }
+    },
+    {
+      "id": "n5-167",
+      "number": 167,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "TIGRE",
+        "TENIR",
+        "BOSSA"
+      ],
+      "wordIds": [
+        "w-7a57f3835ffd",
+        "w-562394fa1e77",
+        "w-7db8d682fed4"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tigre · té · bossa",
+        "es": "TIGRE · TENER · BOLSA"
+      }
+    },
+    {
+      "id": "n5-168",
+      "number": 168,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "CAMELL",
+        "TENIR",
+        "PILOTA"
+      ],
+      "wordIds": [
+        "w-d3a42c621ec8",
+        "w-562394fa1e77",
+        "w-b7f578451973"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Camell · té · pilota",
+        "es": "CAMELLO · TENER · PELOTA"
+      }
+    },
+    {
+      "id": "n5-169",
+      "number": 169,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "CANGUR",
+        "TENIR",
+        "CARMANYOLA"
+      ],
+      "wordIds": [
+        "w-d5395d03acbf",
+        "w-562394fa1e77",
+        "w-c3b8bd56e942"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cangur · té · carmanyola",
+        "es": "CANGURO · TENER · FIAMBRERA"
+      }
+    },
+    {
+      "id": "n5-170",
+      "number": 170,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "possessio",
+      "labels": [
+        "ZEBRA",
+        "TENIR",
+        "XILÒFON"
+      ],
+      "wordIds": [
+        "w-0dc8fba9677d",
+        "w-562394fa1e77",
+        "w-dd383a63729d"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Zebra · té · xilòfon",
+        "es": "CEBRA · TENER · XILÓFONO"
+      }
+    },
+    {
+      "id": "n5-171",
+      "number": 171,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "NÚVOL"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-eea01ab9cb0a"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tassa · amb · núvol",
+        "es": "TAZA · CON · NUBE"
+      }
+    },
+    {
+      "id": "n5-172",
+      "number": 172,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "ESTRELLA"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-45268932faf2"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Got · amb · estrella",
+        "es": "VASO · CON · ESTRELLA"
+      }
+    },
+    {
+      "id": "n5-173",
+      "number": 173,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "LLUNA"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-c54e3916e7ba"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Plat · amb · lluna",
+        "es": "PLATO · CON · LUNA"
+      }
+    },
+    {
+      "id": "n5-174",
+      "number": 174,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "COET"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-c576c52a5c0c"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Carmanyola · amb · coet",
+        "es": "FIAMBRERA · CON · COHETE"
+      }
+    },
+    {
+      "id": "n5-175",
+      "number": 175,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "PINGUÍ"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-5993b1ea57aa"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cistell · amb · pinguí",
+        "es": "CESTA · CON · PINGÜINO"
+      }
+    },
+    {
+      "id": "n5-176",
+      "number": 176,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "DINOSAURE"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-ffca0eb5d89e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Bossa · amb · dinosaure",
+        "es": "BOLSA · CON · DINOSAURIO"
+      }
+    },
+    {
+      "id": "n5-177",
+      "number": 177,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "BOSC"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-c912bb04c6c9"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Caixa · amb · bosc",
+        "es": "CAJA · CON · BOSQUE"
+      }
+    },
+    {
+      "id": "n5-178",
+      "number": 178,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "CANGUR"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-d5395d03acbf"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Motxilla · amb · cangur",
+        "es": "MOCHILA · CON · CANGURO"
+      }
+    },
+    {
+      "id": "n5-179",
+      "number": 179,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "MONEDER",
+        "AMB",
+        "ELEFANT"
+      ],
+      "wordIds": [
+        "w-1c7dc27a398b",
+        "w-11fbfd8fa777",
+        "w-b059d8ef0bc9"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Moneder · amb · elefant",
+        "es": "MONEDERO · CON · ELEFANTE"
+      }
+    },
+    {
+      "id": "n5-180",
+      "number": 180,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "ARMARI",
+        "AMB",
+        "NEU"
+      ],
+      "wordIds": [
+        "w-2286891fbee6",
+        "w-11fbfd8fa777",
+        "w-c6b3b33c5456"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Armari · amb · neu",
+        "es": "ARMARIO · CON · NIEVE"
+      }
+    },
+    {
+      "id": "n5-181",
+      "number": 181,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "PEIX"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-77ec1299cb14"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tassa · amb · peix",
+        "es": "TAZA · CON · PEZ"
+      }
+    },
+    {
+      "id": "n5-182",
+      "number": 182,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "FLOR"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-6c5def9143c8"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Got · amb · flor",
+        "es": "VASO · CON · FLOR"
+      }
+    },
+    {
+      "id": "n5-183",
+      "number": 183,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "ARBRE"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-f68092bfabd1"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Plat · amb · arbre",
+        "es": "PLATO · CON · ÁRBOL"
+      }
+    },
+    {
+      "id": "n5-184",
+      "number": 184,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "TREN"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-b961c4c94862"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Carmanyola · amb · tren",
+        "es": "FIAMBRERA · CON · TREN"
+      }
+    },
+    {
+      "id": "n5-185",
+      "number": 185,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "NÚVOL"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-eea01ab9cb0a"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cistell · amb · núvol",
+        "es": "CESTA · CON · NUBE"
+      }
+    },
+    {
+      "id": "n5-186",
+      "number": 186,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "LLUNA"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-c54e3916e7ba"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Bossa · amb · lluna",
+        "es": "BOLSA · CON · LUNA"
+      }
+    },
+    {
+      "id": "n5-187",
+      "number": 187,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "MAR"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-fe1a495ac3ef"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Caixa · amb · mar",
+        "es": "CAJA · CON · MAR"
+      }
+    },
+    {
+      "id": "n5-188",
+      "number": 188,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "PONT"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-887bf8a73186"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Motxilla · amb · pont",
+        "es": "MOCHILA · CON · PUENTE"
+      }
+    },
+    {
+      "id": "n5-189",
+      "number": 189,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "GALLEDA",
+        "AMB",
+        "ESTRELLA"
+      ],
+      "wordIds": [
+        "w-7f04619a8649",
+        "w-11fbfd8fa777",
+        "w-45268932faf2"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Galleda · amb · estrella",
+        "es": "CUBO · CON · ESTRELLA"
+      }
+    },
+    {
+      "id": "n5-190",
+      "number": 190,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "PRESTATGERIA",
+        "AMB",
+        "HERBA"
+      ],
+      "wordIds": [
+        "w-d6d32ee8f603",
+        "w-11fbfd8fa777",
+        "w-bc051f4c76d2"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Prestatgeria · amb · herba",
+        "es": "ESTANTERÍA · CON · HIERBA"
+      }
+    },
+    {
+      "id": "n5-191",
+      "number": 191,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "PLAT",
+        "AMB",
+        "GLOBUS"
+      ],
+      "wordIds": [
+        "w-55d250f4cf1e",
+        "w-11fbfd8fa777",
+        "w-f19cff282499"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Plat · amb · globus",
+        "es": "PLATO · CON · GLOBO"
+      }
+    },
+    {
+      "id": "n5-192",
+      "number": 192,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CARMANYOLA",
+        "AMB",
+        "PIANO"
+      ],
+      "wordIds": [
+        "w-c3b8bd56e942",
+        "w-11fbfd8fa777",
+        "w-40cbb67094c1"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Carmanyola · amb · piano",
+        "es": "FIAMBRERA · CON · PIANO"
+      }
+    },
+    {
+      "id": "n5-193",
+      "number": 193,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CISTELL",
+        "AMB",
+        "TORTUGA"
+      ],
+      "wordIds": [
+        "w-120fb6b37e88",
+        "w-11fbfd8fa777",
+        "w-12dcca2ee56e"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Cistell · amb · tortuga",
+        "es": "CESTA · CON · TORTUGA"
+      }
+    },
+    {
+      "id": "n5-194",
+      "number": 194,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "BOSSA",
+        "AMB",
+        "COET"
+      ],
+      "wordIds": [
+        "w-7db8d682fed4",
+        "w-11fbfd8fa777",
+        "w-c576c52a5c0c"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Bossa · amb · coet",
+        "es": "BOLSA · CON · COHETE"
+      }
+    },
+    {
+      "id": "n5-195",
+      "number": 195,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "CAIXA",
+        "AMB",
+        "MUNTANYA"
+      ],
+      "wordIds": [
+        "w-696b7c739d30",
+        "w-11fbfd8fa777",
+        "w-97b4e23f647c"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Caixa · amb · muntanya",
+        "es": "CAJA · CON · MONTAÑA"
+      }
+    },
+    {
+      "id": "n5-196",
+      "number": 196,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "MOTXILLA",
+        "AMB",
+        "VAIXELL"
+      ],
+      "wordIds": [
+        "w-43db0ea26088",
+        "w-11fbfd8fa777",
+        "w-f94e3ce6d6e3"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Motxilla · amb · vaixell",
+        "es": "MOCHILA · CON · BARCO"
+      }
+    },
+    {
+      "id": "n5-197",
+      "number": 197,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "MONEDER",
+        "AMB",
+        "PASTÍS"
+      ],
+      "wordIds": [
+        "w-1c7dc27a398b",
+        "w-11fbfd8fa777",
+        "w-d7e3d6f746de"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Moneder · amb · pastís",
+        "es": "MONEDERO · CON · PASTEL"
+      }
+    },
+    {
+      "id": "n5-198",
+      "number": 198,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "ARMARI",
+        "AMB",
+        "RIU"
+      ],
+      "wordIds": [
+        "w-2286891fbee6",
+        "w-11fbfd8fa777",
+        "w-200bf73b4683"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Armari · amb · riu",
+        "es": "ARMARIO · CON · RÍO"
+      }
+    },
+    {
+      "id": "n5-199",
+      "number": 199,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "GOT",
+        "AMB",
+        "PAPALLONA"
+      ],
+      "wordIds": [
+        "w-1bed9f18ebab",
+        "w-11fbfd8fa777",
+        "w-318bdb3c2983"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Got · amb · papallona",
+        "es": "VASO · CON · MARIPOSA"
+      }
+    },
+    {
+      "id": "n5-200",
+      "number": 200,
+      "level": 5,
+      "group": "insolita",
+      "relationType": "contingut",
+      "labels": [
+        "TASSA",
+        "AMB",
+        "GRANOTA"
+      ],
+      "wordIds": [
+        "w-adecb8403118",
+        "w-11fbfd8fa777",
+        "w-b3b4665cff67"
+      ],
+      "kind": "drawing",
+      "variant": "pla-01",
+      "title": {
+        "ca": "Tassa · amb · granota",
+        "es": "TAZA · CON · RANA"
+      }
+    }
+  ]
+}
