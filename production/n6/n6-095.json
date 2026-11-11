@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-095",
+  "file": "output/production/n6/n6-095/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + NETEJAR + BICICLETA + TALLER. Semantic focus: lloc. Human appearance: agent NEN is a boy aged 7. Correct age proportions. Exact scene: NEN: Frega el quadre d’una bicicleta estable i completa amb un drap, al costat del banc de treball. Banc de treball robust amb cargol de banc i plafó d’eines sense lletres; cap màquina en marxa. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-095",
+    "number": 95,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · netejar · bicicleta · taller"
+    },
+    "labels": [
+      "NEN",
+      "NETEJAR",
+      "BICICLETA",
+      "TALLER"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4e6be686e7c1",
+      "w-77e4851b2d97",
+      "w-2b087864d4ff"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "BICICLETA",
+        "wordId": "w-77e4851b2d97"
+      },
+      {
+        "role": "location",
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "visualDescription": "NEN: Frega el quadre d’una bicicleta estable i completa amb un drap, al costat del banc de treball. Banc de treball robust amb cargol de banc i plafó d’eines sense lletres; cap màquina en marxa. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NEN|NETEJAR|BICICLETA|escenari:TALLER",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:23:16.191Z",
+  "review": "Nen neteja bicicleta a taller identificable amb banc i eines.",
+  "alt": {
+    "ca": "nen · netejar · bicicleta · taller.",
+    "es": "NIÑO · LIMPIAR · BICICLETA · TALLER."
+  },
+  "originalSha256": "cbe4eaa85427324f71cce2668e3b2371c3368aea334cf58fc3d626f689c6fbc6",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:27:13.491Z",
+  "publicationVersion": "0.1.124",
+  "importedAt": "2026-11-11T20:27:22.440032+00:00"
+}

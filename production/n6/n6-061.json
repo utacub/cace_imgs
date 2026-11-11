@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + DONAR + CARPETA + NOIA. Semantic focus: destinatari. Human appearance: agent NOI is a tall teenage boy aged 17; recipient NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOI lliura CARPETA a NOIA. Carpeta llisa tancada, passada de cantell entre mans a alçades diferents. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-061",
     "number": 61,
@@ -55,5 +55,17 @@
     "compositionKey": "NOI|DONAR|CARPETA|receptor:NOIA",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T20:16:57.508Z"
+  "created": "2026-11-11T20:16:57.508Z",
+  "review": "Noi dona carpeta a noia, adolescents i coberta sense marques.",
+  "alt": {
+    "ca": "noi · donar · carpeta · noia.",
+    "es": "CHICO · DAR · CARPETA · CHICA."
+  },
+  "originalSha256": "7386dd7a6e43e66efe15e2cc5c82690e605b06ffc840a11aefbcf586e56e1c5e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:23:13.880Z",
+  "publicationVersion": "0.1.124",
+  "importedAt": "2026-11-11T20:27:19.285202+00:00"
 }

@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-096",
+  "file": "output/production/n6/n6-096/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + PINTAR + CADIRA + TALLER. Semantic focus: lloc. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: Passa un pinzell pel respatller d’una cadira, amb les quatre potes senceres i una franja acabada de pintar. Banc de treball robust amb cargol de banc i plafó d’eines sense lletres; cap màquina en marxa. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-096",
+    "number": 96,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · pintar · cadira · taller"
+    },
+    "labels": [
+      "NENA",
+      "PINTAR",
+      "CADIRA",
+      "TALLER"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b04a48827310",
+      "w-e1efe2c4e23d",
+      "w-2b087864d4ff"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "role": "patient",
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "role": "location",
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "visualDescription": "NENA: Passa un pinzell pel respatller d’una cadira, amb les quatre potes senceres i una franja acabada de pintar. Banc de treball robust amb cargol de banc i plafó d’eines sense lletres; cap màquina en marxa. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NENA|PINTAR|CADIRA|escenari:TALLER",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:23:16.919Z",
+  "review": "Nena pinta cadira al taller, cadira i banc amb potes completes.",
+  "alt": {
+    "ca": "nena · pintar · cadira · taller.",
+    "es": "NIÑA · PINTAR · SILLA · TALLER."
+  },
+  "originalSha256": "71eaef7033f28fec9e992746ef9b04be3a577d615eee0ddedb838343fa5ec00a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:27:14.539Z",
+  "publicationVersion": "0.1.124",
+  "importedAt": "2026-11-11T20:27:23.197547+00:00"
+}
