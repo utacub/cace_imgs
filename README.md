@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.112 conté **3212 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **143 construccions N5** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4 o N5 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.113 conté **3224 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **155 construccions N5** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4 o N5 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -20,12 +20,12 @@ La revisió visual de producció no equival a una validació clínica o psicomè
 
 La cerca consulta només els noms, les paraules clau i les descripcions de l’idioma actiu. Cada imatge té una paraula clau CACE principal, editable a la fitxa: les coincidències amb aquest concepte tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció. Quan hi ha una cerca, l’ordre predeterminat és per rellevància; l’ordre alfabètic i per data es poden triar explícitament.
 
-El N5 incorpora **143 de les 200 construccions proposades**: 73 fotografies habituals i 70 dibuixos insòlits. «N5 · Relacions» treballa espai, possessió i contingut amb tres etiquetes CACE exactes per estímul. Es troben al nivell 5 i a la col·lecció «N5 · Relacions». Pla: `production/n5-plan.json`; progrés: `production/n5-progress.json`; prompts i revisions: `production/n5/`. Les 57 restants continuen pendents. La represa de producció i publicació està autoritzada fins a les 18:30 Europe/Madrid de l’11/11/2026.
+El N5 incorpora **155 de les 200 construccions proposades**: 81 fotografies habituals i 74 dibuixos insòlits. «N5 · Relacions» treballa espai, possessió i contingut amb tres etiquetes CACE exactes per estímul. Es troben al nivell 5 i a la col·lecció «N5 · Relacions». Pla: `production/n5-plan.json`; progrés: `production/n5-progress.json`; prompts i revisions: `production/n5/`. Les 45 restants continuen pendents. La represa de producció i publicació està autoritzada fins a les 18:30 Europe/Madrid de l’11/11/2026.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 3212 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 3224 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.

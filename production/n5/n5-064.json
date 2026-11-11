@@ -1,11 +1,11 @@
 {
   "constructionId": "n5-064",
   "file": "output/production/n5/n5-064/image.png",
-  "prompt": "Use case: scientific-educational. CACE N5 school vocabulary. ONE square synthetic photorealistic studio photograph, pure white seamless background, soft natural light, realistic textures and anatomy. Exact named relation must be unambiguous. Whole figures and objects inside central 65 percent with broad white margins ALL sides. Only named referents and indispensable support. No text, letters, numbers, labels, logos, watermark, collage, extra people or unrelated props.  Keep full scene relatively small with generous white border. One teenage GIRL fully clothed in plain purple sweater, trousers and shoes, standing calmly HOLDING her closed thick personal PLANNER DIARY book against torso, plain cover with elastic band and several colourful divider tabs visible along edge, absolutely no lettering or numbers. Full body, static possession, no pencil or other books.",
+  "prompt": "Use case: scientific-educational. CACE N5 school vocabulary. ONE square synthetic photorealistic studio photograph, pure white seamless background, soft natural light, realistic textures and anatomy. Exact named relation must be unambiguous. Whole figures and objects inside central 65 percent with broad white margins ALL sides. Only named referents and indispensable support. No text, letters, numbers, labels, logos, watermark, collage, extra people or unrelated props.  ZOOM OUT: full person with generous white margins. One teenage GIRL fully clothed in plain purple sweater, trousers and shoes standing calmly HOLDING her OPEN PLANNER DIARY at chest height facing viewer. The two pages contain only empty pale grey calendar grid cells with clean blank white interiors, NO writing, NO numbers, NO lettering, NO tabs or printed marks. Binding and solid blank cover visible. Static possession, not writing. No pencil, other books or people.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n5-064",
     "number": 64,
@@ -29,5 +29,25 @@
       "es": "CHICA · TENER · AGENDA"
     }
   },
-  "created": "2026-11-11T17:00:43.431Z"
+  "created": "2026-11-11T17:00:43.431Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n5/n5-064/rejected-01.png",
+      "reason": "Petites marques impreses a les pestanyes; es refà amb quadrícula de calendari buida i sense pestanyes.",
+      "prompt": "Use case: scientific-educational. CACE N5 school vocabulary. ONE square synthetic photorealistic studio photograph, pure white seamless background, soft natural light, realistic textures and anatomy. Exact named relation must be unambiguous. Whole figures and objects inside central 65 percent with broad white margins ALL sides. Only named referents and indispensable support. No text, letters, numbers, labels, logos, watermark, collage, extra people or unrelated props.  Keep full scene relatively small with generous white border. One teenage GIRL fully clothed in plain purple sweater, trousers and shoes, standing calmly HOLDING her closed thick personal PLANNER DIARY book against torso, plain cover with elastic band and several colourful divider tabs visible along edge, absolutely no lettering or numbers. Full body, static possession, no pencil or other books.",
+      "rejectedAt": "2026-11-11T17:01:59.230Z"
+    }
+  ],
+  "review": "Noia amb agenda oberta i quadrícula buida, sense marques ni pestanyes impreses; substitueix l'intent descartat.",
+  "alt": {
+    "ca": "Noia · té · agenda.",
+    "es": "CHICA · TENER · AGENDA."
+  },
+  "originalSha256": "3ee526988964fc23eea9adc15a57338f4d02ce1188ce1864fba2c847a6a68921",
+  "width": 1254,
+  "height": 1254,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T17:04:42.349Z",
+  "publicationVersion": "0.1.113",
+  "importedAt": "2026-11-11T17:07:15.423616+00:00"
 }
