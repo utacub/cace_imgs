@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + LLEGIR + CÒMIC + HABITACIÓ. Semantic focus: lloc. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: Asseguda al llit, llegeix un còmic de vinyetes mudes. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-080",
     "number": 80,
@@ -55,5 +55,17 @@
     "compositionKey": "NOIA|LLEGIR|CÒMIC|escenari:HABITACIÓ",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T19:37:49.982Z"
+  "created": "2026-11-11T19:37:49.982Z",
+  "review": "Noia adolescent llegeix comic de vinyetes mudes asseguda al llit, amb tauleta i armari que identifiquen habitacio. Tot complet.",
+  "alt": {
+    "ca": "noia · llegir · còmic · habitació.",
+    "es": "CHICA · LEER · CÓMIC · HABITACIÓN."
+  },
+  "originalSha256": "ffd984d81a7b08e6f17731ff86cb0061ac8267dfa56b1061dbe02dcca540b8e2",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:42:08.510Z",
+  "publicationVersion": "0.1.120",
+  "importedAt": "2026-11-11T19:42:21.928329+00:00"
 }

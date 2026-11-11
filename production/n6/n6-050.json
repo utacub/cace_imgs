@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-050",
+  "file": "output/production/n6/n6-050/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + DONAR + PANDERETA + DONA. Semantic focus: destinatari. Human appearance: agent NOIA is a tall teenage girl aged 17; recipient DONA is a adult woman aged 40. Correct age proportions. Exact scene: NOIA lliura PANDERETA a DONA. Pandereta amb sonalls visibles oferta de cantell; receptor la pren pel marc. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-050",
+    "number": 50,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · donar · pandereta · dona"
+    },
+    "labels": [
+      "NOIA",
+      "DONAR",
+      "PANDERETA",
+      "DONA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-dd80e4e4de38",
+      "w-f986e24ccb0e",
+      "w-72e9fe9a8b43"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "PANDERETA",
+        "wordId": "w-f986e24ccb0e"
+      },
+      {
+        "role": "recipient",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      }
+    ],
+    "visualDescription": "NOIA lliura PANDERETA a DONA. Pandereta amb sonalls visibles oferta de cantell; receptor la pren pel marc. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NOIA|DONAR|PANDERETA|receptor:DONA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:47:38.925Z"
+}

@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-081",
+  "file": "output/production/n6/n6-081/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + ESTIRAR + MANTA + HABITACIÓ. Semantic focus: lloc. Human appearance: agent DONA is a adult woman aged 40. Correct age proportions. Exact scene: DONA: Estira ambdues vores d’una manta sobre el llit per desplegar-la; manta en tensió. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-081",
+    "number": 81,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · estirar · manta · habitació"
+    },
+    "labels": [
+      "DONA",
+      "ESTIRAR",
+      "MANTA",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-99499cd7f270",
+      "w-732ff8e447b5",
+      "w-23dafac8fd59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "role": "patient",
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "role": "location",
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "visualDescription": "DONA: Estira ambdues vores d’una manta sobre el llit per desplegar-la; manta en tensió. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "DONA|ESTIRAR|MANTA|escenari:HABITACIÓ",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:42:10.019Z",
+  "review": "Dona adulta estira manta amb dues mans sobre llit, teixit en tensio, tauleta i armari identifiquen habitacio. Tot complet.",
+  "alt": {
+    "ca": "dona · estirar · manta · habitació.",
+    "es": "MUJER · ESTIRAR · MANTA · HABITACIÓN."
+  },
+  "originalSha256": "aaf627b5fa7b51c2b0b19e73d09d352da5ff2bc354a85798f27aa9e32cb19837",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:47:35.528Z"
+}

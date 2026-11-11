@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. One photorealistic studio photograph of a fully dressed adult woman standing on the left and giving a plain blue jacket to a fully dressed tall adolescent boy standing on the right. Both wear normal long-sleeve sweaters and long trousers throughout. The woman holds the jacket by the shoulders and offers it outward; the boy takes the collar of the jacket. Show both jacket sleeves clearly. No one puts on or takes off any clothing. Exactly two people, one shared jacket, a single visible handover. Full bodies including shoes, generous white margins on every side, complete small composition centered against pure white. No furniture, no words, no letters, no numbers, no brand marks or watermark. Catalan targets DONA, DONAR, JAQUETA, NOI.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-045",
     "number": 45,
@@ -63,5 +63,17 @@
       "requestId": "5ba63bce-4833-471e-a94d-3c620ed518c1",
       "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + DONAR + JAQUETA + NOI. Semantic focus: destinatari. Human appearance: agent DONA is a adult woman aged 40; recipient NOI is a tall teenage boy aged 17. Correct age proportions. Exact scene: DONA lliura JAQUETA a NOI. Jaqueta desplegada amb dues mànigues visibles; el receptor en pren el coll, sense vestir-se. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene."
     }
-  ]
+  ],
+  "review": "Dona adulta dona jaqueta blava desplegada a noi adolescent que la pren pel coll. Dos participants completament vestits, una jaqueta, marges amplis.",
+  "alt": {
+    "ca": "dona · donar · jaqueta · noi.",
+    "es": "MUJER · DAR · CHAQUETA · CHICO."
+  },
+  "originalSha256": "4c5c6ca7182c703aa3eb1d6c6d278ff60551a393fb88cd0b87a1af494f1ef0b2",
+  "width": 1199,
+  "height": 1312,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:42:08.903Z",
+  "publicationVersion": "0.1.120",
+  "importedAt": "2026-11-11T19:42:17.493957+00:00"
 }

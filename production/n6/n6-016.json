@@ -1,0 +1,66 @@
+{
+  "constructionId": "n6-016",
+  "file": "output/production/n6/n6-016/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PLANTAR + FLOR + AMB + CULLERA. Semantic focus: instrument. Human appearance: agent NOI is a tall teenage boy aged 17. Correct age proportions. Exact scene: NOI: Una cullera empeny terra al voltant de les arrels d’una flor dreta en un clot; mànec i cavitat són visibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-016",
+    "number": 16,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · plantar · flor · cullera"
+    },
+    "labels": [
+      "NOI",
+      "PLANTAR",
+      "FLOR",
+      "AMB",
+      "CULLERA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-6af4a2a10994",
+      "w-6c5def9143c8",
+      "w-11fbfd8fa777",
+      "w-9c9849fac1d3"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "PLANTAR",
+        "wordId": "w-6af4a2a10994"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "visualDescription": "NOI: Una cullera empeny terra al voltant de les arrels d’una flor dreta en un clot; mànec i cavitat són visibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NOI|PLANTAR|FLOR|eina:CULLERA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:47:38.587Z"
+}

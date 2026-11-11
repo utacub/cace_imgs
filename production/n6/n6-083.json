@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-083",
+  "file": "output/production/n6/n6-083/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + AGAFAR + PILOTA + PARC. Semantic focus: lloc. Human appearance: agent NEN is a boy aged 7. Correct age proportions. Exact scene: NEN: Ajupit, tanca les mans sobre una pilota que toca el terra al peu del gronxador. Gronxador, banc i petit parterre sobre una illa de gespa; cap tanca escolar ni edifici d’escola. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-083",
+    "number": 83,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · agafar · pilota · parc"
+    },
+    "labels": [
+      "NEN",
+      "AGAFAR",
+      "PILOTA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-677819a0a32a",
+      "w-b7f578451973",
+      "w-fb96ae342785"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "location",
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "visualDescription": "NEN: Ajupit, tanca les mans sobre una pilota que toca el terra al peu del gronxador. Gronxador, banc i petit parterre sobre una illa de gespa; cap tanca escolar ni edifici d’escola. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NEN|AGAFAR|PILOTA|escenari:PARC",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:47:39.313Z"
+}

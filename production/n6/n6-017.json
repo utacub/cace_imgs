@@ -1,0 +1,66 @@
+{
+  "constructionId": "n6-017",
+  "file": "output/production/n6/n6-017/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + PENTINAR + NINA + AMB + PINTA. Semantic focus: instrument. Human appearance: agent DONA is a adult woman aged 40. Correct age proportions. Exact scene: DONA: Les dents d’una pinta entren al cabell llarg de la nina; la nina sencera descansa sobre els genolls. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-017",
+    "number": 17,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · pentinar · nina · pinta"
+    },
+    "labels": [
+      "DONA",
+      "PENTINAR",
+      "NINA",
+      "AMB",
+      "PINTA"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-83c248429f07",
+      "w-db89958a3c63",
+      "w-11fbfd8fa777",
+      "w-b91f3bd4d776"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "PENTINAR",
+        "wordId": "w-83c248429f07"
+      },
+      {
+        "role": "patient",
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "PINTA",
+        "wordId": "w-b91f3bd4d776"
+      }
+    ],
+    "visualDescription": "DONA: Les dents d’una pinta entren al cabell llarg de la nina; la nina sencera descansa sobre els genolls. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "DONA|PENTINAR|NINA|eina:PINTA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:47:39.679Z"
+}

@@ -1,0 +1,67 @@
+{
+  "constructionId": "n6-182",
+  "file": "output/production/n6/n6-182/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: RUC + GUARDAR + PIJAMA + HABITACIÓ. Semantic focus: lloc. NO HUMAN FIGURES. Exact scene: RUC: Introdueix un pijama plegat en un calaix obert al costat del llit. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene. PIJAMA must clearly show a matching two-piece set of soft striped sleepwear: a long sleeve button-front pajama top and pajama trousers, loosely folded with collar and trouser legs visible while being inserted into the open drawer. Not a generic pile of clothing. CORRECTION REQUIRED: Make BOTH pieces of the matching striped PAJAMAS plainly visible: a button-front pajama top in the donkey hands, matching pajama TROUSERS draped over the open drawer front with both trouser legs visible. The donkey puts this two-piece pajama set into that drawer. Not just a shirt. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-182",
+    "number": 182,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "lloc",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · guardar · pijama · habitació"
+    },
+    "labels": [
+      "RUC",
+      "GUARDAR",
+      "PIJAMA",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-f0441e0dd3b0",
+      "w-a7b627fe3305",
+      "w-23dafac8fd59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "RUC",
+        "wordId": "w-444243ea062c"
+      },
+      {
+        "role": "action",
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "role": "patient",
+        "label": "PIJAMA",
+        "wordId": "w-a7b627fe3305"
+      },
+      {
+        "role": "location",
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "visualDescription": "RUC: Introdueix un pijama plegat en un calaix obert al costat del llit. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa.",
+    "compositionKey": "RUC|GUARDAR|PIJAMA|escenari:HABITACIÓ",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:42:11.498Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-182/rejected-01.png",
+      "reason": "El pijama sembla nomes una camisa: pantalons no recognoscibles.",
+      "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: RUC + GUARDAR + PIJAMA + HABITACIÓ. Semantic focus: lloc. NO HUMAN FIGURES. Exact scene: RUC: Introdueix un pijama plegat en un calaix obert al costat del llit. Llit amb capçal, tauleta de nit i petit armari; conjunt complet que identifica un dormitori. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene. PIJAMA must clearly show a matching two-piece set of soft striped sleepwear: a long sleeve button-front pajama top and pajama trousers, loosely folded with collar and trouser legs visible while being inserted into the open drawer. Not a generic pile of clothing.",
+      "rejectedAt": "2026-11-11T19:47:38.209Z"
+    }
+  ]
+}

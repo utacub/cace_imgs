@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + REGAR + PLANTA + AMB + GALLEDA. Semantic focus: instrument. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: La galleda inclinada aboca un raig curt directament a la terra del test, sense tapar la planta. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-013",
     "number": 13,
@@ -62,5 +62,17 @@
     "compositionKey": "NENA|REGAR|PLANTA|eina:GALLEDA",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T19:37:49.667Z"
+  "created": "2026-11-11T19:37:49.667Z",
+  "review": "Nena rega planta abocant aigua des de galleda inclinada a la terra del test. Galleda sense broc i raig clar, cos complet.",
+  "alt": {
+    "ca": "nena · regar · planta · galleda.",
+    "es": "NIÑA · REGAR · PLANTA · CON · CUBO."
+  },
+  "originalSha256": "774f232ba3363215db822ef83705168a4adfd64eede651e8300d6ae2309f287b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:42:07.796Z",
+  "publicationVersion": "0.1.120",
+  "importedAt": "2026-11-11T19:42:16.222763+00:00"
 }
