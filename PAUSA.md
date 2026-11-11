@@ -1,3 +1,17 @@
+# N5 · 200 construccions completades
+
+Les 21 pendents de l’última represa s’han generat, revisat i importat. El N5 té 200/200 estímuls: 100 fotografies habituals i 100 dibuixos insòlits, sense pendents. Espai: 80; possessió: 60; contingut: 60. Catàleg 0.1.116, 3269 imatges. Les 3248 imatges publicades abans d’aquesta represa i les 861 entrades CACE es conserven exactament.
+
+Estat de producció a production/n5-session-completion.json. Originals PNG a output/production/n5, prompts i revisions a production/n5; totes les còpies WebP són al banc versionat. El desplegament final es comprova després del push; evidència pública a output/n5-publication-verification.json i output/n5-completion-delivery.json. No cal generar més N5.
+
+---
+
+# N5 · Compleció de les 200 construccions autoritzada
+
+Nova instrucció: generar, revisar i publicar les 21 N5 restants. Substitueix la pausa i el límit horari de la sessió anterior; aquesta represa acaba quan les 200 N5 siguin públiques i verificades. Estat a production/n5-session-completion.json i production/n5-progress.json.
+
+---
+
 # N5 · Tancament de la sessió de tarda · 11 de novembre de 2026
 
 Generació aturada a 2026-11-11T17:21:25.265Z, reservant el tram final per publicar i verificar abans de les 18:30 Europe/Madrid. 179/200 N5 revisades i importades (84 noves en aquesta represa); 21 pendents, enumerades a production/n5-progress.json. Versió 0.1.115, 3248 imatges totals. Espai i possessió complets; els pendents són de contingut. Cap nova generació després del tall; una nova sessió necessita una nova instrucció.

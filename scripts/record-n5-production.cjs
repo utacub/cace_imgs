@@ -3,8 +3,10 @@ const path=require('node:path');
 const crypto=require('node:crypto');
 const plan=JSON.parse(fs.readFileSync('production/n5-plan.json','utf8'));
 const [mode,id,...args]=process.argv.slice(2);
+const prior=fs.existsSync('production/n5-progress.json')?JSON.parse(fs.readFileSync('production/n5-progress.json','utf8')):{};
 if(mode==='prepare' || mode==='retry') {
- if(Date.now()>=Date.parse('2026-11-11T18:25:00+01:00')) throw Error('Generation cutoff reached; reserve remaining time for publication.');
+ if(prior.status!=='active') throw Error('Production session is not active.');
+ if(prior.generationCutoff && Date.now()>=Date.parse(prior.generationCutoff)) throw Error('Generation cutoff reached; reserve remaining time for publication.');
 }
 const item=plan.items.find(x=>x.id===id);
 if(!item) throw Error('Unknown construction');
@@ -44,8 +46,7 @@ if(mode==='prepare'){
 }else throw Error('Mode must be prepare, retry or accept');
 const records=fs.readdirSync('production/n5').filter(f=>/^n5-\d{3}\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(`production/n5/${f}`,'utf8')));
 const done=new Set(records.filter(r=>r.reviewed&&r.status==='accepted').map(r=>r.constructionId));
-const prior=fs.existsSync('production/n5-progress.json')?JSON.parse(fs.readFileSync('production/n5-progress.json','utf8')):{};
-const progress={...prior,level:5,status:'active',authorization:'Generació, importació i publicació autoritzades fins a les 18:30 Europe/Madrid de l’11/11/2026.',deadline:'2026-11-11T18:30:00+01:00',generationCutoff:'2026-11-11T18:25:00+01:00',planned:200,complete:done.size,pending:plan.items.filter(x=>!done.has(x.id)).map(x=>x.id),completedHabitual:plan.items.filter(x=>x.group==='habitual'&&done.has(x.id)).length,completedInsolita:plan.items.filter(x=>x.group==='insolita'&&done.has(x.id)).length,updated:new Date().toISOString()};
+const progress={...prior,level:5,status:done.size===plan.items.length?'complete':'active',planned:plan.items.length,complete:done.size,pending:plan.items.filter(x=>!done.has(x.id)).map(x=>x.id),completedHabitual:plan.items.filter(x=>x.group==='habitual'&&done.has(x.id)).length,completedInsolita:plan.items.filter(x=>x.group==='insolita'&&done.has(x.id)).length,updated:new Date().toISOString()};
 fs.writeFileSync('production/n5-progress.json',JSON.stringify(progress,null,2)+'\n');
 const escape=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const accepted=records.filter(r=>done.has(r.constructionId)).sort((a,b)=>a.construction.number-b.construction.number);

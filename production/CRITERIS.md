@@ -23,3 +23,5 @@ Totes les imatges han de ser sense text, lletres, números, etiquetes, marques n
 Excepció posterior autoritzada explícitament el 6 de novembre de 2026: només LLETRES, BARÇA, COLA-CAO, FANTA i COCA-COLA poden incorporar lletres o identificadors de marca necessaris per reconèixer el concepte. No s’hi afegeixen altres marques, eslògans, preus, xifres ni text accessori. Aquests cinc conceptes concrets mantenen quatre variants revisades. Aquesta excepció no s’estén a cap altra paraula.
 
 Fons blanc, subjecte clar i marges suficients. Per a parts del cos s’accepta el retall anatòmic natural. Per a llocs i accions, incloure només el context visual necessari per comprendre el concepte. Revisar la correspondència semàntica i la qualitat de cadascuna de les quatre variants abans d’importar-les.
+
+Nova autorització posterior al tancament de les 18:30 de l’11/11/2026: completar les 21 N5 pendents i publicar-les, mantenint els criteris visuals i el catàleg existent. El límit anterior no s’aplica a aquesta nova represa. Abast màxim: les 200 construccions del pla N5.

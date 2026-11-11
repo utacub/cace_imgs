@@ -74,6 +74,6 @@ package_path.write_text(json.dumps(package, ensure_ascii=False, indent=2)+'\n', 
 progress_path = root/'production/n5-progress.json'
 progress = json.loads(progress_path.read_text(encoding='utf-8'))
 progress.update(catalogVersion=version, imported=len(selected), collectionId=collection_id,
-                publicationAuthorization='Usuari: continuar generant i publicant N5 fins a les 18:30 Europe/Madrid de l’11/11/2026.')
+                publicationAuthorization=progress['authorization'])
 progress_path.write_text(json.dumps(progress, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 print(json.dumps({'version': version, 'imported': len(new), 'n5': len(collection['items']), 'images': len(catalog['assets'])}))
