@@ -1,8 +1,10 @@
-# N6 · 200 imatges revisades, publicació final pendent de GitHub
+# N6 · 200 imatges completades i publicades
 
-El pla N6 està generat i revisat completament: 100 fotografies habituals i 100 dibuixos insòlits, amb 68 instruments, 66 destinataris i 66 llocs. Catàleg 0.1.125: 3469 imatges i 861 entrades CACE. Sessió tancada dins del límit autoritzat; generació tancada abans del límit de les 22:30 Europe/Madrid. Les 3269 imatges i totes les entrades prèvies es preserven exactament.
+Les 200 N6 estan generades, revisades i publicades: 100 fotografies habituals i 100 dibuixos insòlits; 68 instruments, 66 destinataris i 66 llocs. Catàleg públic 0.1.125: 3469 imatges. Verificació pública completa el 2026-11-11T22:36:19Z: catàleg idèntic i 200 descàrregues WebP comprovades amb SHA-256. Les 3269 imatges i 861 entrades CACE prèvies es conserven exactament.
 
-La publicació pública verificada encara és la 0.1.121 (101 N6); GitHub té desplegaments en cua després d’un error de recuperació de l’artefacte de Pages. Estat actual a production/n6-progress.json; evidència pública a output/n6-publication-verification.json. Originals a output/production/n6; prompts i revisions a production/n6. No generar més N6.
+La generació es va tancar abans de les 22:30. El desplegament es va completar en una represa posterior autoritzada per l’usuari, amb una execució manual nova de GitHub Actions (43112540809). No s’ha regenerat cap imatge durant la recuperació. No generar més N6.
+
+Registre: production/n6-session-completion.json; evidència: output/n6-publication-verification.json; lliurament: output/n6-completion-delivery.json. Originals a output/production/n6; prompts i revisions a production/n6.
 
 
 ---
