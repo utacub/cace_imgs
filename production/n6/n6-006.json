@@ -1,0 +1,76 @@
+{
+  "constructionId": "n6-006",
+  "file": "output/production/n6/n6-006/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + NETEJAR + CADIRA + AMB + MOCADOR. Semantic focus: instrument. Human appearance: agent DONA is a adult woman aged 40. Correct age proportions. Exact scene: DONA: Un mocador de tela desplegat frega la taca del seient d’una cadira completa; els plecs de tela el distingeixen d’una esponja. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-006",
+    "number": 6,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · netejar · cadira · mocador"
+    },
+    "labels": [
+      "DONA",
+      "NETEJAR",
+      "CADIRA",
+      "AMB",
+      "MOCADOR"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4e6be686e7c1",
+      "w-e1efe2c4e23d",
+      "w-11fbfd8fa777",
+      "w-35e3a6c8a7fd"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "visualDescription": "DONA: Un mocador de tela desplegat frega la taca del seient d’una cadira completa; els plecs de tela el distingeixen d’una esponja. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "DONA|NETEJAR|CADIRA|eina:MOCADOR",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:25:01.307Z",
+  "review": "Dona adulta neteja cadira amb mocador de tela amb plecs i cantonades visibles, en contacte amb la taca. Cos i cadira sencers, fons blanc.",
+  "alt": {
+    "ca": "dona · netejar · cadira · mocador.",
+    "es": "MUJER · LIMPIAR · SILLA · CON · PAÑUELO."
+  },
+  "originalSha256": "0224a5bbe212e85b1013e1eca85ea6f8909437ffc91d04b9a7d6c2dbc47324ab",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:29:16.532Z"
+}

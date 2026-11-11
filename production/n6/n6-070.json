@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + CLASSIFICAR + PECES + CLASSE. Semantic focus: lloc. Exact scene: NOI: Desplaça una peça cap a un dels dos petits grups de peces de formes diferents sobre el pupitre. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. CORRECTION REQUIRED: The student classifying pieces is a TALL SEVENTEEN YEAR OLD TEENAGE BOY, not a young child. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-070",
     "number": 70,
@@ -63,5 +63,17 @@
       "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + CLASSIFICAR + PECES + CLASSE. Semantic focus: lloc. Exact scene: NOI: Desplaça una peça cap a un dels dos petits grups de peces de formes diferents sobre el pupitre. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white.",
       "rejectedAt": "2026-11-11T19:17:25.809Z"
     }
-  ]
+  ],
+  "review": "Noi adolescent classifica peces en dos grups sobre pupitre, amb pissarra i segon pupitre que identifiquen classe. Sense text.",
+  "alt": {
+    "ca": "noi · classificar · peces · classe.",
+    "es": "CHICO · CLASIFICAR · PIEZAS · CLASE."
+  },
+  "originalSha256": "7df052fa7e4cb7a2b1052cc5c00ba58d2a4ef1894c79df9851a47be26f318dc0",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:25:00.673Z",
+  "publicationVersion": "0.1.118",
+  "importedAt": "2026-11-11T19:25:08.793212+00:00"
 }

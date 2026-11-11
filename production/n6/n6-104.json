@@ -1,0 +1,84 @@
+{
+  "constructionId": "n6-104",
+  "file": "output/production/n6/n6-104/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: ÓS + PINTAR + CAIXA + AMB + ESPONJA. Semantic focus: instrument. Exact scene: ÓS: L’esponja, premuda contra la caixa, hi deixa una taca ampla de pintura; no hi ha pinzell. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: ONLY ONE living character: the BEAR painting the box with a sponge. NO humans, NO family, NO spectators. Only bear, box, sponge, plain paint bowl and complete small table. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-104",
+    "number": 104,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "instrument",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · pintar · caixa · esponja"
+    },
+    "labels": [
+      "ÓS",
+      "PINTAR",
+      "CAIXA",
+      "AMB",
+      "ESPONJA"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-b04a48827310",
+      "w-696b7c739d30",
+      "w-11fbfd8fa777",
+      "w-2d404e0d8979"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ÓS",
+        "wordId": "w-a06249642996"
+      },
+      {
+        "role": "action",
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      }
+    ],
+    "visualDescription": "ÓS: L’esponja, premuda contra la caixa, hi deixa una taca ampla de pintura; no hi ha pinzell. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "ÓS|PINTAR|CAIXA|eina:ESPONJA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:18:09.823Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-104/rejected-01.png",
+      "reason": "Sis espectadors humans no previstos al pla.",
+      "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: ÓS + PINTAR + CAIXA + AMB + ESPONJA. Semantic focus: instrument. Age mapping is mandatory: NEN is a boy aged 7, NENA a girl aged 7, NOI a tall teenage boy aged 17, NOIA a tall teenage girl aged 17, DONA an adult woman aged 40, HOME an adult man aged 40. Show body proportions and face appropriate to the exact target age, especially recipient age.  Exact scene: ÓS: L’esponja, premuda contra la caixa, hi deixa una taca ampla de pintura; no hi ha pinzell. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:25:01.144Z"
+    }
+  ],
+  "review": "Os amable pinta caixa amb esponja porosa que deixa taca ampla. Un sol personatge, sense espectadors; cos i taula complets.",
+  "alt": {
+    "ca": "ós · pintar · caixa · esponja.",
+    "es": "OSO · PINTAR · CAJA · CON · ESPONJA."
+  },
+  "originalSha256": "28ba308c36a7ea0bd8022d52733d1feacb7738fea33f10461eb12677c9a4b22e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:29:18.244Z"
+}

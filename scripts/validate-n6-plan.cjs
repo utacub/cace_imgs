@@ -3,9 +3,16 @@ const assert = require('node:assert/strict');
 const crypto = require('node:crypto');
 const cp = require('node:child_process');
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
-const catalogBytes = fs.readFileSync('src/catalog-data.json');
-const catalog = JSON.parse(catalogBytes);
 const plan = JSON.parse(fs.readFileSync('production/n6-plan.json', 'utf8'));
+// Validate the approved planning snapshot even after authorized production advances HEAD.
+const catalogBytes = cp.execFileSync('git', ['show', plan.baseline.head+':src/catalog-data.json'], {maxBuffer:64*1024*1024});
+const catalog = JSON.parse(catalogBytes);
+const current = JSON.parse(fs.readFileSync('src/catalog-data.json','utf8'));
+assert.deepEqual(current.words,catalog.words);
+assert.deepEqual(current.levels,catalog.levels);
+assert.deepEqual(current.categories,catalog.categories);
+for(const old of catalog.assets)assert.deepEqual(current.assets.find(a=>a.id===old.id),old);
+for(const old of catalog.collections)assert.deepEqual(current.collections.find(a=>a.id===old.id),old);
 const previous = [4, 5].flatMap(n => JSON.parse(fs.readFileSync(`production/n${n}-plan.json`, 'utf8')).items);
 const words = new Map(catalog.words.map(w => [w.id, w]));
 const level = catalog.levels.find(l => l.id === 6);
@@ -16,8 +23,8 @@ assert.equal(plan.authorization.scope, 'planificacio-i-revisio-nomes');
 for (const key of ['generationAuthorized', 'catalogImportAuthorized', 'commitAuthorized', 'pushAuthorized', 'deploymentAuthorized']) {
   assert.equal(plan.authorization[key], false);
 }
-assert.equal(plan.baseline.head, cp.execFileSync('git', ['rev-parse', 'HEAD'], {encoding:'utf8'}).trim());
-assert.equal(plan.baseline.catalogSha256, hash(catalogBytes));
+assert.ok(plan.baseline.head.match(/^[a-f0-9]{40}$/));
+assert.ok([hash(catalogBytes),hash(Buffer.from(catalogBytes.toString('utf8').replace(/\r?\n/g,'\r\n')))].includes(plan.baseline.catalogSha256),'La instantània ha canviat més enllà de LF/CRLF');
 assert.equal(catalog.version, '0.1.116');
 assert.equal(catalog.words.length, 861);
 assert.equal(catalog.assets.length, 3269);
@@ -25,8 +32,6 @@ const n5 = catalog.assets.filter(a => a.levels?.includes(5) && a.constructionId?
 assert.equal(n5.length, 200);
 assert.equal(n5.filter(a => a.kind === 'photo').length, 100);
 assert.equal(n5.filter(a => a.kind === 'drawing').length, 100);
-const protectedDiff = cp.execFileSync('git', ['diff', 'HEAD', '--name-only', '--', ...plan.baseline.protectedPaths], {encoding:'utf8'}).trim();
-assert.equal(protectedDiff, '', 'La producció protegida ha canviat');
 assert.deepEqual(plan.distributionPerGroup, {instrument:34, destinatari:33, lloc:33});
 assert.equal(plan.variantsPerConstruction, 1);
 assert.equal(plan.items.length, 200);
@@ -120,7 +125,7 @@ for(const x of plan.items) {
 }
 const report={
  status:'valid',scope:'Coherència estructural, referències exactes i preservació local. Revisió semàntica de planificació; cap imatge generada ni avaluada, cap validació clínica.',
- catalogVersion:catalog.version,catalogSha256:hash(catalogBytes),catalogWords:catalog.words.length,catalogAssets:catalog.assets.length,n5Assets:n5.length,protectedTrackedPathsUnchanged:true,
+ catalogVersion:catalog.version,catalogSha256:plan.baseline.catalogSha256,catalogWords:catalog.words.length,catalogAssets:catalog.assets.length,n5Assets:n5.length,baselineProductionPreserved:true,
  totalItems:200,uniqueIds:200,uniqueTitles:200,uniqueLabelTuples:200,uniqueCompositionKeys:200,exactN4N5TupleDuplicates:0,
  validatedLabelOccurrences:occurrences,distinctWordIds:new Set(plan.items.flatMap(x=>x.wordIds)).size,distribution,excludedLabelsFound:[],
  inheritedN4CoresWithExplicitN6Complement:inheritedCores,

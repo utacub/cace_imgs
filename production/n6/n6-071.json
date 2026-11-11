@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-071",
+  "file": "output/production/n6/n6-071/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + LLEGIR + LLIBRE + BIBLIOTECA. Semantic focus: lloc. Age mapping is mandatory: NEN is a boy aged 7, NENA a girl aged 7, NOI a tall teenage boy aged 17, NOIA a tall teenage girl aged 17, DONA an adult woman aged 40, HOME an adult man aged 40. Show body proportions and face appropriate to the exact target age, especially recipient age.  Exact scene: NOIA: Llegeix un llibre obert asseguda al racó de lectura. Dues prestatgeries altes plenes de llibres sense lletres i una taula o butaca de lectura; cap pissarra. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-071",
+    "number": 71,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · llegir · llibre · biblioteca"
+    },
+    "labels": [
+      "NOIA",
+      "LLEGIR",
+      "LLIBRE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-25350f813f0d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "role": "patient",
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "role": "location",
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "visualDescription": "NOIA: Llegeix un llibre obert asseguda al racó de lectura. Dues prestatgeries altes plenes de llibres sense lletres i una taula o butaca de lectura; cap pissarra. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NOIA|LLEGIR|LLIBRE|escenari:BIBLIOTECA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:18:10.138Z",
+  "review": "Noia adolescent asseguda llegint llibre en biblioteca identificable per dues prestatgeries plenes de llibres sense text. Conjunt complet.",
+  "alt": {
+    "ca": "noia · llegir · llibre · biblioteca.",
+    "es": "CHICA · LEER · LIBRO · BIBLIOTECA."
+  },
+  "originalSha256": "063a80fdcca4dd31144be8b19ec006579f2b842053bc436f699a08c6f7711d3f",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:24:15.351Z",
+  "publicationVersion": "0.1.118",
+  "importedAt": "2026-11-11T19:25:09.439610+00:00"
+}

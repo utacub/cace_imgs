@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-039",
+  "file": "output/production/n6/n6-039/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + DONAR + MANTA + NEN. Semantic focus: destinatari. Age mapping is mandatory: NEN is a boy aged 7, NENA a girl aged 7, NOI a tall teenage boy aged 17, NOIA a tall teenage girl aged 17, DONA an adult woman aged 40, HOME an adult man aged 40. Show body proportions and face appropriate to the exact target age, especially recipient age.  Exact scene: DONA lliura MANTA a NEN. Manta plegada a mig traspassar dels braços del donant als del receptor. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-039",
+    "number": 39,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · donar · manta · nen"
+    },
+    "labels": [
+      "DONA",
+      "DONAR",
+      "MANTA",
+      "NEN"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-dd80e4e4de38",
+      "w-732ff8e447b5",
+      "w-b4012100fe09"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "role": "recipient",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      }
+    ],
+    "visualDescription": "DONA lliura MANTA a NEN. Manta plegada a mig traspassar dels braços del donant als del receptor. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "DONA|DONAR|MANTA|receptor:NEN",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:18:10.471Z",
+  "review": "Dona adulta lliura una manta plegada a un nen que la rep amb les dues mans per sota. Un sol objecte, traspas clar i cossos sencers.",
+  "alt": {
+    "ca": "dona · donar · manta · nen.",
+    "es": "MUJER · DAR · MANTA · NIÑO."
+  },
+  "originalSha256": "98ba7c4bc7de452437d1e8134cf6971189c00a0b1fd3ede6c28a2e3e7597e5f2",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:24:16.507Z",
+  "publicationVersion": "0.1.118",
+  "importedAt": "2026-11-11T19:25:07.574809+00:00"
+}

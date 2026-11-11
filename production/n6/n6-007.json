@@ -1,0 +1,76 @@
+{
+  "constructionId": "n6-007",
+  "file": "output/production/n6/n6-007/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + ASSECAR + CULLERA + AMB + TOVALLOLA. Semantic focus: instrument. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: Una tovallola de ris eixuga la cavitat i el mànec d’una cullera humida; unes gotes visibles, cullera gran de servir recognoscible i sense tapar. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-007",
+    "number": 7,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · assecar · cullera · tovallola"
+    },
+    "labels": [
+      "HOME",
+      "ASSECAR",
+      "CULLERA",
+      "AMB",
+      "TOVALLOLA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-ae417aa563dd",
+      "w-9c9849fac1d3",
+      "w-11fbfd8fa777",
+      "w-045fa0b1ae9d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "role": "patient",
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      }
+    ],
+    "visualDescription": "HOME: Una tovallola de ris eixuga la cavitat i el mànec d’una cullera humida; unes gotes visibles, cullera gran de servir recognoscible i sense tapar. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "HOME|ASSECAR|CULLERA|eina:TOVALLOLA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:25:02.039Z",
+  "review": "Home adult eixuga una cullera gran de servir humida amb tovallola en contacte. Cavitat i manec visibles, cos complet.",
+  "alt": {
+    "ca": "home · assecar · cullera · tovallola.",
+    "es": "HOMBRE · SECAR · CUCHARA · CON · TOALLA."
+  },
+  "originalSha256": "b23b10bb457edc130e4e1dd5facc0822275808591ef67c375805191b5ea4cff7",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:29:17.378Z"
+}

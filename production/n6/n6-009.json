@@ -1,0 +1,66 @@
+{
+  "constructionId": "n6-009",
+  "file": "output/production/n6/n6-009/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + MENJAR + PASTÍS + AMB + FORQUILLA. Semantic focus: instrument. Human appearance: agent NEN is a boy aged 7. Correct age proportions. Exact scene: NEN: La forquilla sosté un mos de pastís entre el tall visible i la boca; dents de la forquilla llegibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-009",
+    "number": 9,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · menjar · pastís · forquilla"
+    },
+    "labels": [
+      "NEN",
+      "MENJAR",
+      "PASTÍS",
+      "AMB",
+      "FORQUILLA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c248ebfe6f67",
+      "w-d7e3d6f746de",
+      "w-11fbfd8fa777",
+      "w-0d340ffdb6bf"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "role": "patient",
+        "label": "PASTÍS",
+        "wordId": "w-d7e3d6f746de"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "FORQUILLA",
+        "wordId": "w-0d340ffdb6bf"
+      }
+    ],
+    "visualDescription": "NEN: La forquilla sosté un mos de pastís entre el tall visible i la boca; dents de la forquilla llegibles. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NEN|MENJAR|PASTÍS|eina:FORQUILLA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:29:18.887Z"
+}

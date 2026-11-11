@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-076",
+  "file": "output/production/n6/n6-076/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + NETEJAR + PLAT + CUINA. Semantic focus: lloc. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: Frega un plat amb una esponja sobre l’aigüera; plat complet i una mica d’escuma. Mòdul domèstic d’aigüera, fogons i taulell amb armaris baixos; tots els mòduls sencers. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-076",
+    "number": 76,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · netejar · plat · cuina"
+    },
+    "labels": [
+      "HOME",
+      "NETEJAR",
+      "PLAT",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-55d250f4cf1e",
+      "w-2a34971d94b3"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "role": "location",
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "visualDescription": "HOME: Frega un plat amb una esponja sobre l’aigüera; plat complet i una mica d’escuma. Mòdul domèstic d’aigüera, fogons i taulell amb armaris baixos; tots els mòduls sencers. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "HOME|NETEJAR|PLAT|escenari:CUINA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:29:19.227Z"
+}

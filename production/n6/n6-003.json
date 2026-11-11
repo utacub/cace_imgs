@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PINTAR + CAIXA + AMB + PINZELL. Semantic focus: instrument. Exact scene: NOI: El pinzell deixa una franja de pintura a la cara exterior d’una caixa; l’altra mà immobilitza la caixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: The painter is a TALL SEVENTEEN YEAR OLD TEENAGE BOY, not a young child. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-003",
     "number": 3,
@@ -70,5 +70,17 @@
       "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PINTAR + CAIXA + AMB + PINZELL. Semantic focus: instrument. Exact scene: NOI: El pinzell deixa una franja de pintura a la cara exterior d’una caixa; l’altra mà immobilitza la caixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
       "rejectedAt": "2026-11-11T19:17:25.619Z"
     }
-  ]
+  ],
+  "review": "Noi adolescent alt pinta caixa amb pinzell i franja visible. Eina en contacte, cos i taula complets, sense text.",
+  "alt": {
+    "ca": "noi · pintar · caixa · pinzell.",
+    "es": "CHICO · PINTAR · CAJA · CON · PINCEL."
+  },
+  "originalSha256": "50dbc0e39443eeacd8aada429ce6e2e5c6a2a542b252e4255499717241439a97",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:25:00.368Z",
+  "publicationVersion": "0.1.118",
+  "importedAt": "2026-11-11T19:25:04.683548+00:00"
 }

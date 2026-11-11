@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-041",
+  "file": "output/production/n6/n6-041/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + DONAR + LLAPIS + HOME. Semantic focus: destinatari. Human appearance: agent NEN is a boy aged 7; recipient HOME is a adult man aged 40. Correct age proportions. Exact scene: NEN lliura LLAPIS a HOME. Llapis horitzontal ofert pel centre, punta allunyada de les persones; receptor agafa l’extrem rom. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-041",
+    "number": 41,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · donar · llapis · home"
+    },
+    "labels": [
+      "NEN",
+      "DONAR",
+      "LLAPIS",
+      "HOME"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-dd80e4e4de38",
+      "w-1775aa96869e",
+      "w-cfe24f6b3c38"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "recipient",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      }
+    ],
+    "visualDescription": "NEN lliura LLAPIS a HOME. Llapis horitzontal ofert pel centre, punta allunyada de les persones; receptor agafa l’extrem rom. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NEN|DONAR|LLAPIS|receptor:HOME",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:25:02.188Z",
+  "review": "Nen dona llapis horitzontal a home adult que en pren extrem rom. Un sol llapis i cossos complets, marges amplis.",
+  "alt": {
+    "ca": "nen · donar · llapis · home.",
+    "es": "NIÑO · DAR · LÁPIZ · HOMBRE."
+  },
+  "originalSha256": "5855b0a9c24099e4143337c739e8ebf7c649480715ca1051d4ee136a44912703",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:29:17.674Z"
+}
