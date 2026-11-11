@@ -1,3 +1,11 @@
+# N6 · 200 imatges revisades, publicació final en curs
+
+El pla N6 està generat i revisat completament: 100 fotografies habituals i 100 dibuixos insòlits, amb 68 instruments, 66 destinataris i 66 llocs. Catàleg 0.1.125: 3469 imatges i 861 entrades CACE. Generació tancada abans del límit de les 22:30 Europe/Madrid. Les 3269 imatges i totes les entrades prèvies es preserven exactament.
+
+La publicació pública verificada encara és la 0.1.121 (101 N6); GitHub té desplegaments en cua després d’un error de recuperació de l’artefacte de Pages. Estat actual a production/n6-progress.json; evidència pública a output/n6-publication-verification.json. Originals a output/production/n6; prompts i revisions a production/n6. No generar més N6.
+
+---
+
 # N5 · 200 construccions completades
 
 Les 21 pendents de l’última represa s’han generat, revisat i importat. El N5 té 200/200 estímuls: 100 fotografies habituals i 100 dibuixos insòlits, sense pendents. Espai: 80; possessió: 60; contingut: 60. Catàleg 0.1.116, 3269 imatges. Les 3248 imatges publicades abans d’aquesta represa i les 861 entrades CACE es conserven exactament.

@@ -1,0 +1,78 @@
+{
+  "constructionId": "n6-032",
+  "file": "output/production/n6/n6-032/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + NETEJAR + BICICLETA + AMB + MOCADOR. Semantic focus: instrument. Human appearance: agent NEN is a boy aged 7. Correct age proportions. Exact scene: NEN: El mocador de tela frega fang del quadre d’una bicicleta estable; plecs visibles, bicicleta completa i cap esponja. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-032",
+    "number": 32,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · netejar · bicicleta · mocador"
+    },
+    "labels": [
+      "NEN",
+      "NETEJAR",
+      "BICICLETA",
+      "AMB",
+      "MOCADOR"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4e6be686e7c1",
+      "w-77e4851b2d97",
+      "w-11fbfd8fa777",
+      "w-35e3a6c8a7fd"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "BICICLETA",
+        "wordId": "w-77e4851b2d97"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "visualDescription": "NEN: El mocador de tela frega fang del quadre d’una bicicleta estable; plecs visibles, bicicleta completa i cap esponja. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NEN|NETEJAR|BICICLETA|eina:MOCADOR",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:33:24.603Z",
+  "review": "Nen neteja bicicleta amb mocador flexible; bicicleta i cos complets.",
+  "alt": {
+    "ca": "nen · netejar · bicicleta · mocador.",
+    "es": "NIÑO · LIMPIAR · BICICLETA · CON · PAÑUELO."
+  },
+  "originalSha256": "b4568ed50bb06db6a9324c6101ebf138b5e000a705338f2f744d390a9cfd0283",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:38:17.399Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:15.362796+00:00"
+}

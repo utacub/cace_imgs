@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-100",
+  "file": "output/production/n6/n6-100/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + OBRIR + MOTXILLA + CÀMPING. Semantic focus: lloc. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: Separa amb les mans l’obertura d’una motxilla al peu de la tenda; interior sense contingut protagonista. Tenda plantada completa amb vents i piquetes, més màrfega i fanalet apagat; cap logotip ni número. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-100",
+    "number": 100,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · obrir · motxilla · càmping"
+    },
+    "labels": [
+      "HOME",
+      "OBRIR",
+      "MOTXILLA",
+      "CÀMPING"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-a10b29af07c7",
+      "w-43db0ea26088",
+      "w-83beeb602e46"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "role": "patient",
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "role": "location",
+        "label": "CÀMPING",
+        "wordId": "w-83beeb602e46"
+      }
+    ],
+    "visualDescription": "HOME: Separa amb les mans l’obertura d’una motxilla al peu de la tenda; interior sense contingut protagonista. Tenda plantada completa amb vents i piquetes, més màrfega i fanalet apagat; cap logotip ni número. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "HOME|OBRIR|MOTXILLA|escenari:CÀMPING",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:33:25.589Z",
+  "review": "Home obre motxilla al camping; cremallera oberta i tenda visible.",
+  "alt": {
+    "ca": "home · obrir · motxilla · càmping.",
+    "es": "HOMBRE · ABRIR · MOCHILA · CAMPING."
+  },
+  "originalSha256": "098a9c0b827a5cea58a81550d76da5a48599b229844afb4186df864f2ef44293",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:38:23.777Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:22.761433+00:00"
+}

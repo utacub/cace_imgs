@@ -1,11 +1,11 @@
 {
   "constructionId": "n6-131",
   "file": "output/production/n6/n6-131/image.png",
-  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: RUC + NETEJAR + BICICLETA + AMB + ESPONJA. Semantic focus: instrument. NO HUMAN FIGURES. Exact scene: RUC: L’esponja frega fang del quadre d’una bicicleta recolzada de manera estable; bicicleta sencera, sense muntar-hi. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: RUC + NETEJAR + BICICLETA + AMB + ESPONJA. Semantic focus: instrument. NO HUMAN FIGURES. Exact scene: RUC: L’esponja frega fang del quadre d’una bicicleta recolzada de manera estable; bicicleta sencera, sense muntar-hi. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene. CORRECTION REQUIRED: The ONLY animal is a DONKEY (Catalan RUC): grey equine animal with TWO VERY LONG UPRIGHT EARS, long equine muzzle, short dark mane, slender tail ending in a tuft, hooves. Absolutely NOT a raccoon: NO eye-mask markings, NO ringed bushy tail. Donkey uses yellow sponge on bicycle frame. FOUR limbs total, upright on two hind legs and two forelegs used as arms. Whole bicycle, both wheels, and entire donkey in wide frame. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-131",
     "number": 131,
@@ -62,5 +62,25 @@
     "compositionKey": "RUC|NETEJAR|BICICLETA|eina:ESPONJA",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T20:27:34.415Z"
+  "created": "2026-11-11T20:27:34.415Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-131/rejected-01.png",
+      "reason": "Agent incorrecte: mapatxe en lloc de RUC.",
+      "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: RUC + NETEJAR + BICICLETA + AMB + ESPONJA. Semantic focus: instrument. NO HUMAN FIGURES. Exact scene: RUC: L’esponja frega fang del quadre d’una bicicleta recolzada de manera estable; bicicleta sencera, sense muntar-hi. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+      "rejectedAt": "2026-11-11T20:33:24.394Z"
+    }
+  ],
+  "review": "Ruc corregit de llargues orelles neteja bicicleta amb esponja, quatre extremitats.",
+  "alt": {
+    "ca": "ruc · netejar · bicicleta · esponja.",
+    "es": "BURRO · LIMPIAR · BICICLETA · CON · ESPONJA."
+  },
+  "originalSha256": "b44bb8b38fff7e8165ced25e51f29f97b2845a5fbcc5bc9df03c063072be61e3",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:38:25.205Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:24.240529+00:00"
 }

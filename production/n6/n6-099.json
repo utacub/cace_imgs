@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-099",
+  "file": "output/production/n6/n6-099/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + ESTIRAR + MANTA + CÀMPING. Semantic focus: lloc. Human appearance: agent DONA is a adult woman aged 40. Correct age proportions. Exact scene: DONA: Desplega una manta amb les dues mans sobre una màrfega davant la tenda. Tenda plantada completa amb vents i piquetes, més màrfega i fanalet apagat; cap logotip ni número. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-099",
+    "number": 99,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · estirar · manta · càmping"
+    },
+    "labels": [
+      "DONA",
+      "ESTIRAR",
+      "MANTA",
+      "CÀMPING"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-99499cd7f270",
+      "w-732ff8e447b5",
+      "w-83beeb602e46"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "role": "patient",
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "role": "location",
+        "label": "CÀMPING",
+        "wordId": "w-83beeb602e46"
+      }
+    ],
+    "visualDescription": "DONA: Desplega una manta amb les dues mans sobre una màrfega davant la tenda. Tenda plantada completa amb vents i piquetes, més màrfega i fanalet apagat; cap logotip ni número. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "DONA|ESTIRAR|MANTA|escenari:CÀMPING",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:33:25.007Z",
+  "review": "Dona esten manta al camping, tenda completa i manta ben diferenciada.",
+  "alt": {
+    "ca": "dona · estirar · manta · càmping.",
+    "es": "MUJER · ESTIRAR · MANTA · CAMPING."
+  },
+  "originalSha256": "d703fee5e6b7c8fed4ea9e370cbe164779c18347468e0cc08828f57847002a75",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:38:20.977Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:21.897245+00:00"
+}

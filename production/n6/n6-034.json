@@ -1,0 +1,78 @@
+{
+  "constructionId": "n6-034",
+  "file": "output/production/n6/n6-034/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + NETEJAR + GOT + AMB + ESPONJA. Semantic focus: instrument. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: Una esponja porosa frega una taca exterior del got transparent; escuma mínima i vora sencera, sense aigüera ni decorat de cuina. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-034",
+    "number": 34,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · netejar · got · esponja"
+    },
+    "labels": [
+      "NOIA",
+      "NETEJAR",
+      "GOT",
+      "AMB",
+      "ESPONJA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4e6be686e7c1",
+      "w-1bed9f18ebab",
+      "w-11fbfd8fa777",
+      "w-2d404e0d8979"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      }
+    ],
+    "visualDescription": "NOIA: Una esponja porosa frega una taca exterior del got transparent; escuma mínima i vora sencera, sense aigüera ni decorat de cuina. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NOIA|NETEJAR|GOT|eina:ESPONJA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:38:27.811Z",
+  "review": "Noia neteja got amb esponja en contacte amb taca; figura sencera i marges blancs.",
+  "alt": {
+    "ca": "noia · netejar · got · esponja.",
+    "es": "CHICA · LIMPIAR · VASO · CON · ESPONJA."
+  },
+  "originalSha256": "1eba7dd8fcade31ef4dd76d4b7a30dc8dd6118b24ca53e154e758ea2c4942c59",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:40:55.698Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:16.407418+00:00"
+}

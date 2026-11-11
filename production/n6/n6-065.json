@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + DONAR + TITELLA + DONA. Semantic focus: destinatari. Human appearance: agent NEN is a boy aged 7; recipient DONA is a adult woman aged 40. Correct age proportions. Exact scene: NEN lliura TITELLA a DONA. Titella de guant buit, ofert pel puny de tela; receptor l’agafa sense posar-se’l. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-065",
     "number": 65,
@@ -55,5 +55,17 @@
     "compositionKey": "NEN|DONAR|TITELLA|receptor:DONA",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T20:27:34.638Z"
+  "created": "2026-11-11T20:27:34.638Z",
+  "review": "Nen dona titella de ma a dona; titella petita de roba inequívoca.",
+  "alt": {
+    "ca": "nen · donar · titella · dona.",
+    "es": "NIÑO · DAR · TÍTERE · MUJER."
+  },
+  "originalSha256": "9aa8e1272f13904e1d952ae99a703623ac8f09510c8544d195fbcb5a5ec04585",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:33:23.736Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:17.925194+00:00"
 }

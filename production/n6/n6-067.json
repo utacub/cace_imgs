@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-067",
+  "file": "output/production/n6/n6-067/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + DONAR + COIXÍ + NENA. Semantic focus: destinatari. Human appearance: agent NOI is a tall teenage boy aged 17; recipient NENA is a girl aged 7. Correct age proportions. Exact scene: NOI lliura COIXÍ a NENA. Coixí tou quadrat, a mig traspassar entre braços estesos i braços oberts. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-067",
+    "number": 67,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · donar · coixí · nena"
+    },
+    "labels": [
+      "NOI",
+      "DONAR",
+      "COIXÍ",
+      "NENA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-dd80e4e4de38",
+      "w-44260b79b61e",
+      "w-cda6fa4a9867"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "role": "recipient",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      }
+    ],
+    "visualDescription": "NOI lliura COIXÍ a NENA. Coixí tou quadrat, a mig traspassar entre braços estesos i braços oberts. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NOI|DONAR|COIXÍ|receptor:NENA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:33:25.413Z",
+  "review": "Noi dona coixi a nena, un sol coixi compartit i edats correctes.",
+  "alt": {
+    "ca": "noi · donar · coixí · nena.",
+    "es": "CHICO · DAR · ALMOHADA · NIÑA."
+  },
+  "originalSha256": "0d59572fbc6cbdf138c1e9842ed7423a7665e4b44daaa5bb74308091686a8826",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:38:22.766Z",
+  "publicationVersion": "0.1.125",
+  "importedAt": "2026-11-11T20:41:19.428947+00:00"
+}
