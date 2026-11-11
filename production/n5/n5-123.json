@@ -4,8 +4,8 @@
   "prompt": "CACE N5 educational illustration, exactly one square FLAT TWO-DIMENSIONAL CARTOON DRAWING, simple solid colour shapes and clear dark outlines. NOT a photograph; no realistic textures, no 3D rendering. Pure white empty background, full objects with generous white margins. No text, letters, numbers, logos. NO PEOPLE or children or bystanders. Only the TWO specified referents. One simple red cartoon ROCKET resting upright on its fins immediately IN FRONT OF one freestanding glazed WINDOW frame. Rocket partly occludes window. NO HUMANS. No extra objects, no exhaust or flames.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n5-123",
     "number": 123,
@@ -37,5 +37,17 @@
       "prompt": "Use case: scientific-educational. CACE N5 school vocabulary. ONE square friendly flat 2D educational drawing with clean outlines, no 3D, pure white seamless background, soft natural light, realistic textures and anatomy. Exact named relation must be unambiguous. Whole figures and objects inside central 65 percent with broad white margins ALL sides. Only named referents and indispensable support. No text, letters, numbers, labels, logos, watermark, collage, extra people or unrelated props. Fully ordinarily clothed children, friendly school-appropriate. COET + DAVANT + FINESTRA. One space rocket resting upright on its fins directly IN FRONT OF a freestanding house-window frame with glass panes. Window behind rocket partly occluded by rocket body, whole window frame and rocket complete. No flames, smoke, text, scenery or extras. No wall except minimal frame support.",
       "rejectedAt": "2026-11-11T16:39:42.814Z"
     }
-  ]
+  ],
+  "review": "Dibuix pla revisat: relació davant clara, els dos referents complets, sense figures ni text addicionals; substitueix l'intent descartat.",
+  "alt": {
+    "ca": "Coet · davant · finestra.",
+    "es": "COHETE · ANTE · VENTANA."
+  },
+  "originalSha256": "cf95eae37cca40e01f46f0aa25a89f1af56d81e584e946091bdf8e173fdc379d",
+  "width": 1254,
+  "height": 1254,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T16:41:10.377Z",
+  "publicationVersion": "0.1.110",
+  "importedAt": "2026-11-11T16:45:10.837894+00:00"
 }

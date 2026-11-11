@@ -41,7 +41,7 @@ if(mode==='prepare'){
  fs.copyFileSync(source,rec.file,fs.constants.COPYFILE_EXCL);
  Object.assign(rec,{reviewed:true,status:'accepted',review,alt:{ca:item.title.ca+'.',es:item.title.es+'.'},originalSha256:crypto.createHash('sha256').update(bytes).digest('hex'),width:bytes.readUInt32BE(16),height:bytes.readUInt32BE(20),generatedWith:'built-in image_gen',reviewedAt:new Date().toISOString()});
  fs.writeFileSync(recordPath,JSON.stringify(rec,null,2)+'\n');
-}else throw Error('Mode must be prepare or accept');
+}else throw Error('Mode must be prepare, retry or accept');
 const records=fs.readdirSync('production/n5').filter(f=>/^n5-\d{3}\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(`production/n5/${f}`,'utf8')));
 const done=new Set(records.filter(r=>r.reviewed&&r.status==='accepted').map(r=>r.constructionId));
 const prior=fs.existsSync('production/n5-progress.json')?JSON.parse(fs.readFileSync('production/n5-progress.json','utf8')):{};
