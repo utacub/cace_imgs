@@ -1,0 +1,99 @@
+{
+  "status": "valid",
+  "scope": "Coherència estructural, referències exactes i preservació local. Revisió semàntica de planificació; cap imatge generada ni avaluada, cap validació clínica.",
+  "catalogVersion": "0.1.116",
+  "catalogSha256": "3800aa71fa0a05460f35f7ce219d428aa11fdbe6ae24f961c2d15e9359c6b0a7",
+  "catalogWords": 861,
+  "catalogAssets": 3269,
+  "n5Assets": 200,
+  "protectedTrackedPathsUnchanged": true,
+  "totalItems": 200,
+  "uniqueIds": 200,
+  "uniqueTitles": 200,
+  "uniqueLabelTuples": 200,
+  "uniqueCompositionKeys": 200,
+  "exactN4N5TupleDuplicates": 0,
+  "validatedLabelOccurrences": 868,
+  "distinctWordIds": 136,
+  "distribution": {
+    "habitual": {
+      "total": 100,
+      "instrument": 34,
+      "destinatari": 33,
+      "lloc": 33,
+      "locations": {
+        "CLASSE": 3,
+        "BIBLIOTECA": 3,
+        "CUINA": 3,
+        "MENJADOR": 3,
+        "HABITACIÓ": 3,
+        "PARC": 3,
+        "PLATJA": 3,
+        "HORT": 3,
+        "GRANJA": 3,
+        "TALLER": 3,
+        "CÀMPING": 3
+      },
+      "instrumentPairs": 14,
+      "instrumentSingletons": 6
+    },
+    "insolita": {
+      "total": 100,
+      "instrument": 34,
+      "destinatari": 33,
+      "lloc": 33,
+      "locations": {
+        "CLASSE": 3,
+        "BIBLIOTECA": 3,
+        "CUINA": 3,
+        "MENJADOR": 3,
+        "HABITACIÓ": 3,
+        "PARC": 3,
+        "PLATJA": 3,
+        "HORT": 3,
+        "GRANJA": 3,
+        "TALLER": 3,
+        "CÀMPING": 3
+      },
+      "instrumentPairs": 14,
+      "instrumentSingletons": 6
+    }
+  },
+  "excludedLabelsFound": [],
+  "inheritedN4CoresWithExplicitN6Complement": [
+    {
+      "id": "n6-078",
+      "from": [
+        "n4-002"
+      ],
+      "additionalRole": "lloc",
+      "visibleDifference": "Conjunt contextual de lloc recognoscible."
+    },
+    {
+      "id": "n6-083",
+      "from": [
+        "n4-011"
+      ],
+      "additionalRole": "lloc",
+      "visibleDifference": "Conjunt contextual de lloc recognoscible."
+    },
+    {
+      "id": "n6-084",
+      "from": [
+        "n4-035"
+      ],
+      "additionalRole": "lloc",
+      "visibleDifference": "Conjunt contextual de lloc recognoscible."
+    }
+  ],
+  "manualSemanticReview": "Escenes amb papers visibles; contrast TOVALLOLA/TOVALLÓ i MIRAR/LLEGIR retirats. Signatures automàtiques sense duplicats; la possible semblança perceptiva resta subjecta a revisió de les futures imatges.",
+  "authorization": {
+    "scope": "planificacio-i-revisio-nomes",
+    "generationAuthorized": false,
+    "catalogImportAuthorized": false,
+    "commitAuthorized": false,
+    "pushAuthorized": false,
+    "deploymentAuthorized": false,
+    "requiresNewUserInstruction": "Cal una instrucció posterior de l’usuari per generar imatges o publicar. Les autoritzacions històriques N4/N5 no autoritzen N6."
+  }
+}

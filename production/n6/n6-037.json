@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-037",
+  "file": "output/production/n6/n6-037/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + DONAR + POMA + DONA. Semantic focus: destinatari. Exact scene: NOI lliura POMA a DONA. Una sola poma, agafada pel peduncle pel donant i rebuda sobre el palmell obert. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-037",
+    "number": 37,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · donar · poma · dona"
+    },
+    "labels": [
+      "NOI",
+      "DONAR",
+      "POMA",
+      "DONA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-dd80e4e4de38",
+      "w-809c680b5699",
+      "w-72e9fe9a8b43"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "role": "recipient",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      }
+    ],
+    "visualDescription": "NOI lliura POMA a DONA. Una sola poma, agafada pel peduncle pel donant i rebuda sobre el palmell obert. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NOI|DONAR|POMA|receptor:DONA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:46.246Z",
+  "review": "Noi adolescent ofereix poma pel peduncle a dona que presenta palmell obert per rebre-la. Cossos sencers i fons blanc.",
+  "alt": {
+    "ca": "noi · donar · poma · dona.",
+    "es": "CHICO · DAR · MANZANA · MUJER."
+  },
+  "originalSha256": "0a8213b733776e405c9a28a95a68ecc8dcd209b6c1d6de0b1cb36ceee3c4dc1b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:17:25.192Z"
+}

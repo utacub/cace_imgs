@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-168",
+  "file": "output/production/n6/n6-168/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors, no gradients or photorealism. CACE N6: CONILL + LLEGIR + CONTE + CLASSE. Semantic focus: lloc. Exact scene: CONILL: Assegut en un pupitre, mira les pàgines obertes del conte. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame, generous margins on all sides, composition occupying at most 70 percent of canvas. One action in one instant, not a sequence or collage. Minimal support only. Friendly, school appropriate. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows, speech bubbles or captions, including clothing, books and paper. Humans in ordinary clothes. Hands/paws visibly make the required contact. Include the necessary small complete setting specified, isolated on white.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-168",
+    "number": 168,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "lloc",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · llegir · conte · classe"
+    },
+    "labels": [
+      "CONILL",
+      "LLEGIR",
+      "CONTE",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-ef0bd41d6ee3",
+      "w-22f3876c9741",
+      "w-3291fe2b2a8d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "role": "patient",
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      },
+      {
+        "role": "location",
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "visualDescription": "CONILL: Assegut en un pupitre, mira les pàgines obertes del conte. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa.",
+    "compositionKey": "CONILL|LLEGIR|CONTE|escenari:CLASSE",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:10:17.574Z",
+  "review": "Conill amable llegeix un conte il·lustrat sense lletres en una aula amb dos pupitres i pissarra buida. Dibuix simple amb tots els referents complets i fons blanc.",
+  "alt": {
+    "ca": "conill · llegir · conte · classe.",
+    "es": "CONEJO · LEER · CUENTO · CLASE."
+  },
+  "originalSha256": "1b4b0625f3642076b7d76a758937e1819fed66859f627ed23c91da9901597ce4",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:12:11.914Z",
+  "publicationVersion": "0.1.117",
+  "importedAt": "2026-11-11T19:12:49.198941+00:00"
+}

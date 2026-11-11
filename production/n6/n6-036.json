@@ -1,0 +1,67 @@
+{
+  "constructionId": "n6-036",
+  "file": "output/production/n6/n6-036/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + DONAR + CONTE + NOI. Semantic focus: destinatari. Exact scene: NENA lliura CONTE a NOI. Llibre amb il·lustració infantil sense lletres a la coberta; el receptor en pren la vora inferior. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: The giver is a seven year old girl on the left; the receiver is a much taller SEVENTEEN YEAR OLD TEENAGE BOY on the right. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-036",
+    "number": 36,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · donar · conte · noi"
+    },
+    "labels": [
+      "NENA",
+      "DONAR",
+      "CONTE",
+      "NOI"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-dd80e4e4de38",
+      "w-22f3876c9741",
+      "w-01bc6dcab46b"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      },
+      {
+        "role": "recipient",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      }
+    ],
+    "visualDescription": "NENA lliura CONTE a NOI. Llibre amb il·lustració infantil sense lletres a la coberta; el receptor en pren la vora inferior. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NENA|DONAR|CONTE|receptor:NOI",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:45.810Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-036/rejected-01.png",
+      "reason": "El receptor NOI sembla un nen de la mateixa edat que la donant.",
+      "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + DONAR + CONTE + NOI. Semantic focus: destinatari. Exact scene: NENA lliura CONTE a NOI. Llibre amb il·lustració infantil sense lletres a la coberta; el receptor en pren la vora inferior. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:17:25.721Z"
+    }
+  ]
+}

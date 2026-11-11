@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-170",
+  "file": "output/production/n6/n6-170/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: GIRAFA + CLASSIFICAR + PECES + CLASSE. Semantic focus: lloc. Exact scene: GIRAFA: Desplaça una peça cap a un dels dos petits grups de peces de formes diferents sobre el pupitre. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-170",
+    "number": 170,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "lloc",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · classificar · peces · classe"
+    },
+    "labels": [
+      "GIRAFA",
+      "CLASSIFICAR",
+      "PECES",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-837cfa89f5df",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GIRAFA",
+        "wordId": "w-e60f76be7b6c"
+      },
+      {
+        "role": "action",
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "role": "patient",
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "role": "location",
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "visualDescription": "GIRAFA: Desplaça una peça cap a un dels dos petits grups de peces de formes diferents sobre el pupitre. Un fragment autònom d’aula: pissarra buida i dos pupitres escolars; cap prestatgeria de biblioteca. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. L’agent és un animal o criatura antropomòrfica amable que fa l’acció humana; no un estampat, joguina o disfressa.",
+    "compositionKey": "GIRAFA|CLASSIFICAR|PECES|escenari:CLASSE",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:46.453Z",
+  "review": "Girafa amable classifica peces sobre pupitre, amb grups separats i una peca moguda amb la pota. Aula identificable i conjunt complet.",
+  "alt": {
+    "ca": "girafa · classificar · peces · classe.",
+    "es": "JIRAFA · CLASIFICAR · PIEZAS · CLASE."
+  },
+  "originalSha256": "3256650f5cdea9ae186ce752f849ce6e4a79d40b9cf3f1239c309012efbfd2f3",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:17:25.339Z"
+}

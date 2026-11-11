@@ -1,0 +1,67 @@
+{
+  "constructionId": "n6-137",
+  "file": "output/production/n6/n6-137/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: GIRAFA + DONAR + POMA + NOIA. Semantic focus: destinatari. Exact scene: GIRAFA lliura POMA a NOIA. Una sola poma, agafada pel peduncle pel donant i rebuda sobre el palmell obert. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Donant antropomòrfic amable; és l’animal real del món fantàstic, no una joguina ni una persona disfressada. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: The human receiver is a TALL SEVENTEEN YEAR OLD TEENAGE GIRL, with teenage face and long-limbed body, not a child. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-137",
+    "number": 137,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "destinatari",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · donar · poma · noia"
+    },
+    "labels": [
+      "GIRAFA",
+      "DONAR",
+      "POMA",
+      "NOIA"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-dd80e4e4de38",
+      "w-809c680b5699",
+      "w-b38ff488f862"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GIRAFA",
+        "wordId": "w-e60f76be7b6c"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "role": "recipient",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      }
+    ],
+    "visualDescription": "GIRAFA lliura POMA a NOIA. Una sola poma, agafada pel peduncle pel donant i rebuda sobre el palmell obert. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Donant antropomòrfic amable; és l’animal real del món fantàstic, no una joguina ni una persona disfressada.",
+    "compositionKey": "GIRAFA|DONAR|POMA|receptor:NOIA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:46.321Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-137/rejected-01.png",
+      "reason": "La receptora NOIA sembla una nena petita.",
+      "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: GIRAFA + DONAR + POMA + NOIA. Semantic focus: destinatari. Exact scene: GIRAFA lliura POMA a NOIA. Una sola poma, agafada pel peduncle pel donant i rebuda sobre el palmell obert. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Donant antropomòrfic amable; és l’animal real del món fantàstic, no una joguina ni una persona disfressada. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:17:25.890Z"
+    }
+  ]
+}

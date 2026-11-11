@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+const c=JSON.parse(fs.readFileSync('src/catalog-data.json','utf8'));
+const p=JSON.parse(fs.readFileSync('production/n6-progress.json','utf8'));
+const rows=c.assets.filter(x=>x.constructionId?.startsWith('n6-'));
+const h=rows.filter(x=>x.kind==='photo').length,d=rows.length-h;
+let s=fs.readFileSync('README.md','utf8').replace(/La versió [\d.]+ conté \*\*\d+ imatges\*\*/,`La versió ${c.version} conté **${c.assets.length} imatges**`).replace(/`bank\/`: les \d+ imatges/,`\`bank/\`: les ${c.assets.length} imatges`);
+const summary=`El N6 incorpora **${rows.length} de les 200 construccions aprovades**: ${h} fotografies habituals i ${d} dibuixos plans insòlits. «N6 · Més informació» afegeix instrument, destinatari o lloc a una sola acció: cinc etiquetes exactes per instrument, quatre per destinatari o lloc. Col·lecció «N6 · Més informació», filtre de nivell 6. Pla: \`production/n6-plan.json\`; progrés: \`production/n6-progress.json\`; registres: \`production/n6/\`. Producció i publicació autoritzades fins a les 22:30 Europe/Madrid de l’11/11/2026; els pendents necessiten una nova represa després del tall.`;
+if(s.includes('El N6 incorpora '))s=s.replace(/El N6 incorpora [^\n]+/,summary);else s=s.replace('## Estructura',summary+'\n\n## Estructura');
+fs.writeFileSync('README.md',s);
+const g=JSON.parse(fs.readFileSync('production/progress.json','utf8'));
+Object.assign(g,{catalogVersion:c.version,totalImages:c.assets.length});fs.writeFileSync('production/progress.json',JSON.stringify(g,null,2)+'\n');
+Object.assign(p,{imported:rows.length,catalogVersion:c.version,updated:new Date().toISOString()});fs.writeFileSync('production/n6-progress.json',JSON.stringify(p,null,2)+'\n');
+console.log({version:c.version,n6:rows.length,habitual:h,insolita:d});

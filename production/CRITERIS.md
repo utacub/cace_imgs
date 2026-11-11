@@ -1,3 +1,7 @@
+# Autorització N6 de l’11 de novembre de 2026
+
+Usuari 11/11/2026: Aprovo el pla N6. Comença a generar, revisar i publicar les 200 imatges per lots, mantenint els criteris visuals i preservant totes les imatges i entrades CACE existents. Atura’t a les 22:30 Europe/Madrid. Una sola imatge revisada per construcció de production/n6-plan.json: fotografia habitual, dibuix pla insòlit. Publicació progressiva. Aturar la generació a les 22:20 per reservar la verificació final; aturada de la sessió a les 22:30. Aquesta autorització substitueix l’estat de proposta del pla només per a aquesta sessió N6.
+
 # Criteris de producció
 
 Represa posterior de l’11/11/2026: continuar publicant el material pendent i després generar, revisar i publicar les propostes N5 restants fins a les 18:30 Europe/Madrid. Aquesta instrucció substitueix la pausa anterior; conservar una sola imatge per estímul i no superar els 200 del pla. Comprovar l’hora abans de cada crida i reservar el tram final per publicar i verificar.

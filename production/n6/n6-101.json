@@ -1,0 +1,78 @@
+{
+  "constructionId": "n6-101",
+  "file": "output/production/n6/n6-101/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors, no gradients or photorealism. CACE N6: CONILL + DIBUIXAR + FLOR + AMB + LLAPIS. Semantic focus: instrument. Exact scene: CONILL: La punta del llapis toca el paper i traça el contorn recognoscible d’una flor. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame, generous margins on all sides, composition occupying at most 70 percent of canvas. One action in one instant, not a sequence or collage. Minimal support only. Friendly, school appropriate. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows, speech bubbles or captions, including clothing, books and paper. Humans in ordinary clothes. Hands/paws visibly make the required contact. No identifiable room or landscape.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-101",
+    "number": 101,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "instrument",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · dibuixar · flor · llapis"
+    },
+    "labels": [
+      "CONILL",
+      "DIBUIXAR",
+      "FLOR",
+      "AMB",
+      "LLAPIS"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-2e0a67ac121f",
+      "w-6c5def9143c8",
+      "w-11fbfd8fa777",
+      "w-1775aa96869e"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      }
+    ],
+    "visualDescription": "CONILL: La punta del llapis toca el paper i traça el contorn recognoscible d’una flor. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "CONILL|DIBUIXAR|FLOR|eina:LLAPIS",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:10:17.296Z",
+  "review": "Conill amable amb llapis en contacte amb el contorn de flor sobre paper. Dibuix de formes simples, cos i suport complets, fons blanc sense text.",
+  "alt": {
+    "ca": "conill · dibuixar · flor · llapis.",
+    "es": "CONEJO · DIBUJAR · FLOR · CON · LÁPIZ."
+  },
+  "originalSha256": "368ffc5639cb68de99ba7ee6afa2aea47085f9376e644742ac89b12eb8dc8540",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:12:08.291Z",
+  "publicationVersion": "0.1.117",
+  "importedAt": "2026-11-11T19:12:48.692798+00:00"
+}

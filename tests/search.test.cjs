@@ -206,6 +206,23 @@ test('N5 relations support exact CACE tags, search and their collection without 
   assert.deepEqual(new Set(a.read('results().map(x=>x.id)')), new Set(expected));
 });
 
+test('N6 instruments, recipients and places keep exact tags and a separate collection', () => {
+  const a=app();
+  const rows=catalog.assets.filter(x=>x.constructionId?.startsWith('n6-'));
+  assert.ok(rows.length>=6);
+  const plan=require('../production/n6-plan.json');
+  for(const type of ['instrument','destinatari','lloc']) {
+    const row=rows.find(x=>plan.items.find(p=>p.id===x.constructionId).informationType===type);
+    assert.ok(row,type);
+    assert.equal(row.tags.length,type==='instrument'?5:4);
+    a.run(`state.view='all'; state.query=''; state.level=6; state.tags=${JSON.stringify(row.tags)}; state.wordMode='all'`);
+    assert.deepEqual(a.read('results().map(x=>x.id)'),[row.id]);
+    a.run('state.level=5');assert.equal(a.read('results().length'),0);
+  }
+  a.run("state.level=6; state.tags=[]; state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n6-mes-informacio'");
+  assert.deepEqual(new Set(a.read('results().map(x=>x.id)')),new Set(rows.map(x=>x.id)));
+});
+
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
   for (const row of catalog.assets) {
     assert.ok(row.tags.includes(row.primaryWordId), row.id);

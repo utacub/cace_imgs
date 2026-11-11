@@ -1,0 +1,74 @@
+{
+  "constructionId": "n6-002",
+  "file": "output/production/n6/n6-002/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + DIBUIXAR + FLOR + AMB + PINZELL. Semantic focus: instrument. Exact scene: NENA: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: Full body girl including shoes, complete chair and all desk legs must be visible with a broad white bottom margin. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-002",
+    "number": 2,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · dibuixar · flor · pinzell"
+    },
+    "labels": [
+      "NENA",
+      "DIBUIXAR",
+      "FLOR",
+      "AMB",
+      "PINZELL"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-2e0a67ac121f",
+      "w-6c5def9143c8",
+      "w-11fbfd8fa777",
+      "w-33df96705776"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      }
+    ],
+    "visualDescription": "NENA: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NENA|DIBUIXAR|FLOR|eina:PINZELL",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:45.651Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-002/rejected-01.png",
+      "reason": "Cos i potes de la taula retallats pel marge inferior.",
+      "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + DIBUIXAR + FLOR + AMB + PINZELL. Semantic focus: instrument. Exact scene: NENA: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:17:25.433Z"
+    }
+  ]
+}

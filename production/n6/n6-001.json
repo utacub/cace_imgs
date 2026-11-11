@@ -1,0 +1,78 @@
+{
+  "constructionId": "n6-001",
+  "file": "output/production/n6/n6-001/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + DIBUIXAR + FLOR + AMB + LLAPIS. Semantic focus: instrument. Exact scene: NENA: La punta del llapis toca el paper i traça el contorn recognoscible d’una flor. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame, generous margins on all sides, composition occupying at most 70 percent of canvas. One action in one instant, not a sequence or collage. Minimal support only. Friendly, school appropriate. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows, speech bubbles or captions, including clothing, books and paper. Humans in ordinary clothes. Hands/paws visibly make the required contact. No identifiable room or landscape.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-001",
+    "number": 1,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · dibuixar · flor · llapis"
+    },
+    "labels": [
+      "NENA",
+      "DIBUIXAR",
+      "FLOR",
+      "AMB",
+      "LLAPIS"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-2e0a67ac121f",
+      "w-6c5def9143c8",
+      "w-11fbfd8fa777",
+      "w-1775aa96869e"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      }
+    ],
+    "visualDescription": "NENA: La punta del llapis toca el paper i traça el contorn recognoscible d’una flor. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NENA|DIBUIXAR|FLOR|eina:LLAPIS",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:10:17.213Z",
+  "review": "Nena sencera dibuixant una flor recognoscible sobre paper amb llapis visible en contacte. Taula i cadira completes, fons blanc, sense text ni marques.",
+  "alt": {
+    "ca": "nena · dibuixar · flor · llapis.",
+    "es": "NIÑA · DIBUJAR · FLOR · CON · LÁPIZ."
+  },
+  "originalSha256": "5fdaf3e0ed428e627d7707e8636c01dc3598e5bdc95b786ccd1985abdeeee27e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T19:12:07.261Z",
+  "publicationVersion": "0.1.117",
+  "importedAt": "2026-11-11T19:12:47.887456+00:00"
+}

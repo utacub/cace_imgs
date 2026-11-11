@@ -1,0 +1,74 @@
+{
+  "constructionId": "n6-102",
+  "file": "output/production/n6/n6-102/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: CONILL + DIBUIXAR + FLOR + AMB + PINZELL. Semantic focus: instrument. Exact scene: CONILL: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: Rabbit ears and paper must be comfortably inside frame, with generous white space above ears and below paper. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-102",
+    "number": 102,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "instrument",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · dibuixar · flor · pinzell"
+    },
+    "labels": [
+      "CONILL",
+      "DIBUIXAR",
+      "FLOR",
+      "AMB",
+      "PINZELL"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-2e0a67ac121f",
+      "w-6c5def9143c8",
+      "w-11fbfd8fa777",
+      "w-33df96705776"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "role": "patient",
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      }
+    ],
+    "visualDescription": "CONILL: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "CONILL|DIBUIXAR|FLOR|eina:PINZELL",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:45.718Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-102/rejected-01.png",
+      "reason": "Marges superior i inferior massa estrets.",
+      "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: CONILL + DIBUIXAR + FLOR + AMB + PINZELL. Semantic focus: instrument. Exact scene: CONILL: Les cerres del pinzell toquen el paper i tracen el contorn recognoscible d’una flor; pinzell visible de cap a cap. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:17:25.509Z"
+    }
+  ]
+}

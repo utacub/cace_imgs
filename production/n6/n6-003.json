@@ -1,0 +1,74 @@
+{
+  "constructionId": "n6-003",
+  "file": "output/production/n6/n6-003/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PINTAR + CAIXA + AMB + PINZELL. Semantic focus: instrument. Exact scene: NOI: El pinzell deixa una franja de pintura a la cara exterior d’una caixa; l’altra mà immobilitza la caixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. CORRECTION REQUIRED: The painter is a TALL SEVENTEEN YEAR OLD TEENAGE BOY, not a young child. Mandatory age mapping: NEN/NENA are children aged 7; NOI/NOIA are tall teenagers aged 17; DONA/HOME are adults aged 40. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-003",
+    "number": 3,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · pintar · caixa · pinzell"
+    },
+    "labels": [
+      "NOI",
+      "PINTAR",
+      "CAIXA",
+      "AMB",
+      "PINZELL"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-b04a48827310",
+      "w-696b7c739d30",
+      "w-11fbfd8fa777",
+      "w-33df96705776"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      }
+    ],
+    "visualDescription": "NOI: El pinzell deixa una franja de pintura a la cara exterior d’una caixa; l’altra mà immobilitza la caixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NOI|PINTAR|CAIXA|eina:PINZELL",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:12:46.120Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-003/rejected-01.png",
+      "reason": "El NOI sembla un infant petit.",
+      "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PINTAR + CAIXA + AMB + PINZELL. Semantic focus: instrument. Exact scene: NOI: El pinzell deixa una franja de pintura a la cara exterior d’una caixa; l’altra mà immobilitza la caixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. Entire people or animals, every target object and supporting furniture fully in frame with generous white margins on all sides, composition at most 75 percent of canvas. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape.",
+      "rejectedAt": "2026-11-11T19:17:25.619Z"
+    }
+  ]
+}
