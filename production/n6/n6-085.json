@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-085",
+  "file": "output/production/n6/n6-085/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + PASSEJAR + GOS + PARC. Semantic focus: lloc. Human appearance: agent NOI is a tall teenage boy aged 17. Correct age proportions. Exact scene: NOI: Passeja amb un gos amable lligat amb corretja fluixa, al costat del banc del parc. Gronxador, banc i petit parterre sobre una illa de gespa; cap tanca escolar ni edifici d’escola. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-085",
+    "number": 85,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · passejar · gos · parc"
+    },
+    "labels": [
+      "NOI",
+      "PASSEJAR",
+      "GOS",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-f25f61f2da9b",
+      "w-4761fde107a7",
+      "w-fb96ae342785"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "PASSEJAR",
+        "wordId": "w-f25f61f2da9b"
+      },
+      {
+        "role": "patient",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "location",
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "visualDescription": "NOI: Passeja amb un gos amable lligat amb corretja fluixa, al costat del banc del parc. Gronxador, banc i petit parterre sobre una illa de gespa; cap tanca escolar ni edifici d’escola. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NOI|PASSEJAR|GOS|escenari:PARC",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:54:44.160Z",
+  "review": "Noi adolescent passeja gos amb corretja fluixa en parc amb banc, gronxador i parterre. Participants i context complets.",
+  "alt": {
+    "ca": "noi · passejar · gos · parc.",
+    "es": "CHICO · PASEAR · PERRO · PARQUE."
+  },
+  "originalSha256": "7df957b2cf55b0e42eaab944d2659eb6439a938031a20ae1743c87044d18cd6b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:01:43.600Z"
+}

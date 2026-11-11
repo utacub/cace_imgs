@@ -1,0 +1,74 @@
+{
+  "constructionId": "n6-018",
+  "file": "output/production/n6/n6-018/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + NETEJAR + SABATES + AMB + ESPONJA. Semantic focus: instrument. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: L’esponja frega fang d’una sabata; la parella de sabates queda sencera sobre una base baixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene. CORRECTION REQUIRED: The pair being cleaned must be LOW-CUT ordinary canvas SNEAKERS with thin low collars, clearly BELOW ankle height. NO BOOTS and no hiking footwear. One complete pair of dirty low-cut sneakers on the low table; adult man rubs one shoe with a porous yellow sponge. Full man, both shoes and full table visible. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-018",
+    "number": 18,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · netejar · sabates · esponja"
+    },
+    "labels": [
+      "HOME",
+      "NETEJAR",
+      "SABATES",
+      "AMB",
+      "ESPONJA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-6e2a67944770",
+      "w-11fbfd8fa777",
+      "w-2d404e0d8979"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "role": "patient",
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      }
+    ],
+    "visualDescription": "HOME: L’esponja frega fang d’una sabata; la parella de sabates queda sencera sobre una base baixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "HOME|NETEJAR|SABATES|eina:ESPONJA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:54:43.846Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-018/rejected-01.png",
+      "reason": "El calcat sembla botes de muntanya en lloc de sabates baixes inequivoces.",
+      "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + NETEJAR + SABATES + AMB + ESPONJA. Semantic focus: instrument. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: L’esponja frega fang d’una sabata; la parella de sabates queda sencera sobre una base baixa. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+      "rejectedAt": "2026-11-11T20:01:45.101Z"
+    }
+  ]
+}

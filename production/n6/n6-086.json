@@ -1,0 +1,69 @@
+{
+  "constructionId": "n6-086",
+  "file": "output/production/n6/n6-086/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOIA + JUGAR + PILOTA + PLATJA. Semantic focus: lloc. Human appearance: agent NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOIA: Fa rodolar una pilota amb la mà sobre la sorra al costat de la vora d’aigua. Illa petita de sorra amb petxines i un fragment de vora de mar amb onada baixa; resta del fons blanc. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-086",
+    "number": 86,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · jugar · pilota · platja"
+    },
+    "labels": [
+      "NOIA",
+      "JUGAR",
+      "PILOTA",
+      "PLATJA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-6d90f16f5461",
+      "w-b7f578451973",
+      "w-4ccdc585328b"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "location",
+        "label": "PLATJA",
+        "wordId": "w-4ccdc585328b"
+      }
+    ],
+    "visualDescription": "NOIA: Fa rodolar una pilota amb la mà sobre la sorra al costat de la vora d’aigua. Illa petita de sorra amb petxines i un fragment de vora de mar amb onada baixa; resta del fons blanc. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "NOIA|JUGAR|PILOTA|escenari:PLATJA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T19:54:44.696Z",
+  "review": "Noia adolescent fa rodolar pilota amb ma sobre sorra de platja amb petxines i vora de mar. Cos complet i fons blanc.",
+  "alt": {
+    "ca": "noia · jugar · pilota · platja.",
+    "es": "CHICA · JUGAR · PELOTA · PLAYA."
+  },
+  "originalSha256": "82afd2ee1247e28b6bc28ad3810d864e01691c12421cbc48dac5c03e23c11721",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:01:44.687Z"
+}

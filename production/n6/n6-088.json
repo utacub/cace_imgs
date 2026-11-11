@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-088",
+  "file": "output/production/n6/n6-088/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: HOME + AGAFAR + PALA + PLATJA. Semantic focus: lloc. Human appearance: agent HOME is a adult man aged 40. Correct age proportions. Exact scene: HOME: Ajupit, agafa pel mànec una pala de platja mig recolzada sobre la sorra. Illa petita de sorra amb petxines i un fragment de vora de mar amb onada baixa; resta del fons blanc. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. Include the necessary small complete setting specified, isolated on white. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-088",
+    "number": 88,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "lloc",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · agafar · pala · platja"
+    },
+    "labels": [
+      "HOME",
+      "AGAFAR",
+      "PALA",
+      "PLATJA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-677819a0a32a",
+      "w-208167fa638f",
+      "w-4ccdc585328b"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "role": "location",
+        "label": "PLATJA",
+        "wordId": "w-4ccdc585328b"
+      }
+    ],
+    "visualDescription": "HOME: Ajupit, agafa pel mànec una pala de platja mig recolzada sobre la sorra. Illa petita de sorra amb petxines i un fragment de vora de mar amb onada baixa; resta del fons blanc. L’acció té lloc dins aquest espai funcional o sobre aquesta illa de terreny, sense panorama ni vinyeta separada.",
+    "compositionKey": "HOME|AGAFAR|PALA|escenari:PLATJA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:01:46.134Z"
+}
