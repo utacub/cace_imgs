@@ -1,0 +1,78 @@
+{
+  "constructionId": "n6-124",
+  "file": "output/production/n6/n6-124/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE flat children’s educational illustration, crisp shapes and simple solid colors. CACE N6: GOS + MENJAR + ARRÒS + AMB + FORQUILLA. Semantic focus: instrument. NO HUMAN FIGURES. Exact scene: GOS: La forquilla aixeca arròs del plat cap a la boca; dents exposades al costat dels grans. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-124",
+    "number": 124,
+    "level": 6,
+    "group": "insolita",
+    "informationType": "instrument",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · menjar · arròs · forquilla"
+    },
+    "labels": [
+      "GOS",
+      "MENJAR",
+      "ARRÒS",
+      "AMB",
+      "FORQUILLA"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-c248ebfe6f67",
+      "w-d7dde06020b1",
+      "w-11fbfd8fa777",
+      "w-0d340ffdb6bf"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "role": "patient",
+        "label": "ARRÒS",
+        "wordId": "w-d7dde06020b1"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "FORQUILLA",
+        "wordId": "w-0d340ffdb6bf"
+      }
+    ],
+    "visualDescription": "GOS: La forquilla aixeca arròs del plat cap a la boca; dents exposades al costat dels grans. Animal o criatura antropomòrfica amable; potes, ales o trompa adaptades al gest, amb anatomia recognoscible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "GOS|MENJAR|ARRÒS|eina:FORQUILLA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:12:43.069Z",
+  "review": "Gos menja arros amb forquilla de dents visibles; composicio completa.",
+  "alt": {
+    "ca": "gos · menjar · arròs · forquilla.",
+    "es": "PERRO · COMER · ARROZ · CON · TENEDOR."
+  },
+  "originalSha256": "5091810b2bb994b733ff65700ef78a32a59be003a72a73e4ec3a57b71fde5fe8",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:16:40.557Z",
+  "publicationVersion": "0.1.123",
+  "importedAt": "2026-11-11T20:16:50.675929+00:00"
+}

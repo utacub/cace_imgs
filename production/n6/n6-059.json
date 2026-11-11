@@ -1,0 +1,71 @@
+{
+  "constructionId": "n6-059",
+  "file": "output/production/n6/n6-059/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NEN + DONAR + GLOBUS + NOI. Semantic focus: destinatari. Human appearance: agent NEN is a boy aged 7; recipient NOI is a tall teenage boy aged 17. Correct age proportions. Exact scene: NEN lliura GLOBUS a NOI. Globus inflat lligat a un cordill curt; el donant passa el cordill a la mà oberta del receptor. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: medium brown skin, curly black hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n6-059",
+    "number": 59,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · donar · globus · noi"
+    },
+    "labels": [
+      "NEN",
+      "DONAR",
+      "GLOBUS",
+      "NOI"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-dd80e4e4de38",
+      "w-f19cff282499",
+      "w-01bc6dcab46b"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      },
+      {
+        "role": "recipient",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      }
+    ],
+    "visualDescription": "NEN lliura GLOBUS a NOI. Globus inflat lligat a un cordill curt; el donant passa el cordill a la mà oberta del receptor. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NEN|DONAR|GLOBUS|receptor:NOI",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:12:43.664Z",
+  "review": "Nen ofereix cordill de globus a noi adolescent, gest de recepcio clar.",
+  "alt": {
+    "ca": "nen · donar · globus · noi.",
+    "es": "NIÑO · DAR · GLOBO · CHICO."
+  },
+  "originalSha256": "ebb5b22736f8d3c78e9af2c770a9dad08a5400d9979edd59bde5b10a7e1698d8",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:16:41.857Z",
+  "publicationVersion": "0.1.123",
+  "importedAt": "2026-11-11T20:16:46.476174+00:00"
+}

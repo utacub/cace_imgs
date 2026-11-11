@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: DONA + DONAR + PUZLE + HOME. Semantic focus: destinatari. Human appearance: agent DONA is a adult woman aged 40; recipient HOME is a adult man aged 40. Correct age proportions. Exact scene: DONA lliura PUZLE a HOME. Puzle muntat sobre una base rígida sense text, amb contorns de peces visibles; receptor en pren la base. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: light skin, straight dark hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-057",
     "number": 57,
@@ -55,5 +55,17 @@
     "compositionKey": "DONA|DONAR|PUZLE|receptor:HOME",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T20:08:17.688Z"
+  "created": "2026-11-11T20:08:17.688Z",
+  "review": "Dona dona puzzle a home, peces encaixades visibles i cap text.",
+  "alt": {
+    "ca": "dona · donar · puzle · home.",
+    "es": "MUJER · DAR · PUZZLE · HOMBRE."
+  },
+  "originalSha256": "c16068fa5d7772e78412932fbd586d1e051e3487f0f9e4bb5fc8249515b0beea",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:12:42.255Z",
+  "publicationVersion": "0.1.123",
+  "importedAt": "2026-11-11T20:16:45.878075+00:00"
 }

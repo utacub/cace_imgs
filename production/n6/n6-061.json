@@ -1,0 +1,59 @@
+{
+  "constructionId": "n6-061",
+  "file": "output/production/n6/n6-061/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NOI + DONAR + CARPETA + NOIA. Semantic focus: destinatari. Human appearance: agent NOI is a tall teenage boy aged 17; recipient NOIA is a tall teenage girl aged 17. Correct age proportions. Exact scene: NOI lliura CARPETA a NOIA. Carpeta llisa tancada, passada de cantell entre mans a alçades diferents. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: dark brown skin, short curly hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-061",
+    "number": 61,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "destinatari",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · donar · carpeta · noia"
+    },
+    "labels": [
+      "NOI",
+      "DONAR",
+      "CARPETA",
+      "NOIA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-dd80e4e4de38",
+      "w-46f884632cd7",
+      "w-b38ff488f862"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "role": "theme",
+        "label": "CARPETA",
+        "wordId": "w-46f884632cd7"
+      },
+      {
+        "role": "recipient",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      }
+    ],
+    "visualDescription": "NOI lliura CARPETA a NOIA. Carpeta llisa tancada, passada de cantell entre mans a alçades diferents. Donant a l’esquerra amb gest d’oferiment; receptor a la dreta, orientat cap al donant, prenent el referent. Un sol objecte compartit en el traspàs, sense còpies ni accions paral·leles. Fons blanc sense escenari ni eina afegida.",
+    "compositionKey": "NOI|DONAR|CARPETA|receptor:NOIA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:16:57.508Z"
+}

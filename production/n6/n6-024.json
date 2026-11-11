@@ -1,0 +1,74 @@
+{
+  "constructionId": "n6-024",
+  "file": "output/production/n6/n6-024/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + MENJAR + ARRÒS + AMB + FORQUILLA. Semantic focus: instrument. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: La forquilla aixeca arròs del plat cap a la boca; dents exposades al costat dels grans. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene. CORRECTION REQUIRED: The utensil MUST be a metal FORK with FOUR long separated tines clearly exposed beside a small amount of rice. Side view, fork near open mouth. NO spoon, no round bowl on utensil. Keep entire girl including feet and whole table legs visible. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n6-024",
+    "number": 24,
+    "level": 6,
+    "group": "habitual",
+    "informationType": "instrument",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · menjar · arròs · forquilla"
+    },
+    "labels": [
+      "NENA",
+      "MENJAR",
+      "ARRÒS",
+      "AMB",
+      "FORQUILLA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c248ebfe6f67",
+      "w-d7dde06020b1",
+      "w-11fbfd8fa777",
+      "w-0d340ffdb6bf"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "role": "patient",
+        "label": "ARRÒS",
+        "wordId": "w-d7dde06020b1"
+      },
+      {
+        "role": "connector",
+        "label": "AMB",
+        "wordId": "w-11fbfd8fa777"
+      },
+      {
+        "role": "instrument",
+        "label": "FORQUILLA",
+        "wordId": "w-0d340ffdb6bf"
+      }
+    ],
+    "visualDescription": "NENA: La forquilla aixeca arròs del plat cap a la boca; dents exposades al costat dels grans. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible.",
+    "compositionKey": "NENA|MENJAR|ARRÒS|eina:FORQUILLA",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-11T20:12:42.984Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n6/n6-024/rejected-01.png",
+      "reason": "Forquilla massa semblant a cullera: dents no llegibles.",
+      "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + MENJAR + ARRÒS + AMB + FORQUILLA. Semantic focus: instrument. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: La forquilla aixeca arròs del plat cap a la boca; dents exposades al costat dels grans. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
+      "rejectedAt": "2026-11-11T20:16:42.131Z"
+    }
+  ]
+}

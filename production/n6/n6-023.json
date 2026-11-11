@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. Create ONE synthetic photorealistic studio educational photograph, natural human anatomy and real textures. CACE N6: NENA + MENJAR + ARRÒS + AMB + CULLERA. Semantic focus: instrument. Human appearance: agent NENA is a girl aged 7. Correct age proportions. Exact scene: NENA: La cullera aixeca un mos d’arròs d’un plat cap a la boca; grans recognoscibles i mànec visible. L’eina actua sobre l’objecte; no està simplement al costat. Fons blanc sense escenari de lloc recognoscible; només base de suport imprescindible. Pure white seamless background. WIDE SHOT, camera far away: entire people or animals INCLUDING FEET, every target object and ALL furniture legs fully in frame. Scale the complete composition small to fit the CENTRAL 65 percent of the canvas; leave a WHITE BORDER at least 12 percent wide on ALL FOUR sides. Never crop lower legs or desk legs. One action in one instant, no sequence or collage. Only essential support. Friendly school material. Absolutely NO text, letters, numerals, brands, logos, watermark, arrows or speech bubbles, including clothing and books. Humans wear ordinary clothes. Hands/paws make clear functional contact. No identifiable room or landscape. Exactly the named living participants, no spectators, no family group, no additional people or animals. Vary human skin and hair naturally: olive skin, wavy brown hair. Do not add plants, carpets or decorative accessories not required by the scene.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n6-023",
     "number": 23,
@@ -62,5 +62,17 @@
     "compositionKey": "NENA|MENJAR|ARRÒS|eina:CULLERA",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-11T20:08:17.498Z"
+  "created": "2026-11-11T20:08:17.498Z",
+  "review": "Nena menja arros amb cullera; grans visibles, peus i taula complets.",
+  "alt": {
+    "ca": "nena · menjar · arròs · cullera.",
+    "es": "NIÑA · COMER · ARROZ · CON · CUCHARA."
+  },
+  "originalSha256": "d260c761c533a8747684bd06738095433430fe8543ceee3b03545e6a03c9437a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-11T20:12:41.852Z",
+  "publicationVersion": "0.1.123",
+  "importedAt": "2026-11-11T20:16:45.060445+00:00"
 }
