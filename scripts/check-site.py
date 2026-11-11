@@ -4,10 +4,19 @@ from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
 import hashlib
 import json
+import argparse
+import subprocess
 from PIL import Image
 from production_policy import required_variants
 
 root = Path(__file__).resolve().parents[1]
+arguments = argparse.ArgumentParser()
+arguments.add_argument('--since', help='Reuse prior image decoding only when the current SHA-256 matches that committed catalogue.')
+args = arguments.parse_args()
+previous_hashes = {}
+if args.since:
+    previous = json.loads(subprocess.check_output(['git', 'show', args.since+':src/catalog-data.json'], cwd=root))
+    previous_hashes = {a['src']: a['displaySha256'] for a in previous['assets']}
 data = json.loads((root / 'src/catalog-data.json').read_text())
 html = (root / 'dist/index.html').read_text()
 assert html and '/*__DATA__*/' not in html
@@ -53,8 +62,9 @@ for asset in data['assets']:
     image_path = root / 'dist' / relative
     assert image_path.is_file() and image_path.stat().st_size > 0, image_path
     assert hashlib.sha256(image_path.read_bytes()).hexdigest() == asset['displaySha256'], image_path
-    with Image.open(image_path) as image:
-        image.load()
+    if previous_hashes.get(asset['src']) != asset['displaySha256']:
+        with Image.open(image_path) as image:
+            image.load()
     assert asset['tags'] and set(asset['tags']) <= words
     assert asset.get('primaryWordId') in asset['tags'], asset['id']
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])

@@ -11,10 +11,12 @@ if(!item) throw Error('Unknown construction');
 fs.mkdirSync('production/n5',{recursive:true});
 const recordPath=`production/n5/${id}.json`;
 if(mode==='prepare'){
- if(fs.existsSync(recordPath)) throw Error('Record already exists');
  const prompt=args[0];
  if(!prompt) throw Error('Prompt required');
- fs.writeFileSync(recordPath,JSON.stringify({constructionId:id,file:`output/production/n5/${id}/image.png`,prompt,kind:item.kind,variant:item.variant,reviewed:false,status:'pending-generation',construction:item,created:new Date().toISOString()},null,2)+'\n');
+ if(fs.existsSync(recordPath)) {
+  const existing=JSON.parse(fs.readFileSync(recordPath,'utf8'));
+  if(existing.reviewed || existing.prompt!==prompt)throw Error('Record already exists with a different prompt or accepted image');
+ }else fs.writeFileSync(recordPath,JSON.stringify({constructionId:id,file:`output/production/n5/${id}/image.png`,prompt,kind:item.kind,variant:item.variant,reviewed:false,status:'pending-generation',construction:item,created:new Date().toISOString()},null,2)+'\n');
 }else if(mode==='retry'){
  const [source,reason,prompt]=args;
  const rec=JSON.parse(fs.readFileSync(recordPath,'utf8'));

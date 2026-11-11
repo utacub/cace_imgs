@@ -1,5 +1,7 @@
 # N5 · Represa autoritzada fins a les 18:30 · 11 de novembre de 2026
 
+Primer lot publicat i verificat: versió 0.1.108, commit 72cf613145ae1dfdbff8f3557ffe6483f23af25b, GitHub Actions 43056590014 success. 95 descàrregues N5 verificades SHA-256; 3164 imatges totals. La generació següent només incorpora pendents del pla. Evidència pública a output/n5-publication-verification.json.
+
 L’usuari ha demanat reprendre la publicació pendent i després continuar generant, revisant i publicant N5 fins a les 18:30 Europe/Madrid (17:30 UTC). Substitueix la pausa anterior. Tall de noves generacions a les 18:25 per reservar temps de tancament; comprovar l’hora abans de cada crida. Publicar primer les 95 imatges importades. Continuar només amb els pendents de production/n5-progress.json, preservant catàleg i nivells anteriors. Habilitat imagegen integrada, sense API externa. No produir més enllà dels 200 estímuls del pla.
 
 ---
