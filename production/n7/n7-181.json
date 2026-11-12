@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-181",
   "file": "output/production/n7/n7-181/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + TOCAR + CULLERA + DINS + CARMANYOLA. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de CULLERA, un DINS i l’altre FORA, respecte d’un únic suport CARMANYOLA. L’objectiu és CULLERA DINS; el distractor és CULLERA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CULLERA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CARMANYOLA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + TOCAR + CULLERA + DINS + CARMANYOLA. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de CULLERA, un DINS i l’altre FORA, respecte d’un únic suport CARMANYOLA. L’objectiu és CULLERA DINS; el distractor és CULLERA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CULLERA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CARMANYOLA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-181",
     "number": 181,
@@ -90,5 +90,18 @@
     "compositionKey": "w-11ff74d27c02|w-072ecc01e120|w-9c9849fac1d3|w-f871f670a944|w-c3b8bd56e942|contrast:w-9daa4c89a9c6",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T20:32:07.264Z"
+  "created": "2026-11-12T20:32:07.264Z",
+  "contactRuleAdded": true,
+  "review": "Gat toca cullera dins caixa; equivalent fora, cos sencer.",
+  "alt": {
+    "ca": "gat · tocar · cullera · dins · carmanyola.",
+    "es": "GATO · TOCAR · CUCHARA · DENTRO · FIAMBRERA."
+  },
+  "originalSha256": "fbec802089bd882573b6f7958df3df23faddd35bcef7215da7701c48a4b5e46e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:37:03.228Z",
+  "publicationVersion": "0.1.132",
+  "importedAt": "2026-11-12T20:38:45.653764+00:00"
 }

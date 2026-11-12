@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-187",
+  "file": "output/production/n7/n7-187/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ÓS + TOCAR + PILOTA + SOBRE + TAULA. Exactly one friendly anthropomorphic ÓS animal; NO human figures. Exact scene in Catalan: ÓS: dos exemplars de PILOTA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és PILOTA SOBRE; el distractor és PILOTA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor TAULA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-187",
+    "number": 187,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "vertical",
+    "pairId": "n7-i-44",
+    "counterpartId": "n7-188",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · tocar · pilota · sobre · taula"
+    },
+    "labels": [
+      "ÓS",
+      "TOCAR",
+      "PILOTA",
+      "SOBRE",
+      "TAULA"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-072ecc01e120",
+      "w-b7f578451973",
+      "w-d44584204864",
+      "w-1544f4efec59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ÓS",
+        "wordId": "w-a06249642996"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "SOTA",
+          "wordId": "w-e0a6aeb46069"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "vertical",
+      "evidence": "Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure."
+    },
+    "visualDescription": "ÓS: dos exemplars de PILOTA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és PILOTA SOBRE; el distractor és PILOTA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-a06249642996|w-072ecc01e120|w-b7f578451973|w-d44584204864|w-1544f4efec59|contrast:w-e0a6aeb46069",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:41:06.525Z",
+  "contactRuleAdded": true
+}

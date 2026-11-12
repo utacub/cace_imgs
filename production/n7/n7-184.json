@@ -1,0 +1,107 @@
+{
+  "constructionId": "n7-184",
+  "file": "output/production/n7/n7-184/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor CISTELL. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the COIXÍ qualified by FORA. The opposing DINS candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + COIXÍ + FORA + CISTELL. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de COIXÍ, un DINS i l’altre FORA, respecte d’un únic suport CISTELL. L’objectiu és COIXÍ FORA; el distractor és COIXÍ DINS. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target FORA, distractor DINS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CISTELL; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-184",
+    "number": 184,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-i-42",
+    "counterpartId": "n7-183",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · coixí · fora · cistell"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "COIXÍ",
+      "FORA",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-44260b79b61e",
+      "w-9daa4c89a9c6",
+      "w-120fb6b37e88"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "role": "specifier",
+        "label": "FORA",
+        "wordId": "w-9daa4c89a9c6"
+      },
+      {
+        "role": "anchor",
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "FORA",
+        "wordId": "w-9daa4c89a9c6"
+      },
+      "distractor": {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e",
+        "specifier": {
+          "label": "DINS",
+          "wordId": "w-f871f670a944"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "GOS: dos exemplars de COIXÍ, un DINS i l’altre FORA, respecte d’un únic suport CISTELL. L’objectiu és COIXÍ FORA; el distractor és COIXÍ DINS. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-072ecc01e120|w-44260b79b61e|w-9daa4c89a9c6|w-120fb6b37e88|contrast:w-f871f670a944",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:35:25.844Z",
+  "referenceFile": "output/production/n7/n7-183/image.png",
+  "referenceConstructionId": "n7-183",
+  "contactRuleAdded": true,
+  "review": "Gos toca coixí fora cistella; dins preservat, parella coherent.",
+  "alt": {
+    "ca": "gos · tocar · coixí · fora · cistell.",
+    "es": "PERRO · TOCAR · ALMOHADA · FUERA · CESTA."
+  },
+  "originalSha256": "3434fed0697c239ae4c1af390375740e613bd7d110a8572723409e49ace20d79",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:42:38.613Z"
+}
