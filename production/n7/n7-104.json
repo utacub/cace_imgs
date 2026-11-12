@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-104",
+  "file": "output/production/n7/n7-104/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + AIXECAR + GOT + VERD. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de GOT, un GROC i l’altre VERD. L’objectiu és GOT VERD; el distractor és GOT GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GOT, target VERD, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-104",
+    "number": 104,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-02",
+    "counterpartId": "n7-103",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · aixecar · got · verd"
+    },
+    "labels": [
+      "GOS",
+      "AIXECAR",
+      "GOT",
+      "VERD"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-e12d88415c80",
+      "w-1bed9f18ebab",
+      "w-5f5b9a1df897"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      },
+      "distractor": {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "GOS: dos exemplars de GOT, un GROC i l’altre VERD. L’objectiu és GOT VERD; el distractor és GOT GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-e12d88415c80|w-1bed9f18ebab|w-5f5b9a1df897|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:05:22.069Z",
+  "review": "Gos complet aixecant només got verd, groc reposant; contraparella coherent, sense text ni retalls.",
+  "alt": {
+    "ca": "gos · aixecar · got · verd.",
+    "es": "PERRO · LEVANTAR · VASO · VERDE."
+  },
+  "originalSha256": "334d8068725c36a53282c86ecaabb94ede35dc8960f8db1a9e9bdcab473ce27a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:08:35.475Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:14.408287+00:00"
+}

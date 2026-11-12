@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-008",
+  "file": "output/production/n7/n7-008/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + PORTAR + GALLEDA + VERD. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de GALLEDA, un VERMELL i l’altre VERD. L’objectiu és GALLEDA VERD; el distractor és GALLEDA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target VERD, distractor VERMELL. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-008",
+    "number": 8,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-04",
+    "counterpartId": "n7-007",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · portar · galleda · verd"
+    },
+    "labels": [
+      "NOI",
+      "PORTAR",
+      "GALLEDA",
+      "VERD"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-7f04619a8649",
+      "w-5f5b9a1df897"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "VERMELL",
+          "wordId": "w-26a2697058f7"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NOI: dos exemplars de GALLEDA, un VERMELL i l’altre VERD. L’objectiu és GALLEDA VERD; el distractor és GALLEDA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-73b71e1ff757|w-7f04619a8649|w-5f5b9a1df897|contrast:w-26a2697058f7",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:09:32.668Z",
+  "review": "Noi complet porta només la galleda verda; vermella a base baixa. Pas i contacte clars, colors llegibles.",
+  "alt": {
+    "ca": "noi · portar · galleda · verd.",
+    "es": "CHICO · LLEVAR · CUBO · VERDE."
+  },
+  "originalSha256": "c29dc5653ed7763a118d5fcaa0cb7ff087508ce9de297eee799ffd1d1bfb07ea",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:10:49.833Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:11.538909+00:00"
+}

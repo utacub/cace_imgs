@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-005",
+  "file": "output/production/n7/n7-005/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + CAIXA + BLAU. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de CAIXA, un BLAU i l’altre GROC. L’objectiu és CAIXA BLAU; el distractor és CAIXA GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target BLAU, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-005",
+    "number": 5,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-03",
+    "counterpartId": "n7-006",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · caixa · blau"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "CAIXA",
+      "BLAU"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-696b7c739d30",
+      "w-a78d9867b0c8"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      },
+      "distractor": {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NOIA: dos exemplars de CAIXA, un BLAU i l’altre GROC. L’objectiu és CAIXA BLAU; el distractor és CAIXA GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-696b7c739d30|w-a78d9867b0c8|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:05:22.157Z",
+  "review": "Noia sencera toca només la tapa blava; caixa groga separada del mateix model, marges i blanc correctes.",
+  "alt": {
+    "ca": "noia · tocar · caixa · blau.",
+    "es": "CHICA · TOCAR · CAJA · AZUL."
+  },
+  "originalSha256": "8859596fd9e13a58b28d8b9ab8c20af6ff7181da9c26ef53990687d7fab4c037",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:08:35.610Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:09.315081+00:00"
+}

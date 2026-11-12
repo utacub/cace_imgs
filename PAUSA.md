@@ -1,3 +1,9 @@
+# N7 · Producció autoritzada · 12/11/2026
+
+Sessió activa de generació, revisió i publicació progressiva de les 200 N7 aprovades. Final a les 22:20 Europe/Madrid; tall preventiu de generació a les 22:15. Preservar les 3469 imatges i les 861 entrades anteriors. Estat vigent a production/n7-progress.json; prompts i revisions a production/n7.
+
+---
+
 # N6 · 200 imatges completades i publicades
 
 Les 200 N6 estan generades, revisades i publicades: 100 fotografies habituals i 100 dibuixos insòlits; 68 instruments, 66 destinataris i 66 llocs. Catàleg públic 0.1.125: 3469 imatges. Verificació pública completa el 2026-11-11T22:36:19Z: catàleg idèntic i 200 descàrregues WebP comprovades amb SHA-256. Les 3269 imatges i 861 entrades CACE prèvies es conserven exactament.

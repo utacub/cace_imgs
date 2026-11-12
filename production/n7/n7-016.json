@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-016",
+  "file": "output/production/n7/n7-016/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + TOCAR + PALA + LILA. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PALA, un VERD i l’altre LILA. L’objectiu és PALA LILA; el distractor és PALA VERD. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PALA, target LILA, distractor VERD. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-016",
+    "number": 16,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-08",
+    "counterpartId": "n7-015",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · pala · lila"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "PALA",
+      "LILA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-208167fa638f",
+      "w-4776cd4c2990"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "role": "specifier",
+        "label": "LILA",
+        "wordId": "w-4776cd4c2990"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LILA",
+        "wordId": "w-4776cd4c2990"
+      },
+      "distractor": {
+        "label": "PALA",
+        "wordId": "w-208167fa638f",
+        "specifier": {
+          "label": "VERD",
+          "wordId": "w-5f5b9a1df897"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NEN: dos exemplars de PALA, un VERD i l’altre LILA. L’objectiu és PALA LILA; el distractor és PALA VERD. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-072ecc01e120|w-208167fa638f|w-4776cd4c2990|contrast:w-5f5b9a1df897",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:15:57.910Z",
+  "review": "Nen sencer toca només pala lila; verda intacta al costat. Contrast invers amb dues pales recognoscibles.",
+  "alt": {
+    "ca": "nen · tocar · pala · lila.",
+    "es": "NIÑO · TOCAR · PALA · LILA."
+  },
+  "originalSha256": "7cfd2169cd72749da607c6f928af0d8d641675e41a5499e49fe730865ce3a34c",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:17:24.174Z"
+}

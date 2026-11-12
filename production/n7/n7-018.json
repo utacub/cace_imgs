@@ -1,0 +1,83 @@
+{
+  "constructionId": "n7-018",
+  "file": "output/production/n7/n7-018/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + PILOTA + PETITA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-018",
+    "number": 18,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-09",
+    "counterpartId": "n7-017",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · pilota · petita"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "PILOTA",
+      "PETITA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-b7f578451973",
+      "w-12c5f9c8621a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "GRAN",
+          "wordId": "w-461bd834b14a"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada."
+    },
+    "visualDescription": "NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-b7f578451973|w-12c5f9c8621a|contrast:w-461bd834b14a",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:15:58.196Z"
+}

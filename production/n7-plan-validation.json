@@ -1,0 +1,175 @@
+{
+  "status": "valid",
+  "checkedOn": "2026-11-12",
+  "scope": "Planificació local: referències exactes, parelles inverses, distribució, signatures i preservació. Sense generació ni validació perceptiva o clínica.",
+  "baseline": {
+    "checkedOn": "2026-11-12",
+    "head": "a3b6ffbb11a1504ac9f31585eaa0faa4bd091cdc",
+    "initialWorkingTree": "clean",
+    "version": "0.1.125",
+    "totalAssets": 3469,
+    "words": 861,
+    "catalogSha256": "3afa25af56ae3824b409ae89abe3247336cdff92cedcd72e7be556ac4d009dd0",
+    "protectedPaths": [
+      "src/",
+      "bank/",
+      "dist/",
+      "production/n4-plan.json",
+      "production/n5-plan.json",
+      "production/n6-plan.json",
+      "production/CRITERIS.md",
+      "PAUSA.md",
+      "package.json"
+    ]
+  },
+  "catalogUnchanged": true,
+  "protectedTrackedPathsUnchanged": true,
+  "catalogWordsPreserved": 861,
+  "catalogAssetsPreserved": 3469,
+  "localDisplayHashesChecked": 3469,
+  "legacyAssetsWithoutDisplayHash": 0,
+  "totalItems": 200,
+  "uniqueIds": 200,
+  "uniqueTitles": 200,
+  "uniqueLabelTuples": 200,
+  "uniqueCompositionKeys": 200,
+  "contrastPairs": 100,
+  "candidatesPerScene": 2,
+  "validatedTargetLabelOccurrences": 860,
+  "validatedDistractorOccurrences": 400,
+  "distinctTargetWordIds": 68,
+  "distinctAllWordIds": 68,
+  "exactN4N5N6TupleDuplicates": 0,
+  "exactExistingCatalogTargetTupleDuplicates": [],
+  "distribution": {
+    "habitual": {
+      "total": 100,
+      "types": {
+        "aspecte": 40,
+        "estat": 30,
+        "posicio": 30
+      },
+      "subtypes": {
+        "color": 16,
+        "mida": 12,
+        "estampat": 12,
+        "neteja": 10,
+        "humitat": 10,
+        "contingut": 10,
+        "interior": 16,
+        "vertical": 14
+      },
+      "actions": {
+        "AGAFAR": 14,
+        "AIXECAR": 16,
+        "TOCAR": 60,
+        "PORTAR": 10
+      },
+      "agents": {
+        "NENA": 18,
+        "NEN": 18,
+        "NOIA": 16,
+        "NOI": 16,
+        "DONA": 16,
+        "HOME": 16
+      },
+      "targetSides": {
+        "esquerra": 50,
+        "dreta": 50
+      }
+    },
+    "insolita": {
+      "total": 100,
+      "types": {
+        "aspecte": 40,
+        "estat": 30,
+        "posicio": 30
+      },
+      "subtypes": {
+        "color": 16,
+        "mida": 12,
+        "estampat": 12,
+        "neteja": 10,
+        "humitat": 10,
+        "contingut": 10,
+        "interior": 16,
+        "vertical": 14
+      },
+      "actions": {
+        "AGAFAR": 14,
+        "AIXECAR": 16,
+        "TOCAR": 60,
+        "PORTAR": 10
+      },
+      "agents": {
+        "GAT": 10,
+        "GOS": 10,
+        "CONILL": 10,
+        "ÓS": 10,
+        "MICO": 10,
+        "PINGUÍ": 10,
+        "ELEFANT": 10,
+        "ZEBRA": 10,
+        "CANGUR": 10,
+        "GIRAFA": 10
+      },
+      "targetSides": {
+        "dreta": 50,
+        "esquerra": 50
+      }
+    }
+  },
+  "inheritedN4CoresWithExplicitN7Discrimination": [],
+  "semanticReview": {
+    "reviewedBriefs": 200,
+    "reviewedPairDesigns": 100,
+    "method": "Lectura de les 50 famílies, comprovació dels dos qualificadors i revisió del canvi humà/animal. Selecció per contacte, dues instàncies de la mateixa classe i una sola diferència rellevant.",
+    "decisions": [
+      {
+        "risk": "N7 interpretat com una frase més llarga",
+        "decision": "Exigir dos exemplars simultanis de la mateixa classe i una selecció visible. Eliminar escenes amb un únic referent."
+      },
+      {
+        "risk": "Distractor indexat com a resposta",
+        "decision": "Separar les etiquetes de l’objectiu de les dades de context. Cap etiqueta negativa o connector inventat."
+      },
+      {
+        "risk": "Color, textura o estat inferit",
+        "decision": "Només colors saturats contrastats, estampats grans, terra visible per BRUT, gotes i zona humida per MULLAT i boca oberta per PLE/BUIT. No incloure gust, temperatura, rapidesa, valoració subjectiva ni propietat."
+      },
+      {
+        "risk": "Mida confosa amb perspectiva",
+        "decision": "Mateix pla i distància, proporció aproximada 2:1 per GRAN/PETITA i longitud 2:1 amb el mateix gruix per LLARG/CURT."
+      },
+      {
+        "risk": "AGAFAR elimina la posició o el contingut",
+        "decision": "En posició només TOCAR, sense moure l’objecte. En PLE/BUIT també TOCAR, recipients drets i oberts."
+      },
+      {
+        "risk": "MULLAT confós amb brut o només canvi de color",
+        "decision": "Afegir gotes i humitat local visible amb la resta igual. Si no es llegeix a mida petita, rebutjar i refer, sense inventar una entrada."
+      },
+      {
+        "risk": "Parella d’imatges pràcticament repetida",
+        "decision": "Cada parella és un contrast invers deliberat: mateixes propietats i acció sobre l’altre candidat; no és una variant duplicada del mateix estímul. Les parelles porten IDs i claus diferents."
+      }
+    ],
+    "limits": [
+      "No hi ha imatges N7 per revisar: la presència, la llegibilitat i l’absència de pistes alternatives són requisits futurs, no resultats demostrats.",
+      "Les parelles inverses comparteixen intencionadament escena; zero tuples duplicades no garanteix diferenciació perceptiva.",
+      "50 famílies de contrast, amb homòlegs humans i animals: no són 200 situacions independents.",
+      "No s’ha verificat de nou el desplegament remot ni es pretén validació clínica."
+    ]
+  },
+  "authorization": {
+    "scope": "planificacio-i-revisio-nomes",
+    "generationAuthorized": false,
+    "catalogImportAuthorized": false,
+    "commitAuthorized": false,
+    "pushAuthorized": false,
+    "deploymentAuthorized": false,
+    "requiresNewUserInstruction": "Cal aprovar posteriorment el pla N7 abans de generar. Les autoritzacions N4–N6 no s’estenen a N7."
+  },
+  "planSha256": "b66c7091068f82cdb38901da3097a181874ac8749d9d5189e816fcca9ccc719f",
+  "readablePlanSha256": "1c3ac12c3d90517e14a541410f7098cf503c95ca8cbde646d7ab62a0912558d6"
+}

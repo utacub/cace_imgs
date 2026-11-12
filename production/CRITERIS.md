@@ -1,3 +1,7 @@
+# Autorització N7 del 12 de novembre de 2026
+
+L’usuari aprova el pla N7 i autoritza generar, revisar i publicar les 200 imatges per lots, amb preservació íntegra del catàleg anterior. Aturada de sessió a les 22:20 Europe/Madrid si queda feina pendent; tall preventiu de noves generacions a les 22:15 per publicar i verificar el tram final. Una imatge revisada per estímul: fotografia habitual, dibuix pla insòlit. Pla: production/n7-plan.json; progrés: production/n7-progress.json. Aquesta autorització substitueix l’estat de proposta del pla per a aquesta sessió N7.
+
 # Autorització N6 de l’11 de novembre de 2026
 
 Usuari 11/11/2026: Aprovo el pla N6. Comença a generar, revisar i publicar les 200 imatges per lots, mantenint els criteris visuals i preservant totes les imatges i entrades CACE existents. Atura’t a les 22:30 Europe/Madrid. Una sola imatge revisada per construcció de production/n6-plan.json: fotografia habitual, dibuix pla insòlit. Publicació progressiva. Aturar la generació a les 22:20 per reservar la verificació final; aturada de la sessió a les 22:30. Aquesta autorització substitueix l’estat de proposta del pla només per a aquesta sessió N6.

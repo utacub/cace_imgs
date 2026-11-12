@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-112",
+  "file": "output/production/n7/n7-112/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: PINGUÍ + AIXECAR + SAMARRETA + BLAU. Exactly one friendly anthropomorphic PINGUÍ animal; NO human figures. Exact scene in Catalan: PINGUÍ: dos exemplars de SAMARRETA, un VERMELL i l’altre BLAU. L’objectiu és SAMARRETA BLAU; el distractor és SAMARRETA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of SAMARRETA, target BLAU, distractor VERMELL. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-112",
+    "number": 112,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-06",
+    "counterpartId": "n7-111",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "pinguí · aixecar · samarreta · blau"
+    },
+    "labels": [
+      "PINGUÍ",
+      "AIXECAR",
+      "SAMARRETA",
+      "BLAU"
+    ],
+    "wordIds": [
+      "w-5993b1ea57aa",
+      "w-e12d88415c80",
+      "w-0702f52b3b74",
+      "w-a78d9867b0c8"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "PINGUÍ",
+        "wordId": "w-5993b1ea57aa"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "SAMARRETA",
+        "wordId": "w-0702f52b3b74"
+      },
+      {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      },
+      "distractor": {
+        "label": "SAMARRETA",
+        "wordId": "w-0702f52b3b74",
+        "specifier": {
+          "label": "VERMELL",
+          "wordId": "w-26a2697058f7"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "PINGUÍ: dos exemplars de SAMARRETA, un VERMELL i l’altre BLAU. L’objectiu és SAMARRETA BLAU; el distractor és SAMARRETA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-5993b1ea57aa|w-e12d88415c80|w-0702f52b3b74|w-a78d9867b0c8|contrast:w-26a2697058f7",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:12:42.674Z",
+  "review": "Pingüí complet aixeca exclusivament la samarreta blava; vermella estesa al suport, contacte clar, sense text i marges blancs.",
+  "alt": {
+    "ca": "pinguí · aixecar · samarreta · blau.",
+    "es": "PINGÜINO · LEVANTAR · CAMISETA · AZUL."
+  },
+  "originalSha256": "ac456fa512b73a20c2b55e3c9221ecb4f4ae2bc38dfee2ecc73f8fff72951cbb",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:15:35.516Z"
+}

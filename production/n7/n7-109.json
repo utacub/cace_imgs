@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-109",
+  "file": "output/production/n7/n7-109/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: MICO + AGAFAR + LLAPIS + BLAU. Exactly one friendly anthropomorphic MICO animal; NO human figures. Exact scene in Catalan: MICO: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS BLAU; el distractor és LLAPIS GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target BLAU, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-109",
+    "number": 109,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-05",
+    "counterpartId": "n7-110",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · agafar · llapis · blau"
+    },
+    "labels": [
+      "MICO",
+      "AGAFAR",
+      "LLAPIS",
+      "BLAU"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-677819a0a32a",
+      "w-1775aa96869e",
+      "w-a78d9867b0c8"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "MICO",
+        "wordId": "w-12a87560751b"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "MICO: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS BLAU; el distractor és LLAPIS GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-12a87560751b|w-677819a0a32a|w-1775aa96869e|w-a78d9867b0c8|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:09:33.078Z",
+  "review": "Mico complet agafa exclusivament el llapis blau; groc separat sobre la base mínima. Dues siluetes completes, sense text.",
+  "alt": {
+    "ca": "mico · agafar · llapis · blau.",
+    "es": "MONO · COGER · LÁPIZ · AZUL."
+  },
+  "originalSha256": "712fbe48b9d7f696a00c870b9deeedf2700b35926fe0606bd5ab37b472db83f6",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:12:42.254Z"
+}

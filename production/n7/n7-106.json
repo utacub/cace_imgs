@@ -1,0 +1,103 @@
+{
+  "constructionId": "n7-106",
+  "file": "output/production/n7/n7-106/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + TOCAR + CAIXA + GROC. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de CAIXA, un BLAU i l’altre GROC. L’objectiu és CAIXA GROC; el distractor és CAIXA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target GROC, distractor BLAU. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Both objects must be recognizable closed CARDBOARD STORAGE BOXES with distinct removable LIDS and visible lid seam, exactly same model. Not solid cubes or blocks. Rabbit touches ONLY YELLOW box on image LEFT. BLUE box on image RIGHT untouched. No table, both boxes on white ground, full rabbit and margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-106",
+    "number": 106,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-03",
+    "counterpartId": "n7-105",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · tocar · caixa · groc"
+    },
+    "labels": [
+      "CONILL",
+      "TOCAR",
+      "CAIXA",
+      "GROC"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-072ecc01e120",
+      "w-696b7c739d30",
+      "w-6b6fe6ec5a2e"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "specifier",
+        "label": "GROC",
+        "wordId": "w-6b6fe6ec5a2e"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "GROC",
+        "wordId": "w-6b6fe6ec5a2e"
+      },
+      "distractor": {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30",
+        "specifier": {
+          "label": "BLAU",
+          "wordId": "w-a78d9867b0c8"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "CONILL: dos exemplars de CAIXA, un BLAU i l’altre GROC. L’objectiu és CAIXA GROC; el distractor és CAIXA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-51a7805e979b|w-072ecc01e120|w-696b7c739d30|w-6b6fe6ec5a2e|contrast:w-a78d9867b0c8",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:05:22.496Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-106/rejected-01.png",
+      "reason": "Els objectes semblen cubs sòlids, sense tapa ni obertura que acrediti CAIXA. Es refà.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + TOCAR + CAIXA + GROC. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de CAIXA, un BLAU i l’altre GROC. L’objectiu és CAIXA GROC; el distractor és CAIXA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target GROC, distractor BLAU. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:08:36.017Z"
+    }
+  ],
+  "review": "Conill sencer toca només la caixa groga a l’esquerra. Dues caixes del mateix tipus amb tapa i nanses visibles; blava intacta. Blanc i marges correctes.",
+  "alt": {
+    "ca": "conill · tocar · caixa · groc.",
+    "es": "CONEJO · TOCAR · CAJA · AMARILLO."
+  },
+  "originalSha256": "6b9252426f473dcff4a86ebe3ecc301de5aff71c9f0b55fc57e07c4e7d0c488e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:10:49.567Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:15.835928+00:00"
+}

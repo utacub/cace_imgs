@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-009",
+  "file": "output/production/n7/n7-009/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + AGAFAR + LLAPIS + BLAU. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS BLAU; el distractor és LLAPIS GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target BLAU, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-009",
+    "number": 9,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-05",
+    "counterpartId": "n7-010",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · agafar · llapis · blau"
+    },
+    "labels": [
+      "DONA",
+      "AGAFAR",
+      "LLAPIS",
+      "BLAU"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-677819a0a32a",
+      "w-1775aa96869e",
+      "w-a78d9867b0c8"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "DONA: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS BLAU; el distractor és LLAPIS GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-72e9fe9a8b43|w-677819a0a32a|w-1775aa96869e|w-a78d9867b0c8|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:09:32.862Z",
+  "review": "Dona completa inicia la presa del llapis blau amb els dits; groc separat al mateix pla. Puntes i colors visibles, sense marques.",
+  "alt": {
+    "ca": "dona · agafar · llapis · blau.",
+    "es": "MUJER · COGER · LÁPIZ · AZUL."
+  },
+  "originalSha256": "79cf9d3d3b2d096d0fd0dbb0af015b334e068758f780c8dda6ecae8e448990fd",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:12:41.983Z"
+}

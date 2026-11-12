@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.125 conté **3469 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5 o N6 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.126 conté **3484 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **15 construccions N7** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6 o N7 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -24,10 +24,12 @@ El N5 incorpora **200 de les 200 construccions proposades**: 100 fotografies hab
 
 El N6 incorpora **200 de les 200 construccions aprovades**: 100 fotografies habituals i 100 dibuixos plans insòlits. «N6 · Més informació» afegeix instrument, destinatari o lloc a una sola acció: cinc etiquetes exactes per instrument, quatre per destinatari o lloc. Col·lecció «N6 · Més informació», filtre de nivell 6. Pla: `production/n6-plan.json`; progrés: `production/n6-progress.json`; registres: `production/n6/`. El pla N6 està complet, sense imatges pendents de generar.
 
+El N7 incorpora **15 de les 200 construccions aprovades**: 8 fotografies habituals i 7 dibuixos plans insòlits. «N7 · Precisió» mostra dos referents semblants i una acció dirigida només al que satisfà el qualificador: aspecte, estat o posició. Quatre etiquetes exactes, cinc per a posició amb suport. Col·lecció «N7 · Precisió», filtre de nivell 7. Pla: `production/n7-plan.json`; progrés: `production/n7-progress.json`; prompts i revisions: `production/n7/`. Producció i publicació progressives autoritzades fins a les 22:20 Europe/Madrid del 12/11/2026; tall preventiu de generació a les 22:15.
+
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 3469 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 3484 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.

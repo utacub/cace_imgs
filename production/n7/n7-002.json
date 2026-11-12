@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-002",
+  "file": "output/production/n7/n7-002/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + AGAFAR + PILOTA + BLAU. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de PILOTA, un VERMELL i l’altre BLAU. L’objectiu és PILOTA BLAU; el distractor és PILOTA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target BLAU, distractor VERMELL. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-002",
+    "number": 2,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-01",
+    "counterpartId": "n7-001",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · agafar · pilota · blau"
+    },
+    "labels": [
+      "NENA",
+      "AGAFAR",
+      "PILOTA",
+      "BLAU"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-677819a0a32a",
+      "w-b7f578451973",
+      "w-a78d9867b0c8"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BLAU",
+        "wordId": "w-a78d9867b0c8"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "VERMELL",
+          "wordId": "w-26a2697058f7"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NENA: dos exemplars de PILOTA, un VERMELL i l’altre BLAU. L’objectiu és PILOTA BLAU; el distractor és PILOTA VERMELL. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-677819a0a32a|w-b7f578451973|w-a78d9867b0c8|contrast:w-26a2697058f7",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:03:28.550Z",
+  "review": "Agent complet amb presa exclusiva sobre la pilota blava; distractor vermell separat i llegible. Color contrastiu inequívoc, fons blanc i marges correctes, sense text.",
+  "alt": {
+    "ca": "nena · agafar · pilota · blau.",
+    "es": "NIÑA · COGER · PELOTA · AZUL."
+  },
+  "originalSha256": "fd5b0b8ca99d9e16794a87cb442b9b30f794130346c60d3a9686e3c6ec93a388",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:04:53.585Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:07.086326+00:00"
+}

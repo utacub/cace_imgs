@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-110",
+  "file": "output/production/n7/n7-110/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: MICO + AGAFAR + LLAPIS + GROC. Exactly one friendly anthropomorphic MICO animal; NO human figures. Exact scene in Catalan: MICO: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS GROC; el distractor és LLAPIS BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target GROC, distractor BLAU. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-110",
+    "number": 110,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-05",
+    "counterpartId": "n7-109",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · agafar · llapis · groc"
+    },
+    "labels": [
+      "MICO",
+      "AGAFAR",
+      "LLAPIS",
+      "GROC"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-677819a0a32a",
+      "w-1775aa96869e",
+      "w-6b6fe6ec5a2e"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "MICO",
+        "wordId": "w-12a87560751b"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "GROC",
+        "wordId": "w-6b6fe6ec5a2e"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "GROC",
+        "wordId": "w-6b6fe6ec5a2e"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "BLAU",
+          "wordId": "w-a78d9867b0c8"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "MICO: dos exemplars de LLAPIS, un BLAU i l’altre GROC. L’objectiu és LLAPIS GROC; el distractor és LLAPIS BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-12a87560751b|w-677819a0a32a|w-1775aa96869e|w-6b6fe6ec5a2e|contrast:w-a78d9867b0c8",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:09:33.236Z",
+  "review": "Mico complet inicia la presa només sobre llapis groc; blau separat, puntes i dos cossos sencers visibles, sense marques.",
+  "alt": {
+    "ca": "mico · agafar · llapis · groc.",
+    "es": "MONO · COGER · LÁPIZ · AMARILLO."
+  },
+  "originalSha256": "d961f91c588bb78b2a7e50877d7a40521d3f077b4c998ff9857e40fd8fd84477",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:14:17.321Z"
+}

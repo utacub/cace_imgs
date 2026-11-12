@@ -223,6 +223,22 @@ test('N6 instruments, recipients and places keep exact tags and a separate colle
   assert.deepEqual(new Set(a.read('results().map(x=>x.id)')),new Set(rows.map(x=>x.id)));
 });
 
+test('N7 selects the specified referent without indexing its opposing distractor', () => {
+  const rows=catalog.assets.filter(x=>x.constructionId?.startsWith('n7-'));
+  assert.ok(rows.length>=4);
+  const plan=require('../production/n7-plan.json');
+  const a=app();
+  for(const row of rows.slice(0,12)) {
+    const item=plan.items.find(p=>p.id===row.constructionId);
+    assert.ok(!row.tags.includes(item.contrast.distractor.specifier.wordId));
+    a.run(`state.view='all'; state.query=''; state.level=7; state.tags=${JSON.stringify(row.tags)}; state.wordMode='all'`);
+    assert.deepEqual(a.read('results().map(x=>x.id)'),[row.id]);
+    a.run('state.level=6'); assert.equal(a.read('results().length'),0);
+  }
+  a.run("state.level=7; state.tags=[]; state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n7-precisio'");
+  assert.deepEqual(new Set(a.read('results().map(x=>x.id)')),new Set(rows.map(x=>x.id)));
+});
+
 test('Every catalogue asset has a valid primary keyword, including the initial scenes', () => {
   for (const row of catalog.assets) {
     assert.ok(row.tags.includes(row.primaryWordId), row.id);

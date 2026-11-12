@@ -1,0 +1,16 @@
+const fs=require('node:fs');
+const c=JSON.parse(fs.readFileSync('src/catalog-data.json','utf8'));
+const p=JSON.parse(fs.readFileSync('production/n7-progress.json','utf8'));
+const rows=c.assets.filter(x=>x.constructionId?.startsWith('n7-'));
+const h=rows.filter(x=>x.kind==='photo').length,d=rows.length-h;
+let s=fs.readFileSync('README.md','utf8').replace(/La versió [\d.]+ conté \*\*\d+ imatges\*\*/,`La versió ${c.version} conté **${c.assets.length} imatges**`).replace(/`bank\/`: les \d+ imatges/,`\`bank/\`: les ${c.assets.length} imatges`);
+if(s.includes(' construccions N7**'))s=s.replace(/\*\*\d+ construccions N7\*\*/,`**${rows.length} construccions N7**`);
+else s=s.replace(/(\*\*\d+ construccions N6\*\*) i 8/,`$1, **${rows.length} construccions N7** i 8`);
+s=s.replace('Cada construcció N2, N3, N4, N5 o N6 té','Cada construcció N2, N3, N4, N5, N6 o N7 té');
+const summary=`El N7 incorpora **${rows.length} de les 200 construccions aprovades**: ${h} fotografies habituals i ${d} dibuixos plans insòlits. «N7 · Precisió» mostra dos referents semblants i una acció dirigida només al que satisfà el qualificador: aspecte, estat o posició. Quatre etiquetes exactes, cinc per a posició amb suport. Col·lecció «N7 · Precisió», filtre de nivell 7. Pla: \`production/n7-plan.json\`; progrés: \`production/n7-progress.json\`; prompts i revisions: \`production/n7/\`. ${rows.length===200?'El pla N7 està complet.':'Producció i publicació progressives autoritzades fins a les 22:20 Europe/Madrid del 12/11/2026; tall preventiu de generació a les 22:15.'}`;
+if(s.includes('El N7 incorpora '))s=s.replace(/El N7 incorpora [^\n]+/,summary);else s=s.replace('## Estructura',summary+'\n\n## Estructura');
+fs.writeFileSync('README.md',s);
+const g=JSON.parse(fs.readFileSync('production/progress.json','utf8'));
+Object.assign(g,{catalogVersion:c.version,totalImages:c.assets.length});fs.writeFileSync('production/progress.json',JSON.stringify(g,null,2)+'\n');
+Object.assign(p,{imported:rows.length,catalogVersion:c.version,updated:new Date().toISOString()});fs.writeFileSync('production/n7-progress.json',JSON.stringify(p,null,2)+'\n');
+console.log({version:c.version,n7:rows.length,habitual:h,insolita:d});

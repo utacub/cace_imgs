@@ -58,6 +58,9 @@ n5_assets = defaultdict(list)
 n6_plan_path = root / 'production/n6-plan.json'
 n6_plan = {item['id']: item for item in json.loads(n6_plan_path.read_text(encoding='utf-8'))['items']} if n6_plan_path.exists() else {}
 n6_assets = defaultdict(list)
+n7_plan_path = root / 'production/n7-plan.json'
+n7_plan = {item['id']: item for item in json.loads(n7_plan_path.read_text(encoding='utf-8'))['items']} if n7_plan_path.exists() else {}
+n7_assets = defaultdict(list)
 word_records = {word['id']: word for word in data['words']}
 for asset in data['assets']:
     relative = PurePosixPath(asset['src'])
@@ -72,7 +75,7 @@ for asset in data['assets']:
     assert asset.get('primaryWordId') in asset['tags'], asset['id']
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
     if asset.get('constructionId'):
-        level, plan, level_assets = next((level, plan, assets) for level, plan, assets in [(2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets), (5, n5_plan, n5_assets), (6, n6_plan, n6_assets)] if asset['constructionId'] in plan)
+        level, plan, level_assets = next((level, plan, assets) for level, plan, assets in [(2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets), (5, n5_plan, n5_assets), (6, n6_plan, n6_assets), (7, n7_plan, n7_assets)] if asset['constructionId'] in plan)
         construction = plan[asset['constructionId']]
         assert asset['origin'] == 'generated' and asset['levels'] == [level], asset['id']
         assert asset['targetWordIds'] == construction['wordIds'] == asset['tags'], asset['id']
@@ -90,6 +93,7 @@ assert all(len(assets) == 1 for assets in n3_assets.values()), 'Each N3 construc
 assert all(len(assets) == 1 for assets in n4_assets.values()), 'Each N4 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n5_assets.values()), 'Each N5 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n6_assets.values()), 'Each N6 construction must have exactly one image'
+assert all(len(assets) == 1 for assets in n7_assets.values()), 'Each N7 construction must have exactly one image'
 assert not any(path.stat().st_size == 0 for path in (root / 'dist/assets').rglob('*') if path.is_file())
 assert not list((root / 'dist').rglob('*.tmp'))
 print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'complete_n4_constructions': len(n4_assets), 'complete_n5_constructions': len(n5_assets), 'complete_n6_constructions': len(n6_assets), 'vocabulary_entries': len(data['words'])}))

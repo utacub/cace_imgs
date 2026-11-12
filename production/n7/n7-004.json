@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-004",
+  "file": "output/production/n7/n7-004/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AIXECAR + GOT + VERD. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de GOT, un GROC i l’altre VERD. L’objectiu és GOT VERD; el distractor és GOT GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GOT, target VERD, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-004",
+    "number": 4,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-02",
+    "counterpartId": "n7-003",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · aixecar · got · verd"
+    },
+    "labels": [
+      "NEN",
+      "AIXECAR",
+      "GOT",
+      "VERD"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-e12d88415c80",
+      "w-1bed9f18ebab",
+      "w-5f5b9a1df897"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      },
+      "distractor": {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NEN: dos exemplars de GOT, un GROC i l’altre VERD. L’objectiu és GOT VERD; el distractor és GOT GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-e12d88415c80|w-1bed9f18ebab|w-5f5b9a1df897|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:05:21.933Z",
+  "review": "Nen sencer aixecant només el got verd; groc recolzat i separat, escena de selecció inversa clara.",
+  "alt": {
+    "ca": "nen · aixecar · got · verd.",
+    "es": "NIÑO · LEVANTAR · VASO · VERDE."
+  },
+  "originalSha256": "612ee370a66d0b8dfdad04260218be1dc422c61b1147efef76f2be7623643df5",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:08:35.196Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:08.543002+00:00"
+}

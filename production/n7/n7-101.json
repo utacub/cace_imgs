@@ -1,0 +1,103 @@
+{
+  "constructionId": "n7-101",
+  "file": "output/production/n7/n7-101/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AGAFAR + PILOTA + VERMELL. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de PILOTA, un VERMELL i l’altre BLAU. L’objectiu és PILOTA VERMELL; el distractor és PILOTA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target VERMELL, distractor BLAU. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Remove table and all furniture. Exactly two identical-size balls ON THE WHITE GROUND, blue ball on image left and red ball on image right. Cat grasps ONLY red ball, other paw stays against own body. Entire cat and balls with ample margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-101",
+    "number": 101,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-01",
+    "counterpartId": "n7-102",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · agafar · pilota · vermell"
+    },
+    "labels": [
+      "GAT",
+      "AGAFAR",
+      "PILOTA",
+      "VERMELL"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-677819a0a32a",
+      "w-b7f578451973",
+      "w-26a2697058f7"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "VERMELL",
+        "wordId": "w-26a2697058f7"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "VERMELL",
+        "wordId": "w-26a2697058f7"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "BLAU",
+          "wordId": "w-a78d9867b0c8"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "GAT: dos exemplars de PILOTA, un VERMELL i l’altre BLAU. L’objectiu és PILOTA VERMELL; el distractor és PILOTA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-11ff74d27c02|w-677819a0a32a|w-b7f578451973|w-26a2697058f7|contrast:w-a78d9867b0c8",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:03:28.624Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-101/rejected-01.png",
+      "reason": "La selecció vermella és clara, però la taula afegeix un suport absent al company de parella; es refà per conservar les dues pilotes al terra.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AGAFAR + PILOTA + VERMELL. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de PILOTA, un VERMELL i l’altre BLAU. L’objectiu és PILOTA VERMELL; el distractor és PILOTA BLAU. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target VERMELL, distractor BLAU. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:04:53.653Z"
+    }
+  ],
+  "review": "Gat complet agafant exclusivament la pilota vermella a la dreta; blava a l’esquerra, ara totes dues al terra sense taula; blanc i marges amplis.",
+  "alt": {
+    "ca": "gat · agafar · pilota · vermell.",
+    "es": "GATO · COGER · PELOTA · ROJO."
+  },
+  "originalSha256": "53ed20154c163e4684eed55d5c799226e5624fc594a74a2c894fe575c755186a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:08:34.910Z",
+  "publicationVersion": "0.1.126",
+  "importedAt": "2026-11-12T19:11:12.207676+00:00"
+}

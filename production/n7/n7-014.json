@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-014",
+  "file": "output/production/n7/n7-014/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + PORTAR + COIXÍ + LILA. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de COIXÍ, un GROC i l’altre LILA. L’objectiu és COIXÍ LILA; el distractor és COIXÍ GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target LILA, distractor GROC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-014",
+    "number": 14,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-h-07",
+    "counterpartId": "n7-013",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · portar · coixí · lila"
+    },
+    "labels": [
+      "NENA",
+      "PORTAR",
+      "COIXÍ",
+      "LILA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-73b71e1ff757",
+      "w-44260b79b61e",
+      "w-4776cd4c2990"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "role": "specifier",
+        "label": "LILA",
+        "wordId": "w-4776cd4c2990"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LILA",
+        "wordId": "w-4776cd4c2990"
+      },
+      "distractor": {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e",
+        "specifier": {
+          "label": "GROC",
+          "wordId": "w-6b6fe6ec5a2e"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "NENA: dos exemplars de COIXÍ, un GROC i l’altre LILA. L’objectiu és COIXÍ LILA; el distractor és COIXÍ GROC. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-73b71e1ff757|w-44260b79b61e|w-4776cd4c2990|contrast:w-6b6fe6ec5a2e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:12:42.915Z",
+  "review": "Nena completa porta només coixí lila; groc reposant, pas visible i dos coixins llegibles.",
+  "alt": {
+    "ca": "nena · portar · coixí · lila.",
+    "es": "NIÑA · LLEVAR · ALMOHADA · LILA."
+  },
+  "originalSha256": "6c62b1465796ac760be6c6d5a6dc82a6d55ad276496be3eeb74922a440b26f5c",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:15:35.764Z"
+}

@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-115",
+  "file": "output/production/n7/n7-115/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ZEBRA + TOCAR + PALA + VERD. Exactly one friendly anthropomorphic ZEBRA animal; NO human figures. Exact scene in Catalan: ZEBRA: dos exemplars de PALA, un VERD i l’altre LILA. L’objectiu és PALA VERD; el distractor és PALA LILA. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PALA, target VERD, distractor LILA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-115",
+    "number": 115,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "color",
+    "pairId": "n7-i-08",
+    "counterpartId": "n7-116",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · tocar · pala · verd"
+    },
+    "labels": [
+      "ZEBRA",
+      "TOCAR",
+      "PALA",
+      "VERD"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-072ecc01e120",
+      "w-208167fa638f",
+      "w-5f5b9a1df897"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ZEBRA",
+        "wordId": "w-0dc8fba9677d"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "VERD",
+        "wordId": "w-5f5b9a1df897"
+      },
+      "distractor": {
+        "label": "PALA",
+        "wordId": "w-208167fa638f",
+        "specifier": {
+          "label": "LILA",
+          "wordId": "w-4776cd4c2990"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "color",
+      "evidence": "Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats."
+    },
+    "visualDescription": "ZEBRA: dos exemplars de PALA, un VERD i l’altre LILA. L’objectiu és PALA VERD; el distractor és PALA LILA. Dues superfícies del mateix material, llises i de color uniforme saturat; colors llegibles sense reflexos ni estampats. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-0dc8fba9677d|w-072ecc01e120|w-208167fa638f|w-5f5b9a1df897|contrast:w-4776cd4c2990",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:15:57.989Z",
+  "review": "Zebra completa toca només la pala verda, lila separada. Dues pales equivalents, contacte i blanc llegibles.",
+  "alt": {
+    "ca": "zebra · tocar · pala · verd.",
+    "es": "CEBRA · TOCAR · PALA · VERDE."
+  },
+  "originalSha256": "ae4e6d2d7d18e98a144f8fa490de5b6d13f8da9a527d4c27fb1b989492dca04f",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:17:24.325Z"
+}
