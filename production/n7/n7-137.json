@@ -1,0 +1,94 @@
+{
+  "constructionId": "n7-137",
+  "file": "output/production/n7/n7-137/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + COIXÍ + RATLLES. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ RATLLES; el distractor és COIXÍ TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-137",
+    "number": 137,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-i-19",
+    "counterpartId": "n7-138",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "cangur · tocar · coixí · ratlles"
+    },
+    "labels": [
+      "CANGUR",
+      "TOCAR",
+      "COIXÍ",
+      "RATLLES"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-072ecc01e120",
+      "w-44260b79b61e",
+      "w-19a396681127"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      },
+      "distractor": {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e",
+        "specifier": {
+          "label": "TOPOS",
+          "wordId": "w-69c93e868621"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "CANGUR: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ RATLLES; el distractor és COIXÍ TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-d5395d03acbf|w-072ecc01e120|w-44260b79b61e|w-19a396681127|contrast:w-69c93e868621",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:40:27.157Z",
+  "contactRuleAdded": true,
+  "review": "Cangur complet toca només coixí de ratlles; topos intacte i equivalent, sobre suport mínim amb marges.",
+  "alt": {
+    "ca": "cangur · tocar · coixí · ratlles.",
+    "es": "CANGURO · TOCAR · ALMOHADA · RAYAS."
+  },
+  "originalSha256": "259d50d67f1f107cafe6d3d1a1e0d328f64de7a2c29391f1410db1e0e1dc064a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:43:58.655Z"
+}

@@ -1,0 +1,94 @@
+{
+  "constructionId": "n7-039",
+  "file": "output/production/n7/n7-039/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AIXECAR + PILOTA + RATLLES. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PILOTA, un RATLLES i l’altre TOPOS. L’objectiu és PILOTA RATLLES; el distractor és PILOTA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-039",
+    "number": 39,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-h-20",
+    "counterpartId": "n7-040",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · aixecar · pilota · ratlles"
+    },
+    "labels": [
+      "NEN",
+      "AIXECAR",
+      "PILOTA",
+      "RATLLES"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-e12d88415c80",
+      "w-b7f578451973",
+      "w-19a396681127"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "TOPOS",
+          "wordId": "w-69c93e868621"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "NEN: dos exemplars de PILOTA, un RATLLES i l’altre TOPOS. L’objectiu és PILOTA RATLLES; el distractor és PILOTA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-e12d88415c80|w-b7f578451973|w-19a396681127|contrast:w-69c93e868621",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:43:59.373Z",
+  "contactRuleAdded": true,
+  "review": "Nen complet aixeca només la pilota de ratlles; de topos reposant, mateix tipus i mida. Contacte exclusiu, blanc i marges.",
+  "alt": {
+    "ca": "nen · aixecar · pilota · ratlles.",
+    "es": "NIÑO · LEVANTAR · PELOTA · RAYAS."
+  },
+  "originalSha256": "cc6fbe9f4d8525558fa61daf2676ef2a88768e75d75695f0c7882fec90b35828",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:46:46.405Z"
+}

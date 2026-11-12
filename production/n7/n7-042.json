@@ -1,0 +1,83 @@
+{
+  "constructionId": "n7-042",
+  "file": "output/production/n7/n7-042/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + AGAFAR + PLAT + BRUT. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PLAT, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-042",
+    "number": 42,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-h-21",
+    "counterpartId": "n7-041",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · agafar · plat · brut"
+    },
+    "labels": [
+      "NOIA",
+      "AGAFAR",
+      "PLAT",
+      "BRUT"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-677819a0a32a",
+      "w-55d250f4cf1e",
+      "w-e8c7f0581229"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      },
+      "distractor": {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e",
+        "specifier": {
+          "label": "NET",
+          "wordId": "w-8cc4542c0125"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "NOIA: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-677819a0a32a|w-55d250f4cf1e|w-e8c7f0581229|contrast:w-8cc4542c0125",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:44:00.834Z"
+}

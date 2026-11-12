@@ -4,8 +4,8 @@
   "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AGAFAR on ONLY the PAL qualified by CURT. The opposing LLARG candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ÓS + AGAFAR + PAL + CURT. Exactly one friendly anthropomorphic ÓS animal; NO human figures. Exact scene in Catalan: ÓS: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL CURT; el distractor és PAL LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target CURT, distractor LLARG. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-128",
     "number": 128,
@@ -81,5 +81,17 @@
   },
   "created": "2026-11-12T19:30:07.320Z",
   "referenceFile": "output/production/n7/n7-127/image.png",
-  "referenceConstructionId": "n7-127"
+  "referenceConstructionId": "n7-127",
+  "review": "Ós conserva escena i pals del company; presa exclusiva sobre el curt, llarg intacte amb mateix gruix i color.",
+  "alt": {
+    "ca": "ós · agafar · pal · curt.",
+    "es": "OSO · COGER · PALO · CORTO."
+  },
+  "originalSha256": "f6763326b6aeded22deb14872974c4d19472d55ce7467b325225717938e1815c",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:34:08.158Z",
+  "publicationVersion": "0.1.128",
+  "importedAt": "2026-11-12T19:40:42.446960+00:00"
 }

@@ -1,0 +1,104 @@
+{
+  "constructionId": "n7-131",
+  "file": "output/production/n7/n7-131/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: PINGUÍ + AGAFAR + BUFANDA + RATLLES. Exactly one friendly anthropomorphic PINGUÍ animal; NO human figures. Exact scene in Catalan: PINGUÍ: dos exemplars de BUFANDA, un RATLLES i l’altre TOPOS. L’objectiu és BUFANDA RATLLES; el distractor és BUFANDA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of BUFANDA, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Full penguin behind ONE LOW TABLE with all legs visible. Exactly TWO blue scarves with yellow patterns, same fabric and size: stripes and large round polka dots. BOTH scarves rest on table with pattern clearly visible. Penguin's ONE flipper/hand grips only striped scarf near an edge at onset of taking it; dotted scarf rests untouched on table, NO floating unsupported objects. Unused flipper behind back. Full body and all table legs, ample white margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-131",
+    "number": 131,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-i-16",
+    "counterpartId": "n7-132",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "pinguí · agafar · bufanda · ratlles"
+    },
+    "labels": [
+      "PINGUÍ",
+      "AGAFAR",
+      "BUFANDA",
+      "RATLLES"
+    ],
+    "wordIds": [
+      "w-5993b1ea57aa",
+      "w-677819a0a32a",
+      "w-0b4612bc4b9f",
+      "w-19a396681127"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "PINGUÍ",
+        "wordId": "w-5993b1ea57aa"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "BUFANDA",
+        "wordId": "w-0b4612bc4b9f"
+      },
+      {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      },
+      "distractor": {
+        "label": "BUFANDA",
+        "wordId": "w-0b4612bc4b9f",
+        "specifier": {
+          "label": "TOPOS",
+          "wordId": "w-69c93e868621"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "PINGUÍ: dos exemplars de BUFANDA, un RATLLES i l’altre TOPOS. L’objectiu és BUFANDA RATLLES; el distractor és BUFANDA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-5993b1ea57aa|w-677819a0a32a|w-0b4612bc4b9f|w-19a396681127|contrast:w-69c93e868621",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:34:10.684Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-131/rejected-01.png",
+      "reason": "La bufanda de topos sembla flotar sense suport. Es refà amb suport físic mínim visible.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: PINGUÍ + AGAFAR + BUFANDA + RATLLES. Exactly one friendly anthropomorphic PINGUÍ animal; NO human figures. Exact scene in Catalan: PINGUÍ: dos exemplars de BUFANDA, un RATLLES i l’altre TOPOS. L’objectiu és BUFANDA RATLLES; el distractor és BUFANDA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of BUFANDA, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T19:38:26.948Z"
+    }
+  ],
+  "review": "Refeta: pingüí complet agafa només bufanda de ratlles; de topos reposant a la taula, ja sense flotació. Patrons grans i llegibles.",
+  "alt": {
+    "ca": "pinguí · agafar · bufanda · ratlles.",
+    "es": "PINGÜINO · COGER · BUFANDA · RAYAS."
+  },
+  "originalSha256": "1cc1d8a43167e3d3dcee810cc8c9e6206ec0660b62bad0ebe75f36d021344f23",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:40:26.156Z",
+  "publicationVersion": "0.1.128",
+  "importedAt": "2026-11-12T19:40:45.177497+00:00"
+}

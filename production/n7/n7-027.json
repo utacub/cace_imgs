@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + PAL + LLARG. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Full seven-year-old boy is visibly GRASPING the LONG WOODEN STICK with fingers firmly wrapped around its middle, at low tabletop height. TWO plain wooden sticks lie parallel horizontally on one low table, same thickness and wood color, long is twice length of short. Long stick remains nearly resting at onset of grip, short untouched well separated. Unused hand BEHIND BACK. No pointing, no remote gesture; actual hand-stick contact is mandatory. Full boy and table with margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-027",
     "number": 27,
@@ -87,5 +87,17 @@
       "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + PAL + LLARG. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
       "rejectedAt": "2026-11-12T19:31:53.679Z"
     }
-  ]
+  ],
+  "review": "Refeta: nen complet agafa visiblement el pal llarg per la part central; curt equivalent separat i sense contacte, mà lliure rere cos.",
+  "alt": {
+    "ca": "nen · agafar · pal · llarg.",
+    "es": "NIÑO · COGER · PALO · LARGO."
+  },
+  "originalSha256": "b5cafe9823ababe80e479b4cdb09b5b3089273feaff20b72f60740c989099e45",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:34:08.544Z",
+  "publicationVersion": "0.1.128",
+  "importedAt": "2026-11-12T19:40:32.895499+00:00"
 }

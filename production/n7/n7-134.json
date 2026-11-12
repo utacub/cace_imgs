@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-134",
+  "file": "output/production/n7/n7-134/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AIXECAR on ONLY the TASSA qualified by TOPOS. The opposing RATLLES candidate must receive NO contact and remain clearly visible. The selected object is lifted slightly; the previously lifted distractor now rests on the support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ELEFANT + AIXECAR + TASSA + TOPOS. Exactly one friendly anthropomorphic ELEFANT animal; NO human figures. Exact scene in Catalan: ELEFANT: dos exemplars de TASSA, un RATLLES i l’altre TOPOS. L’objectiu és TASSA TOPOS; el distractor és TASSA RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TASSA, target TOPOS, distractor RATLLES. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-134",
+    "number": 134,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-i-17",
+    "counterpartId": "n7-133",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "elefant · aixecar · tassa · topos"
+    },
+    "labels": [
+      "ELEFANT",
+      "AIXECAR",
+      "TASSA",
+      "TOPOS"
+    ],
+    "wordIds": [
+      "w-b059d8ef0bc9",
+      "w-e12d88415c80",
+      "w-adecb8403118",
+      "w-69c93e868621"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ELEFANT",
+        "wordId": "w-b059d8ef0bc9"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      },
+      "distractor": {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118",
+        "specifier": {
+          "label": "RATLLES",
+          "wordId": "w-19a396681127"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "ELEFANT: dos exemplars de TASSA, un RATLLES i l’altre TOPOS. L’objectiu és TASSA TOPOS; el distractor és TASSA RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b059d8ef0bc9|w-e12d88415c80|w-adecb8403118|w-69c93e868621|contrast:w-19a396681127",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:34:11.220Z",
+  "referenceFile": "output/production/n7/n7-133/image.png",
+  "referenceConstructionId": "n7-133",
+  "contactRuleAdded": true,
+  "review": "Mateix elefant i tasses; només topos aixecada, ratlles reposant. Contacte exclusiu i patrons clars.",
+  "alt": {
+    "ca": "elefant · aixecar · tassa · topos.",
+    "es": "ELEFANTE · LEVANTAR · TAZA · TOPOS."
+  },
+  "originalSha256": "cdbad7c67f952e45558a3114565f51233cde9410fae7d9c324442034ebba1fce",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:42:17.909Z"
+}

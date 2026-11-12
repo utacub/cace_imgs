@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-031",
+  "file": "output/production/n7/n7-031/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + AGAFAR + BUFANDA + RATLLES. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de BUFANDA, un RATLLES i l’altre TOPOS. L’objectiu és BUFANDA RATLLES; el distractor és BUFANDA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of BUFANDA, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-031",
+    "number": 31,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-h-16",
+    "counterpartId": "n7-032",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · agafar · bufanda · ratlles"
+    },
+    "labels": [
+      "NOI",
+      "AGAFAR",
+      "BUFANDA",
+      "RATLLES"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-677819a0a32a",
+      "w-0b4612bc4b9f",
+      "w-19a396681127"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "BUFANDA",
+        "wordId": "w-0b4612bc4b9f"
+      },
+      {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "RATLLES",
+        "wordId": "w-19a396681127"
+      },
+      "distractor": {
+        "label": "BUFANDA",
+        "wordId": "w-0b4612bc4b9f",
+        "specifier": {
+          "label": "TOPOS",
+          "wordId": "w-69c93e868621"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "NOI: dos exemplars de BUFANDA, un RATLLES i l’altre TOPOS. L’objectiu és BUFANDA RATLLES; el distractor és BUFANDA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-677819a0a32a|w-0b4612bc4b9f|w-19a396681127|contrast:w-69c93e868621",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:34:10.548Z",
+  "contactRuleAdded": true,
+  "review": "Noi complet inicia presa de la bufanda de ratlles; de topos separada i equivalent, colors i patrons llegibles.",
+  "alt": {
+    "ca": "noi · agafar · bufanda · ratlles.",
+    "es": "CHICO · COGER · BUFANDA · RAYAS."
+  },
+  "originalSha256": "923a43158eeb696357094cc7b10715587b79ca7c56cfdc4466ffd11218d4c9e9",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:35:51.436Z",
+  "publicationVersion": "0.1.128",
+  "importedAt": "2026-11-12T19:40:35.705862+00:00"
+}

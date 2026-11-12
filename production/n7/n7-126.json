@@ -4,8 +4,8 @@
   "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AIXECAR on ONLY the MOCADOR qualified by CURT. The opposing LLARG candidate must receive NO contact and remain clearly visible. The selected object is lifted slightly; the previously lifted distractor now rests on the support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + AIXECAR + MOCADOR + CURT. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR CURT; el distractor és MOCADOR LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target CURT, distractor LLARG. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-126",
     "number": 126,
@@ -81,5 +81,17 @@
   },
   "created": "2026-11-12T19:26:17.096Z",
   "referenceFile": "output/production/n7/n7-125/image.png",
-  "referenceConstructionId": "n7-125"
+  "referenceConstructionId": "n7-125",
+  "review": "Conill conserva escena i dos mocadors vermells; només curt aixecat, llarg reposant, contacte únic i extrems llegibles.",
+  "alt": {
+    "ca": "conill · aixecar · mocador · curt.",
+    "es": "CONEJO · LEVANTAR · PAÑUELO · CORTO."
+  },
+  "originalSha256": "e284554c08a4e272327136c9fdeb0855042ed50aef5331bec8be90a9178a9694",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:34:08.032Z",
+  "publicationVersion": "0.1.128",
+  "importedAt": "2026-11-12T19:40:41.102485+00:00"
 }

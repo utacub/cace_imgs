@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-138",
+  "file": "output/production/n7/n7-138/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the COIXÍ qualified by TOPOS. The opposing RATLLES candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + COIXÍ + TOPOS. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ TOPOS; el distractor és COIXÍ RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target TOPOS, distractor RATLLES. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-138",
+    "number": 138,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-i-19",
+    "counterpartId": "n7-137",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "cangur · tocar · coixí · topos"
+    },
+    "labels": [
+      "CANGUR",
+      "TOCAR",
+      "COIXÍ",
+      "TOPOS"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-072ecc01e120",
+      "w-44260b79b61e",
+      "w-69c93e868621"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      },
+      "distractor": {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e",
+        "specifier": {
+          "label": "RATLLES",
+          "wordId": "w-19a396681127"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "CANGUR: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ TOPOS; el distractor és COIXÍ RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-d5395d03acbf|w-072ecc01e120|w-44260b79b61e|w-69c93e868621|contrast:w-19a396681127",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:40:27.242Z",
+  "referenceFile": "output/production/n7/n7-137/image.png",
+  "referenceConstructionId": "n7-137",
+  "contactRuleAdded": true,
+  "review": "Mateix cangur i coixins; ara toca només topos, ratlles intactes. Patrons i composició conservats.",
+  "alt": {
+    "ca": "cangur · tocar · coixí · topos.",
+    "es": "CANGURO · TOCAR · ALMOHADA · TOPOS."
+  },
+  "originalSha256": "d1527d8b31568bffd42c7f75660ac9b68f34b5d75ba44db1a7c3028ed65bf98a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:46:46.255Z"
+}

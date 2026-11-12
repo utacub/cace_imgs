@@ -1,0 +1,94 @@
+{
+  "constructionId": "n7-136",
+  "file": "output/production/n7/n7-136/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform PORTAR on ONLY the BOSSA qualified by TOPOS. The opposing RATLLES candidate must receive NO contact and remain clearly visible. Only selected candidate is carried; other rests on the low support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ZEBRA + PORTAR + BOSSA + TOPOS. Exactly one friendly anthropomorphic ZEBRA animal; NO human figures. Exact scene in Catalan: ZEBRA: dos exemplars de BOSSA, un RATLLES i l’altre TOPOS. L’objectiu és BOSSA TOPOS; el distractor és BOSSA RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of BOSSA, target TOPOS, distractor RATLLES. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Use n7-135 reference. Do NOT swap printed patterns between objects. Zebra now CARRIES THE POLKA-DOT BAG on image RIGHT with her other hand. The STRIPED bag rests untouched on the low stool moved to image LEFT. Preserve bag colors, exact patterns and shapes. Full zebra, walking step, unused hand behind back. Target must change SIDE as well as which bag is selected. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-136",
+    "number": 136,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "estampat",
+    "pairId": "n7-i-18",
+    "counterpartId": "n7-135",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · portar · bossa · topos"
+    },
+    "labels": [
+      "ZEBRA",
+      "PORTAR",
+      "BOSSA",
+      "TOPOS"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-73b71e1ff757",
+      "w-7db8d682fed4",
+      "w-69c93e868621"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ZEBRA",
+        "wordId": "w-0dc8fba9677d"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      },
+      {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "TOPOS",
+        "wordId": "w-69c93e868621"
+      },
+      "distractor": {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4",
+        "specifier": {
+          "label": "RATLLES",
+          "wordId": "w-19a396681127"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "estampat",
+      "evidence": "Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà."
+    },
+    "visualDescription": "ZEBRA: dos exemplars de BOSSA, un RATLLES i l’altre TOPOS. L’objectiu és BOSSA TOPOS; el distractor és BOSSA RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-0dc8fba9677d|w-73b71e1ff757|w-7db8d682fed4|w-69c93e868621|contrast:w-19a396681127",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:40:26.857Z",
+  "referenceFile": "output/production/n7/n7-135/image.png",
+  "referenceConstructionId": "n7-135",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-136/rejected-01.png",
+      "reason": "El resultat intercanvia els estampats de les bosses i conserva el mateix costat de la presa. Cal portar l’altre referent, sense intercanviar estampats.",
+      "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform PORTAR on ONLY the BOSSA qualified by TOPOS. The opposing RATLLES candidate must receive NO contact and remain clearly visible. Only selected candidate is carried; other rests on the low support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ZEBRA + PORTAR + BOSSA + TOPOS. Exactly one friendly anthropomorphic ZEBRA animal; NO human figures. Exact scene in Catalan: ZEBRA: dos exemplars de BOSSA, un RATLLES i l’altre TOPOS. L’objectiu és BOSSA TOPOS; el distractor és BOSSA RATLLES. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of BOSSA, target TOPOS, distractor RATLLES. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T19:46:45.878Z"
+    }
+  ]
+}
