@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-177",
+  "file": "output/production/n7/n7-177/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + NINA + DINS + CAIXA. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de NINA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és NINA DINS; el distractor és NINA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of NINA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-177",
+    "number": 177,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-i-39",
+    "counterpartId": "n7-178",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "cangur · tocar · nina · dins · caixa"
+    },
+    "labels": [
+      "CANGUR",
+      "TOCAR",
+      "NINA",
+      "DINS",
+      "CAIXA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-072ecc01e120",
+      "w-db89958a3c63",
+      "w-f871f670a944",
+      "w-696b7c739d30"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "CANGUR: dos exemplars de NINA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és NINA DINS; el distractor és NINA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-d5395d03acbf|w-072ecc01e120|w-db89958a3c63|w-f871f670a944|w-696b7c739d30|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:29:07.812Z",
+  "contactRuleAdded": true
+}

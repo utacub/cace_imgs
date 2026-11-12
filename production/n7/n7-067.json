@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + CARMANYOLA + PLE. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de CARMANYOLA, un PLE i l’altre BUIT. L’objectiu és CARMANYOLA PLE; el distractor és CARMANYOLA BUIT. Carmanyoles obertes idèntiques, sense tapa: una plena fins a la vora de peces de fusta neutres i l’altra amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CARMANYOLA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Active fingertip/paw must TOUCH THE FRONT EXTERIOR SIDE WALL of the FULL BOX halfway down its wall, hand approaching horizontally. Do not touch wooden blocks or contents. Blocks stay visible filling box. Other empty identical box untouched. Make physical contact to box wall explicit, not pointing from distance. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-067",
     "number": 67,
@@ -88,5 +88,17 @@
       "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + CARMANYOLA + PLE. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de CARMANYOLA, un PLE i l’altre BUIT. L’objectiu és CARMANYOLA PLE; el distractor és CARMANYOLA BUIT. Carmanyoles obertes idèntiques, sense tapa: una plena fins a la vora de peces de fusta neutres i l’altra amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CARMANYOLA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
       "rejectedAt": "2026-11-12T20:22:15.299Z"
     }
-  ]
+  ],
+  "review": "Noi toca paret exterior de caixa plena, buida separada i figura completa.",
+  "alt": {
+    "ca": "noi · tocar · carmanyola · ple.",
+    "es": "CHICO · TOCAR · FIAMBRERA · LLENO."
+  },
+  "originalSha256": "1a65f940cdff9197cbf9f4c3b4fba09c063d31393cb854d3d0cd71c89c94d0f3",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:24:07.134Z",
+  "publicationVersion": "0.1.131",
+  "importedAt": "2026-11-12T20:27:41.710881+00:00"
 }

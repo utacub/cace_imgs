@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-079",
+  "file": "output/production/n7/n7-079/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + MOCADOR + DINS + BOSSA. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de MOCADOR, un DINS i l’altre FORA, respecte d’un únic suport BOSSA. L’objectiu és MOCADOR DINS; el distractor és MOCADOR FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor BOSSA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-079",
+    "number": 79,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-h-40",
+    "counterpartId": "n7-080",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · tocar · mocador · dins · bossa"
+    },
+    "labels": [
+      "NOI",
+      "TOCAR",
+      "MOCADOR",
+      "DINS",
+      "BOSSA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-35e3a6c8a7fd",
+      "w-f871f670a944",
+      "w-7db8d682fed4"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "NOI: dos exemplars de MOCADOR, un DINS i l’altre FORA, respecte d’un únic suport BOSSA. L’objectiu és MOCADOR DINS; el distractor és MOCADOR FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-072ecc01e120|w-35e3a6c8a7fd|w-f871f670a944|w-7db8d682fed4|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:32:06.436Z",
+  "contactRuleAdded": true
+}

@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-169",
   "file": "output/production/n7/n7-169/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: MICO + TOCAR + CISTELL + PLE. Exactly one friendly anthropomorphic MICO animal; NO human figures. Exact scene in Catalan: MICO: dos exemplars de CISTELL, un PLE i l’altre BUIT. L’objectiu és CISTELL PLE; el distractor és CISTELL BUIT. Cistells oberts idèntics: un ple fins a la vora de peces de fusta neutres i l’altre amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CISTELL, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: MICO + TOCAR + CISTELL + PLE. Exactly one friendly anthropomorphic MICO animal; NO human figures. Exact scene in Catalan: MICO: dos exemplars de CISTELL, un PLE i l’altre BUIT. L’objectiu és CISTELL PLE; el distractor és CISTELL BUIT. Cistells oberts idèntics: un ple fins a la vora de peces de fusta neutres i l’altre amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CISTELL, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. Active paw touches OUTSIDE WICKER SIDE WALL of full basket halfway down height; do NOT touch contents. Hand approaches from side.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-169",
     "number": 169,
@@ -79,5 +79,18 @@
     "compositionKey": "w-12a87560751b|w-072ecc01e120|w-120fb6b37e88|w-427a0daa495d|contrast:w-1d8378757b29",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T20:20:35.577Z"
+  "created": "2026-11-12T20:20:35.577Z",
+  "contactRuleAdded": true,
+  "review": "Mico toca paret exterior de cistella plena; buida visible i intacta.",
+  "alt": {
+    "ca": "mico · tocar · cistell · ple.",
+    "es": "MONO · TOCAR · CESTA · LLENO."
+  },
+  "originalSha256": "a9f1e8bd6b22b505edeebe8ed0652cf3d19cf223b898c2c2bae566cbd72a58ce",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:25:55.443Z",
+  "publicationVersion": "0.1.131",
+  "importedAt": "2026-11-12T20:27:48.210816+00:00"
 }

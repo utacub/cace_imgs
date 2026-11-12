@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-175",
+  "file": "output/production/n7/n7-175/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ZEBRA + TOCAR + POMA + DINS + CISTELL. Exactly one friendly anthropomorphic ZEBRA animal; NO human figures. Exact scene in Catalan: ZEBRA: dos exemplars de POMA, un DINS i l’altre FORA, respecte d’un únic suport CISTELL. L’objectiu és POMA DINS; el distractor és POMA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of POMA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CISTELL; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-175",
+    "number": 175,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-i-38",
+    "counterpartId": "n7-176",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · tocar · poma · dins · cistell"
+    },
+    "labels": [
+      "ZEBRA",
+      "TOCAR",
+      "POMA",
+      "DINS",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-072ecc01e120",
+      "w-809c680b5699",
+      "w-f871f670a944",
+      "w-120fb6b37e88"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ZEBRA",
+        "wordId": "w-0dc8fba9677d"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "POMA",
+        "wordId": "w-809c680b5699",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "ZEBRA: dos exemplars de POMA, un DINS i l’altre FORA, respecte d’un únic suport CISTELL. L’objectiu és POMA DINS; el distractor és POMA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-0dc8fba9677d|w-072ecc01e120|w-809c680b5699|w-f871f670a944|w-120fb6b37e88|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:29:06.382Z",
+  "contactRuleAdded": true,
+  "review": "Zebra toca poma dins cistella; poma equivalent fora, fons blanc.",
+  "alt": {
+    "ca": "zebra · tocar · poma · dins · cistell.",
+    "es": "CEBRA · TOCAR · MANZANA · DENTRO · CESTA."
+  },
+  "originalSha256": "b2957a923d645d0cd4c3b8272207a0cec32aca1331b76b7b4337696eb9a24a1b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:32:05.844Z"
+}

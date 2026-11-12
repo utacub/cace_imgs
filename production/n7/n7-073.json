@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-073",
+  "file": "output/production/n7/n7-073/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + TOCAR + LLAPIS + DINS + GOT. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de LLAPIS, un DINS i l’altre FORA, respecte d’un únic suport GOT. L’objectiu és LLAPIS DINS; el distractor és LLAPIS FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor GOT; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-073",
+    "number": 73,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-h-37",
+    "counterpartId": "n7-074",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · tocar · llapis · dins · got"
+    },
+    "labels": [
+      "NENA",
+      "TOCAR",
+      "LLAPIS",
+      "DINS",
+      "GOT"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-1775aa96869e",
+      "w-f871f670a944",
+      "w-1bed9f18ebab"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "NENA: dos exemplars de LLAPIS, un DINS i l’altre FORA, respecte d’un únic suport GOT. L’objectiu és LLAPIS DINS; el distractor és LLAPIS FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-072ecc01e120|w-1775aa96869e|w-f871f670a944|w-1bed9f18ebab|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:25:56.177Z",
+  "contactRuleAdded": true,
+  "review": "Nena toca només llapis dins got; altre fora, contacte exclusiu i figura completa.",
+  "alt": {
+    "ca": "nena · tocar · llapis · dins · got.",
+    "es": "NIÑA · TOCAR · LÁPIZ · DENTRO · VASO."
+  },
+  "originalSha256": "f1af7e7b12668f3ab071385daf2a7cea0c0974a9a66ce7732ba01d7fb644fead",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:29:04.029Z"
+}

@@ -1,0 +1,113 @@
+{
+  "constructionId": "n7-173",
+  "file": "output/production/n7/n7-173/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ELEFANT + TOCAR + LLAPIS + DINS + GOT. Exactly one friendly anthropomorphic ELEFANT animal; NO human figures. Exact scene in Catalan: ELEFANT: dos exemplars de LLAPIS, un DINS i l’altre FORA, respecte d’un únic suport GOT. L’objectiu és LLAPIS DINS; el distractor és LLAPIS FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor GOT; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Both yellow pencils must be the SAME EXACT LENGTH and thickness, same pink eraser and black tip. Outside pencil rests diagonally on tabletop, entirely visible at full matching length; no foreshortening or short pencil. Inside pencil is visible through transparent glass, fingertip touches its eraser. Only positional distinction, no size contrast. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-173",
+    "number": 173,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-i-37",
+    "counterpartId": "n7-174",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "elefant · tocar · llapis · dins · got"
+    },
+    "labels": [
+      "ELEFANT",
+      "TOCAR",
+      "LLAPIS",
+      "DINS",
+      "GOT"
+    ],
+    "wordIds": [
+      "w-b059d8ef0bc9",
+      "w-072ecc01e120",
+      "w-1775aa96869e",
+      "w-f871f670a944",
+      "w-1bed9f18ebab"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ELEFANT",
+        "wordId": "w-b059d8ef0bc9"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "ELEFANT: dos exemplars de LLAPIS, un DINS i l’altre FORA, respecte d’un únic suport GOT. L’objectiu és LLAPIS DINS; el distractor és LLAPIS FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b059d8ef0bc9|w-072ecc01e120|w-1775aa96869e|w-f871f670a944|w-1bed9f18ebab|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:25:56.341Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-173/rejected-01.png",
+      "reason": "Llapis exterior massa curt respecte de l’interior; cal igualar-ne longitud.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ELEFANT + TOCAR + LLAPIS + DINS + GOT. Exactly one friendly anthropomorphic ELEFANT animal; NO human figures. Exact scene in Catalan: ELEFANT: dos exemplars de LLAPIS, un DINS i l’altre FORA, respecte d’un únic suport GOT. L’objectiu és LLAPIS DINS; el distractor és LLAPIS FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor GOT; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T20:29:04.411Z"
+    }
+  ],
+  "review": "Elefant toca llapis dins got; segon equivalent fora, longitud corregida.",
+  "alt": {
+    "ca": "elefant · tocar · llapis · dins · got.",
+    "es": "ELEFANTE · TOCAR · LÁPIZ · DENTRO · VASO."
+  },
+  "originalSha256": "7e689c31ef7f5a0cd22995a83513cba8b445c77fa953b00e3c45f1d96750d93b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:30:39.066Z"
+}

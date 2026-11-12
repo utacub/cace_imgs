@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-077",
+  "file": "output/production/n7/n7-077/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + NINA + DINS + CAIXA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de NINA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és NINA DINS; el distractor és NINA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of NINA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-077",
+    "number": 77,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-h-39",
+    "counterpartId": "n7-078",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · nina · dins · caixa"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "NINA",
+      "DINS",
+      "CAIXA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-db89958a3c63",
+      "w-f871f670a944",
+      "w-696b7c739d30"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "NOIA: dos exemplars de NINA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és NINA DINS; el distractor és NINA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-db89958a3c63|w-f871f670a944|w-696b7c739d30|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:29:07.158Z",
+  "contactRuleAdded": true,
+  "review": "Noia toca nina dins caixa; nina equivalent fora, figura completa i contacte clar.",
+  "alt": {
+    "ca": "noia · tocar · nina · dins · caixa.",
+    "es": "CHICA · TOCAR · MUÑECA · DENTRO · CAJA."
+  },
+  "originalSha256": "cc6f4d25dcf106e30b947416f30491fc199071b817d83cb44d572f73122df177",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:32:06.160Z"
+}
