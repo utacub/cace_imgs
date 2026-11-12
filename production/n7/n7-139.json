@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + AIXECAR + PILOTA + RATLLES. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de PILOTA, un RATLLES i l’altre TOPOS. L’objectiu és PILOTA RATLLES; el distractor és PILOTA TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-139",
     "number": 139,
@@ -80,5 +80,17 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T19:43:59.917Z",
-  "contactRuleAdded": true
+  "contactRuleAdded": true,
+  "review": "Girafa completa aixeca només pilota de ratlles; de topos reposant. Mateix color de base i motiu, dues pilotes llegibles.",
+  "alt": {
+    "ca": "girafa · aixecar · pilota · ratlles.",
+    "es": "JIRAFA · LEVANTAR · PELOTA · RAYAS."
+  },
+  "originalSha256": "0b3e7b7c69e5e8db914c00d75ce4395f766b1377c2f84664a7a8a963393a9a7f",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:49:22.554Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:42.164778+00:00"
 }

@@ -9,10 +9,18 @@ expected = json.loads((root/'src/catalog-data.json').read_text(encoding='utf-8')
 if len(sys.argv)>1:
     expected=json.loads(subprocess.check_output(['git','show',sys.argv[1]+':src/catalog-data.json'],cwd=root))
 base = 'https://utacub.github.io/cace_imgs/'
+retries = []
 def fetch(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'CACE-publication-verification'})
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return response.read()
+    for attempt in range(5):
+        try:
+            request = urllib.request.Request(url, headers={'User-Agent': 'CACE-publication-verification'})
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return response.read()
+        except Exception as error:
+            if attempt == 4:
+                raise
+            retries.append({'url': url, 'attempt': attempt+1, 'error': str(error)})
+            time.sleep(min(2*(attempt+1), 6))
 class Parser(HTMLParser):
     active = False
     def __init__(self):
@@ -34,10 +42,10 @@ def verify(asset):
     raw = fetch(base+asset['src']+'?verify='+expected['version'])
     assert hashlib.sha256(raw).hexdigest() == asset['displaySha256'], asset['id']
     return asset['id']
-with ThreadPoolExecutor(max_workers=8) as pool:
+with ThreadPoolExecutor(max_workers=4) as pool:
     verified = list(pool.map(verify, assets))
 report = {'status': 'verified', 'version': expected['version'], 'catalogImages': len(expected['assets']),
-          'n7DownloadsVerified': len(verified), 'verifiedIds': verified, 'verifiedAtUtc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
+          'n7DownloadsVerified': len(verified), 'verifiedIds': verified, 'transientRetries': retries, 'verifiedAtUtc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
 (root/'output/n7-publication-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 (root/f"output/n7-publication-{expected['version']}.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 print(json.dumps({k:v for k,v in report.items() if k != 'verifiedIds'}))

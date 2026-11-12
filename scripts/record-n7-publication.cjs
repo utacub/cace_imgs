@@ -1,0 +1,12 @@
+const fs=require('node:fs');
+const report=JSON.parse(fs.readFileSync('output/n7-publication-verification.json','utf8'));
+if(report.status!=='verified')throw Error('Publicació no verificada');
+const f='production/n7-progress.json',p=JSON.parse(fs.readFileSync(f,'utf8'));
+p.publicVerified=report.n7DownloadsVerified;p.publicVersion=report.version;p.publicVerifiedAt=report.verifiedAtUtc;
+p.lastDeployment={commit:process.argv[2]||null,publicVerification:'output/n7-publication-'+report.version+'.json',status:'public-catalog-and-downloads-verified'};
+const historyFile='production/n7-publications.json';
+const history=fs.existsSync(historyFile)?JSON.parse(fs.readFileSync(historyFile,'utf8')):[];
+if(!history.some(x=>x.version===report.version))history.push({...report,commit:process.argv[2]||null});
+fs.writeFileSync(historyFile,JSON.stringify(history,null,2)+'\n');
+fs.writeFileSync(f,JSON.stringify(p,null,2)+'\n');
+console.log({publicVersion:report.version,publicVerified:report.n7DownloadsVerified});

@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-143",
+  "file": "output/production/n7/n7-143/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + GALLEDA + NET. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: The ONLY TWO candidate objects are ordinary OPEN-TOP BUCKETS with a curved handle: GALLEDA in Catalan. NOT watering cans, NO spout, NO shoes or clothing objects. One bucket CLEAN, one same-model/color bucket with obvious dry brown mud stains. Agent touches ONLY CLEAN bucket with one finger/paw, other limb behind back. Full character and both buckets, pure white background with margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-143",
+    "number": 143,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-i-22",
+    "counterpartId": "n7-144",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · galleda · net"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "GALLEDA",
+      "NET"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-8cc4542c0125"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "BRUT",
+          "wordId": "w-e8c7f0581229"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "GOS: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-072ecc01e120|w-7f04619a8649|w-8cc4542c0125|contrast:w-e8c7f0581229",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:51:12.593Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-143/rejected-01.png",
+      "reason": "S’han generat sabates en lloc de GALLEDA. Es refà; cap sabata ni altre objecte.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + GALLEDA + NET. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T19:53:55.135Z"
+    }
+  ],
+  "bucketClarified": true,
+  "review": "Refeta: gos complet toca només galleda neta; bruta equivalent amb taques visibles. Cap sabata ni regadora, blanc i marges.",
+  "alt": {
+    "ca": "gos · tocar · galleda · net.",
+    "es": "PERRO · TOCAR · CUBO · LIMPIO."
+  },
+  "originalSha256": "3298c2248b51ba336ec243314ea2c52b0f161b755cdd1ee86529d5a923df7151",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:55:38.917Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:44.573719+00:00"
+}

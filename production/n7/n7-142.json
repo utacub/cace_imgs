@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-142",
   "file": "output/production/n7/n7-142/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AGAFAR + PLAT + BRUT. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PLAT, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AGAFAR on ONLY the PLAT qualified by BRUT. The opposing NET candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AGAFAR + PLAT + BRUT. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PLAT, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-142",
     "number": 142,
@@ -79,5 +79,20 @@
     "compositionKey": "w-11ff74d27c02|w-677819a0a32a|w-55d250f4cf1e|w-e8c7f0581229|contrast:w-8cc4542c0125",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T19:44:01.502Z"
+  "created": "2026-11-12T19:44:01.502Z",
+  "referenceFile": "output/production/n7/n7-141/image.png",
+  "referenceConstructionId": "n7-141",
+  "contactRuleAdded": true,
+  "review": "Mateix gat i plats; ara agafa només el brut, net intacte. Taques i model conservats, marges correctes.",
+  "alt": {
+    "ca": "gat · agafar · plat · brut.",
+    "es": "GATO · COGER · PLATO · SUCIO."
+  },
+  "originalSha256": "1ba329bb14cc6a76acab593f5caa8e8c3a69ed031b7af3929ceb8ba5f0e72153",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:53:54.972Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:44.007063+00:00"
 }

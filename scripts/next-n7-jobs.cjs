@@ -6,6 +6,9 @@ for(const x of selected){
  const file=`production/n7/${x.id}.json`;let r=JSON.parse(fs.readFileSync(file,'utf8'));
  if(x.number%2===0&&!r.referenceFile){cp.execFileSync(process.execPath,['scripts/prepare-n7-pair-edit.cjs',x.id]);r=JSON.parse(fs.readFileSync(file,'utf8'));}
  if(!r.contactRuleAdded){r.prompt+=' Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.';r.contactRuleAdded=true;fs.writeFileSync(file,JSON.stringify(r,null,2)+'\n');}
+ if(x.roles[2].label!=='SABATES')r.prompt=r.prompt.replaceAll('SABATES, quan correspon, són dos parells complets i equivalents.','');
+ if(x.roles[2].label==='GALLEDA'&&!r.bucketClarified){r.prompt+=' GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.';r.bucketClarified=true;}
+ fs.writeFileSync(file,JSON.stringify(r,null,2)+'\n');
  jobs.push({id:x.id,prompt:r.prompt,referenceFile:r.referenceFile});
 }
 fs.writeFileSync('output/n7-ready-jobs.json',JSON.stringify(jobs,null,2)+'\n');console.log(jobs.map(x=>x.id).join(' '));

@@ -1,0 +1,94 @@
+{
+  "constructionId": "n7-047",
+  "file": "output/production/n7/n7-047/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + PORTAR + PALA + NET. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de PALA, un NET i l’altre BRUT. L’objectiu és PALA NET; el distractor és PALA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PALA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-047",
+    "number": 47,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-h-24",
+    "counterpartId": "n7-048",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · portar · pala · net"
+    },
+    "labels": [
+      "HOME",
+      "PORTAR",
+      "PALA",
+      "NET"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-208167fa638f",
+      "w-8cc4542c0125"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      },
+      "distractor": {
+        "label": "PALA",
+        "wordId": "w-208167fa638f",
+        "specifier": {
+          "label": "BRUT",
+          "wordId": "w-e8c7f0581229"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "HOME: dos exemplars de PALA, un NET i l’altre BRUT. L’objectiu és PALA NET; el distractor és PALA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cfe24f6b3c38|w-73b71e1ff757|w-208167fa638f|w-8cc4542c0125|contrast:w-e8c7f0581229",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:57:24.436Z",
+  "contactRuleAdded": true,
+  "review": "Home complet porta pala neta en pas; bruta del mateix tipus reposant a suport baix, taques visibles i cap contacte amb distractor.",
+  "alt": {
+    "ca": "home · portar · pala · net.",
+    "es": "HOMBRE · LLEVAR · PALA · LIMPIO."
+  },
+  "originalSha256": "79a350f550373797e189761c5ca673a3ab2ab97fb691b1381c2b599bd4c905dd",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:59:24.104Z"
+}

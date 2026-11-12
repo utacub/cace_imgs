@@ -1,0 +1,98 @@
+{
+  "constructionId": "n7-146",
+  "file": "output/production/n7/n7-146/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AIXECAR on ONLY the SABATES qualified by BRUT. The opposing NET candidate must receive NO contact and remain clearly visible. The selected object is lifted slightly; the previously lifted distractor now rests on the support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + AIXECAR + SABATES + BRUT. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de SABATES, un NET i l’altre BRUT. L’objectiu és SABATES BRUT; el distractor és SABATES NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of SABATES, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-146",
+    "number": 146,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-i-23",
+    "counterpartId": "n7-145",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · aixecar · sabates · brut"
+    },
+    "labels": [
+      "CONILL",
+      "AIXECAR",
+      "SABATES",
+      "BRUT"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-e12d88415c80",
+      "w-6e2a67944770",
+      "w-e8c7f0581229"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      },
+      "distractor": {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770",
+        "specifier": {
+          "label": "NET",
+          "wordId": "w-8cc4542c0125"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "CONILL: dos exemplars de SABATES, un NET i l’altre BRUT. L’objectiu és SABATES BRUT; el distractor és SABATES NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-51a7805e979b|w-e12d88415c80|w-6e2a67944770|w-e8c7f0581229|contrast:w-8cc4542c0125",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:51:13.105Z",
+  "referenceFile": "output/production/n7/n7-145/image.png",
+  "referenceConstructionId": "n7-145",
+  "contactRuleAdded": true,
+  "review": "Mateix conill i parells; només brut aixecat, net reposant a l’altre costat. Presa exclusiva, blanc i marges.",
+  "alt": {
+    "ca": "conill · aixecar · sabates · brut.",
+    "es": "CONEJO · LEVANTAR · ZAPATOS · SUCIO."
+  },
+  "originalSha256": "d2bb072961849234eabbc8afb9da5c06ef64a16ff8c130cd0b518a9c060b965a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:57:24.143Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:46.296420+00:00"
+}

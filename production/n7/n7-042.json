@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-042",
   "file": "output/production/n7/n7-042/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + AGAFAR + PLAT + BRUT. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PLAT, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AGAFAR on ONLY the PLAT qualified by BRUT. The opposing NET candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + AGAFAR + PLAT + BRUT. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PLAT, un NET i l’altre BRUT. L’objectiu és PLAT BRUT; el distractor és PLAT NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PLAT, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-042",
     "number": 42,
@@ -79,5 +79,20 @@
     "compositionKey": "w-b38ff488f862|w-677819a0a32a|w-55d250f4cf1e|w-e8c7f0581229|contrast:w-8cc4542c0125",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T19:44:00.834Z"
+  "created": "2026-11-12T19:44:00.834Z",
+  "referenceFile": "output/production/n7/n7-041/image.png",
+  "referenceConstructionId": "n7-041",
+  "contactRuleAdded": true,
+  "review": "Mateixa noia i dos plats; presa exclusiva del brut amb taques visibles, net intacte. Estat i contacte clars.",
+  "alt": {
+    "ca": "noia · agafar · plat · brut.",
+    "es": "CHICA · COGER · PLATO · SUCIO."
+  },
+  "originalSha256": "88a7ad9c21b41432688f41ae5ba8599d138689da42f21230d65f90c179cee6a6",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:53:54.839Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:35.202804+00:00"
 }

@@ -1,0 +1,83 @@
+{
+  "constructionId": "n7-054",
+  "file": "output/production/n7/n7-054/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + MOCADOR + MULLAT. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de MOCADOR, un SEC i l’altre MULLAT. L’objectiu és MOCADOR MULLAT; el distractor és MOCADOR SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target MULLAT, distractor SEC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-054",
+    "number": 54,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-h-27",
+    "counterpartId": "n7-053",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · mocador · mullat"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "MOCADOR",
+      "MULLAT"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-35e3a6c8a7fd",
+      "w-8d5a009dde27"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      },
+      "distractor": {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd",
+        "specifier": {
+          "label": "SEC",
+          "wordId": "w-88d8bd2c2fd2"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "NOIA: dos exemplars de MOCADOR, un SEC i l’altre MULLAT. L’objectiu és MOCADOR MULLAT; el distractor és MOCADOR SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-35e3a6c8a7fd|w-8d5a009dde27|contrast:w-88d8bd2c2fd2",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:01:29.618Z"
+}

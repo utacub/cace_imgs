@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-043",
+  "file": "output/production/n7/n7-043/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + GALLEDA + NET. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: The ONLY TWO candidate objects are ordinary OPEN-TOP BUCKETS with a curved handle: GALLEDA in Catalan. NOT watering cans, NO spout, NO shoes or clothing objects. One bucket CLEAN, one same-model/color bucket with obvious dry brown mud stains. Agent touches ONLY CLEAN bucket with one finger/paw, other limb behind back. Full character and both buckets, pure white background with margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-043",
+    "number": 43,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-h-22",
+    "counterpartId": "n7-044",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · tocar · galleda · net"
+    },
+    "labels": [
+      "NOI",
+      "TOCAR",
+      "GALLEDA",
+      "NET"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-8cc4542c0125"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "BRUT",
+          "wordId": "w-e8c7f0581229"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "NOI: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-072ecc01e120|w-7f04619a8649|w-8cc4542c0125|contrast:w-e8c7f0581229",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:51:12.427Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-043/rejected-01.png",
+      "reason": "S’han generat regadores en lloc de GALLEDA. Es refà amb galledes obertes sense broc.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + GALLEDA + NET. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA NET; el distractor és GALLEDA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T19:53:55.042Z"
+    }
+  ],
+  "bucketClarified": true,
+  "review": "Refeta: noi complet toca només galleda neta oberta amb nansa; bruta del mateix model amb taques de terra, sense broc. Referents ara correctes.",
+  "alt": {
+    "ca": "noi · tocar · galleda · net.",
+    "es": "CHICO · TOCAR · CUBO · LIMPIO."
+  },
+  "originalSha256": "ebc8c3fe6d560dbc9da069bd1104aed627563ca5bb27bd0b9e62e948f1fa8e59",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:55:38.773Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:35.778469+00:00"
+}

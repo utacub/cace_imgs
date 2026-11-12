@@ -3,6 +3,7 @@ from pathlib import Path, PurePosixPath
 import hashlib
 import json
 import tempfile
+import time
 import zipfile
 
 root = Path(__file__).resolve().parents[1]
@@ -11,6 +12,21 @@ bank = root / 'bank'
 bank.mkdir(exist_ok=True)
 parts = []
 expected = {asset['src']: asset for asset in data['assets']}
+def write_atomic(destination, raw):
+    # Preserve identical archive parts and avoid needless Windows file replacements.
+    temporary = destination.with_name(destination.name + '.tmp')
+    if destination.is_file() and destination.read_bytes() == raw:
+        temporary.unlink(missing_ok=True)
+        return
+    temporary.write_bytes(raw)
+    for attempt in range(6):
+        try:
+            temporary.replace(destination)
+            return
+        except PermissionError:
+            if attempt == 5:
+                raise
+            time.sleep(0.25 * (attempt+1))
 assert len(expected) == len(data['assets'])
 for name in expected:
     relative = PurePosixPath(name)
@@ -65,16 +81,12 @@ with tempfile.TemporaryFile() as assembled:
     while raw := assembled.read(4 * 1024 * 1024):
         name = f'images.zip.part-{len(parts):04d}'
         destination = bank / name
-        temporary = destination.with_name(destination.name + '.tmp')
-        temporary.write_bytes(raw)
-        temporary.replace(destination)
+        write_atomic(destination, raw)
         parts.append({'path': name, 'bytes': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()})
         checksum.update(raw)
         total += len(raw)
 manifest = {'format': 'cace-imatges-image-bank', 'version': 1, 'archive_sha256': checksum.hexdigest(), 'archive_bytes': total, 'images': len(data['assets']), 'parts': parts}
-temporary = bank / 'manifest.json.tmp'
-temporary.write_text(json.dumps(manifest, indent=2) + '\n')
-temporary.replace(bank / 'manifest.json')
+write_atomic(bank / 'manifest.json', (json.dumps(manifest, indent=2) + '\n').encode('utf-8'))
 for previous in bank.glob('images.zip.part-*'):
     if previous.name not in {part['path'] for part in parts}:
         previous.unlink()

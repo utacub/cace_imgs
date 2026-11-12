@@ -4,8 +4,8 @@
   "prompt": "Edit the provided n7-035 reference. Preserve same adult man and TWO bags with their original patterns. Do NOT swap printed patterns. Man now CARRIES POLKA-DOT BAG on image LEFT with his other hand while walking. STRIPED bag rests untouched on low stool moved to image RIGHT. Same bag sizes, materials, colors, exact patterns. Full man and stool, unused hand behind back, white background and margins. No text.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-036",
     "number": 36,
@@ -83,16 +83,16 @@
   "referenceFile": "output/production/n7/n7-035/image.png",
   "referenceConstructionId": "n7-035",
   "contactRuleAdded": true,
-  "review": "Mateix home i bosses; ara porta només topos, ratlles reposant. Pas, contacte únic i composició conservats.",
+  "review": "Refeta coherent: home porta topos a l’esquerra, ratlles reposant a la dreta. Canvia realment el referent seleccionat i el costat; estampats conservats.",
   "alt": {
     "ca": "home · portar · bossa · topos.",
     "es": "HOMBRE · LLEVAR · BOLSA · TOPOS."
   },
-  "originalSha256": "b140f7c970e58454d7c96781bf467fff0d7ad10ddd0eaa67b1311d12f87f956f",
+  "originalSha256": "e50155ec1cc50a3a4f63e9755b5ea4990326c326180faf45eb0a78968f18a218",
   "width": 1312,
   "height": 1199,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T19:43:57.939Z",
+  "reviewedAt": "2026-11-12T19:49:22.339Z",
   "rejectedAttempts": [
     {
       "file": "output/production/n7/n7-036/rejected-01.png",
@@ -101,5 +101,7 @@
       "rejectedAt": "2026-11-12T19:46:47.600Z",
       "previousSha256": "b140f7c970e58454d7c96781bf467fff0d7ad10ddd0eaa67b1311d12f87f956f"
     }
-  ]
+  ],
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:31.207428+00:00"
 }

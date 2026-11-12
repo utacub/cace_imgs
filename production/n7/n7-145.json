@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-145",
+  "file": "output/production/n7/n7-145/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + AIXECAR + SABATES + NET. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de SABATES, un NET i l’altre BRUT. L’objectiu és SABATES NET; el distractor és SABATES BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of SABATES, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-145",
+    "number": 145,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-i-23",
+    "counterpartId": "n7-146",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · aixecar · sabates · net"
+    },
+    "labels": [
+      "CONILL",
+      "AIXECAR",
+      "SABATES",
+      "NET"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-e12d88415c80",
+      "w-6e2a67944770",
+      "w-8cc4542c0125"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      },
+      "distractor": {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770",
+        "specifier": {
+          "label": "BRUT",
+          "wordId": "w-e8c7f0581229"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "CONILL: dos exemplars de SABATES, un NET i l’altre BRUT. L’objectiu és SABATES NET; el distractor és SABATES BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-51a7805e979b|w-e12d88415c80|w-6e2a67944770|w-8cc4542c0125|contrast:w-e8c7f0581229",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:51:13.021Z",
+  "contactRuleAdded": true,
+  "review": "Conill complet aixeca només el parell de sabates netes; parell brut separat i mateix model. Contacte exclusiu i cos sencer.",
+  "alt": {
+    "ca": "conill · aixecar · sabates · net.",
+    "es": "CONEJO · LEVANTAR · ZAPATOS · LIMPIO."
+  },
+  "originalSha256": "0731dcac664691c191ec0487108115b82ff560ff0b08e982e2307b8a40f75724",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:55:39.190Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:45.756278+00:00"
+}

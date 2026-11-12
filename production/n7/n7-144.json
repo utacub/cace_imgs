@@ -1,0 +1,99 @@
+{
+  "constructionId": "n7-144",
+  "file": "output/production/n7/n7-144/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the GALLEDA qualified by BRUT. The opposing NET candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + GALLEDA + BRUT. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA BRUT; el distractor és GALLEDA NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-144",
+    "number": 144,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-i-22",
+    "counterpartId": "n7-143",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · galleda · brut"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "GALLEDA",
+      "BRUT"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-e8c7f0581229"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "NET",
+          "wordId": "w-8cc4542c0125"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "GOS: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA BRUT; el distractor és GALLEDA NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-072ecc01e120|w-7f04619a8649|w-e8c7f0581229|contrast:w-8cc4542c0125",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:51:12.732Z",
+  "referenceFile": "output/production/n7/n7-143/image.png",
+  "referenceConstructionId": "n7-143",
+  "contactRuleAdded": true,
+  "bucketClarified": true,
+  "review": "Mateix gos i galledes; contacte exclusiu amb bruta a l’altre costat, neta intacta. Sense objectes aliens.",
+  "alt": {
+    "ca": "gos · tocar · galleda · brut.",
+    "es": "PERRO · TOCAR · CUBO · SUCIO."
+  },
+  "originalSha256": "591757f3f4f4f3c9630e5fba78e6346e9a2897ac9dad802d9538f8db114459cc",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:57:23.856Z",
+  "publicationVersion": "0.1.129",
+  "importedAt": "2026-11-12T19:57:45.190044+00:00"
+}

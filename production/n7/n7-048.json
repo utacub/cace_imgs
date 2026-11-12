@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-048",
+  "file": "output/production/n7/n7-048/image.png",
+  "prompt": "EDIT the partner reference. Preserve the same full agent identity, clothes and TWO physical candidate objects, keeping the exact appearance and property of EACH candidate. NEVER swap patterns, colors, dirt, dryness or wetness between objects. Change WHICH OBJECT is carried and change the active arm to the OTHER side of the body. Agent now CARRIES ONLY PALA with property BRUT on the viewer's LEFT. The opposing NET candidate now RESTS untouched on the low support on the OTHER side; relocate that low support as needed. It must not remain the same carried object with its appearance changed. One walking step, unused hand behind back, complete body and all objects/support with generous white margins. No text, no extra items. The target class is PALA. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-048",
+    "number": 48,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-h-24",
+    "counterpartId": "n7-047",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · portar · pala · brut"
+    },
+    "labels": [
+      "HOME",
+      "PORTAR",
+      "PALA",
+      "BRUT"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-208167fa638f",
+      "w-e8c7f0581229"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BRUT",
+        "wordId": "w-e8c7f0581229"
+      },
+      "distractor": {
+        "label": "PALA",
+        "wordId": "w-208167fa638f",
+        "specifier": {
+          "label": "NET",
+          "wordId": "w-8cc4542c0125"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "HOME: dos exemplars de PALA, un NET i l’altre BRUT. L’objectiu és PALA BRUT; el distractor és PALA NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cfe24f6b3c38|w-73b71e1ff757|w-208167fa638f|w-e8c7f0581229|contrast:w-8cc4542c0125",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:57:24.507Z",
+  "referenceFile": "output/production/n7/n7-047/image.png",
+  "referenceConstructionId": "n7-047",
+  "contactRuleAdded": true,
+  "review": "Mateix home i pales; ara porta bruta a l’altre costat, neta reposant. Taques i models conservats, pas visible.",
+  "alt": {
+    "ca": "home · portar · pala · brut.",
+    "es": "HOMBRE · LLEVAR · PALA · SUCIO."
+  },
+  "originalSha256": "4a2f6240f8da5056b5cf5f170f7a319652a674ded94f23949bafcd2ef543ba09",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:01:26.255Z"
+}
