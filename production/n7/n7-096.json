@@ -1,0 +1,108 @@
+{
+  "constructionId": "n7-096",
+  "file": "output/production/n7/n7-096/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor TAULA. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the GALLEDA qualified by SOTA. The opposing SOBRE candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + GALLEDA + SOTA + TAULA. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de GALLEDA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és GALLEDA SOTA; el distractor és GALLEDA SOBRE. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target SOTA, distractor SOBRE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor TAULA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-096",
+    "number": 96,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "vertical",
+    "pairId": "n7-h-48",
+    "counterpartId": "n7-095",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tocar · galleda · sota · taula"
+    },
+    "labels": [
+      "HOME",
+      "TOCAR",
+      "GALLEDA",
+      "SOTA",
+      "TAULA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-e0a6aeb46069",
+      "w-1544f4efec59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "SOTA",
+        "wordId": "w-e0a6aeb46069"
+      },
+      {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SOTA",
+        "wordId": "w-e0a6aeb46069"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "SOBRE",
+          "wordId": "w-d44584204864"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "vertical",
+      "evidence": "Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure."
+    },
+    "visualDescription": "HOME: dos exemplars de GALLEDA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és GALLEDA SOTA; el distractor és GALLEDA SOBRE. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cfe24f6b3c38|w-072ecc01e120|w-7f04619a8649|w-e0a6aeb46069|w-1544f4efec59|contrast:w-d44584204864",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:48:04.845Z",
+  "referenceFile": "output/production/n7/n7-095/image.png",
+  "referenceConstructionId": "n7-095",
+  "contactRuleAdded": true,
+  "bucketClarified": true,
+  "review": "Home toca galleda sota taula; sobre preservada, parella coherent.",
+  "alt": {
+    "ca": "home · tocar · galleda · sota · taula.",
+    "es": "HOMBRE · TOCAR · CUBO · BAJO · MESA."
+  },
+  "originalSha256": "bbf117edb1aa0b6958910bf2bbd177d869af47e7cc1fe5b75729286c8ae6e671",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:53:32.346Z"
+}

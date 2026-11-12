@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + LLIBRE + SOBRE + CADIRA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de LLIBRE, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és LLIBRE SOBRE; el distractor és LLIBRE SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLIBRE, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-089",
     "number": 89,
@@ -91,5 +91,17 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:41:07.046Z",
-  "contactRuleAdded": true
+  "contactRuleAdded": true,
+  "review": "Noia toca llibre sobre cadira; equivalent sota, sense text i cos sencer.",
+  "alt": {
+    "ca": "noia · tocar · llibre · sobre · cadira.",
+    "es": "CHICA · TOCAR · LIBRO · SOBRE · SILLA."
+  },
+  "originalSha256": "1a67b0c4555f5c18c5ce386edf6aa7d22c1ad34ad2e2379f0b456af5baf469af",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:44:22.161Z",
+  "publicationVersion": "0.1.133",
+  "importedAt": "2026-11-12T20:49:56.466672+00:00"
 }

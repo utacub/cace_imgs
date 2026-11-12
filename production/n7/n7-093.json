@@ -1,0 +1,115 @@
+{
+  "constructionId": "n7-093",
+  "file": "output/production/n7/n7-093/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + TOCAR + MOTXILLA + SOBRE + CADIRA. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de MOTXILLA, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és MOTXILLA SOBRE; el distractor és MOTXILLA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOTXILLA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Two EXACTLY IDENTICAL RED backpacks with black zippers and black straps, same size and shape. NO BLUE backpack or other color. One RED backpack on chair seat, another identical RED backpack UNDER chair resting floor. Agent touches only RED backpack ON seat. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-093",
+    "number": 93,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "vertical",
+    "pairId": "n7-h-47",
+    "counterpartId": "n7-094",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tocar · motxilla · sobre · cadira"
+    },
+    "labels": [
+      "DONA",
+      "TOCAR",
+      "MOTXILLA",
+      "SOBRE",
+      "CADIRA"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-072ecc01e120",
+      "w-43db0ea26088",
+      "w-d44584204864",
+      "w-e1efe2c4e23d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      {
+        "role": "anchor",
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      "distractor": {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088",
+        "specifier": {
+          "label": "SOTA",
+          "wordId": "w-e0a6aeb46069"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      "targetSide": "esquerra",
+      "controlledDifference": "vertical",
+      "evidence": "Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure."
+    },
+    "visualDescription": "DONA: dos exemplars de MOTXILLA, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és MOTXILLA SOBRE; el distractor és MOTXILLA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-72e9fe9a8b43|w-072ecc01e120|w-43db0ea26088|w-d44584204864|w-e1efe2c4e23d|contrast:w-e0a6aeb46069",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:44:23.078Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-093/rejected-01.png",
+      "reason": "Motxilles de colors diferents, cal igualar referents.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + TOCAR + MOTXILLA + SOBRE + CADIRA. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de MOTXILLA, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és MOTXILLA SOBRE; el distractor és MOTXILLA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOTXILLA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T20:48:04.414Z"
+    }
+  ],
+  "review": "Dona toca motxilla vermella sobre cadira; equivalent sota, color corregit.",
+  "alt": {
+    "ca": "dona · tocar · motxilla · sobre · cadira.",
+    "es": "MUJER · TOCAR · MOCHILA · SOBRE · SILLA."
+  },
+  "originalSha256": "8675a8e99bc4e60d876da5fbe520695f2416bcc666cff9bdb48a368a12879b60",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:49:39.379Z",
+  "publicationVersion": "0.1.133",
+  "importedAt": "2026-11-12T20:49:58.996425+00:00"
+}

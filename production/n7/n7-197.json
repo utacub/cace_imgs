@@ -1,0 +1,105 @@
+{
+  "constructionId": "n7-197",
+  "file": "output/production/n7/n7-197/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + TASSA + SOBRE + TAULA. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de TASSA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és TASSA SOBRE; el distractor és TASSA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TASSA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor TAULA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CRITICAL spatial-only contrast: BOTH candidate objects must have EXACTLY THE SAME COLOR, shape, pattern, size and material. Choose a single solid RED base color for BOTH candidates. No red/blue or other different colors. Their position relative to the furniture is the only distinguishing property.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-197",
+    "number": 197,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "posicio",
+    "contrastSubtype": "vertical",
+    "pairId": "n7-i-49",
+    "counterpartId": "n7-198",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "cangur · tocar · tassa · sobre · taula"
+    },
+    "labels": [
+      "CANGUR",
+      "TOCAR",
+      "TASSA",
+      "SOBRE",
+      "TAULA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-072ecc01e120",
+      "w-adecb8403118",
+      "w-d44584204864",
+      "w-1544f4efec59"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SOBRE",
+        "wordId": "w-d44584204864"
+      },
+      "distractor": {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118",
+        "specifier": {
+          "label": "SOTA",
+          "wordId": "w-e0a6aeb46069"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "vertical",
+      "evidence": "Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure."
+    },
+    "visualDescription": "CANGUR: dos exemplars de TASSA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és TASSA SOBRE; el distractor és TASSA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-d5395d03acbf|w-072ecc01e120|w-adecb8403118|w-d44584204864|w-1544f4efec59|contrast:w-e0a6aeb46069",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:48:05.287Z",
+  "contactRuleAdded": true,
+  "review": "Cangur toca tassa sobre taula; equivalent sota, contacte exclusiu.",
+  "alt": {
+    "ca": "cangur · tocar · tassa · sobre · taula.",
+    "es": "CANGURO · TOCAR · TAZA · SOBRE · MESA."
+  },
+  "originalSha256": "3d5ffb5055ab8a31935cf2d29d021d36b1e91e790546594b54a8e9074f1c6a59",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:53:33.140Z"
+}
