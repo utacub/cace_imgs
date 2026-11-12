@@ -19,7 +19,12 @@ for(const [version,oldCommit] of [['0.1.126','7fa45b115569a8f32808ca224e92b400f9
 }
 history.sort((a,b)=>a.version.localeCompare(b.version,undefined,{numeric:true}));write('production/n7-publications.json',history);
 const finishedAt=new Date().toISOString();
+const accepted=fs.readdirSync('production/n7').filter(x=>/^n7-\d{3}\.json$/.test(x)).map(x=>read('production/n7/'+x));
+const generationStoppedAt=accepted.map(x=>x.reviewedAt).sort().at(-1);
 const result={status:'complete',level:7,planned:200,reviewed:200,imported:200,published:200,habitual:100,insolita:100,precisionTypes:plan.items.reduce((a,x)=>(a[x.precisionType]=(a[x.precisionType]||0)+1,a),{}),catalogVersion:publicReport.version,catalogImages:publicReport.catalogImages,preservedImages:audit.existingImagesPreserved,preservedCaceEntries:audit.existingWordsPreserved,baselineCommit:progress.baseline.head,finalProductionCommit:commit,generationStoppedAt:'2026-11-12T20:56:55.413Z',completedAt:finishedAt,deadline:progress.sessionDeadline,completedBeforeDeadline:finishedAt<progress.sessionDeadline,rejectedAttempts:audit.rejectedAttempts,testsPassed:18,localAuditStatus:audit.status,publicVerifiedAt:publicReport.verifiedAtUtc,originals:'output/production/n7',records:'production/n7',reviewGallery:'output/n7-review.html',audit:'output/n7-production-audit.json',publicationEvidence:'production/n7-publications.json',siteUrl:'https://utacub.github.io/cace_imgs/',note:'200 N7 generades amb image_gen integrat, revisades individualment i publicades per lots. Es preserven tots els originals, els intents descartats i el catàleg anterior. No generar més N7.'};
+result.generationStoppedAt=generationStoppedAt;
+result.finalWorkflowRun=43305942518;
+result.finalWorkflowUrl='https://github.com/utacub/cace_imgs/actions/runs/43305942518';
 write('production/n7-session-completion.json',result);
 write('production/n7-final-audit.json',{...audit,files:undefined,publicVerification:publicReport});
 const current=read('production/n7-progress.json');current.status='complete';current.completedAt=finishedAt;current.generationStoppedAt=result.generationStoppedAt;write('production/n7-progress.json',current);

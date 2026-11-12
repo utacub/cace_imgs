@@ -1,3 +1,11 @@
+# N7 · 200 imatges completades i publicades
+
+Les 200 N7 estan generades, revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Aspecte: 80; estat: 60; posició: 60. Catàleg públic 0.1.134: 3669 imatges. Verificació pública completa: 2026-11-12T21:03:54Z; 200 descàrregues WebP comprovades amb SHA-256. Es conserven exactament les 3469 imatges i les 861 entrades CACE anteriors. Tasca acabada abans de les 22:20 Europe/Madrid. No generar més N7.
+
+Registre: production/n7-session-completion.json; auditoria: production/n7-final-audit.json; publicacions: production/n7-publications.json. Originals i descartades a output/production/n7; prompts i revisions a production/n7.
+
+---
+
 # N7 · Producció autoritzada · 12/11/2026
 
 Sessió activa de generació, revisió i publicació progressiva de les 200 N7 aprovades. Final a les 22:20 Europe/Madrid; tall preventiu de generació a les 22:15. Preservar les 3469 imatges i les 861 entrades anteriors. Estat vigent a production/n7-progress.json; prompts i revisions a production/n7.
