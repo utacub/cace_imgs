@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + TOVALLOLA + SEC. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de TOVALLOLA, un SEC i l’altre MULLAT. L’objectiu és TOVALLOLA SEC; el distractor és TOVALLOLA MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TOVALLOLA, target SEC, distractor MULLAT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-051",
     "number": 51,
@@ -80,5 +80,17 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:01:27.870Z",
-  "contactRuleAdded": true
+  "contactRuleAdded": true,
+  "review": "Nen complet agafa només la tovallola seca; mullada del mateix color amb zona humida i gotes visibles. Contacte exclusiu i fons blanc.",
+  "alt": {
+    "ca": "nen · agafar · tovallola · sec.",
+    "es": "NIÑO · COGER · TOALLA · SECO."
+  },
+  "originalSha256": "84eed846beaff2e6d2f13293f742fee8c05ba609cae2a14abb4360f86bbabd56",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:06:52.857Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:31.113487+00:00"
 }

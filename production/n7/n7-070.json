@@ -1,0 +1,83 @@
+{
+  "constructionId": "n7-070",
+  "file": "output/production/n7/n7-070/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + TOCAR + CISTELL + BUIT. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de CISTELL, un PLE i l’altre BUIT. L’objectiu és CISTELL BUIT; el distractor és CISTELL PLE. Cistells oberts idèntics: un ple fins a la vora de peces de fusta neutres i l’altre amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CISTELL, target BUIT, distractor PLE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-070",
+    "number": 70,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-h-35",
+    "counterpartId": "n7-069",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tocar · cistell · buit"
+    },
+    "labels": [
+      "DONA",
+      "TOCAR",
+      "CISTELL",
+      "BUIT"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-072ecc01e120",
+      "w-120fb6b37e88",
+      "w-1d8378757b29"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      },
+      {
+        "role": "specifier",
+        "label": "BUIT",
+        "wordId": "w-1d8378757b29"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BUIT",
+        "wordId": "w-1d8378757b29"
+      },
+      "distractor": {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88",
+        "specifier": {
+          "label": "PLE",
+          "wordId": "w-427a0daa495d"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "contingut",
+      "evidence": "Cistells oberts idèntics: un ple fins a la vora de peces de fusta neutres i l’altre amb el fons interior completament visible."
+    },
+    "visualDescription": "DONA: dos exemplars de CISTELL, un PLE i l’altre BUIT. L’objectiu és CISTELL BUIT; el distractor és CISTELL PLE. Cistells oberts idèntics: un ple fins a la vora de peces de fusta neutres i l’altre amb el fons interior completament visible. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-72e9fe9a8b43|w-072ecc01e120|w-120fb6b37e88|w-1d8378757b29|contrast:w-427a0daa495d",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:20:35.311Z"
+}

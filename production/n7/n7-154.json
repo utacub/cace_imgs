@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-154",
   "file": "output/production/n7/n7-154/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ELEFANT + TOCAR + MOCADOR + MULLAT. Exactly one friendly anthropomorphic ELEFANT animal; NO human figures. Exact scene in Catalan: ELEFANT: dos exemplars de MOCADOR, un SEC i l’altre MULLAT. L’objectiu és MOCADOR MULLAT; el distractor és MOCADOR SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target MULLAT, distractor SEC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the MOCADOR qualified by MULLAT. The opposing SEC candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ELEFANT + TOCAR + MOCADOR + MULLAT. Exactly one friendly anthropomorphic ELEFANT animal; NO human figures. Exact scene in Catalan: ELEFANT: dos exemplars de MOCADOR, un SEC i l’altre MULLAT. L’objectiu és MOCADOR MULLAT; el distractor és MOCADOR SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target MULLAT, distractor SEC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-154",
     "number": 154,
@@ -79,5 +79,20 @@
     "compositionKey": "w-b059d8ef0bc9|w-072ecc01e120|w-35e3a6c8a7fd|w-8d5a009dde27|contrast:w-88d8bd2c2fd2",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T20:01:30.467Z"
+  "created": "2026-11-12T20:01:30.467Z",
+  "referenceFile": "output/production/n7/n7-153/image.png",
+  "referenceConstructionId": "n7-153",
+  "contactRuleAdded": true,
+  "review": "Mateix elefant i mocadors; toca només mullat, sec intacte. Tela fina i zona humida amb gotes conservades.",
+  "alt": {
+    "ca": "elefant · tocar · mocador · mullat.",
+    "es": "ELEFANTE · TOCAR · PAÑUELO · MOJADO."
+  },
+  "originalSha256": "78d71ed97cb0130923d2f303151b0a05f8d2b42d38a34fbf03dd885e2477a9fc",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:08:44.774Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:44.082014+00:00"
 }

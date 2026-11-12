@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-055",
+  "file": "output/production/n7/n7-055/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + AIXECAR + ESPONJA + SEC. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de ESPONJA, un SEC i l’altre MULLAT. L’objectiu és ESPONJA SEC; el distractor és ESPONJA MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of ESPONJA, target SEC, distractor MULLAT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-055",
+    "number": 55,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-h-28",
+    "counterpartId": "n7-056",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · aixecar · esponja · sec"
+    },
+    "labels": [
+      "NOI",
+      "AIXECAR",
+      "ESPONJA",
+      "SEC"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-e12d88415c80",
+      "w-2d404e0d8979",
+      "w-88d8bd2c2fd2"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "role": "specifier",
+        "label": "SEC",
+        "wordId": "w-88d8bd2c2fd2"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SEC",
+        "wordId": "w-88d8bd2c2fd2"
+      },
+      "distractor": {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979",
+        "specifier": {
+          "label": "MULLAT",
+          "wordId": "w-8d5a009dde27"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "NOI: dos exemplars de ESPONJA, un SEC i l’altre MULLAT. L’objectiu és ESPONJA SEC; el distractor és ESPONJA MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-e12d88415c80|w-2d404e0d8979|w-88d8bd2c2fd2|contrast:w-8d5a009dde27",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:08:45.008Z",
+  "contactRuleAdded": true,
+  "review": "Aixeca només l’esponja seca; esponja mullada visible a la base, cos sencer.",
+  "alt": {
+    "ca": "noi · aixecar · esponja · sec.",
+    "es": "CHICO · LEVANTAR · ESPONJA · SECO."
+  },
+  "originalSha256": "78670be4eb6523137cd03085149780bcf217dea86e02a0ea2d61cc21eba0971b",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:12:19.008Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:33.696008+00:00"
+}

@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-164",
+  "file": "output/production/n7/n7-164/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the TASSA qualified by BUIT. The opposing PLE candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + TASSA + BUIT. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de TASSA, un PLE i l’altre BUIT. L’objectiu és TASSA BUIT; el distractor és TASSA PLE. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TASSA, target BUIT, distractor PLE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-164",
+    "number": 164,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-i-32",
+    "counterpartId": "n7-163",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · tassa · buit"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "TASSA",
+      "BUIT"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-adecb8403118",
+      "w-1d8378757b29"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "role": "specifier",
+        "label": "BUIT",
+        "wordId": "w-1d8378757b29"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "BUIT",
+        "wordId": "w-1d8378757b29"
+      },
+      "distractor": {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118",
+        "specifier": {
+          "label": "PLE",
+          "wordId": "w-427a0daa495d"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "contingut",
+      "evidence": "Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar."
+    },
+    "visualDescription": "GOS: dos exemplars de TASSA, un PLE i l’altre BUIT. L’objectiu és TASSA BUIT; el distractor és TASSA PLE. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-072ecc01e120|w-adecb8403118|w-1d8378757b29|contrast:w-427a0daa495d",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:17:22.016Z",
+  "referenceFile": "output/production/n7/n7-163/image.png",
+  "referenceConstructionId": "n7-163",
+  "contactRuleAdded": true,
+  "review": "Gos toca només vora de tassa buida; plena visible, parella coherent.",
+  "alt": {
+    "ca": "gos · tocar · tassa · buit.",
+    "es": "PERRO · TOCAR · TAZA · VACÍO."
+  },
+  "originalSha256": "a48b5c1aa0ea256f4f3431ee8d159dc25bad30e816742397c3657f5c1e3bab67",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:20:32.544Z"
+}

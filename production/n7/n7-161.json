@@ -1,0 +1,102 @@
+{
+  "constructionId": "n7-161",
+  "file": "output/production/n7/n7-161/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + TOCAR + GOT + PLE. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de GOT, un PLE i l’altre BUIT. L’objectiu és GOT PLE; el distractor és GOT BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GOT, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Cat must touch the OUTSIDE SIDE WALL of the full drinking glass with index fingertip, halfway down the outer glass wall. Hand approaches horizontally from side, not from above. Do NOT touch water, do NOT put finger inside rim. Full glass on right, empty left, only full glass receives external physical contact. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-161",
+    "number": 161,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-i-31",
+    "counterpartId": "n7-162",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · tocar · got · ple"
+    },
+    "labels": [
+      "GAT",
+      "TOCAR",
+      "GOT",
+      "PLE"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-072ecc01e120",
+      "w-1bed9f18ebab",
+      "w-427a0daa495d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      },
+      "distractor": {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab",
+        "specifier": {
+          "label": "BUIT",
+          "wordId": "w-1d8378757b29"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "contingut",
+      "evidence": "Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar."
+    },
+    "visualDescription": "GAT: dos exemplars de GOT, un PLE i l’altre BUIT. L’objectiu és GOT PLE; el distractor és GOT BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-11ff74d27c02|w-072ecc01e120|w-1bed9f18ebab|w-427a0daa495d|contrast:w-1d8378757b29",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:13:45.478Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-161/rejected-01.png",
+      "reason": "El dit sembla entrar a l’aigua en lloc de tocar la paret del got; contacte ambigu.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + TOCAR + GOT + PLE. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de GOT, un PLE i l’altre BUIT. L’objectiu és GOT PLE; el distractor és GOT BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GOT, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T20:17:21.277Z"
+    }
+  ],
+  "review": "Gat toca paret exterior del got ple amb contacte clar, buit separat.",
+  "alt": {
+    "ca": "gat · tocar · got · ple.",
+    "es": "GATO · TOCAR · VASO · LLENO."
+  },
+  "originalSha256": "ef9223e67882a5bd9d9137e46ddd3f2afe823334062905108f3efdf328fc69ab",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:18:53.242Z"
+}

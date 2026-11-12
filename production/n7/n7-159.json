@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-159",
+  "file": "output/production/n7/n7-159/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + TOCAR + TOVALLÓ + SEC. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de TOVALLÓ, un SEC i l’altre MULLAT. L’objectiu és TOVALLÓ SEC; el distractor és TOVALLÓ MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TOVALLÓ, target SEC, distractor MULLAT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-159",
+    "number": 159,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-i-30",
+    "counterpartId": "n7-160",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · tocar · tovalló · sec"
+    },
+    "labels": [
+      "GIRAFA",
+      "TOCAR",
+      "TOVALLÓ",
+      "SEC"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-072ecc01e120",
+      "w-b9ac8312c767",
+      "w-88d8bd2c2fd2"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GIRAFA",
+        "wordId": "w-e60f76be7b6c"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767"
+      },
+      {
+        "role": "specifier",
+        "label": "SEC",
+        "wordId": "w-88d8bd2c2fd2"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "SEC",
+        "wordId": "w-88d8bd2c2fd2"
+      },
+      "distractor": {
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767",
+        "specifier": {
+          "label": "MULLAT",
+          "wordId": "w-8d5a009dde27"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "GIRAFA: dos exemplars de TOVALLÓ, un SEC i l’altre MULLAT. L’objectiu és TOVALLÓ SEC; el distractor és TOVALLÓ MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-e60f76be7b6c|w-072ecc01e120|w-b9ac8312c767|w-88d8bd2c2fd2|contrast:w-8d5a009dde27",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:13:45.158Z",
+  "contactRuleAdded": true,
+  "review": "Girafa toca només tovallola seca; mullada separada, figura sencera.",
+  "alt": {
+    "ca": "girafa · tocar · tovalló · sec.",
+    "es": "JIRAFA · TOCAR · SERVILLETA · SECO."
+  },
+  "originalSha256": "4ffb9722181d3d28a9a49417ec55f207a16f4cd440f4c6261f85fe68e0438c09",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:15:30.068Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:47.982870+00:00"
+}

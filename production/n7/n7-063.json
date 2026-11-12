@@ -1,0 +1,94 @@
+{
+  "constructionId": "n7-063",
+  "file": "output/production/n7/n7-063/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + TOCAR + TASSA + PLE. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de TASSA, un PLE i l’altre BUIT. L’objectiu és TASSA PLE; el distractor és TASSA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TASSA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-063",
+    "number": 63,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-h-32",
+    "counterpartId": "n7-064",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · tassa · ple"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "TASSA",
+      "PLE"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-adecb8403118",
+      "w-427a0daa495d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      },
+      "distractor": {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118",
+        "specifier": {
+          "label": "BUIT",
+          "wordId": "w-1d8378757b29"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "contingut",
+      "evidence": "Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar."
+    },
+    "visualDescription": "NEN: dos exemplars de TASSA, un PLE i l’altre BUIT. L’objectiu és TASSA PLE; el distractor és TASSA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-072ecc01e120|w-adecb8403118|w-427a0daa495d|contrast:w-1d8378757b29",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:17:21.530Z",
+  "contactRuleAdded": true,
+  "review": "Nen toca només tassa plena; tassa buida visible, cos complet i marges.",
+  "alt": {
+    "ca": "nen · tocar · tassa · ple.",
+    "es": "NIÑO · TOCAR · TAZA · LLENO."
+  },
+  "originalSha256": "cd8d5ed69f7077a899000fbb6401ee8ee795aa044fda5101599ba551193c39d7",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:18:53.916Z"
+}

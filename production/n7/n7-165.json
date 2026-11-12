@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-165",
+  "file": "output/production/n7/n7-165/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + TOCAR + GALLEDA + PLE. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-165",
+    "number": 165,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-i-33",
+    "counterpartId": "n7-166",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · tocar · galleda · ple"
+    },
+    "labels": [
+      "CONILL",
+      "TOCAR",
+      "GALLEDA",
+      "PLE"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-427a0daa495d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "BUIT",
+          "wordId": "w-1d8378757b29"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "contingut",
+      "evidence": "Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar."
+    },
+    "visualDescription": "CONILL: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-51a7805e979b|w-072ecc01e120|w-7f04619a8649|w-427a0daa495d|contrast:w-1d8378757b29",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:17:22.275Z",
+  "contactRuleAdded": true,
+  "bucketClarified": true,
+  "review": "Conill toca només vora de galleda plena; buida separada, cos sencer.",
+  "alt": {
+    "ca": "conill · tocar · galleda · ple.",
+    "es": "CONEJO · TOCAR · CUBO · LLENO."
+  },
+  "originalSha256": "8ea64edc043c9211e907814515a10170fb1da9acc65abfa28096a4a0b8276c18",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:22:14.859Z"
+}

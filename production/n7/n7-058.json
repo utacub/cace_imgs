@@ -1,0 +1,98 @@
+{
+  "constructionId": "n7-058",
+  "file": "output/production/n7/n7-058/image.png",
+  "prompt": "EDIT the partner reference. Preserve the same full agent identity, clothes and TWO physical candidate objects, keeping the exact appearance and property of EACH candidate. NEVER swap patterns, colors, dirt, dryness or wetness between objects. Change WHICH OBJECT is carried and change the active arm to the OTHER side of the body. Agent now CARRIES ONLY SAMARRETA with property MULLAT on the viewer's RIGHT. The opposing SEC candidate now RESTS untouched on the low support on the OTHER side; relocate that low support as needed. It must not remain the same carried object with its appearance changed. One walking step, unused hand behind back, complete body and all objects/support with generous white margins. No text, no extra items. The target class is SAMARRETA. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-058",
+    "number": 58,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-h-29",
+    "counterpartId": "n7-057",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · portar · samarreta · mullat"
+    },
+    "labels": [
+      "DONA",
+      "PORTAR",
+      "SAMARRETA",
+      "MULLAT"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-0702f52b3b74",
+      "w-8d5a009dde27"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "role": "patient",
+        "label": "SAMARRETA",
+        "wordId": "w-0702f52b3b74"
+      },
+      {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      },
+      "distractor": {
+        "label": "SAMARRETA",
+        "wordId": "w-0702f52b3b74",
+        "specifier": {
+          "label": "SEC",
+          "wordId": "w-88d8bd2c2fd2"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "DONA: dos exemplars de SAMARRETA, un SEC i l’altre MULLAT. L’objectiu és SAMARRETA MULLAT; el distractor és SAMARRETA SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. L’agent porta només el candidat seleccionat davant del cos mentre fa un pas; l’altre roman a una base baixa adjacent. La diferència de posició és efecte de l’acció, no el qualificador. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-72e9fe9a8b43|w-73b71e1ff757|w-0702f52b3b74|w-8d5a009dde27|contrast:w-88d8bd2c2fd2",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:08:45.476Z",
+  "referenceFile": "output/production/n7/n7-057/image.png",
+  "referenceConstructionId": "n7-057",
+  "contactRuleAdded": true,
+  "review": "Dona porta samarreta mullada i deixa seca a la base; parella coherent i marges.",
+  "alt": {
+    "ca": "dona · portar · samarreta · mullat.",
+    "es": "MUJER · LLEVAR · CAMISETA · MOJADO."
+  },
+  "originalSha256": "425a6b83281ccfd5f7834b022c2669fe91c2b29ca87645da2e5e2f2cdb508601",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:13:44.775Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:35.676252+00:00"
+}

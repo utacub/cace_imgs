@@ -1,0 +1,10 @@
+[
+  {
+    "atUtc": "2026-11-12T20:03:00Z",
+    "candidateIds": ["n7-051", "n7-151", "n7-053", "n7-153"],
+    "type": "batch-interrupted-output-moderation",
+    "requestId": "e7c8e25e-43d1-4811-87f0-4bfec57d546d",
+    "details": "La crida agregada es va interrompre amb una resposta moderation_blocked, categoria other, sense atribució d’ID ni cap resultat disponible. No es va canviar el contingut dels quatre prompts.",
+    "resolution": "Repetició dels mateixos prompts amb recollida individual de resultats: les quatre peticions van retornar imatges, sense cap altre error. Revisió visual individual posterior; no s’ha emprat cap API alternativa ni reetiquetat cap imatge."
+  }
+]

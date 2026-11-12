@@ -1,0 +1,98 @@
+{
+  "constructionId": "n7-156",
+  "file": "output/production/n7/n7-156/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AIXECAR on ONLY the ESPONJA qualified by MULLAT. The opposing SEC candidate must receive NO contact and remain clearly visible. The selected object is lifted slightly; the previously lifted distractor now rests on the support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ZEBRA + AIXECAR + ESPONJA + MULLAT. Exactly one friendly anthropomorphic ZEBRA animal; NO human figures. Exact scene in Catalan: ZEBRA: dos exemplars de ESPONJA, un SEC i l’altre MULLAT. L’objectiu és ESPONJA MULLAT; el distractor és ESPONJA SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of ESPONJA, target MULLAT, distractor SEC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-156",
+    "number": 156,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-i-28",
+    "counterpartId": "n7-155",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · aixecar · esponja · mullat"
+    },
+    "labels": [
+      "ZEBRA",
+      "AIXECAR",
+      "ESPONJA",
+      "MULLAT"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-e12d88415c80",
+      "w-2d404e0d8979",
+      "w-8d5a009dde27"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ZEBRA",
+        "wordId": "w-0dc8fba9677d"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      },
+      "distractor": {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979",
+        "specifier": {
+          "label": "SEC",
+          "wordId": "w-88d8bd2c2fd2"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "ZEBRA: dos exemplars de ESPONJA, un SEC i l’altre MULLAT. L’objectiu és ESPONJA MULLAT; el distractor és ESPONJA SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-0dc8fba9677d|w-e12d88415c80|w-2d404e0d8979|w-8d5a009dde27|contrast:w-88d8bd2c2fd2",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:08:45.308Z",
+  "referenceFile": "output/production/n7/n7-155/image.png",
+  "referenceConstructionId": "n7-155",
+  "contactRuleAdded": true,
+  "review": "Zebra aixeca només esponja mullada, seca sobre la taula; parella coherent.",
+  "alt": {
+    "ca": "zebra · aixecar · esponja · mullat.",
+    "es": "CEBRA · LEVANTAR · ESPONJA · MOJADO."
+  },
+  "originalSha256": "e5913976a42176e4bd3c67f6df4b0a31addb1c352b068d6f6e7150f3d0841970",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:15:28.865Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:45.682701+00:00"
+}

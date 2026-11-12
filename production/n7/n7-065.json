@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-065",
+  "file": "output/production/n7/n7-065/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + GALLEDA + PLE. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-065",
+    "number": 65,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "contingut",
+    "pairId": "n7-h-33",
+    "counterpartId": "n7-066",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · galleda · ple"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "GALLEDA",
+      "PLE"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-427a0daa495d"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PLE",
+        "wordId": "w-427a0daa495d"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "BUIT",
+          "wordId": "w-1d8378757b29"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "contingut",
+      "evidence": "Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar."
+    },
+    "visualDescription": "NOIA: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-7f04619a8649|w-427a0daa495d|contrast:w-1d8378757b29",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:17:22.109Z",
+  "contactRuleAdded": true,
+  "bucketClarified": true,
+  "review": "Noia toca vora de galleda plena; buida al costat, totes dues llegibles i figura completa.",
+  "alt": {
+    "ca": "noia · tocar · galleda · ple.",
+    "es": "CHICA · TOCAR · CUBO · LLENO."
+  },
+  "originalSha256": "85d354d6e3880f2e677341a87a2b72d0b20f3e831d3284a031ea89ff493a416c",
+  "width": 1199,
+  "height": 1312,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:20:32.970Z"
+}

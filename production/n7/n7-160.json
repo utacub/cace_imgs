@@ -1,0 +1,98 @@
+{
+  "constructionId": "n7-160",
+  "file": "output/production/n7/n7-160/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the TOVALLÓ qualified by MULLAT. The opposing SEC candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + TOCAR + TOVALLÓ + MULLAT. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de TOVALLÓ, un SEC i l’altre MULLAT. L’objectiu és TOVALLÓ MULLAT; el distractor és TOVALLÓ SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TOVALLÓ, target MULLAT, distractor SEC. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-160",
+    "number": 160,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "estat",
+    "contrastSubtype": "humitat",
+    "pairId": "n7-i-30",
+    "counterpartId": "n7-159",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · tocar · tovalló · mullat"
+    },
+    "labels": [
+      "GIRAFA",
+      "TOCAR",
+      "TOVALLÓ",
+      "MULLAT"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-072ecc01e120",
+      "w-b9ac8312c767",
+      "w-8d5a009dde27"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GIRAFA",
+        "wordId": "w-e60f76be7b6c"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767"
+      },
+      {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "MULLAT",
+        "wordId": "w-8d5a009dde27"
+      },
+      "distractor": {
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767",
+        "specifier": {
+          "label": "SEC",
+          "wordId": "w-88d8bd2c2fd2"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "humitat",
+      "evidence": "Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció."
+    },
+    "visualDescription": "GIRAFA: dos exemplars de TOVALLÓ, un SEC i l’altre MULLAT. L’objectiu és TOVALLÓ MULLAT; el distractor és TOVALLÓ SEC. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-e60f76be7b6c|w-072ecc01e120|w-b9ac8312c767|w-8d5a009dde27|contrast:w-88d8bd2c2fd2",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:13:45.237Z",
+  "referenceFile": "output/production/n7/n7-159/image.png",
+  "referenceConstructionId": "n7-159",
+  "contactRuleAdded": true,
+  "review": "Girafa toca només tovallola mullada; seca visible, parella coherent.",
+  "alt": {
+    "ca": "girafa · tocar · tovalló · mullat.",
+    "es": "JIRAFA · TOCAR · SERVILLETA · MOJADO."
+  },
+  "originalSha256": "cb28eec7424b79957861559d93798585b3226131379840df3de946543614870e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:17:21.042Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:48.764406+00:00"
+}

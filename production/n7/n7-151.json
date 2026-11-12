@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: PINGUÍ + AGAFAR + TOVALLOLA + SEC. Exactly one friendly anthropomorphic PINGUÍ animal; NO human figures. Exact scene in Catalan: PINGUÍ: dos exemplars de TOVALLOLA, un SEC i l’altre MULLAT. L’objectiu és TOVALLOLA SEC; el distractor és TOVALLOLA MULLAT. Un exemplar sec sense gotes i l’altre amb zona humida i gotes d’aigua visibles sota una vora; mateix material i color original, tots dos nets. El mullat no està submergit ni en una altra acció. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TOVALLOLA, target SEC, distractor MULLAT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-151",
     "number": 151,
@@ -80,5 +80,17 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:01:28.444Z",
-  "contactRuleAdded": true
+  "contactRuleAdded": true,
+  "review": "Pingüí complet inicia presa de tovallola seca; mullada equivalent amb zona humida i gotes. Dos suports mínims, sense text.",
+  "alt": {
+    "ca": "pinguí · agafar · tovallola · sec.",
+    "es": "PINGÜINO · COGER · TOALLA · SECO."
+  },
+  "originalSha256": "03ff1ccfb49219bc0f94753d3fa5791e2e7dc815f318bb9d634f5ee589da7d90",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:06:53.166Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:41.365774+00:00"
 }
