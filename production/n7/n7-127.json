@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-127",
+  "file": "output/production/n7/n7-127/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: ÓS + AGAFAR + PAL + LLARG. Exactly one friendly anthropomorphic ÓS animal; NO human figures. Exact scene in Catalan: ÓS: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-127",
+    "number": 127,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-i-14",
+    "counterpartId": "n7-128",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · agafar · pal · llarg"
+    },
+    "labels": [
+      "ÓS",
+      "AGAFAR",
+      "PAL",
+      "LLARG"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-677819a0a32a",
+      "w-c8538c4482a2",
+      "w-8c01add53f6c"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "ÓS",
+        "wordId": "w-a06249642996"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      },
+      "distractor": {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2",
+        "specifier": {
+          "label": "CURT",
+          "wordId": "w-617a2c98adb5"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "ÓS: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-a06249642996|w-677819a0a32a|w-c8538c4482a2|w-8c01add53f6c|contrast:w-617a2c98adb5",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:30:07.250Z",
+  "review": "Ós complet agafa només el pal llarg, curt separat del mateix gruix i color. Extrems i longituds clarament visibles.",
+  "alt": {
+    "ca": "ós · agafar · pal · llarg.",
+    "es": "OSO · COGER · PALO · LARGO."
+  },
+  "originalSha256": "34194993929159b0ad378ddd0254f1ede3f9dcce7d9849dccbd00e2fdcafe035",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:31:53.821Z"
+}

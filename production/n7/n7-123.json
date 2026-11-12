@@ -1,0 +1,93 @@
+{
+  "constructionId": "n7-123",
+  "file": "output/production/n7/n7-123/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GOS + TOCAR + LLAPIS + LLARG. Exactly one friendly anthropomorphic GOS animal; NO human figures. Exact scene in Catalan: GOS: dos exemplars de LLAPIS, un LLARG i l’altre CURT. L’objectiu és LLAPIS LLARG; el distractor és LLAPIS CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-123",
+    "number": 123,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-i-12",
+    "counterpartId": "n7-124",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · llapis · llarg"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "LLAPIS",
+      "LLARG"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-1775aa96869e",
+      "w-8c01add53f6c"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "CURT",
+          "wordId": "w-617a2c98adb5"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "GOS: dos exemplars de LLAPIS, un LLARG i l’altre CURT. L’objectiu és LLAPIS LLARG; el distractor és LLAPIS CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-4761fde107a7|w-072ecc01e120|w-1775aa96869e|w-8c01add53f6c|contrast:w-617a2c98adb5",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:26:16.653Z",
+  "review": "Gos complet toca només llapis llarg; curt separat amb el mateix gruix i color. Longitud aproximada doble i marges blancs.",
+  "alt": {
+    "ca": "gos · tocar · llapis · llarg.",
+    "es": "PERRO · TOCAR · LÁPIZ · LARGO."
+  },
+  "originalSha256": "e951cd4cfc354c0d24b760a86aad7af9d2c3365a4fe5ef98a73c0384032643f1",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:28:00.748Z"
+}

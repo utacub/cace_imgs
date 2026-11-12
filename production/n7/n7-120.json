@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-120",
+  "file": "output/production/n7/n7-120/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + AGAFAR + CAIXA + PETITA. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de CAIXA, un GRAN i l’altre PETITA. L’objectiu és CAIXA PETITA; el distractor és CAIXA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-120",
+    "number": 120,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-i-10",
+    "counterpartId": "n7-119",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · agafar · caixa · petita"
+    },
+    "labels": [
+      "GIRAFA",
+      "AGAFAR",
+      "CAIXA",
+      "PETITA"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-677819a0a32a",
+      "w-696b7c739d30",
+      "w-12c5f9c8621a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GIRAFA",
+        "wordId": "w-e60f76be7b6c"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      },
+      "distractor": {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30",
+        "specifier": {
+          "label": "GRAN",
+          "wordId": "w-461bd834b14a"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada."
+    },
+    "visualDescription": "GIRAFA: dos exemplars de CAIXA, un GRAN i l’altre PETITA. L’objectiu és CAIXA PETITA; el distractor és CAIXA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-e60f76be7b6c|w-677819a0a32a|w-696b7c739d30|w-12c5f9c8621a|contrast:w-461bd834b14a",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:20:13.360Z",
+  "review": "Girafa completa inicia presa de caixa petita; gran intacta i separada del mateix model. Blanc i contacte clar.",
+  "alt": {
+    "ca": "girafa · agafar · caixa · petita.",
+    "es": "JIRAFA · COGER · CAJA · PEQUEÑO."
+  },
+  "originalSha256": "ae71bba6f0baf71be6313fb75cf1ac8210ab25492a1804dfce387867c973a822",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:24:23.276Z",
+  "publicationVersion": "0.1.127",
+  "importedAt": "2026-11-12T19:24:50.656944+00:00"
+}

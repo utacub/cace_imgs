@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-118",
   "file": "output/production/n7/n7-118/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + PILOTA + PETITA. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + PILOTA + PETITA. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Edit the n7-117 reference scene, preserve exactly the same kangaroo and clothing, the same yellow balls with ONE broad RED HORIZONTAL BAND, same ball sizes, same positions large on right small on left. Change ONLY arm pose to touch ONLY SMALL ball on image left. No blue panels, no changes to pattern. Entire character with white margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-118",
     "number": 118,
@@ -79,5 +79,25 @@
     "compositionKey": "w-d5395d03acbf|w-072ecc01e120|w-b7f578451973|w-12c5f9c8621a|contrast:w-461bd834b14a",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T19:15:58.315Z"
+  "created": "2026-11-12T19:15:58.315Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-118/rejected-01.png",
+      "reason": "Mida i selecció correctes, però el patró de les pilotes canvia respecte del company. Es refà amb la mateixa banda vermella sobre groc.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CANGUR + TOCAR + PILOTA + PETITA. Exactly one friendly anthropomorphic CANGUR animal; NO human figures. Exact scene in Catalan: CANGUR: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:22:18.873Z"
+    }
+  ],
+  "review": "Refeta amb el mateix cangur i les mateixes dues pilotes de banda vermella sobre groc; només la petita rep contacte. Contrast invers ara coherent.",
+  "alt": {
+    "ca": "cangur · tocar · pilota · petita.",
+    "es": "CANGURO · TOCAR · PELOTA · PEQUEÑO."
+  },
+  "originalSha256": "f985caef7ce34ca433f8c30b53a63a439acc6d994843915392a4ed734770e40e",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:24:22.960Z",
+  "publicationVersion": "0.1.127",
+  "importedAt": "2026-11-12T19:24:49.024276+00:00"
 }

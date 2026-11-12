@@ -1,0 +1,91 @@
+{
+  "constructionId": "n7-027",
+  "file": "output/production/n7/n7-027/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + PAL + LLARG. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Full seven-year-old boy is visibly GRASPING the LONG WOODEN STICK with fingers firmly wrapped around its middle, at low tabletop height. TWO plain wooden sticks lie parallel horizontally on one low table, same thickness and wood color, long is twice length of short. Long stick remains nearly resting at onset of grip, short untouched well separated. Unused hand BEHIND BACK. No pointing, no remote gesture; actual hand-stick contact is mandatory. Full boy and table with margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-027",
+    "number": 27,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-14",
+    "counterpartId": "n7-028",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · agafar · pal · llarg"
+    },
+    "labels": [
+      "NEN",
+      "AGAFAR",
+      "PAL",
+      "LLARG"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-677819a0a32a",
+      "w-c8538c4482a2",
+      "w-8c01add53f6c"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      },
+      "distractor": {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2",
+        "specifier": {
+          "label": "CURT",
+          "wordId": "w-617a2c98adb5"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-677819a0a32a|w-c8538c4482a2|w-8c01add53f6c|contrast:w-617a2c98adb5",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:30:07.041Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-027/rejected-01.png",
+      "reason": "El nen no toca ni agafa cap pal; falta l’acció AGAFAR. Es refà amb presa visible del llarg.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + PAL + LLARG. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL LLARG; el distractor és PAL CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:31:53.679Z"
+    }
+  ]
+}

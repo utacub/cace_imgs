@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-020",
+  "file": "output/production/n7/n7-020/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + AGAFAR + CAIXA + PETITA. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de CAIXA, un GRAN i l’altre PETITA. L’objectiu és CAIXA PETITA; el distractor és CAIXA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-020",
+    "number": 20,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-10",
+    "counterpartId": "n7-019",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · agafar · caixa · petita"
+    },
+    "labels": [
+      "NOI",
+      "AGAFAR",
+      "CAIXA",
+      "PETITA"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-677819a0a32a",
+      "w-696b7c739d30",
+      "w-12c5f9c8621a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      },
+      "distractor": {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30",
+        "specifier": {
+          "label": "GRAN",
+          "wordId": "w-461bd834b14a"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada."
+    },
+    "visualDescription": "NOI: dos exemplars de CAIXA, un GRAN i l’altre PETITA. L’objectiu és CAIXA PETITA; el distractor és CAIXA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-01bc6dcab46b|w-677819a0a32a|w-696b7c739d30|w-12c5f9c8621a|contrast:w-461bd834b14a",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:20:13.129Z",
+  "review": "Noi complet inicia presa només sobre la caixa petita; gran separada amb tapa, contrast de mida llegible i marges correctes.",
+  "alt": {
+    "ca": "noi · agafar · caixa · petita.",
+    "es": "CHICO · COGER · CAJA · PEQUEÑO."
+  },
+  "originalSha256": "e17f40f891b385d4964acf60cf79cc33fe965db80fc9ac2f786fd2b05c96a803",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:22:19.140Z",
+  "publicationVersion": "0.1.127",
+  "importedAt": "2026-11-12T19:24:40.009127+00:00"
+}

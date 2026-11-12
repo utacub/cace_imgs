@@ -1,0 +1,85 @@
+{
+  "constructionId": "n7-026",
+  "file": "output/production/n7/n7-026/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform AIXECAR on ONLY the MOCADOR qualified by CURT. The opposing LLARG candidate must receive NO contact and remain clearly visible. The selected object is lifted slightly; the previously lifted distractor now rests on the support. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + AIXECAR + MOCADOR + CURT. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR CURT; el distractor és MOCADOR LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target CURT, distractor LLARG. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-026",
+    "number": 26,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-13",
+    "counterpartId": "n7-025",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · aixecar · mocador · curt"
+    },
+    "labels": [
+      "NENA",
+      "AIXECAR",
+      "MOCADOR",
+      "CURT"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-e12d88415c80",
+      "w-35e3a6c8a7fd",
+      "w-617a2c98adb5"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      },
+      "distractor": {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd",
+        "specifier": {
+          "label": "LLARG",
+          "wordId": "w-8c01add53f6c"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "NENA: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR CURT; el distractor és MOCADOR LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-e12d88415c80|w-35e3a6c8a7fd|w-617a2c98adb5|contrast:w-8c01add53f6c",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:26:16.913Z",
+  "referenceFile": "output/production/n7/n7-025/image.png",
+  "referenceConstructionId": "n7-025"
+}

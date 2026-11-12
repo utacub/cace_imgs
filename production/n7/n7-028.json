@@ -1,0 +1,83 @@
+{
+  "constructionId": "n7-028",
+  "file": "output/production/n7/n7-028/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NEN + AGAFAR + PAL + CURT. Exactly one boy aged 7. Exact scene in Catalan: NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL CURT; el distractor és PAL LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PAL, target CURT, distractor LLARG. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n7-028",
+    "number": 28,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-14",
+    "counterpartId": "n7-027",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · agafar · pal · curt"
+    },
+    "labels": [
+      "NEN",
+      "AGAFAR",
+      "PAL",
+      "CURT"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-677819a0a32a",
+      "w-c8538c4482a2",
+      "w-617a2c98adb5"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "role": "action",
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "role": "patient",
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      },
+      "distractor": {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2",
+        "specifier": {
+          "label": "LLARG",
+          "wordId": "w-8c01add53f6c"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "NEN: dos exemplars de PAL, un LLARG i l’altre CURT. L’objectiu és PAL CURT; el distractor és PAL LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat agafa només el candidat seleccionat, iniciant la presa, amb l’objecte complet i la propietat descoberts. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-b4012100fe09|w-677819a0a32a|w-c8538c4482a2|w-617a2c98adb5|contrast:w-8c01add53f6c",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:30:07.153Z"
+}

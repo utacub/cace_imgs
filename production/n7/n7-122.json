@@ -1,0 +1,101 @@
+{
+  "constructionId": "n7-122",
+  "file": "output/production/n7/n7-122/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AIXECAR + GALLEDA + PETITA. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA PETITA; el distractor és GALLEDA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: EDIT THE PROVIDED PARTNER REFERENCE. Preserve the same agent, clothing, TWO buckets, exact bucket colors, materials and model, bucket sizes, positions, support and white background. Change ONLY arm pose: lift ONLY the SMALL bucket by its handle, LARGE bucket rests untouched. Unused hand behind back, no contact with large bucket. No color/material change. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-122",
+    "number": 122,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-i-11",
+    "counterpartId": "n7-121",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · aixecar · galleda · petita"
+    },
+    "labels": [
+      "GAT",
+      "AIXECAR",
+      "GALLEDA",
+      "PETITA"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-e12d88415c80",
+      "w-7f04619a8649",
+      "w-12c5f9c8621a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "PETITA",
+        "wordId": "w-12c5f9c8621a"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "GRAN",
+          "wordId": "w-461bd834b14a"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada."
+    },
+    "visualDescription": "GAT: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA PETITA; el distractor és GALLEDA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-11ff74d27c02|w-e12d88415c80|w-7f04619a8649|w-12c5f9c8621a|contrast:w-461bd834b14a",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:20:13.722Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-122/rejected-01.png",
+      "reason": "Selecció petita correcta, però les galledes canvien a blau respecte del company vermell. Refeta per conservar color i model.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GAT + AIXECAR + GALLEDA + PETITA. Exactly one friendly anthropomorphic GAT animal; NO human figures. Exact scene in Catalan: GAT: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA PETITA; el distractor és GALLEDA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:26:16.255Z"
+    }
+  ],
+  "review": "Refeta a partir del company: gat i dues galledes vermelles conservats; petita aixecada i gran reposant sense contacte.",
+  "alt": {
+    "ca": "gat · aixecar · galleda · petita.",
+    "es": "GATO · LEVANTAR · CUBO · PEQUEÑO."
+  },
+  "originalSha256": "e1c3259487818a2b7e7717beb8c08aac148f9653cdbf3dd93fea71401fc2e4ff",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:28:00.419Z"
+}

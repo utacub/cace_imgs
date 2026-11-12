@@ -1,0 +1,95 @@
+{
+  "constructionId": "n7-024",
+  "file": "output/production/n7/n7-024/image.png",
+  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the LLAPIS qualified by CURT. The opposing LLARG candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + LLAPIS + CURT. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de LLAPIS, un LLARG i l’altre CURT. L’objectiu és LLAPIS CURT; el distractor és LLAPIS LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLAPIS, target CURT, distractor LLARG. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-024",
+    "number": 24,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-12",
+    "counterpartId": "n7-023",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tocar · llapis · curt"
+    },
+    "labels": [
+      "HOME",
+      "TOCAR",
+      "LLAPIS",
+      "CURT"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-1775aa96869e",
+      "w-617a2c98adb5"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "CURT",
+        "wordId": "w-617a2c98adb5"
+      },
+      "distractor": {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e",
+        "specifier": {
+          "label": "LLARG",
+          "wordId": "w-8c01add53f6c"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "HOME: dos exemplars de LLAPIS, un LLARG i l’altre CURT. L’objectiu és LLAPIS CURT; el distractor és LLAPIS LLARG. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cfe24f6b3c38|w-072ecc01e120|w-1775aa96869e|w-617a2c98adb5|contrast:w-8c01add53f6c",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:26:16.554Z",
+  "referenceFile": "output/production/n7/n7-023/image.png",
+  "referenceConstructionId": "n7-023",
+  "review": "Edició coherent amb n7-023: mateix home i dos llapis; dit només sobre el curt, llarg intacte, mateix gruix i posicions.",
+  "alt": {
+    "ca": "home · tocar · llapis · curt.",
+    "es": "HOMBRE · TOCAR · LÁPIZ · CORTO."
+  },
+  "originalSha256": "4cea608f916df7a695d2a26d63d7c9bbab8d75e9d01ef66c174f1fa5279aee18",
+  "width": 1199,
+  "height": 1312,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:29:47.768Z"
+}

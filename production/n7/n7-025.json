@@ -1,0 +1,101 @@
+{
+  "constructionId": "n7-025",
+  "file": "output/production/n7/n7-025/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + AIXECAR + MOCADOR + LLARG. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Exactly TWO rectangular RED NECK CLOTHS (MOCADOR), both FULLY UNFOLDED AND EXTENDED straight, exactly SAME WIDTH, same red fabric, one length double the other. NO folded short cloth. Agent lifts ONLY LONG cloth slightly by its center with ONE hand/paw. SHORT cloth lies fully extended untouched well separated. UNUSED HAND/PAW HIDDEN BEHIND BACK, no contact at all with short cloth. Full character, all cloth ends, wide white margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-025",
+    "number": 25,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-13",
+    "counterpartId": "n7-026",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · aixecar · mocador · llarg"
+    },
+    "labels": [
+      "NENA",
+      "AIXECAR",
+      "MOCADOR",
+      "LLARG"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-e12d88415c80",
+      "w-35e3a6c8a7fd",
+      "w-8c01add53f6c"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      },
+      "distractor": {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd",
+        "specifier": {
+          "label": "CURT",
+          "wordId": "w-617a2c98adb5"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "NENA: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-e12d88415c80|w-35e3a6c8a7fd|w-8c01add53f6c|contrast:w-617a2c98adb5",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:26:16.837Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-025/rejected-01.png",
+      "reason": "La mà lliure toca el mocador curt i aquest apareix plegat. No acredita selecció exclusiva ni longitud real; es refà.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + AIXECAR + MOCADOR + LLARG. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:29:48.024Z"
+    }
+  ],
+  "review": "Refeta: nena completa aixeca només el mocador llarg, curt estès i intacte. Mateix ample i color, tots els extrems visibles, mà lliure rere cos.",
+  "alt": {
+    "ca": "nena · aixecar · mocador · llarg.",
+    "es": "NIÑA · LEVANTAR · PAÑUELO · LARGO."
+  },
+  "originalSha256": "8344d8101313685993324c94d58815bb393b7e4ee0feffb8d3fba0cba55a3e41",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:31:53.446Z"
+}

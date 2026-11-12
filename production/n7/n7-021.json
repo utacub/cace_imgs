@@ -1,0 +1,101 @@
+{
+  "constructionId": "n7-021",
+  "file": "output/production/n7/n7-021/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + AIXECAR + GALLEDA + GRAN. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA GRAN; el distractor és GALLEDA PETITA. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target GRAN, distractor PETITA. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Adult woman raises ONLY LARGE BLUE bucket using its handle. SMALL BLUE bucket sits untouched far away on table. Her UNUSED HAND is visibly tucked BEHIND HER BACK, far from both buckets. No finger, arm or body contact with small bucket. Same model and blue color, large twice the dimensions of small, same plane. Full person and table with wide white margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-021",
+    "number": 21,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-h-11",
+    "counterpartId": "n7-022",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · aixecar · galleda · gran"
+    },
+    "labels": [
+      "DONA",
+      "AIXECAR",
+      "GALLEDA",
+      "GRAN"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-e12d88415c80",
+      "w-7f04619a8649",
+      "w-461bd834b14a"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "role": "specifier",
+        "label": "GRAN",
+        "wordId": "w-461bd834b14a"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "GRAN",
+        "wordId": "w-461bd834b14a"
+      },
+      "distractor": {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649",
+        "specifier": {
+          "label": "PETITA",
+          "wordId": "w-12c5f9c8621a"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada."
+    },
+    "visualDescription": "DONA: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA GRAN; el distractor és GALLEDA PETITA. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-72e9fe9a8b43|w-e12d88415c80|w-7f04619a8649|w-461bd834b14a|contrast:w-12c5f9c8621a",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:20:13.455Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-021/rejected-01.png",
+      "reason": "La galleda gran s’aixeca correctament, però la mà lliure sembla tocar la vora de la petita. Es refà per evitar doble contacte.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: DONA + AIXECAR + GALLEDA + GRAN. Exactly one adult woman aged 40. Exact scene in Catalan: DONA: dos exemplars de GALLEDA, un GRAN i l’altre PETITA. L’objectiu és GALLEDA GRAN; el distractor és GALLEDA PETITA. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target GRAN, distractor PETITA. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:24:23.351Z"
+    }
+  ],
+  "review": "Refeta: dona completa aixeca galleda gran blava; petita blava reposant, mà lliure rere l’esquena. Ja no hi ha contacte ambigu.",
+  "alt": {
+    "ca": "dona · aixecar · galleda · gran.",
+    "es": "MUJER · LEVANTAR · CUBO · GRANDE."
+  },
+  "originalSha256": "ac0d24898725a65b9e30e2204df2a8bbd370d88d446313c24edf1cb431f13a4d",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:26:15.956Z"
+}

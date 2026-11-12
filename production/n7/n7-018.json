@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-018",
   "file": "output/production/n7/n7-018/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + PILOTA + PETITA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + PILOTA + PETITA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Use the provided n7-017 reference as the scene to edit. Preserve the same teenage girl, grey shirt, black trousers, white shoes, the same TWO black-and-white SOCCER BALLS, large on image left and small on image right, exact same sizes, same ground, same framing and white margins. Change ONLY her arm/hand pose: her fingertip touches ONLY the SMALL soccer ball on image right; no contact with the large ball. No basketballs, no change to ball patterns. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-018",
     "number": 18,
@@ -79,5 +79,25 @@
     "compositionKey": "w-b38ff488f862|w-072ecc01e120|w-b7f578451973|w-12c5f9c8621a|contrast:w-461bd834b14a",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T19:15:58.196Z"
+  "created": "2026-11-12T19:15:58.196Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-018/rejected-01.png",
+      "reason": "La selecció de la petita és correcta, però canvia el model de pilota a bàsquet respecte del company de futbol. Es refà per conservar els referents.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + PILOTA + PETITA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA PETITA; el distractor és PILOTA GRAN. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target PETITA, distractor GRAN. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:20:12.736Z"
+    }
+  ],
+  "review": "Refeta a partir del company: conserva noia, roba, dues pilotes de futbol i mides. Ara el dit toca només la petita; gran intacta, selecció inversa exacta.",
+  "alt": {
+    "ca": "noia · tocar · pilota · petita.",
+    "es": "CHICA · TOCAR · PELOTA · PEQUEÑO."
+  },
+  "originalSha256": "b861f89ce7a0d985874b1fa166613004a8e80b7fe410d4401bec533daa5c55c2",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:22:18.666Z",
+  "publicationVersion": "0.1.127",
+  "importedAt": "2026-11-12T19:24:38.617893+00:00"
 }

@@ -1,0 +1,101 @@
+{
+  "constructionId": "n7-125",
+  "file": "output/production/n7/n7-125/image.png",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + AIXECAR + MOCADOR + LLARG. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. CORRECTION REQUIRED: Exactly TWO rectangular RED NECK CLOTHS (MOCADOR), both FULLY UNFOLDED AND EXTENDED straight, exactly SAME WIDTH, same red fabric, one length double the other. NO folded short cloth. Agent lifts ONLY LONG cloth slightly by its center with ONE hand/paw. SHORT cloth lies fully extended untouched well separated. UNUSED HAND/PAW HIDDEN BEHIND BACK, no contact at all with short cloth. Full character, all cloth ends, wide white margins. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-125",
+    "number": 125,
+    "level": 7,
+    "group": "insolita",
+    "precisionType": "aspecte",
+    "contrastSubtype": "mida",
+    "pairId": "n7-i-13",
+    "counterpartId": "n7-126",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · aixecar · mocador · llarg"
+    },
+    "labels": [
+      "CONILL",
+      "AIXECAR",
+      "MOCADOR",
+      "LLARG"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-e12d88415c80",
+      "w-35e3a6c8a7fd",
+      "w-8c01add53f6c"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b"
+      },
+      {
+        "role": "action",
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "role": "patient",
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "LLARG",
+        "wordId": "w-8c01add53f6c"
+      },
+      "distractor": {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd",
+        "specifier": {
+          "label": "CURT",
+          "wordId": "w-617a2c98adb5"
+        }
+      },
+      "anchor": null,
+      "targetSide": "dreta",
+      "controlledDifference": "mida",
+      "evidence": "Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles."
+    },
+    "visualDescription": "CONILL: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-51a7805e979b|w-e12d88415c80|w-35e3a6c8a7fd|w-8c01add53f6c|contrast:w-617a2c98adb5",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:26:16.996Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-125/rejected-01.png",
+      "reason": "La pota lliure toca el mocador curt i aquest sembla plegat; es refà amb ambdós completament estesos i una sola presa.",
+      "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: CONILL + AIXECAR + MOCADOR + LLARG. Exactly one friendly anthropomorphic CONILL animal; NO human figures. Exact scene in Catalan: CONILL: dos exemplars de MOCADOR, un LLARG i l’altre CURT. L’objectiu és MOCADOR LLARG; el distractor és MOCADOR CURT. Exemplars rectes i estesos, igual gruix i amplada, però un té el doble de longitud; extrems visibles. La mà o extremitat aixeca només el candidat seleccionat uns centímetres d’una base baixa; l’altre descansa a la mateixa base. Situar inicialment el seleccionat a dreta; invertir el contacte en el company de parella. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of MOCADOR, target LLARG, distractor CURT. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+      "rejectedAt": "2026-11-12T19:29:48.086Z"
+    }
+  ],
+  "review": "Refeta: conill complet aixeca només el mocador llarg, curt estès sense plecs ni contacte. Longitud clara i marges blancs.",
+  "alt": {
+    "ca": "conill · aixecar · mocador · llarg.",
+    "es": "CONEJO · LEVANTAR · PAÑUELO · LARGO."
+  },
+  "originalSha256": "36fae39952db4b2f393ed16b8a132de678a1d17ad57a987f25a5274d40a2db9a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:31:53.604Z"
+}
