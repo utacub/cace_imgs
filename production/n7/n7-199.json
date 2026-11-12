@@ -1,11 +1,11 @@
 {
   "constructionId": "n7-199",
   "file": "output/production/n7/n7-199/image.png",
-  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + TOCAR + CARMANYOLA + SOBRE + CADIRA. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de CARMANYOLA, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és CARMANYOLA SOBRE; el distractor és CARMANYOLA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CARMANYOLA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. ONE flat educational illustration with clean simple solid-color shapes. CACE N7 PRECISION. Target semantic labels: GIRAFA + TOCAR + CARMANYOLA + SOBRE + CADIRA. Exactly one friendly anthropomorphic GIRAFA animal; NO human figures. Exact scene in Catalan: GIRAFA: dos exemplars de CARMANYOLA, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és CARMANYOLA SOBRE; el distractor és CARMANYOLA SOTA. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Animal antropomòrfic amable, cos sencer recognoscible, fent l’acció humana; dibuix pla. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CARMANYOLA, target SOBRE, distractor SOTA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CRITICAL: BOTH candidate boxes EXACTLY IDENTICAL RED, same color shape size and material, same matching lids. Position is ONLY contrast. No other colors between candidates.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-199",
     "number": 199,
@@ -90,5 +90,18 @@
     "compositionKey": "w-e60f76be7b6c|w-072ecc01e120|w-c3b8bd56e942|w-d44584204864|w-e1efe2c4e23d|contrast:w-e0a6aeb46069",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-12T20:53:34.377Z"
+  "created": "2026-11-12T20:53:34.377Z",
+  "contactRuleAdded": true,
+  "review": "Girafa toca caixa sobre cadira; equivalent sota, cos sencer.",
+  "alt": {
+    "ca": "girafa · tocar · carmanyola · sobre · cadira.",
+    "es": "JIRAFA · TOCAR · FIAMBRERA · SOBRE · SILLA."
+  },
+  "originalSha256": "bb23f9505732b873fcf899a1ccd703545e6942a1aaf42489326a07eddcad2107",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:56:13.846Z",
+  "publicationVersion": "0.1.134",
+  "importedAt": "2026-11-12T20:57:19.747161+00:00"
 }

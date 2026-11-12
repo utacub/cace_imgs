@@ -1,21 +1,13 @@
 {
   "level": 7,
-  "status": "active",
+  "status": "complete",
   "authorization": "Usuari 12/11/2026: Aprovo el pla N7. Comença a generar, revisar i publicar les 200 imatges per lots, mantenint els criteris visuals i preservant totes les imatges i entrades CACE existents. Si no has acabat, atura’t a les 22:20 i publica tot el que vagis fent.",
   "generationCutoff": "2026-11-12T21:15:00Z",
   "sessionDeadline": "2026-11-12T21:20:00Z",
   "planned": 200,
-  "complete": 193,
-  "imported": 185,
-  "pending": [
-    "n7-098",
-    "n7-099",
-    "n7-100",
-    "n7-196",
-    "n7-198",
-    "n7-199",
-    "n7-200"
-  ],
+  "complete": 200,
+  "imported": 200,
+  "pending": [],
   "baseline": {
     "checkedOn": "2026-11-12",
     "head": "a3b6ffbb11a1504ac9f31585eaa0faa4bd091cdc",
@@ -37,18 +29,18 @@
     ]
   },
   "started": "2026-11-12T19:03:28.331Z",
-  "completedHabitual": 97,
-  "completedInsolita": 96,
-  "updated": "2026-11-12T20:53:34.716Z",
-  "catalogVersion": "0.1.133",
+  "completedHabitual": 100,
+  "completedInsolita": 100,
+  "updated": "2026-11-12T20:57:20.642Z",
+  "catalogVersion": "0.1.134",
   "collectionId": "cace-n7-precisio",
   "publicationAuthorization": "Usuari 12/11/2026: Aprovo el pla N7. Comença a generar, revisar i publicar les 200 imatges per lots, mantenint els criteris visuals i preservant totes les imatges i entrades CACE existents. Si no has acabat, atura’t a les 22:20 i publica tot el que vagis fent.",
-  "publicVerified": 165,
-  "publicVersion": "0.1.132",
-  "publicVerifiedAt": "2026-11-12T20:48:22Z",
+  "publicVerified": 185,
+  "publicVersion": "0.1.133",
+  "publicVerifiedAt": "2026-11-12T20:58:39Z",
   "lastDeployment": {
-    "commit": "6896a0b",
-    "publicVerification": "output/n7-publication-0.1.132.json",
+    "commit": "8809a06",
+    "publicVerification": "output/n7-publication-0.1.133.json",
     "status": "public-catalog-and-downloads-verified"
   }
 }

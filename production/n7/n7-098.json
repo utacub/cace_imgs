@@ -4,8 +4,8 @@
   "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor TAULA. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the TASSA qualified by SOTA. The opposing SOBRE candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + TOCAR + TASSA + SOTA + TAULA. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de TASSA, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és TASSA SOTA; el distractor és TASSA SOBRE. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of TASSA, target SOTA, distractor SOBRE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor TAULA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n7-098",
     "number": 98,
@@ -93,5 +93,17 @@
   "created": "2026-11-12T20:48:05.196Z",
   "referenceFile": "output/production/n7/n7-097/image.png",
   "referenceConstructionId": "n7-097",
-  "contactRuleAdded": true
+  "contactRuleAdded": true,
+  "review": "Nena toca tassa sota taula; sobre preservada, parella coherent.",
+  "alt": {
+    "ca": "nena · tocar · tassa · sota · taula.",
+    "es": "NIÑA · TOCAR · TAZA · BAJO · MESA."
+  },
+  "originalSha256": "eb8fcaf775fbe58e43f9422c24bbc78ebc246424d7a7874f0752dff24f416e7a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:55:21.216Z",
+  "publicationVersion": "0.1.134",
+  "importedAt": "2026-11-12T20:57:14.980247+00:00"
 }
