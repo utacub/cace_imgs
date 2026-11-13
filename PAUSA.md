@@ -1,3 +1,11 @@
+# N7 · Correcció anatòmica publicada · 13/11/2026
+
+Revisades les 100 fotografies N7 i substituïdes 24 amb braços massa llargs o abast desproporcionat. Versions noves amb braços, articulacions i postures naturals; les altres 76 fotografies i els 100 dibuixos es conserven intactes. Catàleg 0.1.135, 3669 imatges i 861 entrades CACE. Publicació i 200 descàrregues N7 verificades a 2026-11-13T21:31:30Z.
+
+Registre i prompts: production/n7-anatomy-review.json i production/n7-anatomy/. Originals anteriors arxivats a output/production/n7/*/before-anatomy-2026-11-13.png i .webp; metadades anteriors a production/n7-anatomy/previous/. Comparació abans/després: output/n7-anatomy-review/index.html. La petició està completada.
+
+---
+
 # N7 · 200 imatges completades i publicades
 
 Les 200 N7 estan generades, revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Aspecte: 80; estat: 60; posició: 60. Catàleg públic 0.1.134: 3669 imatges. Verificació pública completa: 2026-11-12T21:03:54Z; 200 descàrregues WebP comprovades amb SHA-256. Es conserven exactament les 3469 imatges i les 861 entrades CACE anteriors. Tasca acabada abans de les 22:20 Europe/Madrid. No generar més N7.
