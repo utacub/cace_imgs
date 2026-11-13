@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-072",
   "file": "output/production/n7/n7-072/image.png",
-  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor CAIXA. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the PILOTA qualified by FORA. The opposing DINS candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + PILOTA + FORA + CAIXA. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA FORA; el distractor és PILOTA DINS. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target FORA, distractor DINS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "prompt": "EDIT this corrected partner photo. Preserve the SAME anatomically normal person, natural arm lengths, full body, generous margins, objects, material and background. Change ONLY pose and contact to touch the OTHER selected object: HOME + TOCAR + PILOTA + FORA + CAIXA. The FORA candidate now receives the sole physical contact, DINS candidate stays untouched. Keep elbow naturally bent and hand within normal close reach. Reposition person nearer selected object rather than stretching an arm. Keep colors and patterns of BOTH objects exactly unchanged. No text or cropping. Two arms, realistic joints and proportions. Full agent and ALL furniture legs inside white canvas with white margin below feet and legs.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -91,19 +91,29 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:25:55.822Z",
-  "referenceFile": "output/production/n7/n7-071/image.png",
-  "referenceConstructionId": "n7-071",
   "contactRuleAdded": true,
-  "review": "Home toca pilota fora caixa; dins preservada, parella coherent.",
+  "review": "Home toca pilota fora caixa a taula; braç curt i colze flexionat, dins intacta.",
   "alt": {
     "ca": "home · tocar · pilota · fora · caixa.",
     "es": "HOMBRE · TOCAR · PELOTA · FUERA · CAJA."
   },
-  "originalSha256": "733dd9b5d7ef7842c0b6add1a1b0f85d35adaa865f20814fad8b30606ea82fdf",
-  "width": 1312,
-  "height": 1199,
+  "originalSha256": "9d1bd7f8a8e678e5dbe103dcc24ea941586ea63026fcca4ba0de6363734a8651",
+  "width": 1199,
+  "height": 1312,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:30:38.710Z",
-  "publicationVersion": "0.1.132",
-  "importedAt": "2026-11-12T20:38:32.311699+00:00"
+  "reviewedAt": "2026-11-13T21:07:36.864Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:48.244845+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:47.471363+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-072.json",
+      "previousOriginal": "output/production/n7/n7-072/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-072/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "733dd9b5d7ef7842c0b6add1a1b0f85d35adaa865f20814fad8b30606ea82fdf",
+      "previousDisplaySha256": "9c85779d8e28f2a169f427d4c720390ab4212b1e25af9580fb518bc3b5f9a496"
+    }
+  ],
+  "referenceFile": "output/n7-anatomy-review/n7-071/replacement.png"
 }

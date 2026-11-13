@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-071",
   "file": "output/production/n7/n7-071/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + PILOTA + DINS + CAIXA. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA DINS; el distractor és PILOTA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Both balls must be EXACTLY IDENTICAL yellow tennis balls, same diameter, same yellow felt and white curved seam. One inside the cardboard box, one outside it. No blue ball, no color difference. Man touches ONLY the inside yellow ball, no contact with outside ball. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "prompt": "Use case: scientific-educational. Create ONE NEW synthetic photorealistic full-body studio photograph for CACE N7. Semantic labels: HOME + TOCAR + PILOTA + DINS + CAIXA. Exact semantic specification: HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA DINS; el distractor és PILOTA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.\nANATOMY CORRECTION OVERRIDES THE OLD POSE: Place BOTH candidates on a sturdy table at the agent’s WAIST HEIGHT, close together but separated by a clear gap. Agent stands upright CLOSE to table with natural proportions, active elbow BENT and hand close to torso. Both objects are comfortably within normal arm reach. For DINS/FORA use one open named container on this table with one object inside and the other outside. Realistic age-appropriate human proportions. Exactly two arms with anatomically normal humerus and forearm lengths, two elbows, normal wrists and hands, normal torso and legs. Never lengthen any limb to reach an object. Reposition the body, bend knees, move closer instead. Human height, limb lengths and joints must look completely ordinary. Full person including shoes, all furniture and both candidate objects inside canvas with generous white margins. Pure white background, neutral unbranded fully clothed person. Exactly TWO candidate objects; identical except the specified N7 qualifier. For spatial contrasts, both candidates same solid red color/material/size; only position differs. Selected PILOTA DINS receives the ONLY action TOCAR. Other candidate FORA untouched. Unused hand rests on own thigh or hip, away from both objects. No letters, text, logos, arrows, watermark, collage or decorative items. Natural hands and visible exclusive functional contact. Single photograph. EXACT AGENT: 40 year old adult man. Camera FAR AWAY, wide shot; person and all furniture occupy only CENTRAL 70 percent of image, with generous empty white margins on every side, especially ABOVE hair and BELOW shoes and furniture feet. No table leg or foot may touch canvas edge. Touch outside rim or outer surface of selected object.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -100,16 +100,27 @@
       "rejectedAt": "2026-11-12T20:27:31.429Z"
     }
   ],
-  "review": "Home toca pilota dins caixa; dues pilotes grogues iguals, contrast corregit.",
+  "review": "Home dret amb colze flexionat; toca pilota dins caixa sobre taula, equivalent fora.",
   "alt": {
     "ca": "home · tocar · pilota · dins · caixa.",
     "es": "HOMBRE · TOCAR · PELOTA · DENTRO · CAJA."
   },
-  "originalSha256": "a7cfd609cbce137dff83bd8bc045b98afaa2f04dfdccf41917a891d8b0b4e4d7",
-  "width": 1312,
-  "height": 1199,
+  "originalSha256": "6a129b99a76cfad43dc5e6d8aa5a0a7d8ba87d9b0cdc7f32f9f6a2b6bcb036ae",
+  "width": 1199,
+  "height": 1312,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:29:02.977Z",
-  "publicationVersion": "0.1.132",
-  "importedAt": "2026-11-12T20:38:31.913217+00:00"
+  "reviewedAt": "2026-11-13T21:04:49.749Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:47.432732+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:46.636372+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-071.json",
+      "previousOriginal": "output/production/n7/n7-071/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-071/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "a7cfd609cbce137dff83bd8bc045b98afaa2f04dfdccf41917a891d8b0b4e4d7",
+      "previousDisplaySha256": "0c0bde0b263bb200a757b8c291e70ce21b555c40bd42e758aee28b017eae6016"
+    }
+  ]
 }

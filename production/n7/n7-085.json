@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-085",
   "file": "output/production/n7/n7-085/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + TOCAR + ESPONJA + DINS + GALLEDA. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de ESPONJA, un DINS i l’altre FORA, respecte d’un únic suport GALLEDA. L’objectiu és ESPONJA DINS; el distractor és ESPONJA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of ESPONJA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor GALLEDA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "prompt": "Use case: scientific-educational. Create ONE NEW synthetic photorealistic full-body studio photograph for CACE N7. Semantic labels: NENA + TOCAR + ESPONJA + DINS + GALLEDA. Exact semantic specification: NENA: dos exemplars de ESPONJA, un DINS i l’altre FORA, respecte d’un únic suport GALLEDA. L’objectiu és ESPONJA DINS; el distractor és ESPONJA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.\nANATOMY CORRECTION OVERRIDES THE OLD POSE: Place BOTH candidates on a sturdy table at the agent’s WAIST HEIGHT, close together but separated by a clear gap. Agent stands upright CLOSE to table with natural proportions, active elbow BENT and hand close to torso. Both objects are comfortably within normal arm reach. For DINS/FORA use one open named container on this table with one object inside and the other outside. Realistic age-appropriate human proportions. Exactly two arms with anatomically normal humerus and forearm lengths, two elbows, normal wrists and hands, normal torso and legs. Never lengthen any limb to reach an object. Reposition the body, bend knees, move closer instead. Human height, limb lengths and joints must look completely ordinary. Full person including shoes, all furniture and both candidate objects inside canvas with generous white margins. Pure white background, neutral unbranded fully clothed person. Exactly TWO candidate objects; identical except the specified N7 qualifier. For spatial contrasts, both candidates same solid red color/material/size; only position differs. Selected ESPONJA DINS receives the ONLY action TOCAR. Other candidate FORA untouched. Unused hand rests on own thigh or hip, away from both objects. No letters, text, logos, arrows, watermark, collage or decorative items. Natural hands and visible exclusive functional contact. Single photograph. EXACT AGENT: 7 year old girl. Camera FAR AWAY, wide shot; person and all furniture occupy only CENTRAL 70 percent of image, with generous empty white margins on every side, especially ABOVE hair and BELOW shoes and furniture feet. No table leg or foot may touch canvas edge. Touch outside rim or outer surface of selected object.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -92,16 +92,27 @@
   },
   "created": "2026-11-12T20:35:25.945Z",
   "contactRuleAdded": true,
-  "review": "Nena toca esponja dins gibrell; equivalent fora, figura completa.",
+  "review": "Nena toca esponja dins gibrell sobre taula, braç proporcionat i altra esponja intacta.",
   "alt": {
     "ca": "nena · tocar · esponja · dins · galleda.",
     "es": "NIÑA · TOCAR · ESPONJA · DENTRO · CUBO."
   },
-  "originalSha256": "5b8a543d6a4217bf632c4c87f199f9b3e18742fa71a00cb2dc52abe8cf88d92a",
+  "originalSha256": "727386a3d2d12ba8565fc7c595cac4730b444c3d1e6fed8571705e90b9595012",
   "width": 1536,
   "height": 1024,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:41:04.245Z",
-  "publicationVersion": "0.1.133",
-  "importedAt": "2026-11-12T20:49:54.069326+00:00"
+  "reviewedAt": "2026-11-13T21:07:36.880Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:50.673436+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:49.902793+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-085.json",
+      "previousOriginal": "output/production/n7/n7-085/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-085/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "5b8a543d6a4217bf632c4c87f199f9b3e18742fa71a00cb2dc52abe8cf88d92a",
+      "previousDisplaySha256": "329f6643b0c2a201df2584913a8574bb3e06c05095cd141a1fe16e71d565498f"
+    }
+  ]
 }

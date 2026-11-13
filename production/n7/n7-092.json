@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-092",
   "file": "output/production/n7/n7-092/image.png",
-  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor TAULA. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the COIXÍ qualified by SOTA. The opposing SOBRE candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + COIXÍ + SOTA + TAULA. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de COIXÍ, un SOBRE i l’altre SOTA, respecte d’un únic suport TAULA. L’objectiu és COIXÍ SOTA; el distractor és COIXÍ SOBRE. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target SOTA, distractor SOBRE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor TAULA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "prompt": "EDIT target photo. Preserve SAME person identity, age, clothing, two objects and furniture. Correct anatomy and change action to NOI + TOCAR + COIXÍ + SOTA + TAULA. Reposition whole person into a deep comfortable SQUAT on LEFT side of furniture, both knees visibly bent, hips LOW near heels, both shoes on floor. Normal proportioned human torso and limbs, normal upper arms and forearms; elbow naturally BENT and close to torso. Active fingertip makes a SHORT reachable contact with ONLY the LOWER COIXÍ UNDER the TAULA. Upper object stays ON furniture, lower object stays on FLOOR UNDER SAME furniture. Objects keep exact original shape size color pattern material and remain fully readable. Do NOT extend an arm to reach from standing; bend the legs and lower whole body instead. Unused hand on own thigh away from both objects. Natural wrists, normal hands and fingers; no distorted limbs. Single photoreal studio image. Full body, ALL feet and furniture legs with generous empty white margins. Pure white background. No text, logos, arrows or extra objects.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -91,19 +91,29 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:44:22.836Z",
-  "referenceFile": "output/production/n7/n7-091/image.png",
-  "referenceConstructionId": "n7-091",
   "contactRuleAdded": true,
-  "review": "Noi toca només coixí sota taula; sobre preservat, parella coherent.",
+  "review": "Noi ajupit amb genolls flexionats i braços normals toca coixí sota taula; sobre intacte.",
   "alt": {
     "ca": "noi · tocar · coixí · sota · taula.",
     "es": "CHICO · TOCAR · ALMOHADA · BAJO · MESA."
   },
-  "originalSha256": "f0210daecf2c65d48da9d7bc031f751ab30f4b3e27c6bd53ff886d15a74671b3",
+  "originalSha256": "a46f3148240d248cd1398204ce3bc567336a9503d0dbb6f04996692a614c3bdd",
   "width": 1536,
   "height": 1024,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:48:04.331Z",
-  "publicationVersion": "0.1.133",
-  "importedAt": "2026-11-12T20:49:58.346469+00:00"
+  "reviewedAt": "2026-11-13T21:09:59.738Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:54.090653+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:53.362223+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-092.json",
+      "previousOriginal": "output/production/n7/n7-092/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-092/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "f0210daecf2c65d48da9d7bc031f751ab30f4b3e27c6bd53ff886d15a74671b3",
+      "previousDisplaySha256": "e6985d86bddd7beacc0d86a8417ae546496212c4b8affa6c7fae27cdd8dc9b4d"
+    }
+  ],
+  "referenceFile": "output/production/n7/n7-091/image.png"
 }

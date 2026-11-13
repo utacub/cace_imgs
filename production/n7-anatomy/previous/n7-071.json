@@ -1,0 +1,115 @@
+{
+  "constructionId": "n7-071",
+  "file": "output/production/n7/n7-071/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + PILOTA + DINS + CAIXA. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA DINS; el distractor és PILOTA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. CORRECTION REQUIRED: Both balls must be EXACTLY IDENTICAL yellow tennis balls, same diameter, same yellow felt and white curved seam. One inside the cardboard box, one outside it. No blue ball, no color difference. Man touches ONLY the inside yellow ball, no contact with outside ball. Exactly the target living participants only. No bystanders or extra family. Include feet, full furniture legs and all objects, scale the whole composition to the central 65 percent, leave at least a 12 percent empty white border on all FOUR sides. Wide distant view, never crop.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-071",
+    "number": 71,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "posicio",
+    "contrastSubtype": "interior",
+    "pairId": "n7-h-36",
+    "counterpartId": "n7-072",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tocar · pilota · dins · caixa"
+    },
+    "labels": [
+      "HOME",
+      "TOCAR",
+      "PILOTA",
+      "DINS",
+      "CAIXA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-b7f578451973",
+      "w-f871f670a944",
+      "w-696b7c739d30"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "DINS",
+        "wordId": "w-f871f670a944"
+      },
+      "distractor": {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973",
+        "specifier": {
+          "label": "FORA",
+          "wordId": "w-9daa4c89a9c6"
+        }
+      },
+      "anchor": {
+        "role": "anchor",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      "targetSide": "dreta",
+      "controlledDifference": "interior",
+      "evidence": "Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar."
+    },
+    "visualDescription": "HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA DINS; el distractor és PILOTA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cfe24f6b3c38|w-072ecc01e120|w-b7f578451973|w-f871f670a944|w-696b7c739d30|contrast:w-9daa4c89a9c6",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T20:25:55.703Z",
+  "contactRuleAdded": true,
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n7/n7-071/rejected-01.png",
+      "reason": "Pilotes de diferent color: afegeix pista no prevista al contrast dins/fora.",
+      "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: HOME + TOCAR + PILOTA + DINS + CAIXA. Exactly one adult man aged 40. Exact scene in Catalan: HOME: dos exemplars de PILOTA, un DINS i l’altre FORA, respecte d’un únic suport CAIXA. L’objectiu és PILOTA DINS; el distractor és PILOTA FORA. Un exemplar dins un recipient obert baix i l’altre fora, al costat i separat de la vora. El de dins és completament visible des de dalt; recipient proporcionat a l’objecte. La mà toca sense extreure ni desplaçar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target DINS, distractor FORA. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CAIXA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+      "rejectedAt": "2026-11-12T20:27:31.429Z"
+    }
+  ],
+  "review": "Home toca pilota dins caixa; dues pilotes grogues iguals, contrast corregit.",
+  "alt": {
+    "ca": "home · tocar · pilota · dins · caixa.",
+    "es": "HOMBRE · TOCAR · PELOTA · DENTRO · CAJA."
+  },
+  "originalSha256": "a7cfd609cbce137dff83bd8bc045b98afaa2f04dfdccf41917a891d8b0b4e4d7",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T20:29:02.977Z",
+  "publicationVersion": "0.1.132",
+  "importedAt": "2026-11-12T20:38:31.913217+00:00"
+}

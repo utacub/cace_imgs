@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-017",
   "file": "output/production/n7/n7-017/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + PILOTA + GRAN. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA GRAN; el distractor és PILOTA PETITA. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of PILOTA, target GRAN, distractor PETITA. Both must be equally readable and unoccluded; only target receives the action. Keep actual size/length difference obvious without perspective tricks. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions.",
+  "prompt": "Use case: scientific-educational. Create ONE NEW synthetic photorealistic full-body studio photograph for CACE N7. Semantic labels: NOIA + TOCAR + PILOTA + GRAN. Exact semantic specification: NOIA: dos exemplars de PILOTA, un GRAN i l’altre PETITA. L’objectiu és PILOTA GRAN; el distractor és PILOTA PETITA. Exemplars del mateix model, mateix pla i distància; un té el doble de mida lineal, sense perspectiva forçada. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.\nANATOMY CORRECTION OVERRIDES THE OLD POSE: Place BOTH candidates on a sturdy table at the agent’s WAIST HEIGHT, close together but separated by a clear gap. Agent stands upright CLOSE to table with natural proportions, active elbow BENT and hand close to torso. Both objects are comfortably within normal arm reach. For DINS/FORA use one open named container on this table with one object inside and the other outside. Realistic age-appropriate human proportions. Exactly two arms with anatomically normal humerus and forearm lengths, two elbows, normal wrists and hands, normal torso and legs. Never lengthen any limb to reach an object. Reposition the body, bend knees, move closer instead. Human height, limb lengths and joints must look completely ordinary. Full person including shoes, all furniture and both candidate objects inside canvas with generous white margins. Pure white background, neutral unbranded fully clothed person. Exactly TWO candidate objects; identical except the specified N7 qualifier. For spatial contrasts, both candidates same solid red color/material/size; only position differs. Selected PILOTA GRAN receives the ONLY action TOCAR. Other candidate PETITA untouched. Unused hand rests on own thigh or hip, away from both objects. No letters, text, logos, arrows, watermark, collage or decorative items. Natural hands and visible exclusive functional contact. Single photograph. EXACT AGENT: 17 year old teenage girl. Camera FAR AWAY, wide shot; person and all furniture occupy only CENTRAL 70 percent of image, with generous empty white margins on every side, especially ABOVE hair and BELOW shoes and furniture feet. No table leg or foot may touch canvas edge. Touch outside rim or outer surface of selected object.\nCORRECTION: Exactly a 17-year-old teenage girl, adultlike teen height and proportions, not a small child. Wide camera full body with wide margins; natural bent arms touching large ball on waist-height table.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -80,16 +80,27 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T19:15:58.133Z",
-  "review": "Noia completa toca exclusivament la pilota gran; petita del mateix model de futbol al mateix pla. Contrast de mida aproximat 2:1 sense perspectiva.",
+  "review": "Adolescent amb braços proporcionats, colze flexionat i mà sobre pilota gran a taula; petita intacta.",
   "alt": {
     "ca": "noia · tocar · pilota · gran.",
     "es": "CHICA · TOCAR · PELOTA · GRANDE."
   },
-  "originalSha256": "30c2ae1a3869ab512d3dad4c1ef0ac0e1479ee8b84b9710178e3898c1bd45f74",
-  "width": 1312,
-  "height": 1199,
+  "originalSha256": "4038a20faafff327777f2d19ccd27703e6a4e3b2604c49947dab244be8865b63",
+  "width": 1199,
+  "height": 1312,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T19:20:12.601Z",
-  "publicationVersion": "0.1.127",
-  "importedAt": "2026-11-12T19:24:37.955161+00:00"
+  "reviewedAt": "2026-11-13T21:00:23.435Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:39.714239+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:39.188827+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-017.json",
+      "previousOriginal": "output/production/n7/n7-017/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-017/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "30c2ae1a3869ab512d3dad4c1ef0ac0e1479ee8b84b9710178e3898c1bd45f74",
+      "previousDisplaySha256": "8a00561f6c24d7f8c97f6a666ff6852a62a7199eeadb1625eb0c0cfc684bfddc"
+    }
+  ]
 }

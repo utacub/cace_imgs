@@ -1,0 +1,96 @@
+{
+  "constructionId": "n7-049",
+  "file": "output/production/n7/n7-049/image.png",
+  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + TOCAR + CAIXA + NET. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de CAIXA, un NET i l’altre BRUT. L’objectiu és CAIXA NET; el distractor és CAIXA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of CAIXA, target NET, distractor BRUT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n7-049",
+    "number": 49,
+    "level": 7,
+    "group": "habitual",
+    "precisionType": "estat",
+    "contrastSubtype": "neteja",
+    "pairId": "n7-h-25",
+    "counterpartId": "n7-050",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · tocar · caixa · net"
+    },
+    "labels": [
+      "NENA",
+      "TOCAR",
+      "CAIXA",
+      "NET"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-696b7c739d30",
+      "w-8cc4542c0125"
+    ],
+    "roles": [
+      {
+        "role": "agent",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "role": "action",
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "role": "patient",
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      }
+    ],
+    "contrast": {
+      "candidateCount": 2,
+      "sameClass": true,
+      "targetSpecifier": {
+        "role": "specifier",
+        "label": "NET",
+        "wordId": "w-8cc4542c0125"
+      },
+      "distractor": {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30",
+        "specifier": {
+          "label": "BRUT",
+          "wordId": "w-e8c7f0581229"
+        }
+      },
+      "anchor": null,
+      "targetSide": "esquerra",
+      "controlledDifference": "neteja",
+      "evidence": "Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents."
+    },
+    "visualDescription": "NENA: dos exemplars de CAIXA, un NET i l’altre BRUT. L’objectiu és CAIXA NET; el distractor és CAIXA BRUT. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers. SABATES, quan correspon, són dos parells complets i equivalents. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.",
+    "compositionKey": "w-cda6fa4a9867|w-072ecc01e120|w-696b7c739d30|w-8cc4542c0125|contrast:w-e8c7f0581229",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-12T19:57:24.720Z",
+  "contactRuleAdded": true,
+  "review": "Nena completa toca només caixa neta; bruta equivalent amb taques seques visibles. Caixes recognoscibles, sense marques.",
+  "alt": {
+    "ca": "nena · tocar · caixa · net.",
+    "es": "NIÑA · TOCAR · CAJA · LIMPIO."
+  },
+  "originalSha256": "1c46989d4023786ea35c6897108e2a51f4ad322c81370bced103a0fc1a46d1a5",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-12T19:59:24.932Z",
+  "publicationVersion": "0.1.130",
+  "importedAt": "2026-11-12T20:17:30.076393+00:00"
+}

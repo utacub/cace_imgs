@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-037",
   "file": "output/production/n7/n7-037/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NENA + TOCAR + COIXÍ + RATLLES. Exactly one girl aged 7. Exact scene in Catalan: NENA: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ RATLLES; el distractor és COIXÍ TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of COIXÍ, target RATLLES, distractor TOPOS. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "prompt": "Use case: scientific-educational. Create ONE NEW synthetic photorealistic full-body studio photograph for CACE N7. Semantic labels: NENA + TOCAR + COIXÍ + RATLLES. Exact semantic specification: NENA: dos exemplars de COIXÍ, un RATLLES i l’altre TOPOS. L’objectiu és COIXÍ RATLLES; el distractor és COIXÍ TOPOS. Mateix color de base i de motiu: un exemplar té franges amples contínues i l’altre punts rodons grans separats. Patró visible en una zona no tapada per la mà. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.\nANATOMY CORRECTION OVERRIDES THE OLD POSE: Place BOTH candidates on a sturdy table at the agent’s WAIST HEIGHT, close together but separated by a clear gap. Agent stands upright CLOSE to table with natural proportions, active elbow BENT and hand close to torso. Both objects are comfortably within normal arm reach. For DINS/FORA use one open named container on this table with one object inside and the other outside. Realistic age-appropriate human proportions. Exactly two arms with anatomically normal humerus and forearm lengths, two elbows, normal wrists and hands, normal torso and legs. Never lengthen any limb to reach an object. Reposition the body, bend knees, move closer instead. Human height, limb lengths and joints must look completely ordinary. Full person including shoes, all furniture and both candidate objects inside canvas with generous white margins. Pure white background, neutral unbranded fully clothed person. Exactly TWO candidate objects; identical except the specified N7 qualifier. For spatial contrasts, both candidates same solid red color/material/size; only position differs. Selected COIXÍ RATLLES receives the ONLY action TOCAR. Other candidate TOPOS untouched. Unused hand rests on own thigh or hip, away from both objects. No letters, text, logos, arrows, watermark, collage or decorative items. Natural hands and visible exclusive functional contact. Single photograph. EXACT AGENT: 7 year old girl. Camera FAR AWAY, wide shot; person and all furniture occupy only CENTRAL 70 percent of image, with generous empty white margins on every side, especially ABOVE hair and BELOW shoes and furniture feet. No table leg or foot may touch canvas edge. Touch outside rim or outer surface of selected object.\nCORRECTION: Distant wide framing with 15% EMPTY WHITE BORDER ON ALL FOUR SIDES. Entire table LEGS and person SHOES clearly inside canvas. No cropping at bottom.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -81,16 +81,27 @@
   },
   "created": "2026-11-12T19:40:26.953Z",
   "contactRuleAdded": true,
-  "review": "Nena completa toca només coixí de ratlles; topos separat del mateix model, patró blanc/blau clar.",
+  "review": "Nena dreta amb braços naturals; toca coixí de ratlles a l’abast, de punts intacte, taula i cos complets.",
   "alt": {
     "ca": "nena · tocar · coixí · ratlles.",
     "es": "NIÑA · TOCAR · ALMOHADA · RAYAS."
   },
-  "originalSha256": "a4d9ce33c4bb961a83a6a6391f80a472a369846547fd6b9beb189082a3c6c630",
+  "originalSha256": "7085e58a2d299d9688c324c18ea6bc4683ed04cd938a902b889cffab2734958e",
   "width": 1312,
   "height": 1199,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T19:43:58.272Z",
-  "publicationVersion": "0.1.129",
-  "importedAt": "2026-11-12T19:57:31.856532+00:00"
+  "reviewedAt": "2026-11-13T21:00:23.456Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:40.940683+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:40.338913+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-037.json",
+      "previousOriginal": "output/production/n7/n7-037/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-037/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "a4d9ce33c4bb961a83a6a6391f80a472a369846547fd6b9beb189082a3c6c630",
+      "previousDisplaySha256": "7b77158d5768724a85c97bb62e1deac7531440524ad3fc59dcd1708479c68ae6"
+    }
+  ]
 }

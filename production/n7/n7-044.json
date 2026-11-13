@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-044",
   "file": "output/production/n7/n7-044/image.png",
-  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the GALLEDA qualified by BRUT. The opposing NET candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOI + TOCAR + GALLEDA + BRUT. Exactly one teenage boy aged 17. Exact scene in Catalan: NOI: dos exemplars de GALLEDA, un NET i l’altre BRUT. L’objectiu és GALLEDA BRUT; el distractor és GALLEDA NET. Un exemplar sense taques i l’altre amb diverses taques seques de terra clarament localitzades. Mateix color de base, tots dos secs i sencers.  Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target BRUT, distractor NET. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "prompt": "EDIT this corrected partner photo. Preserve the SAME anatomically normal person, natural arm lengths, full body, generous margins, objects, material and background. Change ONLY pose and contact to touch the OTHER selected object: NOI + TOCAR + GALLEDA + BRUT. The BRUT candidate now receives the sole physical contact, NET candidate stays untouched. Keep elbow naturally bent and hand within normal close reach. Reposition person nearer selected object rather than stretching an arm. Keep colors and patterns of BOTH objects exactly unchanged. No text or cropping. Two arms, realistic joints and proportions. Full agent and ALL furniture legs inside white canvas with white margin below feet and legs.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -80,20 +80,30 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T19:51:12.506Z",
-  "referenceFile": "output/production/n7/n7-043/image.png",
-  "referenceConstructionId": "n7-043",
   "contactRuleAdded": true,
   "bucketClarified": true,
-  "review": "Mateix noi i galledes; només toca la bruta, neta intacta. Model, color i taques conservats.",
+  "review": "Noi amb braç proporcionat toca galleda bruta, neta intacta; cos i moble complets.",
   "alt": {
     "ca": "noi · tocar · galleda · brut.",
     "es": "CHICO · TOCAR · CUBO · SUCIO."
   },
-  "originalSha256": "29430e745b1dbc50265316c531312f200a7ea0fa99a49333ccffaaec6dccc783",
-  "width": 1312,
-  "height": 1199,
+  "originalSha256": "376c71b8b940f1e14815cabd371143476e2b058e47055c19a2514a347ac1a273",
+  "width": 1536,
+  "height": 1024,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T19:57:23.706Z",
-  "publicationVersion": "0.1.129",
-  "importedAt": "2026-11-12T19:57:36.413647+00:00"
+  "reviewedAt": "2026-11-13T21:02:35.515Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:43.275826+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:42.440970+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-044.json",
+      "previousOriginal": "output/production/n7/n7-044/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-044/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "29430e745b1dbc50265316c531312f200a7ea0fa99a49333ccffaaec6dccc783",
+      "previousDisplaySha256": "765894023cb4f92832b5c5fa691bf8d11c63f14e08fa899434794b91d545375c"
+    }
+  ],
+  "referenceFile": "output/n7-anatomy-review/n7-043/replacement.png"
 }

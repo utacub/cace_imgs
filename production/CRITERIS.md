@@ -1,3 +1,9 @@
+# Revisió anatòmica N7 autoritzada · 13 de novembre de 2026
+
+L’usuari demana revisar totes les fotografies del darrer lot N7, regenerar les que tenen braços massa llargs o dimensions corporals absurdes i publicar les corregides en substitució de les deformades. Els dibuixos es deixen intactes. Es conserven els originals anteriors i els registres de revisió.
+
+En qualsevol fotografia, els braços, avantbraços, mans, tronc i cames han de tenir proporcions humanes naturals. Si un objecte queda fora de l’abast normal, s’acosta la persona o l’objecte, s’ajusta l’altura del suport o es flexionen els genolls; mai s’allarguen els braços. En SOBRE/SOTA es preserva la posició dels objectes i s’ajup la persona. Verificar articulacions, suport físic, contacte exclusiu amb el referent correcte i figures completes abans d’acceptar. Revisió: production/n7-anatomy-review.json; prompts i decisions: production/n7-anatomy/.
+
 # Autorització N7 del 12 de novembre de 2026
 
 L’usuari aprova el pla N7 i autoritza generar, revisar i publicar les 200 imatges per lots, amb preservació íntegra del catàleg anterior. Aturada de sessió a les 22:20 Europe/Madrid si queda feina pendent; tall preventiu de noves generacions a les 22:15 per publicar i verificar el tram final. Una imatge revisada per estímul: fotografia habitual, dibuix pla insòlit. Pla: production/n7-plan.json; progrés: production/n7-progress.json. Aquesta autorització substitueix l’estat de proposta del pla per a aquesta sessió N7.

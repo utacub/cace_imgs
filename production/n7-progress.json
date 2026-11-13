@@ -31,8 +31,8 @@
   "started": "2026-11-12T19:03:28.331Z",
   "completedHabitual": 100,
   "completedInsolita": 100,
-  "updated": "2026-11-12T20:57:20.642Z",
-  "catalogVersion": "0.1.134",
+  "updated": "2026-11-13T21:15:07.934Z",
+  "catalogVersion": "0.1.135",
   "collectionId": "cace-n7-precisio",
   "publicationAuthorization": "Usuari 12/11/2026: Aprovo el pla N7. Comença a generar, revisar i publicar les 200 imatges per lots, mantenint els criteris visuals i preservant totes les imatges i entrades CACE existents. Si no has acabat, atura’t a les 22:20 i publica tot el que vagis fent.",
   "publicVerified": 200,
@@ -44,5 +44,12 @@
     "status": "public-catalog-and-downloads-verified"
   },
   "completedAt": "2026-11-12T21:04:05.781Z",
-  "generationStoppedAt": "2026-11-12T20:56:55.413Z"
+  "generationStoppedAt": "2026-11-12T20:56:55.413Z",
+  "anatomyRevision": {
+    "reviewedPhotos": 100,
+    "replacedPhotos": 24,
+    "unchangedDrawings": 100,
+    "status": "imported",
+    "record": "production/n7-anatomy-review.json"
+  }
 }

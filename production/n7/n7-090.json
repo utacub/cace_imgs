@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-090",
   "file": "output/production/n7/n7-090/image.png",
-  "prompt": "EDIT the provided partner image. Preserve the SAME agent identity, anatomy, clothing, white background, framing and margins. Preserve the SAME TWO candidate objects, their exact colors, patterns, materials, sizes and positions, and the SAME single anchor CADIRA. Change ONLY arm/paw pose and functional contact to perform TOCAR on ONLY the LLIBRE qualified by SOTA. The opposing SOBRE candidate must receive NO contact and remain clearly visible. Do not move either candidate. Unused hand/paw visibly away from both candidates, against own body or behind back. No extra objects, no text, no arrows. This is ONE image, never a side-by-side comparison. Original semantic specification: Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + LLIBRE + SOTA + CADIRA. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de LLIBRE, un SOBRE i l’altre SOTA, respecte d’un únic suport CADIRA. L’objectiu és LLIBRE SOTA; el distractor és LLIBRE SOBRE. Un exemplar descansa sobre la superfície del suport i l’altre al terra, sota aquella mateixa superfície i entre les potes. Suport obert sense travessers que ocultin; els dos candidats queden complets i accessibles. La mà toca sense moure. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. La disposició espacial segueix la relació etiquetada; la cambra es pot invertir sense canviar SOBRE/SOTA o DINS/FORA. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of LLIBRE, target SOTA, distractor SOBRE. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. Exactly ONE shared anchor CADIRA; TOCAR means a single visible fingertip/paw/trunk contact, no moving objects. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast.",
+  "prompt": "EDIT target photo. Preserve SAME person identity, age, clothing, two objects and furniture. Correct anatomy and change action to NOIA + TOCAR + LLIBRE + SOTA + CADIRA. Reposition whole person into a deep comfortable SQUAT on LEFT side of furniture, both knees visibly bent, hips LOW near heels, both shoes on floor. Normal proportioned human torso and limbs, normal upper arms and forearms; elbow naturally BENT and close to torso. Active fingertip makes a SHORT reachable contact with ONLY the LOWER LLIBRE UNDER the CADIRA. Upper object stays ON furniture, lower object stays on FLOOR UNDER SAME furniture. Objects keep exact original shape size color pattern material and remain fully readable. Do NOT extend an arm to reach from standing; bend the legs and lower whole body instead. Unused hand on own thigh away from both objects. Natural wrists, normal hands and fingers; no distorted limbs. Single photoreal studio image. Full body, ALL feet and furniture legs with generous empty white margins. Pure white background. No text, logos, arrows or extra objects.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -91,19 +91,29 @@
     "reviewStatus": "pendent-de-revisio-usuari"
   },
   "created": "2026-11-12T20:41:07.280Z",
-  "referenceFile": "output/production/n7/n7-089/image.png",
-  "referenceConstructionId": "n7-089",
   "contactRuleAdded": true,
-  "review": "Noia toca llibre sota cadira; sobre intacte, parella coherent.",
+  "review": "Noia ajupida amb braços naturals toca llibre sota cadira; objectes preservats.",
   "alt": {
     "ca": "noia · tocar · llibre · sota · cadira.",
     "es": "CHICA · TOCAR · LIBRO · BAJO · SILLA."
   },
-  "originalSha256": "b1e0846acd920b0097baff608063ac353d786ae786e01c781bd28e03de46fed3",
+  "originalSha256": "636d45436b1e68873076c55660f46d84ed1380caa0dfe27382eda72591d18877",
   "width": 1536,
   "height": 1024,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:46:02.229Z",
-  "publicationVersion": "0.1.133",
-  "importedAt": "2026-11-12T20:49:57.067466+00:00"
+  "reviewedAt": "2026-11-13T21:09:59.728Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:53.318859+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:52.570584+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-090.json",
+      "previousOriginal": "output/production/n7/n7-090/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-090/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "b1e0846acd920b0097baff608063ac353d786ae786e01c781bd28e03de46fed3",
+      "previousDisplaySha256": "cbc78b523f51d88b9c38748340ce786251c054bcda3e88d6d7dd7ae0d595833c"
+    }
+  ],
+  "referenceFile": "output/production/n7/n7-089/image.png"
 }

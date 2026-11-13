@@ -1,7 +1,7 @@
 {
   "constructionId": "n7-065",
   "file": "output/production/n7/n7-065/image.png",
-  "prompt": "Use case: scientific-educational. ONE synthetic photorealistic studio photograph with real textures. CACE N7 PRECISION. Target semantic labels: NOIA + TOCAR + GALLEDA + PLE. Exactly one teenage girl aged 17. Exact scene in Catalan: NOIA: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques. IMPORTANT: exactly TWO separate candidate instances of GALLEDA, target PLE, distractor BUIT. Both must be equally readable and unoccluded; only target receives the action. Identical candidate shape, size and base material except specified contrasting property. No extra location setting. Pure white seamless background. Wide distant framing: ENTIRE agent including feet and all objects and furniture legs fit in the CENTRAL 65 percent of canvas, with at least 12 percent empty WHITE BORDER on ALL four sides. One action, one instant, no collage. Absolutely NO text, letters, numerals, logos, watermark, arrows, answer circles or speech bubbles. No extra candidates, people, animals, decorations or decorative plants. Plain unbranded human clothes; vary skin and hair naturally. Clear functional contact, anatomically plausible hands or paws. Do not print any of these instructions. Mandatory contact rule: active hand/paw has unambiguous physical contact with ONLY selected candidate. UNUSED hand/paw stays BEHIND BACK or visibly against own body, never near distractor. Keep both candidates fully readable, identical other than the specified contrast. GALLEDA means a plain OPEN-TOP BUCKET with handle, NOT a watering can; NO spout, no shoes, no other candidate class.",
+  "prompt": "Use case: scientific-educational. Create ONE NEW synthetic photorealistic full-body studio photograph for CACE N7. Semantic labels: NOIA + TOCAR + GALLEDA + PLE. Exact semantic specification: NOIA: dos exemplars de GALLEDA, un PLE i l’altre BUIT. L’objectiu és GALLEDA PLE; el distractor és GALLEDA BUIT. Recipients oberts idèntics: un ple d’aigua fins prop de la vora amb superfície llegible i l’altre buit, amb el fons interior completament visible. Vista prou elevada, sense vessar. Un dit o extremitat toca només el candidat seleccionat; l’altra mà o extremitat queda apartada dels dos candidats. No s’assenyala a distància. Situar inicialment el seleccionat a esquerra; invertir el contacte en el company de parella. Persona sencera amb roba neutra; fotografia sintètica. Fons blanc, marges amplis, una sola acció, cap text ni marques.\nANATOMY CORRECTION OVERRIDES THE OLD POSE: Place BOTH candidates on a sturdy table at the agent’s WAIST HEIGHT, close together but separated by a clear gap. Agent stands upright CLOSE to table with natural proportions, active elbow BENT and hand close to torso. Both objects are comfortably within normal arm reach. For DINS/FORA use one open named container on this table with one object inside and the other outside. Realistic age-appropriate human proportions. Exactly two arms with anatomically normal humerus and forearm lengths, two elbows, normal wrists and hands, normal torso and legs. Never lengthen any limb to reach an object. Reposition the body, bend knees, move closer instead. Human height, limb lengths and joints must look completely ordinary. Full person including shoes, all furniture and both candidate objects inside canvas with generous white margins. Pure white background, neutral unbranded fully clothed person. Exactly TWO candidate objects; identical except the specified N7 qualifier. For spatial contrasts, both candidates same solid red color/material/size; only position differs. Selected GALLEDA PLE receives the ONLY action TOCAR. Other candidate BUIT untouched. Unused hand rests on own thigh or hip, away from both objects. No letters, text, logos, arrows, watermark, collage or decorative items. Natural hands and visible exclusive functional contact. Single photograph. EXACT AGENT: 17 year old teenage girl. Camera FAR AWAY, wide shot; person and all furniture occupy only CENTRAL 70 percent of image, with generous empty white margins on every side, especially ABOVE hair and BELOW shoes and furniture feet. No table leg or foot may touch canvas edge. Touch outside rim or outer surface of selected object.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": true,
@@ -82,16 +82,27 @@
   "created": "2026-11-12T20:17:22.109Z",
   "contactRuleAdded": true,
   "bucketClarified": true,
-  "review": "Noia toca vora de galleda plena; buida al costat, totes dues llegibles i figura completa.",
+  "review": "Noia dreta amb proporcions naturals; toca vora de galleda plena a taula, buida intacta.",
   "alt": {
     "ca": "noia · tocar · galleda · ple.",
     "es": "CHICA · TOCAR · CUBO · LLENO."
   },
-  "originalSha256": "85d354d6e3880f2e677341a87a2b72d0b20f3e831d3284a031ea89ff493a416c",
+  "originalSha256": "fded15dadad63c98a6627abb7509b94d87720f5af2b172cfa36742eac8f7fb74",
   "width": 1199,
   "height": 1312,
   "generatedWith": "built-in image_gen",
-  "reviewedAt": "2026-11-12T20:20:32.970Z",
-  "publicationVersion": "0.1.131",
-  "importedAt": "2026-11-12T20:27:40.637837+00:00"
+  "reviewedAt": "2026-11-13T21:04:49.731Z",
+  "publicationVersion": "0.1.135",
+  "importedAt": "2026-11-13T21:13:45.684064+00:00",
+  "revisions": [
+    {
+      "type": "anatomy-correction",
+      "replacedAt": "2026-11-13T21:13:44.870689+00:00",
+      "previousRecord": "production/n7-anatomy/previous/n7-065.json",
+      "previousOriginal": "output/production/n7/n7-065/before-anatomy-2026-11-13.png",
+      "previousWebP": "output/production/n7/n7-065/before-anatomy-2026-11-13.webp",
+      "previousOriginalSha256": "85d354d6e3880f2e677341a87a2b72d0b20f3e831d3284a031ea89ff493a416c",
+      "previousDisplaySha256": "f4f01b188bb8ee1638d8bfb289c5663c8a78dd7c80937901166027b0d4370cbd"
+    }
+  ]
 }
