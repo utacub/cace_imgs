@@ -1,5 +1,5 @@
 {
-  "version": "0.1.136",
+  "version": "0.1.137",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,2126 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-003",
+      "src": "assets/constructions/n8/n8-003.webp",
+      "title": {
+        "ca": "noia · llegir · llibre / noi · olorar · flor",
+        "es": "CHICA · LEER · LIBRO · CHICO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "noia · llegir · llibre / noi · olorar · flor.",
+        "es": "CHICA · LEER · LIBRO · CHICO · OLER · FLOR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:55.609Z",
+      "target": "n8-003",
+      "constructionId": "n8-003",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a1026658b37cab45d2a01f5bf14ccc2b91c480c3ca8e29c9c35f3918201ff27c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "35a8ad564a30051fd11fb197056aa4518ed20fb90f2f895f63c1baa56e205f38"
+    },
+    {
+      "id": "cace-n8-004",
+      "src": "assets/constructions/n8/n8-004.webp",
+      "title": {
+        "ca": "home · llegir · llibre / nena · abraçar · coixí",
+        "es": "HOMBRE · LEER · LIBRO · NIÑA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · llegir · llibre / nena · abraçar · coixí.",
+        "es": "HOMBRE · LEER · LIBRO · NIÑA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:55.836Z",
+      "target": "n8-004",
+      "constructionId": "n8-004",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6211f5cb06d363b3802381673e750388292af64503d2650b3853d943852b925f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "69d51f8b36904b795cb1c61c7c0ec1a2558623e13d312d67736ca960a8cc9dea"
+    },
+    {
+      "id": "cace-n8-005",
+      "src": "assets/constructions/n8/n8-005.webp",
+      "title": {
+        "ca": "dona · llegir · llibre / home · saltar",
+        "es": "MUJER · LEER · LIBRO · HOMBRE · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · llegir · llibre / home · saltar.",
+        "es": "MUJER · LEER · LIBRO · HOMBRE · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:55.992Z",
+      "target": "n8-005",
+      "constructionId": "n8-005",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "419bb718a0b21dd079071a7a63c63e215ffc8d3e18513a6c43dab42863fd3839",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d4d80265b5097e839f60dd5a01f1a681af74a212653bf795e5de55b9f16e5344"
+    },
+    {
+      "id": "cace-n8-006",
+      "src": "assets/constructions/n8/n8-006.webp",
+      "title": {
+        "ca": "nen · beure · aigua / noia · portar · cistell",
+        "es": "NIÑO · BEBER · AGUA · CHICA · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nen · beure · aigua / noia · portar · cistell.",
+        "es": "NIÑO · BEBER · AGUA · CHICA · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:56.142Z",
+      "target": "n8-006",
+      "constructionId": "n8-006",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "41ea64f91b2ccc8775d9d153bad2eec14c002a33cc656dda252f69b710b2c89c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f86c5bc00d131c35871f54e97526dde721360e5eb91bbd7d5cd5aa7a0135ba60"
+    },
+    {
+      "id": "cace-n8-007",
+      "src": "assets/constructions/n8/n8-007.webp",
+      "title": {
+        "ca": "noi · beure · aigua / dona · aixecar · pilota",
+        "es": "CHICO · BEBER · AGUA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "noi · beure · aigua / dona · aixecar · pilota.",
+        "es": "CHICO · BEBER · AGUA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:56.288Z",
+      "target": "n8-007",
+      "constructionId": "n8-007",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "2ca90210cc33c21eee4052a23f152f05bff48ecb0f154c38dab73f7462432fab",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "722b715d69003829181edd310ffc5a6879bc222900fd674a6ed6d7f1f0cade06"
+    },
+    {
+      "id": "cace-n8-008",
+      "src": "assets/constructions/n8/n8-008.webp",
+      "title": {
+        "ca": "nena · beure · aigua / noia · olorar · flor",
+        "es": "NIÑA · BEBER · AGUA · CHICA · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "nena · beure · aigua / noia · olorar · flor.",
+        "es": "NIÑA · BEBER · AGUA · CHICA · OLER · FLOR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:35.748Z",
+      "target": "n8-008",
+      "constructionId": "n8-008",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8db89698760ca9e9eb91f9cc4b27a190c156db5d13f4dc714c8507eba7516868",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0c5a1c457e1e7a954d6f42cfab906eb64277370d010297292da8fefb8bf185ec"
+    },
+    {
+      "id": "cace-n8-009",
+      "src": "assets/constructions/n8/n8-009.webp",
+      "title": {
+        "ca": "home · beure · aigua / noi · abraçar · coixí",
+        "es": "HOMBRE · BEBER · AGUA · CHICO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · beure · aigua / noi · abraçar · coixí.",
+        "es": "HOMBRE · BEBER · AGUA · CHICO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.044Z",
+      "target": "n8-009",
+      "constructionId": "n8-009",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "53e8712da0961dd8b25e47cbe96eabee9e644b737470eb2f42e373630aa44f65",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "52e60847c7d9f4b28024ae9494bfad8d598114285c4cba07da648d072c092dd4"
+    },
+    {
+      "id": "cace-n8-010",
+      "src": "assets/constructions/n8/n8-010.webp",
+      "title": {
+        "ca": "dona · beure · aigua / nena · saltar",
+        "es": "MUJER · BEBER · AGUA · NIÑA · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · beure · aigua / nena · saltar.",
+        "es": "MUJER · BEBER · AGUA · NIÑA · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.358Z",
+      "target": "n8-010",
+      "constructionId": "n8-010",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f477451f24a02fe5fd396687448eca326ff3c8e75cc3fad24aa2c513bca5f239",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b37aff06f3ebc63ebe2b953429f6624392511e692fea90865fc0da5adc8b323f"
+    },
+    {
+      "id": "cace-n8-011",
+      "src": "assets/constructions/n8/n8-011.webp",
+      "title": {
+        "ca": "nena · menjar · poma / nen · portar · cistell",
+        "es": "NIÑA · COMER · MANZANA · NIÑO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nena · menjar · poma / nen · portar · cistell.",
+        "es": "NIÑA · COMER · MANZANA · NIÑO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.729Z",
+      "target": "n8-011",
+      "constructionId": "n8-011",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d3da5692d3fc431dd016651a25e9033db2fa19de323637639416a72af0e512a4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "48a498def8324967ca6d02743728d775b8f061ca4bd4919f378891663d0aa8f1"
+    },
+    {
+      "id": "cace-n8-103",
+      "src": "assets/constructions/n8/n8-103.webp",
+      "title": {
+        "ca": "gat · llegir · llibre / gos · olorar · flor",
+        "es": "GATO · LEER · LIBRO · PERRO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gat · llegir · llibre / gos · olorar · flor.",
+        "es": "GATO · LEER · LIBRO · PERRO · OLER · FLOR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:55.722Z",
+      "target": "n8-103",
+      "constructionId": "n8-103",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "f34bc4af6f717cc1adede8a9ddada409c161717cd9b02f34615e4f5456beb6c2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "adc0ba452ebd675d95eea1b757938420c5c6e3d64e5cffee915090f2e62c6344"
+    },
+    {
+      "id": "cace-n8-104",
+      "src": "assets/constructions/n8/n8-104.webp",
+      "title": {
+        "ca": "cangur · llegir · llibre / pinguí · abraçar · coixí",
+        "es": "CANGURO · LEER · LIBRO · PINGÜINO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "cangur · llegir · llibre / pinguí · abraçar · coixí.",
+        "es": "CANGURO · LEER · LIBRO · PINGÜINO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:55.927Z",
+      "target": "n8-104",
+      "constructionId": "n8-104",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4982ff444be2c4c9d96662ab7500ca9b91fcac589ca80b2785ea4c06faa94679",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ea253d01e9ecf6c9b5e601fd3f98c200dc62ed1feb767ad2f5df8dbb684a5c0c"
+    },
+    {
+      "id": "cace-n8-105",
+      "src": "assets/constructions/n8/n8-105.webp",
+      "title": {
+        "ca": "zebra · llegir · llibre / girafa · saltar",
+        "es": "CEBRA · LEER · LIBRO · JIRAFA · SALTAR"
+      },
+      "alt": {
+        "ca": "zebra · llegir · llibre / girafa · saltar.",
+        "es": "CEBRA · LEER · LIBRO · JIRAFA · SALTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:56.074Z",
+      "target": "n8-105",
+      "constructionId": "n8-105",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "70366ef781428fa70baa82170732a7bdc1665aaf7014fc113b30e559fe13bbed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "10007bfcfbaf5749f1ffe54fdfcf8dd205511a1543c95fd8af39192a0d07bc74"
+    },
+    {
+      "id": "cace-n8-106",
+      "src": "assets/constructions/n8/n8-106.webp",
+      "title": {
+        "ca": "ós · beure · aigua / conill · portar · cistell",
+        "es": "OSO · BEBER · AGUA · CONEJO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "ós · beure · aigua / conill · portar · cistell.",
+        "es": "OSO · BEBER · AGUA · CONEJO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:56.219Z",
+      "target": "n8-106",
+      "constructionId": "n8-106",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "0ca1bf4d0295e5bbd302777dbdff79659dc42471b61f07177e8ac3903f0a4e4b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "684047870a99872469f7d3cba1055e9c811ad644a539337e2b8df0ab488e5dd9"
+    },
+    {
+      "id": "cace-n8-107",
+      "src": "assets/constructions/n8/n8-107.webp",
+      "title": {
+        "ca": "elefant · beure · aigua / gat · aixecar · pilota",
+        "es": "ELEFANTE · BEBER · AGUA · GATO · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "elefant · beure · aigua / gat · aixecar · pilota.",
+        "es": "ELEFANTE · BEBER · AGUA · GATO · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:54:56.353Z",
+      "target": "n8-107",
+      "constructionId": "n8-107",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "0e6fdeafc7651335a5cd39ffd1469f5770e414d35cbf360166e1a24763845dd7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ecd060e97e595f4487440c8a68a61ebab3f079f7668584341673739e37138448"
+    },
+    {
+      "id": "cace-n8-108",
+      "src": "assets/constructions/n8/n8-108.webp",
+      "title": {
+        "ca": "gos · beure · aigua / cangur · olorar · flor",
+        "es": "PERRO · BEBER · AGUA · CANGURO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gos · beure · aigua / cangur · olorar · flor.",
+        "es": "PERRO · BEBER · AGUA · CANGURO · OLER · FLOR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:35.889Z",
+      "target": "n8-108",
+      "constructionId": "n8-108",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2ef5d496d101ba9b77fafb2dd7c495c6c9345bf776eaaa08e9157b0103fe96ce",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "65c7e584b625c25e5ed782caba8c9e224317d5457d55b36ac97cc89f1ac3d725"
+    },
+    {
+      "id": "cace-n8-109",
+      "src": "assets/constructions/n8/n8-109.webp",
+      "title": {
+        "ca": "pinguí · beure · aigua / zebra · abraçar · coixí",
+        "es": "PINGÜINO · BEBER · AGUA · CEBRA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "pinguí · beure · aigua / zebra · abraçar · coixí.",
+        "es": "PINGÜINO · BEBER · AGUA · CEBRA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.206Z",
+      "target": "n8-109",
+      "constructionId": "n8-109",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "13ce68b2cec0ea81214e87e5d74001a80367500b4b30ac28d7c0f87d159d99c3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d0650e7b3e419d95f4742e28d102368adb6ad9e5d57be6021d1ce393dde66eb2"
+    },
+    {
+      "id": "cace-n8-110",
+      "src": "assets/constructions/n8/n8-110.webp",
+      "title": {
+        "ca": "girafa · beure · aigua / mico · saltar",
+        "es": "JIRAFA · BEBER · AGUA · MONO · SALTAR"
+      },
+      "alt": {
+        "ca": "girafa · beure · aigua / mico · saltar.",
+        "es": "JIRAFA · BEBER · AGUA · MONO · SALTAR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-a5ddba336d84",
+        "w-00e8b2c10536",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.520Z",
+      "target": "n8-110",
+      "constructionId": "n8-110",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "BEURE",
+              "wordId": "w-a5ddba336d84"
+            },
+            {
+              "role": "patient",
+              "label": "AIGUA",
+              "wordId": "w-00e8b2c10536"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "BEURE",
+            "AIGUA"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-a5ddba336d84",
+            "w-00e8b2c10536"
+          ],
+          "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4398e9784c611cafccbf25a395648a8e9bb133f980414e7e50e987ec66534929",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "19c9f8707a984c96ae61839097dfed5c12c3567cb084dad87e5ad4a598ef855b"
+    },
+    {
+      "id": "cace-n8-111",
+      "src": "assets/constructions/n8/n8-111.webp",
+      "title": {
+        "ca": "mico · menjar · poma / ós · portar · cistell",
+        "es": "MONO · COMER · MANZANA · OSO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "mico · menjar · poma / ós · portar · cistell.",
+        "es": "MONO · COMER · MANZANA · OSO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:58:36.898Z",
+      "target": "n8-111",
+      "constructionId": "n8-111",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "d10d478f9823a0d73f65c3bdf8bec8c90d4513542a2ed1a10e9f18c7ddd08e52",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5020e6a674380fc7f551ec63c8eaaaa5c235e48f89ee009b962f8a07935d21c7"
+    },
     {
       "id": "cace-n8-052",
       "src": "assets/constructions/n8/n8-052.webp",
@@ -136141,7 +138261,25 @@
         "cace-n8-089",
         "cace-n8-102",
         "cace-n8-153",
-        "cace-n8-189"
+        "cace-n8-189",
+        "cace-n8-003",
+        "cace-n8-004",
+        "cace-n8-005",
+        "cace-n8-006",
+        "cace-n8-007",
+        "cace-n8-008",
+        "cace-n8-009",
+        "cace-n8-010",
+        "cace-n8-011",
+        "cace-n8-103",
+        "cace-n8-104",
+        "cace-n8-105",
+        "cace-n8-106",
+        "cace-n8-107",
+        "cace-n8-108",
+        "cace-n8-109",
+        "cace-n8-110",
+        "cace-n8-111"
       ]
     }
   ]

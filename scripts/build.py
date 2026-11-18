@@ -3,11 +3,12 @@ import argparse,json,base64,subprocess,re,mimetypes,sys
 root=Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description='Build the web app and optionally a standalone HTML file.')
 parser.add_argument('--site-only',action='store_true',help='Build dist/ without embedding every image into an offline HTML file.')
+parser.add_argument('--since',help='Reuse image decoding only for hashes matching this committed catalogue.')
 parser.add_argument('--offline-output',type=Path,default=root/'output/CACE_Imatges_v0.1.html')
 args=parser.parse_args()
 subprocess.run([sys.executable,str(root/'scripts/update-search-keywords.py')],check=True)
 subprocess.run([sys.executable,str(root/'scripts/materialize-assets.py')],check=True)
-subprocess.run([sys.executable,str(root/'scripts/optimize-catalog.py')],check=True)
+subprocess.run([sys.executable,str(root/'scripts/optimize-catalog.py')]+(['--since',args.since] if args.since else []),check=True)
 subprocess.run(['node','--check',str(root/'src/app.js')],check=True)
 data=json.loads((root/'src/catalog-data.json').read_text())
 template=(root/'src/template.html').read_text()

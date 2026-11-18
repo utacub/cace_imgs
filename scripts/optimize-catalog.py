@@ -3,9 +3,18 @@ from pathlib import Path
 import hashlib
 import json
 import os
+import argparse
+import subprocess
 from PIL import Image
 
 root = Path(__file__).resolve().parents[1]
+parser = argparse.ArgumentParser()
+parser.add_argument('--since', help='Reuse decoding only for unchanged hashes from a committed catalogue.')
+args = parser.parse_args()
+previous_hashes = {}
+if args.since:
+    previous = json.loads(subprocess.check_output(['git', 'show', args.since+':src/catalog-data.json'], cwd=root))
+    previous_hashes = {a['src']: a.get('displaySha256') for a in previous['assets']}
 path = root / 'src/catalog-data.json'
 data = json.loads(path.read_text())
 converted = 0
@@ -16,10 +25,11 @@ for asset in data['assets']:
     source = root / 'dist' / asset['src']
     if source.suffix.lower() == '.webp':
         assert source.is_file(), source
-        with Image.open(source) as image:
-            image.load()
         checksum = hashlib.sha256(source.read_bytes()).hexdigest()
         assert not asset.get('displaySha256') or asset['displaySha256'] == checksum, source
+        if previous_hashes.get(asset['src']) != checksum:
+            with Image.open(source) as image:
+                image.load()
         asset['displaySha256'] = checksum
         for suffix in ('.png', '.jpg', '.jpeg'):
             sibling = source.with_suffix(suffix)

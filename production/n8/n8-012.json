@@ -1,0 +1,135 @@
+{
+  "constructionId": "n8-012",
+  "file": "output/production/n8/n8-012/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age boy, on the RIGHT. Second participant: adult woman, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita. DONA a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY POMA, PILOTA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. For AIXECAR include one VERY LOW empty rectangular block NEXT TO the ball lifter, clearly below the raised ball. It is a necessary support and overrides the object list. Both feet firmly grounded on the shared floor with a small shadow. Never place feet on block or obscure them.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-012",
+    "number": 12,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-012",
+    "counterpartId": "n8-112",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · menjar · poma / dona · aixecar · pilota"
+    },
+    "labels": [
+      "NEN",
+      "MENJAR",
+      "POMA",
+      "DONA",
+      "AIXECAR",
+      "PILOTA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c248ebfe6f67",
+      "w-809c680b5699",
+      "w-72e9fe9a8b43",
+      "w-e12d88415c80",
+      "w-b7f578451973"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09"
+          },
+          {
+            "role": "action",
+            "label": "MENJAR",
+            "wordId": "w-c248ebfe6f67"
+          },
+          {
+            "role": "patient",
+            "label": "POMA",
+            "wordId": "w-809c680b5699"
+          }
+        ],
+        "labels": [
+          "NEN",
+          "MENJAR",
+          "POMA"
+        ],
+        "wordIds": [
+          "w-b4012100fe09",
+          "w-c248ebfe6f67",
+          "w-809c680b5699"
+        ],
+        "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43"
+          },
+          {
+            "role": "action",
+            "label": "AIXECAR",
+            "wordId": "w-e12d88415c80"
+          },
+          {
+            "role": "patient",
+            "label": "PILOTA",
+            "wordId": "w-b7f578451973"
+          }
+        ],
+        "labels": [
+          "DONA",
+          "AIXECAR",
+          "PILOTA"
+        ],
+        "wordIds": [
+          "w-72e9fe9a8b43",
+          "w-e12d88415c80",
+          "w-b7f578451973"
+        ],
+        "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita. DONA a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-72e9fe9a8b43|w-e12d88415c80|w-b7f578451973||w-b4012100fe09|w-c248ebfe6f67|w-809c680b5699",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T07:02:32.615Z",
+  "review": "Nen menjant la poma a dreta i dona aixecant pilota al pit a esquerra, base baixa buida visible, peus recolzats i colzes flexionats. Cossos sencers i mans naturals. Sense text ni marques, context mínim. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "nen · menjar · poma / dona · aixecar · pilota.",
+    "es": "NIÑO · COMER · MANZANA · MUJER · LEVANTAR · PELOTA."
+  },
+  "originalSha256": "6710f4d35cc4a225f4dceb52212569e4b8f7b611d941abf4b74e7392e253a145",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T07:06:24.207Z"
+}

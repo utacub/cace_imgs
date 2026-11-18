@@ -1,7 +1,7 @@
 {
   "status": "valid",
   "checkedOn": "2026-11-13",
-  "scope": "Planificació local N8. No s’han generat imatges ni verificat el desplegament remot.",
+  "scope": "Validació del pla original contra la baseline; preservació del catàleg previ durant la producció autoritzada. No comprova la publicació.",
   "baseline": {
     "checkedOn": "2026-11-13",
     "head": "f5c8bcd5a0e1efee805f0f6b10b6746951399620",
@@ -24,13 +24,14 @@
       "package.json"
     ]
   },
-  "catalogUnchanged": true,
-  "protectedTrackedPathsUnchanged": true,
+  "catalogUnchanged": false,
+  "authorizedProductionPresent": true,
+  "protectedTrackedPathsUnchanged": false,
   "catalogAssetsPreserved": 3669,
   "catalogWordsPreserved": 861,
   "localDisplayHashesChecked": 3669,
   "legacyAssetsWithoutDisplayHash": 0,
-  "bankTrackedFilesUnchanged": true,
+  "bankTrackedFilesUnchanged": false,
   "totalItems": 200,
   "eventCount": 400,
   "homologousFamilies": 100,
@@ -203,7 +204,7 @@
       "La distribució i la coexistència en un sol instant són decisions proposades, no quotes imposades per les fonts.",
       "100 famílies homologues humanes/animals; no són 200 situacions independents.",
       "DORMIR, RIURE i PLORAR, la lectura i els contactes petits necessiten revisió perceptiva futura.",
-      "No hi ha imatges N8 existents ni validació clínica o psicomètrica.",
+      "La validació del pla no acredita la qualitat perceptiva de les imatges N8 produïdes ni té valor clínic o psicomètric.",
       "El catàleg i el banc versionat es conserven intactes; els assets antics sense displaySha256 es comproven per existència i preservació del banc, sense atribuir-los un hash històric inexistent."
     ]
   },

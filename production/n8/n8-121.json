@@ -1,0 +1,134 @@
+{
+  "constructionId": "n8-121",
+  "file": "output/production/n8/n8-121/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: monkey, on the RIGHT. Second participant: bear, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. MICO a dreta: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. ÓS a esquerra: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY CAIXA, PINZELL, TAULA, CISTELL. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-121",
+    "number": 121,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-021",
+    "counterpartId": "n8-021",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · pintar · caixa / ós · portar · cistell"
+    },
+    "labels": [
+      "MICO",
+      "PINTAR",
+      "CAIXA",
+      "ÓS",
+      "PORTAR",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-b04a48827310",
+      "w-696b7c739d30",
+      "w-a06249642996",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "MICO",
+            "wordId": "w-12a87560751b"
+          },
+          {
+            "role": "action",
+            "label": "PINTAR",
+            "wordId": "w-b04a48827310"
+          },
+          {
+            "role": "patient",
+            "label": "CAIXA",
+            "wordId": "w-696b7c739d30"
+          }
+        ],
+        "labels": [
+          "MICO",
+          "PINTAR",
+          "CAIXA"
+        ],
+        "wordIds": [
+          "w-12a87560751b",
+          "w-b04a48827310",
+          "w-696b7c739d30"
+        ],
+        "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+        "context": [
+          {
+            "label": "PINZELL",
+            "wordId": "w-33df96705776"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ÓS",
+            "wordId": "w-a06249642996"
+          },
+          {
+            "role": "action",
+            "label": "PORTAR",
+            "wordId": "w-73b71e1ff757"
+          },
+          {
+            "role": "patient",
+            "label": "CISTELL",
+            "wordId": "w-120fb6b37e88"
+          }
+        ],
+        "labels": [
+          "ÓS",
+          "PORTAR",
+          "CISTELL"
+        ],
+        "wordIds": [
+          "w-a06249642996",
+          "w-73b71e1ff757",
+          "w-120fb6b37e88"
+        ],
+        "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. MICO a dreta: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. ÓS a esquerra: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-12a87560751b|w-b04a48827310|w-696b7c739d30||w-a06249642996|w-73b71e1ff757|w-120fb6b37e88",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T07:06:26.512Z"
+}

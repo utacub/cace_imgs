@@ -1,0 +1,135 @@
+{
+  "constructionId": "n8-014",
+  "file": "output/production/n8/n8-014/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: adult man, on the RIGHT. Second participant: school-age girl, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. HOME a dreta: Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita. NENA a esquerra: Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY POMA, COIXÍ. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-014",
+    "number": 14,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-014",
+    "counterpartId": "n8-114",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · menjar · poma / nena · abraçar · coixí"
+    },
+    "labels": [
+      "HOME",
+      "MENJAR",
+      "POMA",
+      "NENA",
+      "ABRAÇAR",
+      "COIXÍ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c248ebfe6f67",
+      "w-809c680b5699",
+      "w-cda6fa4a9867",
+      "w-780639e2d630",
+      "w-44260b79b61e"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38"
+          },
+          {
+            "role": "action",
+            "label": "MENJAR",
+            "wordId": "w-c248ebfe6f67"
+          },
+          {
+            "role": "patient",
+            "label": "POMA",
+            "wordId": "w-809c680b5699"
+          }
+        ],
+        "labels": [
+          "HOME",
+          "MENJAR",
+          "POMA"
+        ],
+        "wordIds": [
+          "w-cfe24f6b3c38",
+          "w-c248ebfe6f67",
+          "w-809c680b5699"
+        ],
+        "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867"
+          },
+          {
+            "role": "action",
+            "label": "ABRAÇAR",
+            "wordId": "w-780639e2d630"
+          },
+          {
+            "role": "patient",
+            "label": "COIXÍ",
+            "wordId": "w-44260b79b61e"
+          }
+        ],
+        "labels": [
+          "NENA",
+          "ABRAÇAR",
+          "COIXÍ"
+        ],
+        "wordIds": [
+          "w-cda6fa4a9867",
+          "w-780639e2d630",
+          "w-44260b79b61e"
+        ],
+        "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. HOME a dreta: Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita. NENA a esquerra: Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-cda6fa4a9867|w-780639e2d630|w-44260b79b61e||w-cfe24f6b3c38|w-c248ebfe6f67|w-809c680b5699",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T07:02:32.943Z",
+  "review": "Home menjant poma a dreta i nena abraçant coixí contra el pit a esquerra. Preses pròpies, colzes flexionats, anatomia coherent, figures completes. Sense text ni marques, context mínim. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "home · menjar · poma / nena · abraçar · coixí.",
+    "es": "HOMBRE · COMER · MANZANA · NIÑA · ABRAZAR · ALMOHADA."
+  },
+  "originalSha256": "a279fbb126bec3699d9d26c476e6cd2c79720cf94dd534f8d66af5f53c02e214",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T07:06:24.544Z"
+}
