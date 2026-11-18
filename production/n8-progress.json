@@ -1,6 +1,6 @@
 {
   "level": 8,
-  "status": "generation-stopped-for-publication",
+  "status": "stopped-at-session-limit",
   "planned": 200,
   "complete": 48,
   "pending": [
@@ -208,13 +208,14 @@
     "stopAt": "2026-11-18T07:20:00Z",
     "generationCutoff": "2026-11-18T07:10:00Z"
   },
-  "publicVerified": 28,
-  "publicVersion": "0.1.137",
-  "publicVerifiedAt": "2026-11-18T07:10:56Z",
+  "publicVerified": 48,
+  "publicVersion": "0.1.138",
+  "publicVerifiedAt": "2026-11-18T07:12:54Z",
   "lastDeployment": {
-    "commit": "9672f6f",
-    "publicVerification": "output/n8-publication-0.1.137.json",
+    "commit": "8f65ca8",
+    "publicVerification": "output/n8-publication-0.1.138.json",
     "status": "public-catalog-and-downloads-verified"
   },
-  "generationStoppedAt": "2026-11-18T07:10:21.229Z"
+  "generationStoppedAt": "2026-11-18T07:10:21.229Z",
+  "finishedAt": "2026-11-18T07:13:24.338Z"
 }
