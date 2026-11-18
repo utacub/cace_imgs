@@ -1,0 +1,126 @@
+{
+  "constructionId": "n8-105",
+  "file": "output/production/n8/n8-105/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: zebra, on the RIGHT. Second participant: giraffe, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. GIRAFA a esquerra: Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY LLIBRE. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-105",
+    "number": 105,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-005",
+    "counterpartId": "n8-005",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · llegir · llibre / girafa · saltar"
+    },
+    "labels": [
+      "ZEBRA",
+      "LLEGIR",
+      "LLIBRE",
+      "GIRAFA",
+      "SALTAR"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-e60f76be7b6c",
+      "w-aac354dd31c8"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ZEBRA",
+            "wordId": "w-0dc8fba9677d"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "ZEBRA",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-0dc8fba9677d",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GIRAFA",
+            "wordId": "w-e60f76be7b6c"
+          },
+          {
+            "role": "action",
+            "label": "SALTAR",
+            "wordId": "w-aac354dd31c8"
+          }
+        ],
+        "labels": [
+          "GIRAFA",
+          "SALTAR"
+        ],
+        "wordIds": [
+          "w-e60f76be7b6c",
+          "w-aac354dd31c8"
+        ],
+        "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. GIRAFA a esquerra: Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-0dc8fba9677d|w-ef0bd41d6ee3|w-3bb995df42bf||w-e60f76be7b6c|w-aac354dd31c8",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:54:56.074Z",
+  "review": "Zebra a dreta llegint el llibre i girafa a esquerra saltant, amb potes separades del terra i ombra a sota. Cossos sencers i anatomia coherent dins el dibuix pla, sense text. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "zebra · llegir · llibre / girafa · saltar.",
+    "es": "CEBRA · LEER · LIBRO · JIRAFA · SALTAR."
+  },
+  "originalSha256": "70366ef781428fa70baa82170732a7bdc1665aaf7014fc113b30e559fe13bbed",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:58:25.922Z"
+}

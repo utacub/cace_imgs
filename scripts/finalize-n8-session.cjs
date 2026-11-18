@@ -1,0 +1,13 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const write=(p,x)=>fs.writeFileSync(p,JSON.stringify(x,null,2)+'\n');
+const p=read('production/n8-progress.json'),c=read('src/catalog-data.json');
+const audit=read('output/n8-production-audit.json'),v=read('output/n8-publication-verification.json');
+assert.equal(audit.status,'valid');assert.equal(v.status,'verified');assert.equal(v.version,c.version);
+assert.equal(v.n8DownloadsVerified,p.complete);assert.equal(p.imported,p.complete);
+const result={status:p.complete===200?'complete':'stopped-at-session-limit',level:8,planned:200,reviewed:p.complete,imported:p.imported,published:v.n8DownloadsVerified,pending:p.pending,habitual:p.completedHabitual,insolita:p.completedInsolita,catalogVersion:c.version,catalogImages:c.assets.length,preservedImages:audit.existingImagesPreserved,preservedCaceEntries:audit.existingWordsPreserved,baselineCommit:p.baseline.head,lastContentCommit:process.argv[2]||null,sessionDeadline:p.stopAt,generationCutoff:p.generationCutoff,generationStoppedAt:p.generationStoppedAt||new Date().toISOString(),finishedAt:new Date().toISOString(),publicVerifiedAt:v.verifiedAtUtc,rejectedAttempts:audit.rejectedAttempts,testsPassed:19,originals:'output/production/n8',records:'production/n8',gallery:'output/n8-review.html',publicationEvidence:'production/n8-publications.json',note:'Generació amb ImageGen integrat; revisió visual individual. La sessió queda aturada i els pendents requereixen una represa explícita.'};
+write('production/n8-session-2026-11-18.json',result);
+Object.assign(p,{status:result.status,finishedAt:result.finishedAt,generationStoppedAt:result.generationStoppedAt});write('production/n8-progress.json',p);
+const note=`# N8 · Sessió aturada · 18/11/2026\n\n${result.published}/200 imatges N8 revisades i publicades: ${result.habitual} fotografies habituals i ${result.insolita} dibuixos plans insòlits. Catàleg ${c.version}, ${c.assets.length} imatges; les 3669 imatges i 861 entrades prèvies es conserven íntegrament. Verificació pública: ${v.verifiedAtUtc}; totes les descàrregues N8 comprovades amb SHA-256. Generació aturada a ${result.generationStoppedAt}; límit de sessió 8:20 Europe/Madrid. ${p.pending.length} pendents, identificats a production/n8-progress.json. No reprendre noves generacions sense una nova instrucció.\n\nRegistre: production/n8-session-2026-11-18.json; originals i descartades: output/production/n8; prompts i revisions: production/n8; publicacions: production/n8-publications.json.\n\n---\n\n`;
+fs.writeFileSync('PAUSA.md',note+fs.readFileSync('PAUSA.md','utf8'));
+console.log(JSON.stringify(result,null,2));

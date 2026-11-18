@@ -1,0 +1,221 @@
+{
+  "status": "valid",
+  "checkedOn": "2026-11-13",
+  "scope": "Planificació local N8. No s’han generat imatges ni verificat el desplegament remot.",
+  "baseline": {
+    "checkedOn": "2026-11-13",
+    "head": "f5c8bcd5a0e1efee805f0f6b10b6746951399620",
+    "initialWorkingTree": "clean",
+    "version": "0.1.135",
+    "totalAssets": 3669,
+    "words": 861,
+    "catalogSha256": "37ad8dd66dfb8eb28dbb437df0f221d7d1bd5f95c293ccdbf9edce545ab34a28",
+    "protectedPaths": [
+      "src/",
+      "bank/",
+      "dist/",
+      "production/n4-plan.json",
+      "production/n5-plan.json",
+      "production/n6-plan.json",
+      "production/n7-plan.json",
+      "production/CRITERIS.md",
+      "PAUSA.md",
+      "README.md",
+      "package.json"
+    ]
+  },
+  "catalogUnchanged": true,
+  "protectedTrackedPathsUnchanged": true,
+  "catalogAssetsPreserved": 3669,
+  "catalogWordsPreserved": 861,
+  "localDisplayHashesChecked": 3669,
+  "legacyAssetsWithoutDisplayHash": 0,
+  "bankTrackedFilesUnchanged": true,
+  "totalItems": 200,
+  "eventCount": 400,
+  "homologousFamilies": 100,
+  "uniqueIds": 200,
+  "uniqueTitles": 200,
+  "uniqueTargetTuples": 200,
+  "uniqueCompositionKeys": 200,
+  "targetRoleOccurrencesChecked": 1040,
+  "contextOccurrencesChecked": 276,
+  "distinctTargetWordIds": 49,
+  "distribution": {
+    "habitual": {
+      "total": 100,
+      "types": {
+        "accio-accio": 50,
+        "accio-estat": 30,
+        "estat-estat": 20
+      },
+      "event1Sides": {
+        "esquerra": 50,
+        "dreta": 50
+      },
+      "predicates": {
+        "LLEGIR": 8,
+        "PORTAR": 10,
+        "AIXECAR": 10,
+        "OLORAR": 10,
+        "ABRAÇAR": 10,
+        "SALTAR": 10,
+        "BEURE": 8,
+        "MENJAR": 8,
+        "REGAR": 8,
+        "PINTAR": 8,
+        "NETEJAR": 8,
+        "ASSECAR": 8,
+        "PENTINAR": 8,
+        "TALLAR": 8,
+        "ESTRIPAR": 8,
+        "SEURE": 22,
+        "DORMIR": 18,
+        "RIURE": 22,
+        "PLORAR": 8
+      },
+      "agents": {
+        "NENA": 36,
+        "NEN": 28,
+        "DONA": 40,
+        "NOIA": 28,
+        "NOI": 36,
+        "HOME": 32
+      }
+    },
+    "insolita": {
+      "total": 100,
+      "types": {
+        "accio-accio": 50,
+        "accio-estat": 30,
+        "estat-estat": 20
+      },
+      "event1Sides": {
+        "dreta": 50,
+        "esquerra": 50
+      },
+      "predicates": {
+        "LLEGIR": 8,
+        "PORTAR": 10,
+        "AIXECAR": 10,
+        "OLORAR": 10,
+        "ABRAÇAR": 10,
+        "SALTAR": 10,
+        "BEURE": 8,
+        "MENJAR": 8,
+        "REGAR": 8,
+        "PINTAR": 8,
+        "NETEJAR": 8,
+        "ASSECAR": 8,
+        "PENTINAR": 8,
+        "TALLAR": 8,
+        "ESTRIPAR": 8,
+        "SEURE": 22,
+        "DORMIR": 18,
+        "RIURE": 22,
+        "PLORAR": 8
+      },
+      "agents": {
+        "MICO": 20,
+        "ÓS": 20,
+        "CONILL": 16,
+        "ELEFANT": 20,
+        "GAT": 24,
+        "GOS": 20,
+        "CANGUR": 16,
+        "PINGUÍ": 20,
+        "ZEBRA": 24,
+        "GIRAFA": 20
+      }
+    }
+  },
+  "batches": [
+    {
+      "id": "n8-lot-01",
+      "count": 10,
+      "habitual": 5,
+      "insolita": 5
+    },
+    {
+      "id": "n8-lot-02",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-03",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-04",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-05",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-06",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-07",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-08",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-09",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-10",
+      "count": 20,
+      "habitual": 10,
+      "insolita": 10
+    },
+    {
+      "id": "n8-lot-11",
+      "count": 10,
+      "habitual": 5,
+      "insolita": 5
+    }
+  ],
+  "planningReview": {
+    "method": "Revisió de les 10 accions principals, 5 accions companyes, 4 estats, 5 parelles d’estats, assignació dels 200 parells de participants i continuïtat espacial dels briefs. Les comprovacions no substitueixen revisar les imatges futures.",
+    "limits": [
+      "La distribució i la coexistència en un sol instant són decisions proposades, no quotes imposades per les fonts.",
+      "100 famílies homologues humanes/animals; no són 200 situacions independents.",
+      "DORMIR, RIURE i PLORAR, la lectura i els contactes petits necessiten revisió perceptiva futura.",
+      "No hi ha imatges N8 existents ni validació clínica o psicomètrica.",
+      "El catàleg i el banc versionat es conserven intactes; els assets antics sense displaySha256 es comproven per existència i preservació del banc, sense atribuir-los un hash històric inexistent."
+    ]
+  },
+  "authorization": {
+    "scope": "planificacio-i-revisio-nomes",
+    "generationAuthorized": false,
+    "catalogImportAuthorized": false,
+    "commitAuthorized": false,
+    "pushAuthorized": false,
+    "deploymentAuthorized": false,
+    "requiresNewUserInstruction": "Cal una instrucció posterior per generar o publicar N8. Les autoritzacions i els límits horaris N7 són històrics i no s’apliquen a N8."
+  },
+  "planSha256": "b06b0f4ae6c06743473b0e47ab35f8737fdd9cb97c5948d299f3d6aa3b07cd0d",
+  "readablePlanSha256": "e9e1fd2f13f88fffbfa072c41ca69aef8db79067ee3636242fd2efcb57bdc9a0"
+}

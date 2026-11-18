@@ -1,0 +1,132 @@
+{
+  "constructionId": "n8-089",
+  "file": "output/production/n8/n8-089/image.png",
+  "prompt": "Use case: scientific-educational. ONE continuous classroom visual stimulus on pure white seamless background. Photo: adult man LEFT sitting quietly upright on ONE bare chair, feet on floor, hands on thighs and neutral face, eyes open. Young man RIGHT standing crying, clear tears on cheeks and downturned mouth, hands relaxed beside body. Only object ONE chair under adult man. No desks, tables, books or school supplies. Exactly two simultaneous target events in one shared floor and perspective, neither causing the other. Whole bodies with heads, hands and feet fully in frame, 8 percent pure white margins. Natural plausible body proportions, normal upper arms, forearms, hands, torso and legs; correct joints and weight support, no elongated limbs. Participants do not touch each other. NO additional objects, no text, glyphs, letters, numbers, marks, symbols, logos, watermark, motion lines, panels or split screen. Respect minimal objects strictly. Soft natural studio light if photo; solid colors/simple outlines if flat illustration.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-089",
+    "number": 89,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "estat-estat",
+    "familyId": "n8-f-089",
+    "counterpartId": "n8-189",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · seure / noi · plorar"
+    },
+    "labels": [
+      "HOME",
+      "SEURE",
+      "NOI",
+      "PLORAR"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-045dc98b2849",
+      "w-01bc6dcab46b",
+      "w-9fbc08b69e53"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "events": [
+      {
+        "id": "e1",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38"
+          },
+          {
+            "role": "state",
+            "label": "SEURE",
+            "wordId": "w-045dc98b2849"
+          }
+        ],
+        "labels": [
+          "HOME",
+          "SEURE"
+        ],
+        "wordIds": [
+          "w-cfe24f6b3c38",
+          "w-045dc98b2849"
+        ],
+        "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+        "context": [
+          {
+            "label": "CADIRA",
+            "wordId": "w-e1efe2c4e23d"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b"
+          },
+          {
+            "role": "state",
+            "label": "PLORAR",
+            "wordId": "w-9fbc08b69e53"
+          }
+        ],
+        "labels": [
+          "NOI",
+          "PLORAR"
+        ],
+        "wordIds": [
+          "w-01bc6dcab46b",
+          "w-9fbc08b69e53"
+        ],
+        "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. HOME a esquerra: Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra. NOI a dreta: Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-01bc6dcab46b|w-9fbc08b69e53||w-cfe24f6b3c38|w-045dc98b2849",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:50:57.794Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n8/n8-089/rejected-01.png",
+      "reason": "Context accessori escolar afegit sense necessitat: taules, llapis i llibres secundaris. Rebutjat per context mínim; refer amb només els objectes imprescindibles.",
+      "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: adult man, on the LEFT. Second participant: young man, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. HOME a esquerra: Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra. NOI a dreta: Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+      "rejectedAt": "2026-11-18T06:53:31.270Z"
+    }
+  ],
+  "review": "Home assegut a esquerra, mans a les cuixes i peus recolzats; noi dret a dreta plorant amb llàgrimes i comissures avall. La cadira és l’únic suport; cossos complets, braços i mans de proporcions naturals, sense contacte causal ni text. Revisió individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "home · seure / noi · plorar.",
+    "es": "HOMBRE · SENTAR · CHICO · LLORAR."
+  },
+  "originalSha256": "48def967303f665449fd0bc7765bcaaa9a9e538fdc8f0a60b4e8fd889bbc2ab7",
+  "width": 1312,
+  "height": 1199,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:54:53.748Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:55:15.292940+00:00"
+}

@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-002",
+  "file": "output/production/n8/n8-002/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age boy, on the RIGHT. Second participant: adult woman, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. DONA a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-002",
+    "number": 2,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-002",
+    "counterpartId": "n8-102",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · llegir · llibre / dona · aixecar · pilota"
+    },
+    "labels": [
+      "NEN",
+      "LLEGIR",
+      "LLIBRE",
+      "DONA",
+      "AIXECAR",
+      "PILOTA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-72e9fe9a8b43",
+      "w-e12d88415c80",
+      "w-b7f578451973"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "NEN",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-b4012100fe09",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43"
+          },
+          {
+            "role": "action",
+            "label": "AIXECAR",
+            "wordId": "w-e12d88415c80"
+          },
+          {
+            "role": "patient",
+            "label": "PILOTA",
+            "wordId": "w-b7f578451973"
+          }
+        ],
+        "labels": [
+          "DONA",
+          "AIXECAR",
+          "PILOTA"
+        ],
+        "wordIds": [
+          "w-72e9fe9a8b43",
+          "w-e12d88415c80",
+          "w-b7f578451973"
+        ],
+        "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. DONA a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-72e9fe9a8b43|w-e12d88415c80|w-b7f578451973||w-b4012100fe09|w-ef0bd41d6ee3|w-3bb995df42bf",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:48:50.729Z",
+  "review": "Nen llegint el llibre i dona aixecant la pilota a l’altura del pit, separada de la base baixa. Accions diferenciades i pacients propis; cossos sencers, colzes flexionats, mans i suport plausibles, sense allargament d’extremitats ni text. Revisió individual superada.",
+  "alt": {
+    "ca": "nen · llegir · llibre / dona · aixecar · pilota.",
+    "es": "NIÑO · LEER · LIBRO · MUJER · LEVANTAR · PELOTA."
+  },
+  "originalSha256": "1d0bc9d05b1273303b23417eb2c2ce1beaf8ce0940d9a0ec0714686b001b56cc",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:50:51.814Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:51:20.830065+00:00"
+}

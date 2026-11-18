@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-152",
+  "file": "output/production/n8/n8-152/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: rabbit, on the LEFT. Second participant: elephant, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. CONILL a esquerra: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. ELEFANT a dreta: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-152",
+    "number": 152,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-052",
+    "counterpartId": "n8-052",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · llegir · llibre / elefant · dormir"
+    },
+    "labels": [
+      "CONILL",
+      "LLEGIR",
+      "LLIBRE",
+      "ELEFANT",
+      "DORMIR"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-b059d8ef0bc9",
+      "w-2c4809267c13"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "CONILL",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-51a7805e979b",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ELEFANT",
+            "wordId": "w-b059d8ef0bc9"
+          },
+          {
+            "role": "state",
+            "label": "DORMIR",
+            "wordId": "w-2c4809267c13"
+          }
+        ],
+        "labels": [
+          "ELEFANT",
+          "DORMIR"
+        ],
+        "wordIds": [
+          "w-b059d8ef0bc9",
+          "w-2c4809267c13"
+        ],
+        "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+        "context": [
+          {
+            "label": "LLIT",
+            "wordId": "w-5f7c1679605f"
+          },
+          {
+            "label": "COIXÍ",
+            "wordId": "w-44260b79b61e"
+          }
+        ]
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. CONILL a esquerra: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. ELEFANT a dreta: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-51a7805e979b|w-ef0bd41d6ee3|w-3bb995df42bf||w-b059d8ef0bc9|w-2c4809267c13",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:48:50.946Z",
+  "review": "Conill llegint el llibre a esquerra i elefant dormint al llit a dreta; ulls tancats, cap al coixí i cos sostingut. Dibuix pla amb espècies recognoscibles, cossos complets, mateixa escena contínua i absència de text. Revisió individual superada.",
+  "alt": {
+    "ca": "conill · llegir · llibre / elefant · dormir.",
+    "es": "CONEJO · LEER · LIBRO · ELEFANTE · DORMIR."
+  },
+  "originalSha256": "a40e7c9a26bff710ce510a672eec36b1654998ca6375d3101639406eef191e9a",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:50:52.916Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:51:21.515488+00:00"
+}

@@ -1,3 +1,9 @@
+# N8 · Producció i publicació autoritzades · 18/11/2026
+
+L’usuari aprova començar a generar i publicar N8 per lots fins a les 8:20 Europe/Madrid (07:20 UTC). Tall preventiu de noves generacions a les 8:10. Seguir production/n8-plan.json, una imatge per estímul, revisió individual semàntica i anatòmica; preservar les 3669 imatges i 861 entrades existents. Estat a production/n8-progress.json. Aquesta autorització substitueix l’estat de proposta per a aquesta sessió N8; no modifica els plans històrics.
+
+---
+
 # N7 · Correcció anatòmica publicada · 13/11/2026
 
 Revisades les 100 fotografies N7 i substituïdes 24 amb braços massa llargs o abast desproporcionat. Versions noves amb braços, articulacions i postures naturals; les altres 76 fotografies i els 100 dibuixos es conserven intactes. Catàleg 0.1.135, 3669 imatges i 861 entrades CACE. Publicació i 200 descàrregues N7 verificades a 2026-11-13T21:31:30Z.

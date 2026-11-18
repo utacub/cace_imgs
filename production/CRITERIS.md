@@ -1,3 +1,9 @@
+# N8 · Producció i publicació autoritzades · 18/11/2026
+
+L’usuari aprova començar a generar i publicar N8 per lots fins a les 8:20 Europe/Madrid (07:20 UTC). Tall preventiu de noves generacions a les 8:10. Seguir production/n8-plan.json, una imatge per estímul, revisió individual semàntica i anatòmica; preservar les 3669 imatges i 861 entrades existents. Estat a production/n8-progress.json. Aquesta autorització substitueix l’estat de proposta per a aquesta sessió N8; no modifica els plans històrics.
+
+---
+
 # Revisió anatòmica N7 autoritzada · 13 de novembre de 2026
 
 L’usuari demana revisar totes les fotografies del darrer lot N7, regenerar les que tenen braços massa llargs o dimensions corporals absurdes i publicar les corregides en substitució de les deformades. Els dibuixos es deixen intactes. Es conserven els originals anteriors i els registres de revisió.

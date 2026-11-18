@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-001",
+  "file": "output/production/n8/n8-001/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE finished CACE classroom visual stimulus, landscape framing on pure white seamless background, no lettering, numbers, symbols, logos, watermark, speech balloons, frames or panels. Exactly TWO distinct full-body participants, both large and clear with generous margins, one continuous shared ground plane and perspective. Exactly two simultaneous target events; neither causes the other. Every arm, forearm, hand, torso and leg must have natural believable proportions, plausible joints, weight support and reach. Bring props near bodies, adjust support height, bend knees; never lengthen limbs. Keep hands separate and unambiguous. Not a collage. Photorealistic synthetic studio photograph. On the LEFT a school-age girl stands reading an open plain book held close to her torso, eyes looking down at its pages, no printed glyphs. On the RIGHT a school-age boy walks a small natural step carrying an empty woven basket by its handle beside his body. Both fully visible head to toe on the same floor, at comparable scale and close enough to form one scene. No transfer, no touching each other. Reading girl and basket-carrying boy are equally legible. Soft neutral light.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-001",
+    "number": 1,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-001",
+    "counterpartId": "n8-101",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · llegir · llibre / nen · portar · cistell"
+    },
+    "labels": [
+      "NENA",
+      "LLEGIR",
+      "LLIBRE",
+      "NEN",
+      "PORTAR",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-b4012100fe09",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "NENA",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-cda6fa4a9867",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09"
+          },
+          {
+            "role": "action",
+            "label": "PORTAR",
+            "wordId": "w-73b71e1ff757"
+          },
+          {
+            "role": "patient",
+            "label": "CISTELL",
+            "wordId": "w-120fb6b37e88"
+          }
+        ],
+        "labels": [
+          "NEN",
+          "PORTAR",
+          "CISTELL"
+        ],
+        "wordIds": [
+          "w-b4012100fe09",
+          "w-73b71e1ff757",
+          "w-120fb6b37e88"
+        ],
+        "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NENA a esquerra: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. NEN a dreta: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-b4012100fe09|w-73b71e1ff757|w-120fb6b37e88||w-cda6fa4a9867|w-ef0bd41d6ee3|w-3bb995df42bf",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:46:52.940Z",
+  "review": "La nena llegeix el llibre obert i el nen porta el cistell buit fent un pas. Dos agents i dos verbs recognoscibles, figures completes, mans separades, proporcions i suport naturals; fons blanc sense text. Revisió individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "nena · llegir · llibre / nen · portar · cistell.",
+    "es": "NIÑA · LEER · LIBRO · NIÑO · LLEVAR · CESTA."
+  },
+  "originalSha256": "9174bb6284282cc8eb0076a92eda09978755d2e8f1c235f1a0354d2dcc4af5cb",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:48:23.186Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:51:20.548022+00:00"
+}

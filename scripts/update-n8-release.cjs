@@ -1,0 +1,15 @@
+const fs=require('node:fs');
+const c=JSON.parse(fs.readFileSync('src/catalog-data.json','utf8'));
+const p=JSON.parse(fs.readFileSync('production/n8-progress.json','utf8'));
+const rows=c.assets.filter(x=>x.constructionId?.startsWith('n8-'));
+const photos=rows.filter(x=>x.kind==='photo').length;
+let s=fs.readFileSync('README.md','utf8').replace(/La versió [\d.]+ conté \*\*\d+ imatges\*\*/,`La versió ${c.version} conté **${c.assets.length} imatges**`).replace(/`bank\/`: les \d+ imatges/,`\`bank/\`: les ${c.assets.length} imatges`);
+if(s.includes(' construccions N8**'))s=s.replace(/\*\*\d+ construccions N8\*\*/,`**${rows.length} construccions N8**`);
+else s=s.replace(/(\*\*\d+ construccions N7\*\*) i 8/,`$1, **${rows.length} construccions N8** i 8`);
+s=s.replace('Cada construcció N2, N3, N4, N5, N6 o N7 té','Cada construcció N2, N3, N4, N5, N6, N7 o N8 té');
+const summary=`El N8 incorpora **${rows.length} de les 200 construccions aprovades**: ${photos} fotografies habituals i ${rows.length-photos} dibuixos plans insòlits. «N8 · Dos esdeveniments» relaciona dues accions o estats en un mateix instant i una mateixa escena. Cada participant conserva el seu predicat i pacient en les metadades; entre quatre i sis etiquetes CACE exactes. Col·lecció «N8 · Dos esdeveniments», filtre de nivell 8. Pla: \`production/n8-plan.json\`; progrés: \`production/n8-progress.json\`; prompts i revisions: \`production/n8/\`. ${rows.length===200?'El pla N8 està complet.':'Producció parcial per lots; estat i autorització vigents al registre de progrés.'}`;
+if(s.includes('El N8 incorpora '))s=s.replace(/El N8 incorpora [^\n]+/,summary);else s=s.replace('## Estructura',summary+'\n\n## Estructura');
+fs.writeFileSync('README.md',s);
+const g=JSON.parse(fs.readFileSync('production/progress.json','utf8'));Object.assign(g,{catalogVersion:c.version,totalImages:c.assets.length});fs.writeFileSync('production/progress.json',JSON.stringify(g,null,2)+'\n');
+Object.assign(p,{imported:rows.length,catalogVersion:c.version,updated:new Date().toISOString()});fs.writeFileSync('production/n8-progress.json',JSON.stringify(p,null,2)+'\n');
+console.log(JSON.stringify({version:c.version,n8:rows.length,photos,drawings:rows.length-photos}));

@@ -1,0 +1,136 @@
+{
+  "constructionId": "n8-153",
+  "file": "output/production/n8/n8-153/image.png",
+  "prompt": "Use case: scientific-educational. ONE continuous classroom visual stimulus on pure white seamless background. Flat illustration: cat RIGHT standing reading one open blank book, dog LEFT standing laughing with open smiling mouth and gently narrowed eyes, paws relaxed beside body. Both full recognizable animals. Only object one book. No chairs or tables. Exactly two simultaneous target events in one shared floor and perspective, neither causing the other. Whole bodies with heads, hands and feet fully in frame, 8 percent pure white margins. Natural plausible body proportions, normal upper arms, forearms, hands, torso and legs; correct joints and weight support, no elongated limbs. Participants do not touch each other. NO additional objects, no text, glyphs, letters, numbers, marks, symbols, logos, watermark, motion lines, panels or split screen. Respect minimal objects strictly. Soft natural studio light if photo; solid colors/simple outlines if flat illustration.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-153",
+    "number": 153,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-053",
+    "counterpartId": "n8-053",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · llegir · llibre / gos · riure"
+    },
+    "labels": [
+      "GAT",
+      "LLEGIR",
+      "LLIBRE",
+      "GOS",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-4761fde107a7",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "GAT",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-11ff74d27c02",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GOS",
+            "wordId": "w-4761fde107a7"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "GOS",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-4761fde107a7",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. GAT a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. GOS a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-11ff74d27c02|w-ef0bd41d6ee3|w-3bb995df42bf||w-4761fde107a7|w-8a560cbf66b0",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:50:57.718Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n8/n8-153/rejected-01.png",
+      "reason": "Context accessori escolar afegit sense necessitat: taules, llapis i llibres secundaris. Rebutjat per context mínim; refer amb només els objectes imprescindibles.",
+      "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: cat, on the RIGHT. Second participant: dog, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. GAT a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. GOS a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+      "rejectedAt": "2026-11-18T06:53:30.287Z"
+    }
+  ],
+  "review": "Gat a dreta llegint el llibre i gos a esquerra rient amb boca oberta i ulls entretancats. Dos animals complets en dibuix pla, cap accessori innecessari ni text. Revisió individual superada.",
+  "alt": {
+    "ca": "gat · llegir · llibre / gos · riure.",
+    "es": "GATO · LEER · LIBRO · PERRO · REÍR."
+  },
+  "originalSha256": "9671eb265387832f5c1ac17ac60ef134328c84e6acd958694782d2dd1c4c82ff",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:54:52.679Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:55:15.863422+00:00"
+}

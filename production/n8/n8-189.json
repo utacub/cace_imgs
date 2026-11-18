@@ -1,0 +1,132 @@
+{
+  "constructionId": "n8-189",
+  "file": "output/production/n8/n8-189/image.png",
+  "prompt": "Use case: scientific-educational. ONE continuous classroom visual stimulus on pure white seamless background. Flat illustration: penguin RIGHT seated quietly upright on ONE bare chair, feet on floor, flippers resting on thighs, neutral face and open eyes. Zebra LEFT standing crying, clear tears on cheeks and downturned mouth. Only object ONE chair under penguin. Both full recognizable animals. No desks, tables, books or school supplies. Exactly two simultaneous target events in one shared floor and perspective, neither causing the other. Whole bodies with heads, hands and feet fully in frame, 8 percent pure white margins. Natural plausible body proportions, normal upper arms, forearms, hands, torso and legs; correct joints and weight support, no elongated limbs. Participants do not touch each other. NO additional objects, no text, glyphs, letters, numbers, marks, symbols, logos, watermark, motion lines, panels or split screen. Respect minimal objects strictly. Soft natural studio light if photo; solid colors/simple outlines if flat illustration.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-189",
+    "number": 189,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "estat-estat",
+    "familyId": "n8-f-089",
+    "counterpartId": "n8-089",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "pinguí · seure / zebra · plorar"
+    },
+    "labels": [
+      "PINGUÍ",
+      "SEURE",
+      "ZEBRA",
+      "PLORAR"
+    ],
+    "wordIds": [
+      "w-5993b1ea57aa",
+      "w-045dc98b2849",
+      "w-0dc8fba9677d",
+      "w-9fbc08b69e53"
+    ],
+    "primaryWordId": "w-5993b1ea57aa",
+    "events": [
+      {
+        "id": "e1",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "PINGUÍ",
+            "wordId": "w-5993b1ea57aa"
+          },
+          {
+            "role": "state",
+            "label": "SEURE",
+            "wordId": "w-045dc98b2849"
+          }
+        ],
+        "labels": [
+          "PINGUÍ",
+          "SEURE"
+        ],
+        "wordIds": [
+          "w-5993b1ea57aa",
+          "w-045dc98b2849"
+        ],
+        "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+        "context": [
+          {
+            "label": "CADIRA",
+            "wordId": "w-e1efe2c4e23d"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ZEBRA",
+            "wordId": "w-0dc8fba9677d"
+          },
+          {
+            "role": "state",
+            "label": "PLORAR",
+            "wordId": "w-9fbc08b69e53"
+          }
+        ],
+        "labels": [
+          "ZEBRA",
+          "PLORAR"
+        ],
+        "wordIds": [
+          "w-0dc8fba9677d",
+          "w-9fbc08b69e53"
+        ],
+        "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. PINGUÍ a dreta: Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra. ZEBRA a esquerra: Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-0dc8fba9677d|w-9fbc08b69e53||w-5993b1ea57aa|w-045dc98b2849",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:50:57.856Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n8/n8-189/rejected-01.png",
+      "reason": "Context accessori escolar afegit sense necessitat: taules, llapis i llibres secundaris. Rebutjat per context mínim; refer amb només els objectes imprescindibles.",
+      "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: penguin, on the RIGHT. Second participant: zebra, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. PINGUÍ a dreta: Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra. ZEBRA a esquerra: Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+      "rejectedAt": "2026-11-18T06:53:32.287Z"
+    }
+  ],
+  "review": "Pingüí a dreta assegut en cadira, potes recolzades; zebra a esquerra plorant amb llàgrimes visibles. Dos animals recognoscibles, cossos complets, una escena contínua sense taules ni material escolar; cap text. Revisió individual superada.",
+  "alt": {
+    "ca": "pinguí · seure / zebra · plorar.",
+    "es": "PINGÜINO · SENTAR · CEBRA · LLORAR."
+  },
+  "originalSha256": "69e536a5f4ab65afe36566dd93f84baac99364d1478bef9cbd4e0bc2e9b18d22",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:54:54.769Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:55:16.165303+00:00"
+}

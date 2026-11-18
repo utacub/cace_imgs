@@ -1,0 +1,138 @@
+{
+  "constructionId": "n8-107",
+  "file": "output/production/n8/n8-107/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: elephant, on the RIGHT. Second participant: cat, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ELEFANT a dreta: Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca. GAT a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY AIGUA, GOT, PILOTA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. IMPORTANT AIXECAR correction: show a very low EMPTY rectangular block NEXT TO the ball lifter as a necessary action support, making clear the ball has been lifted off it and is now raised at CHEST HEIGHT. Ball lifter has bent elbows, BOTH feet firmly on the shared floor with a small grounding shadow. Block does NOT hide feet. This low block is REQUIRED and overrides the minimal-object list. No other extra props.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-107",
+    "number": 107,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-007",
+    "counterpartId": "n8-007",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "elefant · beure · aigua / gat · aixecar · pilota"
+    },
+    "labels": [
+      "ELEFANT",
+      "BEURE",
+      "AIGUA",
+      "GAT",
+      "AIXECAR",
+      "PILOTA"
+    ],
+    "wordIds": [
+      "w-b059d8ef0bc9",
+      "w-a5ddba336d84",
+      "w-00e8b2c10536",
+      "w-11ff74d27c02",
+      "w-e12d88415c80",
+      "w-b7f578451973"
+    ],
+    "primaryWordId": "w-b059d8ef0bc9",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ELEFANT",
+            "wordId": "w-b059d8ef0bc9"
+          },
+          {
+            "role": "action",
+            "label": "BEURE",
+            "wordId": "w-a5ddba336d84"
+          },
+          {
+            "role": "patient",
+            "label": "AIGUA",
+            "wordId": "w-00e8b2c10536"
+          }
+        ],
+        "labels": [
+          "ELEFANT",
+          "BEURE",
+          "AIGUA"
+        ],
+        "wordIds": [
+          "w-b059d8ef0bc9",
+          "w-a5ddba336d84",
+          "w-00e8b2c10536"
+        ],
+        "evidence": "Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca.",
+        "context": [
+          {
+            "label": "GOT",
+            "wordId": "w-1bed9f18ebab"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02"
+          },
+          {
+            "role": "action",
+            "label": "AIXECAR",
+            "wordId": "w-e12d88415c80"
+          },
+          {
+            "role": "patient",
+            "label": "PILOTA",
+            "wordId": "w-b7f578451973"
+          }
+        ],
+        "labels": [
+          "GAT",
+          "AIXECAR",
+          "PILOTA"
+        ],
+        "wordIds": [
+          "w-11ff74d27c02",
+          "w-e12d88415c80",
+          "w-b7f578451973"
+        ],
+        "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ELEFANT a dreta: Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca. GAT a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-11ff74d27c02|w-e12d88415c80|w-b7f578451973||w-b059d8ef0bc9|w-a5ddba336d84|w-00e8b2c10536",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:54:56.353Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n8/n8-107/rejected-01.png",
+      "reason": "AIXECAR poc explícit: falta la base baixa prevista i la imatge només mostra sostenir la pilota. Regenerar amb base buida separada, pilota elevada i suport natural dels peus.",
+      "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: elephant, on the RIGHT. Second participant: cat, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ELEFANT a dreta: Got transparent amb aigua visible inclinat suaument fins als llavis; una sola mà el sosté a distància natural de la boca. GAT a esquerra: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY AIGUA, GOT, PILOTA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+      "rejectedAt": "2026-11-18T06:58:34.501Z"
+    }
+  ]
+}

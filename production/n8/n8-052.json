@@ -1,0 +1,145 @@
+{
+  "constructionId": "n8-052",
+  "file": "output/production/n8/n8-052/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age boy, on the RIGHT. Second participant: adult woman, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. DONA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. CRITICAL: reading boy holds ONLY the open plain book, standing naturally on his own feet. NO desk, NO pencils, NO paper, NO pencil cup. Sleeping woman on low bed with pillow. Only two humans, one book, one bed, one pillow. Both full bodies visible, natural arms. Large white margins.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-052",
+    "number": 52,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-052",
+    "counterpartId": "n8-152",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · llegir · llibre / dona · dormir"
+    },
+    "labels": [
+      "NEN",
+      "LLEGIR",
+      "LLIBRE",
+      "DONA",
+      "DORMIR"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-72e9fe9a8b43",
+      "w-2c4809267c13"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "NEN",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-b4012100fe09",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43"
+          },
+          {
+            "role": "state",
+            "label": "DORMIR",
+            "wordId": "w-2c4809267c13"
+          }
+        ],
+        "labels": [
+          "DONA",
+          "DORMIR"
+        ],
+        "wordIds": [
+          "w-72e9fe9a8b43",
+          "w-2c4809267c13"
+        ],
+        "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+        "context": [
+          {
+            "label": "LLIT",
+            "wordId": "w-5f7c1679605f"
+          },
+          {
+            "label": "COIXÍ",
+            "wordId": "w-44260b79b61e"
+          }
+        ]
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. DONA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-72e9fe9a8b43|w-2c4809267c13||w-b4012100fe09|w-ef0bd41d6ee3|w-3bb995df42bf",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:48:50.874Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n8/n8-052/rejected-01.png",
+      "reason": "Context accessori innecessari: pot de llapis i paper afegits a la taula de lectura. Rebutjat per context mínim.",
+      "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age boy, on the RIGHT. Second participant: adult woman, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NEN a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. DONA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters.",
+      "rejectedAt": "2026-11-18T06:50:56.811Z"
+    }
+  ],
+  "review": "Nen dret llegint a dreta i dona dormint sobre llit baix a esquerra. Ulls tancats, cap al coixí, cos i peus sostinguts; braços i mans naturals sense allargaments, llibre pròxim al cos. S’han eliminat els accessoris escolars; figures completes i cap text. Revisió individual superada.",
+  "alt": {
+    "ca": "nen · llegir · llibre / dona · dormir.",
+    "es": "NIÑO · LEER · LIBRO · MUJER · DORMIR."
+  },
+  "originalSha256": "be9fca2dbd76cf0a0c46de29ed485cba5f8ac948d5d580093faac7d79196a98d",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:53:28.233Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:55:14.677006+00:00"
+}

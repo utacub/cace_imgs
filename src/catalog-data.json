@@ -1,5 +1,5 @@
 {
-  "version": "0.1.135",
+  "version": "0.1.136",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1132 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-052",
+      "src": "assets/constructions/n8/n8-052.webp",
+      "title": {
+        "ca": "nen · llegir · llibre / dona · dormir",
+        "es": "NIÑO · LEER · LIBRO · MUJER · DORMIR"
+      },
+      "alt": {
+        "ca": "nen · llegir · llibre / dona · dormir.",
+        "es": "NIÑO · LEER · LIBRO · MUJER · DORMIR."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:48:50.874Z",
+      "target": "n8-052",
+      "constructionId": "n8-052",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "be9fca2dbd76cf0a0c46de29ed485cba5f8ac948d5d580093faac7d79196a98d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "79efab2f1b186bf6f1fd5eb14afc9d4f765efdec5e59c1352c781e47734b7845"
+    },
+    {
+      "id": "cace-n8-053",
+      "src": "assets/constructions/n8/n8-053.webp",
+      "title": {
+        "ca": "noia · llegir · llibre / noi · riure",
+        "es": "CHICA · LEER · LIBRO · CHICO · REÍR"
+      },
+      "alt": {
+        "ca": "noia · llegir · llibre / noi · riure.",
+        "es": "CHICA · LEER · LIBRO · CHICO · REÍR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:50:57.646Z",
+      "target": "n8-053",
+      "constructionId": "n8-053",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1fb20f712688ec456b993dcfc6edd63c3ba2ef3d6e40d6bea41541db0d9786f2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a8bb2e87022168dd478295e5a387ba2b6ee56bd33d58973d038c77d43fffaa11"
+    },
+    {
+      "id": "cace-n8-089",
+      "src": "assets/constructions/n8/n8-089.webp",
+      "title": {
+        "ca": "home · seure / noi · plorar",
+        "es": "HOMBRE · SENTAR · CHICO · LLORAR"
+      },
+      "alt": {
+        "ca": "home · seure / noi · plorar.",
+        "es": "HOMBRE · SENTAR · CHICO · LLORAR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:50:57.794Z",
+      "target": "n8-089",
+      "constructionId": "n8-089",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "48def967303f665449fd0bc7765bcaaa9a9e538fdc8f0a60b4e8fd889bbc2ab7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ae1f86c0257198d1780daf598fc202ae175a262a867105747373b8dbddaea549"
+    },
+    {
+      "id": "cace-n8-102",
+      "src": "assets/constructions/n8/n8-102.webp",
+      "title": {
+        "ca": "conill · llegir · llibre / elefant · aixecar · pilota",
+        "es": "CONEJO · LEER · LIBRO · ELEFANTE · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "conill · llegir · llibre / elefant · aixecar · pilota.",
+        "es": "CONEJO · LEER · LIBRO · ELEFANTE · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:48:50.806Z",
+      "target": "n8-102",
+      "constructionId": "n8-102",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "5efce4853e8c7186748cf3cd84289d5770f010e0b59aaaa4893d18d199595608",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f545eb60ae31f5abc4ccd7de338bdf7f9210b9db7de426a80a3b92810591697f"
+    },
+    {
+      "id": "cace-n8-153",
+      "src": "assets/constructions/n8/n8-153.webp",
+      "title": {
+        "ca": "gat · llegir · llibre / gos · riure",
+        "es": "GATO · LEER · LIBRO · PERRO · REÍR"
+      },
+      "alt": {
+        "ca": "gat · llegir · llibre / gos · riure.",
+        "es": "GATO · LEER · LIBRO · PERRO · REÍR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-4761fde107a7",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-4761fde107a7",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:50:57.718Z",
+      "target": "n8-153",
+      "constructionId": "n8-153",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "9671eb265387832f5c1ac17ac60ef134328c84e6acd958694782d2dd1c4c82ff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3ba4d53298f0041601022c20d57e1c7ff8f020258298a3ab3b3eaae972582795"
+    },
+    {
+      "id": "cace-n8-189",
+      "src": "assets/constructions/n8/n8-189.webp",
+      "title": {
+        "ca": "pinguí · seure / zebra · plorar",
+        "es": "PINGÜINO · SENTAR · CEBRA · LLORAR"
+      },
+      "alt": {
+        "ca": "pinguí · seure / zebra · plorar.",
+        "es": "PINGÜINO · SENTAR · CEBRA · LLORAR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-045dc98b2849",
+        "w-0dc8fba9677d",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-045dc98b2849",
+        "w-0dc8fba9677d",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:50:57.856Z",
+      "target": "n8-189",
+      "constructionId": "n8-189",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "69e536a5f4ab65afe36566dd93f84baac99364d1478bef9cbd4e0bc2e9b18d22",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "84053b397086c5698cc2404fd4f40dfcfc16413d77dc8b9777f9a2f75f31ae21"
+    },
+    {
+      "id": "cace-n8-001",
+      "src": "assets/constructions/n8/n8-001.webp",
+      "title": {
+        "ca": "nena · llegir · llibre / nen · portar · cistell",
+        "es": "NIÑA · LEER · LIBRO · NIÑO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nena · llegir · llibre / nen · portar · cistell.",
+        "es": "NIÑA · LEER · LIBRO · NIÑO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:46:52.940Z",
+      "target": "n8-001",
+      "constructionId": "n8-001",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9174bb6284282cc8eb0076a92eda09978755d2e8f1c235f1a0354d2dcc4af5cb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3eba31f5b5ae06098883ac60081b5004e70b91d0328a44ec47849dfef3cac25c"
+    },
+    {
+      "id": "cace-n8-002",
+      "src": "assets/constructions/n8/n8-002.webp",
+      "title": {
+        "ca": "nen · llegir · llibre / dona · aixecar · pilota",
+        "es": "NIÑO · LEER · LIBRO · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "nen · llegir · llibre / dona · aixecar · pilota.",
+        "es": "NIÑO · LEER · LIBRO · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:48:50.729Z",
+      "target": "n8-002",
+      "constructionId": "n8-002",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1d0bc9d05b1273303b23417eb2c2ce1beaf8ce0940d9a0ec0714686b001b56cc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a312ddd031049fbde826aebb676489b65ec1b006614e841c4ccc81a3db8d1c70"
+    },
+    {
+      "id": "cace-n8-101",
+      "src": "assets/constructions/n8/n8-101.webp",
+      "title": {
+        "ca": "mico · llegir · llibre / ós · portar · cistell",
+        "es": "MONO · LEER · LIBRO · OSO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "mico · llegir · llibre / ós · portar · cistell.",
+        "es": "MONO · LEER · LIBRO · OSO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:46:53.019Z",
+      "target": "n8-101",
+      "constructionId": "n8-101",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "de4aece26bba43632ed5756a3c0f2edb5b3cca2b96885eea4421fbc7fec58119",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1af71bf7fd78675c6809d2b5b1184c8f8f41086efa700964963e0fb07b5bd2f6"
+    },
+    {
+      "id": "cace-n8-152",
+      "src": "assets/constructions/n8/n8-152.webp",
+      "title": {
+        "ca": "conill · llegir · llibre / elefant · dormir",
+        "es": "CONEJO · LEER · LIBRO · ELEFANTE · DORMIR"
+      },
+      "alt": {
+        "ca": "conill · llegir · llibre / elefant · dormir.",
+        "es": "CONEJO · LEER · LIBRO · ELEFANTE · DORMIR."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b059d8ef0bc9",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-b059d8ef0bc9",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T06:48:50.946Z",
+      "target": "n8-152",
+      "constructionId": "n8-152",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "LLEGIR",
+              "wordId": "w-ef0bd41d6ee3"
+            },
+            {
+              "role": "patient",
+              "label": "LLIBRE",
+              "wordId": "w-3bb995df42bf"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "LLEGIR",
+            "LLIBRE"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-ef0bd41d6ee3",
+            "w-3bb995df42bf"
+          ],
+          "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "a40e7c9a26bff710ce510a672eec36b1654998ca6375d3101639406eef191e9a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "64e2b08cc67e0cf7d6081ecdde3898125652e08ecf1c75de7b4557a368215203"
+    },
     {
       "id": "cace-n7-094",
       "src": "assets/constructions/n7/n7-094-anatomy-v2.webp",
@@ -135000,6 +136126,22 @@
         "cace-n7-198",
         "cace-n7-199",
         "cace-n7-200"
+      ]
+    },
+    {
+      "id": "cace-n8-dos-esdeveniments",
+      "name": "N8 · Dos esdeveniments",
+      "items": [
+        "cace-n8-001",
+        "cace-n8-002",
+        "cace-n8-101",
+        "cace-n8-152",
+        "cace-n8-052",
+        "cace-n8-053",
+        "cace-n8-089",
+        "cace-n8-102",
+        "cace-n8-153",
+        "cace-n8-189"
       ]
     }
   ]

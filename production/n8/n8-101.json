@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-101",
+  "file": "output/production/n8/n8-101/image.png",
+  "prompt": "Use case: scientific-educational. Create ONE finished CACE classroom visual stimulus, landscape framing on pure white seamless background, no lettering, numbers, symbols, logos, watermark, speech balloons, frames or panels. Exactly TWO distinct full-body participants, both large and clear with generous margins, one continuous shared ground plane and perspective. Exactly two simultaneous target events; neither causes the other. Every arm, forearm, hand, torso and leg must have natural believable proportions, plausible joints, weight support and reach. Bring props near bodies, adjust support height, bend knees; never lengthen limbs. Keep hands separate and unambiguous. Not a collage. Clean flat 2D illustration, solid colors, clear simple outlines, no photographic texture. On the RIGHT a friendly anthropomorphic monkey stands reading an open plain book held naturally close to its torso, gaze down at pages with no glyphs. On the LEFT a friendly anthropomorphic bear walks a small step carrying an empty woven basket by its handle beside its body. Both recognizable complete animal bodies, no costumes, no extra human limbs; natural articulated forelimbs. Both equally prominent sharing one floor, no transfer or contact.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-101",
+    "number": 101,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-001",
+    "counterpartId": "n8-001",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · llegir · llibre / ós · portar · cistell"
+    },
+    "labels": [
+      "MICO",
+      "LLEGIR",
+      "LLIBRE",
+      "ÓS",
+      "PORTAR",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-a06249642996",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "MICO",
+            "wordId": "w-12a87560751b"
+          },
+          {
+            "role": "action",
+            "label": "LLEGIR",
+            "wordId": "w-ef0bd41d6ee3"
+          },
+          {
+            "role": "patient",
+            "label": "LLIBRE",
+            "wordId": "w-3bb995df42bf"
+          }
+        ],
+        "labels": [
+          "MICO",
+          "LLEGIR",
+          "LLIBRE"
+        ],
+        "wordIds": [
+          "w-12a87560751b",
+          "w-ef0bd41d6ee3",
+          "w-3bb995df42bf"
+        ],
+        "evidence": "Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ÓS",
+            "wordId": "w-a06249642996"
+          },
+          {
+            "role": "action",
+            "label": "PORTAR",
+            "wordId": "w-73b71e1ff757"
+          },
+          {
+            "role": "patient",
+            "label": "CISTELL",
+            "wordId": "w-120fb6b37e88"
+          }
+        ],
+        "labels": [
+          "ÓS",
+          "PORTAR",
+          "CISTELL"
+        ],
+        "wordIds": [
+          "w-a06249642996",
+          "w-73b71e1ff757",
+          "w-120fb6b37e88"
+        ],
+        "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. MICO a dreta: Llibre obert sostingut prop del tronc, mirada dirigida a les pàgines i postura de lectura; pàgines sense lletres ni xifres. ÓS a esquerra: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-12a87560751b|w-ef0bd41d6ee3|w-3bb995df42bf||w-a06249642996|w-73b71e1ff757|w-120fb6b37e88",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-18T06:46:53.019Z",
+  "review": "Mico a dreta llegint un llibre obert i ós a esquerra portant un cistell buit. Dues activitats simultànies, espècies recognoscibles, dibuix pla, figures completes, preses i extremitats coherents; cap text. Revisió individual superada.",
+  "alt": {
+    "ca": "mico · llegir · llibre / ós · portar · cistell.",
+    "es": "MONO · LEER · LIBRO · OSO · LLEVAR · CESTA."
+  },
+  "originalSha256": "de4aece26bba43632ed5756a3c0f2edb5b3cca2b96885eea4421fbc7fec58119",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-18T06:48:24.418Z",
+  "publicationVersion": "0.1.136",
+  "importedAt": "2026-11-18T06:51:21.175354+00:00"
+}
