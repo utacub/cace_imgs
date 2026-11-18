@@ -1,5 +1,5 @@
 {
-  "version": "0.1.137",
+  "version": "0.1.138",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,2378 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-012",
+      "src": "assets/constructions/n8/n8-012.webp",
+      "title": {
+        "ca": "nen · menjar · poma / dona · aixecar · pilota",
+        "es": "NIÑO · COMER · MANZANA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "nen · menjar · poma / dona · aixecar · pilota.",
+        "es": "NIÑO · COMER · MANZANA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:32.615Z",
+      "target": "n8-012",
+      "constructionId": "n8-012",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6710f4d35cc4a225f4dceb52212569e4b8f7b611d941abf4b74e7392e253a145",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0958163bdb8673641c83bc705894fcb734e8b5b16f16da34d476408147503058"
+    },
+    {
+      "id": "cace-n8-013",
+      "src": "assets/constructions/n8/n8-013.webp",
+      "title": {
+        "ca": "noia · menjar · poma / noi · olorar · flor",
+        "es": "CHICA · COMER · MANZANA · CHICO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "noia · menjar · poma / noi · olorar · flor.",
+        "es": "CHICA · COMER · MANZANA · CHICO · OLER · FLOR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:32.782Z",
+      "target": "n8-013",
+      "constructionId": "n8-013",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "be938055ed1310884c9640c319be1a6196b22b6ad1e04aa110b0f5637df91ca7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5b183777202dfb4b89982deb7239e4d55cc809065989ced09a17b548202ceed9"
+    },
+    {
+      "id": "cace-n8-014",
+      "src": "assets/constructions/n8/n8-014.webp",
+      "title": {
+        "ca": "home · menjar · poma / nena · abraçar · coixí",
+        "es": "HOMBRE · COMER · MANZANA · NIÑA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · menjar · poma / nena · abraçar · coixí.",
+        "es": "HOMBRE · COMER · MANZANA · NIÑA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:32.943Z",
+      "target": "n8-014",
+      "constructionId": "n8-014",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a279fbb126bec3699d9d26c476e6cd2c79720cf94dd534f8d66af5f53c02e214",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "97a564c113b149190500f4069d8bc816ffb988e58b6bb1f495c329dc1af027a3"
+    },
+    {
+      "id": "cace-n8-015",
+      "src": "assets/constructions/n8/n8-015.webp",
+      "title": {
+        "ca": "dona · menjar · poma / home · saltar",
+        "es": "MUJER · COMER · MANZANA · HOMBRE · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · menjar · poma / home · saltar.",
+        "es": "MUJER · COMER · MANZANA · HOMBRE · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:33.077Z",
+      "target": "n8-015",
+      "constructionId": "n8-015",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f52ee94d59f875b61d92628b7bb066e1b1c93a5eddaa4908f2678c041940ef1a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "497a42196dbcda0b61f279d866ee74227db9a681faf98b31a459c34343b49673"
+    },
+    {
+      "id": "cace-n8-016",
+      "src": "assets/constructions/n8/n8-016.webp",
+      "title": {
+        "ca": "nen · regar · planta / noia · portar · cistell",
+        "es": "NIÑO · REGAR · PLANTA · CHICA · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nen · regar · planta / noia · portar · cistell.",
+        "es": "NIÑO · REGAR · PLANTA · CHICA · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:33.204Z",
+      "target": "n8-016",
+      "constructionId": "n8-016",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d489dc2e6dbd163d1da7c49dd2927879cd4b7e2ccc15895c741166168f7905c6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f4dc62cc7c184246606b7456175594c54bc3898e74692df39eb5dcedc93054fd"
+    },
+    {
+      "id": "cace-n8-017",
+      "src": "assets/constructions/n8/n8-017.webp",
+      "title": {
+        "ca": "noi · regar · planta / dona · aixecar · pilota",
+        "es": "CHICO · REGAR · PLANTA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "noi · regar · planta / dona · aixecar · pilota.",
+        "es": "CHICO · REGAR · PLANTA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:25.845Z",
+      "target": "n8-017",
+      "constructionId": "n8-017",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "98241a9b618fab957282f912f202feb04bff1cb1f8b55d8e5d61c25a33fb0e6a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b0ab4259156671e84f50ee1dc27c9d1895ceaa70f2b3f4ce023a6007e5ddcdea"
+    },
+    {
+      "id": "cace-n8-018",
+      "src": "assets/constructions/n8/n8-018.webp",
+      "title": {
+        "ca": "nena · regar · planta / noia · olorar · flor",
+        "es": "NIÑA · REGAR · PLANTA · CHICA · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "nena · regar · planta / noia · olorar · flor.",
+        "es": "NIÑA · REGAR · PLANTA · CHICA · OLER · FLOR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:25.995Z",
+      "target": "n8-018",
+      "constructionId": "n8-018",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "5dd94d6453f3a54d854881c760720a4ff70608370287cad4949a18d432f71f40",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "27469a91662ce3268c7e1dd8576963da4ef6a1ad9844aaf7f22454abcd184974"
+    },
+    {
+      "id": "cace-n8-019",
+      "src": "assets/constructions/n8/n8-019.webp",
+      "title": {
+        "ca": "home · regar · planta / noi · abraçar · coixí",
+        "es": "HOMBRE · REGAR · PLANTA · CHICO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · regar · planta / noi · abraçar · coixí.",
+        "es": "HOMBRE · REGAR · PLANTA · CHICO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.139Z",
+      "target": "n8-019",
+      "constructionId": "n8-019",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "296690b41750ece7c5e86c6f0307a2d02b5cdedefeb48db1999af6d3cbe9ec17",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d096beb08005db5e66b35e779c6f9a4f13209090fa94ceb0a8a93aff5e49d779"
+    },
+    {
+      "id": "cace-n8-020",
+      "src": "assets/constructions/n8/n8-020.webp",
+      "title": {
+        "ca": "dona · regar · planta / nena · saltar",
+        "es": "MUJER · REGAR · PLANTA · NIÑA · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · regar · planta / nena · saltar.",
+        "es": "MUJER · REGAR · PLANTA · NIÑA · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.279Z",
+      "target": "n8-020",
+      "constructionId": "n8-020",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ae2251578a89978d47a1545952c625cec0af09130f3eec6eb51bf55c1c20ca21",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "602b5ae8217bfb0b3a1ee324cd4ea48739f172c33bcfada5d750bdd41b00dec6"
+    },
+    {
+      "id": "cace-n8-021",
+      "src": "assets/constructions/n8/n8-021.webp",
+      "title": {
+        "ca": "nena · pintar · caixa / nen · portar · cistell",
+        "es": "NIÑA · PINTAR · CAJA · NIÑO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nena · pintar · caixa / nen · portar · cistell.",
+        "es": "NIÑA · PINTAR · CAJA · NIÑO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.428Z",
+      "target": "n8-021",
+      "constructionId": "n8-021",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "097806a3d4f0966d0394fc2184fa14b960014be8c6b50bd59665fc3f24f1b97f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fb56136832fe96bfc31b0a6dea5f481f419cca6e27fe84eed1876bee0b8c1b33"
+    },
+    {
+      "id": "cace-n8-112",
+      "src": "assets/constructions/n8/n8-112.webp",
+      "title": {
+        "ca": "conill · menjar · poma / elefant · aixecar · pilota",
+        "es": "CONEJO · COMER · MANZANA · ELEFANTE · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "conill · menjar · poma / elefant · aixecar · pilota.",
+        "es": "CONEJO · COMER · MANZANA · ELEFANTE · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:32.708Z",
+      "target": "n8-112",
+      "constructionId": "n8-112",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "540adce03bf0cc2b40571548c699559dde44b012b94ba318269ce19a2bb01d34",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4605b3b333fb4edfb247750542b0a9a531f3245a682e21e7b8da2bfd506b7598"
+    },
+    {
+      "id": "cace-n8-113",
+      "src": "assets/constructions/n8/n8-113.webp",
+      "title": {
+        "ca": "gat · menjar · poma / gos · olorar · flor",
+        "es": "GATO · COMER · MANZANA · PERRO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gat · menjar · poma / gos · olorar · flor.",
+        "es": "GATO · COMER · MANZANA · PERRO · OLER · FLOR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:32.878Z",
+      "target": "n8-113",
+      "constructionId": "n8-113",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "ed006bf11a261c0e4967cb6ec4ebd58492fdb84d48d18369f7528fd84434da07",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b1d9d0bd6a024657cb750c7b8a4cf59bac833a471e7c623b90d07f2204341ad5"
+    },
+    {
+      "id": "cace-n8-114",
+      "src": "assets/constructions/n8/n8-114.webp",
+      "title": {
+        "ca": "cangur · menjar · poma / pinguí · abraçar · coixí",
+        "es": "CANGURO · COMER · MANZANA · PINGÜINO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "cangur · menjar · poma / pinguí · abraçar · coixí.",
+        "es": "CANGURO · COMER · MANZANA · PINGÜINO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:33.011Z",
+      "target": "n8-114",
+      "constructionId": "n8-114",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "113f3eb8cc609cd070a3ccf390d53c53d5cbdf3298a6e783bb74724fea7c6ca0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2aaca90a86b725de1bfbf2385b06dfd86fb627e65fc610e7ce769aee26acd8df"
+    },
+    {
+      "id": "cace-n8-115",
+      "src": "assets/constructions/n8/n8-115.webp",
+      "title": {
+        "ca": "zebra · menjar · poma / girafa · saltar",
+        "es": "CEBRA · COMER · MANZANA · JIRAFA · SALTAR"
+      },
+      "alt": {
+        "ca": "zebra · menjar · poma / girafa · saltar.",
+        "es": "CEBRA · COMER · MANZANA · JIRAFA · SALTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-c248ebfe6f67",
+        "w-809c680b5699",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:33.140Z",
+      "target": "n8-115",
+      "constructionId": "n8-115",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "MENJAR",
+              "wordId": "w-c248ebfe6f67"
+            },
+            {
+              "role": "patient",
+              "label": "POMA",
+              "wordId": "w-809c680b5699"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "MENJAR",
+            "POMA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-c248ebfe6f67",
+            "w-809c680b5699"
+          ],
+          "evidence": "Poma sencera recognoscible amb un mos petit, acostada als llavis; sense una segona peça de fruita.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7575f4f9f4fae60f8f4303e883d803d5f88bf5adde54a1346c71ec2b0a944c46",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2ec529eb9e79b526e31ffde578bb41a74c04823e7103bfe8867bbca7c5be36dd"
+    },
+    {
+      "id": "cace-n8-116",
+      "src": "assets/constructions/n8/n8-116.webp",
+      "title": {
+        "ca": "ós · regar · planta / conill · portar · cistell",
+        "es": "OSO · REGAR · PLANTA · CONEJO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "ós · regar · planta / conill · portar · cistell.",
+        "es": "OSO · REGAR · PLANTA · CONEJO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:02:33.273Z",
+      "target": "n8-116",
+      "constructionId": "n8-116",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "9b5cf2b12a82222147d73ea54a0eb4f4eb98b2a5b1c27a068d47a4d6cc1ea6a3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cf3b4a4c28d2a8df3b7635328419dfa8154f4eff9fcb9f3b2f0b9a0f2c8d5180"
+    },
+    {
+      "id": "cace-n8-117",
+      "src": "assets/constructions/n8/n8-117.webp",
+      "title": {
+        "ca": "elefant · regar · planta / gat · aixecar · pilota",
+        "es": "ELEFANTE · REGAR · PLANTA · GATO · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "elefant · regar · planta / gat · aixecar · pilota.",
+        "es": "ELEFANTE · REGAR · PLANTA · GATO · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:25.913Z",
+      "target": "n8-117",
+      "constructionId": "n8-117",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "122ef09042c4495ec293e468ec98ec00890e9c8fb424ad42363087c0b7c7dc81",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0f786623eaa107c647106000ceb91eca6ce70c24e2b84325b1ad4ba3fa8e8c1d"
+    },
+    {
+      "id": "cace-n8-118",
+      "src": "assets/constructions/n8/n8-118.webp",
+      "title": {
+        "ca": "gos · regar · planta / cangur · olorar · flor",
+        "es": "PERRO · REGAR · PLANTA · CANGURO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gos · regar · planta / cangur · olorar · flor.",
+        "es": "PERRO · REGAR · PLANTA · CANGURO · OLER · FLOR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.068Z",
+      "target": "n8-118",
+      "constructionId": "n8-118",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "703d1c76f153f7b74aaea2d962304abae9966eae7b66da32417174b1c0eb7399",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "83050b48370be73186720bb2dade65c88b1ecbc15bc108432443ae4ac024f55d"
+    },
+    {
+      "id": "cace-n8-119",
+      "src": "assets/constructions/n8/n8-119.webp",
+      "title": {
+        "ca": "pinguí · regar · planta / zebra · abraçar · coixí",
+        "es": "PINGÜINO · REGAR · PLANTA · CEBRA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "pinguí · regar · planta / zebra · abraçar · coixí.",
+        "es": "PINGÜINO · REGAR · PLANTA · CEBRA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.205Z",
+      "target": "n8-119",
+      "constructionId": "n8-119",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2bd5b956b6fdee14e86c10bcef689b5b6babbbaad72de1f4b348e57dd249a22e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "55e94d6d04db32910c0364c488caed8a91ff2cc13b6c761c8b83748f5f26c4e2"
+    },
+    {
+      "id": "cace-n8-120",
+      "src": "assets/constructions/n8/n8-120.webp",
+      "title": {
+        "ca": "girafa · regar · planta / mico · saltar",
+        "es": "JIRAFA · REGAR · PLANTA · MONO · SALTAR"
+      },
+      "alt": {
+        "ca": "girafa · regar · planta / mico · saltar.",
+        "es": "JIRAFA · REGAR · PLANTA · MONO · SALTAR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.345Z",
+      "target": "n8-120",
+      "constructionId": "n8-120",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "73fce3b8972e71640154fc39c4167a660414d61b732a3c0f0ff3f2e1e3af6f49",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "10f2d57739d826e2d67363df85d9f0eee52eceeca32f5ecb067ef5147233159b"
+    },
+    {
+      "id": "cace-n8-121",
+      "src": "assets/constructions/n8/n8-121.webp",
+      "title": {
+        "ca": "mico · pintar · caixa / ós · portar · cistell",
+        "es": "MONO · PINTAR · CAJA · OSO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "mico · pintar · caixa / ós · portar · cistell.",
+        "es": "MONO · PINTAR · CAJA · OSO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-18T07:06:26.512Z",
+      "target": "n8-121",
+      "constructionId": "n8-121",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7b5b2c11d1e49a8edf557153f441f60828c5be176fbe6b4f856ffe74d1e2353a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c211d5f6746a9e9369c4835ae0ff9cb150c30169c55125352f1afa9d5a54d5e4"
+    },
     {
       "id": "cace-n8-003",
       "src": "assets/constructions/n8/n8-003.webp",
@@ -138279,7 +140651,27 @@
         "cace-n8-108",
         "cace-n8-109",
         "cace-n8-110",
-        "cace-n8-111"
+        "cace-n8-111",
+        "cace-n8-012",
+        "cace-n8-013",
+        "cace-n8-014",
+        "cace-n8-015",
+        "cace-n8-016",
+        "cace-n8-017",
+        "cace-n8-018",
+        "cace-n8-019",
+        "cace-n8-020",
+        "cace-n8-021",
+        "cace-n8-112",
+        "cace-n8-113",
+        "cace-n8-114",
+        "cace-n8-115",
+        "cace-n8-116",
+        "cace-n8-117",
+        "cace-n8-118",
+        "cace-n8-119",
+        "cace-n8-120",
+        "cace-n8-121"
       ]
     }
   ]

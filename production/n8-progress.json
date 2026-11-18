@@ -1,14 +1,9 @@
 {
   "level": 8,
-  "status": "active",
+  "status": "generation-stopped-for-publication",
   "planned": 200,
-  "complete": 38,
+  "complete": 48,
   "pending": [
-    "n8-017",
-    "n8-018",
-    "n8-019",
-    "n8-020",
-    "n8-021",
     "n8-022",
     "n8-023",
     "n8-024",
@@ -85,11 +80,6 @@
     "n8-098",
     "n8-099",
     "n8-100",
-    "n8-117",
-    "n8-118",
-    "n8-119",
-    "n8-120",
-    "n8-121",
     "n8-122",
     "n8-123",
     "n8-124",
@@ -167,8 +157,8 @@
     "n8-199",
     "n8-200"
   ],
-  "completedHabitual": 19,
-  "completedInsolita": 19,
+  "completedHabitual": 24,
+  "completedInsolita": 24,
   "authorization": {
     "instruction": "Ja pots començar a generar imatges i publicar-les, atura't a les 8:20 hora local",
     "date": "2026-11-18",
@@ -204,9 +194,9 @@
     ]
   },
   "started": "2026-11-18T06:46:52.866Z",
-  "updated": "2026-11-18T07:06:26.529Z",
-  "catalogVersion": "0.1.137",
-  "imported": 28,
+  "updated": "2026-11-18T07:10:31.360Z",
+  "catalogVersion": "0.1.138",
+  "imported": 48,
   "collectionId": "cace-n8-dos-esdeveniments",
   "publicationAuthorization": {
     "instruction": "Ja pots començar a generar imatges i publicar-les, atura't a les 8:20 hora local",
@@ -218,12 +208,13 @@
     "stopAt": "2026-11-18T07:20:00Z",
     "generationCutoff": "2026-11-18T07:10:00Z"
   },
-  "publicVerified": 10,
-  "publicVersion": "0.1.136",
-  "publicVerifiedAt": "2026-11-18T07:06:31Z",
+  "publicVerified": 28,
+  "publicVersion": "0.1.137",
+  "publicVerifiedAt": "2026-11-18T07:10:56Z",
   "lastDeployment": {
-    "commit": "fb627fa",
-    "publicVerification": "output/n8-publication-0.1.136.json",
+    "commit": "9672f6f",
+    "publicVerification": "output/n8-publication-0.1.137.json",
     "status": "public-catalog-and-downloads-verified"
-  }
+  },
+  "generationStoppedAt": "2026-11-18T07:10:21.229Z"
 }
