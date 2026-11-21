@@ -1,0 +1,100 @@
+{
+  "constructionId": "n9-040",
+  "file": "output/production/n9/n9-040/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has deep brown skin and short natural curly hair. Preserve this identity exactly across panels. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: HOME (adult man). Continuity anchor: el mocador quadrat amb vora fosca i un pedaç clar en forma de rombe. Ordered moments in Catalan: PANEL 1: Cus les darreres puntades visibles d’un pedaç, amb una punta del rombe encara aixecada. PANEL 2: Posa el mocador acabat estès sobre una barra baixa. Es veu el rombe complet i cosit per les quatre vores.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-040",
+    "number": 40,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "activitat-tancament",
+    "familyId": "n9-f-040",
+    "counterpartId": "n9-140",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · cosir · posar — mocador"
+    },
+    "labels": [
+      "HOME",
+      "COSIR",
+      "POSAR",
+      "MOCADOR",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-b591637a58a1",
+      "w-c211f7486a30",
+      "w-35e3a6c8a7fd",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "actions": [
+      {
+        "label": "COSIR",
+        "wordId": "w-b591637a58a1"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      }
+    ],
+    "referents": [
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-b591637a58a1",
+        "evidence": "Cus les darreres puntades visibles d’un pedaç, amb una punta del rombe encara aixecada."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-c211f7486a30",
+        "evidence": "Posa el mocador acabat estès sobre una barra baixa. Es veu el rombe complet i cosit per les quatre vores."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "el mocador quadrat amb vora fosca i un pedaç clar en forma de rombe"
+    },
+    "adultOnly": true,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:57:19.998Z"
+}

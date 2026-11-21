@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-131",
   "file": "output/production/n9/n9-131/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: el puzle amb dibuix de vaixell i la caixa de tapa llisa. Ordered moments in Catalan: PANEL 1: Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat. PANEL 2: Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Puzzle has exactly FOUR large pieces forming one simple sailboat. First TWO assembled, THIRD in hand being fitted, FOURTH beside. Final all FOUR joined into complete SAME sailboat, sliding whole into box large enough for it. Piece shapes and total size constant.",
+  "prompt": "Edit ONLY the piece HELD in rabbit's paw in LEFT PANEL. This is the TOP-LEFT quarter of the completed sailboat puzzle seen in RIGHT PANEL. Add the matching WHITE TRIANGULAR LEFT SAIL PORTION with thin black diagonal edge rising toward upper-right, on the blue sky of this held piece. Its right edge meets central mast when fitted. Keep held piece exact contour and size, paw, all other pieces and entire right panel unchanged. This piece must visibly match upper-left quarter of the completed puzzle. No text.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-131",
     "number": 131,
@@ -102,5 +102,29 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T12:43:47.202Z"
+  "created": "2026-11-21T12:43:47.202Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-131/rejected-01.png",
+      "reason": "Les peces inicials dupliquen la bandera i no corresponen al vaixell final.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: el puzle amb dibuix de vaixell i la caixa de tapa llisa. Ordered moments in Catalan: PANEL 1: Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat. PANEL 2: Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Puzzle has exactly FOUR large pieces forming one simple sailboat. First TWO assembled, THIRD in hand being fitted, FOURTH beside. Final all FOUR joined into complete SAME sailboat, sliding whole into box large enough for it. Piece shapes and total size constant.",
+      "rejectedAt": "2026-11-21T12:51:57.047Z"
+    },
+    {
+      "file": "output/production/n9/n9-131/rejected-02.png",
+      "reason": "Falta la part de vela a la peça sostinguda; reforçar correspondència visible.",
+      "prompt": "Correct ONLY the puzzle in LEFT PANEL so its four pieces correspond EXACTLY to the completed sailboat puzzle in RIGHT PANEL. Final image stays unchanged. Left panel: TWO bottom pieces joined show the red hull and blue water matching right panel bottom half; rabbit holds THIRD top-left piece showing LEFT HALF of white sail and blue sky, with NO flag; FOURTH piece on table shows right half sail, top of mast and ONE yellow flag, matching right panel top-right quarter. Exactly four matching jigsaw pieces total, correct complementary edges. No duplicated flags or mast portions. Preserve rabbit, natural paw grips, furniture, box, scale and viewpoint.",
+      "rejectedAt": "2026-11-21T12:56:17.276Z"
+    }
+  ],
+  "review": "Corregida correspondència de peces de vela i bandera. Quatre peces formen mateix vaixell i es desa muntat; conill complet, caixa compatible i preses plausibles.",
+  "alt": {
+    "ca": "conill · jugar · guardar — puzle / caixa.",
+    "es": "CONEJO · JUGAR · GUARDAR · PUZZLE · CAJA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "be73fdc4ca184ed81973c62a72e30f1e5ea5bbe35382471606228093840840fb",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:57:19.541Z"
 }

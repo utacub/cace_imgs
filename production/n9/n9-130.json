@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-130",
   "file": "output/production/n9/n9-130/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: PORC. Continuity anchor: cromos muts amb figures de flors o peixos i la carpeta de fundes. Ordered moments in Catalan: PANEL 1: Separa les dues menes de cromos en dues piles amb les cares descobertes. PANEL 2: Introdueix un cromo a l’última funda buida. Les altres fundes mostren una fila de cada mena.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Exactly FOUR picture cards total, TWO showing one flower and TWO showing one fish. Same FOUR in both panels. First sort them into two piles, second put last card into fourth clear folder sleeve, four sleeves visible.",
+  "prompt": "Edit LEFT PANEL card counts only: exactly FOUR cards TOTAL, one flower card in pig hoof above table, ONE other flower card flat on table, TWO fish cards flat side by side on table. No piles, no extra cards. Preserve right panel with two flower cards and two fish cards grouped in columns in four folder sleeves, and all pig anatomy and furniture. Same card size in both panels, no text.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-130",
     "number": 130,
@@ -102,5 +102,23 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T12:43:47.022Z"
+  "created": "2026-11-21T12:43:47.022Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-130/rejected-01.png",
+      "reason": "Al primer moment hi ha massa cromos a la pila.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: PORC. Continuity anchor: cromos muts amb figures de flors o peixos i la carpeta de fundes. Ordered moments in Catalan: PANEL 1: Separa les dues menes de cromos en dues piles amb les cares descobertes. PANEL 2: Introdueix un cromo a l’última funda buida. Les altres fundes mostren una fila de cada mena.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Exactly FOUR picture cards total, TWO showing one flower and TWO showing one fish. Same FOUR in both panels. First sort them into two piles, second put last card into fourth clear folder sleeve, four sleeves visible.",
+      "rejectedAt": "2026-11-21T12:51:56.968Z"
+    }
+  ],
+  "review": "Quatre cromos visibles, dues flors i dos peixos, ordenats per columnes al final. Porc complet amb mateixa carpeta, escala i perspectiva coherents.",
+  "alt": {
+    "ca": "porc · classificar · posar — cromos / carpeta.",
+    "es": "CERDO · CLASIFICAR · PONER · CROMOS · CARPETA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "3b87ff52c23ce2e242bf4774a20363aa8b057451321354343910f1dffff2f9ed",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:57:19.246Z"
 }

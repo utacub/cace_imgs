@@ -1,5 +1,5 @@
 {
-  "version": "0.1.150",
+  "version": "0.1.151",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1358 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-029",
+      "src": "assets/constructions/n9/n9-029.webp",
+      "title": {
+        "ca": "nen · classificar · guardar — peces / caixa",
+        "es": "NIÑO · CLASIFICAR · GUARDAR · PIEZAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · classificar · guardar — peces / caixa.",
+        "es": "NIÑO · CLASIFICAR · GUARDAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:39.151Z",
+      "target": "n9-029",
+      "constructionId": "n9-029",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "dos grups de peces de fusta, discos i cubs, i la caixa dividida"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6cdfd1f8e6848de423a6657533034610d7ab11170da8c770bc5376a29792c2f2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d08802aec6ef41fd1df28b18792c194a87403bda60e30910c77f908f30d54b6d"
+    },
+    {
+      "id": "cace-n9-031",
+      "src": "assets/constructions/n9/n9-031.webp",
+      "title": {
+        "ca": "nena · jugar · guardar — puzle / caixa",
+        "es": "NIÑA · JUGAR · GUARDAR · PUZZLE · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · jugar · guardar — puzle / caixa.",
+        "es": "NIÑA · JUGAR · GUARDAR · PUZZLE · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-0006cf1ffdae",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-0006cf1ffdae",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.109Z",
+      "target": "n9-031",
+      "constructionId": "n9-031",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el puzle amb dibuix de vaixell i la caixa de tapa llisa"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c5c481b963cd6cda53d3969dc848a0142978efcca772c6d0dd8813bfa2de6691",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2e9416c8d91e49ceeaa08bbc18eb06d6aae438283349ae5887888fb59b187708"
+    },
+    {
+      "id": "cace-n9-033",
+      "src": "assets/constructions/n9/n9-033.webp",
+      "title": {
+        "ca": "noia · plantar · posar — planta",
+        "es": "CHICA · PLANTAR · PONER · PLANTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · plantar · posar — planta.",
+        "es": "CHICA · PLANTAR · PONER · PLANTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-6af4a2a10994",
+        "w-c211f7486a30",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-6af4a2a10994",
+        "w-c211f7486a30",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.434Z",
+      "target": "n9-033",
+      "constructionId": "n9-033",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6af4a2a10994",
+          "evidence": "Assenta el pa de terra dins del test, damunt la taula baixa, amb el marge de terra encara irregular."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Amb el pa de terra cobert, col·loca el test complet en una lleixa baixa. Porta restes de terra als guants."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la plàntula de fulla rodona i el test amb dues bandes horitzontals"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "236a46845568bf578d5b25f5c06fdcfde0282db49cd820dad074d54a01f74558",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "53e887c9917df70e778f365c15f55a7e052da01a145bb45dbd02f4ab083a7a2a"
+    },
+    {
+      "id": "cace-n9-034",
+      "src": "assets/constructions/n9/n9-034.webp",
+      "title": {
+        "ca": "noi · regar · guardar — planta / galleda",
+        "es": "CHICO · REGAR · GUARDAR · PLANTA · CUBO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · regar · guardar — planta / galleda.",
+        "es": "CHICO · REGAR · GUARDAR · PLANTA · CUBO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-00107994a0cd",
+        "w-f0441e0dd3b0",
+        "w-03d524b232d7",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-00107994a0cd",
+        "w-f0441e0dd3b0",
+        "w-03d524b232d7",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.587Z",
+      "target": "n9-034",
+      "constructionId": "n9-034",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-00107994a0cd",
+          "evidence": "Vessa un raig curt d’aigua sobre la terra. Es veu encara una zona de terra seca al test."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la galleda en una lleixa baixa. La terra és uniformement humida i dibuixa encara un petit bassal visible."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la planta de fulles ovalades i la galleda de nansa curta amb bec ample"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "cd453f03ffd230cfca77d35b185faf50e6a2606c10d224666c941d9f833226f0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dea00835f1ad4c47e00c6c90134e46e4fd6a01a1d7353caa96267c87a8ae275c"
+    },
+    {
+      "id": "cace-n9-035",
+      "src": "assets/constructions/n9/n9-035.webp",
+      "title": {
+        "ca": "dona · netejar · guardar — plat / esponja",
+        "es": "MUJER · LIMPIAR · GUARDAR · PLATO · ESPONJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · netejar · guardar — plat / esponja.",
+        "es": "MUJER · LIMPIAR · GUARDAR · PLATO · ESPONJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-f0441e0dd3b0",
+        "w-55d250f4cf1e",
+        "w-2d404e0d8979",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-f0441e0dd3b0",
+        "w-55d250f4cf1e",
+        "w-2d404e0d8979",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.742Z",
+      "target": "n9-035",
+      "constructionId": "n9-035",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Frega una marca ampla al plat, amb unes restes petites encara al contorn."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Deixa l’esponja visiblement usada dins d’una safata. El plat, encara al mateix lloc, queda net."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat de contorn hexagonal i l’esponja de forma oval"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7622f57549e2e40bef913788752405054c08f5c53f00a17cbfd80cf687b78dd4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "88a3df7c79eb30844d4efd9f46c769946b01663eac4126728c9e0af9fb43fb9c"
+    },
+    {
+      "id": "cace-n9-036",
+      "src": "assets/constructions/n9/n9-036.webp",
+      "title": {
+        "ca": "home · netejar · posar — sabates",
+        "es": "HOMBRE · LIMPIAR · PONER · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · netejar · posar — sabates.",
+        "es": "HOMBRE · LIMPIAR · PONER · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.909Z",
+      "target": "n9-036",
+      "constructionId": "n9-036",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Frega una clapa de fang visible de la segona sabata. La primera ja és al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la segona sabata neta al costat de la primera a la lleixa, amb totes dues soles llegibles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les sabates amb sola gruixuda i un passador ample"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f4c189d75abb7284e8260dcdecf98ee51b81a38f7ce86df050012c8ed298b920",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "57a3c6402d6a995d3e24b8a1d8a42524becc62de7d7695a56240988f3ad97567"
+    },
+    {
+      "id": "cace-n9-037",
+      "src": "assets/constructions/n9/n9-037.webp",
+      "title": {
+        "ca": "nena · assecar · guardar — got",
+        "es": "NIÑA · SECAR · GUARDAR · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · assecar · guardar — got.",
+        "es": "NIÑA · SECAR · GUARDAR · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-f0441e0dd3b0",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-f0441e0dd3b0",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:48.065Z",
+      "target": "n9-037",
+      "constructionId": "n9-037",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-ae417aa563dd",
+          "evidence": "Frega el got amb un drap. Encara hi ha tres gotes grans a la banda exterior i una làmina d’aigua al platet."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa el got sec al prestatge baix. El drap humit és al costat del mateix platet mullat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got transparent amb base de vuit cares"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "df6de56213165fb2cce683969d302f90341288637ab1a4972575de813407808e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7b480310a837fe64c631a87dbd772a3ab3a2bf0ef33efc9fc6ff322ba184dbf8"
+    },
+    {
+      "id": "cace-n9-038",
+      "src": "assets/constructions/n9/n9-038.webp",
+      "title": {
+        "ca": "nen · assecar · posar — tassa",
+        "es": "NIÑO · SECAR · PONER · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · assecar · posar — tassa.",
+        "es": "NIÑO · SECAR · PONER · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-ae417aa563dd",
+        "w-c211f7486a30",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-ae417aa563dd",
+        "w-c211f7486a30",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:48.296Z",
+      "target": "n9-038",
+      "constructionId": "n9-038",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-ae417aa563dd",
+          "evidence": "Eixuga la tassa amb un drap, mantenint a la vista gotes grosses vora la boca."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la tassa seca a la lleixa, amb la mateixa nansa orientada cap endavant. El drap humit queda a la taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa de nansa rodona i un ribet fosc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d7c5b04b58068f24ae3350f42a93a08cc339e867154d82fa3df8571eff496dc3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ee546ceeb75ab0bebab23228dc06629a22e1fea6e44b701f69da75b8ae824116"
+    },
+    {
+      "id": "cace-n9-039",
+      "src": "assets/constructions/n9/n9-039.webp",
+      "title": {
+        "ca": "dona · cosir · guardar — botó / camisa",
+        "es": "MUJER · COSER · GUARDAR · BOTÓN · CAMISA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · cosir · guardar — botó / camisa.",
+        "es": "MUJER · COSER · GUARDAR · BOTÓN · CAMISA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-b591637a58a1",
+        "w-f0441e0dd3b0",
+        "w-1ed7d690ac96",
+        "w-2dc987121b47",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-b591637a58a1",
+        "w-f0441e0dd3b0",
+        "w-1ed7d690ac96",
+        "w-2dc987121b47",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:48.529Z",
+      "target": "n9-039",
+      "constructionId": "n9-039",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b591637a58a1",
+          "evidence": "Estira el fil per l’últim forat, amb el botó encara separat un dit de la camisa."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la camisa plegada amb el botó ferm i descobert. L’agulla i el fil queden al coixinet de costura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el botó gros de quatre forats i la camisa amb puny doble"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7071e7a17f462d892d77ca48afd65058db87f95318efc468e630569355ef4b84",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6f642669c83b1df8cc1209ceb11512fc13fd7e4397cbc25cdb1fafdd0d17e530"
+    },
+    {
+      "id": "cace-n9-121",
+      "src": "assets/constructions/n9/n9-121.webp",
+      "title": {
+        "ca": "conill · menjar · tancar — carmanyola / poma",
+        "es": "CONEJO · COMER · CERRAR · FIAMBRERA · MANZANA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · menjar · tancar — carmanyola / poma.",
+        "es": "CONEJO · COMER · CERRAR · FIAMBRERA · MANZANA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-c248ebfe6f67",
+        "w-4000ec1e6d5b",
+        "w-c3b8bd56e942",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-c248ebfe6f67",
+        "w-4000ec1e6d5b",
+        "w-c3b8bd56e942",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:37.993Z",
+      "target": "n9-121",
+      "constructionId": "n9-121",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Mossega un quart de poma damunt la carmanyola oberta. Un segon quart hi resta intacte."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-4000ec1e6d5b",
+          "evidence": "Abaixa la tapa transparent fins a deixar un dit d’obertura. A dins hi ha el quart intacte i el que ara té la mossegada."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carmanyola amb frontissa ampla i el mateix tros de poma amb pell i mossegada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "6a9bfb0ea8dee37dd621b1cb654f1e7bf0dfbb4b1a1d427aa54aa48e0667548f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ba6ceeaae39074e09482a63b29067e38ce4a820bcbfe124b62c87b613835ddab"
+    },
+    {
+      "id": "cace-n9-129",
+      "src": "assets/constructions/n9/n9-129.webp",
+      "title": {
+        "ca": "tortuga · classificar · guardar — peces / caixa",
+        "es": "TORTUGA · CLASIFICAR · GUARDAR · PIEZAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · classificar · guardar — peces / caixa.",
+        "es": "TORTUGA · CLASIFICAR · GUARDAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:46.866Z",
+      "target": "n9-129",
+      "constructionId": "n9-129",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "dos grups de peces de fusta, discos i cubs, i la caixa dividida"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4b3a480f3209e7b7e831946a9f1c1c1e9360c36c2217b1b3e65504182b6ecb6d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4c5b8f21c41132cd56294f8c85e49df61fb5158c52b4b353ae2f64eb500e4bfd"
+    },
+    {
+      "id": "cace-n9-132",
+      "src": "assets/constructions/n9/n9-132.webp",
+      "title": {
+        "ca": "gat · jugar · guardar — construccions / caixa",
+        "es": "GATO · JUGAR · GUARDAR · CONSTRUCCIONES · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · jugar · guardar — construccions / caixa.",
+        "es": "GATO · JUGAR · GUARDAR · CONSTRUCCIONES · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-d92d094286cd",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-d92d094286cd",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.358Z",
+      "target": "n9-132",
+      "constructionId": "n9-132",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Encaixa la peça superior d’una torre baixa, amb el darrer cub encara a la mà."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la construcció sencera en la caixa oberta, sostenint la torre per la base."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos blocs de fusta i la caixa oberta de base ampla"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1d4e6381cae599cc3988022490118e1298bf0e18018c62e09fb083078505a515",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3845873a4d31d63a0ca368d4b27d4d3e678fffc184bc01c114b60322dd47ac9a"
+    },
+    {
+      "id": "cace-n9-133",
+      "src": "assets/constructions/n9/n9-133.webp",
+      "title": {
+        "ca": "gos · plantar · posar — planta",
+        "es": "PERRO · PLANTAR · PONER · PLANTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · plantar · posar — planta.",
+        "es": "PERRO · PLANTAR · PONER · PLANTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-6af4a2a10994",
+        "w-c211f7486a30",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-6af4a2a10994",
+        "w-c211f7486a30",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.508Z",
+      "target": "n9-133",
+      "constructionId": "n9-133",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6af4a2a10994",
+          "evidence": "Assenta el pa de terra dins del test, damunt la taula baixa, amb el marge de terra encara irregular."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Amb el pa de terra cobert, col·loca el test complet en una lleixa baixa. Porta restes de terra als guants."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la plàntula de fulla rodona i el test amb dues bandes horitzontals"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4dbe8a4590a82ed3014b6d99cbc2efd36c6977affade8e2d31a4144acee12d6c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4f872ff512e571ef9cad548bb828d2306d9874eea97035f2e4aaed1f652b03c4"
+    },
+    {
+      "id": "cace-n9-134",
+      "src": "assets/constructions/n9/n9-134.webp",
+      "title": {
+        "ca": "ós · regar · guardar — planta / galleda",
+        "es": "OSO · REGAR · GUARDAR · PLANTA · CUBO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · regar · guardar — planta / galleda.",
+        "es": "OSO · REGAR · GUARDAR · PLANTA · CUBO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-f0441e0dd3b0",
+        "w-03d524b232d7",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-f0441e0dd3b0",
+        "w-03d524b232d7",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.661Z",
+      "target": "n9-134",
+      "constructionId": "n9-134",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-00107994a0cd",
+          "evidence": "Vessa un raig curt d’aigua sobre la terra. Es veu encara una zona de terra seca al test."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la galleda en una lleixa baixa. La terra és uniformement humida i dibuixa encara un petit bassal visible."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la planta de fulles ovalades i la galleda de nansa curta amb bec ample"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b2451f3899567666da6f73ea73b98adff9b656ac42132a79bbbe0a7f64489676",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "62fa2835c65a62a725b04507a973cf6cf02dff793a8bfba843113818046371bf"
+    },
+    {
+      "id": "cace-n9-135",
+      "src": "assets/constructions/n9/n9-135.webp",
+      "title": {
+        "ca": "mico · netejar · guardar — plat / esponja",
+        "es": "MONO · LIMPIAR · GUARDAR · PLATO · ESPONJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · netejar · guardar — plat / esponja.",
+        "es": "MONO · LIMPIAR · GUARDAR · PLATO · ESPONJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-4e6be686e7c1",
+        "w-f0441e0dd3b0",
+        "w-55d250f4cf1e",
+        "w-2d404e0d8979",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-4e6be686e7c1",
+        "w-f0441e0dd3b0",
+        "w-55d250f4cf1e",
+        "w-2d404e0d8979",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.822Z",
+      "target": "n9-135",
+      "constructionId": "n9-135",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Frega una marca ampla al plat, amb unes restes petites encara al contorn."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Deixa l’esponja visiblement usada dins d’una safata. El plat, encara al mateix lloc, queda net."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat de contorn hexagonal i l’esponja de forma oval"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "78e0daf7342ac33d9adb7426a9b61cf02411875d8c520794063cbacb15a46e08",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "46f8555295fad49c0769b6e875cef481cfaffd316bcfe61129917d8ec0474f34"
+    },
+    {
+      "id": "cace-n9-136",
+      "src": "assets/constructions/n9/n9-136.webp",
+      "title": {
+        "ca": "esquirol · netejar · posar — sabates",
+        "es": "ARDILLA · LIMPIAR · PONER · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · netejar · posar — sabates.",
+        "es": "ARDILLA · LIMPIAR · PONER · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-4e6be686e7c1",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-4e6be686e7c1",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.991Z",
+      "target": "n9-136",
+      "constructionId": "n9-136",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Frega una clapa de fang visible de la segona sabata. La primera ja és al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la segona sabata neta al costat de la primera a la lleixa, amb totes dues soles llegibles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les sabates amb sola gruixuda i un passador ample"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "d29417b13259b9275d15cef1f1361fbdfb8f77f0859db2ac6b977a10035486dd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d42c589575c367a0e1cb4d07acea275b68b51ee2153c99cd24ece25aca68c369"
+    },
+    {
+      "id": "cace-n9-137",
+      "src": "assets/constructions/n9/n9-137.webp",
+      "title": {
+        "ca": "elefant · assecar · guardar — got",
+        "es": "ELEFANTE · SECAR · GUARDAR · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · assecar · guardar — got.",
+        "es": "ELEFANTE · SECAR · GUARDAR · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-ae417aa563dd",
+        "w-f0441e0dd3b0",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-ae417aa563dd",
+        "w-f0441e0dd3b0",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:48.176Z",
+      "target": "n9-137",
+      "constructionId": "n9-137",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-ae417aa563dd",
+          "evidence": "Frega el got amb un drap. Encara hi ha tres gotes grans a la banda exterior i una làmina d’aigua al platet."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa el got sec al prestatge baix. El drap humit és al costat del mateix platet mullat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got transparent amb base de vuit cares"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "45572c20f89a5ef5b0cbbf7d4d168a2a77c025fc31c7e399247207fc4ca13629",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "594b37d56460d2095bd6e1fb4034fb66b733c3d91980f3bee5cd2152c3737b78"
+    },
+    {
+      "id": "cace-n9-138",
+      "src": "assets/constructions/n9/n9-138.webp",
+      "title": {
+        "ca": "ruc · assecar · posar — tassa",
+        "es": "BURRO · SECAR · PONER · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · assecar · posar — tassa.",
+        "es": "BURRO · SECAR · PONER · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-ae417aa563dd",
+        "w-c211f7486a30",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-ae417aa563dd",
+        "w-c211f7486a30",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:48.398Z",
+      "target": "n9-138",
+      "constructionId": "n9-138",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-ae417aa563dd",
+          "evidence": "Eixuga la tassa amb un drap, mantenint a la vista gotes grosses vora la boca."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la tassa seca a la lleixa, amb la mateixa nansa orientada cap endavant. El drap humit queda a la taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa de nansa rodona i un ribet fosc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "38f66c6dee0deaae6830a11838250915ea92b6566224549e45a1fc5d9168ca3c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2742590f5cb4c3b982a1e39dbce832e2947a264061cbfb05a29492eb0cef7e1f"
+    },
     {
       "id": "cace-n9-022",
       "src": "assets/constructions/n9/n9-022.webp",
@@ -162670,7 +164022,25 @@
         "cace-n9-125",
         "cace-n9-126",
         "cace-n9-127",
-        "cace-n9-128"
+        "cace-n9-128",
+        "cace-n9-029",
+        "cace-n9-031",
+        "cace-n9-033",
+        "cace-n9-034",
+        "cace-n9-035",
+        "cace-n9-036",
+        "cace-n9-037",
+        "cace-n9-038",
+        "cace-n9-039",
+        "cace-n9-121",
+        "cace-n9-129",
+        "cace-n9-132",
+        "cace-n9-133",
+        "cace-n9-134",
+        "cace-n9-135",
+        "cace-n9-136",
+        "cace-n9-137",
+        "cace-n9-138"
       ]
     }
   ]

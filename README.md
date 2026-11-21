@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.150 conté **3924 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6, N7 o N8 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.151 conté **3942 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6, N7 o N8 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -28,12 +28,12 @@ El N7 incorpora **200 de les 200 construccions aprovades**: 100 fotografies habi
 
 El N8 incorpora **200 de les 200 construccions aprovades**: 100 fotografies habituals i 100 dibuixos plans insòlits. «N8 · Dos esdeveniments» relaciona dues accions o estats en un mateix instant i una mateixa escena. Cada participant conserva el seu predicat i pacient en les metadades; entre quatre i sis etiquetes CACE exactes. Col·lecció «N8 · Dos esdeveniments», filtre de nivell 8. Pla: `production/n8-plan.json`; progrés: `production/n8-progress.json`; prompts i revisions: `production/n8/`. El pla N8 està complet.
 
-El N9 incorpora **55 de les 200 seqüències aprovades**: 28 fotografies habituals i 27 dibuixos plans insòlits. Col·lecció «N9 · Seqüències» i filtre de nivell 9. Cada imatge mostra moments ordenats amb continuïtat d’agent i referents. Pla: `production/n9-plan.json`; progrés: `production/n9-progress.json`; prompts i revisions: `production/n9/`.
+El N9 incorpora **73 de les 200 seqüències aprovades**: 37 fotografies habituals i 36 dibuixos plans insòlits. Col·lecció «N9 · Seqüències» i filtre de nivell 9. Cada imatge mostra moments ordenats amb continuïtat d’agent i referents. Pla: `production/n9-plan.json`; progrés: `production/n9-progress.json`; prompts i revisions: `production/n9/`.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 3924 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 3942 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
