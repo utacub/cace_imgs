@@ -1,3 +1,15 @@
+# N11 · 200 relats completats i publicats · 21/11/2026
+
+Catàleg **0.1.177** amb **4.469 imatges** i **861 entrades CACE**. Els **200 relats de quatre vinyetes** s’han revisat individualment: 100 fotografies habituals i 100 dibuixos plans insòlits, agrupats en 100 famílies narratives. S’han descartat **101 candidats**.
+
+GitHub Pages ha publicat el commit `d2c37b9`. El catàleg públic sencer i els 200 WebP d’N11 s’han verificat a les **22:51:48 h de Madrid**. L’auditoria valida per SHA-256 les 4.469 imatges del banc, incloses les 4.269 anteriors a N11. També valida els originals triats i descartats.
+
+El pla és el guió de referència i les fitxes individuals descriuen l’execució. Exemples d’ajustos aplicats a totes dues variants: el travesser rectangular de la família 002, el puzle de quatre fitxes de la família 035 i el gorro de punt de la família 068, coherent amb el referent CACE GORRO.
+
+No queden estímuls pendents. L’encàrrec de generació i publicació ha acabat abans de les 23:15 h. Progrés a `production/n11-progress.json`, revisions a `production/n11/`, originals a `output/production/n11/`, verificacions públiques a `production/n11-publications.json` i auditoria a `production/n11-final-audit.json`.
+
+---
+
 # N11 · Producció i publicació autoritzades · 21/11/2026
 
 L’usuari autoritza generar, revisar i publicar per lots els estímuls del pla N11 fins a les **23:15 de Madrid** (22:15 UTC). Punt de partida: catàleg 0.1.169, 4.269 imatges i 861 entrades CACE. Una imatge de quatre vinyetes per estímul. Revisar individualment la continuïtat dels dos papers, les proves de la trama, el desenllaç, els contactes i les quantitats. El registre de progrés és a `production/n11-progress.json`, les revisions a `production/n11/` i els originals a `output/production/n11/`.
