@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-146",
+  "file": "output/production/n8/n8-146/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: bear, on the LEFT. Second participant: rabbit, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ÓS a esquerra: Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals. CONILL a dreta: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PAPER, CISTELL. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. ESTRIPAR shows two hands pulling one blank paper sheet apart, a clear central tear and both sides still joined at one end. No scissors. Both hands belong to the same participant.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-146",
+    "number": 146,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-046",
+    "counterpartId": "n8-046",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · estripar · paper / conill · portar · cistell"
+    },
+    "labels": [
+      "ÓS",
+      "ESTRIPAR",
+      "PAPER",
+      "CONILL",
+      "PORTAR",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-d6ff14eb6fb5",
+      "w-cd5c60f0d076",
+      "w-51a7805e979b",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ÓS",
+            "wordId": "w-a06249642996"
+          },
+          {
+            "role": "action",
+            "label": "ESTRIPAR",
+            "wordId": "w-d6ff14eb6fb5"
+          },
+          {
+            "role": "patient",
+            "label": "PAPER",
+            "wordId": "w-cd5c60f0d076"
+          }
+        ],
+        "labels": [
+          "ÓS",
+          "ESTRIPAR",
+          "PAPER"
+        ],
+        "wordIds": [
+          "w-a06249642996",
+          "w-d6ff14eb6fb5",
+          "w-cd5c60f0d076"
+        ],
+        "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+        "context": []
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b"
+          },
+          {
+            "role": "action",
+            "label": "PORTAR",
+            "wordId": "w-73b71e1ff757"
+          },
+          {
+            "role": "patient",
+            "label": "CISTELL",
+            "wordId": "w-120fb6b37e88"
+          }
+        ],
+        "labels": [
+          "CONILL",
+          "PORTAR",
+          "CISTELL"
+        ],
+        "wordIds": [
+          "w-51a7805e979b",
+          "w-73b71e1ff757",
+          "w-120fb6b37e88"
+        ],
+        "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ÓS a esquerra: Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals. CONILL a dreta: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-51a7805e979b|w-73b71e1ff757|w-120fb6b37e88||w-a06249642996|w-d6ff14eb6fb5|w-cd5c60f0d076",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:16:14.274Z",
+  "review": "Dues mans del mateix participant estripen un full mut; obertura central visible i les dues parts encara unides per un extrem. L’altre porta un cistell buit fent un pas. Dues activitats clares, cossos complets, mans pròpies i suport plausible; proporcions humanes naturals i absència d’abast forçat. Dibuix amb espècies recognoscibles. Sense text ni accessoris. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "ós · estripar · paper / conill · portar · cistell.",
+    "es": "OSO · RASGAR · PAPEL · CONEJO · LLEVAR · CESTA."
+  },
+  "originalSha256": "e2bf8c5a1e4c2a719495ee4f3efeb35ca49d21679c7b7f3094fb5a2cb589f3bb",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:22:38.976Z",
+  "publicationVersion": "0.1.141",
+  "importedAt": "2026-11-21T09:23:12.109197+00:00"
+}

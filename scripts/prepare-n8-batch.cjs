@@ -17,6 +17,10 @@ for(const id of selected){
  if(x.events.some(e=>e.roles[1].label==='ASSECAR'))prompt+=' CULLERA is a large serving SPOON: keep its concave oval bowl and long handle visible. Towel touches only part of it, with a few visible water droplets. Not a plate or fork.';
  if(x.events.some(e=>e.roles[1].label==='TALLAR'))prompt+=' TALLAR uses a blunt round-tip table knife cutting soft PLASTILINA on a nearby low table, clear cut in the clay, supporting hand safely away from blade. No food cutting.';
  if(x.events.some(e=>e.roles[1].label==='ESTRIPAR'))prompt+=' ESTRIPAR shows two hands pulling one blank paper sheet apart, a clear central tear and both sides still joined at one end. No scissors. Both hands belong to the same participant.';
+ if(x.kind==='photo'){
+  const tones=[['deep brown','medium brown'],['light brown','deep brown'],['medium brown','fair'],['fair','light brown']][x.number%4];
+  prompt+=` Natural varied human actors: first participant has ${tones[0]} skin, second has ${tones[1]} skin. Natural hair texture and neutral everyday clothes, no uniforms or costumes. Keep the exact age groups and event roles specified above.`;
+ }
  const record=`production/n8/${id}.json`;
  if(fs.existsSync(record)){const r=JSON.parse(fs.readFileSync(record,'utf8'));if(r.reviewed)throw Error('Already reviewed');prompts[id]=r.prompt;}
  else{cp.execFileSync('node',['scripts/record-n8-production.cjs','prepare',id,prompt]);prompts[id]=prompt;}

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.140",
+  "version": "0.1.141",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,2958 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-036",
+      "src": "assets/constructions/n8/n8-036.webp",
+      "title": {
+        "ca": "nen · pentinar · nina / noia · portar · cistell",
+        "es": "NIÑO · PEINAR · MUÑECA · CHICA · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nen · pentinar · nina / noia · portar · cistell.",
+        "es": "NIÑO · PEINAR · MUÑECA · CHICA · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:07:58.974Z",
+      "target": "n8-036",
+      "constructionId": "n8-036",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1b20c304a246f2dee0aa841ed5e4173508e0800e13fc509bc6491bd3f215c1ac",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dda96a57ce6dde30523b6cb22d941dd027cd7e60b7af59ae4f496daba23b499a"
+    },
+    {
+      "id": "cace-n8-037",
+      "src": "assets/constructions/n8/n8-037.webp",
+      "title": {
+        "ca": "noi · pentinar · nina / dona · aixecar · pilota",
+        "es": "CHICO · PEINAR · MUÑECA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "noi · pentinar · nina / dona · aixecar · pilota.",
+        "es": "CHICO · PEINAR · MUÑECA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:07:59.907Z",
+      "target": "n8-037",
+      "constructionId": "n8-037",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "27fb7f93e8d2229bb8dc52ba6448e71a2a46b1065b351fca8bcf0c722c87b174",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0af97b4c0e0f4fd50c6ec33d047572839ef4d099806445297d1ced4228f67d8b"
+    },
+    {
+      "id": "cace-n8-038",
+      "src": "assets/constructions/n8/n8-038.webp",
+      "title": {
+        "ca": "nena · pentinar · nina / noia · olorar · flor",
+        "es": "NIÑA · PEINAR · MUÑECA · CHICA · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "nena · pentinar · nina / noia · olorar · flor.",
+        "es": "NIÑA · PEINAR · MUÑECA · CHICA · OLER · FLOR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:00.843Z",
+      "target": "n8-038",
+      "constructionId": "n8-038",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "225deaf02215b4a3e0c926e6ca1f652751faa07548d56925fe88dd5ef837bf29",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fa24ae00310b5a52bfe1bf030b57881fac9d990a9f9b2a2fd52fc5071d4ba91f"
+    },
+    {
+      "id": "cace-n8-039",
+      "src": "assets/constructions/n8/n8-039.webp",
+      "title": {
+        "ca": "home · pentinar · nina / noi · abraçar · coixí",
+        "es": "HOMBRE · PEINAR · MUÑECA · CHICO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · pentinar · nina / noi · abraçar · coixí.",
+        "es": "HOMBRE · PEINAR · MUÑECA · CHICO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:01.664Z",
+      "target": "n8-039",
+      "constructionId": "n8-039",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "16d232e4e508eaafbd193295a7229e402811a90ac75f6ccb8d9762cf40019aa7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "451417af248bbdd9f70f64528e6ae8c736a6cc7263d44571c5dfbe6b1484b485"
+    },
+    {
+      "id": "cace-n8-040",
+      "src": "assets/constructions/n8/n8-040.webp",
+      "title": {
+        "ca": "dona · pentinar · nina / nena · saltar",
+        "es": "MUJER · PEINAR · MUÑECA · NIÑA · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · pentinar · nina / nena · saltar.",
+        "es": "MUJER · PEINAR · MUÑECA · NIÑA · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:02.668Z",
+      "target": "n8-040",
+      "constructionId": "n8-040",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "bc2e7bfbf089e198e20d2dfc369a713a7988e8122362859e7b61fda3118b6865",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bffde01e9ddb0a283af82178e49e4245c2ea3decd97037b5a25b7899d5a986b2"
+    },
+    {
+      "id": "cace-n8-041",
+      "src": "assets/constructions/n8/n8-041.webp",
+      "title": {
+        "ca": "nena · tallar · plastilina / nen · portar · cistell",
+        "es": "NIÑA · CORTAR · PLASTILINA · NIÑO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nena · tallar · plastilina / nen · portar · cistell.",
+        "es": "NIÑA · CORTAR · PLASTILINA · NIÑO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:03.431Z",
+      "target": "n8-041",
+      "constructionId": "n8-041",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8ce066138c266e796d449792b2828953f8cf2d77fde75280b0434660b1303793",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2e8de8f2999ebc73479cbabc817830a57de9820c51308004fe24da06dcf5e4c5"
+    },
+    {
+      "id": "cace-n8-042",
+      "src": "assets/constructions/n8/n8-042.webp",
+      "title": {
+        "ca": "nen · tallar · plastilina / dona · aixecar · pilota",
+        "es": "NIÑO · CORTAR · PLASTILINA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "nen · tallar · plastilina / dona · aixecar · pilota.",
+        "es": "NIÑO · CORTAR · PLASTILINA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.374Z",
+      "target": "n8-042",
+      "constructionId": "n8-042",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "aa81f47cc5c584555917f78cbd3425a6b7998343ac54eaefd615fed52d272a13",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "310dc71c35b65b0b4114ddcfb92f46c61ab9fafaf4e01dac3aeaee45a85d6ce0"
+    },
+    {
+      "id": "cace-n8-043",
+      "src": "assets/constructions/n8/n8-043.webp",
+      "title": {
+        "ca": "noia · tallar · plastilina / noi · olorar · flor",
+        "es": "CHICA · CORTAR · PLASTILINA · CHICO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "noia · tallar · plastilina / noi · olorar · flor.",
+        "es": "CHICA · CORTAR · PLASTILINA · CHICO · OLER · FLOR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.559Z",
+      "target": "n8-043",
+      "constructionId": "n8-043",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d022a256d94de80012276f56644d9723f2c9a08a039aab01b1bc1714a2e37d75",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f3c8567540c2fbfba194feadb2ec14823adb0583d3f84752ee2df426a00e9990"
+    },
+    {
+      "id": "cace-n8-044",
+      "src": "assets/constructions/n8/n8-044.webp",
+      "title": {
+        "ca": "home · tallar · plastilina / nena · abraçar · coixí",
+        "es": "HOMBRE · CORTAR · PLASTILINA · NIÑA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · tallar · plastilina / nena · abraçar · coixí.",
+        "es": "HOMBRE · CORTAR · PLASTILINA · NIÑA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.757Z",
+      "target": "n8-044",
+      "constructionId": "n8-044",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8860fc85c3f0848b1836da227db44c85790c9b89dae3fe0c157883232f2304e2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9feabc221f6ab89976be366e0b5e2f536eb942de0a69d5e2249633dd81561c36"
+    },
+    {
+      "id": "cace-n8-045",
+      "src": "assets/constructions/n8/n8-045.webp",
+      "title": {
+        "ca": "dona · tallar · plastilina / home · saltar",
+        "es": "MUJER · CORTAR · PLASTILINA · HOMBRE · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · tallar · plastilina / home · saltar.",
+        "es": "MUJER · CORTAR · PLASTILINA · HOMBRE · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.979Z",
+      "target": "n8-045",
+      "constructionId": "n8-045",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8f4738afbce0574b2f1eb678bc2b72c2e4d7189e4b1ac972d18c688dd1319222",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "53b3afe5c58ed1b0df2e65b27c310be8f51414784beaafcd92a301ae674aadb7"
+    },
+    {
+      "id": "cace-n8-046",
+      "src": "assets/constructions/n8/n8-046.webp",
+      "title": {
+        "ca": "nen · estripar · paper / noia · portar · cistell",
+        "es": "NIÑO · RASGAR · PAPEL · CHICA · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nen · estripar · paper / noia · portar · cistell.",
+        "es": "NIÑO · RASGAR · PAPEL · CHICA · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:14.157Z",
+      "target": "n8-046",
+      "constructionId": "n8-046",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "df6af194bb3b6d100bd14bb9baaa6a8366fffa1a52e6f2a5c748ac89adc6c354",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "06943bd930be56d14a006610e4056fa3b5dac76cba7d5b8586a4aa71b3ff6e4b"
+    },
+    {
+      "id": "cace-n8-047",
+      "src": "assets/constructions/n8/n8-047.webp",
+      "title": {
+        "ca": "noi · estripar · paper / dona · aixecar · pilota",
+        "es": "CHICO · RASGAR · PAPEL · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "noi · estripar · paper / dona · aixecar · pilota.",
+        "es": "CHICO · RASGAR · PAPEL · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:14.434Z",
+      "target": "n8-047",
+      "constructionId": "n8-047",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8c1e89d3fcfb40f761de33c175c419ec3de146255c07097c4162236a285c1f5d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f01b947e89409b419f903f0d1933e31cc067689d6747aab09cb6d8c1bbe6c222"
+    },
+    {
+      "id": "cace-n8-136",
+      "src": "assets/constructions/n8/n8-136.webp",
+      "title": {
+        "ca": "ós · pentinar · nina / conill · portar · cistell",
+        "es": "OSO · PEINAR · MUÑECA · CONEJO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "ós · pentinar · nina / conill · portar · cistell.",
+        "es": "OSO · PEINAR · MUÑECA · CONEJO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:07:59.545Z",
+      "target": "n8-136",
+      "constructionId": "n8-136",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4101da2bc9da0bcb2b88e54ea4958121751799dcfc9f95d98bd67e5ac3549ae8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2d5019005605cf0d479f324fe656389bf50d25fc42e6efe5681da6fc5af1d9d2"
+    },
+    {
+      "id": "cace-n8-137",
+      "src": "assets/constructions/n8/n8-137.webp",
+      "title": {
+        "ca": "elefant · pentinar · nina / gat · aixecar · pilota",
+        "es": "ELEFANTE · PEINAR · MUÑECA · GATO · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "elefant · pentinar · nina / gat · aixecar · pilota.",
+        "es": "ELEFANTE · PEINAR · MUÑECA · GATO · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:00.346Z",
+      "target": "n8-137",
+      "constructionId": "n8-137",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4e76e56600182fd78d7034313ea494f7e644ca0fb17ef0824dccaff289fdadb3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b16da1d8e83649ddb70bcb9326bdaee0d07e3662e3d9b5c1f0b6532594c6d70c"
+    },
+    {
+      "id": "cace-n8-138",
+      "src": "assets/constructions/n8/n8-138.webp",
+      "title": {
+        "ca": "gos · pentinar · nina / cangur · olorar · flor",
+        "es": "PERRO · PEINAR · MUÑECA · CANGURO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gos · pentinar · nina / cangur · olorar · flor.",
+        "es": "PERRO · PEINAR · MUÑECA · CANGURO · OLER · FLOR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:01.240Z",
+      "target": "n8-138",
+      "constructionId": "n8-138",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e9f882df9bf41e7cb39c826145db330cb006e7a77ade7c387cee90a9025b2efd",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dc85b5f7b28ffd6f4acb1118c474a299cbf09599be62aa8dc2e6f36c50e5394e"
+    },
+    {
+      "id": "cace-n8-139",
+      "src": "assets/constructions/n8/n8-139.webp",
+      "title": {
+        "ca": "pinguí · pentinar · nina / zebra · abraçar · coixí",
+        "es": "PINGÜINO · PEINAR · MUÑECA · CEBRA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "pinguí · pentinar · nina / zebra · abraçar · coixí.",
+        "es": "PINGÜINO · PEINAR · MUÑECA · CEBRA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:02.216Z",
+      "target": "n8-139",
+      "constructionId": "n8-139",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "180209aad34a808a29023040543c945122c49347d532f1b47cf0bee9e3e54e8d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "017f8e1c84d735ed084db784cc049c7dcaa9339feb6d4bba4117046bb8a34b56"
+    },
+    {
+      "id": "cace-n8-140",
+      "src": "assets/constructions/n8/n8-140.webp",
+      "title": {
+        "ca": "girafa · pentinar · nina / mico · saltar",
+        "es": "JIRAFA · PEINAR · MUÑECA · MONO · SALTAR"
+      },
+      "alt": {
+        "ca": "girafa · pentinar · nina / mico · saltar.",
+        "es": "JIRAFA · PEINAR · MUÑECA · MONO · SALTAR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:03.051Z",
+      "target": "n8-140",
+      "constructionId": "n8-140",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "13a2fc453a1d2d8d979c25dba6b4891a06f3ef4afcd0f99254d3c1c13f998e23",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9327fd21c314704a61b9b20536e21bf959a56b5a8f262bc9094ae0e200fedc56"
+    },
+    {
+      "id": "cace-n8-141",
+      "src": "assets/constructions/n8/n8-141.webp",
+      "title": {
+        "ca": "mico · tallar · plastilina / ós · portar · cistell",
+        "es": "MONO · CORTAR · PLASTILINA · OSO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "mico · tallar · plastilina / ós · portar · cistell.",
+        "es": "MONO · CORTAR · PLASTILINA · OSO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:08:03.940Z",
+      "target": "n8-141",
+      "constructionId": "n8-141",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "a85267524bbd5ea18074ecdf5a281be725076f5b024339dd27c93f66acce7082",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7729526e135d3e067d1840105e82e05942d21930c7485ec333ce15d76f4918e8"
+    },
+    {
+      "id": "cace-n8-142",
+      "src": "assets/constructions/n8/n8-142.webp",
+      "title": {
+        "ca": "conill · tallar · plastilina / elefant · aixecar · pilota",
+        "es": "CONEJO · CORTAR · PLASTILINA · ELEFANTE · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "conill · tallar · plastilina / elefant · aixecar · pilota.",
+        "es": "CONEJO · CORTAR · PLASTILINA · ELEFANTE · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.464Z",
+      "target": "n8-142",
+      "constructionId": "n8-142",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7820b7c74a5420a1ac830c3817116d8d981c05534df53816cf5f2986bfc6d9b8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b665b4b901207c26120692792f9e23cdeb2ea509914fec541b253bb093ad21f2"
+    },
+    {
+      "id": "cace-n8-143",
+      "src": "assets/constructions/n8/n8-143.webp",
+      "title": {
+        "ca": "gat · tallar · plastilina / gos · olorar · flor",
+        "es": "GATO · CORTAR · PLASTILINA · PERRO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gat · tallar · plastilina / gos · olorar · flor.",
+        "es": "GATO · CORTAR · PLASTILINA · PERRO · OLER · FLOR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.660Z",
+      "target": "n8-143",
+      "constructionId": "n8-143",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2a49612412834c39260c0526f43b872107e726229fdb60af7cedbe7342c4662b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "82484e7c76140a43adad5c4955e83ed7e3e865f79db239740c796624a867e893"
+    },
+    {
+      "id": "cace-n8-144",
+      "src": "assets/constructions/n8/n8-144.webp",
+      "title": {
+        "ca": "cangur · tallar · plastilina / pinguí · abraçar · coixí",
+        "es": "CANGURO · CORTAR · PLASTILINA · PINGÜINO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "cangur · tallar · plastilina / pinguí · abraçar · coixí.",
+        "es": "CANGURO · CORTAR · PLASTILINA · PINGÜINO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:13.859Z",
+      "target": "n8-144",
+      "constructionId": "n8-144",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e088880e9197bb8eb122c6e2d3a78047c5c9801d05d3031f0fbc3c0d08c5efa2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "292b6949fcf697001d3e0e8456199294c5580122683f31392d012dbbd77233e0"
+    },
+    {
+      "id": "cace-n8-145",
+      "src": "assets/constructions/n8/n8-145.webp",
+      "title": {
+        "ca": "zebra · tallar · plastilina / girafa · saltar",
+        "es": "CEBRA · CORTAR · PLASTILINA · JIRAFA · SALTAR"
+      },
+      "alt": {
+        "ca": "zebra · tallar · plastilina / girafa · saltar.",
+        "es": "CEBRA · CORTAR · PLASTILINA · JIRAFA · SALTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:14.062Z",
+      "target": "n8-145",
+      "constructionId": "n8-145",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8577ee203b597bd42fec962148a0b0d2e9b287dc3fa6f4b13176a88782142106",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fd934f42e4e54b550c58e2bd2914dd8c3dd2118898fb100bf8ddc77441c7a9ed"
+    },
+    {
+      "id": "cace-n8-146",
+      "src": "assets/constructions/n8/n8-146.webp",
+      "title": {
+        "ca": "ós · estripar · paper / conill · portar · cistell",
+        "es": "OSO · RASGAR · PAPEL · CONEJO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "ós · estripar · paper / conill · portar · cistell.",
+        "es": "OSO · RASGAR · PAPEL · CONEJO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:14.274Z",
+      "target": "n8-146",
+      "constructionId": "n8-146",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e2bf8c5a1e4c2a719495ee4f3efeb35ca49d21679c7b7f3094fb5a2cb589f3bb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ce5e2c504d0e548e956af4fe20585f3609650a4c00bb8dfa971db2b642e381ce"
+    },
+    {
+      "id": "cace-n8-147",
+      "src": "assets/constructions/n8/n8-147.webp",
+      "title": {
+        "ca": "elefant · estripar · paper / gat · aixecar · pilota",
+        "es": "ELEFANTE · RASGAR · PAPEL · GATO · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "elefant · estripar · paper / gat · aixecar · pilota.",
+        "es": "ELEFANTE · RASGAR · PAPEL · GATO · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:16:14.601Z",
+      "target": "n8-147",
+      "constructionId": "n8-147",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "585251281f7e3d8bf8b799d3703f718885c2802a5a643c93d415be3ebfd02ebe",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9ae104c36b785e4ea731b33fd46afeaaa96e2aa04a1a637885f4154bb1a55c24"
+    },
     {
       "id": "cace-n8-026",
       "src": "assets/constructions/n8/n8-026.webp",
@@ -144093,7 +147045,31 @@
         "cace-n8-132",
         "cace-n8-133",
         "cace-n8-134",
-        "cace-n8-135"
+        "cace-n8-135",
+        "cace-n8-036",
+        "cace-n8-037",
+        "cace-n8-038",
+        "cace-n8-039",
+        "cace-n8-040",
+        "cace-n8-041",
+        "cace-n8-042",
+        "cace-n8-043",
+        "cace-n8-044",
+        "cace-n8-045",
+        "cace-n8-046",
+        "cace-n8-047",
+        "cace-n8-136",
+        "cace-n8-137",
+        "cace-n8-138",
+        "cace-n8-139",
+        "cace-n8-140",
+        "cace-n8-141",
+        "cace-n8-142",
+        "cace-n8-143",
+        "cace-n8-144",
+        "cace-n8-145",
+        "cace-n8-146",
+        "cace-n8-147"
       ]
     }
   ]
