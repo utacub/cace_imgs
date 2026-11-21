@@ -1,5 +1,5 @@
 {
-  "status": "active",
+  "status": "complete",
   "authorization": {
     "generation": true,
     "import": true,
@@ -33,7 +33,16 @@
       "commit": "914698b3449ecf72f5f5d213bbd54218b075f85a",
       "workflowRunId": 44929669172,
       "verifiedAtUtc": "2026-11-21T17:25:25+00:00"
+    },
+    {
+      "version": "0.1.169",
+      "n10DownloadsVerified": 200,
+      "commit": "1d94a3f08ce91308cb1cd07baeb0451999ebdfb7",
+      "workflowRunId": 44930430674,
+      "verifiedAtUtc": "2026-11-21T17:33:34+00:00"
     }
   ],
-  "published": 190
+  "published": 200,
+  "completedAtUtc": "2026-11-21T17:34:03+00:00",
+  "finalAudit": "production/n10-final-audit.json"
 }

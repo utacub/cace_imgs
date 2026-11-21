@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "firstReviewAtUtc": "2026-11-21T15:40:29+00:00",
+  "lastReviewAtUtc": "2026-11-21T17:28:29+00:00",
+  "completedAtUtc": "2026-11-21T17:34:03+00:00",
+  "baseline": {
+    "head": "d13757abc7a0fea7b1fd1c2bcd228e967f811759",
+    "version": "0.1.159",
+    "totalAssets": 4069,
+    "words": 861,
+    "catalogSha256": "c7e53a7ba43c9b2a041c98294587a84354bf8834179dd1d56825d2d2c1134e32",
+    "bankArchiveSha256": "4c7876cbce894cd6bdf86a5dc6ba6c300750a63569574135396fc2a72fd64eb5"
+  },
+  "catalogVersion": "0.1.169",
+  "published": 200,
+  "rejectedAttempts": 125,
+  "publications": [
+    {
+      "version": "0.1.166",
+      "n10DownloadsVerified": 126,
+      "commit": "8977feee0f014b9230b3291048fe32bd727f2174",
+      "workflowRunId": 44927059565,
+      "verifiedAtUtc": "2026-11-21T17:00:38+00:00"
+    },
+    {
+      "version": "0.1.167",
+      "n10DownloadsVerified": 155,
+      "commit": "486b4f2218e4564f9ff7b378c0d8d845bda97076",
+      "workflowRunId": 44928440491,
+      "verifiedAtUtc": "2026-11-21T17:16:43+00:00"
+    },
+    {
+      "version": "0.1.168",
+      "n10DownloadsVerified": 190,
+      "commit": "914698b3449ecf72f5f5d213bbd54218b075f85a",
+      "workflowRunId": 44929669172,
+      "verifiedAtUtc": "2026-11-21T17:25:25+00:00"
+    },
+    {
+      "version": "0.1.169",
+      "n10DownloadsVerified": 200,
+      "commit": "1d94a3f08ce91308cb1cd07baeb0451999ebdfb7",
+      "workflowRunId": 44930430674,
+      "verifiedAtUtc": "2026-11-21T17:33:34+00:00"
+    }
+  ],
+  "productionRecords": "production/n10/",
+  "originals": "output/production/n10/",
+  "finalAudit": "production/n10-final-audit.json"
+}

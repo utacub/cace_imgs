@@ -1,3 +1,11 @@
+# N10 · 200 imatges completades i publicades · 21/11/2026
+
+200/200 N10 revisades individualment: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.169 amb 4269 imatges i 861 entrades CACE. Les 4069 imatges prèvies es conserven al catàleg i al banc, verificades per SHA-256. Les 200 descàrregues públiques N10 es van verificar per SHA-256 a 2026-11-21T17:33:34+00:00.
+
+Cada tríptic mostra el desencadenant, el mecanisme i la conseqüència. Es van descartar 125 intents. Originals i descartats a `output/production/n10/`. Revisions a `production/n10/`. Auditoria a `production/n10-final-audit.json` i publicacions a `production/n10-publications.json`.
+
+---
+
 # N10 · Producció i publicació autoritzades
 
 L’usuari aprova el pla de 200 estímuls i autoritza generar, revisar individualment i publicar N10 per lots. Verificar el desencadenant, el mecanisme físic i la conseqüència de cada imatge, amb continuïtat d’agent, referents i quantitats. Preservar les 4.069 imatges i les 861 entrades del catàleg 0.1.159 i comprovar el banc per SHA-256. Pla a `production/n10-plan.json`, progrés a `production/n10-progress.json`, originals a `output/production/n10/` i revisions a `production/n10/`.
