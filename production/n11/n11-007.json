@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-007",
+    "number": 7,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-107",
+    "title": {
+      "ca": "La postal per a l’altra classe · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "PINTAR",
+      "DONAR",
+      "PORTAR",
+      "POSTAL",
+      "CLASSE",
+      "ESCOLA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-b04a48827310",
+      "w-dd80e4e4de38",
+      "w-73b71e1ff757",
+      "w-3ea66248a161",
+      "w-3291fe2b2a8d",
+      "w-0156c87f929a"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "autor de la postal",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "missatger",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-007",
+    "familyTitle": "La postal per a l’altra classe",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSTAL",
+        "wordId": "w-3ea66248a161"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A pinta el cinquè raig a la postal. B espera a la porta de llindar recte amb la mà oberta."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ofereix a B la postal seca agafada pels cantells, amb el sol de cara a càmera."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta la postal fins a la porta arquejada i A l’acompanya amb un suport buit de sobretaula."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B insereix la postal al suport que sosté A al llindar arquejat. Hi apareixen els cinc rajos."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una postal rígida amb un sol de cinc rajos i dues portes diferenciades per llindar recte i arquejat."
+    },
+    "narrative": "A acaba el dibuix i B trasllada la postal fins al suport de l’altra classe, que A aguanta."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "903ed15b921cd6a77b7bf5a2371a47702a08c8ae11b7dce6a5bd948f5a33e5d7",
+      "file": "output/production/n11/n11-007/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa postal per a l’altra classe. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, autor de la postal; B = DONA, samarreta ocre amb dues ratlles blanques al davant, missatger.\nRecurring visual anchors: Una postal rígida amb un sol de cinc rajos i dues portes diferenciades per llindar recte i arquejat.\n1. A pinta el cinquè raig a la postal. B espera a la porta de llindar recte amb la mà oberta.\n2. A ofereix a B la postal seca agafada pels cantells, amb el sol de cara a càmera.\n3. B porta la postal fins a la porta arquejada i A l’acompanya amb un suport buit de sobretaula.\n4. B insereix la postal al suport que sosté A al llindar arquejat. Hi apareixen els cinc rajos.",
+      "review": "El sol té més de cinc rajos. El recompte és l’ancoratge de la fitxa.",
+      "reviewedAt": "2026-11-21T21:09:20+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-118",
+    "number": 118,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-018",
+    "title": {
+      "ca": "El conte a dues mans · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "TIGRE",
+      "OBRIR",
+      "LLEGIR",
+      "ENSENYAR",
+      "CONTE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-7a57f3835ffd",
+      "w-a10b29af07c7",
+      "w-ef0bd41d6ee3",
+      "w-1eb1099a21ce",
+      "w-22f3876c9741",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que obre el conte",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que orienta el conte cap a la parella",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-018",
+    "familyTitle": "El conte a dues mans",
+    "settings": [
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta el conte tancat a un banc on B deixa espai al mig."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central."
+    },
+    "narrative": "A porta i obre el conte i B l’orienta perquè puguin mirar el dibuix del niu plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "cd8ae688f10d670cc22624e69eb242336a45322fd384725cede983b86c6e0974",
+      "file": "output/production/n11/n11-118/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte a dues mans. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que obre el conte; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que orienta el conte cap a la parella.\nRecurring visual anchors: Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central.\n1. A porta el conte tancat a un banc on B deixa espai al mig.\n2. A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar.\n3. B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell.\n4. A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat.",
+      "review": "L’òliba identifica la coberta. El tigre reté les pàgines i les orienta cap a tots dos. La mateixa cria al niu roman visible al final.",
+      "reviewedAt": "2026-11-21T21:09:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte a dues mans. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que obre el conte; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que orienta el conte cap a la parella.\nRecurring visual anchors: Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central.\n1. A porta el conte tancat a un banc on B deixa espai al mig.\n2. A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar.\n3. B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell.\n4. A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat.",
+  "review": "L’òliba identifica la coberta. El tigre reté les pàgines i les orienta cap a tots dos. La mateixa cria al niu roman visible al final.",
+  "alt": {
+    "ca": "Un cangur porta un conte i el tigre l’ajuda a obrir-lo. Tots dos assenyalen el pollet al niu.",
+    "es": "Un canguro trae un cuento y el tigre lo ayuda a abrirlo. Los dos señalan al polluelo en el nido."
+  },
+  "originalSha256": "cd8ae688f10d670cc22624e69eb242336a45322fd384725cede983b86c6e0974",
+  "file": "output/production/n11/n11-118/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:09:03+00:00",
+  "tool": "ImageGen integrat"
+}

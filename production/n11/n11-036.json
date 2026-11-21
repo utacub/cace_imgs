@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-036",
+    "number": 36,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-136",
+    "title": {
+      "ca": "La nina al teatret · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "JUGAR",
+      "AJUDAR",
+      "VESTIR",
+      "NINA",
+      "MOCADOR",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-4d2fcaf61d85",
+      "w-db89958a3c63",
+      "w-35e3a6c8a7fd",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que sosté la nina",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que prepara el vestuari",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-036",
+    "familyTitle": "La nina al teatret",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu rere el teatret amb la nina descoberta. B obre el mocador mostrant les ratlles."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aixeca la nina pel tronc i B li posa el mocador sobre les espatlles, lluny del coll."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B plega les puntes sobre el davant mentre A posa la nina dreta a la base del teatret."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "La nina queda asseguda a escena amb el mocador posat i els dos botons visibles. A i B ensenyen les mans buides."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una nina amb dos botons visibles, un mocador de ratlles i un teatret de joguina amb front obert."
+    },
+    "narrative": "B vesteix la nina mentre A la subjecta i A la presenta a escena amb el vestuari posat."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "928214eaed2c89ed609e9eea1e7d151c44bf2e5a755c453c985ecb53d2827dd1",
+      "file": "output/production/n11/n11-036/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa nina al teatret. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que sosté la nina; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el vestuari.\nRecurring visual anchors: Una nina amb dos botons visibles, un mocador de ratlles i un teatret de joguina amb front obert.\n1. A seu rere el teatret amb la nina descoberta. B obre el mocador mostrant les ratlles.\n2. A aixeca la nina pel tronc i B li posa el mocador sobre les espatlles, lluny del coll.\n3. B plega les puntes sobre el davant mentre A posa la nina dreta a la base del teatret.\n4. La nina queda asseguda a escena amb el mocador posat i els dos botons visibles. A i B ensenyen les mans buides.",
+      "review": "Una nina amb dos botons, mocador de ratlles i teatret estables. L’home sosté la nina i la dona li posa el mocador abans del resultat.",
+      "reviewedAt": "2026-11-21T21:13:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa nina al teatret. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que sosté la nina; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el vestuari.\nRecurring visual anchors: Una nina amb dos botons visibles, un mocador de ratlles i un teatret de joguina amb front obert.\n1. A seu rere el teatret amb la nina descoberta. B obre el mocador mostrant les ratlles.\n2. A aixeca la nina pel tronc i B li posa el mocador sobre les espatlles, lluny del coll.\n3. B plega les puntes sobre el davant mentre A posa la nina dreta a la base del teatret.\n4. La nina queda asseguda a escena amb el mocador posat i els dos botons visibles. A i B ensenyen les mans buides.",
+  "review": "Una nina amb dos botons, mocador de ratlles i teatret estables. L’home sosté la nina i la dona li posa el mocador abans del resultat.",
+  "alt": {
+    "ca": "Un home sosté una nina i una dona li posa un mocador. La deixen asseguda al teatret amb el mocador posat.",
+    "es": "Un hombre sujeta una muñeca y una mujer le pone un pañuelo. La dejan sentada en el teatrillo con el pañuelo puesto."
+  },
+  "originalSha256": "928214eaed2c89ed609e9eea1e7d151c44bf2e5a755c453c985ecb53d2827dd1",
+  "file": "output/production/n11/n11-036/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:13:41+00:00",
+  "tool": "ImageGen integrat"
+}

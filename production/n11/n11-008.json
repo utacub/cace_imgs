@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-008",
+    "number": 8,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-108",
+    "title": {
+      "ca": "El davantal pel davant · foto"
+    },
+    "labels": [
+      "NEN",
+      "HOME",
+      "PINTAR",
+      "AJUDAR",
+      "VESTIR",
+      "DAVANTAL",
+      "PINZELL",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-cfe24f6b3c38",
+      "w-b04a48827310",
+      "w-5b2ff1d40d54",
+      "w-4d2fcaf61d85",
+      "w-df5e5b442a24",
+      "w-33df96705776",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que es prepara per pintar",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que corda el davantal",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-008",
+    "familyTitle": "El davantal pel davant",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "DAVANTAL",
+        "wordId": "w-df5e5b442a24"
+      },
+      {
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aguanta el pinzell damunt la flor i B li presenta el davantal obert mostrant-ne la butxaca."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A deixa el pinzell sobre la safata i passa el cap per la veta superior mentre B subjecta les dues vetes laterals."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B lliga les vetes darrere la cintura i A torna a agafar el pinzell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A pinta el pètal que faltava amb la butxaca del davantal al davant. B subjecta el full pel cantell sec."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un davantal amb butxaca semicircular i dues vetes; un pinzell i un full amb una flor a mig pintar."
+    },
+    "narrative": "B ajuda A a posar-se el davantal i subjecta el full perquè A pugui continuar pintant la flor."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "6613e3ede74dc61f05ae34e5f3d46b4625e0e64ea5c91617812a5e718c25c18d",
+      "file": "output/production/n11/n11-008/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl davantal pel davant. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que es prepara per pintar; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que corda el davantal.\nRecurring visual anchors: Un davantal amb butxaca semicircular i dues vetes; un pinzell i un full amb una flor a mig pintar.\n1. A aguanta el pinzell damunt la flor i B li presenta el davantal obert mostrant-ne la butxaca.\n2. A deixa el pinzell sobre la safata i passa el cap per la veta superior mentre B subjecta les dues vetes laterals.\n3. B lliga les vetes darrere la cintura i A torna a agafar el pinzell.\n4. A pinta el pètal que faltava amb la butxaca del davantal al davant. B subjecta el full pel cantell sec.",
+      "review": "El pinzell es deixa a la safata. Es veuen la veta, el nus i la mateixa butxaca. Al final el nen reprèn la pintura i l’home manté el paper fix.",
+      "reviewedAt": "2026-11-21T21:10:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl davantal pel davant. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que es prepara per pintar; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que corda el davantal.\nRecurring visual anchors: Un davantal amb butxaca semicircular i dues vetes; un pinzell i un full amb una flor a mig pintar.\n1. A aguanta el pinzell damunt la flor i B li presenta el davantal obert mostrant-ne la butxaca.\n2. A deixa el pinzell sobre la safata i passa el cap per la veta superior mentre B subjecta les dues vetes laterals.\n3. B lliga les vetes darrere la cintura i A torna a agafar el pinzell.\n4. A pinta el pètal que faltava amb la butxaca del davantal al davant. B subjecta el full pel cantell sec.",
+  "review": "El pinzell es deixa a la safata. Es veuen la veta, el nus i la mateixa butxaca. Al final el nen reprèn la pintura i l’home manté el paper fix.",
+  "alt": {
+    "ca": "Un home ajuda un nen a cordar-se el davantal. Després el nen continua pintant i l’home subjecta el full.",
+    "es": "Un hombre ayuda a un niño a atarse el delantal. Después el niño sigue pintando y el hombre sujeta la hoja."
+  },
+  "originalSha256": "6613e3ede74dc61f05ae34e5f3d46b4625e0e64ea5c91617812a5e718c25c18d",
+  "file": "output/production/n11/n11-008/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:10:26+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-024",
+    "number": 24,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-124",
+    "title": {
+      "ca": "Tres cromos amb un sol · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "JUGAR",
+      "DONAR",
+      "POSAR",
+      "CROMOS",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-6d90f16f5461",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-8797b9b05556",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que ofereix dos motius",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que completa el grup",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-024",
+    "familyTitle": "Tres cromos amb un sol",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CROMOS",
+        "wordId": "w-8797b9b05556"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats."
+    },
+    "narrative": "B cedeix el seu sol perquè A pugui reunir una sèrie de tres, i conserva la lluna."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "65cb7ca6b7b79ecff09b3121f067723da02387ec13c565d7cf95acf5d77a5959",
+      "file": "output/production/n11/n11-024/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nTres cromos amb un sol. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que ofereix dos motius; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que completa el grup.\nRecurring visual anchors: Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats.\n1. A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara.\n2. B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer.\n3. A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai.\n4. A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files.",
+      "review": "Es conserven quatre cromos, tres de sol i un de lluna. La dona dona el seu sol i l’home completa la fila amb tres figures iguals.",
+      "reviewedAt": "2026-11-21T21:10:27+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nTres cromos amb un sol. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que ofereix dos motius; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que completa el grup.\nRecurring visual anchors: Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats.\n1. A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara.\n2. B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer.\n3. A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai.\n4. A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files.",
+  "review": "Es conserven quatre cromos, tres de sol i un de lluna. La dona dona el seu sol i l’home completa la fila amb tres figures iguals.",
+  "alt": {
+    "ca": "Una dona dona el seu cromo de sol a un home. Ell completa una fila de tres sols i ella es queda el de la lluna.",
+    "es": "Una mujer da su cromo del sol a un hombre. Él completa una fila de tres soles y ella conserva el de la luna."
+  },
+  "originalSha256": "65cb7ca6b7b79ecff09b3121f067723da02387ec13c565d7cf95acf5d77a5959",
+  "file": "output/production/n11/n11-024/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:10:27+00:00",
+  "tool": "ImageGen integrat"
+}

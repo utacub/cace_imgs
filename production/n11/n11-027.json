@@ -1,0 +1,135 @@
+{
+  "construction": {
+    "id": "n11-027",
+    "number": 27,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-127",
+    "title": {
+      "ca": "El dau que torna al tauler · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "JUGAR",
+      "AGAFAR",
+      "DONAR",
+      "DAU",
+      "JOC DE TAULA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-6d90f16f5461",
+      "w-677819a0a32a",
+      "w-dd80e4e4de38",
+      "w-e0fc52e298ac",
+      "w-13ba0f3ba6fd",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que recull el dau",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que fa avançar la fitxa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-027",
+    "familyTitle": "El dau que torna al tauler",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      },
+      {
+        "label": "JOC DE TAULA",
+        "wordId": "w-13ba0f3ba6fd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El dau és a terra al costat del banc baix. B reté la fitxa a la primera casella mentre A el veu."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A recull el dau, deixant visible una vora escapçada característica."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el dau al tauler amb dos punts a la cara superior. B sosté la fitxa sobre la segona casella."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B acaba amb la fitxa a la tercera casella i A toca amb un dit el dau de dos punts."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un dau de cares amb punts grossos, un tauler sense lletres amb tres caselles seguides i una fitxa."
+    },
+    "narrative": "A recupera el dau i B pot reprendre la partida i moure la fitxa les dues caselles indicades."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "43fc757b5dfb31d2227932d0e5a278b2c290ceee4995622016eabb94a5aeceac",
+      "file": "output/production/n11/n11-027/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl dau que torna al tauler. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que recull el dau; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que fa avançar la fitxa.\nRecurring visual anchors: Un dau de cares amb punts grossos, un tauler sense lletres amb tres caselles seguides i una fitxa.\n1. El dau és a terra al costat del banc baix. B reté la fitxa a la primera casella mentre A el veu.\n2. A recull el dau, deixant visible una vora escapçada característica.\n3. A posa el dau al tauler amb dos punts a la cara superior. B sosté la fitxa sobre la segona casella.\n4. B acaba amb la fitxa a la tercera casella i A toca amb un dit el dau de dos punts.",
+      "review": "El tauler sembla guanyar un espai sota el dau i el pas de la primera a la tercera casella es fa ambigu.",
+      "reviewedAt": "2026-11-21T21:10:27+00:00"
+    }
+  ],
+  "status": "rejected"
+}

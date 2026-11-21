@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-175",
+    "number": 175,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-075",
+    "title": {
+      "ca": "La postal de la parada · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "GOS",
+      "MIRAR",
+      "COMPRAR",
+      "DONAR",
+      "POSTAL",
+      "MERCAT"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-4761fde107a7",
+      "w-e67dd0fa47ce",
+      "w-57b3143c692c",
+      "w-dd80e4e4de38",
+      "w-3ea66248a161",
+      "w-d6951854cbf7"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "client que tria la postal",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "dependent que l’extreu i la lliura",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-075",
+    "familyTitle": "La postal de la parada",
+    "settings": [
+      {
+        "label": "MERCAT",
+        "wordId": "w-d6951854cbf7"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "COMPRAR",
+        "wordId": "w-57b3143c692c"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSTAL",
+        "wordId": "w-3ea66248a161"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B treu la del peix de la ranura central pels cantells i mostra la figura a A."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures."
+    },
+    "narrative": "A assenyala la postal que vol. B la treu, A paga i s’endú la postal triada."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "ddd9b817011171bf446835c210b62fd355b984d33096b04ae6fe760f4eff13e9",
+      "file": "output/production/n11/n11-175/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa postal de la parada. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, client que tria la postal; B = GOS, samarreta ocre amb dues ratlles blanques al davant, dependent que l’extreu i la lliura.\nRecurring visual anchors: Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures.\n1. A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo.\n2. B treu la del peix de la ranura central pels cantells i mostra la figura a A.\n3. A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible.\n4. A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor.",
+      "review": "Dues vinyetes mostren dues mans del gos a la postal i una tercera sobre l’expositor.",
+      "reviewedAt": "2026-11-21T21:09:03+00:00"
+    }
+  ],
+  "status": "rejected"
+}

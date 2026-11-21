@@ -1,0 +1,129 @@
+{
+  "construction": {
+    "id": "n11-168",
+    "number": 168,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-068",
+    "title": {
+      "ca": "La gorra al costat de l’estàtua · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "MICO",
+      "VEURE",
+      "AGAFAR",
+      "DONAR",
+      "GORRO",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-12a87560751b",
+      "w-c53e5833e5d3",
+      "w-677819a0a32a",
+      "w-dd80e4e4de38",
+      "w-21f8574b2a01",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que veu la gorra",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que recupera la seva gorra",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-068",
+    "familyTitle": "La gorra al costat de l’estàtua",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "GORRO",
+        "wordId": "w-21f8574b2a01"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A veu la gorra al graó baix. B es toca el cap descobert al costat del banc i mira la visera."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A recull la gorra per la visera des del costat lliure de la base."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A la lliura a B mostrant el semicercle. B l’agafa amb els dits al cantell de la visera."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B es posa la gorra amb el semicercle davant i A indica el graó ara buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una gorra de visera amb un semicercle brodat, una base d’estàtua amb dos graons i un banc."
+    },
+    "narrative": "A veu i recull la gorra a la base de l’estàtua i B la recupera i se la posa."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "34bd802832d274e7a87936a361faaeef0ea33cc3cd9c5cdf3f8510d86e3192ab",
+      "file": "output/production/n11/n11-168/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa gorra al costat de l’estàtua. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que veu la gorra; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que recupera la seva gorra.\nRecurring visual anchors: Una gorra de visera amb un semicercle brodat, una base d’estàtua amb dos graons i un banc.\n1. A veu la gorra al graó baix. B es toca el cap descobert al costat del banc i mira la visera.\n2. A recull la gorra per la visera des del costat lliure de la base.\n3. A la lliura a B mostrant el semicercle. B l’agafa amb els dits al cantell de la visera.\n4. B es posa la gorra amb el semicercle davant i A indica el graó ara buit.",
+      "review": "El lleuger retoc necessari és un gorro de punt. La gorra amb visera de la primera proposta no es correspon amb el referent visual CACE.",
+      "reviewedAt": "2026-11-21T21:11:10+00:00"
+    }
+  ],
+  "status": "rejected"
+}

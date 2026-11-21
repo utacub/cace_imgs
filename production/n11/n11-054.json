@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-054",
+    "number": 54,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-154",
+    "title": {
+      "ca": "La gerra buida del dinar · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "PORTAR",
+      "BEURE",
+      "AIGUA",
+      "GOT",
+      "MENJADOR",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-a5ddba336d84",
+      "w-00e8b2c10536",
+      "w-1bed9f18ebab",
+      "w-32c0089441f0",
+      "w-2a34971d94b3"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que detecta que falta aigua",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que omple i torna la gerra",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-054",
+    "familyTitle": "La gerra buida del dinar",
+    "settings": [
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una gerra transparent amb broc triangular i dos gots amb bases diferents."
+    },
+    "narrative": "B veu que la gerra és buida i la reomple perquè A i B tinguin aigua als seus gots."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8a2c2dbff0b09f70b1aca1f161c811e3cb5fb8394b624e5ab2a15edb362c39ba",
+      "file": "output/production/n11/n11-054/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa gerra buida del dinar. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que detecta que falta aigua; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que omple i torna la gerra.\nRecurring visual anchors: Una gerra transparent amb broc triangular i dos gots amb bases diferents.\n1. A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig.\n2. B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta.\n3. B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got.\n4. A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la.",
+      "review": "La gerra es veu buida, parcialment plena sota l’aixeta i amb aigua restant al final. Els gots conserven les dues bases diferents.",
+      "reviewedAt": "2026-11-21T21:13:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa gerra buida del dinar. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que detecta que falta aigua; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que omple i torna la gerra.\nRecurring visual anchors: Una gerra transparent amb broc triangular i dos gots amb bases diferents.\n1. A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig.\n2. B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta.\n3. B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got.\n4. A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la.",
+  "review": "La gerra es veu buida, parcialment plena sota l’aixeta i amb aigua restant al final. Els gots conserven les dues bases diferents.",
+  "alt": {
+    "ca": "Un home veu que la gerra és buida. Un noi l’omple i reparteix l’aigua perquè tots dos puguin beure.",
+    "es": "Un hombre ve que la jarra está vacía. Un chico la llena y reparte el agua para que ambos puedan beber."
+  },
+  "originalSha256": "8a2c2dbff0b09f70b1aca1f161c811e3cb5fb8394b624e5ab2a15edb362c39ba",
+  "file": "output/production/n11/n11-054/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:13:41+00:00",
+  "tool": "ImageGen integrat"
+}

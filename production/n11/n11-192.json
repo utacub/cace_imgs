@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-192",
+    "number": 192,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-092",
+    "title": {
+      "ca": "El cargol fora del pas · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "GOS",
+      "VEURE",
+      "AJUDAR",
+      "POSAR",
+      "CARGOL",
+      "FULLA",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-4761fde107a7",
+      "w-c53e5833e5d3",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-61ef7a727e2d",
+      "w-a82ff79805f9",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que detecta el cargol",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que col·loca i mou la fulla",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-092",
+    "familyTitle": "El cargol fora del pas",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CARGOL",
+        "wordId": "w-61ef7a727e2d"
+      },
+      {
+        "label": "FULLA",
+        "wordId": "w-a82ff79805f9"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’atura amb el peu a la llosa anterior i assenyala el cargol de la llosa següent. B du una fulla ampla."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B recolza la punta de la fulla tocant la llosa davant del cargol i A manté els peus aturats."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "Amb el cargol ja sobre la fulla, B la mou horitzontalment cap al marge d’herba."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B deixa la fulla amb l’espiral visible a l’herba. A travessa la mateixa llosa ja lliure."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un cargol de closca espiral i una fulla ampla, un caminet de lloses i un marge d’herba adjacent."
+    },
+    "narrative": "A s’atura en veure el cargol i B el trasllada amb la fulla. A continua quan el pas és lliure."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7e3e1a12a18a9b02b679836c256cf4824a88716f5c720421422b1ca90094f45f",
+      "file": "output/production/n11/n11-192/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cargol fora del pas. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que detecta el cargol; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que col·loca i mou la fulla.\nRecurring visual anchors: Un cargol de closca espiral i una fulla ampla, un caminet de lloses i un marge d’herba adjacent.\n1. A s’atura amb el peu a la llosa anterior i assenyala el cargol de la llosa següent. B du una fulla ampla.\n2. B recolza la punta de la fulla tocant la llosa davant del cargol i A manté els peus aturats.\n3. Amb el cargol ja sobre la fulla, B la mou horitzontalment cap al marge d’herba.\n4. B deixa la fulla amb l’espiral visible a l’herba. A travessa la mateixa llosa ja lliure.",
+      "review": "El gat assenyala el cargol i el gos el trasllada sobre la mateixa fulla. Al final el gat passa per la llosa lliure mentre la closca queda al marge.",
+      "reviewedAt": "2026-11-21T21:11:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cargol fora del pas. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que detecta el cargol; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que col·loca i mou la fulla.\nRecurring visual anchors: Un cargol de closca espiral i una fulla ampla, un caminet de lloses i un marge d’herba adjacent.\n1. A s’atura amb el peu a la llosa anterior i assenyala el cargol de la llosa següent. B du una fulla ampla.\n2. B recolza la punta de la fulla tocant la llosa davant del cargol i A manté els peus aturats.\n3. Amb el cargol ja sobre la fulla, B la mou horitzontalment cap al marge d’herba.\n4. B deixa la fulla amb l’espiral visible a l’herba. A travessa la mateixa llosa ja lliure.",
+  "review": "El gat assenyala el cargol i el gos el trasllada sobre la mateixa fulla. Al final el gat passa per la llosa lliure mentre la closca queda al marge.",
+  "alt": {
+    "ca": "Un gat veu un cargol al camí. El gos el mou amb una fulla fins a l’herba i el gat torna a caminar.",
+    "es": "Un gato ve un caracol en el camino. El perro lo lleva con una hoja hasta la hierba y el gato vuelve a caminar."
+  },
+  "originalSha256": "7e3e1a12a18a9b02b679836c256cf4824a88716f5c720421422b1ca90094f45f",
+  "file": "output/production/n11/n11-192/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:11:10+00:00",
+  "tool": "ImageGen integrat"
+}

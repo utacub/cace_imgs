@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-009",
+    "number": 9,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-109",
+    "title": {
+      "ca": "La cartolina que es cargolava · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NOI",
+      "POSAR",
+      "AJUDAR",
+      "PAPER",
+      "PLAFÓ",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-5b2ff1d40d54",
+      "w-cd5c60f0d076",
+      "w-e93a2b92b1d6",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que subjecta el suport",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que fixa el paper",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-009",
+    "familyTitle": "La cartolina que es cargolava",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "PLAFÓ",
+        "wordId": "w-e93a2b92b1d6"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aplana la cartolina contra el plafó amb les dues mans i B veu que un angle es cargola."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B col·loca un imant a l’angle que es cargola mentre A aguanta el cantell oposat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A deixa anar aquest cantell quan B hi col·loca el segon imant."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos s’aparten amb mans lliures. Els tres discos continuen visibles i la cartolina queda plana sota els dos imants."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un plafó baix amb marc de fusta, una cartolina amb tres discos dibuixats i dos imants rodons."
+    },
+    "narrative": "A manté plana la cartolina i B la fixa per dos costats fins que es manté dreta tota sola."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "156121eb9e704b10f098eba65949eb7ceadad01f1f763da23dc0d37208d5d47c",
+      "file": "output/production/n11/n11-009/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cartolina que es cargolava. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que subjecta el suport; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el paper.\nRecurring visual anchors: Un plafó baix amb marc de fusta, una cartolina amb tres discos dibuixats i dos imants rodons.\n1. A aplana la cartolina contra el plafó amb les dues mans i B veu que un angle es cargola.\n2. B col·loca un imant a l’angle que es cargola mentre A aguanta el cantell oposat.\n3. A deixa anar aquest cantell quan B hi col·loca el segon imant.\n4. Tots dos s’aparten amb mans lliures. Els tres discos continuen visibles i la cartolina queda plana sota els dos imants.",
+      "review": "Els dos imants pugen de la base fins a costats diferents. El noi els posa mentre la noia subjecta el paper. Tres cercles i dos imants fins al final.",
+      "reviewedAt": "2026-11-21T21:10:27+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cartolina que es cargolava. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que subjecta el suport; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el paper.\nRecurring visual anchors: Un plafó baix amb marc de fusta, una cartolina amb tres discos dibuixats i dos imants rodons.\n1. A aplana la cartolina contra el plafó amb les dues mans i B veu que un angle es cargola.\n2. B col·loca un imant a l’angle que es cargola mentre A aguanta el cantell oposat.\n3. A deixa anar aquest cantell quan B hi col·loca el segon imant.\n4. Tots dos s’aparten amb mans lliures. Els tres discos continuen visibles i la cartolina queda plana sota els dos imants.",
+  "review": "Els dos imants pugen de la base fins a costats diferents. El noi els posa mentre la noia subjecta el paper. Tres cercles i dos imants fins al final.",
+  "alt": {
+    "ca": "Una noia subjecta una cartolina que es cargola. Un noi la fixa al plafó amb dos imants.",
+    "es": "Una chica sujeta una cartulina que se dobla. Un chico la fija al panel con dos imanes."
+  },
+  "originalSha256": "156121eb9e704b10f098eba65949eb7ceadad01f1f763da23dc0d37208d5d47c",
+  "file": "output/production/n11/n11-009/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:10:27+00:00",
+  "tool": "ImageGen integrat"
+}

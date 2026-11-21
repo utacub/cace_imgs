@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-188",
+    "number": 188,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-088",
+    "title": {
+      "ca": "Les petxines tornen a la sorra · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "TORTUGA",
+      "AGAFAR",
+      "COMPTAR",
+      "POSAR",
+      "GALLEDA",
+      "PLATJA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-12dcca2ee56e",
+      "w-677819a0a32a",
+      "w-8f17529d890a",
+      "w-c211f7486a30",
+      "w-7f04619a8649",
+      "w-4ccdc585328b"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que mostra la troballa",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que acompanya la devolució",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-088",
+    "familyTitle": "Les petxines tornen a la sorra",
+    "settings": [
+      {
+        "label": "PLATJA",
+        "wordId": "w-4ccdc585328b"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "COMPTAR",
+        "wordId": "w-8f17529d890a"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A treu la petxina estriada i B agafa la llisa de la vora de la galleda."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca."
+    },
+    "narrative": "A ensenya les dues petxines a B i, seguint el lloc que B indica, en deixen una cadascú a la sorra."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8430c0c7329bfd6a0024a3fbe57aad1702572fdc3d4091b8a32e6bbf041e5d57",
+      "file": "output/production/n11/n11-188/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes petxines tornen a la sorra. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que mostra la troballa; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que acompanya la devolució.\nRecurring visual anchors: Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca.\n1. A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca.\n2. A treu la petxina estriada i B agafa la llisa de la vora de la galleda.\n3. Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les.\n4. A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc.",
+      "review": "La petxina estriada i la llisa són les mateixes quan passen de la galleda a la sorra. Mans o potes i roca orienten la lectura.",
+      "reviewedAt": "2026-11-21T21:11:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes petxines tornen a la sorra. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que mostra la troballa; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que acompanya la devolució.\nRecurring visual anchors: Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca.\n1. A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca.\n2. A treu la petxina estriada i B agafa la llisa de la vora de la galleda.\n3. Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les.\n4. A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc.",
+  "review": "La petxina estriada i la llisa són les mateixes quan passen de la galleda a la sorra. Mans o potes i roca orienten la lectura.",
+  "alt": {
+    "ca": "Un cangur i una tortuga treuen dues petxines de la galleda i les deixen juntes a la sorra.",
+    "es": "Un canguro y una tortuga sacan dos conchas del cubo y las dejan juntas en la arena."
+  },
+  "originalSha256": "8430c0c7329bfd6a0024a3fbe57aad1702572fdc3d4091b8a32e6bbf041e5d57",
+  "file": "output/production/n11/n11-188/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:11:10+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-165",
+    "number": 165,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-065",
+    "title": {
+      "ca": "La pilota que travessa la plaça · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "GAT",
+      "VEURE",
+      "PORTAR",
+      "DONAR",
+      "PILOTA",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-11ff74d27c02",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-b7f578451973",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que veu la pilota fora de lloc",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que la rep per tornar al joc",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-065",
+    "familyTitle": "La pilota que travessa la plaça",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba."
+    },
+    "narrative": "A torna la pilota que s’ha allunyat fins al lloc on B pot reprendre el joc."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "252fc1d6288e68eddc68bbea5040bc5da9c52f3c88002ac85cc21f556f5cb67f",
+      "file": "output/production/n11/n11-165/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota que travessa la plaça. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que veu la pilota fora de lloc; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que la rep per tornar al joc.\nRecurring visual anchors: Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba.\n1. B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba.\n2. A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses.\n3. B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota.\n4. B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B.",
+      "review": "El mico veu la pilota de l’arc fosc i la porta al gat. Un sol objecte, dos discos i un lliurament amb contacte clar.",
+      "reviewedAt": "2026-11-21T21:11:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota que travessa la plaça. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que veu la pilota fora de lloc; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que la rep per tornar al joc.\nRecurring visual anchors: Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba.\n1. B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba.\n2. A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses.\n3. B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota.\n4. B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B.",
+  "review": "El mico veu la pilota de l’arc fosc i la porta al gat. Un sol objecte, dos discos i un lliurament amb contacte clar.",
+  "alt": {
+    "ca": "Un mico recupera la pilota al costat del banc i la dona a un gat, que la torna a posar a la zona de joc.",
+    "es": "Un mono recupera la pelota junto al banco y se la da a un gato, que la devuelve a la zona de juego."
+  },
+  "originalSha256": "252fc1d6288e68eddc68bbea5040bc5da9c52f3c88002ac85cc21f556f5cb67f",
+  "file": "output/production/n11/n11-165/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:11:10+00:00",
+  "tool": "ImageGen integrat"
+}

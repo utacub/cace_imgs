@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-147",
+    "number": 147,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-047",
+    "title": {
+      "ca": "El coixí amb la funda girada · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "GAT",
+      "OBRIR",
+      "AJUDAR",
+      "POSAR",
+      "COIXÍ",
+      "LLIT",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-11ff74d27c02",
+      "w-a10b29af07c7",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-44260b79b61e",
+      "w-5f7c1679605f",
+      "w-23dafac8fd59"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que gira la funda",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que insereix el coixí",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-047",
+    "familyTitle": "El coixí amb la funda girada",
+    "settings": [
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "label": "LLIT",
+        "wordId": "w-5f7c1679605f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la funda amb una costura visible al davant. B presenta el coixí fora de la funda."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A gira la funda del dret fins que apareix el rombe i obre la boca a tota l’amplada."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B hi fa entrar primer dues cantonades del coixí mentre A sosté les dues vores de la boca."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B aplanen el coixí ja enfundat al llit. El rombe queda centrat entre les quatre cantonades."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un coixí quadrat i una funda amb un rombe brodat a la cara exterior; un llit amb capçal baix."
+    },
+    "narrative": "A gira i obre la funda, B hi insereix el coixí i plegats el deixen preparat al llit."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "884085b69cc20c257ef90b34109a3cc263d543b8cce57ff9aa58659e54ed2f86",
+      "file": "output/production/n11/n11-147/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl coixí amb la funda girada. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que gira la funda; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que insereix el coixí.\nRecurring visual anchors: Un coixí quadrat i una funda amb un rombe brodat a la cara exterior; un llit amb capçal baix.\n1. A sosté la funda amb una costura visible al davant. B presenta el coixí fora de la funda.\n2. A gira la funda del dret fins que apareix el rombe i obre la boca a tota l’amplada.\n3. B hi fa entrar primer dues cantonades del coixí mentre A sosté les dues vores de la boca.\n4. A i B aplanen el coixí ja enfundat al llit. El rombe queda centrat entre les quatre cantonades.",
+      "review": "Mateix coixí i funda. La tortuga mostra el rombe després de girar la funda i l’aguanta perquè el gat pugui fer-hi entrar el coixí.",
+      "reviewedAt": "2026-11-21T21:09:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl coixí amb la funda girada. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que gira la funda; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que insereix el coixí.\nRecurring visual anchors: Un coixí quadrat i una funda amb un rombe brodat a la cara exterior; un llit amb capçal baix.\n1. A sosté la funda amb una costura visible al davant. B presenta el coixí fora de la funda.\n2. A gira la funda del dret fins que apareix el rombe i obre la boca a tota l’amplada.\n3. B hi fa entrar primer dues cantonades del coixí mentre A sosté les dues vores de la boca.\n4. A i B aplanen el coixí ja enfundat al llit. El rombe queda centrat entre les quatre cantonades.",
+  "review": "Mateix coixí i funda. La tortuga mostra el rombe després de girar la funda i l’aguanta perquè el gat pugui fer-hi entrar el coixí.",
+  "alt": {
+    "ca": "Una tortuga gira la funda amb un rombe i un gat hi posa el coixí. Entre tots dos el deixen preparat al llit.",
+    "es": "Una tortuga da la vuelta a la funda con un rombo y un gato mete el cojín. Entre los dos lo dejan listo sobre la cama."
+  },
+  "originalSha256": "884085b69cc20c257ef90b34109a3cc263d543b8cce57ff9aa58659e54ed2f86",
+  "file": "output/production/n11/n11-147/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:09:03+00:00",
+  "tool": "ImageGen integrat"
+}

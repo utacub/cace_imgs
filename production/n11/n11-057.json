@@ -1,0 +1,155 @@
+{
+  "construction": {
+    "id": "n11-057",
+    "number": 57,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-157",
+    "title": {
+      "ca": "El llibre al costat del llit · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NOI",
+      "PORTAR",
+      "OBRIR",
+      "LLEGIR",
+      "LLIBRE",
+      "LLIT",
+      "CASA",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-a10b29af07c7",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-5f7c1679605f",
+      "w-57ca61c8d99d",
+      "w-23dafac8fd59"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que aporta el llibre",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que el col·loca per mirar-lo junts",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-057",
+    "familyTitle": "El llibre al costat del llit",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "LLIT",
+        "wordId": "w-5f7c1679605f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A recull el llibre de la sala i B espera assegut al llit amb el coixí de ratlles de costat."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta el llibre a l’habitació i ofereix la coberta de cara a B."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B obre el llibre amb el llom recolzat al coixí i A manté una cantonada perquè el full no es tanqui."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos miren les dues ones de la doble pàgina, amb el llibre obert estable damunt el coixí."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un llibre amb coberta de balena, doble pàgina de dues ones i un coixí de ratlles al llit."
+    },
+    "narrative": "A du el llibre al llit i B el recolza obert perquè tots dos en vegin la doble pàgina."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3abc2cd1433fd45547130d13f0f9774a6f9026479f0a26d549b7e31eb63423cc",
+      "file": "output/production/n11/n11-057/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llibre al costat del llit. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que aporta el llibre; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que el col·loca per mirar-lo junts.\nRecurring visual anchors: Un llibre amb coberta de balena, doble pàgina de dues ones i un coixí de ratlles al llit.\n1. A recull el llibre de la sala i B espera assegut al llit amb el coixí de ratlles de costat.\n2. A porta el llibre a l’habitació i ofereix la coberta de cara a B.\n3. B obre el llibre amb el llom recolzat al coixí i A manté una cantonada perquè el full no es tanqui.\n4. Tots dos miren les dues ones de la doble pàgina, amb el llibre obert estable damunt el coixí.",
+      "review": "La coberta de balena i el coixí de ratlles connecten els episodis. El noi obre el llibre i la noia reté el costat mentre miren les dues ones.",
+      "reviewedAt": "2026-11-21T21:13:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llibre al costat del llit. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que aporta el llibre; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que el col·loca per mirar-lo junts.\nRecurring visual anchors: Un llibre amb coberta de balena, doble pàgina de dues ones i un coixí de ratlles al llit.\n1. A recull el llibre de la sala i B espera assegut al llit amb el coixí de ratlles de costat.\n2. A porta el llibre a l’habitació i ofereix la coberta de cara a B.\n3. B obre el llibre amb el llom recolzat al coixí i A manté una cantonada perquè el full no es tanqui.\n4. Tots dos miren les dues ones de la doble pàgina, amb el llibre obert estable damunt el coixí.",
+  "review": "La coberta de balena i el coixí de ratlles connecten els episodis. El noi obre el llibre i la noia reté el costat mentre miren les dues ones.",
+  "alt": {
+    "ca": "Una noia porta el llibre al llit. Un noi l’obre sobre el coixí i tots dos miren les ones del dibuix.",
+    "es": "Una chica lleva el libro a la cama. Un chico lo abre sobre el cojín y los dos miran las olas del dibujo."
+  },
+  "originalSha256": "3abc2cd1433fd45547130d13f0f9774a6f9026479f0a26d549b7e31eb63423cc",
+  "file": "output/production/n11/n11-057/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:13:41+00:00",
+  "tool": "ImageGen integrat"
+}

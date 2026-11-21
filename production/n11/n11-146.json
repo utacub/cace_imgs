@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-146",
+    "number": 146,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-046",
+    "title": {
+      "ca": "Les sabates de cada parell · dibuix"
+    },
+    "labels": [
+      "ESQUIROL",
+      "CONILL",
+      "CLASSIFICAR",
+      "GUARDAR",
+      "SABATES",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-51a7805e979b",
+      "w-837cfa89f5df",
+      "w-f0441e0dd3b0",
+      "w-6e2a67944770",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que localitza les sabates",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que aparella i desa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-046",
+    "familyTitle": "Les sabates de cada parell",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça l’única sabata de sola clara que hi ha al banc. B mostra una de sivella."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A troba sota el banc les altres dues sabates, una de cada mena, i les posa amb el perfil visible."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B uneix les dues de sivella en una lleixa mentre A alinea les dues de veta a l’altra."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos retiren les mans. Les quatre sabates queden a la vista, en dos parells i amb el banc buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos parells: sabates de sola clara amb veta i sabates de sola fosca amb sivella. Dues lleixes baixes."
+    },
+    "narrative": "A recupera les sabates soltes i B i A reuneixen els dos parells en llocs diferents."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c90b84de809f94019b383296033bc09da05edd822e7b7e9779eec302b4052e5a",
+      "file": "output/production/n11/n11-146/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes sabates de cada parell. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que localitza les sabates; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que aparella i desa.\nRecurring visual anchors: Dos parells: sabates de sola clara amb veta i sabates de sola fosca amb sivella. Dues lleixes baixes.\n1. A alça l’única sabata de sola clara que hi ha al banc. B mostra una de sivella.\n2. A troba sota el banc les altres dues sabates, una de cada mena, i les posa amb el perfil visible.\n3. B uneix les dues de sivella en una lleixa mentre A alinea les dues de veta a l’altra.\n4. Tots dos retiren les mans. Les quatre sabates queden a la vista, en dos parells i amb el banc buit.",
+      "review": "Es veuen la sabata blau clar i la de sivella al principi, les corresponents sota el banc al segon moment i els dos parells a les lleixes al final.",
+      "reviewedAt": "2026-11-21T21:09:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes sabates de cada parell. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que localitza les sabates; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que aparella i desa.\nRecurring visual anchors: Dos parells: sabates de sola clara amb veta i sabates de sola fosca amb sivella. Dues lleixes baixes.\n1. A alça l’única sabata de sola clara que hi ha al banc. B mostra una de sivella.\n2. A troba sota el banc les altres dues sabates, una de cada mena, i les posa amb el perfil visible.\n3. B uneix les dues de sivella en una lleixa mentre A alinea les dues de veta a l’altra.\n4. Tots dos retiren les mans. Les quatre sabates queden a la vista, en dos parells i amb el banc buit.",
+  "review": "Es veuen la sabata blau clar i la de sivella al principi, les corresponents sota el banc al segon moment i els dos parells a les lleixes al final.",
+  "alt": {
+    "ca": "Un esquirol i un conill troben les sabates que els faltaven. Cada parell queda desat en una lleixa diferent.",
+    "es": "Una ardilla y un conejo encuentran los zapatos que les faltaban. Cada par queda guardado en un estante distinto."
+  },
+  "originalSha256": "c90b84de809f94019b383296033bc09da05edd822e7b7e9779eec302b4052e5a",
+  "file": "output/production/n11/n11-146/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:09:03+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-159",
+    "number": 159,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-059",
+    "title": {
+      "ca": "Els guants per sortir · dibuix"
+    },
+    "labels": [
+      "LLEÓ",
+      "MICO",
+      "PORTAR",
+      "DONAR",
+      "VESTIR",
+      "GUANTS",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-fbc89c059c15",
+      "w-12a87560751b",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-4d2fcaf61d85",
+      "w-bd57efcdf7f5",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-fbc89c059c15",
+    "participants": [
+      {
+        "key": "A",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que recull el guant caigut",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que completa el parell",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-059",
+    "familyTitle": "Els guants per sortir",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "GUANTS",
+        "wordId": "w-bd57efcdf7f5"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B ja porta un guant i mira la mà nua. A veu el segon sota la cadira."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A s’ajup i recull el guant pel puny, amb les dues bandes visibles."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A obre el puny perquè B hi introdueixi la mà nua amb el polze orientat."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mostra els dos guants posats i obre la porta. A espera amb els dos peus a la catifa ovalada."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un parell de guants amb puny de dues bandes, una cadira a l’entrada i una catifa ovalada al llindar."
+    },
+    "narrative": "A recupera el guant de B i l’ajuda a posar-se’l abans de sortir amb el parell complet."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c0b3a6047495d5aeb9fc26c0f683a4977c9089abac5469e1aba809b55c263a2f",
+      "file": "output/production/n11/n11-159/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls guants per sortir. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que recull el guant caigut; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que completa el parell.\nRecurring visual anchors: Un parell de guants amb puny de dues bandes, una cadira a l’entrada i una catifa ovalada al llindar.\n1. B ja porta un guant i mira la mà nua. A veu el segon sota la cadira.\n2. A s’ajup i recull el guant pel puny, amb les dues bandes visibles.\n3. A obre el puny perquè B hi introdueixi la mà nua amb el polze orientat.\n4. B mostra els dos guants posats i obre la porta. A espera amb els dos peus a la catifa ovalada.",
+      "review": "El mico conserva el primer guant a la mateixa mà. El lleó recupera el segon i obre el puny. Al final hi ha dos guants posats.",
+      "reviewedAt": "2026-11-21T21:11:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls guants per sortir. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que recull el guant caigut; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que completa el parell.\nRecurring visual anchors: Un parell de guants amb puny de dues bandes, una cadira a l’entrada i una catifa ovalada al llindar.\n1. B ja porta un guant i mira la mà nua. A veu el segon sota la cadira.\n2. A s’ajup i recull el guant pel puny, amb les dues bandes visibles.\n3. A obre el puny perquè B hi introdueixi la mà nua amb el polze orientat.\n4. B mostra els dos guants posats i obre la porta. A espera amb els dos peus a la catifa ovalada.",
+  "review": "El mico conserva el primer guant a la mateixa mà. El lleó recupera el segon i obre el puny. Al final hi ha dos guants posats.",
+  "alt": {
+    "ca": "Un lleó recull el guant caigut del mico i li aguanta el puny. El mico obre la porta amb els dos guants.",
+    "es": "Un león recoge el guante caído del mono y le sostiene el puño. El mono abre la puerta con los dos guantes."
+  },
+  "originalSha256": "c0b3a6047495d5aeb9fc26c0f683a4977c9089abac5469e1aba809b55c263a2f",
+  "file": "output/production/n11/n11-159/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:11:10+00:00",
+  "tool": "ImageGen integrat"
+}

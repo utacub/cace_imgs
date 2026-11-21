@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-029",
+    "number": 29,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-129",
+    "title": {
+      "ca": "La pilota a la rampa · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NENA",
+      "JUGAR",
+      "POSAR",
+      "AGAFAR",
+      "PILOTA",
+      "RAMPA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-cda6fa4a9867",
+      "w-6d90f16f5461",
+      "w-c211f7486a30",
+      "w-677819a0a32a",
+      "w-b7f578451973",
+      "w-9079294dc56e",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que prepara la baixada",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que recupera i retorna",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-029",
+    "familyTitle": "La pilota a la rampa",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa la pilota a l’extrem alt i B situa el topall tou tocant l’extrem baix."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A deixa anar la pilota amb la mà darrere mentre B espera al costat del topall."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B recull la pilota aturada al topall i la du cap a les mans obertes d’A."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B canvien de posició al voltant de la mateixa rampa. B ja sosté la pilota a l’extrem alt."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pilota amb dos arcs contrastats, una rampa de joc curta amb canal ample i un topall tou a baix."
+    },
+    "narrative": "B posa el topall i recupera la pilota que A ha deixat baixar. Després intercanvien el torn."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "23e0beb653ab5bc9f11b165128a61941b2af7d8dc89bac51608050f9848416fa",
+      "file": "output/production/n11/n11-029/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota a la rampa. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que prepara la baixada; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que recupera i retorna.\nRecurring visual anchors: Una pilota amb dos arcs contrastats, una rampa de joc curta amb canal ample i un topall tou a baix.\n1. A posa la pilota a l’extrem alt i B situa el topall tou tocant l’extrem baix.\n2. A deixa anar la pilota amb la mà darrere mentre B espera al costat del topall.\n3. B recull la pilota aturada al topall i la du cap a les mans obertes d’A.\n4. A i B canvien de posició al voltant de la mateixa rampa. B ja sosté la pilota a l’extrem alt.",
+      "review": "Mateixa rampa i base roja. La nena posa el topall, recupera la pilota i passa a l’extrem alt. La noia fa lloc per al segon torn.",
+      "reviewedAt": "2026-11-21T21:13:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota a la rampa. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que prepara la baixada; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que recupera i retorna.\nRecurring visual anchors: Una pilota amb dos arcs contrastats, una rampa de joc curta amb canal ample i un topall tou a baix.\n1. A posa la pilota a l’extrem alt i B situa el topall tou tocant l’extrem baix.\n2. A deixa anar la pilota amb la mà darrere mentre B espera al costat del topall.\n3. B recull la pilota aturada al topall i la du cap a les mans obertes d’A.\n4. A i B canvien de posició al voltant de la mateixa rampa. B ja sosté la pilota a l’extrem alt.",
+  "review": "Mateixa rampa i base roja. La nena posa el topall, recupera la pilota i passa a l’extrem alt. La noia fa lloc per al segon torn.",
+  "alt": {
+    "ca": "Una noia deixa baixar la pilota i una nena la recull al topall. Després canvien de lloc per fer el torn de la nena.",
+    "es": "Una chica deja bajar la pelota y una niña la recoge en el tope. Luego cambian de lugar para el turno de la niña."
+  },
+  "originalSha256": "23e0beb653ab5bc9f11b165128a61941b2af7d8dc89bac51608050f9848416fa",
+  "file": "output/production/n11/n11-029/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:13:41+00:00",
+  "tool": "ImageGen integrat"
+}

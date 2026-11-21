@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-003",
+    "number": 3,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-103",
+    "title": {
+      "ca": "El conte de la coberta plegada · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "AGAFAR",
+      "TORNAR",
+      "GUARDAR",
+      "CONTE",
+      "CLASSE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-677819a0a32a",
+      "w-c011365e24bc",
+      "w-f0441e0dd3b0",
+      "w-22f3876c9741",
+      "w-3291fe2b2a8d",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "lector que retorna el conte",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "responsable del prestatge",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-003",
+    "familyTitle": "El conte de la coberta plegada",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "TORNAR",
+        "wordId": "w-c011365e24bc"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aixeca el conte tancat de la taula de classe mentre B l’espera al llindar amb un carretó de llibres."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el conte amb la cantonada plegada al carretó. B el fa avançar cap al prestatge baix de la biblioteca."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B agafa el conte del carretó i A aparta lleument els dos llibres del prestatge per eixamplar el buit."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B hi desa el conte amb la guineu de front i A s’emporta el carretó, amb el lloc del conte buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un conte amb una guineu dibuixada i una cantonada plegada, un prestatge baix amb un buit entre dos llibres."
+    },
+    "narrative": "A torna el conte i B el transporta i el col·loca al buit que A fa al prestatge."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ca039fab1b499df77f842d5d784aa7978e170e9307447bd07f4019a55dc1fe45",
+      "file": "output/production/n11/n11-003/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte de la coberta plegada. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, lector que retorna el conte; B = HOME, samarreta ocre amb dues ratlles blanques al davant, responsable del prestatge.\nRecurring visual anchors: Un conte amb una guineu dibuixada i una cantonada plegada, un prestatge baix amb un buit entre dos llibres.\n1. A aixeca el conte tancat de la taula de classe mentre B l’espera al llindar amb un carretó de llibres.\n2. A posa el conte amb la cantonada plegada al carretó. B el fa avançar cap al prestatge baix de la biblioteca.\n3. B agafa el conte del carretó i A aparta lleument els dos llibres del prestatge per eixamplar el buit.\n4. B hi desa el conte amb la guineu de front i A s’emporta el carretó, amb el lloc del conte buit.",
+      "review": "La guineu i la cantonada plegada identifiquen el conte de l’aula a la biblioteca. La dona fa lloc i l’home el desa.",
+      "reviewedAt": "2026-11-21T21:09:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte de la coberta plegada. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, lector que retorna el conte; B = HOME, samarreta ocre amb dues ratlles blanques al davant, responsable del prestatge.\nRecurring visual anchors: Un conte amb una guineu dibuixada i una cantonada plegada, un prestatge baix amb un buit entre dos llibres.\n1. A aixeca el conte tancat de la taula de classe mentre B l’espera al llindar amb un carretó de llibres.\n2. A posa el conte amb la cantonada plegada al carretó. B el fa avançar cap al prestatge baix de la biblioteca.\n3. B agafa el conte del carretó i A aparta lleument els dos llibres del prestatge per eixamplar el buit.\n4. B hi desa el conte amb la guineu de front i A s’emporta el carretó, amb el lloc del conte buit.",
+  "review": "La guineu i la cantonada plegada identifiquen el conte de l’aula a la biblioteca. La dona fa lloc i l’home el desa.",
+  "alt": {
+    "ca": "Una dona torna el conte de la guineu. Un home el porta a la biblioteca i el desa al lloc que ella ha preparat.",
+    "es": "Una mujer devuelve el cuento del zorro. Un hombre lo lleva a la biblioteca y lo guarda en el hueco que ella ha preparado."
+  },
+  "originalSha256": "ca039fab1b499df77f842d5d784aa7978e170e9307447bd07f4019a55dc1fe45",
+  "file": "output/production/n11/n11-003/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:09:20+00:00",
+  "tool": "ImageGen integrat"
+}

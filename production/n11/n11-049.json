@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-049",
+    "number": 49,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-149",
+    "title": {
+      "ca": "La taula torna a quedar lliure · foto"
+    },
+    "labels": [
+      "NENA",
+      "NEN",
+      "PORTAR",
+      "NETEJAR",
+      "ASSECAR",
+      "PLAT",
+      "MENJADOR",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b4012100fe09",
+      "w-73b71e1ff757",
+      "w-4e6be686e7c1",
+      "w-ae417aa563dd",
+      "w-55d250f4cf1e",
+      "w-32c0089441f0",
+      "w-2a34971d94b3"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que recull el plat",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que renta el plat",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-049",
+    "familyTitle": "La taula torna a quedar lliure",
+    "settings": [
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A recull el plat amb molles de la taula. B obre espai a l’escorreplats al costat de la pica."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A buida les molles al recipient i porta el plat amb el ribet cap a la pica."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B frega el plat amb l’esponja a la pica mentre A prepara un drap sec al costat."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa el plat net a l’escorreplats amb el ribet visible. A eixuga el cantell mullat de la pica."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un plat amb un ribet en ziga-zaga, unes molles, una esponja i un escorreplats baix."
+    },
+    "narrative": "A retira el plat de la taula i el buida, i B el renta i el deixa escorrent."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "120ada3bb7cba728ea71f261d485dc119c96b3b10002d6d91e54439a84ebb9d9",
+      "file": "output/production/n11/n11-049/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa taula torna a quedar lliure. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que recull el plat; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que renta el plat.\nRecurring visual anchors: Un plat amb un ribet en ziga-zaga, unes molles, una esponja i un escorreplats baix.\n1. A recull el plat amb molles de la taula. B obre espai a l’escorreplats al costat de la pica.\n2. A buida les molles al recipient i porta el plat amb el ribet cap a la pica.\n3. B frega el plat amb l’esponja a la pica mentre A prepara un drap sec al costat.\n4. B posa el plat net a l’escorreplats amb el ribet visible. A eixuga el cantell mullat de la pica.",
+      "review": "El plat conserva el ribet. La nena buida les molles i neteja el costat de la pica mentre el nen renta i col·loca el mateix plat a l’escorreplats.",
+      "reviewedAt": "2026-11-21T21:13:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa taula torna a quedar lliure. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que recull el plat; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que renta el plat.\nRecurring visual anchors: Un plat amb un ribet en ziga-zaga, unes molles, una esponja i un escorreplats baix.\n1. A recull el plat amb molles de la taula. B obre espai a l’escorreplats al costat de la pica.\n2. A buida les molles al recipient i porta el plat amb el ribet cap a la pica.\n3. B frega el plat amb l’esponja a la pica mentre A prepara un drap sec al costat.\n4. B posa el plat net a l’escorreplats amb el ribet visible. A eixuga el cantell mullat de la pica.",
+  "review": "El plat conserva el ribet. La nena buida les molles i neteja el costat de la pica mentre el nen renta i col·loca el mateix plat a l’escorreplats.",
+  "alt": {
+    "ca": "Una nena buida les molles d’un plat i un nen el renta. Ell el deixa escorrent mentre ella eixuga la superfície.",
+    "es": "Una niña vacía las migas de un plato y un niño lo lava. Él lo deja escurriendo mientras ella seca la superficie."
+  },
+  "originalSha256": "120ada3bb7cba728ea71f261d485dc119c96b3b10002d6d91e54439a84ebb9d9",
+  "file": "output/production/n11/n11-049/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:13:41+00:00",
+  "tool": "ImageGen integrat"
+}
