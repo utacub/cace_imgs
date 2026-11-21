@@ -1,0 +1,116 @@
+{
+  "constructionId": "n8-194",
+  "file": "output/production/n8/n8-194/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: zebra, on the LEFT. Second participant: giraffe, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. GIRAFA a dreta: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY LLIT, COIXÍ. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-194",
+    "number": 194,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "estat-estat",
+    "familyId": "n8-f-094",
+    "counterpartId": "n8-094",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · dormir / girafa · riure"
+    },
+    "labels": [
+      "ZEBRA",
+      "DORMIR",
+      "GIRAFA",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-2c4809267c13",
+      "w-e60f76be7b6c",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "events": [
+      {
+        "id": "e1",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ZEBRA",
+            "wordId": "w-0dc8fba9677d"
+          },
+          {
+            "role": "state",
+            "label": "DORMIR",
+            "wordId": "w-2c4809267c13"
+          }
+        ],
+        "labels": [
+          "ZEBRA",
+          "DORMIR"
+        ],
+        "wordIds": [
+          "w-0dc8fba9677d",
+          "w-2c4809267c13"
+        ],
+        "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+        "context": [
+          {
+            "label": "LLIT",
+            "wordId": "w-5f7c1679605f"
+          },
+          {
+            "label": "COIXÍ",
+            "wordId": "w-44260b79b61e"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GIRAFA",
+            "wordId": "w-e60f76be7b6c"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "GIRAFA",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-e60f76be7b6c",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. GIRAFA a dreta: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-0dc8fba9677d|w-2c4809267c13||w-e60f76be7b6c|w-8a560cbf66b0",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T10:01:14.443Z"
+}

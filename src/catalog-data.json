@@ -1,5 +1,5 @@
 {
-  "version": "0.1.143",
+  "version": "0.1.144",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,2582 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-080",
+      "src": "assets/constructions/n8/n8-080.webp",
+      "title": {
+        "ca": "dona · estripar · paper / nena · riure",
+        "es": "MUJER · RASGAR · PAPEL · NIÑA · REÍR"
+      },
+      "alt": {
+        "ca": "dona · estripar · paper / nena · riure.",
+        "es": "MUJER · RASGAR · PAPEL · NIÑA · REÍR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:47.745Z",
+      "target": "n8-080",
+      "constructionId": "n8-080",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "cdf7b16f9f6f98441a60327530c2c5a5e4d05983741937d95e4aa46f0542fe7a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "64fa6d257f68ad979efeb8c022cba2832720f3ddd7284fb28d8da7b73616e6d6"
+    },
+    {
+      "id": "cace-n8-081",
+      "src": "assets/constructions/n8/n8-081.webp",
+      "title": {
+        "ca": "nena · seure / nen · dormir",
+        "es": "NIÑA · SENTAR · NIÑO · DORMIR"
+      },
+      "alt": {
+        "ca": "nena · seure / nen · dormir.",
+        "es": "NIÑA · SENTAR · NIÑO · DORMIR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:48.062Z",
+      "target": "n8-081",
+      "constructionId": "n8-081",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7afe0bcb6f67edbf7d63e3156be1eed55aef8e3a9ee47446802f76ac66c7c002",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "45b21677860d937f209f28c824bf2990bb660af0f6c89bc6f30eb990a1c8ac31"
+    },
+    {
+      "id": "cace-n8-082",
+      "src": "assets/constructions/n8/n8-082.webp",
+      "title": {
+        "ca": "noia · seure / noi · dormir",
+        "es": "CHICA · SENTAR · CHICO · DORMIR"
+      },
+      "alt": {
+        "ca": "noia · seure / noi · dormir.",
+        "es": "CHICA · SENTAR · CHICO · DORMIR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:48.445Z",
+      "target": "n8-082",
+      "constructionId": "n8-082",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c96fc85a09a9d3d32634c2b6bd49d6d7991bedf8723441dea71475775046fe21",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bbe6891603e1532019e20d8482bd69b0c951be7a03b463a4142cb95fb23fe2ff"
+    },
+    {
+      "id": "cace-n8-083",
+      "src": "assets/constructions/n8/n8-083.webp",
+      "title": {
+        "ca": "dona · seure / home · dormir",
+        "es": "MUJER · SENTAR · HOMBRE · DORMIR"
+      },
+      "alt": {
+        "ca": "dona · seure / home · dormir.",
+        "es": "MUJER · SENTAR · HOMBRE · DORMIR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:48.989Z",
+      "target": "n8-083",
+      "constructionId": "n8-083",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "15353e3a2c73966273ea6dfa496bd39cc866816082e94fd491789754da8a97fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c0bc7778cd59aea458db919e12a623d74ee4aa155bb5a089d8b52cc4d6124d23"
+    },
+    {
+      "id": "cace-n8-084",
+      "src": "assets/constructions/n8/n8-084.webp",
+      "title": {
+        "ca": "noi · seure / dona · dormir",
+        "es": "CHICO · SENTAR · MUJER · DORMIR"
+      },
+      "alt": {
+        "ca": "noi · seure / dona · dormir.",
+        "es": "CHICO · SENTAR · MUJER · DORMIR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-045dc98b2849",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-045dc98b2849",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:49.495Z",
+      "target": "n8-084",
+      "constructionId": "n8-084",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "98c56bbab180443767bca705283e9f9e82adbfbb5f6e6f0545eec278b8292f01",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "60bafb895aa1a0c61c50dc796a8d6bdf6119e99216265faeda54673cbe70a3d2"
+    },
+    {
+      "id": "cace-n8-085",
+      "src": "assets/constructions/n8/n8-085.webp",
+      "title": {
+        "ca": "dona · seure / home · riure",
+        "es": "MUJER · SENTAR · HOMBRE · REÍR"
+      },
+      "alt": {
+        "ca": "dona · seure / home · riure.",
+        "es": "MUJER · SENTAR · HOMBRE · REÍR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:49.962Z",
+      "target": "n8-085",
+      "constructionId": "n8-085",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c7f5d3cb072099e23752af991cf8799c06de6a940f2d5c38d84aa17677269d4c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6a10ce81464230859d77aa175f8557e244a46cccbcc9841b4007ddbee9b9744a"
+    },
+    {
+      "id": "cace-n8-086",
+      "src": "assets/constructions/n8/n8-086.webp",
+      "title": {
+        "ca": "noi · seure / dona · riure",
+        "es": "CHICO · SENTAR · MUJER · REÍR"
+      },
+      "alt": {
+        "ca": "noi · seure / dona · riure.",
+        "es": "CHICO · SENTAR · MUJER · REÍR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-045dc98b2849",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-045dc98b2849",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:50.629Z",
+      "target": "n8-086",
+      "constructionId": "n8-086",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7e941fd864fbedccbbbe865a34250e6eefb75ab4438eeb515a605731e0f05f67",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "49026bb890d123c96280b17e9d7bcadb353141cb97f19747d07364cb0f875b2a"
+    },
+    {
+      "id": "cace-n8-087",
+      "src": "assets/constructions/n8/n8-087.webp",
+      "title": {
+        "ca": "home · seure / noi · riure",
+        "es": "HOMBRE · SENTAR · CHICO · REÍR"
+      },
+      "alt": {
+        "ca": "home · seure / noi · riure.",
+        "es": "HOMBRE · SENTAR · CHICO · REÍR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:51.162Z",
+      "target": "n8-087",
+      "constructionId": "n8-087",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "b121c1d12fcce7b24ee75e38ba4f83dd8ca8472d785c4873db16fed8988d3f54",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "65cf00de6c38a3c5a41f3191e0727c65b5493ac2fdfc94c9b57906be2439b3e6"
+    },
+    {
+      "id": "cace-n8-088",
+      "src": "assets/constructions/n8/n8-088.webp",
+      "title": {
+        "ca": "nena · seure / nen · riure",
+        "es": "NIÑA · SENTAR · NIÑO · REÍR"
+      },
+      "alt": {
+        "ca": "nena · seure / nen · riure.",
+        "es": "NIÑA · SENTAR · NIÑO · REÍR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:51.724Z",
+      "target": "n8-088",
+      "constructionId": "n8-088",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9d23655ea350897cc9f84995d40f0bef0165c7d6d42b182cb4052df623af7b0f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5c30ac6063b96b739c972317aee03bb68002d951c82f584e8c8fdf15f22bedad"
+    },
+    {
+      "id": "cace-n8-090",
+      "src": "assets/constructions/n8/n8-090.webp",
+      "title": {
+        "ca": "nena · seure / nen · plorar",
+        "es": "NIÑA · SENTAR · NIÑO · LLORAR"
+      },
+      "alt": {
+        "ca": "nena · seure / nen · plorar.",
+        "es": "NIÑA · SENTAR · NIÑO · LLORAR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-045dc98b2849",
+        "w-b4012100fe09",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:52.292Z",
+      "target": "n8-090",
+      "constructionId": "n8-090",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ca163d3b25b5a52ab989db331a90e4414ef4ccc1d3ba0eacaba8f64c6ce774f4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "291b50798f1acf3a676109c43bb4f6cb8cc063988e44baf7b79a2c67bc85d182"
+    },
+    {
+      "id": "cace-n8-091",
+      "src": "assets/constructions/n8/n8-091.webp",
+      "title": {
+        "ca": "noia · seure / noi · plorar",
+        "es": "CHICA · SENTAR · CHICO · LLORAR"
+      },
+      "alt": {
+        "ca": "noia · seure / noi · plorar.",
+        "es": "CHICA · SENTAR · CHICO · LLORAR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-045dc98b2849",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:52.826Z",
+      "target": "n8-091",
+      "constructionId": "n8-091",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9fa8cf8cbf9d9c622ee60475ca0b7c525bd16d10aa0452ce947c623339cebdc1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b4c38cef8b01aad96e461bc6b836fc0eb22745764f41fdbf900255e81d040945"
+    },
+    {
+      "id": "cace-n8-092",
+      "src": "assets/constructions/n8/n8-092.webp",
+      "title": {
+        "ca": "dona · seure / home · plorar",
+        "es": "MUJER · SENTAR · HOMBRE · LLORAR"
+      },
+      "alt": {
+        "ca": "dona · seure / home · plorar.",
+        "es": "MUJER · SENTAR · HOMBRE · LLORAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849",
+        "w-cfe24f6b3c38",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:53.579Z",
+      "target": "n8-092",
+      "constructionId": "n8-092",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "e7a6b8da3ad8be3e036b8b275394388b78acde0ddff21ca983e47fdff6650161",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "af25c54d65dc4c2d4a0589b8244c916ae4de5023d14a0303a8b4591fdfa427bf"
+    },
+    {
+      "id": "cace-n8-180",
+      "src": "assets/constructions/n8/n8-180.webp",
+      "title": {
+        "ca": "girafa · estripar · paper / mico · riure",
+        "es": "JIRAFA · RASGAR · PAPEL · MONO · REÍR"
+      },
+      "alt": {
+        "ca": "girafa · estripar · paper / mico · riure.",
+        "es": "JIRAFA · RASGAR · PAPEL · MONO · REÍR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-12a87560751b",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-12a87560751b",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:47.899Z",
+      "target": "n8-180",
+      "constructionId": "n8-180",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b6e341be3270bcda4c9e77ff9fe9229a53f477ad97fa46ddd8a06a4754dfdfd0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0d9272cde46f9f81e5c901f9a07ba4e166993e04abe83cd34605edabf1c86f46"
+    },
+    {
+      "id": "cace-n8-181",
+      "src": "assets/constructions/n8/n8-181.webp",
+      "title": {
+        "ca": "mico · seure / ós · dormir",
+        "es": "MONO · SENTAR · OSO · DORMIR"
+      },
+      "alt": {
+        "ca": "mico · seure / ós · dormir.",
+        "es": "MONO · SENTAR · OSO · DORMIR."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:48.245Z",
+      "target": "n8-181",
+      "constructionId": "n8-181",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1a9e275f339bf97b4dcac76ff32a7c24adace8b6032e5a9b18faeb1774c6bd8f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1a0b46b41abdb3fb7425cf83ba7aac9a2534e5711b86c2a02588f7a4268241f2"
+    },
+    {
+      "id": "cace-n8-182",
+      "src": "assets/constructions/n8/n8-182.webp",
+      "title": {
+        "ca": "gat · seure / gos · dormir",
+        "es": "GATO · SENTAR · PERRO · DORMIR"
+      },
+      "alt": {
+        "ca": "gat · seure / gos · dormir.",
+        "es": "GATO · SENTAR · PERRO · DORMIR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-045dc98b2849",
+        "w-4761fde107a7",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-045dc98b2849",
+        "w-4761fde107a7",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:48.745Z",
+      "target": "n8-182",
+      "constructionId": "n8-182",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "96f5933e44183c84385bd3e421266ed9cef91f0c13d61af40ddb8a990f3dcbff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "437e99b903a50de3378034668a9e03adfbc678bd7d7dbfd6fe2f4ebefa3b2dfc"
+    },
+    {
+      "id": "cace-n8-183",
+      "src": "assets/constructions/n8/n8-183.webp",
+      "title": {
+        "ca": "zebra · seure / girafa · dormir",
+        "es": "CEBRA · SENTAR · JIRAFA · DORMIR"
+      },
+      "alt": {
+        "ca": "zebra · seure / girafa · dormir.",
+        "es": "CEBRA · SENTAR · JIRAFA · DORMIR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:49.248Z",
+      "target": "n8-183",
+      "constructionId": "n8-183",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b6ab6d5511af1273d869b0a088990bcc7af5cdac2874434bb81256563a6da510",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "db9559fa7ec34c2621bc1a5565fea4e84990ce742d9e3672c73d2c2cff273a8f"
+    },
+    {
+      "id": "cace-n8-184",
+      "src": "assets/constructions/n8/n8-184.webp",
+      "title": {
+        "ca": "elefant · seure / gat · dormir",
+        "es": "ELEFANTE · SENTAR · GATO · DORMIR"
+      },
+      "alt": {
+        "ca": "elefant · seure / gat · dormir.",
+        "es": "ELEFANTE · SENTAR · GATO · DORMIR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849",
+        "w-11ff74d27c02",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849",
+        "w-11ff74d27c02",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:49.727Z",
+      "target": "n8-184",
+      "constructionId": "n8-184",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "91df820dbce8c7adb042b11767f74ef7a5347756363e5e842609d1a7614551bc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f69b337812dd1a9f3341374b9781228e15117f0c0534f0b90999a208e0ae54fc"
+    },
+    {
+      "id": "cace-n8-185",
+      "src": "assets/constructions/n8/n8-185.webp",
+      "title": {
+        "ca": "zebra · seure / girafa · riure",
+        "es": "CEBRA · SENTAR · JIRAFA · REÍR"
+      },
+      "alt": {
+        "ca": "zebra · seure / girafa · riure.",
+        "es": "CEBRA · SENTAR · JIRAFA · REÍR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:50.245Z",
+      "target": "n8-185",
+      "constructionId": "n8-185",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8cbaef3fe44532d45599268ab44e1faa793a78005bde774e5ef5f67d0747870d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4944ba410489fd76a303377ba483fac2190234f9b6ee24b2e3fba6c8d2409b14"
+    },
+    {
+      "id": "cace-n8-186",
+      "src": "assets/constructions/n8/n8-186.webp",
+      "title": {
+        "ca": "elefant · seure / gat · riure",
+        "es": "ELEFANTE · SENTAR · GATO · REÍR"
+      },
+      "alt": {
+        "ca": "elefant · seure / gat · riure.",
+        "es": "ELEFANTE · SENTAR · GATO · REÍR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:50.895Z",
+      "target": "n8-186",
+      "constructionId": "n8-186",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b8e42c6c48da4c047acd4d00c4d47a7a20265ae47fe5276f941dedb4a89e9ff5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3cc83ec4ff61528c837ab30105cd84c2a91b2a75d80c0907a3bfdfbd801f875d"
+    },
+    {
+      "id": "cace-n8-187",
+      "src": "assets/constructions/n8/n8-187.webp",
+      "title": {
+        "ca": "pinguí · seure / zebra · riure",
+        "es": "PINGÜINO · SENTAR · CEBRA · REÍR"
+      },
+      "alt": {
+        "ca": "pinguí · seure / zebra · riure.",
+        "es": "PINGÜINO · SENTAR · CEBRA · REÍR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-045dc98b2849",
+        "w-0dc8fba9677d",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-045dc98b2849",
+        "w-0dc8fba9677d",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:51.432Z",
+      "target": "n8-187",
+      "constructionId": "n8-187",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "d355be96069f7a1a938677fae55cb408dc4904690ec750b5a768044de47c8dd0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "27efbdad31477cd153681fc4ad46c72b89af0680caa17feb34c5561190ead32c"
+    },
+    {
+      "id": "cace-n8-188",
+      "src": "assets/constructions/n8/n8-188.webp",
+      "title": {
+        "ca": "mico · seure / ós · riure",
+        "es": "MONO · SENTAR · OSO · REÍR"
+      },
+      "alt": {
+        "ca": "mico · seure / ós · riure.",
+        "es": "MONO · SENTAR · OSO · REÍR."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:52.037Z",
+      "target": "n8-188",
+      "constructionId": "n8-188",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "01f23010c3eb7b04c301b709525a963f5a889f191c55b8d163fdf65dddc5ba5c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "70d63ac1c07c4682d638b4a8b3bba8efe220446284b4febb2a104db83f830999"
+    },
+    {
+      "id": "cace-n8-190",
+      "src": "assets/constructions/n8/n8-190.webp",
+      "title": {
+        "ca": "mico · seure / ós · plorar",
+        "es": "MONO · SENTAR · OSO · LLORAR"
+      },
+      "alt": {
+        "ca": "mico · seure / ós · plorar.",
+        "es": "MONO · SENTAR · OSO · LLORAR."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-045dc98b2849",
+        "w-a06249642996",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:52.545Z",
+      "target": "n8-190",
+      "constructionId": "n8-190",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b159dec6b41814ffd8e09868a2c9229e1b8224fd28e51145a71d654667d502ae",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "78c975564b7d0b566ab3cca1555a79b1538f037a4929985252389375c69e73be"
+    },
+    {
+      "id": "cace-n8-191",
+      "src": "assets/constructions/n8/n8-191.webp",
+      "title": {
+        "ca": "gat · seure / gos · plorar",
+        "es": "GATO · SENTAR · PERRO · LLORAR"
+      },
+      "alt": {
+        "ca": "gat · seure / gos · plorar.",
+        "es": "GATO · SENTAR · PERRO · LLORAR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-045dc98b2849",
+        "w-4761fde107a7",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-045dc98b2849",
+        "w-4761fde107a7",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:53.153Z",
+      "target": "n8-191",
+      "constructionId": "n8-191",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e7d245d814c90a8b1efd7fbdbb6af6f018fcad952befc431cb50d2dff4f5bbd8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8f9246a526577023798a8805fa5535c936f0ffeb4287cb51960bfc99e3a8dd39"
+    },
+    {
+      "id": "cace-n8-192",
+      "src": "assets/constructions/n8/n8-192.webp",
+      "title": {
+        "ca": "zebra · seure / girafa · plorar",
+        "es": "CEBRA · SENTAR · JIRAFA · LLORAR"
+      },
+      "alt": {
+        "ca": "zebra · seure / girafa · plorar.",
+        "es": "CEBRA · SENTAR · JIRAFA · LLORAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-045dc98b2849",
+        "w-e60f76be7b6c",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:49:53.906Z",
+      "target": "n8-192",
+      "constructionId": "n8-192",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "04c26b0393fe5b99c5b39074f82a3602c73e6ff2e83bcd76a48baa65d42378c2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "244f41f151194ae64fbd6edfd972108884feb9436bdd5383770a515f087e41d6"
+    },
     {
       "id": "cace-n8-062",
       "src": "assets/constructions/n8/n8-062.webp",
@@ -154189,7 +156765,31 @@
         "cace-n8-176",
         "cace-n8-177",
         "cace-n8-178",
-        "cace-n8-179"
+        "cace-n8-179",
+        "cace-n8-080",
+        "cace-n8-081",
+        "cace-n8-082",
+        "cace-n8-083",
+        "cace-n8-084",
+        "cace-n8-085",
+        "cace-n8-086",
+        "cace-n8-087",
+        "cace-n8-088",
+        "cace-n8-090",
+        "cace-n8-091",
+        "cace-n8-092",
+        "cace-n8-180",
+        "cace-n8-181",
+        "cace-n8-182",
+        "cace-n8-183",
+        "cace-n8-184",
+        "cace-n8-185",
+        "cace-n8-186",
+        "cace-n8-187",
+        "cace-n8-188",
+        "cace-n8-190",
+        "cace-n8-191",
+        "cace-n8-192"
       ]
     }
   ]
