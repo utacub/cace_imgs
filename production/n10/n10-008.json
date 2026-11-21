@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-008",
+    "number": 8,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-008",
+    "counterpartId": "n10-108",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · baixar · rampa / tren / peces → caure"
+    },
+    "labels": [
+      "NEN",
+      "BAIXAR",
+      "RAMPA",
+      "TREN",
+      "PECES",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-3638c1a730c8",
+      "w-9079294dc56e",
+      "w-b961c4c94862",
+      "w-776ec487889f",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "referents": [
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "TREN",
+        "wordId": "w-b961c4c94862"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un tren de joguina és al capdamunt de la rampa. Tres peces grosses són dretes al peu."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "En deixar-lo baixar, el frontal del tren toca la primera peça, que ja s’inclina contra la segona."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les tres peces són ajagudes al mateix replà. El tren queda dret al costat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un tren amb sostre blau i tres blocs de tres colors fixos."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "521a3d23325994b30366967786b83611d8b0ff66970581f6f085de824523191a",
+      "file": "output/production/n10/n10-008/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina és al capdamunt de la rampa. Tres peces grosses són dretes al peu. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En deixar-lo baixar, el frontal del tren toca la primera peça, que ja s’inclina contra la segona. RIGHT result: Les tres peces són ajagudes al mateix replà. El tren queda dret al costat. Continuity and accounting: Un tren amb sostre blau i tres blocs de tres colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El tren baixa per la mateixa rampa i el frontal empeny la peça vermella contra la groga. Al final es veuen les tres peces dels mateixos colors ajagudes, amb el tren dret.",
+      "reviewedAt": "2026-11-21T15:55:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina és al capdamunt de la rampa. Tres peces grosses són dretes al peu. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En deixar-lo baixar, el frontal del tren toca la primera peça, que ja s’inclina contra la segona. RIGHT result: Les tres peces són ajagudes al mateix replà. El tren queda dret al costat. Continuity and accounting: Un tren amb sostre blau i tres blocs de tres colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El tren baixa per la mateixa rampa i el frontal empeny la peça vermella contra la groga. Al final es veuen les tres peces dels mateixos colors ajagudes, amb el tren dret.",
+  "alt": {
+    "ca": "Un nen deixa baixar un tren de joguina per la rampa. El tren empeny la primera peça i les tres cauen.",
+    "es": "Un niño deja bajar un tren de juguete por la rampa. El tren empuja la primera pieza y las tres caen."
+  },
+  "originalSha256": "521a3d23325994b30366967786b83611d8b0ff66970581f6f085de824523191a",
+  "file": "output/production/n10/n10-008/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:24+00:00",
+  "tool": "ImageGen integrat"
+}

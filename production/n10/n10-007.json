@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-007",
+    "number": 7,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-007",
+    "counterpartId": "n10-107",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · obrir · porta / caixa → caure"
+    },
+    "labels": [
+      "NENA",
+      "OBRIR",
+      "PORTA",
+      "CAIXA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-a10b29af07c7",
+      "w-e2209c0332a6",
+      "w-696b7c739d30",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "referents": [
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una caixa lleugera és dreta dins del recorregut de la porta tancada."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La vora inferior de la porta toca el lateral de la caixa i la inclina."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La porta queda entreoberta. La caixa és de costat a tocar de la fulla."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una porta amb pom rodó i una caixa buida amb una franja."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "4418af519eb90367982c42818f90197810e322c067da951256e3b852533eeffa",
+      "file": "output/production/n10/n10-007/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una caixa lleugera és dreta dins del recorregut de la porta tancada. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La vora inferior de la porta toca el lateral de la caixa i la inclina. RIGHT result: La porta queda entreoberta. La caixa és de costat a tocar de la fulla. Continuity and accounting: Una porta amb pom rodó i una caixa buida amb una franja. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La caixa bascula cap a l’esquerra quan rep l’empenta, però al final queda a la dreta del punt de contacte. La posició final és incoherent amb la caiguda iniciada.",
+      "reviewedAt": "2026-11-21T15:55:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-083",
+    "number": 83,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-083",
+    "counterpartId": "n10-183",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tocar · botó / caixa → obrir"
+    },
+    "labels": [
+      "DONA",
+      "TOCAR",
+      "BOTÓ",
+      "CAIXA",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-072ecc01e120",
+      "w-1ed7d690ac96",
+      "w-696b7c739d30",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "BOTÓ",
+        "wordId": "w-1ed7d690ac96"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una capsa de joguina és tancada. El botó mecànic sobresurt i la llengüeta en reté la tapa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el botó amb el polze. La llengüeta s’aparta, deixa lliure el cantell de la tapa i la tapa comença a pujar amb la frontissa de molla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tapa queda mig oberta, sense que la mà la toqui, amb la llengüeta encara apartada i el botó premut."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa amb botó ample, una llengüeta de color i una tapa amb frontissa limitada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "12becab8d1fe4b7079da6e960f848fa6f519635bdb559c48fd1fa01eab1b8afe",
+      "file": "output/production/n10/n10-083/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una capsa de joguina és tancada. El botó mecànic sobresurt i la llengüeta en reté la tapa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó amb el polze. La llengüeta s’aparta, deixa lliure el cantell de la tapa i la tapa comença a pujar amb la frontissa de molla. RIGHT result: La tapa queda mig oberta, sense que la mà la toqui, amb la llengüeta encara apartada i el botó premut. Continuity and accounting: Una caixa amb botó ample, una llengüeta de color i una tapa amb frontissa limitada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Es llegeix que el botó inicia l’obertura, però la llengüeta blava sembla desenganxada de la tapa quan canvia de punt de fixació. La tercera vinyeta també deixa de mostrar el botó premut que especifica el brief.",
+      "reviewedAt": "2026-11-21T15:55:28+00:00"
+    }
+  ],
+  "status": "rejected"
+}

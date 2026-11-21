@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-006",
+    "number": 6,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-006",
+    "counterpartId": "n10-106",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tocar · pal / anell → caure"
+    },
+    "labels": [
+      "HOME",
+      "TOCAR",
+      "PAL",
+      "ANELL",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-c8538c4482a2",
+      "w-3637247e36f7",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "label": "ANELL",
+        "wordId": "w-3637247e36f7"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un anell de fusta gros està dret en una ranura poc profunda."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’anell jeu pla davant de la mateixa ranura."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un anell de fusta amb veta fosca, un pal de punta roma i una base."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1c29181f116b0877f7fd2909fdd7d15c1ed59b47ebbecbe92622de0ea02f4743",
+      "file": "output/production/n10/n10-006/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell de fusta gros està dret en una ranura poc profunda. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura. RIGHT result: L’anell jeu pla davant de la mateixa ranura. Continuity and accounting: Un anell de fusta amb veta fosca, un pal de punta roma i una base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El pal toca la zona alta de l’anell, que pivota sobre la ranura i acaba ajagut davant del suport. Es conserven la veta, el diàmetre i el suport fix.",
+      "reviewedAt": "2026-11-21T15:55:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell de fusta gros està dret en una ranura poc profunda. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura. RIGHT result: L’anell jeu pla davant de la mateixa ranura. Continuity and accounting: Un anell de fusta amb veta fosca, un pal de punta roma i una base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El pal toca la zona alta de l’anell, que pivota sobre la ranura i acaba ajagut davant del suport. Es conserven la veta, el diàmetre i el suport fix.",
+  "alt": {
+    "ca": "Un home toca amb un pal la part alta d’un anell de fusta. L’anell perd el suport de la ranura i cau pla.",
+    "es": "Un hombre toca con un palo la parte alta de un aro de madera. El aro pierde el apoyo de la ranura y cae tumbado."
+  },
+  "originalSha256": "1c29181f116b0877f7fd2909fdd7d15c1ed59b47ebbecbe92622de0ea02f4743",
+  "file": "output/production/n10/n10-006/image.png",
+  "width": 2149,
+  "height": 732,
+  "created": "2026-11-21T15:55:29+00:00",
+  "tool": "ImageGen integrat"
+}

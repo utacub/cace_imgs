@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-183",
+    "number": 183,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-083",
+    "counterpartId": "n10-083",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · tocar · botó / caixa → obrir"
+    },
+    "labels": [
+      "GOS",
+      "TOCAR",
+      "BOTÓ",
+      "CAIXA",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-072ecc01e120",
+      "w-1ed7d690ac96",
+      "w-696b7c739d30",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "agent": {
+      "label": "GOS",
+      "wordId": "w-4761fde107a7"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "BOTÓ",
+        "wordId": "w-1ed7d690ac96"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una capsa de joguina és tancada. El botó mecànic sobresurt i la llengüeta en reté la tapa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el botó amb el polze. La llengüeta s’aparta, deixa lliure el cantell de la tapa i la tapa comença a pujar amb la frontissa de molla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tapa queda mig oberta, sense que la mà la toqui, amb la llengüeta encara apartada i el botó premut."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa amb botó ample, una llengüeta de color i una tapa amb frontissa limitada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "ea3590fb8256fcb0497bb2d97c3462eaf337a51de144e485d9d185e102425fdf",
+      "file": "output/production/n10/n10-183/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic dog; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una capsa de joguina és tancada. El botó mecànic sobresurt i la llengüeta en reté la tapa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó amb el polze. La llengüeta s’aparta, deixa lliure el cantell de la tapa i la tapa comença a pujar amb la frontissa de molla. RIGHT result: La tapa queda mig oberta, sense que la mà la toqui, amb la llengüeta encara apartada i el botó premut. Continuity and accounting: Una caixa amb botó ample, una llengüeta de color i una tapa amb frontissa limitada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "A la vinyeta central apareix una segona llengüeta lila que no es veu al principi ni al final. Això confon la peça que havia d’alliberar la tapa.",
+      "reviewedAt": "2026-11-21T15:55:32+00:00"
+    }
+  ],
+  "status": "rejected"
+}

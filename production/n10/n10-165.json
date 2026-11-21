@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-165",
+    "number": 165,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-065",
+    "counterpartId": "n10-065",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · estirar · plastilina → llarg"
+    },
+    "labels": [
+      "MICO",
+      "ESTIRAR",
+      "PLASTILINA",
+      "LLARG",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-99499cd7f270",
+      "w-0606be9fcf92",
+      "w-8c01add53f6c",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "agent": {
+      "label": "MICO",
+      "wordId": "w-12a87560751b"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "LLARG",
+      "wordId": "w-8c01add53f6c"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una peça curta i gruixuda de plastilina té un petit extrem blanc."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola porció bicolor, amb reducció de gruix proporcional."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1454fdb475cc6e8380529fe35e50224f9496917d61e98cfcb5a2868676616e33",
+      "file": "output/production/n10/n10-165/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça curta i gruixuda de plastilina té un petit extrem blanc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima. RIGHT result: La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat. Continuity and accounting: Una sola porció bicolor, amb reducció de gruix proporcional. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les dues mans subjecten els extrems. El cordó s’allarga i s’aprima sense trencar-se ni perdre la punta blanca; es manté l’escala respecte de la base blava.",
+      "reviewedAt": "2026-11-21T15:55:31+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça curta i gruixuda de plastilina té un petit extrem blanc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima. RIGHT result: La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat. Continuity and accounting: Una sola porció bicolor, amb reducció de gruix proporcional. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Les dues mans subjecten els extrems. El cordó s’allarga i s’aprima sense trencar-se ni perdre la punta blanca; es manté l’escala respecte de la base blava.",
+  "alt": {
+    "ca": "Un mico estira una peça curta de plastilina fins que queda més llarga i prima.",
+    "es": "Un mono estira una pieza corta de plastilina hasta que queda más larga y fina."
+  },
+  "originalSha256": "1454fdb475cc6e8380529fe35e50224f9496917d61e98cfcb5a2868676616e33",
+  "file": "output/production/n10/n10-165/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:31+00:00",
+  "tool": "ImageGen integrat"
+}

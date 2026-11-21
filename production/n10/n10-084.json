@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-084",
+    "number": 84,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-084",
+    "counterpartId": "n10-184",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tancar · caixa / llum → fosc"
+    },
+    "labels": [
+      "HOME",
+      "TANCAR",
+      "CAIXA",
+      "LLUM",
+      "FOSC",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4000ec1e6d5b",
+      "w-696b7c739d30",
+      "w-30c924a12d6f",
+      "w-28b64969cd51",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "LLUM",
+        "wordId": "w-30c924a12d6f"
+      }
+    ],
+    "outcome": {
+      "label": "FOSC",
+      "wordId": "w-28b64969cd51"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una caixa oberta té una llum de pila a dins. Pel cantell obert surt una franja clara cap a la taula."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Abaixa la tapa opaca. La franja lluminosa es fa més estreta a mesura que es tanca l’escletxa."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tapa queda ajustada i el tram de taula que rebia la franja queda a l’ombra. Un orifici lateral permet veure que la mateixa llum segueix encesa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa de tapa rígida, una llum de pila fixa i un únic orifici lateral amb llum visible."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "fb2004279c3d8ed882abefcbfc95781ec9b3dcbe00401264ffd3bdd7b8323ca7",
+      "file": "output/production/n10/n10-084/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una caixa oberta té una llum de pila a dins. Pel cantell obert surt una franja clara cap a la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Abaixa la tapa opaca. La franja lluminosa es fa més estreta a mesura que es tanca l’escletxa. RIGHT result: La tapa queda ajustada i el tram de taula que rebia la franja queda a l’ombra. Un orifici lateral permet veure que la mateixa llum segueix encesa. Continuity and accounting: Una caixa de tapa rígida, una llum de pila fixa i un únic orifici lateral amb llum visible. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tapa bloqueja el feix, però en arribar al tancament apareix una paret frontal molt més alta que la vora de les dues primeres vinyetes. La geometria de la caixa canvia al punt que ha de bloquejar la llum.",
+      "reviewedAt": "2026-11-21T15:55:28+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-044",
+    "number": 44,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-044",
+    "counterpartId": "n10-144",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · regar · planta / aigua / taula → mullat"
+    },
+    "labels": [
+      "NEN",
+      "REGAR",
+      "PLANTA",
+      "AIGUA",
+      "TAULA",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-00107994a0cd",
+      "w-03d524b232d7",
+      "w-00e8b2c10536",
+      "w-1544f4efec59",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "REGAR",
+      "wordId": "w-00107994a0cd"
+    },
+    "referents": [
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un test de planta és en un extrem de la taula seca. La regadora és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El raig sobrepassa la vora del test i impacta a la taula al costat del test."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Queden unes gotes grans i un bassal localitzat allà on impactava el raig. El test no es mou."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una planta de quatre fulles i un test de vora ampla. Un petit cèrcol recull el bassal a la taula."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "c4efd7229d8a07a0d38096328ba6125e51a48ab3f180c54e679f65f00d5733d9",
+      "file": "output/production/n10/n10-044/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un test de planta és en un extrem de la taula seca. La regadora és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El raig sobrepassa la vora del test i impacta a la taula al costat del test. RIGHT result: Queden unes gotes grans i un bassal localitzat allà on impactava el raig. El test no es mou. Continuity and accounting: Una planta de quatre fulles i un test de vora ampla. Un petit cèrcol recull el bassal a la taula. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Tot el raig va directament a la safata, separat del test. La imatge mostra un abocament deliberat al costat de la planta, sense que el raig sobrepassi la vora mentre es rega.",
+      "reviewedAt": "2026-11-21T15:55:26+00:00"
+    }
+  ],
+  "status": "rejected"
+}

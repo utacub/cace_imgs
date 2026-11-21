@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-109",
+    "number": 109,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-009",
+    "counterpartId": "n10-009",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "porc · posar · plat / cullera → caure"
+    },
+    "labels": [
+      "PORC",
+      "POSAR",
+      "PLAT",
+      "CULLERA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-7db51860bac9",
+      "w-c211f7486a30",
+      "w-55d250f4cf1e",
+      "w-9c9849fac1d3",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-7db51860bac9",
+    "agent": {
+      "label": "PORC",
+      "wordId": "w-7db51860bac9"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "La cullera és gairebé al cantell d’una taula baixa. El plat de plàstic encara és separat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La vora del plat, empès amb les dues mans, toca el mànec i fa pivotar la cullera sobre el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El plat queda a la taula i la cullera a l’estora de sota."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un plat de plàstic de vora ampla i una cullera amb mànec quadrat."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1cba563f85d83e5177262fe506c629b1e8435cbc59ef45cefca4f30a0021de1d",
+      "file": "output/production/n10/n10-109/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La cullera és gairebé al cantell d’una taula baixa. El plat de plàstic encara és separat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La vora del plat, empès amb les dues mans, toca el mànec i fa pivotar la cullera sobre el cantell. RIGHT result: El plat queda a la taula i la cullera a l’estora de sota. Continuity and accounting: Un plat de plàstic de vora ampla i una cullera amb mànec quadrat. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Es veu el mànec en contacte amb el plat i la cullera bascula amb el bol més enllà del cantell. Al final es conserva la cullera sencera damunt de l’estora i el plat roman a la taula.",
+      "reviewedAt": "2026-11-21T15:55:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La cullera és gairebé al cantell d’una taula baixa. El plat de plàstic encara és separat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La vora del plat, empès amb les dues mans, toca el mànec i fa pivotar la cullera sobre el cantell. RIGHT result: El plat queda a la taula i la cullera a l’estora de sota. Continuity and accounting: Un plat de plàstic de vora ampla i una cullera amb mànec quadrat. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Es veu el mànec en contacte amb el plat i la cullera bascula amb el bol més enllà del cantell. Al final es conserva la cullera sencera damunt de l’estora i el plat roman a la taula.",
+  "alt": {
+    "ca": "Un porc empeny un plat. La vora del plat toca el mànec de la cullera i la cullera cau a l’estora.",
+    "es": "Un cerdo empuja un plato. El borde del plato toca el mango de la cuchara y la cuchara cae sobre la esterilla."
+  },
+  "originalSha256": "1cba563f85d83e5177262fe506c629b1e8435cbc59ef45cefca4f30a0021de1d",
+  "file": "output/production/n10/n10-109/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:29+00:00",
+  "tool": "ImageGen integrat"
+}

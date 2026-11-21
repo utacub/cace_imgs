@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-106",
+    "number": 106,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-006",
+    "counterpartId": "n10-006",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "vaca · tocar · pal / anell → caure"
+    },
+    "labels": [
+      "VACA",
+      "TOCAR",
+      "PAL",
+      "ANELL",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-c54f45209550",
+      "w-072ecc01e120",
+      "w-c8538c4482a2",
+      "w-3637247e36f7",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-c54f45209550",
+    "agent": {
+      "label": "VACA",
+      "wordId": "w-c54f45209550"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "label": "ANELL",
+        "wordId": "w-3637247e36f7"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un anell de fusta gros està dret en una ranura poc profunda."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’anell jeu pla davant de la mateixa ranura."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un anell de fusta amb veta fosca, un pal de punta roma i una base."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "64e3cc4726b311006064712df67a2828a534197d33597655bec7626738241e64",
+      "file": "output/production/n10/n10-106/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell de fusta gros està dret en una ranura poc profunda. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura. RIGHT result: L’anell jeu pla davant de la mateixa ranura. Continuity and accounting: Un anell de fusta amb veta fosca, un pal de punta roma i una base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La punta roma del pal toca la part superior de l’anell. L’anell s’inclina sobre la ranura fixa i després es veu ajagut. Es conserva la veta i el pal continua a les potes.",
+      "reviewedAt": "2026-11-21T15:55:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell de fusta gros està dret en una ranura poc profunda. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura. RIGHT result: L’anell jeu pla davant de la mateixa ranura. Continuity and accounting: Un anell de fusta amb veta fosca, un pal de punta roma i una base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La punta roma del pal toca la part superior de l’anell. L’anell s’inclina sobre la ranura fixa i després es veu ajagut. Es conserva la veta i el pal continua a les potes.",
+  "alt": {
+    "ca": "Una vaca empeny amb un pal un anell dret en una ranura. L’anell perd el suport i cau pla.",
+    "es": "Una vaca empuja con un palo un aro vertical en una ranura. El aro pierde el apoyo y cae tumbado."
+  },
+  "originalSha256": "64e3cc4726b311006064712df67a2828a534197d33597655bec7626738241e64",
+  "file": "output/production/n10/n10-106/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:29+00:00",
+  "tool": "ImageGen integrat"
+}

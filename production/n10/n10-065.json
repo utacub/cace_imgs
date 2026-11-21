@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-065",
+    "number": 65,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-065",
+    "counterpartId": "n10-165",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · estirar · plastilina → llarg"
+    },
+    "labels": [
+      "NEN",
+      "ESTIRAR",
+      "PLASTILINA",
+      "LLARG",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-99499cd7f270",
+      "w-0606be9fcf92",
+      "w-8c01add53f6c",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "LLARG",
+      "wordId": "w-8c01add53f6c"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una peça curta i gruixuda de plastilina té un petit extrem blanc."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola porció bicolor, amb reducció de gruix proporcional."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "77d78013b5350fd530bdf634aed8896d42e4c2e90c81cf2de52f171088de3764",
+      "file": "output/production/n10/n10-065/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça curta i gruixuda de plastilina té un petit extrem blanc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima. RIGHT result: La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat. Continuity and accounting: Una sola porció bicolor, amb reducció de gruix proporcional. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Es conserva una sola porció de plastilina amb el mateix extrem blanc. Les mans separen els extrems, el centre s’aprima i la peça queda més llarga sense dividir-se.",
+      "reviewedAt": "2026-11-21T15:55:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça curta i gruixuda de plastilina té un petit extrem blanc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima. RIGHT result: La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat. Continuity and accounting: Una sola porció bicolor, amb reducció de gruix proporcional. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Es conserva una sola porció de plastilina amb el mateix extrem blanc. Les mans separen els extrems, el centre s’aprima i la peça queda més llarga sense dividir-se.",
+  "alt": {
+    "ca": "Un nen estira els extrems d’una peça de plastilina i així la fa més llarga i prima.",
+    "es": "Un niño estira los extremos de una pieza de plastilina y así la hace más larga y fina."
+  },
+  "originalSha256": "77d78013b5350fd530bdf634aed8896d42e4c2e90c81cf2de52f171088de3764",
+  "file": "output/production/n10/n10-065/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:26+00:00",
+  "tool": "ImageGen integrat"
+}

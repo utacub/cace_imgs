@@ -1,0 +1,99 @@
+{
+  "construction": {
+    "id": "n10-125",
+    "number": 125,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-025",
+    "counterpartId": "n10-025",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · posar · llibre / pilota"
+    },
+    "labels": [
+      "MICO",
+      "POSAR",
+      "LLIBRE",
+      "PILOTA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-c211f7486a30",
+      "w-3bb995df42bf",
+      "w-b7f578451973",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "agent": {
+      "label": "MICO",
+      "wordId": "w-12a87560751b"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una pilota d’escuma roda cap al cantell d’una taula baixa, amb el llibre a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Posa el llibre pla travessant el trajecte abans del cantell. La pilota ja toca el llom, encara sobre la taula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota resta contra el llom del llibre. El tram fins al cantell queda buit."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota amb un anell de color i un llibre rígid prou gruixut."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "8c458ae0fdb4fd8c54287ae8324686c90145d71e98e6d010419954313cb34d42",
+      "file": "output/production/n10/n10-125/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma roda cap al cantell d’una taula baixa, amb el llibre a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Posa el llibre pla travessant el trajecte abans del cantell. La pilota ja toca el llom, encara sobre la taula. RIGHT result: La pilota resta contra el llom del llibre. El tram fins al cantell queda buit. Continuity and accounting: Una pilota amb un anell de color i un llibre rígid prou gruixut. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El mico té una pota sobre la pilota just quan cal atribuir la frenada al llibre. La pota ofereix una segona causa igual de plausible.",
+      "reviewedAt": "2026-11-21T15:55:31+00:00"
+    }
+  ],
+  "status": "rejected"
+}

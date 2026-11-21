@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-005",
+    "number": 5,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-005",
+    "counterpartId": "n10-105",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · portar · motxilla / coixí → caure"
+    },
+    "labels": [
+      "DONA",
+      "PORTAR",
+      "MOTXILLA",
+      "COIXÍ",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-43db0ea26088",
+      "w-44260b79b61e",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "PORTAR",
+      "wordId": "w-73b71e1ff757"
+    },
+    "referents": [
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Porta la motxilla pel costat d’un banc baix. El coixí és a la vora del seient."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La cantonada de la motxilla prem el costat del coixí i el desplaça sobre el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El coixí és a terra sota el banc. La motxilla encara és a la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una motxilla amb butxaca rodona i un coixí amb vora blau fosc."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "5dbbdf7c1464fe0cd0d389a4c95c3d1b4ba1c6c2ebda22f2b70429fa1f604145",
+      "file": "output/production/n10/n10-005/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Porta la motxilla pel costat d’un banc baix. El coixí és a la vora del seient. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La cantonada de la motxilla prem el costat del coixí i el desplaça sobre el cantell. RIGHT result: El coixí és a terra sota el banc. La motxilla encara és a la mà. Continuity and accounting: Una motxilla amb butxaca rodona i un coixí amb vora blau fosc. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El cantó de la motxilla arriba des de l’esquerra, però el coixí bascula cap al costat de la motxilla, en sentit oposat a l’empenta. No hi ha cap enganxament visible que expliqui aquest moviment.",
+      "reviewedAt": "2026-11-21T15:55:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}

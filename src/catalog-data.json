@@ -1,5 +1,5 @@
 {
-  "version": "0.1.162",
+  "version": "0.1.163",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,807 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n10-004",
+      "src": "assets/constructions/n10/n10-004.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noi · jugar · pilota / titella → caure",
+        "es": "CHICO · JUGAR · PELOTA · TÍTERE · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un noi llança una pilota tova que colpeja un titella de roba i el tomba.",
+        "es": "Un chico lanza una pelota blanda que golpea un títere de tela y lo derriba."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-3063ed1cff1f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-3063ed1cff1f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:24+00:00",
+      "target": "n10-004",
+      "constructionId": "n10-004",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un titella de tela és dret sobre una base baixa. La pilota d’escuma és a la mà."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Després del llançament curt, la pilota d’escuma impacta el tronc del titella i el fa bascular."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El titella queda estès a la mateixa base, amb la pilota al costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un titella amb dues orelles desiguals i una pilota tova amb franja."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "714bfda1f251b79f279aed5eac47e3661419886921a48e7144bddc9de37f3abc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1f7f43b63f7a8fca3cdf0a0055dd5b0cc54ca894654e08f3c3cb3d0bc743a259"
+    },
+    {
+      "id": "cace-n10-006",
+      "src": "assets/constructions/n10/n10-006.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "home · tocar · pal / anell → caure",
+        "es": "HOMBRE · TOCAR · PALO · ANILLO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un home toca amb un pal la part alta d’un anell de fusta. L’anell perd el suport de la ranura i cau pla.",
+        "es": "Un hombre toca con un palo la parte alta de un aro de madera. El aro pierde el apoyo de la ranura y cae tumbado."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-072ecc01e120",
+        "w-c8538c4482a2",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-072ecc01e120",
+        "w-c8538c4482a2",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:29+00:00",
+      "target": "n10-006",
+      "constructionId": "n10-006",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un anell de fusta gros està dret en una ranura poc profunda."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "L’anell jeu pla davant de la mateixa ranura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un anell de fusta amb veta fosca, un pal de punta roma i una base."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1c29181f116b0877f7fd2909fdd7d15c1ed59b47ebbecbe92622de0ea02f4743",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8560bc0800c86f58f6f991186b6a586d3bd3fb278f3c0edb3c3f34037d075196"
+    },
+    {
+      "id": "cace-n10-008",
+      "src": "assets/constructions/n10/n10-008.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · baixar · rampa / tren / peces → caure",
+        "es": "NIÑO · BAJAR · RAMPA · TREN · PIEZAS · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen deixa baixar un tren de joguina per la rampa. El tren empeny la primera peça i les tres cauen.",
+        "es": "Un niño deja bajar un tren de juguete por la rampa. El tren empuja la primera pieza y las tres caen."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-3638c1a730c8",
+        "w-9079294dc56e",
+        "w-b961c4c94862",
+        "w-776ec487889f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-3638c1a730c8",
+        "w-9079294dc56e",
+        "w-b961c4c94862",
+        "w-776ec487889f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:24+00:00",
+      "target": "n10-008",
+      "constructionId": "n10-008",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un tren de joguina és al capdamunt de la rampa. Tres peces grosses són dretes al peu."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "En deixar-lo baixar, el frontal del tren toca la primera peça, que ja s’inclina contra la segona."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Les tres peces són ajagudes al mateix replà. El tren queda dret al costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un tren amb sostre blau i tres blocs de tres colors fixos."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "521a3d23325994b30366967786b83611d8b0ff66970581f6f085de824523191a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1b70cf3113ff6b33a3a95dcf69ae802a1e630e3032d3accaa0233199081a19aa"
+    },
+    {
+      "id": "cace-n10-009",
+      "src": "assets/constructions/n10/n10-009.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · posar · plat / cullera → caure",
+        "es": "CHICA · PONER · PLATO · CUCHARA · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia fa lliscar un plat fins que la seva vora empeny una cullera, que cau de la taula.",
+        "es": "Una chica desliza un plato hasta que su borde empuja una cuchara, que cae de la mesa."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:24+00:00",
+      "target": "n10-009",
+      "constructionId": "n10-009",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "La cullera és gairebé al cantell d’una taula baixa. El plat de plàstic encara és separat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La vora del plat, empès amb les dues mans, toca el mànec i fa pivotar la cullera sobre el cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El plat queda a la taula i la cullera a l’estora de sota."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un plat de plàstic de vora ampla i una cullera amb mànec quadrat."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1dc63d376cecafbf4a89e65506b4cf9c92d625ee09f849e8249daaee569f2d2c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b86b9100aa36273579c58a51b965aab581d1efbdb7e160445dd226f39bf71da2"
+    },
+    {
+      "id": "cace-n10-026",
+      "src": "assets/constructions/n10/n10-026.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · estirar · mocador / dau → caure",
+        "es": "NIÑO · ESTIRAR · PAÑUELO · DADO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen estira un mocador sobre el qual hi ha un dau. El mocador arrossega el dau fins al cantell i el dau cau.",
+        "es": "Un niño tira de un pañuelo sobre el que hay un dado. El pañuelo arrastra el dado hasta el borde y el dado cae."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-35e3a6c8a7fd",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-35e3a6c8a7fd",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:26+00:00",
+      "target": "n10-026",
+      "constructionId": "n10-026",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un dau és damunt d’un mocador amb un extrem que sobresurt de la taula baixa."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Estira el mocador lentament. El dau avança sobre la tela fins que passa el cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dau reposa a l’estora de sota i el mocador sencer penja de la mà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un dau d’escuma gros i un mocador amb serrell curt."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "53a3ab73e64b97f4e836782eff9cecc8994050b3188e4c5f8fa14746cad1b676",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a7b5319b69e797960f2a9d1b0c070986f0b6ea18902176d95440748bdc2a3eca"
+    },
+    {
+      "id": "cace-n10-065",
+      "src": "assets/constructions/n10/n10-065.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · estirar · plastilina → llarg",
+        "es": "NIÑO · ESTIRAR · PLASTILINA · LARGO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen estira els extrems d’una peça de plastilina i així la fa més llarga i prima.",
+        "es": "Un niño estira los extremos de una pieza de plastilina y así la hace más larga y fina."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-0606be9fcf92",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-0606be9fcf92",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:26+00:00",
+      "target": "n10-065",
+      "constructionId": "n10-065",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una peça curta i gruixuda de plastilina té un petit extrem blanc."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una sola porció bicolor, amb reducció de gruix proporcional."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "77d78013b5350fd530bdf634aed8896d42e4c2e90c81cf2de52f171088de3764",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2357d5fc28105ccccfe2ec4cdcbd3dae298d7b364d02a7a41d3b947d87e88ccc"
+    },
+    {
+      "id": "cace-n10-106",
+      "src": "assets/constructions/n10/n10-106.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "vaca · tocar · pal / anell → caure",
+        "es": "VACA · TOCAR · PALO · ANILLO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una vaca empeny amb un pal un anell dret en una ranura. L’anell perd el suport i cau pla.",
+        "es": "Una vaca empuja con un palo un aro vertical en una ranura. El aro pierde el apoyo y cae tumbado."
+      },
+      "tags": [
+        "w-c54f45209550",
+        "w-072ecc01e120",
+        "w-c8538c4482a2",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-c54f45209550",
+      "targetWordIds": [
+        "w-c54f45209550",
+        "w-072ecc01e120",
+        "w-c8538c4482a2",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:29+00:00",
+      "target": "n10-106",
+      "constructionId": "n10-106",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un anell de fusta gros està dret en una ranura poc profunda."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El pal que aguanta l’agent toca la meitat superior de l’anell. L’anell gira sobre la vora de la ranura."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "L’anell jeu pla davant de la mateixa ranura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un anell de fusta amb veta fosca, un pal de punta roma i una base."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "64e3cc4726b311006064712df67a2828a534197d33597655bec7626738241e64",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "31d944cd39e07760e9d401fe42576d6738816300b0efea9112321a790b6cad6b"
+    },
+    {
+      "id": "cace-n10-107",
+      "src": "assets/constructions/n10/n10-107.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "zebra · obrir · porta / caixa → caure",
+        "es": "CEBRA · ABRIR · PUERTA · CAJA · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una zebra obre la porta. El cantell de la porta empeny una caixa i la tomba.",
+        "es": "Una cebra abre la puerta. El canto de la puerta empuja una caja y la vuelca."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-a10b29af07c7",
+        "w-e2209c0332a6",
+        "w-696b7c739d30",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-a10b29af07c7",
+        "w-e2209c0332a6",
+        "w-696b7c739d30",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:29+00:00",
+      "target": "n10-107",
+      "constructionId": "n10-107",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una caixa lleugera és dreta dins del recorregut de la porta tancada."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La vora inferior de la porta toca el lateral de la caixa i la inclina."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La porta queda entreoberta. La caixa és de costat a tocar de la fulla."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una porta amb pom rodó i una caixa buida amb una franja."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "51a53822e99ff53a0f690e5e4df6f336dea8d9935c5e6349c033a53e91f51f48",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3b15f08dbdfd918ecf848e40848148cf2e021dff81fc6ec85b6705e1f4b4dc34"
+    },
+    {
+      "id": "cace-n10-109",
+      "src": "assets/constructions/n10/n10-109.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "porc · posar · plat / cullera → caure",
+        "es": "CERDO · PONER · PLATO · CUCHARA · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un porc empeny un plat. La vora del plat toca el mànec de la cullera i la cullera cau a l’estora.",
+        "es": "Un cerdo empuja un plato. El borde del plato toca el mango de la cuchara y la cuchara cae sobre la esterilla."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:29+00:00",
+      "target": "n10-109",
+      "constructionId": "n10-109",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "La cullera és gairebé al cantell d’una taula baixa. El plat de plàstic encara és separat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La vora del plat, empès amb les dues mans, toca el mànec i fa pivotar la cullera sobre el cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El plat queda a la taula i la cullera a l’estora de sota."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un plat de plàstic de vora ampla i una cullera amb mànec quadrat."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1cba563f85d83e5177262fe506c629b1e8435cbc59ef45cefca4f30a0021de1d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b89528ddc8e532ebd718841f41ec6d81e48b8352d9173b83d347b4f2564f07b7"
+    },
+    {
+      "id": "cace-n10-165",
+      "src": "assets/constructions/n10/n10-165.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "mico · estirar · plastilina → llarg",
+        "es": "MONO · ESTIRAR · PLASTILINA · LARGO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un mico estira una peça curta de plastilina fins que queda més llarga i prima.",
+        "es": "Un mono estira una pieza corta de plastilina hasta que queda más larga y fina."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-99499cd7f270",
+        "w-0606be9fcf92",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-99499cd7f270",
+        "w-0606be9fcf92",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:31+00:00",
+      "target": "n10-165",
+      "constructionId": "n10-165",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una peça curta i gruixuda de plastilina té un petit extrem blanc."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Subjecta els dos extrems i els separa en l’eix de la peça. El centre s’aprima."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La peça sencera és més llarga i prima. L’extrem blanc continua al mateix costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una sola porció bicolor, amb reducció de gruix proporcional."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1454fdb475cc6e8380529fe35e50224f9496917d61e98cfcb5a2868676616e33",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1927a072ec388ed134b00955dd3c80b4da84c77dbc64ad4adb1c99fe4f4b075d"
+    },
+    {
+      "id": "cace-n10-166",
+      "src": "assets/constructions/n10/n10-166.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "vaca · posar · plastilina / llibre → llis",
+        "es": "VACA · PONER · PLASTILINA · LIBRO · LISO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una vaca prem amb un llibre el relleu de plastilina. Quan aixeca el llibre, el relleu ha quedat aplanat.",
+        "es": "Una vaca presiona con un libro el relieve de plastilina. Al levantar el libro, el relieve ha quedado aplanado."
+      },
+      "tags": [
+        "w-c54f45209550",
+        "w-c211f7486a30",
+        "w-0606be9fcf92",
+        "w-3bb995df42bf",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-c54f45209550",
+      "targetWordIds": [
+        "w-c54f45209550",
+        "w-c211f7486a30",
+        "w-0606be9fcf92",
+        "w-3bb995df42bf",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:55:32+00:00",
+      "target": "n10-166",
+      "constructionId": "n10-166",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un disc de plastilina té un relleu central ben visible i el llibre és tancat i separat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem el llibre pla sobre el relleu. La base del llibre toca la plastilina al centre, que s’aixafa."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "En alçar el llibre, la peça queda plana i més ampla al punt pressionat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un llibre amb llom verd i un disc amb vora bicolor. Mateix material al disc."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "4409a5f51dc29b32acaa286b9eaba38345e9db6cc5b94f8085bc26a1a3c14488",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "be46763ef7629ecea88a5511255de0243b6c6e7e60a01399e59346104b08b73e"
+    },
     {
       "id": "cace-n10-002",
       "src": "assets/constructions/n10/n10-002.webp",
@@ -175325,7 +176126,18 @@
         "cace-n10-121",
         "cace-n10-124",
         "cace-n10-164",
-        "cace-n10-181"
+        "cace-n10-181",
+        "cace-n10-004",
+        "cace-n10-006",
+        "cace-n10-008",
+        "cace-n10-009",
+        "cace-n10-026",
+        "cace-n10-065",
+        "cace-n10-106",
+        "cace-n10-107",
+        "cace-n10-109",
+        "cace-n10-165",
+        "cace-n10-166"
       ]
     }
   ]

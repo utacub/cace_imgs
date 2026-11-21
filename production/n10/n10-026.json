@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-026",
+    "number": 26,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-026",
+    "counterpartId": "n10-126",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · estirar · mocador / dau → caure"
+    },
+    "labels": [
+      "NEN",
+      "ESTIRAR",
+      "MOCADOR",
+      "DAU",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-99499cd7f270",
+      "w-35e3a6c8a7fd",
+      "w-e0fc52e298ac",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un dau és damunt d’un mocador amb un extrem que sobresurt de la taula baixa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el mocador lentament. El dau avança sobre la tela fins que passa el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El dau reposa a l’estora de sota i el mocador sencer penja de la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un dau d’escuma gros i un mocador amb serrell curt."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "53a3ab73e64b97f4e836782eff9cecc8994050b3188e4c5f8fa14746cad1b676",
+      "file": "output/production/n10/n10-026/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un dau és damunt d’un mocador amb un extrem que sobresurt de la taula baixa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el mocador lentament. El dau avança sobre la tela fins que passa el cantell. RIGHT result: El dau reposa a l’estora de sota i el mocador sencer penja de la mà. Continuity and accounting: Un dau d’escuma gros i un mocador amb serrell curt. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El dau es desplaça sobre el mateix mocador fins al cantell quan el nen estira la tela. Al final el dau és sota aquell cantell i el mocador sencer continua a la seva mà.",
+      "reviewedAt": "2026-11-21T15:55:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un dau és damunt d’un mocador amb un extrem que sobresurt de la taula baixa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el mocador lentament. El dau avança sobre la tela fins que passa el cantell. RIGHT result: El dau reposa a l’estora de sota i el mocador sencer penja de la mà. Continuity and accounting: Un dau d’escuma gros i un mocador amb serrell curt. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El dau es desplaça sobre el mateix mocador fins al cantell quan el nen estira la tela. Al final el dau és sota aquell cantell i el mocador sencer continua a la seva mà.",
+  "alt": {
+    "ca": "Un nen estira un mocador sobre el qual hi ha un dau. El mocador arrossega el dau fins al cantell i el dau cau.",
+    "es": "Un niño tira de un pañuelo sobre el que hay un dado. El pañuelo arrastra el dado hasta el borde y el dado cae."
+  },
+  "originalSha256": "53a3ab73e64b97f4e836782eff9cecc8994050b3188e4c5f8fa14746cad1b676",
+  "file": "output/production/n10/n10-026/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:55:26+00:00",
+  "tool": "ImageGen integrat"
+}
