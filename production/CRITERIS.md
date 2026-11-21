@@ -1,3 +1,9 @@
+# N8 · Represa autoritzada · 21/11/2026
+
+L’usuari demana continuar generant i publicant N8. Reprendre els 152 pendents del pla fins a completar 200, sense nou límit horari. L’horari del 18/11 és històric i no s’aplica a aquesta represa. Una imatge per estímul, revisió individual semàntica i anatòmica, publicació per lots i preservació íntegra de les 3717 imatges existents (incloses les 48 N8) i 861 entrades CACE. Progrés: production/n8-progress.json.
+
+---
+
 # N8 · Producció i publicació autoritzades · 18/11/2026
 
 L’usuari aprova començar a generar i publicar N8 per lots fins a les 8:20 Europe/Madrid (07:20 UTC). Tall preventiu de noves generacions a les 8:10. Seguir production/n8-plan.json, una imatge per estímul, revisió individual semàntica i anatòmica; preservar les 3669 imatges i 861 entrades existents. Estat a production/n8-progress.json. Aquesta autorització substitueix l’estat de proposta per a aquesta sessió N8; no modifica els plans històrics.

@@ -1,7 +1,7 @@
 const fs=require('node:fs'),cp=require('node:child_process');
 const plan=JSON.parse(fs.readFileSync('production/n8-plan.json','utf8'));
 const progress=JSON.parse(fs.readFileSync('production/n8-progress.json','utf8'));
-if(progress.status!=='active'||Date.now()>=Date.parse(progress.generationCutoff))throw Error('Session inactive or generation cutoff reached');
+if(progress.status!=='active'||(progress.generationCutoff&&Date.now()>=Date.parse(progress.generationCutoff)))throw Error('Session inactive or generation cutoff reached');
 const count=Number(process.argv[2]||4);
 const pending=new Set(progress.pending),order=plan.futureBatches.flatMap(b=>b.items);
 const selected=order.filter(id=>pending.has(id)).slice(0,count);

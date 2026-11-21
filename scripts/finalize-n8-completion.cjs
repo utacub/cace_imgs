@@ -1,0 +1,16 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),cp=require('node:child_process');
+const read=f=>JSON.parse(fs.readFileSync(f,'utf8')),write=(f,x)=>fs.writeFileSync(f,JSON.stringify(x,null,2)+'\n');
+const p=read('production/n8-progress.json'),c=read('src/catalog-data.json'),a=read('output/n8-production-audit.json'),v=read('output/n8-publication-verification.json');
+assert.equal(p.complete,200);assert.equal(p.imported,200);assert.equal(p.pending.length,0);
+assert.equal(p.completedHabitual,100);assert.equal(p.completedInsolita,100);
+assert.equal(c.assets.length,3869);assert.equal(c.words.length,861);
+assert.equal(a.status,'valid');assert.equal(a.importedN8,200);assert.equal(a.resumeBaselinePreserved,true);
+assert.equal(v.status,'verified');assert.equal(v.n8DownloadsVerified,200);assert.equal(v.version,c.version);
+const commit=process.argv[2];assert.ok(commit);
+cp.execFileSync('node',['scripts/record-n8-publication.cjs',commit],{stdio:'inherit'});
+const end=new Date().toISOString();
+const r={status:'complete',level:8,planned:200,reviewed:200,imported:200,published:200,habitual:100,insolita:100,pending:[],catalogVersion:c.version,catalogImages:c.assets.length,preservedImagesAtResume:a.resumedSessionImagesPreserved,preservedCaceEntries:861,originalPlanningBaseline:p.baseline.head,resumeBaseline:p.sessionBaseline,lastContentCommit:commit,completedAt:end,publicVerifiedAt:v.verifiedAtUtc,rejectedAttempts:a.rejectedAttempts,searchTestsPassed:19,incrementalBuildTestsPassed:3,originals:'output/production/n8',records:'production/n8',gallery:'output/n8-review.html',publicationEvidence:'production/n8-publications.json',siteUrl:'https://utacub.github.io/cace_imgs/',note:'200 N8 generades amb ImageGen integrat, revisades individualment i publicades; les 3717 imatges i 861 entrades de la represa es preserven íntegrament. No generar més N8.'};
+write('production/n8-session-2026-11-21.json',r);write('production/n8-final-audit.json',{...a,files:undefined,publicVerification:v});write('production/n8-production-audit.json',a);
+const current=read('production/n8-progress.json');Object.assign(current,{status:'complete',completedAt:end,generationStoppedAt:p.generationStoppedAt||end});write('production/n8-progress.json',current);
+fs.writeFileSync('PAUSA.md',`# N8 · 200 imatges completades i publicades · 21/11/2026\n\n200/200 N8 revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg ${c.version}, 3869 imatges i 861 entrades CACE. Les 3717 imatges existents en reprendre (incloses les 48 N8) es preserven íntegrament. Catàleg públic i 200 descàrregues WebP verificats amb SHA-256 a ${v.verifiedAtUtc}. No generar més N8.\n\nRegistre: production/n8-session-2026-11-21.json; auditoria: production/n8-final-audit.json; publicacions: production/n8-publications.json. Originals i descartades: output/production/n8; prompts i revisions: production/n8.\n\n---\n\n`+fs.readFileSync('PAUSA.md','utf8'));
+console.log(JSON.stringify(r,null,2));

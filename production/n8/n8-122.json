@@ -1,0 +1,146 @@
+{
+  "constructionId": "n8-122",
+  "file": "output/production/n8/n8-122/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: rabbit, on the LEFT. Second participant: elephant, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. CONILL a esquerra: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. ELEFANT a dreta: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY CAIXA, PINZELL, TAULA, PILOTA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. For AIXECAR include one VERY LOW empty rectangular block NEXT TO the ball lifter, clearly below the raised ball. It is a necessary support and overrides the object list. Both feet firmly grounded on the shared floor with a small shadow. Never place feet on block or obscure them.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-122",
+    "number": 122,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-022",
+    "counterpartId": "n8-022",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · pintar · caixa / elefant · aixecar · pilota"
+    },
+    "labels": [
+      "CONILL",
+      "PINTAR",
+      "CAIXA",
+      "ELEFANT",
+      "AIXECAR",
+      "PILOTA"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-b04a48827310",
+      "w-696b7c739d30",
+      "w-b059d8ef0bc9",
+      "w-e12d88415c80",
+      "w-b7f578451973"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b"
+          },
+          {
+            "role": "action",
+            "label": "PINTAR",
+            "wordId": "w-b04a48827310"
+          },
+          {
+            "role": "patient",
+            "label": "CAIXA",
+            "wordId": "w-696b7c739d30"
+          }
+        ],
+        "labels": [
+          "CONILL",
+          "PINTAR",
+          "CAIXA"
+        ],
+        "wordIds": [
+          "w-51a7805e979b",
+          "w-b04a48827310",
+          "w-696b7c739d30"
+        ],
+        "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+        "context": [
+          {
+            "label": "PINZELL",
+            "wordId": "w-33df96705776"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ELEFANT",
+            "wordId": "w-b059d8ef0bc9"
+          },
+          {
+            "role": "action",
+            "label": "AIXECAR",
+            "wordId": "w-e12d88415c80"
+          },
+          {
+            "role": "patient",
+            "label": "PILOTA",
+            "wordId": "w-b7f578451973"
+          }
+        ],
+        "labels": [
+          "ELEFANT",
+          "AIXECAR",
+          "PILOTA"
+        ],
+        "wordIds": [
+          "w-b059d8ef0bc9",
+          "w-e12d88415c80",
+          "w-b7f578451973"
+        ],
+        "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. CONILL a esquerra: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. ELEFANT a dreta: Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-51a7805e979b|w-b04a48827310|w-696b7c739d30||w-b059d8ef0bc9|w-e12d88415c80|w-b7f578451973",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T08:56:49.671Z",
+  "review": "Pinzell en contacte amb la caixa i franja de pintura visible; l’altre participant aixeca la pilota al pit, amb base baixa buida al costat i peus recolzats. Dos agents i pacients propis, figures completes, suports plausibles, mans i articulacions coherents. Fotografies amb braços, avantbraços, tronc i cames de proporcions naturals, sense abast forçat. Dibuixos amb espècies recognoscibles. Fons blanc i cap text. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "conill · pintar · caixa / elefant · aixecar · pilota.",
+    "es": "CONEJO · PINTAR · CAJA · ELEFANTE · LEVANTAR · PELOTA."
+  },
+  "originalSha256": "1a04109612b2acdcb79eb3d5c9ffd3c097ca4a8c5e00881518113319cb688f09",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T08:59:53.105Z",
+  "publicationVersion": "0.1.139",
+  "importedAt": "2026-11-21T09:00:01.089124+00:00"
+}

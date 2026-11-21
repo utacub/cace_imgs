@@ -1,0 +1,130 @@
+{
+  "constructionId": "n8-028",
+  "file": "output/production/n8/n8-028/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age girl, on the RIGHT. Second participant: young woman, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NENA a dreta: Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles. NOIA a esquerra: Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PLAT, ESPONJA, FLOR. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-028",
+    "number": 28,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-028",
+    "counterpartId": "n8-128",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · netejar · plat / noia · olorar · flor"
+    },
+    "labels": [
+      "NENA",
+      "NETEJAR",
+      "PLAT",
+      "NOIA",
+      "OLORAR",
+      "FLOR"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-4e6be686e7c1",
+      "w-55d250f4cf1e",
+      "w-b38ff488f862",
+      "w-fc006ad2b6a7",
+      "w-6c5def9143c8"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867"
+          },
+          {
+            "role": "action",
+            "label": "NETEJAR",
+            "wordId": "w-4e6be686e7c1"
+          },
+          {
+            "role": "patient",
+            "label": "PLAT",
+            "wordId": "w-55d250f4cf1e"
+          }
+        ],
+        "labels": [
+          "NENA",
+          "NETEJAR",
+          "PLAT"
+        ],
+        "wordIds": [
+          "w-cda6fa4a9867",
+          "w-4e6be686e7c1",
+          "w-55d250f4cf1e"
+        ],
+        "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+        "context": [
+          {
+            "label": "ESPONJA",
+            "wordId": "w-2d404e0d8979"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NOIA",
+            "wordId": "w-b38ff488f862"
+          },
+          {
+            "role": "action",
+            "label": "OLORAR",
+            "wordId": "w-fc006ad2b6a7"
+          },
+          {
+            "role": "patient",
+            "label": "FLOR",
+            "wordId": "w-6c5def9143c8"
+          }
+        ],
+        "labels": [
+          "NOIA",
+          "OLORAR",
+          "FLOR"
+        ],
+        "wordIds": [
+          "w-b38ff488f862",
+          "w-fc006ad2b6a7",
+          "w-6c5def9143c8"
+        ],
+        "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NENA a dreta: Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles. NOIA a esquerra: Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-b38ff488f862|w-fc006ad2b6a7|w-6c5def9143c8||w-cda6fa4a9867|w-4e6be686e7c1|w-55d250f4cf1e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T08:59:54.944Z"
+}

@@ -1,18 +1,27 @@
 {
   "status": "valid",
-  "checkedAt": "2026-11-18T07:10:32.091Z",
-  "catalogVersion": "0.1.138",
+  "checkedAt": "2026-11-21T09:00:03.031Z",
+  "catalogVersion": "0.1.139",
   "previousCataloguePreserved": true,
   "existingImagesPreserved": 3669,
   "existingWordsPreserved": 861,
-  "catalogImages": 3717,
-  "importedN8": 48,
-  "generatedAndReviewed": 48,
-  "uniqueOriginalHashes": 48,
-  "habitual": 24,
-  "insolita": 24,
+  "catalogImages": 3725,
+  "importedN8": 56,
+  "generatedAndReviewed": 56,
+  "uniqueOriginalHashes": 56,
+  "habitual": 28,
+  "insolita": 28,
   "rejectedAttempts": 8,
-  "recordsAwaitingReview": [],
+  "recordsAwaitingReview": [
+    "n8-026",
+    "n8-027",
+    "n8-028",
+    "n8-029",
+    "n8-126",
+    "n8-127",
+    "n8-128",
+    "n8-129"
+  ],
   "scope": "Originals, metadades i còpies WebP verificats; preservació del catàleg anterior comprovada respecte de f5c8bcd. La verificació pública es registra separadament.",
   "files": [
     {
@@ -159,6 +168,34 @@
       "id": "n8-021",
       "file": "output/production/n8/n8-021/image.png",
       "sha256": "097806a3d4f0966d0394fc2184fa14b960014be8c6b50bd59665fc3f24f1b97f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-022",
+      "file": "output/production/n8/n8-022/image.png",
+      "sha256": "2a76a511559bb7ec7b91f7f706ecdbc2393645021312ac885edec936b7467378",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-023",
+      "file": "output/production/n8/n8-023/image.png",
+      "sha256": "38f85d46e78b1c090177bffdb25676486c69ca5bc10ac88803a91c967595e56f",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-024",
+      "file": "output/production/n8/n8-024/image.png",
+      "sha256": "c3696063e67866938c9208c865fd2d4ec7e7f18e78b53735aac2e06e01dcc9de",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-025",
+      "file": "output/production/n8/n8-025/image.png",
+      "sha256": "408098399ef9135676778e1dd8c1026ec2a4c5cf8e701c3bc6af00252f9eb4d5",
       "width": 1536,
       "height": 1024
     },
@@ -331,6 +368,34 @@
       "height": 1024
     },
     {
+      "id": "n8-122",
+      "file": "output/production/n8/n8-122/image.png",
+      "sha256": "1a04109612b2acdcb79eb3d5c9ffd3c097ca4a8c5e00881518113319cb688f09",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-123",
+      "file": "output/production/n8/n8-123/image.png",
+      "sha256": "06697175f3ea748b015326e984a409d92a0ee8d646e80dc2287b5a397b8befd3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-124",
+      "file": "output/production/n8/n8-124/image.png",
+      "sha256": "3b04b4a0c6e510c19c02cee4ddb67d302b61441b80f6a9d9c19199d94e015e09",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "n8-125",
+      "file": "output/production/n8/n8-125/image.png",
+      "sha256": "8d2350b4da712981de587ef81ea4c45215119fd0f0e42bb025b7139f2ee0c272",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "n8-152",
       "file": "output/production/n8/n8-152/image.png",
       "sha256": "a40e7c9a26bff710ce510a672eec36b1654998ca6375d3101639406eef191e9a",
@@ -351,5 +416,8 @@
       "width": 1536,
       "height": 1024
     }
-  ]
+  ],
+  "resumeBaselinePreserved": true,
+  "resumedSessionImagesPreserved": 3717,
+  "resumedSessionWordsPreserved": 861
 }

@@ -1,3 +1,9 @@
+# N8 · Represa autoritzada · 21/11/2026
+
+L’usuari demana continuar generant i publicant N8. Reprendre els 152 pendents del pla fins a completar 200, sense nou límit horari. L’horari del 18/11 és històric i no s’aplica a aquesta represa. Una imatge per estímul, revisió individual semàntica i anatòmica, publicació per lots i preservació íntegra de les 3717 imatges existents (incloses les 48 N8) i 861 entrades CACE. Progrés: production/n8-progress.json.
+
+---
+
 # N8 · Sessió aturada · 18/11/2026
 
 48/200 imatges N8 revisades i publicades: 24 fotografies habituals i 24 dibuixos plans insòlits. Catàleg 0.1.138, 3717 imatges; les 3669 imatges i 861 entrades prèvies es conserven íntegrament. Verificació pública: 2026-11-18T07:12:54Z; totes les descàrregues N8 comprovades amb SHA-256. Generació aturada a 2026-11-18T07:10:21.229Z; límit de sessió 8:20 Europe/Madrid. 152 pendents, identificats a production/n8-progress.json. No reprendre noves generacions sense una nova instrucció.

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.138",
+  "version": "0.1.139",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,996 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-022",
+      "src": "assets/constructions/n8/n8-022.webp",
+      "title": {
+        "ca": "nen · pintar · caixa / dona · aixecar · pilota",
+        "es": "NIÑO · PINTAR · CAJA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "nen · pintar · caixa / dona · aixecar · pilota.",
+        "es": "NIÑO · PINTAR · CAJA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:49.542Z",
+      "target": "n8-022",
+      "constructionId": "n8-022",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "2a76a511559bb7ec7b91f7f706ecdbc2393645021312ac885edec936b7467378",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4e4165720219cd7774ea49ec290a89cadd78439245f5f758fa614d355b8722a8"
+    },
+    {
+      "id": "cace-n8-023",
+      "src": "assets/constructions/n8/n8-023.webp",
+      "title": {
+        "ca": "noia · pintar · caixa / noi · olorar · flor",
+        "es": "CHICA · PINTAR · CAJA · CHICO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "noia · pintar · caixa / noi · olorar · flor.",
+        "es": "CHICA · PINTAR · CAJA · CHICO · OLER · FLOR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:49.805Z",
+      "target": "n8-023",
+      "constructionId": "n8-023",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "38f85d46e78b1c090177bffdb25676486c69ca5bc10ac88803a91c967595e56f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "de93413dd5add0cf5d1259214a8eeedae6be173fbcdd24fd28310e842d4a4a6e"
+    },
+    {
+      "id": "cace-n8-024",
+      "src": "assets/constructions/n8/n8-024.webp",
+      "title": {
+        "ca": "home · pintar · caixa / nena · abraçar · coixí",
+        "es": "HOMBRE · PINTAR · CAJA · NIÑA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · pintar · caixa / nena · abraçar · coixí.",
+        "es": "HOMBRE · PINTAR · CAJA · NIÑA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:50.039Z",
+      "target": "n8-024",
+      "constructionId": "n8-024",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c3696063e67866938c9208c865fd2d4ec7e7f18e78b53735aac2e06e01dcc9de",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "16ecd330b4d99509d88567b178242e04342499c6965afd63c67337893c9826da"
+    },
+    {
+      "id": "cace-n8-025",
+      "src": "assets/constructions/n8/n8-025.webp",
+      "title": {
+        "ca": "dona · pintar · caixa / home · saltar",
+        "es": "MUJER · PINTAR · CAJA · HOMBRE · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · pintar · caixa / home · saltar.",
+        "es": "MUJER · PINTAR · CAJA · HOMBRE · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:50.298Z",
+      "target": "n8-025",
+      "constructionId": "n8-025",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "408098399ef9135676778e1dd8c1026ec2a4c5cf8e701c3bc6af00252f9eb4d5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f509f4e5bd482eb43b209a8bbc153bb405669d26c799327f9dda04be0589b565"
+    },
+    {
+      "id": "cace-n8-122",
+      "src": "assets/constructions/n8/n8-122.webp",
+      "title": {
+        "ca": "conill · pintar · caixa / elefant · aixecar · pilota",
+        "es": "CONEJO · PINTAR · CAJA · ELEFANTE · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "conill · pintar · caixa / elefant · aixecar · pilota.",
+        "es": "CONEJO · PINTAR · CAJA · ELEFANTE · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:49.671Z",
+      "target": "n8-122",
+      "constructionId": "n8-122",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1a04109612b2acdcb79eb3d5c9ffd3c097ca4a8c5e00881518113319cb688f09",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "26cc92a0ea356223b8ade7584216bbd5c403cf525f53f23e708f44add18ee118"
+    },
+    {
+      "id": "cace-n8-123",
+      "src": "assets/constructions/n8/n8-123.webp",
+      "title": {
+        "ca": "gat · pintar · caixa / gos · olorar · flor",
+        "es": "GATO · PINTAR · CAJA · PERRO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gat · pintar · caixa / gos · olorar · flor.",
+        "es": "GATO · PINTAR · CAJA · PERRO · OLER · FLOR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:49.938Z",
+      "target": "n8-123",
+      "constructionId": "n8-123",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "06697175f3ea748b015326e984a409d92a0ee8d646e80dc2287b5a397b8befd3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "72a165567e58aa745d0cf6fb55a5b0aadd734794d2d7dc2c643eb42b2511f2d0"
+    },
+    {
+      "id": "cace-n8-124",
+      "src": "assets/constructions/n8/n8-124.webp",
+      "title": {
+        "ca": "cangur · pintar · caixa / pinguí · abraçar · coixí",
+        "es": "CANGURO · PINTAR · CAJA · PINGÜINO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "cangur · pintar · caixa / pinguí · abraçar · coixí.",
+        "es": "CANGURO · PINTAR · CAJA · PINGÜINO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:50.142Z",
+      "target": "n8-124",
+      "constructionId": "n8-124",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3b04b4a0c6e510c19c02cee4ddb67d302b61441b80f6a9d9c19199d94e015e09",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d51fc04ee3ead0585caa97c8b08eeb6e6d906cf7a3e3fd219c5c2d364d628260"
+    },
+    {
+      "id": "cace-n8-125",
+      "src": "assets/constructions/n8/n8-125.webp",
+      "title": {
+        "ca": "zebra · pintar · caixa / girafa · saltar",
+        "es": "CEBRA · PINTAR · CAJA · JIRAFA · SALTAR"
+      },
+      "alt": {
+        "ca": "zebra · pintar · caixa / girafa · saltar.",
+        "es": "CEBRA · PINTAR · CAJA · JIRAFA · SALTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:56:50.472Z",
+      "target": "n8-125",
+      "constructionId": "n8-125",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8d2350b4da712981de587ef81ea4c45215119fd0f0e42bb025b7139f2ee0c272",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "93cec51e669c1ade7cbb343a1ca47ee0071b6355093925a3df439dbf28a5cf68"
+    },
     {
       "id": "cace-n8-012",
       "src": "assets/constructions/n8/n8-012.webp",
@@ -140671,7 +141661,15 @@
         "cace-n8-118",
         "cace-n8-119",
         "cace-n8-120",
-        "cace-n8-121"
+        "cace-n8-121",
+        "cace-n8-022",
+        "cace-n8-023",
+        "cace-n8-024",
+        "cace-n8-025",
+        "cace-n8-122",
+        "cace-n8-123",
+        "cace-n8-124",
+        "cace-n8-125"
       ]
     }
   ]

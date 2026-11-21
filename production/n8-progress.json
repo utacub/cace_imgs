@@ -1,13 +1,9 @@
 {
   "level": 8,
-  "status": "stopped-at-session-limit",
+  "status": "active",
   "planned": 200,
-  "complete": 48,
+  "complete": 56,
   "pending": [
-    "n8-022",
-    "n8-023",
-    "n8-024",
-    "n8-025",
     "n8-026",
     "n8-027",
     "n8-028",
@@ -80,10 +76,6 @@
     "n8-098",
     "n8-099",
     "n8-100",
-    "n8-122",
-    "n8-123",
-    "n8-124",
-    "n8-125",
     "n8-126",
     "n8-127",
     "n8-128",
@@ -157,20 +149,20 @@
     "n8-199",
     "n8-200"
   ],
-  "completedHabitual": 24,
-  "completedInsolita": 24,
+  "completedHabitual": 28,
+  "completedInsolita": 28,
   "authorization": {
-    "instruction": "Ja pots començar a generar imatges i publicar-les, atura't a les 8:20 hora local",
-    "date": "2026-11-18",
+    "instruction": "Continua generant i publicant les imatges de N8",
+    "date": "2026-11-21",
     "timezone": "Europe/Madrid",
-    "scope": "generar-revisar-importar-publicar-N8-per-lots",
+    "scope": "completar-generar-revisar-publicar-les-200-N8",
     "generationAuthorized": true,
     "publicationAuthorized": true,
-    "stopAt": "2026-11-18T07:20:00Z",
-    "generationCutoff": "2026-11-18T07:10:00Z"
+    "stopAt": null,
+    "generationCutoff": null
   },
-  "generationCutoff": "2026-11-18T07:10:00Z",
-  "stopAt": "2026-11-18T07:20:00Z",
+  "generationCutoff": null,
+  "stopAt": null,
   "baseline": {
     "checkedOn": "2026-11-13",
     "head": "f5c8bcd5a0e1efee805f0f6b10b6746951399620",
@@ -194,19 +186,19 @@
     ]
   },
   "started": "2026-11-18T06:46:52.866Z",
-  "updated": "2026-11-18T07:10:31.360Z",
-  "catalogVersion": "0.1.138",
-  "imported": 48,
+  "updated": "2026-11-21T09:00:02.272Z",
+  "catalogVersion": "0.1.139",
+  "imported": 56,
   "collectionId": "cace-n8-dos-esdeveniments",
   "publicationAuthorization": {
-    "instruction": "Ja pots començar a generar imatges i publicar-les, atura't a les 8:20 hora local",
-    "date": "2026-11-18",
+    "instruction": "Continua generant i publicant les imatges de N8",
+    "date": "2026-11-21",
     "timezone": "Europe/Madrid",
-    "scope": "generar-revisar-importar-publicar-N8-per-lots",
+    "scope": "completar-generar-revisar-publicar-les-200-N8",
     "generationAuthorized": true,
     "publicationAuthorized": true,
-    "stopAt": "2026-11-18T07:20:00Z",
-    "generationCutoff": "2026-11-18T07:10:00Z"
+    "stopAt": null,
+    "generationCutoff": null
   },
   "publicVerified": 48,
   "publicVersion": "0.1.138",
@@ -216,6 +208,23 @@
     "publicVerification": "output/n8-publication-0.1.138.json",
     "status": "public-catalog-and-downloads-verified"
   },
-  "generationStoppedAt": "2026-11-18T07:10:21.229Z",
-  "finishedAt": "2026-11-18T07:13:24.338Z"
+  "authorizationHistory": [
+    {
+      "instruction": "Ja pots començar a generar imatges i publicar-les, atura't a les 8:20 hora local",
+      "date": "2026-11-18",
+      "timezone": "Europe/Madrid",
+      "scope": "generar-revisar-importar-publicar-N8-per-lots",
+      "generationAuthorized": true,
+      "publicationAuthorized": true,
+      "stopAt": "2026-11-18T07:20:00Z",
+      "generationCutoff": "2026-11-18T07:10:00Z"
+    }
+  ],
+  "resumedAt": "2026-11-21T08:56:49.255Z",
+  "sessionBaseline": {
+    "head": "2d6e38c84bcdac5e7e3520755a7b780823812bc3",
+    "version": "0.1.138",
+    "totalAssets": 3717,
+    "words": 861
+  }
 }
