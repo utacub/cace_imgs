@@ -1,0 +1,133 @@
+{
+  "constructionId": "n9-101",
+  "file": "output/production/n9/n9-101/image.png",
+  "prompt": "Edit this educational two-panel rabbit illustration. Correct the BOOK GEOMETRY in BOTH panels using a physically consistent rectangular hardcover book. In LEFT panel book is resting on table, spine running from near viewer to far viewer along its LEFT edge from rabbit's viewpoint. Show front cover already swung almost completely OPEN TO THE LEFT, hovering just above table at about 15 degrees, while rabbit holds its far free outer corner. The inner surface of this opened cover must be blank white with a thin RED rim. The cover must have exactly the SAME height and width as EACH SINGLE white page beneath, just a tiny 2 mm overhang, all drawn in the same table perspective. Thus left panel shows two adjacent matching rectangular planes joined along one straight spine: opened front cover to LEFT and blank first page and complete page block to RIGHT. No large upright red slab, no striped exterior facing inside, no cover crossing diagonally across page block. Red exterior has one yellow diagonal stripe but it is mostly underside and hidden when open. RIGHT panel same rabbit reading the same book normally open, two equal-size blank pages with equal red cover rims. Book should retain EXACT same page size across panels relative to hands. Preserve rabbit identity, outfit, anatomy, chair and table, scale and camera angle. Remove black panel border rectangles, use broad white gutters and wide white outer margins. Entire rabbit ears paws feet tail and furniture visible. Clean flat colors and outlines, no text numerals arrows or marks.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-101",
+    "number": 101,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-001",
+    "counterpartId": "n9-001",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · obrir · llegir — llibre"
+    },
+    "labels": [
+      "CONILL",
+      "OBRIR",
+      "LLEGIR",
+      "LLIBRE",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-a10b29af07c7",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "actions": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      }
+    ],
+    "referents": [
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-a10b29af07c7",
+        "evidence": "Aixeca la coberta amb els dits. El llibre encara reposa a la taula."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-ef0bd41d6ee3",
+        "evidence": "Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la coberta llisa amb una franja diagonal"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T11:34:10.661Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-101/rejected-01.png",
+      "reason": "Obertura incorrecta del llibre detectada per l’usuari, marges insuficients.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: la coberta llisa amb una franja diagonal. Ordered moments in Catalan: PANEL 1: Aixeca la coberta amb els dits. El llibre encara reposa a la taula. PANEL 2: Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T11:36:03.305Z"
+    },
+    {
+      "file": "output/production/n9/n9-101/rejected-02.png",
+      "reason": "La vista frontal encara fa ambigua la direcció d’obertura; marges inferiors massa justos.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: la coberta llisa amb una franja diagonal. Ordered moments in Catalan: PANEL 1: Aixeca la coberta amb els dits. El llibre encara reposa a la taula. PANEL 2: Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. CRITICAL BOOK MECHANICS: camera sees the rabbit from a three-quarter side so the spine and page block are obvious. The closed book rests flat on table with SPINE on the rabbit's LEFT, free page edges to rabbit's RIGHT. Rabbit LEFT paw holds the spine down. Rabbit RIGHT paw lifts the FREE RIGHT EDGE of the front cover, rotating the cover LEFTWARD around the left spine to reveal white first page. Show front cover tilted open halfway with hinge visibly on correct spine, page block flat and intact. In second panel the same book is open held up normally for reading. NO lifting from spine, no back-to-front opening. Keep both ears and all feet fully inside wide margins.",
+      "rejectedAt": "2026-11-21T11:36:51.981Z"
+    },
+    {
+      "file": "output/production/n9/n9-101/rejected-03.png",
+      "reason": "Perspectiva i proporcions de la coberta i els fulls encara incoherents; corregit mitjançant edició.",
+      "prompt": "Create a wide landscape educational flat 2D cartoon with TWO equal panels and generous pure white borders. SAME friendly rabbit in blue overalls, full ears feet tail and table legs visible, all comfortably inside frame. Camera viewpoint in BOTH panels is THREE-QUARTER OVER THE RABBIT'S RIGHT SHOULDER, so we see the rabbit's back and right cheek and see the book exactly as the rabbit sees it. Do not face the rabbit toward the viewer. Simple low table. LEFT PANEL: a normal red hardcover book rests flat, upright to the rabbit, spine on LEFT, white page block right. Rabbit right paw lifts the front cover from its RIGHT free edge toward the LEFT, front cover standing halfway upright hinged to the LEFT spine, exposing first blank white page facing rabbit. Left paw stabilizes bottom of page block. Clearly normal left-to-right Western book mechanics. RIGHT PANEL: same rabbit in SAME over-shoulder view now holds SAME book fully open for reading near chest, facing blank double-page spread visible to viewer over shoulder. Same diagonal yellow stripe on exterior cover, book size 25 by 18 cm proportional to rabbit's torso, same table, chair and rabbit size in both panels. Flat solid colors, simple outlines. No text, letters, numbers, arrows, labels, watermarks, no extra characters. Draw whole rabbit, chair and table with at least 8 percent pure white margin beyond all extremities.",
+      "rejectedAt": "2026-11-21T11:43:49.162Z"
+    }
+  ],
+  "referenceImage": "output/production/n9/n9-101/rejected-03.png",
+  "review": "Revisió reforçada després de tres descartats: llom compartit i recte, coberta i full individual de proporcions equivalents, coberta interior a esquerra del bloc de fulls, obertura coherent vista des de darrere. Llibre sostingut obert per llegir en segon moment, mateix agent i mobiliari. Anatomia, escala i marges acceptables, sense text.",
+  "alt": {
+    "ca": "conill · obrir · llegir — llibre.",
+    "es": "CONEJO · ABRIR · LEER · LIBRO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "c3f44b1b7ecba33a97cf0bea4f1ff84d9795e242237849c4142ec26a588c7852",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T11:43:49.457Z",
+  "publicationVersion": "0.1.146",
+  "importedAt": "2026-11-21T11:44:24.013590+00:00"
+}

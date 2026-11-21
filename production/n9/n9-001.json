@@ -1,0 +1,112 @@
+{
+  "constructionId": "n9-001",
+  "file": "output/production/n9/n9-001/image.png",
+  "prompt": "Create one finished educational CACE image. Wide landscape synthetic photorealistic studio photograph in TWO equal panels separated by a broad pure white gutter, left to right temporal sequence. Same full-body school-age girl, same modest everyday clothes and natural anatomy in BOTH panels, same low table, camera and white background. Keep all feet, hands, head and props inside ample margins. Same book with blank cover and a distinctive diagonal colored band in both panels. LEFT: book lies on the table, girl is lifting the front cover with fingertips, looking down at book. RIGHT: same girl now holds this same book fully open near her chest and looks at the blank double page in a clear reading posture, table still beside her. Realistic skin, fabric and proportions. Exactly two moments of the same person. No letters, words, numerals, logos, watermarks, arrows, motion lines or panel labels anywhere. All pages blank. Clear visual continuity and visible sequence opening book then reading book.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-001",
+    "number": 1,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-001",
+    "counterpartId": "n9-101",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · obrir · llegir — llibre"
+    },
+    "labels": [
+      "NENA",
+      "OBRIR",
+      "LLEGIR",
+      "LLIBRE",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-a10b29af07c7",
+      "w-ef0bd41d6ee3",
+      "w-3bb995df42bf",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "actions": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      }
+    ],
+    "referents": [
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-a10b29af07c7",
+        "evidence": "Aixeca la coberta amb els dits. El llibre encara reposa a la taula."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-ef0bd41d6ee3",
+        "evidence": "Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la coberta llisa amb una franja diagonal"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T11:33:23.165Z",
+  "review": "Dues vinyetes en ordre: obre la coberta sobre la taula i llegeix el mateix llibre al pit. Nena, roba, franja diagonal, taula i perspectiva coherents; figures completes, anatomia natural, sense text. Acceptada.",
+  "alt": {
+    "ca": "nena · obrir · llegir — llibre.",
+    "es": "NIÑA · ABRIR · LEER · LIBRO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "7e69cbf61c88b84c7a7044f8a0eaeb3d4cb9a3e7820ea5ba34942a119ca112fe",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T11:33:23.420Z",
+  "publicationVersion": "0.1.146",
+  "importedAt": "2026-11-21T11:44:23.555247+00:00"
+}

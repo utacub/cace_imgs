@@ -1,3 +1,9 @@
+# N9 · Producció i publicació autoritzades · 21/11/2026
+
+L’usuari aprova el pla i autoritza generar, revisar i publicar les 200 N9 per lots. Una imatge composta per estímul, 100 fotografies habituals i 100 dibuixos plans insòlits. Revisió individual d’ordre temporal, continuïtat, llegibilitat i anatomia. Preservar les 3869 imatges i 861 entrades CACE anteriors. Pla original a production/n9-plan.json; autorització i progrés a production/n9-progress.json.
+
+---
+
 # N8 · 200 imatges completades i publicades · 21/11/2026
 
 200/200 N8 revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.145, 3869 imatges i 861 entrades CACE. Les 3717 imatges existents en reprendre (incloses les 48 N8) es preserven íntegrament. Catàleg públic i 200 descàrregues WebP verificats amb SHA-256 a 2026-11-21T10:14:33Z. No generar més N8.

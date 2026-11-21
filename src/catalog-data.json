@@ -1,5 +1,5 @@
 {
-  "version": "0.1.145",
+  "version": "0.1.146",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,306 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-102",
+      "src": "assets/constructions/n9/n9-102.webp",
+      "title": {
+        "ca": "gat · obrir · menjar — carmanyola / entrepà",
+        "es": "GATO · ABRIR · COMER · FIAMBRERA · BOCADILLO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · obrir · menjar — carmanyola / entrepà.",
+        "es": "GATO · ABRIR · COMER · FIAMBRERA · BOCADILLO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-a10b29af07c7",
+        "w-c248ebfe6f67",
+        "w-c3b8bd56e942",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-a10b29af07c7",
+        "w-c248ebfe6f67",
+        "w-c3b8bd56e942",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T11:34:10.849Z",
+      "target": "n9-102",
+      "constructionId": "n9-102",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Aixeca la tapa articulada, amb l’entrepà sencer visible a l’interior."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Amb la carmanyola oberta al davant, mossega el mateix entrepà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carmanyola amb dues grapes i l’entrepà triangular"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2e72f29c68d1a962c347b4cce501630cd03c4425ae05d56007be3a830cc8b3ab",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "62701a62a827447bf2c91afc1641fe8851d19b22d514c6fcf7999c4ed459f2a6"
+    },
+    {
+      "id": "cace-n9-002",
+      "src": "assets/constructions/n9/n9-002.webp",
+      "title": {
+        "ca": "nen · obrir · menjar — carmanyola / entrepà",
+        "es": "NIÑO · ABRIR · COMER · FIAMBRERA · BOCADILLO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · obrir · menjar — carmanyola / entrepà.",
+        "es": "NIÑO · ABRIR · COMER · FIAMBRERA · BOCADILLO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-a10b29af07c7",
+        "w-c248ebfe6f67",
+        "w-c3b8bd56e942",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-a10b29af07c7",
+        "w-c248ebfe6f67",
+        "w-c3b8bd56e942",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T11:34:10.752Z",
+      "target": "n9-002",
+      "constructionId": "n9-002",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Aixeca la tapa articulada, amb l’entrepà sencer visible a l’interior."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Amb la carmanyola oberta al davant, mossega el mateix entrepà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carmanyola amb dues grapes i l’entrepà triangular"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9f73bcd8be538887e3c8951bcb6e6d7c0ebc513e0a7b2c5d96b4f7b0e52411f9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d6e2b1fbad73f6250b390ed854b159bf34804d614c81860a75acc38f701b539e"
+    },
+    {
+      "id": "cace-n9-001",
+      "src": "assets/constructions/n9/n9-001.webp",
+      "title": {
+        "ca": "nena · obrir · llegir — llibre",
+        "es": "NIÑA · ABRIR · LEER · LIBRO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · obrir · llegir — llibre.",
+        "es": "NIÑA · ABRIR · LEER · LIBRO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T11:33:23.165Z",
+      "target": "n9-001",
+      "constructionId": "n9-001",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Aixeca la coberta amb els dits. El llibre encara reposa a la taula."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-ef0bd41d6ee3",
+          "evidence": "Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la coberta llisa amb una franja diagonal"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7e69cbf61c88b84c7a7044f8a0eaeb3d4cb9a3e7820ea5ba34942a119ca112fe",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "690b5248cc24f3d844a402c076ba132724198267e42df1fe06df8053b122a7cd"
+    },
+    {
+      "id": "cace-n9-101",
+      "src": "assets/constructions/n9/n9-101.webp",
+      "title": {
+        "ca": "conill · obrir · llegir — llibre",
+        "es": "CONEJO · ABRIR · LEER · LIBRO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · obrir · llegir — llibre.",
+        "es": "CONEJO · ABRIR · LEER · LIBRO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-3bb995df42bf",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T11:34:10.661Z",
+      "target": "n9-101",
+      "constructionId": "n9-101",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Aixeca la coberta amb els dits. El llibre encara reposa a la taula."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-ef0bd41d6ee3",
+          "evidence": "Sosté el mateix llibre obert davant del pit, amb la mirada a la doble pàgina sense text."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la coberta llisa amb una franja diagonal"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "c3f44b1b7ecba33a97cf0bea4f1ff84d9795e242237849c4142ec26a588c7852",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8a57e5269a32016f49211ab813a5cbdd94f08518b658e4423f80d9b62c12d475"
+    },
     {
       "id": "cace-n8-093",
       "src": "assets/constructions/n8/n8-093.webp",
@@ -158462,6 +158762,16 @@
         "cace-n8-198",
         "cace-n8-199",
         "cace-n8-200"
+      ]
+    },
+    {
+      "id": "cace-n9-sequencies",
+      "name": "N9 · Seqüències",
+      "items": [
+        "cace-n9-001",
+        "cace-n9-101",
+        "cace-n9-002",
+        "cace-n9-102"
       ]
     }
   ]

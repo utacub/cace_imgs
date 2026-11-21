@@ -1,3 +1,9 @@
+# N9 · Producció i publicació autoritzades · 21/11/2026
+
+L’usuari aprova el pla i autoritza generar, revisar i publicar les 200 N9 per lots. Una imatge composta per estímul, 100 fotografies habituals i 100 dibuixos plans insòlits. Revisió individual d’ordre temporal, continuïtat, llegibilitat i anatomia. Preservar les 3869 imatges i 861 entrades CACE anteriors. Pla original a production/n9-plan.json; autorització i progrés a production/n9-progress.json.
+
+---
+
 # N8 · Represa autoritzada · 21/11/2026
 
 L’usuari demana continuar generant i publicant N8. Reprendre els 152 pendents del pla fins a completar 200, sense nou límit horari. L’horari del 18/11 és històric i no s’aplica a aquesta represa. Una imatge per estímul, revisió individual semàntica i anatòmica, publicació per lots i preservació íntegra de les 3717 imatges existents (incloses les 48 N8) i 861 entrades CACE. Progrés: production/n8-progress.json.

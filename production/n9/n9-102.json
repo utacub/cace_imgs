@@ -1,0 +1,126 @@
+{
+  "constructionId": "n9-102",
+  "file": "output/production/n9/n9-102/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: GAT. Continuity anchor: la carmanyola amb dues grapes i l’entrepà triangular. Ordered moments in Catalan: PANEL 1: Aixeca la tapa articulada, amb l’entrepà sencer visible a l’interior. PANEL 2: Amb la carmanyola oberta al davant, mossega el mateix entrepà.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. STRICT SCALE AND FRAMING: camera zoomed out to show whole cat including both ears, tail and feet, entire chair and table with 8 percent white margin. Lunchbox and sandwich proportional to cat torso. SAME triangular sandwich and SAME rear-hinged lunchbox in both panels. No grapes or other extra food. Lunchbox lid rotates about one rear hinge and stays same width as base.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-102",
+    "number": 102,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-002",
+    "counterpartId": "n9-002",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · obrir · menjar — carmanyola / entrepà"
+    },
+    "labels": [
+      "GAT",
+      "OBRIR",
+      "MENJAR",
+      "CARMANYOLA",
+      "ENTREPÀ",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-a10b29af07c7",
+      "w-c248ebfe6f67",
+      "w-c3b8bd56e942",
+      "w-0c47f11deffa",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "actions": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      }
+    ],
+    "referents": [
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      },
+      {
+        "label": "ENTREPÀ",
+        "wordId": "w-0c47f11deffa"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-a10b29af07c7",
+        "evidence": "Aixeca la tapa articulada, amb l’entrepà sencer visible a l’interior."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-c248ebfe6f67",
+        "evidence": "Amb la carmanyola oberta al davant, mossega el mateix entrepà."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la carmanyola amb dues grapes i l’entrepà triangular"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T11:34:10.849Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-102/rejected-01.png",
+      "reason": "Raïm afegit que no pertany al brief; marges ajustats.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: GAT. Continuity anchor: la carmanyola amb dues grapes i l’entrepà triangular. Ordered moments in Catalan: PANEL 1: Aixeca la tapa articulada, amb l’entrepà sencer visible a l’interior. PANEL 2: Amb la carmanyola oberta al davant, mossega el mateix entrepà.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T11:51:58.922Z"
+    }
+  ],
+  "review": "Gat complet i reconeixible, mateixa roba i mobiliari, entrepà triangular proporcionat i mateixa carmanyola amb frontissa posterior en totes dues vinyetes. Obre i després mossega; sense aliments addicionals ni text. Anatomia dibuixada, preses i escala coherents.",
+  "alt": {
+    "ca": "gat · obrir · menjar — carmanyola / entrepà.",
+    "es": "GATO · ABRIR · COMER · FIAMBRERA · BOCADILLO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "2e72f29c68d1a962c347b4cce501630cd03c4425ae05d56007be3a830cc8b3ab",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T11:51:59.190Z",
+  "publicationVersion": "0.1.146",
+  "importedAt": "2026-11-21T11:52:00.048643+00:00"
+}
