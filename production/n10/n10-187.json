@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-187",
+    "number": 187,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-087",
+    "counterpartId": "n10-087",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · estirar · cremallera / motxilla → obrir"
+    },
+    "labels": [
+      "ZEBRA",
+      "ESTIRAR",
+      "CREMALLERA",
+      "MOTXILLA",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-99499cd7f270",
+      "w-04607780ade0",
+      "w-43db0ea26088",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CREMALLERA",
+        "wordId": "w-04607780ade0"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una motxilla amb cremallera contínua i un coixinet que es manté dins."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "22bf5585ab361ba3d706223c30fe46336942ed277953f6ccb4c391b93ee67f1c",
+      "file": "output/production/n10/n10-187/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El cursor surt de l’extrem dret i separa les dents després del seu pas. A l’última vinyeta queda a l’extrem oposat i l’obertura permet veure un sol coixinet.",
+      "reviewedAt": "2026-11-21T16:36:27+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El cursor surt de l’extrem dret i separa les dents després del seu pas. A l’última vinyeta queda a l’extrem oposat i l’obertura permet veure un sol coixinet.",
+  "alt": {
+    "ca": "Una zebra estira el cursor de la cremallera. Les dents se separen i es veu el coixinet dins la motxilla.",
+    "es": "Una cebra tira del cursor de la cremallera. Los dientes se separan y se ve el cojín dentro de la mochila."
+  },
+  "originalSha256": "22bf5585ab361ba3d706223c30fe46336942ed277953f6ccb4c391b93ee67f1c",
+  "file": "output/production/n10/n10-187/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:36:27+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,112 @@
+{
+  "construction": {
+    "id": "n10-172",
+    "number": 172,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-072",
+    "counterpartId": "n10-072",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · posar · cartró / llibre"
+    },
+    "labels": [
+      "GAT",
+      "POSAR",
+      "CARTRÓ",
+      "LLIBRE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-c211f7486a30",
+      "w-849126f92ece",
+      "w-3bb995df42bf",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CARTRÓ",
+        "wordId": "w-849126f92ece"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tira de cartró amb una corba alta manté els extrems recolzats en dos topalls. El llibre és separat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Deixa el llibre pla sobre la part corbada. El pes aplana la corba i el cartró presenta dos plecs al voltant del llibre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En retirar el llibre s’identifiquen els plecs que han quedat al cartró i la corba és menys alta."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tira de cartró d’una sola peça, dos topalls fixos i un llibre que conserva les dimensions."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7fdf84f70541617edc203abeaa324d3d0754489fac0102536bb2714c04b05953",
+      "file": "output/production/n10/n10-172/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró amb una corba alta manté els extrems recolzats en dos topalls. El llibre és separat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa el llibre pla sobre la part corbada. El pes aplana la corba i el cartró presenta dos plecs al voltant del llibre. RIGHT result: En retirar el llibre s’identifiquen els plecs que han quedat al cartró i la corba és menys alta. Continuity and accounting: Una tira de cartró d’una sola peça, dos topalls fixos i un llibre que conserva les dimensions. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El llom del llibre es manté i es veu la pressió sobre la tira corbada. Quan s’aixeca el llibre, els dos plecs es conserven a la mateixa tira sencera, amb els topalls fixos.",
+      "reviewedAt": "2026-11-21T16:34:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró amb una corba alta manté els extrems recolzats en dos topalls. El llibre és separat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa el llibre pla sobre la part corbada. El pes aplana la corba i el cartró presenta dos plecs al voltant del llibre. RIGHT result: En retirar el llibre s’identifiquen els plecs que han quedat al cartró i la corba és menys alta. Continuity and accounting: Una tira de cartró d’una sola peça, dos topalls fixos i un llibre que conserva les dimensions. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El llom del llibre es manté i es veu la pressió sobre la tira corbada. Quan s’aixeca el llibre, els dos plecs es conserven a la mateixa tira sencera, amb els topalls fixos.",
+  "alt": {
+    "ca": "Un gat deixa el llibre sobre el cartró corbat. La pressió hi deixa dos plecs quan retira el llibre.",
+    "es": "Un gato deja el libro sobre el cartón curvado. La presión deja dos dobleces cuando retira el libro."
+  },
+  "originalSha256": "7fdf84f70541617edc203abeaa324d3d0754489fac0102536bb2714c04b05953",
+  "file": "output/production/n10/n10-172/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:34:06+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-174",
+    "number": 174,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-074",
+    "counterpartId": "n10-074",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · tocar · plastilina / cullera → tou"
+    },
+    "labels": [
+      "ÓS",
+      "TOCAR",
+      "PLASTILINA",
+      "CULLERA",
+      "TOU",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-072ecc01e120",
+      "w-0606be9fcf92",
+      "w-9c9849fac1d3",
+      "w-615686838917",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "agent": {
+      "label": "ÓS",
+      "wordId": "w-a06249642996"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "outcome": {
+      "label": "TOU",
+      "wordId": "w-615686838917"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "bdc8261ea174a998ffe25c815699560ac74b7b1d2aa5574bfaf25618310c4fe3",
+      "file": "output/production/n10/n10-174/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió. RIGHT result: La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte. Continuity and accounting: Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La part arrodonida de la cullera prem el centre de la mateixa porció bicolor i deixa una concavitat. La vora de la peça es manté identificable.",
+      "reviewedAt": "2026-11-21T16:34:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió. RIGHT result: La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte. Continuity and accounting: Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La part arrodonida de la cullera prem el centre de la mateixa porció bicolor i deixa una concavitat. La vora de la peça es manté identificable.",
+  "alt": {
+    "ca": "Un ós prem plastilina amb la cullera. Quan l’aixeca, es veu el clot que hi ha deixat.",
+    "es": "Un oso presiona plastilina con la cuchara. Cuando la levanta, se ve el hueco que ha dejado."
+  },
+  "originalSha256": "bdc8261ea174a998ffe25c815699560ac74b7b1d2aa5574bfaf25618310c4fe3",
+  "file": "output/production/n10/n10-174/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:34:06+00:00",
+  "tool": "ImageGen integrat"
+}

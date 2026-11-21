@@ -104,7 +104,28 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un got buit porta un anell de pintura a la base exterior. El paper és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la base del got contra el paper mantenint-lo vertical. RIGHT result: Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus. Continuity and accounting: Un got de plàstic amb base circular i un full. Una sola empremta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
       "review": "El got queda cap per avall i la pintura es transfereix des de la boca. Cal l’empremta de la base exterior, amb el got dret tal com requereix la fitxa.",
       "reviewedAt": "2026-11-21T16:02:51+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "2cfbf5dea8aad433472c15e0aaa620a271a17e05e86b48ac8e7dd7792b1d36c5",
+      "file": "output/production/n10/n10-047/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un got buit porta un anell de pintura a la base exterior. El paper és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la base del got contra el paper mantenint-lo vertical. RIGHT result: Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus. Continuity and accounting: Un got de plàstic amb base circular i un full. Una sola empremta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: El got queda cap per avall i la pintura es transfereix des de la boca. Cal l’empremta de la base exterior, amb el got dret tal com requereix la fitxa. ",
+      "review": "El got resta dret i la pintura es veu a la part exterior de la base, que toca el full. En retirar-lo deixa un únic cercle amb el mateix diàmetre i conserva restes a la base.",
+      "reviewedAt": "2026-11-21T16:48:58+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un got buit porta un anell de pintura a la base exterior. El paper és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la base del got contra el paper mantenint-lo vertical. RIGHT result: Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus. Continuity and accounting: Un got de plàstic amb base circular i un full. Una sola empremta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: El got queda cap per avall i la pintura es transfereix des de la boca. Cal l’empremta de la base exterior, amb el got dret tal com requereix la fitxa. ",
+  "review": "El got resta dret i la pintura es veu a la part exterior de la base, que toca el full. En retirar-lo deixa un únic cercle amb el mateix diàmetre i conserva restes a la base.",
+  "alt": {
+    "ca": "Una dona prem la base pintada d’un got contra el paper i hi deixa un cercle vermell.",
+    "es": "Una mujer presiona la base pintada de un vaso contra el papel y deja un círculo rojo."
+  },
+  "originalSha256": "2cfbf5dea8aad433472c15e0aaa620a271a17e05e86b48ac8e7dd7792b1d36c5",
+  "file": "output/production/n10/n10-047/image.png",
+  "width": 2149,
+  "height": 732,
+  "created": "2026-11-21T16:48:58+00:00",
+  "tool": "ImageGen integrat"
 }

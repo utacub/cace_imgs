@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-188",
+    "number": 188,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-088",
+    "counterpartId": "n10-088",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · estirar · cremallera / jaqueta → tancar"
+    },
+    "labels": [
+      "RUC",
+      "ESTIRAR",
+      "CREMALLERA",
+      "JAQUETA",
+      "TANCAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-99499cd7f270",
+      "w-04607780ade0",
+      "w-baf6d3603bb3",
+      "w-4000ec1e6d5b",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CREMALLERA",
+        "wordId": "w-04607780ade0"
+      },
+      {
+        "label": "JAQUETA",
+        "wordId": "w-baf6d3603bb3"
+      }
+    ],
+    "outcome": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una jaqueta de coll blau, una cremallera i un sol cursor."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9cc74f3f38e26ba75f7190070ecd6a4ff709a204210aea460f10f89a87d3caaf",
+      "file": "output/production/n10/n10-188/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador. RIGHT result: La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la. Continuity and accounting: Una jaqueta de coll blau, una cremallera i un sol cursor. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les dents de la mateixa jaqueta es veuen separades per damunt del cursor i unides per sota. La pota subjecta el cursor a la fase de tancament i al final el cursor és sota el coll.",
+      "reviewedAt": "2026-11-21T16:39:18+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador. RIGHT result: La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la. Continuity and accounting: Una jaqueta de coll blau, una cremallera i un sol cursor. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Les dents de la mateixa jaqueta es veuen separades per damunt del cursor i unides per sota. La pota subjecta el cursor a la fase de tancament i al final el cursor és sota el coll.",
+  "alt": {
+    "ca": "Un ruc estira el cursor cap amunt. La cremallera uneix els dos costats de la jaqueta.",
+    "es": "Un burro tira del cursor hacia arriba. La cremallera une los dos lados de la chaqueta."
+  },
+  "originalSha256": "9cc74f3f38e26ba75f7190070ecd6a4ff709a204210aea460f10f89a87d3caaf",
+  "file": "output/production/n10/n10-188/image.png",
+  "width": 2149,
+  "height": 732,
+  "created": "2026-11-21T16:39:18+00:00",
+  "tool": "ImageGen integrat"
+}

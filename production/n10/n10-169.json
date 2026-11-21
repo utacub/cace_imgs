@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-169",
+    "number": 169,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-069",
+    "counterpartId": "n10-069",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "porc · posar · galetes / plat → trencat"
+    },
+    "labels": [
+      "PORC",
+      "POSAR",
+      "GALETES",
+      "PLAT",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-7db51860bac9",
+      "w-c211f7486a30",
+      "w-eecb1a704a59",
+      "w-55d250f4cf1e",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-7db51860bac9",
+    "agent": {
+      "label": "PORC",
+      "wordId": "w-7db51860bac9"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "GALETES",
+        "wordId": "w-eecb1a704a59"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galeta sencera reposa sobre una vora baixa dins d’un plat. L’empremta de la galeta és una línia diagonal."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem les dues puntes amb els dits, deixant el centre sobre la vora baixa. La galeta s’esquerda just al centre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos fragments són dins del plat amb la línia diagonal interrompuda. Les engrunes queden entre tots dos."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola galeta repartida en dos trossos i les seves engrunes."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "0853c738e763b6c438ea185413e8f2d846830b8039e6212a96c3a9807f27f892",
+      "file": "output/production/n10/n10-169/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galeta sencera reposa sobre una vora baixa dins d’un plat. L’empremta de la galeta és una línia diagonal. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem les dues puntes amb els dits, deixant el centre sobre la vora baixa. La galeta s’esquerda just al centre. RIGHT result: Els dos fragments són dins del plat amb la línia diagonal interrompuda. Les engrunes queden entre tots dos. Continuity and accounting: Una sola galeta repartida en dos trossos i les seves engrunes. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La galeta reposa plana al plat i les mans l’agafen als extrems. Falta la vora baixa sota el centre que ha de provocar la flexió i la ruptura en aquell punt.",
+      "reviewedAt": "2026-11-21T16:32:52+00:00"
+    }
+  ],
+  "status": "rejected"
+}

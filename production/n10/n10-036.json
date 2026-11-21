@@ -1,0 +1,125 @@
+{
+  "construction": {
+    "id": "n10-036",
+    "number": 36,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-036",
+    "counterpartId": "n10-136",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · estirar · tovallola / tassa → caure"
+    },
+    "labels": [
+      "HOME",
+      "ESTIRAR",
+      "TOVALLOLA",
+      "TASSA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-99499cd7f270",
+      "w-045fa0b1ae9d",
+      "w-adecb8403118",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tassa buida de plàstic es manté dreta sobre una tovallola que cobreix parcialment un banc baix."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el cantó de la tovallola a poc a poc. La base de la tassa es desplaça amb la tela i sobrepassa el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tassa és de costat a l’estora. La tovallola es veu sencera a les mans."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tassa amb nansa ampla i una tovallola amb una banda a cada extrem."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "a4c2541a2fe37558850227352d151de290db0fa91e72f69e606b0e3fef4b4868",
+      "file": "output/production/n10/n10-036/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tassa buida de plàstic es manté dreta sobre una tovallola que cobreix parcialment un banc baix. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el cantó de la tovallola a poc a poc. La base de la tassa es desplaça amb la tela i sobrepassa el cantell. RIGHT result: La tassa és de costat a l’estora. La tovallola es veu sencera a les mans. Continuity and accounting: Una tassa amb nansa ampla i una tovallola amb una banda a cada extrem. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tassa roman sobre la banda de tauler situada a la dreta de la tovallola quan l’home estira cap a l’esquerra. La base no acompanya la tela més enllà del cantell.",
+      "reviewedAt": "2026-11-21T16:25:30+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "941ab4426a0b46ef79d9fb9ab87bb30fdc752b4f50ac0277f3c8558f04848f3b",
+      "file": "output/production/n10/n10-036/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tassa buida de plàstic es manté dreta sobre una tovallola que cobreix parcialment un banc baix. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el cantó de la tovallola a poc a poc. La base de la tassa es desplaça amb la tela i sobrepassa el cantell. RIGHT result: La tassa és de costat a l’estora. La tovallola es veu sencera a les mans. Continuity and accounting: Una tassa amb nansa ampla i una tovallola amb una banda a cada extrem. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: La tassa roman sobre la banda de tauler situada a la dreta de la tovallola quan l’home estira cap a l’esquerra. La base no acompanya la tela més enllà del cantell. SIDE view, woman or man on the RIGHT of the low side table, towel's end hanging off right edge. Pull right towards the actor, sole cup moving with the towel: cup half over the exact RIGHT edge at the center moment, fully on floor beneath that edge last, whole cup in frame. Hands touch only towel. Preserve same table and show plausible friction under the cup.",
+      "review": "La base de la tassa segueix la tovallola quan l’home l’estira. La tassa s’inclina al cantell dret i acaba sencera a sota, amb la tovallola i les dues bandes visibles.",
+      "reviewedAt": "2026-11-21T16:48:58+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tassa buida de plàstic es manté dreta sobre una tovallola que cobreix parcialment un banc baix. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el cantó de la tovallola a poc a poc. La base de la tassa es desplaça amb la tela i sobrepassa el cantell. RIGHT result: La tassa és de costat a l’estora. La tovallola es veu sencera a les mans. Continuity and accounting: Una tassa amb nansa ampla i una tovallola amb una banda a cada extrem. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: La tassa roman sobre la banda de tauler situada a la dreta de la tovallola quan l’home estira cap a l’esquerra. La base no acompanya la tela més enllà del cantell. SIDE view, woman or man on the RIGHT of the low side table, towel's end hanging off right edge. Pull right towards the actor, sole cup moving with the towel: cup half over the exact RIGHT edge at the center moment, fully on floor beneath that edge last, whole cup in frame. Hands touch only towel. Preserve same table and show plausible friction under the cup.",
+  "review": "La base de la tassa segueix la tovallola quan l’home l’estira. La tassa s’inclina al cantell dret i acaba sencera a sota, amb la tovallola i les dues bandes visibles.",
+  "alt": {
+    "ca": "Un home estira la tovallola. La tassa que hi reposava es desplaça amb la tela i cau del banc.",
+    "es": "Un hombre tira de la toalla. La taza que estaba encima se desplaza con la tela y cae del banco."
+  },
+  "originalSha256": "941ab4426a0b46ef79d9fb9ab87bb30fdc752b4f50ac0277f3c8558f04848f3b",
+  "file": "output/production/n10/n10-036/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:48:58+00:00",
+  "tool": "ImageGen integrat"
+}

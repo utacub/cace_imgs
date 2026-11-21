@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-134",
+    "number": 134,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-034",
+    "counterpartId": "n10-034",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · agafar · cullera / pilota → baixar"
+    },
+    "labels": [
+      "ÓS",
+      "AGAFAR",
+      "CULLERA",
+      "PILOTA",
+      "BAIXAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-677819a0a32a",
+      "w-9c9849fac1d3",
+      "w-b7f578451973",
+      "w-3638c1a730c8",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "agent": {
+      "label": "ÓS",
+      "wordId": "w-a06249642996"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "outcome": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota reposa al replà inferior i la cullera encara és a la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "b81a162d4af5af26d061e51c8315ed19e258530e0d759f81ed8003c7f0da4f06",
+      "file": "output/production/n10/n10-134/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera. RIGHT result: La pilota reposa al replà inferior i la cullera encara és a la mà. Continuity and accounting: Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La cullera en contacte bloqueja la pilota al començament. Quan l’ós separa la cullera del canal, la pilota passa per l’espai lliure i acaba al seu replà.",
+      "reviewedAt": "2026-11-21T16:26:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera. RIGHT result: La pilota reposa al replà inferior i la cullera encara és a la mà. Continuity and accounting: Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La cullera en contacte bloqueja la pilota al començament. Quan l’ós separa la cullera del canal, la pilota passa per l’espai lliure i acaba al seu replà.",
+  "alt": {
+    "ca": "Un ós retira la cullera que barrava el pas. La pilota baixa fins al final del canal.",
+    "es": "Un oso retira la cuchara que bloqueaba el paso. La pelota baja hasta el final del canal."
+  },
+  "originalSha256": "b81a162d4af5af26d061e51c8315ed19e258530e0d759f81ed8003c7f0da4f06",
+  "file": "output/production/n10/n10-134/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:26:51+00:00",
+  "tool": "ImageGen integrat"
+}

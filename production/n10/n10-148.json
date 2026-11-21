@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-148",
+    "number": 148,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-048",
+    "counterpartId": "n10-048",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · tocar · pintura / davantal → brut"
+    },
+    "labels": [
+      "RUC",
+      "TOCAR",
+      "PINTURA",
+      "DAVANTAL",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-072ecc01e120",
+      "w-4e39a6280b90",
+      "w-df5e5b442a24",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "DAVANTAL",
+        "wordId": "w-df5e5b442a24"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "53d1380595398de934e26abcff9c1d57d87c614b517541eb06ea9034d56916b6",
+      "file": "output/production/n10/n10-148/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte. RIGHT result: En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal. Continuity and accounting: Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La mà es recolza amb els dits cap al costat esquerre, però les marques finals pugen verticalment. La forma i l’orientació de l’empremta han de correspondre als dits que toquen el davantal.",
+      "reviewedAt": "2026-11-21T16:28:56+00:00"
+    }
+  ],
+  "status": "rejected"
+}

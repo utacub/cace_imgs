@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-197",
+    "number": 197,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-097",
+    "counterpartId": "n10-097",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · estirar · llum → encès"
+    },
+    "labels": [
+      "ZEBRA",
+      "ESTIRAR",
+      "LLUM",
+      "ENCÈS",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-99499cd7f270",
+      "w-30c924a12d6f",
+      "w-f53919322490",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "LLUM",
+        "wordId": "w-30c924a12d6f"
+      }
+    ],
+    "outcome": {
+      "label": "ENCÈS",
+      "wordId": "w-f53919322490"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f23c27f0987e3f86f70e1d45f55e2e3affc9205b3cd383fc482f96750483814a",
+      "file": "output/production/n10/n10-197/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla. RIGHT result: Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula. Continuity and accounting: Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La zebra estira el cordill integrat just quan s’il·lumina la pantalla. La llum es manté quan la pota se separa i el cordill torna a la posició de repòs.",
+      "reviewedAt": "2026-11-21T16:40:45+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla. RIGHT result: Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula. Continuity and accounting: Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La zebra estira el cordill integrat just quan s’il·lumina la pantalla. La llum es manté quan la pota se separa i el cordill torna a la posició de repòs.",
+  "alt": {
+    "ca": "Una zebra estira el cordill de la làmpada i el llum s’encén.",
+    "es": "Una cebra tira del cordón de la lámpara y la luz se enciende."
+  },
+  "originalSha256": "f23c27f0987e3f86f70e1d45f55e2e3affc9205b3cd383fc482f96750483814a",
+  "file": "output/production/n10/n10-197/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:40:45+00:00",
+  "tool": "ImageGen integrat"
+}

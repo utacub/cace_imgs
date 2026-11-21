@@ -109,7 +109,28 @@
       "prompt": "Edit only the hands in panels two and three of this photo triptych. Both hands remain clearly away from the ball. Relocate the woman's near hand about 12 cm to the far-right portion of the top cover of the book; adjust its arm naturally, keeping the whole pose consistent. Both hands are on different parts of the book's upper cover and neither is touching or blocking the ball. The yellow purple-stripe ball rests firmly against the LEFT upright edge of the book. Keep all other scene elements including full book, fixed view, white backdrop, right table edge and number of panels unchanged. No words or graphics.",
       "review": "Els dits de la mà esquerra encara toquen o se superposen al contorn de la pilota en la fase de contacte. Cal una separació ben visible entre la mà i la pilota.",
       "reviewedAt": "2026-11-21T16:14:02+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "a56654920b222fda3918c621626ca879f30feb422f6d555a236ed91cb19f9dbf",
+      "file": "output/production/n10/n10-025/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma roda cap al cantell d’una taula baixa, amb el llibre a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Posa el llibre pla travessant el trajecte abans del cantell. La pilota ja toca el llom, encara sobre la taula. RIGHT result: La pilota resta contra el llom del llibre. El tram fins al cantell queda buit. Continuity and accounting: Una pilota amb un anell de color i un llibre rígid prou gruixut. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: Els dits de la mà esquerra encara toquen o se superposen al contorn de la pilota en la fase de contacte. Cal una separació ben visible entre la mà i la pilota. A young schoolgirl without glasses. In the center and right show ONE hand only on the FAR RIGHT end on TOP of the book, the other hand at her chest. Both hands have ample visible air gap to the striped small ball throughout all panels. The ball contacts only the book's left spine. Show same flat tabletop and generous unoccupied distance after heavy book to the right edge.",
+      "review": "El llibre s’interposa en el trajecte i toca la pilota amb el llom. Les mans queden separades de la pilota i aquesta resta aturada abans d’arribar al cantell dret.",
+      "reviewedAt": "2026-11-21T16:47:36+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma roda cap al cantell d’una taula baixa, amb el llibre a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Posa el llibre pla travessant el trajecte abans del cantell. La pilota ja toca el llom, encara sobre la taula. RIGHT result: La pilota resta contra el llom del llibre. El tram fins al cantell queda buit. Continuity and accounting: Una pilota amb un anell de color i un llibre rígid prou gruixut. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: Els dits de la mà esquerra encara toquen o se superposen al contorn de la pilota en la fase de contacte. Cal una separació ben visible entre la mà i la pilota. A young schoolgirl without glasses. In the center and right show ONE hand only on the FAR RIGHT end on TOP of the book, the other hand at her chest. Both hands have ample visible air gap to the striped small ball throughout all panels. The ball contacts only the book's left spine. Show same flat tabletop and generous unoccupied distance after heavy book to the right edge.",
+  "review": "El llibre s’interposa en el trajecte i toca la pilota amb el llom. Les mans queden separades de la pilota i aquesta resta aturada abans d’arribar al cantell dret.",
+  "alt": {
+    "ca": "Una nena posa un llibre davant de la pilota. La pilota topa amb el llom, que l’atura abans del cantell.",
+    "es": "Una niña pone un libro delante de la pelota. La pelota choca con el lomo, que la detiene antes del borde."
+  },
+  "originalSha256": "a56654920b222fda3918c621626ca879f30feb422f6d555a236ed91cb19f9dbf",
+  "file": "output/production/n10/n10-025/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:47:36+00:00",
+  "tool": "ImageGen integrat"
 }

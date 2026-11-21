@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-192",
+    "number": 192,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-092",
+    "counterpartId": "n10-092",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · tocar · aigua / got → tancar"
+    },
+    "labels": [
+      "GAT",
+      "TOCAR",
+      "AIGUA",
+      "GOT",
+      "TANCAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-072ecc01e120",
+      "w-00e8b2c10536",
+      "w-1bed9f18ebab",
+      "w-4000ec1e6d5b",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "outcome": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d1f43a4b24d0d8ded625053b84f8246a776919cc326c143ca4b59f60fd4b3cae",
+      "file": "output/production/n10/n10-192/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se. RIGHT result: La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida. Continuity and accounting: Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La pota abaixa la palanca de l’aixeta. El filet s’aprima mentre és a mig recorregut i cessa al final, amb l’aigua recollida al mateix got.",
+      "reviewedAt": "2026-11-21T16:39:18+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se. RIGHT result: La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida. Continuity and accounting: Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La pota abaixa la palanca de l’aixeta. El filet s’aprima mentre és a mig recorregut i cessa al final, amb l’aigua recollida al mateix got.",
+  "alt": {
+    "ca": "Un gat abaixa la palanca i atura el raig de l’aixeta. El got conserva l’aigua que ja havia recollit.",
+    "es": "Un gato baja la palanca y detiene el chorro del grifo. El vaso conserva el agua que ya había recogido."
+  },
+  "originalSha256": "d1f43a4b24d0d8ded625053b84f8246a776919cc326c143ca4b59f60fd4b3cae",
+  "file": "output/production/n10/n10-192/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:39:18+00:00",
+  "tool": "ImageGen integrat"
+}

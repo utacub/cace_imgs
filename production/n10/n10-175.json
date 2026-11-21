@@ -1,0 +1,98 @@
+{
+  "construction": {
+    "id": "n10-175",
+    "number": 175,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-075",
+    "counterpartId": "n10-075",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · estirar · plastilina → trencat"
+    },
+    "labels": [
+      "MICO",
+      "ESTIRAR",
+      "PLASTILINA",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-99499cd7f270",
+      "w-0606be9fcf92",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "agent": {
+      "label": "MICO",
+      "wordId": "w-12a87560751b"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un cordó curt de plastilina bicolor és sencer."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira els extrems fins que el centre queda molt més prim i s’obre una esquerda transversal."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les mans mostren dues parts amb l’estrenyiment repartit entre les dues vores."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cordó en dos trossos, cap porció afegida ni perduda."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "39e92411df558c1aefd6e5e8ee2ff2946831b7f89c4fd54f5f5a603506bd16f6",
+      "file": "output/production/n10/n10-175/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un cordó curt de plastilina bicolor és sencer. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira els extrems fins que el centre queda molt més prim i s’obre una esquerda transversal. RIGHT result: Les mans mostren dues parts amb l’estrenyiment repartit entre les dues vores. Continuity and accounting: Un cordó en dos trossos, cap porció afegida ni perduda. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El nombre de voltes de color augmenta en estirar el cordó i hi ha una altra peça aparent de plastilina a la taula. La imatge ha de permetre seguir una sola porció i els dos fragments que en resulten.",
+      "reviewedAt": "2026-11-21T16:34:06+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,112 @@
+{
+  "construction": {
+    "id": "n10-140",
+    "number": 140,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-040",
+    "counterpartId": "n10-040",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · posar · plat / aigua"
+    },
+    "labels": [
+      "ESQUIROL",
+      "POSAR",
+      "PLAT",
+      "AIGUA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-c211f7486a30",
+      "w-55d250f4cf1e",
+      "w-00e8b2c10536",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un broc fix deixa anar un raig fi en un test sense planta, amb forat inferior visible. L’aigua cau directament a una safata."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Fa lliscar un plat fondo sota el forat. El raig hi impacta i queda clarament retingut pel plat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El plat conté l’aigua recollida i el test continua degotant al centre del plat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un test elevat sobre dos suports, un plat transparent i un broc fix. Tot el degoteig anterior queda a la safata de base."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2a71900212397682ad26e76e662b2699a545a30980d0c772dad349e290225219",
+      "file": "output/production/n10/n10-140/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic squirrel; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un broc fix deixa anar un raig fi en un test sense planta, amb forat inferior visible. L’aigua cau directament a una safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Fa lliscar un plat fondo sota el forat. El raig hi impacta i queda clarament retingut pel plat. RIGHT result: El plat conté l’aigua recollida i el test continua degotant al centre del plat. Continuity and accounting: Un test elevat sobre dos suports, un plat transparent i un broc fix. Tot el degoteig anterior queda a la safata de base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El mateix broc manté el degoteig a través del test. L’esquirol interposa el plat i s’hi veu el raig que abans queia directament a la safata.",
+      "reviewedAt": "2026-11-21T16:28:56+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic squirrel; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un broc fix deixa anar un raig fi en un test sense planta, amb forat inferior visible. L’aigua cau directament a una safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Fa lliscar un plat fondo sota el forat. El raig hi impacta i queda clarament retingut pel plat. RIGHT result: El plat conté l’aigua recollida i el test continua degotant al centre del plat. Continuity and accounting: Un test elevat sobre dos suports, un plat transparent i un broc fix. Tot el degoteig anterior queda a la safata de base. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El mateix broc manté el degoteig a través del test. L’esquirol interposa el plat i s’hi veu el raig que abans queia directament a la safata.",
+  "alt": {
+    "ca": "Un esquirol posa un plat sota el forat del test i hi recull l’aigua que abans queia a la safata.",
+    "es": "Una ardilla pone un plato bajo el agujero de la maceta y recoge el agua que antes caía en la bandeja."
+  },
+  "originalSha256": "2a71900212397682ad26e76e662b2699a545a30980d0c772dad349e290225219",
+  "file": "output/production/n10/n10-140/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:28:56+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-158",
+    "number": 158,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-058",
+    "counterpartId": "n10-058",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · netejar · paper / taula → net"
+    },
+    "labels": [
+      "RUC",
+      "NETEJAR",
+      "PAPER",
+      "TAULA",
+      "NET",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-4e6be686e7c1",
+      "w-cd5c60f0d076",
+      "w-1544f4efec59",
+      "w-8cc4542c0125",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "NETEJAR",
+      "wordId": "w-4e6be686e7c1"
+    },
+    "referents": [
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      }
+    ],
+    "outcome": {
+      "label": "NET",
+      "wordId": "w-8cc4542c0125"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un sol pegat de plastilina blana plana és adherit a la taula i hi ha un tros de paper gruixut a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el paper contra el pegat i estira la vora. Un extrem de la plastilina es desprèn de la taula unit al paper."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El pegat sencer és adherit al paper i la taula queda neta al mateix lloc."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un tros de paper amb osca i una única porció de plastilina, sense restes noves."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2d0b781f5a5e1fa0fef6f5872b9972101b3dfe1af75b4aa22d29d5bbe0d65e96",
+      "file": "output/production/n10/n10-158/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un sol pegat de plastilina blana plana és adherit a la taula i hi ha un tros de paper gruixut a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el paper contra el pegat i estira la vora. Un extrem de la plastilina es desprèn de la taula unit al paper. RIGHT result: El pegat sencer és adherit al paper i la taula queda neta al mateix lloc. Continuity and accounting: Un tros de paper amb osca i una única porció de plastilina, sense restes noves. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "En estirar el full, s’aixeca la vora del pegat adherit. La peça sencera passa al mateix paper amb osca i la taula queda neta.",
+      "reviewedAt": "2026-11-21T16:31:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un sol pegat de plastilina blana plana és adherit a la taula i hi ha un tros de paper gruixut a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el paper contra el pegat i estira la vora. Un extrem de la plastilina es desprèn de la taula unit al paper. RIGHT result: El pegat sencer és adherit al paper i la taula queda neta al mateix lloc. Continuity and accounting: Un tros de paper amb osca i una única porció de plastilina, sense restes noves. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "En estirar el full, s’aixeca la vora del pegat adherit. La peça sencera passa al mateix paper amb osca i la taula queda neta.",
+  "alt": {
+    "ca": "Un ruc prem un paper contra la plastilina i l’estira. La plastilina es desprèn de la taula i queda enganxada al paper.",
+    "es": "Un burro presiona un papel contra la plastilina y lo tira. La plastilina se desprende de la mesa y queda pegada al papel."
+  },
+  "originalSha256": "2d0b781f5a5e1fa0fef6f5872b9972101b3dfe1af75b4aa22d29d5bbe0d65e96",
+  "file": "output/production/n10/n10-158/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:31:41+00:00",
+  "tool": "ImageGen integrat"
+}

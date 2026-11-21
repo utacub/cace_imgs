@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-098",
+    "number": 98,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-098",
+    "counterpartId": "n10-198",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · estirar · caixa / pal → obrir"
+    },
+    "labels": [
+      "NEN",
+      "ESTIRAR",
+      "CAIXA",
+      "PAL",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-99499cd7f270",
+      "w-696b7c739d30",
+      "w-c8538c4482a2",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una caixa amb tapa articulada està tancada per un passador de fusta inserit a les dues anelles del tancament."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el passador en línia recta fins que deixa d’unir les anelles. La segona mà és sota la vora de la tapa, preparada per aixecar-la."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tapa és oberta, amb el passador sencer a la primera mà i les dues anelles clarament separades."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa amb frontissa posterior i un únic passador curt de fusta."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "2bbcd3a6f007eb00100f1c91540015de6e6ef3644322322bc3591f4649189702",
+      "file": "output/production/n10/n10-098/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una caixa amb tapa articulada està tancada per un passador de fusta inserit a les dues anelles del tancament. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el passador en línia recta fins que deixa d’unir les anelles. La segona mà és sota la vora de la tapa, preparada per aixecar-la. RIGHT result: La tapa és oberta, amb el passador sencer a la primera mà i les dues anelles clarament separades. Continuity and accounting: Una caixa amb frontissa posterior i un únic passador curt de fusta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les dues anelles són fixades a la part frontal de la caixa, per sota de la junta, i cap no és solidària amb la tapa. En aquesta configuració el passador no pot impedir-ne l’obertura.",
+      "reviewedAt": "2026-11-21T16:25:30+00:00"
+    }
+  ],
+  "status": "rejected"
+}

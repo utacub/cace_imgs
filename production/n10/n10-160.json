@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-160",
+    "number": 160,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-060",
+    "counterpartId": "n10-060",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · posar · galleda / aigua / botes → mullat"
+    },
+    "labels": [
+      "ESQUIROL",
+      "POSAR",
+      "GALLEDA",
+      "AIGUA",
+      "BOTES",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-c211f7486a30",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-a644e017ea31",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "BOTES",
+        "wordId": "w-a644e017ea31"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un parell de botes seques és a la vora d’una safata. L’agent sosté una galleda amb poca aigua."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La galleda s’inclina i un filet d’aigua toca el lateral de la bota més propera abans de caure a la safata."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Només la bota propera mostra gotes i una superfície brillant local. El filet acaba al bassal de la safata."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Dues botes amb sengles preselles i una galleda amb broc. La galleda conté menys aigua."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "daa415165b0e846cc00e6d132643855584e362f7235e699fdc34d80dde117446",
+      "file": "output/production/n10/n10-160/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic squirrel; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un parell de botes seques és a la vora d’una safata. L’agent sosté una galleda amb poca aigua. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La galleda s’inclina i un filet d’aigua toca el lateral de la bota més propera abans de caure a la safata. RIGHT result: Només la bota propera mostra gotes i una superfície brillant local. El filet acaba al bassal de la safata. Continuity and accounting: Dues botes amb sengles preselles i una galleda amb broc. La galleda conté menys aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Es reconeixen la bota mullada i la safata de recollida, però la superfície d’aigua visible dins la galleda és a la mateixa alçada al principi i al final.",
+      "reviewedAt": "2026-11-21T16:31:41+00:00"
+    }
+  ],
+  "status": "rejected"
+}

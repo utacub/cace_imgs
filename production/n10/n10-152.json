@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-152",
+    "number": 152,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-052",
+    "counterpartId": "n10-052",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · posar · tassa / suc / llibre → mullat"
+    },
+    "labels": [
+      "GAT",
+      "POSAR",
+      "TASSA",
+      "SUC",
+      "LLIBRE",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-c211f7486a30",
+      "w-adecb8403118",
+      "w-e5decd679111",
+      "w-3bb995df42bf",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "SUC",
+        "wordId": "w-e5decd679111"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un llibre tancat i una tassa transparent amb poc suc reposen separats."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La tassa s’inclina a la mà. Es veu el suc vessar sobre la part baixa de la coberta."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tassa torna a estar dreta amb menys suc. La coberta és humida i hi ha suc retingut a la safata."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un llibre de coberta clara amb cercle i una tassa amb nansa. La safata recull el líquid sobrant."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b967f7468523e7d40a10cbb20a746abd7cabfa7c5dfe7e051c381facbd686fdb",
+      "file": "output/production/n10/n10-152/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un llibre tancat i una tassa transparent amb poc suc reposen separats. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La tassa s’inclina a la mà. Es veu el suc vessar sobre la part baixa de la coberta. RIGHT result: La tassa torna a estar dreta amb menys suc. La coberta és humida i hi ha suc retingut a la safata. Continuity and accounting: Un llibre de coberta clara amb cercle i una tassa amb nansa. La safata recull el líquid sobrant. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Al final queda pràcticament el mateix nivell de suc a la tassa que quan el llibre era sec, a més del bassal de la safata. Cal mostrar una disminució compatible amb el vessament.",
+      "reviewedAt": "2026-11-21T16:30:04+00:00"
+    }
+  ],
+  "status": "rejected"
+}

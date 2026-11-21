@@ -1,0 +1,118 @@
+{
+  "construction": {
+    "id": "n10-023",
+    "number": 23,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-023",
+    "counterpartId": "n10-123",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · obrir · caixa / galleda / peces → caure"
+    },
+    "labels": [
+      "DONA",
+      "OBRIR",
+      "CAIXA",
+      "GALLEDA",
+      "PECES",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-a10b29af07c7",
+      "w-696b7c739d30",
+      "w-7f04619a8649",
+      "w-776ec487889f",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una peça grossa reposa damunt d’una tapa corredissa. A través del frontal transparent de la caixa es veu una galleda baixa a sota de la peça."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira la tapa lateralment. Una vora fixa de la caixa reté la peça mentre la tapa deixa una obertura sota seu."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La peça és a la galleda, directament sota l’obertura. La tapa queda desplaçada."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola peça grossa, una tapa, una caixa i una galleda interior visible."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "ba4533a81601376781b825f422382fb8e849d05d158ef5adaec875f9590a447b",
+      "file": "output/production/n10/n10-023/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça grossa reposa damunt d’una tapa corredissa. A través del frontal transparent de la caixa es veu una galleda baixa a sota de la peça. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tapa lateralment. Una vora fixa de la caixa reté la peça mentre la tapa deixa una obertura sota seu. RIGHT result: La peça és a la galleda, directament sota l’obertura. La tapa queda desplaçada. Continuity and accounting: Una sola peça grossa, una tapa, una caixa i una galleda interior visible. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El referent que cau és una pilota. La fitxa demana que una peça de construcció rígida, i no una esfera, passi per l’obertura fins a la galleda.",
+      "reviewedAt": "2026-11-21T16:25:30+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "81b8cdd26d1ca1be4648fa1f1cdd9248d029db80b6bb33c39375dec148e1b5e2",
+      "file": "output/production/n10/n10-023/rejected-02.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una peça grossa reposa damunt d’una tapa corredissa. A través del frontal transparent de la caixa es veu una galleda baixa a sota de la peça. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tapa lateralment. Una vora fixa de la caixa reté la peça mentre la tapa deixa una obertura sota seu. RIGHT result: La peça és a la galleda, directament sota l’obertura. La tapa queda desplaçada. Continuity and accounting: Una sola peça grossa, una tapa, una caixa i una galleda interior visible. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: El referent que cau és una pilota. La fitxa demana que una peça de construcció rígida, i no una esfera, passi per l’obertura fins a la galleda. Use a small, bright blue rectangular interlocking toy construction block, NOT a ball, no rounded sphere. The lid slides sideways underneath the rigid block, a small fixed edge visibly keeps the block from following the lid, and opening is below that block, which drops through into a low green bucket. Lock the view with transparent rectangular front and same single block in all three.",
+      "review": "La vora fixa és al costat contrari a la direcció en què s’estira la tapa i no pot retenir la peça. A més, la peça final sembla enganxada a la cara de fora de la galleda opaca.",
+      "reviewedAt": "2026-11-21T16:47:36+00:00"
+    }
+  ],
+  "status": "rejected"
+}

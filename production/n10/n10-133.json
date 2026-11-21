@@ -1,0 +1,112 @@
+{
+  "construction": {
+    "id": "n10-133",
+    "number": 133,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-033",
+    "counterpartId": "n10-033",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · posar · peces / tren"
+    },
+    "labels": [
+      "GOS",
+      "POSAR",
+      "PECES",
+      "TREN",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-c211f7486a30",
+      "w-776ec487889f",
+      "w-b961c4c94862",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "agent": {
+      "label": "GOS",
+      "wordId": "w-4761fde107a7"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "TREN",
+        "wordId": "w-b961c4c94862"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un tren de joguina roda lentament cap al final d’un tauler baix. Una peça ampla és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Col·loca dreta la peça davant del tren. El frontal ja hi és en contacte mentre les rodes segueixen al tauler."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El tren resta frenat per la peça, separat del final del tauler."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un tren blau, una peça ampla amb base estable i el mateix tauler."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8a626f2faac832fa788a23ad61a53655ea65dc7efc80459ab595bafb93ac7e7b",
+      "file": "output/production/n10/n10-133/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic dog; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina roda lentament cap al final d’un tauler baix. Una peça ampla és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Col·loca dreta la peça davant del tren. El frontal ja hi és en contacte mentre les rodes segueixen al tauler. RIGHT result: El tren resta frenat per la peça, separat del final del tauler. Continuity and accounting: Un tren blau, una peça ampla amb base estable i el mateix tauler. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La peça groga s’interposa al recorregut. El frontal del mateix tren hi toca, les rodes queden al tauler i la peça es manté dreta quan el gos retira la pota.",
+      "reviewedAt": "2026-11-21T16:22:33+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic dog; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina roda lentament cap al final d’un tauler baix. Una peça ampla és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Col·loca dreta la peça davant del tren. El frontal ja hi és en contacte mentre les rodes segueixen al tauler. RIGHT result: El tren resta frenat per la peça, separat del final del tauler. Continuity and accounting: Un tren blau, una peça ampla amb base estable i el mateix tauler. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La peça groga s’interposa al recorregut. El frontal del mateix tren hi toca, les rodes queden al tauler i la peça es manté dreta quan el gos retira la pota.",
+  "alt": {
+    "ca": "Un gos col·loca una peça dreta davant del tren, que queda aturat abans del cantell.",
+    "es": "Un perro coloca una pieza de pie delante del tren, que queda detenido antes del borde."
+  },
+  "originalSha256": "8a626f2faac832fa788a23ad61a53655ea65dc7efc80459ab595bafb93ac7e7b",
+  "file": "output/production/n10/n10-133/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:22:33+00:00",
+  "tool": "ImageGen integrat"
+}

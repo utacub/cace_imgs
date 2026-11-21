@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-138",
+    "number": 138,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-038",
+    "counterpartId": "n10-038",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · obrir · bossa / pilota → caure"
+    },
+    "labels": [
+      "RUC",
+      "OBRIR",
+      "BOSSA",
+      "PILOTA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-a10b29af07c7",
+      "w-7db8d682fed4",
+      "w-b7f578451973",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "referents": [
+      {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una pilota d’escuma fa un bony dins d’una bossa de tela mantinguda amb la boca de costat i amb els llavis junts."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Orienta la boca cap avall i en separa els llavis. La pilota surt tocant el llavi inferior."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota és a l’estora i la bossa buida encara penja oberta."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota grossa a dos colors i una bossa de tela amb costura contrastada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b8fe6bca1e6ed7373a4e4f177ccb2b27b3cb4b31c19236e0a98ffb96bec9244d",
+      "file": "output/production/n10/n10-138/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma fa un bony dins d’una bossa de tela mantinguda amb la boca de costat i amb els llavis junts. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Orienta la boca cap avall i en separa els llavis. La pilota surt tocant el llavi inferior. RIGHT result: La pilota és a l’estora i la bossa buida encara penja oberta. Continuity and accounting: Una pilota grossa a dos colors i una bossa de tela amb costura contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La bossa es manté dreta i la pilota apareix a la seva obertura superior com si en pugés. Cal orientar l’obertura cap avall per llegir la sortida per gravetat.",
+      "reviewedAt": "2026-11-21T16:26:51+00:00"
+    }
+  ],
+  "status": "rejected"
+}

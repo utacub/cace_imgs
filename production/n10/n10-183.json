@@ -106,7 +106,28 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic dog; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una capsa de joguina és tancada. El botó mecànic sobresurt i la llengüeta en reté la tapa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó amb el polze. La llengüeta s’aparta, deixa lliure el cantell de la tapa i la tapa comença a pujar amb la frontissa de molla. RIGHT result: La tapa queda mig oberta, sense que la mà la toqui, amb la llengüeta encara apartada i el botó premut. Continuity and accounting: Una caixa amb botó ample, una llengüeta de color i una tapa amb frontissa limitada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Only ONE visibly fixed purple latch attached to base via a clearly visible circular pivot. It hooks the lid when closed and swivels away on the SAME pivot as the hero presses the red push switch. Third panel: lid widely open on visible spring hinge, hero's index remains depressing red button. Visible latch shape and position stable from middle to right, no extra purple piece.",
       "review": "La llengüeta i la molla ara es veuen bé, però l’altra pota està en contacte amb la tapa quan comença a obrir-se. La imatge encara permet atribuir l’obertura a la pota que toca la tapa.",
       "reviewedAt": "2026-11-21T16:04:13+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "a0b0fa9328f6997d85f530e584f3a9bb2b138148b7684831544cd708327a624c",
+      "file": "output/production/n10/n10-183/image.png",
+      "prompt": "Edit the image so the dog opens the spring box by pressing the red button and NEVER touching the lid. Preserve all style, layout, box latch, spring hinge and button details. In ALL panels the dog's unused paw must lie flat on the tabletop away from the box, fully in view. In middle and right panels the other paw visibly depresses the red button and the single purple latch is mechanically pivoted away as currently drawn. The lid opens from this spring pressure without contact with any paw. Do not let either paw touch any part of the lid. No text or graphic symbols.",
+      "review": "Ara es veu el botó premut, la mateixa llengüeta girada sobre l’eix i el ressort que separa la tapa de la caixa. La pota lliure es manté damunt de la taula i no hi ha contacte amb la tapa.",
+      "reviewedAt": "2026-11-21T16:25:30+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Edit the image so the dog opens the spring box by pressing the red button and NEVER touching the lid. Preserve all style, layout, box latch, spring hinge and button details. In ALL panels the dog's unused paw must lie flat on the tabletop away from the box, fully in view. In middle and right panels the other paw visibly depresses the red button and the single purple latch is mechanically pivoted away as currently drawn. The lid opens from this spring pressure without contact with any paw. Do not let either paw touch any part of the lid. No text or graphic symbols.",
+  "review": "Ara es veu el botó premut, la mateixa llengüeta girada sobre l’eix i el ressort que separa la tapa de la caixa. La pota lliure es manté damunt de la taula i no hi ha contacte amb la tapa.",
+  "alt": {
+    "ca": "Un gos prem el botó de la caixa. La llengüeta es retira i la molla obre la tapa.",
+    "es": "Un perro pulsa el botón de la caja. La lengüeta se retira y el muelle abre la tapa."
+  },
+  "originalSha256": "a0b0fa9328f6997d85f530e584f3a9bb2b138148b7684831544cd708327a624c",
+  "file": "output/production/n10/n10-183/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:25:30+00:00",
+  "tool": "ImageGen integrat"
 }

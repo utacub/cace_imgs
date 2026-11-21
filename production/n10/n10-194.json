@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-194",
+    "number": 194,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-094",
+    "counterpartId": "n10-094",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · posar · caixa / làmpada → fosc"
+    },
+    "labels": [
+      "ÓS",
+      "POSAR",
+      "CAIXA",
+      "LÀMPADA",
+      "FOSC",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-50c9f146baff",
+      "w-28b64969cd51",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "agent": {
+      "label": "ÓS",
+      "wordId": "w-a06249642996"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "LÀMPADA",
+        "wordId": "w-50c9f146baff"
+      }
+    ],
+    "outcome": {
+      "label": "FOSC",
+      "wordId": "w-28b64969cd51"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "abede01d27cdb9b55d37170be7a20972e680b20ff8490131db13197ae5aa1c1e",
+      "file": "output/production/n10/n10-194/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa. RIGHT result: La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa. Continuity and accounting: Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La caixa intercepta el feix de la làmpada i l’ombra apareix lligada a la base en el costat oposat. La làmpada manté la mateixa posició i continua encesa.",
+      "reviewedAt": "2026-11-21T16:40:44+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa. RIGHT result: La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa. Continuity and accounting: Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La caixa intercepta el feix de la làmpada i l’ombra apareix lligada a la base en el costat oposat. La làmpada manté la mateixa posició i continua encesa.",
+  "alt": {
+    "ca": "Un ós posa una caixa en el pas de la llum. La caixa projecta una ombra sobre la taula.",
+    "es": "Un oso pone una caja en el paso de la luz. La caja proyecta una sombra sobre la mesa."
+  },
+  "originalSha256": "abede01d27cdb9b55d37170be7a20972e680b20ff8490131db13197ae5aa1c1e",
+  "file": "output/production/n10/n10-194/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:40:44+00:00",
+  "tool": "ImageGen integrat"
+}

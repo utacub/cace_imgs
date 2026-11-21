@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-157",
+    "number": 157,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-057",
+    "counterpartId": "n10-057",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · assecar · tovallola / cullera → sec"
+    },
+    "labels": [
+      "ZEBRA",
+      "ASSECAR",
+      "TOVALLOLA",
+      "CULLERA",
+      "SEC",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-ae417aa563dd",
+      "w-045fa0b1ae9d",
+      "w-9c9849fac1d3",
+      "w-88d8bd2c2fd2",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "ASSECAR",
+      "wordId": "w-ae417aa563dd"
+    },
+    "referents": [
+      {
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "outcome": {
+      "label": "SEC",
+      "wordId": "w-88d8bd2c2fd2"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una cullera gran té unes gotes visibles a la concavitat i la tovallola és seca."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem la tovallola dins la concavitat i es veu el teixit enfosquir-se al punt on hi havia les gotes."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La concavitat és seca i una petita zona de la tovallola és humida."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una cullera amb mànec verd i una tovallola amb rivet gris."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "894420fe2b8fcf881efcc2ce73807383790a41a71d7953538a894beb08f8dbcd",
+      "file": "output/production/n10/n10-157/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera gran té unes gotes visibles a la concavitat i la tovallola és seca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la tovallola dins la concavitat i es veu el teixit enfosquir-se al punt on hi havia les gotes. RIGHT result: La concavitat és seca i una petita zona de la tovallola és humida. Continuity and accounting: Una cullera amb mànec verd i una tovallola amb rivet gris. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La pota posa la tela exactament sobre les tres gotes de la cullera. El resultat mostra la cullera seca i una petita zona de la mateixa tela humida.",
+      "reviewedAt": "2026-11-21T16:31:41+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera gran té unes gotes visibles a la concavitat i la tovallola és seca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la tovallola dins la concavitat i es veu el teixit enfosquir-se al punt on hi havia les gotes. RIGHT result: La concavitat és seca i una petita zona de la tovallola és humida. Continuity and accounting: Una cullera amb mànec verd i una tovallola amb rivet gris. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La pota posa la tela exactament sobre les tres gotes de la cullera. El resultat mostra la cullera seca i una petita zona de la mateixa tela humida.",
+  "alt": {
+    "ca": "Una zebra eixuga la cullera amb una tovallola. L’aigua de la cullera mulla la tovallola.",
+    "es": "Una cebra seca la cuchara con una toalla. El agua de la cuchara moja la toalla."
+  },
+  "originalSha256": "894420fe2b8fcf881efcc2ce73807383790a41a71d7953538a894beb08f8dbcd",
+  "file": "output/production/n10/n10-157/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:31:41+00:00",
+  "tool": "ImageGen integrat"
+}

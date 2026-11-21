@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-154",
+    "number": 154,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-054",
+    "counterpartId": "n10-054",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · netejar · esponja / plat → net"
+    },
+    "labels": [
+      "ÓS",
+      "NETEJAR",
+      "ESPONJA",
+      "PLAT",
+      "NET",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-4e6be686e7c1",
+      "w-2d404e0d8979",
+      "w-55d250f4cf1e",
+      "w-8cc4542c0125",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "agent": {
+      "label": "ÓS",
+      "wordId": "w-a06249642996"
+    },
+    "trigger": {
+      "label": "NETEJAR",
+      "wordId": "w-4e6be686e7c1"
+    },
+    "referents": [
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "NET",
+      "wordId": "w-8cc4542c0125"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un plat té una única resta compacta de farina humida i l’esponja és neta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "L’esponja toca la resta. El rastre s’acumula a la cara frontal de l’esponja mentre deixa net el pas."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El plat és net al punt inicial. La resta es veu enganxada a la mateixa esponja."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un plat amb sanefa exterior i una esponja clara amb punta tallada en diagonal."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "678e0abe56b9bd6fd8c88397639fed598812f63fabeb8f53f30f6e7399cbcadb",
+      "file": "output/production/n10/n10-154/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un plat té una única resta compacta de farina humida i l’esponja és neta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: L’esponja toca la resta. El rastre s’acumula a la cara frontal de l’esponja mentre deixa net el pas. RIGHT result: El plat és net al punt inicial. La resta es veu enganxada a la mateixa esponja. Continuity and accounting: Un plat amb sanefa exterior i una esponja clara amb punta tallada en diagonal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El costat tallat de l’esponja fa contacte amb la resta del plat. La mateixa resta es veu a la punta de l’esponja un cop retirat el suport, i el plat queda net.",
+      "reviewedAt": "2026-11-21T16:30:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un plat té una única resta compacta de farina humida i l’esponja és neta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: L’esponja toca la resta. El rastre s’acumula a la cara frontal de l’esponja mentre deixa net el pas. RIGHT result: El plat és net al punt inicial. La resta es veu enganxada a la mateixa esponja. Continuity and accounting: Un plat amb sanefa exterior i una esponja clara amb punta tallada en diagonal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El costat tallat de l’esponja fa contacte amb la resta del plat. La mateixa resta es veu a la punta de l’esponja un cop retirat el suport, i el plat queda net.",
+  "alt": {
+    "ca": "Un ós neteja el plat amb una esponja. La resta del plat queda enganxada a l’esponja.",
+    "es": "Un oso limpia el plato con una esponja. El resto del plato queda pegado a la esponja."
+  },
+  "originalSha256": "678e0abe56b9bd6fd8c88397639fed598812f63fabeb8f53f30f6e7399cbcadb",
+  "file": "output/production/n10/n10-154/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:30:04+00:00",
+  "tool": "ImageGen integrat"
+}

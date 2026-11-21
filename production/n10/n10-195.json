@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-195",
+    "number": 195,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-095",
+    "counterpartId": "n10-095",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · aixecar · rampa / cistell → pujar"
+    },
+    "labels": [
+      "MICO",
+      "AIXECAR",
+      "RAMPA",
+      "CISTELL",
+      "PUJAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-e12d88415c80",
+      "w-9079294dc56e",
+      "w-120fb6b37e88",
+      "w-478890c976ea",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "agent": {
+      "label": "MICO",
+      "wordId": "w-12a87560751b"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "outcome": {
+      "label": "PUJAR",
+      "wordId": "w-478890c976ea"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una rampa és gairebé plana amb el cistell al seu extrem exterior i la frontissa a l’altre extrem."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Aixeca l’extrem exterior agafant la vora. Una travessa baixa reté el cistell sense amagar la base."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El cistell queda més alt respecte d’un banc fix, encara recolzat sobre la plataforma alçada."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cistell buit amb nansa taronja, una plataforma amb frontissa visible i una travessa."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "36329d18e906cd786f83135301c7909a034f25285b84ea4296bf5c07f1135ce1",
+      "file": "output/production/n10/n10-195/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una rampa és gairebé plana amb el cistell al seu extrem exterior i la frontissa a l’altre extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Aixeca l’extrem exterior agafant la vora. Una travessa baixa reté el cistell sense amagar la base. RIGHT result: El cistell queda més alt respecte d’un banc fix, encara recolzat sobre la plataforma alçada. Continuity and accounting: Un cistell buit amb nansa taronja, una plataforma amb frontissa visible i una travessa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El mico aixeca la mateixa plataforma sobre la frontissa i el cistell queda a més altura que el banc fix. El suport articulat resultant manté la plataforma elevada i el cistell continua recolzat.",
+      "reviewedAt": "2026-11-21T16:40:44+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una rampa és gairebé plana amb el cistell al seu extrem exterior i la frontissa a l’altre extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Aixeca l’extrem exterior agafant la vora. Una travessa baixa reté el cistell sense amagar la base. RIGHT result: El cistell queda més alt respecte d’un banc fix, encara recolzat sobre la plataforma alçada. Continuity and accounting: Un cistell buit amb nansa taronja, una plataforma amb frontissa visible i una travessa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El mico aixeca la mateixa plataforma sobre la frontissa i el cistell queda a més altura que el banc fix. El suport articulat resultant manté la plataforma elevada i el cistell continua recolzat.",
+  "alt": {
+    "ca": "Un mico alça un extrem de la plataforma. El cistell que hi reposa queda més alt.",
+    "es": "Un mono levanta un extremo de la plataforma. El cesto que está encima queda más alto."
+  },
+  "originalSha256": "36329d18e906cd786f83135301c7909a034f25285b84ea4296bf5c07f1135ce1",
+  "file": "output/production/n10/n10-195/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:40:44+00:00",
+  "tool": "ImageGen integrat"
+}

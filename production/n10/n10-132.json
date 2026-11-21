@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-132",
+    "number": 132,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-032",
+    "counterpartId": "n10-032",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · aixecar · rampa / cotxe → baixar"
+    },
+    "labels": [
+      "GAT",
+      "AIXECAR",
+      "RAMPA",
+      "COTXE",
+      "BAIXAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-e12d88415c80",
+      "w-9079294dc56e",
+      "w-1088e4bd6972",
+      "w-3638c1a730c8",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "COTXE",
+        "wordId": "w-1088e4bd6972"
+      }
+    ],
+    "outcome": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un cotxe de joguina reposa sobre una rampa abatible inicialment plana."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Alça lentament un extrem. Les rodes del cotxe continuen en contacte i giren cap a l’extrem baix."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El cotxe queda a terra més enllà del peu de la rampa. L’extrem superior segueix alçat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una rampa amb frontissa visible a un extrem i un cotxe de sostre verd."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7ca586d4440ce1f710bb943be1830a9d7eb3b938beaa900ee65628e56dacddcb",
+      "file": "output/production/n10/n10-132/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un cotxe de joguina reposa sobre una rampa abatible inicialment plana. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Alça lentament un extrem. Les rodes del cotxe continuen en contacte i giren cap a l’extrem baix. RIGHT result: El cotxe queda a terra més enllà del peu de la rampa. L’extrem superior segueix alçat. Continuity and accounting: Una rampa amb frontissa visible a un extrem i un cotxe de sostre verd. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La frontissa queda fixa i la pota alça l’extrem oposat. El cotxe baixa fins al punt de frontissa i acaba fora de la rampa, amb la mida i el sostre verd conservats.",
+      "reviewedAt": "2026-11-21T16:22:33+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un cotxe de joguina reposa sobre una rampa abatible inicialment plana. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Alça lentament un extrem. Les rodes del cotxe continuen en contacte i giren cap a l’extrem baix. RIGHT result: El cotxe queda a terra més enllà del peu de la rampa. L’extrem superior segueix alçat. Continuity and accounting: Una rampa amb frontissa visible a un extrem i un cotxe de sostre verd. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La frontissa queda fixa i la pota alça l’extrem oposat. El cotxe baixa fins al punt de frontissa i acaba fora de la rampa, amb la mida i el sostre verd conservats.",
+  "alt": {
+    "ca": "Un gat aixeca un extrem de la rampa. El cotxe de joguina roda pendent avall fins que surt de la rampa.",
+    "es": "Un gato levanta un extremo de la rampa. El coche de juguete rueda cuesta abajo hasta salir de la rampa."
+  },
+  "originalSha256": "7ca586d4440ce1f710bb943be1830a9d7eb3b938beaa900ee65628e56dacddcb",
+  "file": "output/production/n10/n10-132/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:22:33+00:00",
+  "tool": "ImageGen integrat"
+}

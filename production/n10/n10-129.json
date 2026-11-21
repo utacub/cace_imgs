@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-129",
+    "number": 129,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-029",
+    "counterpartId": "n10-029",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "porc · tancar · galleda / aigua → ple"
+    },
+    "labels": [
+      "PORC",
+      "TANCAR",
+      "GALLEDA",
+      "AIGUA",
+      "PLE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-7db51860bac9",
+      "w-4000ec1e6d5b",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-427a0daa495d",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-7db51860bac9",
+    "agent": {
+      "label": "PORC",
+      "wordId": "w-7db51860bac9"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": {
+      "label": "PLE",
+      "wordId": "w-427a0daa495d"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c3bff02ce76f85e1ad6dcf1b352347ba4ae01fdc65fc087bfa3b7a5cb70e6a33",
+      "file": "output/production/n10/n10-129/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible. RIGHT result: El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat. Continuity and accounting: Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El broc manté el cabal d’entrada i el tap talla l’única sortida. El nivell de la galleda puja amb el tap posat i es conserva l’aigua recollida a la safata.",
+      "reviewedAt": "2026-11-21T16:22:33+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible. RIGHT result: El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat. Continuity and accounting: Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El broc manté el cabal d’entrada i el tap talla l’única sortida. El nivell de la galleda puja amb el tap posat i es conserva l’aigua recollida a la safata.",
+  "alt": {
+    "ca": "Un porc col·loca el tap al desguàs. L’aigua deixa de sortir i puja de nivell dins la galleda.",
+    "es": "Un cerdo coloca el tapón en el desagüe. El agua deja de salir y sube de nivel dentro del cubo."
+  },
+  "originalSha256": "c3bff02ce76f85e1ad6dcf1b352347ba4ae01fdc65fc087bfa3b7a5cb70e6a33",
+  "file": "output/production/n10/n10-129/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:22:33+00:00",
+  "tool": "ImageGen integrat"
+}

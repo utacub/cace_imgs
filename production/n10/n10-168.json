@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-168",
+    "number": 168,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-068",
+    "counterpartId": "n10-068",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · estirar · globus → llarg"
+    },
+    "labels": [
+      "RUC",
+      "ESTIRAR",
+      "GLOBUS",
+      "LLARG",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-99499cd7f270",
+      "w-f19cff282499",
+      "w-8c01add53f6c",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      }
+    ],
+    "outcome": {
+      "label": "LLARG",
+      "wordId": "w-8c01add53f6c"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un globus desinflat de làtex és pla damunt de la taula."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Manté el globus notablement allargat, amb la boca recognoscible i el centre estret."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "71beaaf5117b36c0f9f9129ae2a7c2604b3da5e0f8f9d364a4eabd3e3c29bef1",
+      "file": "output/production/n10/n10-168/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un globus desinflat de làtex és pla damunt de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret. RIGHT result: Manté el globus notablement allargat, amb la boca recognoscible i el centre estret. Continuity and accounting: Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El globus parteix desinflat amb la boca ben visible. La tracció dels dos extrems fa que s’allargui i s’estrenyi, amb la boca oberta i la peça sencera.",
+      "reviewedAt": "2026-11-21T16:32:52+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un globus desinflat de làtex és pla damunt de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret. RIGHT result: Manté el globus notablement allargat, amb la boca recognoscible i el centre estret. Continuity and accounting: Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El globus parteix desinflat amb la boca ben visible. La tracció dels dos extrems fa que s’allargui i s’estrenyi, amb la boca oberta i la peça sencera.",
+  "alt": {
+    "ca": "Un ruc estira els extrems d’un globus desinflat i el làtex queda més llarg i estret.",
+    "es": "Un burro estira los extremos de un globo desinflado y el látex queda más largo y estrecho."
+  },
+  "originalSha256": "71beaaf5117b36c0f9f9129ae2a7c2604b3da5e0f8f9d364a4eabd3e3c29bef1",
+  "file": "output/production/n10/n10-168/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:32:52+00:00",
+  "tool": "ImageGen integrat"
+}

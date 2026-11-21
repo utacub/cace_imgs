@@ -106,7 +106,28 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda cap per avall sosté una pilota d’escuma encaixada al cul sobre una vora baixa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Inclina i aixeca la galleda per la nansa. La pilota surt de la concavitat pel costat baix. RIGHT result: La pilota és a l’estora. La galleda és buida i encara és a la mà. Continuity and accounting: Una galleda amb nansa recta i una pilota amb dues bandes. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: IMPORTANT in panel one a yellow foam ball with two stripes is entirely visible PERCHED ABOVE the upward-facing flat closed base of an UPSIDE-DOWN bucket; the OPEN mouth of the bucket faces down and the handle is folded down against the bucket. In side view the bottom of the ball directly touches a shallow cup-shaped depression in the outer base on the TOP of the inverted bucket. DO NOT put the ball below or inside the bucket. The agent tilts the inverted bucket holding it by handle, the ball rolls off the TOP, then lies to its side on the mat.",
       "review": "La pilota es veu correctament sobre la base a l’inici. A la fase central, però, ja apareix sota la boca de la galleda i a tocar de l’estora. Queda amagada la sortida de la concavitat superior.",
       "reviewedAt": "2026-11-21T16:01:11+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "b104f57f0ed9f9bfad9a2fe06b1481d2d32021698bafa26e345dc78a23b2c5eb",
+      "file": "output/production/n10/n10-022/image.png",
+      "prompt": "Edit only the middle photo of this three-panel series. Make the SAME bucket stay almost inverted as the man raises one rim of it slightly, tipping the CLOSED narrow top only 30 degrees downward to the right. Keep the mouth of the bucket facing down-left, out of sight in the white scene. The foam ball in the middle is still high up at the tilted CLOSED narrow end, visibly touching the right edge of the closed end from which it is rolling off. Do not place the ball at the mouth or on the mat in the middle photo. Maintain continuity of the ball stripes, bucket, body, position, all proportions, fixed view and white backdrop. First and third photo unchanged. No graphic arrows or labels.",
+      "review": "La pilota és damunt la part tancada de la galleda invertida. En inclinar-la, encara es veu la pilota a la vora baixa de la mateixa base abans de caure a l’estora.",
+      "reviewedAt": "2026-11-21T16:25:30+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Edit only the middle photo of this three-panel series. Make the SAME bucket stay almost inverted as the man raises one rim of it slightly, tipping the CLOSED narrow top only 30 degrees downward to the right. Keep the mouth of the bucket facing down-left, out of sight in the white scene. The foam ball in the middle is still high up at the tilted CLOSED narrow end, visibly touching the right edge of the closed end from which it is rolling off. Do not place the ball at the mouth or on the mat in the middle photo. Maintain continuity of the ball stripes, bucket, body, position, all proportions, fixed view and white backdrop. First and third photo unchanged. No graphic arrows or labels.",
+  "review": "La pilota és damunt la part tancada de la galleda invertida. En inclinar-la, encara es veu la pilota a la vora baixa de la mateixa base abans de caure a l’estora.",
+  "alt": {
+    "ca": "Un noi inclina la galleda invertida que sosté la pilota. La pilota perd el suport i cau.",
+    "es": "Un chico inclina el cubo invertido que sostiene la pelota. La pelota pierde el apoyo y cae."
+  },
+  "originalSha256": "b104f57f0ed9f9bfad9a2fe06b1481d2d32021698bafa26e345dc78a23b2c5eb",
+  "file": "output/production/n10/n10-022/image.png",
+  "width": 2149,
+  "height": 732,
+  "created": "2026-11-21T16:25:30+00:00",
+  "tool": "ImageGen integrat"
 }

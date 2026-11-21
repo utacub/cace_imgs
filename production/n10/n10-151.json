@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-151",
+    "number": 151,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-051",
+    "counterpartId": "n10-051",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · posar · farina / taula / plat → brut"
+    },
+    "labels": [
+      "CONILL",
+      "POSAR",
+      "FARINA",
+      "TAULA",
+      "PLAT",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-c211f7486a30",
+      "w-597d62285b22",
+      "w-1544f4efec59",
+      "w-55d250f4cf1e",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "FARINA",
+        "wordId": "w-597d62285b22"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un plat fondo conté un munt petit de farina i la taula és neta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Inclina el plat. Un filet de farina cau de la vora i arriba al mateix punt de la taula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "A la taula hi ha un munt petit al punt d’impacte. Queda menys farina al plat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un plat amb vora ampla i una safata fosca sobre la taula que recull tota la farina."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "48e2af795a7a1f8053768ebd59ae93683f891072d5a1ad47776a1026376fe8aa",
+      "file": "output/production/n10/n10-151/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic rabbit; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un plat fondo conté un munt petit de farina i la taula és neta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Inclina el plat. Un filet de farina cau de la vora i arriba al mateix punt de la taula. RIGHT result: A la taula hi ha un munt petit al punt d’impacte. Queda menys farina al plat. Continuity and accounting: Un plat amb vora ampla i una safata fosca sobre la taula que recull tota la farina. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El filet de farina comunica el plat inclinat amb el punt de la safata on es forma un munt. Al final encara es veu la porció restant al plat.",
+      "reviewedAt": "2026-11-21T16:30:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic rabbit; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un plat fondo conté un munt petit de farina i la taula és neta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Inclina el plat. Un filet de farina cau de la vora i arriba al mateix punt de la taula. RIGHT result: A la taula hi ha un munt petit al punt d’impacte. Queda menys farina al plat. Continuity and accounting: Un plat amb vora ampla i una safata fosca sobre la taula que recull tota la farina. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El filet de farina comunica el plat inclinat amb el punt de la safata on es forma un munt. Al final encara es veu la porció restant al plat.",
+  "alt": {
+    "ca": "Un conill inclina el plat. Una part de la farina cau a la safata i hi forma un munt.",
+    "es": "Un conejo inclina el plato. Parte de la harina cae en la bandeja y forma un montón."
+  },
+  "originalSha256": "48e2af795a7a1f8053768ebd59ae93683f891072d5a1ad47776a1026376fe8aa",
+  "file": "output/production/n10/n10-151/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:30:04+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-178",
+    "number": 178,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-078",
+    "counterpartId": "n10-078",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · posar · pa / plat → llis"
+    },
+    "labels": [
+      "RUC",
+      "POSAR",
+      "PA",
+      "PLAT",
+      "LLIS",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-c211f7486a30",
+      "w-96e21018e871",
+      "w-55d250f4cf1e",
+      "w-1e7405a97c69",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "LLIS",
+      "wordId": "w-1e7405a97c69"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una llesca de pa tou és gruixuda sobre una base rígida. El plat és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem la part plana del plat contra la llesca. Sota el plat s’aplana i s’eixampla la molla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En alçar el plat, la llesca té una cara plana més ampla i un gruix menor."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola llesca amb crosta contínua i un plat de plàstic. No separar ni afegir trossos."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4e39e250f4427d83f98990e5e2cc0403e88f46bc8f01522eecaa05abc1997e76",
+      "file": "output/production/n10/n10-178/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una llesca de pa tou és gruixuda sobre una base rígida. El plat és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la part plana del plat contra la llesca. Sota el plat s’aplana i s’eixampla la molla. RIGHT result: En alçar el plat, la llesca té una cara plana més ampla i un gruix menor. Continuity and accounting: Una sola llesca amb crosta contínua i un plat de plàstic. No separar ni afegir trossos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El plat posa pressió sobre la mateixa llesca sencera. La crosta manté el contorn i el pa s’eixampla i queda més baix un cop retirat el plat.",
+      "reviewedAt": "2026-11-21T16:36:27+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una llesca de pa tou és gruixuda sobre una base rígida. El plat és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la part plana del plat contra la llesca. Sota el plat s’aplana i s’eixampla la molla. RIGHT result: En alçar el plat, la llesca té una cara plana més ampla i un gruix menor. Continuity and accounting: Una sola llesca amb crosta contínua i un plat de plàstic. No separar ni afegir trossos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El plat posa pressió sobre la mateixa llesca sencera. La crosta manté el contorn i el pa s’eixampla i queda més baix un cop retirat el plat.",
+  "alt": {
+    "ca": "Un ruc pressiona una llesca de pa amb un plat. La mateixa llesca queda més plana i ampla.",
+    "es": "Un burro presiona una rebanada de pan con un plato. La misma rebanada queda más plana y ancha."
+  },
+  "originalSha256": "4e39e250f4427d83f98990e5e2cc0403e88f46bc8f01522eecaa05abc1997e76",
+  "file": "output/production/n10/n10-178/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:36:27+00:00",
+  "tool": "ImageGen integrat"
+}

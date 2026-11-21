@@ -98,7 +98,28 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma fa un bony dins d’una bossa de tela mantinguda amb la boca de costat i amb els llavis junts. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Orienta la boca cap avall i en separa els llavis. La pilota surt tocant el llavi inferior. RIGHT result: La pilota és a l’estora i la bossa buida encara penja oberta. Continuity and accounting: Una pilota grossa a dos colors i una bossa de tela amb costura contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
       "review": "La boca del nen toca la bossa o la pilota en les primeres fases. El contacte addicional dificulta atribuir la caiguda només a l’obertura de la bossa.",
       "reviewedAt": "2026-11-21T16:16:17+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "7a1f8618653eff9a69ffc161eb222cc3c45c4be2bdd80ff122097c4fcb2df6a2",
+      "file": "output/production/n10/n10-038/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma fa un bony dins d’una bossa de tela mantinguda amb la boca de costat i amb els llavis junts. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Orienta la boca cap avall i en separa els llavis. La pilota surt tocant el llavi inferior. RIGHT result: La pilota és a l’estora i la bossa buida encara penja oberta. Continuity and accounting: Una pilota grossa a dos colors i una bossa de tela amb costura contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: La boca del nen toca la bossa o la pilota en les primeres fases. El contacte addicional dificulta atribuir la caiguda només a l’obertura de la bossa. ",
+      "review": "El bony inicial indica la pilota dins de la bossa. Les mans orienten l’obertura cap avall i es veu la pilota tocar el llavi inferior quan surt. Al final la mateixa pilota reposa a l’estora.",
+      "reviewedAt": "2026-11-21T16:48:58+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma fa un bony dins d’una bossa de tela mantinguda amb la boca de costat i amb els llavis junts. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Orienta la boca cap avall i en separa els llavis. La pilota surt tocant el llavi inferior. RIGHT result: La pilota és a l’estora i la bossa buida encara penja oberta. Continuity and accounting: Una pilota grossa a dos colors i una bossa de tela amb costura contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: La boca del nen toca la bossa o la pilota en les primeres fases. El contacte addicional dificulta atribuir la caiguda només a l’obertura de la bossa. ",
+  "review": "El bony inicial indica la pilota dins de la bossa. Les mans orienten l’obertura cap avall i es veu la pilota tocar el llavi inferior quan surt. Al final la mateixa pilota reposa a l’estora.",
+  "alt": {
+    "ca": "Un nen obre la bossa amb l’obertura cap avall i la pilota cau a l’estora.",
+    "es": "Un niño abre la bolsa con la abertura hacia abajo y la pelota cae a la esterilla."
+  },
+  "originalSha256": "7a1f8618653eff9a69ffc161eb222cc3c45c4be2bdd80ff122097c4fcb2df6a2",
+  "file": "output/production/n10/n10-038/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:48:58+00:00",
+  "tool": "ImageGen integrat"
 }

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-119",
+    "number": 119,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-019",
+    "counterpartId": "n10-019",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "porc · tocar · vaixell / plastilina → caure"
+    },
+    "labels": [
+      "PORC",
+      "TOCAR",
+      "VAIXELL",
+      "PLASTILINA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-7db51860bac9",
+      "w-072ecc01e120",
+      "w-f94e3ce6d6e3",
+      "w-0606be9fcf92",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-7db51860bac9",
+    "agent": {
+      "label": "PORC",
+      "wordId": "w-7db51860bac9"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "VAIXELL",
+        "wordId": "w-f94e3ce6d6e3"
+      },
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les tres peces de la pila són a la taula, ajagudes prop de la proa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un vaixell de joguina i tres peces amples de plastilina de colors fixos."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "fbcf3ef6ff9f3e1b06bd74d80d2ff4b589ee8349d6748f85a3b6ecca859b8538",
+      "file": "output/production/n10/n10-119/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça. RIGHT result: Les tres peces de la pila són a la taula, ajagudes prop de la proa. Continuity and accounting: Un vaixell de joguina i tres peces amples de plastilina de colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La proa del vaixell toca la peça de baix i la desplaça lateralment. Les peces de dalt perden l’equilibri i al final es compten les tres peces del mateix color i forma.",
+      "reviewedAt": "2026-11-21T16:42:12+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic pig; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça. RIGHT result: Les tres peces de la pila són a la taula, ajagudes prop de la proa. Continuity and accounting: Un vaixell de joguina i tres peces amples de plastilina de colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La proa del vaixell toca la peça de baix i la desplaça lateralment. Les peces de dalt perden l’equilibri i al final es compten les tres peces del mateix color i forma.",
+  "alt": {
+    "ca": "Un porc fa avançar el vaixell de joguina. La proa empeny la peça inferior i fa caure la pila.",
+    "es": "Un cerdo hace avanzar el barco de juguete. La proa empuja la pieza inferior y tira la pila."
+  },
+  "originalSha256": "fbcf3ef6ff9f3e1b06bd74d80d2ff4b589ee8349d6748f85a3b6ecca859b8538",
+  "file": "output/production/n10/n10-119/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:42:12+00:00",
+  "tool": "ImageGen integrat"
+}

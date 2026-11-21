@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-137",
+    "number": 137,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-037",
+    "counterpartId": "n10-037",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · tancar · paraigua / aigua / llibre → mullat"
+    },
+    "labels": [
+      "ZEBRA",
+      "TANCAR",
+      "PARAIGUA",
+      "AIGUA",
+      "LLIBRE",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-4000ec1e6d5b",
+      "w-057e09311c15",
+      "w-00e8b2c10536",
+      "w-3bb995df42bf",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "PARAIGUA",
+        "wordId": "w-057e09311c15"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un broc fix deixa anar un raig suau sobre un paraigua obert. Sota la cúpula hi ha un llibre tancat sobre un suport sec."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "En plegar el paraigua cap al costat, la cúpula deixa lliure el pas i es veu el mateix raig impactar a la coberta."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El llibre té una taca mullada al punt d’impacte. El paraigua tancat és a la mà i el raig de la mateixa font encara toca el llibre."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un llibre amb llom lila, un paraigua de tres colors, el mateix broc fix i una safata que recull tota l’aigua."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "b49da8e729a9884aae808bb3c9a86c073b24a5c97b431e939e0eed5c927d9deb",
+      "file": "output/production/n10/n10-137/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un broc fix deixa anar un raig suau sobre un paraigua obert. Sota la cúpula hi ha un llibre tancat sobre un suport sec. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En plegar el paraigua cap al costat, la cúpula deixa lliure el pas i es veu el mateix raig impactar a la coberta. RIGHT result: El llibre té una taca mullada al punt d’impacte. El paraigua tancat és a la mà i el raig de la mateixa font encara toca el llibre. Continuity and accounting: Un llibre amb llom lila, un paraigua de tres colors, el mateix broc fix i una safata que recull tota l’aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El raig continu toca el paraigua obert. En plegar-lo, el mateix filet va directe al llibre i deixa una taca on impacta. Es mantenen el broc, la safata i el llom lila.",
+      "reviewedAt": "2026-11-21T16:26:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un broc fix deixa anar un raig suau sobre un paraigua obert. Sota la cúpula hi ha un llibre tancat sobre un suport sec. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En plegar el paraigua cap al costat, la cúpula deixa lliure el pas i es veu el mateix raig impactar a la coberta. RIGHT result: El llibre té una taca mullada al punt d’impacte. El paraigua tancat és a la mà i el raig de la mateixa font encara toca el llibre. Continuity and accounting: Un llibre amb llom lila, un paraigua de tres colors, el mateix broc fix i una safata que recull tota l’aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El raig continu toca el paraigua obert. En plegar-lo, el mateix filet va directe al llibre i deixa una taca on impacta. Es mantenen el broc, la safata i el llom lila.",
+  "alt": {
+    "ca": "Una zebra plega el paraigua. El raig que interceptava cau sobre el llibre i el mulla.",
+    "es": "Una cebra pliega el paraguas. El chorro que interceptaba cae sobre el libro y lo moja."
+  },
+  "originalSha256": "b49da8e729a9884aae808bb3c9a86c073b24a5c97b431e939e0eed5c927d9deb",
+  "file": "output/production/n10/n10-137/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:26:51+00:00",
+  "tool": "ImageGen integrat"
+}

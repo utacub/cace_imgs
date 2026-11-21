@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-191",
+    "number": 191,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-091",
+    "counterpartId": "n10-091",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · tocar · galleda / aigua → obrir"
+    },
+    "labels": [
+      "CONILL",
+      "TOCAR",
+      "GALLEDA",
+      "AIGUA",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda amb aixeta integrada conté aigua sobre un plat fondo buit."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Gira el comandament de l’aixeta. El raig emergeix del broc i arriba al plat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El plat conté aigua recollida amb el nivell de la galleda més baix. L’aixeta oberta encara deixa sortir un raig fi."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda transparent amb aixeta i un únic plat fondo capaç de retenir l’aigua."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "aa741f9c0c3b15336ba3177683f35b62987338fda1e4176a2e5adfc13b619482",
+      "file": "output/production/n10/n10-191/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic rabbit; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda amb aixeta integrada conté aigua sobre un plat fondo buit. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Gira el comandament de l’aixeta. El raig emergeix del broc i arriba al plat. RIGHT result: El plat conté aigua recollida amb el nivell de la galleda més baix. L’aixeta oberta encara deixa sortir un raig fi. Continuity and accounting: Una galleda transparent amb aixeta i un únic plat fondo capaç de retenir l’aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La maneta té la mateixa posició horitzontal amb l’aixeta tancada i oberta. El flux canvia, però la posició final del comandament no mostra el gir.",
+      "reviewedAt": "2026-11-21T16:39:18+00:00"
+    }
+  ],
+  "status": "rejected"
+}

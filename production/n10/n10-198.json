@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-198",
+    "number": 198,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-098",
+    "counterpartId": "n10-098",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · estirar · caixa / pal → obrir"
+    },
+    "labels": [
+      "RUC",
+      "ESTIRAR",
+      "CAIXA",
+      "PAL",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-99499cd7f270",
+      "w-696b7c739d30",
+      "w-c8538c4482a2",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una caixa amb tapa articulada està tancada per un passador de fusta inserit a les dues anelles del tancament."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el passador en línia recta fins que deixa d’unir les anelles. La segona mà és sota la vora de la tapa, preparada per aixecar-la."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tapa és oberta, amb el passador sencer a la primera mà i les dues anelles clarament separades."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa amb frontissa posterior i un únic passador curt de fusta."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "0ff7668224c5655b7f5c9b6835a5f4d853dcdbcc760e97fb4a7475b6f742f13d",
+      "file": "output/production/n10/n10-198/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una caixa amb tapa articulada està tancada per un passador de fusta inserit a les dues anelles del tancament. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el passador en línia recta fins que deixa d’unir les anelles. La segona mà és sota la vora de la tapa, preparada per aixecar-la. RIGHT result: La tapa és oberta, amb el passador sencer a la primera mà i les dues anelles clarament separades. Continuity and accounting: Una caixa amb frontissa posterior i un únic passador curt de fusta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les dues anelles es queden al cos de la caixa quan la tapa s’alça. Sota aquesta geometria, el passador no enllaça la tapa amb la base i no explica el bloqueig.",
+      "reviewedAt": "2026-11-21T16:42:12+00:00"
+    }
+  ],
+  "status": "rejected"
+}

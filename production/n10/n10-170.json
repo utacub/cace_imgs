@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-170",
+    "number": 170,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-070",
+    "counterpartId": "n10-070",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · tocar · plastilina / dau → tou"
+    },
+    "labels": [
+      "ESQUIROL",
+      "TOCAR",
+      "PLASTILINA",
+      "DAU",
+      "TOU",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-072ecc01e120",
+      "w-0606be9fcf92",
+      "w-e0fc52e298ac",
+      "w-615686838917",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      }
+    ],
+    "outcome": {
+      "label": "TOU",
+      "wordId": "w-615686838917"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una placa de plastilina té la cara superior llisa i un dau gros se sosté a sobre."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el dau amb una cara plana sobre la placa. La plastilina sobresurt al voltant del cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En separar el dau queda un solc quadrat amb els punts de la cara de contacte reproduïts en relleu."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un dau gros amb punts enfonsats i una sola placa. L’empremta té la mateixa amplada que la cara."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "a910b2470883140792a839bfa20bb1161ad82624db2cb06e6029dc69f6b6080e",
+      "file": "output/production/n10/n10-170/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic squirrel; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una placa de plastilina té la cara superior llisa i un dau gros se sosté a sobre. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el dau amb una cara plana sobre la placa. La plastilina sobresurt al voltant del cantell. RIGHT result: En separar el dau queda un solc quadrat amb els punts de la cara de contacte reproduïts en relleu. Continuity and accounting: Un dau gros amb punts enfonsats i una sola placa. L’empremta té la mateixa amplada que la cara. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La cara frontal del dau té cinc punts i l’empremta també en mostra cinc. Aquest patró es repeteix en dues cares diferents del mateix dau i no permet comprovar la correspondència de la cara estampada.",
+      "reviewedAt": "2026-11-21T16:32:52+00:00"
+    }
+  ],
+  "status": "rejected"
+}

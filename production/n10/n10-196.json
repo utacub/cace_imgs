@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-196",
+    "number": 196,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-096",
+    "counterpartId": "n10-096",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "vaca · posar · plat / peces → pujar"
+    },
+    "labels": [
+      "VACA",
+      "POSAR",
+      "PLAT",
+      "PECES",
+      "PUJAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-c54f45209550",
+      "w-c211f7486a30",
+      "w-55d250f4cf1e",
+      "w-776ec487889f",
+      "w-478890c976ea",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-c54f45209550",
+    "agent": {
+      "label": "VACA",
+      "wordId": "w-c54f45209550"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "outcome": {
+      "label": "PUJAR",
+      "wordId": "w-478890c976ea"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos plats són a alçades oposades. La peça segueix damunt del plat baix."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un sol balancí rígid, dos plats buits al principi i una única peça grossa."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9f5fbdd737bbcb0189c45f1c7c251509500f349672580f1fb023f03c89a2845c",
+      "file": "output/production/n10/n10-196/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre. RIGHT result: Els dos plats són a alçades oposades. La peça segueix damunt del plat baix. Continuity and accounting: Un sol balancí rígid, dos plats buits al principi i una única peça grossa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El bloc té contacte amb un dels dos plats i la barra bascula sobre el fulcre. Es veu el plat de l’altra banda més alt, amb el mateix bloc en el plat baix.",
+      "reviewedAt": "2026-11-21T16:40:44+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre. RIGHT result: Els dos plats són a alçades oposades. La peça segueix damunt del plat baix. Continuity and accounting: Un sol balancí rígid, dos plats buits al principi i una única peça grossa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El bloc té contacte amb un dels dos plats i la barra bascula sobre el fulcre. Es veu el plat de l’altra banda més alt, amb el mateix bloc en el plat baix.",
+  "alt": {
+    "ca": "Una vaca posa un bloc en un plat de la balança. Aquell plat baixa i l’altre puja.",
+    "es": "Una vaca pone un bloque en un plato de la balanza. Ese plato baja y el otro sube."
+  },
+  "originalSha256": "9f5fbdd737bbcb0189c45f1c7c251509500f349672580f1fb023f03c89a2845c",
+  "file": "output/production/n10/n10-196/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:40:44+00:00",
+  "tool": "ImageGen integrat"
+}
