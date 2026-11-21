@@ -1,0 +1,132 @@
+{
+  "constructionId": "n9-092",
+  "file": "output/production/n9/n9-092/image.png",
+  "prompt": "Final panel only: show exactly THREE BLUE CUBES inside right compartment, arranged triangularly with ONE cube at back and TWO in front, separated enough that all three faces/count are unmistakable above low rim. Keep THREE red spheres inside left. Remove no pieces. Preserve exact sizes, child and first/middle panels. No text.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-092",
+    "number": 92,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "disposicio-contingut",
+    "familyId": "n9-f-092",
+    "counterpartId": "n9-192",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · classificar — peces / caixa"
+    },
+    "labels": [
+      "NEN",
+      "CLASSIFICAR",
+      "PECES",
+      "CAIXA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-837cfa89f5df",
+      "w-776ec487889f",
+      "w-696b7c739d30",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "actions": [
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      }
+    ],
+    "referents": [
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": null,
+        "evidence": "Sis peces barrejades davant de dos compartiments buits."
+      },
+      {
+        "number": 2,
+        "role": "transicio",
+        "actionWordId": "w-837cfa89f5df",
+        "evidence": "Deixa una esfera al seu compartiment. Ja hi ha un cub a l’altre i encara resten peces barrejades."
+      },
+      {
+        "number": 3,
+        "role": "final",
+        "actionWordId": null,
+        "evidence": "Les esferes i els cubs queden agrupats per separat. L’espai de triatge és buit."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "sis peces, esferes i cubs, i una caixa amb dos compartiments"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T14:16:42.382Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-092/rejected-01.png",
+      "reason": "Al final les peces són fora dels compartiments.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has deep brown skin and short natural curly hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NEN (school-age boy). Continuity anchor: sis peces, esferes i cubs, i una caixa amb dos compartiments. Ordered moments in Catalan: PANEL 1: Sis peces barrejades davant de dos compartiments buits. PANEL 2: Deixa una esfera al seu compartiment. Ja hi ha un cub a l’altre i encara resten peces barrejades. PANEL 3: Les esferes i els cubs queden agrupats per separat. L’espai de triatge és buit.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T14:21:37.805Z"
+    },
+    {
+      "file": "output/production/n9/n9-092/rejected-02.png",
+      "reason": "El retoc només mostra dos cubs finals; en calen tres.",
+      "prompt": "Edit ONLY final panel: move all THREE red spheres INSIDE LEFT compartment and all THREE blue cubes INSIDE RIGHT compartment of the wooden divided tray. All six pieces clearly visible above low front rim, same dimensions as first/middle. Table outside tray empty. Preserve child hands face anatomy furniture and other panels. No text.",
+      "rejectedAt": "2026-11-21T14:24:59.540Z"
+    }
+  ],
+  "review": "Corregida: tres esferes i tres cubs conservats, classificació als dos compartiments final, contacte i proporcions naturals.",
+  "alt": {
+    "ca": "nen · classificar — peces / caixa.",
+    "es": "NIÑO · CLASIFICAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "932c5705a3c9a07efd12e83989cb7e5d232b92a8b95d027f7829d740d7ab7f5d",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T14:27:48.799Z",
+  "publicationVersion": "0.1.158",
+  "importedAt": "2026-11-21T14:28:51.640971+00:00"
+}

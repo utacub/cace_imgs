@@ -1,5 +1,5 @@
 {
-  "version": "0.1.157",
+  "version": "0.1.158",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,966 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-087",
+      "src": "assets/constructions/n9/n9-087.webp",
+      "title": {
+        "ca": "noia · guardar — llapis / caixa",
+        "es": "CHICA · GUARDAR · LÁPIZ · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · guardar — llapis / caixa.",
+        "es": "CHICA · GUARDAR · LÁPIZ · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-f0441e0dd3b0",
+        "w-1775aa96869e",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-f0441e0dd3b0",
+        "w-1775aa96869e",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.809Z",
+      "target": "n9-087",
+      "constructionId": "n9-087",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres llapis fora i capsa oberta i buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Introdueix el segon llapis. Un ja és a la capsa i un encara és a la taula."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres llapis dins. Comença a tancar la capsa, sense tapar-ne el contingut."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la capsa transparent de cantell corb i els mateixos llapis de fusta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8c9b4ab4ce106c2821ba91ec6d2a924abd047da1243ec3f1ed0e26f820011b4e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b6a9fd705f852681bf51deb8653d9dac04a5d623b828630b66d982b793c9eccb"
+    },
+    {
+      "id": "cace-n9-088",
+      "src": "assets/constructions/n9/n9-088.webp",
+      "title": {
+        "ca": "noi · guardar — llibre / prestatgeria",
+        "es": "CHICO · GUARDAR · LIBRO · ESTANTERÍA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · guardar — llibre / prestatgeria.",
+        "es": "CHICO · GUARDAR · LIBRO · ESTANTERÍA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-f0441e0dd3b0",
+        "w-3bb995df42bf",
+        "w-d6d32ee8f603",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-f0441e0dd3b0",
+        "w-3bb995df42bf",
+        "w-d6d32ee8f603",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.013Z",
+      "target": "n9-088",
+      "constructionId": "n9-088",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Els llibres són en pila sobre una taula adjacent i la lleixa queda buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa lliscar el llibre del mig a la lleixa. Un ja hi és i un encara és a la taula."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres llibres drets a la lleixa i taula buida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos tres llibres amb lloms diferents i la lleixa de dos muntants corbats"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "e851882a1cc34796a71b03fb34b680b83dcca711c1bfcbab5c706f9323748c33",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "55413747453a9bf3d7e65c59f0dd0ef66f43cc682b85932bc9e18814b4526990"
+    },
+    {
+      "id": "cace-n9-089",
+      "src": "assets/constructions/n9/n9-089.webp",
+      "title": {
+        "ca": "dona · guardar — pilota / caixa",
+        "es": "MUJER · GUARDAR · PELOTA · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · guardar — pilota / caixa.",
+        "es": "MUJER · GUARDAR · PELOTA · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-f0441e0dd3b0",
+        "w-b7f578451973",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-f0441e0dd3b0",
+        "w-b7f578451973",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.321Z",
+      "target": "n9-089",
+      "constructionId": "n9-089",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres pilotes reunides sobre una estora, totes fora de la caixa."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Baixa una pilota fins a l’obertura. Ja n’hi ha una dins i una fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veuen les tres pilotes juntes dins la caixa i l’estora buida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa oberta de dues nanses i les pilotes del mateix joc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7a54cdf108fc6c66ca3382dabb266f41394d620f1f74c956f727f3609a0eac9e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cfe042c8da076cc5fa344147b6a9674c97243ba4a7cee46bbf3aa21de063b369"
+    },
+    {
+      "id": "cace-n9-090",
+      "src": "assets/constructions/n9/n9-090.webp",
+      "title": {
+        "ca": "home · guardar — roba / armari",
+        "es": "HOMBRE · GUARDAR · ROPA · ARMARIO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · guardar — roba / armari.",
+        "es": "HOMBRE · GUARDAR · ROPA · ARMARIO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-f0441e0dd3b0",
+        "w-7dc88016e698",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-f0441e0dd3b0",
+        "w-7dc88016e698",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.714Z",
+      "target": "n9-090",
+      "constructionId": "n9-090",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres peces plegades sobre el banc, prestatge d’armari buit."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Porta la segona peça a dins. La primera és al prestatge i la tercera encara és al banc."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La pila completa és al prestatge i el banc queda lliure, amb la porta oberta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "l’armari baix d’un sol pom i el mateix munt de roba plegada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7e2741ca5b7ffa786e2ef9b60b6c08301dcabf0c0f698cc8dc6ba88f4ba7539e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "234aadcf6cc25910efb31a4fb67e74a8dc92269c48fb4c4ed8f6c03aa73a1340"
+    },
+    {
+      "id": "cace-n9-091",
+      "src": "assets/constructions/n9/n9-091.webp",
+      "title": {
+        "ca": "nena · guardar — mocador / bossa de mà",
+        "es": "NIÑA · GUARDAR · PAÑUELO · BOLSA DE MANO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · guardar — mocador / bossa de mà.",
+        "es": "NIÑA · GUARDAR · PAÑUELO · BOLSA DE MANO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-f0441e0dd3b0",
+        "w-35e3a6c8a7fd",
+        "w-227ea9ad182c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-f0441e0dd3b0",
+        "w-35e3a6c8a7fd",
+        "w-227ea9ad182c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.955Z",
+      "target": "n9-091",
+      "constructionId": "n9-091",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Mocador estès al costat de la bossa oberta, que és buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Amb el mocador doblegat, fa entrar un extrem a la bossa mentre l’altre és encara a fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veu el mocador plegat dins la bossa translúcida, que l’agent acaba de tancar."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa amb panell translúcid i el mocador de quadres grans"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "e422ab92b39268d756d522917574c0b641e627ff49700b5ba96a0e0bb3c21b70",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2d4927a837a50d46985ad19bf85391d5d3a1c786e068e98c21658a8ea054baab"
+    },
+    {
+      "id": "cace-n9-092",
+      "src": "assets/constructions/n9/n9-092.webp",
+      "title": {
+        "ca": "nen · classificar — peces / caixa",
+        "es": "NIÑO · CLASIFICAR · PIEZAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · classificar — peces / caixa.",
+        "es": "NIÑO · CLASIFICAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-837cfa89f5df",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-837cfa89f5df",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.382Z",
+      "target": "n9-092",
+      "constructionId": "n9-092",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Sis peces barrejades davant de dos compartiments buits."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Deixa una esfera al seu compartiment. Ja hi ha un cub a l’altre i encara resten peces barrejades."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les esferes i els cubs queden agrupats per separat. L’espai de triatge és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "sis peces, esferes i cubs, i una caixa amb dos compartiments"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "932c5705a3c9a07efd12e83989cb7e5d232b92a8b95d027f7829d740d7ab7f5d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d93b9426f1af7122935666c263520db6369d837cf6b05e8f3d1d3b12aaeb9e8f"
+    },
+    {
+      "id": "cace-n9-093",
+      "src": "assets/constructions/n9/n9-093.webp",
+      "title": {
+        "ca": "noia · classificar — roba / cistell",
+        "es": "CHICA · CLASIFICAR · ROPA · CESTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · classificar — roba / cistell.",
+        "es": "CHICA · CLASIFICAR · ROPA · CESTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-837cfa89f5df",
+        "w-7dc88016e698",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-837cfa89f5df",
+        "w-7dc88016e698",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.715Z",
+      "target": "n9-093",
+      "constructionId": "n9-093",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Els mitjons, amb longituds clarament diferents, són barrejats entre els cistells buits."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Posa un mitjó llarg al cistell que ja té un de llarg. A l’altre n’hi ha un de curt."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Cada cistell té els tres mitjons de la seva mida. No queda cap peça entre els cistells."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els sis mitjons de dues mides i dos cistells baixos amb trames diferents"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ded468a2381c91a1802ec54e2c3ba097ed93882eeece840097ec040421f60f89",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "07fba9a98a69ea71e5dd7afd2a0d2f8a4a045886a86c94be26d5e529c9674d1a"
+    },
+    {
+      "id": "cace-n9-188",
+      "src": "assets/constructions/n9/n9-188.webp",
+      "title": {
+        "ca": "ruc · guardar — llibre / prestatgeria",
+        "es": "BURRO · GUARDAR · LIBRO · ESTANTERÍA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · guardar — llibre / prestatgeria.",
+        "es": "BURRO · GUARDAR · LIBRO · ESTANTERÍA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-f0441e0dd3b0",
+        "w-3bb995df42bf",
+        "w-d6d32ee8f603",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-f0441e0dd3b0",
+        "w-3bb995df42bf",
+        "w-d6d32ee8f603",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.155Z",
+      "target": "n9-188",
+      "constructionId": "n9-188",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Els llibres són en pila sobre una taula adjacent i la lleixa queda buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa lliscar el llibre del mig a la lleixa. Un ja hi és i un encara és a la taula."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres llibres drets a la lleixa i taula buida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos tres llibres amb lloms diferents i la lleixa de dos muntants corbats"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "db38ef2e2612ee395c27c53b572b72f71c5ee4950e694e810458969893355448",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8817a7ec12bfdec8d23df2c638155bd20ee02250991431f3450a06ba33827ce5"
+    },
+    {
+      "id": "cace-n9-189",
+      "src": "assets/constructions/n9/n9-189.webp",
+      "title": {
+        "ca": "tortuga · guardar — pilota / caixa",
+        "es": "TORTUGA · GUARDAR · PELOTA · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · guardar — pilota / caixa.",
+        "es": "TORTUGA · GUARDAR · PELOTA · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-f0441e0dd3b0",
+        "w-b7f578451973",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-f0441e0dd3b0",
+        "w-b7f578451973",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.432Z",
+      "target": "n9-189",
+      "constructionId": "n9-189",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres pilotes reunides sobre una estora, totes fora de la caixa."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Baixa una pilota fins a l’obertura. Ja n’hi ha una dins i una fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veuen les tres pilotes juntes dins la caixa i l’estora buida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa oberta de dues nanses i les pilotes del mateix joc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "724e29d836990ed39ba110de9faf543abaaf509c0e0d05e1dbe8edefcda3910a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "533a3c4c94a8adb65a64cb774a23580df10bdb10e98ba58d3fae580a45e3086e"
+    },
+    {
+      "id": "cace-n9-190",
+      "src": "assets/constructions/n9/n9-190.webp",
+      "title": {
+        "ca": "porc · guardar — roba / armari",
+        "es": "CERDO · GUARDAR · ROPA · ARMARIO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · guardar — roba / armari.",
+        "es": "CERDO · GUARDAR · ROPA · ARMARIO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-f0441e0dd3b0",
+        "w-7dc88016e698",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-f0441e0dd3b0",
+        "w-7dc88016e698",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:44.833Z",
+      "target": "n9-190",
+      "constructionId": "n9-190",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres peces plegades sobre el banc, prestatge d’armari buit."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Porta la segona peça a dins. La primera és al prestatge i la tercera encara és al banc."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La pila completa és al prestatge i el banc queda lliure, amb la porta oberta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "l’armari baix d’un sol pom i el mateix munt de roba plegada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "44abbb28fd2ee7ae9f79060ccb5c7fd793c2d702ee9ac0ab9c97f34ea7b5551f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7152919446e5b157b69d68b354470837e3629e61147b015a715b49c4723ee587"
+    },
+    {
+      "id": "cace-n9-191",
+      "src": "assets/constructions/n9/n9-191.webp",
+      "title": {
+        "ca": "conill · guardar — mocador / bossa de mà",
+        "es": "CONEJO · GUARDAR · PAÑUELO · BOLSA DE MANO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · guardar — mocador / bossa de mà.",
+        "es": "CONEJO · GUARDAR · PAÑUELO · BOLSA DE MANO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-f0441e0dd3b0",
+        "w-35e3a6c8a7fd",
+        "w-227ea9ad182c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-f0441e0dd3b0",
+        "w-35e3a6c8a7fd",
+        "w-227ea9ad182c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.292Z",
+      "target": "n9-191",
+      "constructionId": "n9-191",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Mocador estès al costat de la bossa oberta, que és buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Amb el mocador doblegat, fa entrar un extrem a la bossa mentre l’altre és encara a fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veu el mocador plegat dins la bossa translúcida, que l’agent acaba de tancar."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa amb panell translúcid i el mocador de quadres grans"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "31a81e363b151e20e7538dabd24fb611619a217adbce43fb7e8c1d7794d4c3aa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9b7446c52018ff4dae4731c0006ddec46302be8c0a3326070015ca8c41350775"
+    },
+    {
+      "id": "cace-n9-192",
+      "src": "assets/constructions/n9/n9-192.webp",
+      "title": {
+        "ca": "gat · classificar — peces / caixa",
+        "es": "GATO · CLASIFICAR · PIEZAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · classificar — peces / caixa.",
+        "es": "GATO · CLASIFICAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-837cfa89f5df",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-837cfa89f5df",
+        "w-776ec487889f",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.518Z",
+      "target": "n9-192",
+      "constructionId": "n9-192",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Sis peces barrejades davant de dos compartiments buits."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Deixa una esfera al seu compartiment. Ja hi ha un cub a l’altre i encara resten peces barrejades."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les esferes i els cubs queden agrupats per separat. L’espai de triatge és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "sis peces, esferes i cubs, i una caixa amb dos compartiments"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b037721cefb135a73082b75c7c994c38a3f6b24df8ead0107ad6c27b795c01f7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "14c8afc2962dd4b04f81133cca1c00ecb03416d7fe78852ef96fbaef5a87d06b"
+    },
     {
       "id": "cace-n9-081",
       "src": "assets/constructions/n9/n9-081.webp",
@@ -171956,7 +172916,19 @@
         "cace-n9-184",
         "cace-n9-185",
         "cace-n9-186",
-        "cace-n9-187"
+        "cace-n9-187",
+        "cace-n9-087",
+        "cace-n9-088",
+        "cace-n9-089",
+        "cace-n9-090",
+        "cace-n9-091",
+        "cace-n9-092",
+        "cace-n9-093",
+        "cace-n9-188",
+        "cace-n9-189",
+        "cace-n9-190",
+        "cace-n9-191",
+        "cace-n9-192"
       ]
     }
   ]
