@@ -1,5 +1,5 @@
 {
-  "version": "0.1.149",
+  "version": "0.1.150",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1058 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-022",
+      "src": "assets/constructions/n9/n9-022.webp",
+      "title": {
+        "ca": "noi · menjar · guardar — galetes / caixa",
+        "es": "CHICO · COMER · GUARDAR · GALLETAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · menjar · guardar — galetes / caixa.",
+        "es": "CHICO · COMER · GUARDAR · GALLETAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-c248ebfe6f67",
+        "w-f0441e0dd3b0",
+        "w-eecb1a704a59",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-c248ebfe6f67",
+        "w-f0441e0dd3b0",
+        "w-eecb1a704a59",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.066Z",
+      "target": "n9-022",
+      "constructionId": "n9-022",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Mossega una galeta i al plat hi destaca una altra galeta sencera al costat de les molles."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la galeta sencera dins la caixa encara oberta. Al plat queden mitja galeta i molles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les galetes quadrades i la caixa baixa amb relleu ondulat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "fa4761f34b2a5d81acd254d6a7232c40b7e7254b14c75879eb15855fdd90141a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1aa991a6f228a592f5a09a30fc995f9041ba9d9a8a5218329f58c4e20eab23e8"
+    },
+    {
+      "id": "cace-n9-023",
+      "src": "assets/constructions/n9/n9-023.webp",
+      "title": {
+        "ca": "noia · menjar · posar — iogurt / cullera",
+        "es": "CHICA · COMER · PONER · YOGUR · CUCHARA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · menjar · posar — iogurt / cullera.",
+        "es": "CHICA · COMER · PONER · YOGUR · CUCHARA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c248ebfe6f67",
+        "w-c211f7486a30",
+        "w-eddf876b7cc3",
+        "w-9c9849fac1d3",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c248ebfe6f67",
+        "w-c211f7486a30",
+        "w-eddf876b7cc3",
+        "w-9c9849fac1d3",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.207Z",
+      "target": "n9-023",
+      "constructionId": "n9-023",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Tasta el iogurt amb el got encara amb contingut visible."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa la cullera empastifada dins el got gairebé buit. Es veuen les parets interiors amb restes de iogurt."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got de iogurt sense marca amb una pestanya de tapa ampla i la cullera de mànec arrodonit"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "27abd91357c09ea1d84038879dfd48d39084ab58f76ee7336e6408a493475a9b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "aebc3ff2966c67b23b052b9d98515881c0e50ef74e6e38477a4273304c87c0f6"
+    },
+    {
+      "id": "cace-n9-024",
+      "src": "assets/constructions/n9/n9-024.webp",
+      "title": {
+        "ca": "noi · dibuixar · guardar — dibuix / carpeta",
+        "es": "CHICO · DIBUJAR · GUARDAR · DIBUJO · CARPETA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · dibuixar · guardar — dibuix / carpeta.",
+        "es": "CHICO · DIBUJAR · GUARDAR · DIBUJO · CARPETA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-2e0a67ac121f",
+        "w-f0441e0dd3b0",
+        "w-07181748ab10",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-2e0a67ac121f",
+        "w-f0441e0dd3b0",
+        "w-07181748ab10",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.353Z",
+      "target": "n9-024",
+      "constructionId": "n9-024",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "Acaba la cua del peix amb la punta del llapis en contacte. La carpeta és oberta al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa lliscar el full dins la carpeta oberta. El dibuix complet encara és llegible en la part que sobresurt."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full de cantonada arrodonida amb un dibuix de peix i la carpeta amb goma ampla"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "25c85dd3a1a7fb769843f532ef245e0534d3cc04c4ff47ae03db5a94f88210ef",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "454d2ee27846b07f8ed4d33a8e97d58b9ec97ccd9b787384f6978862292a9848"
+    },
+    {
+      "id": "cace-n9-025",
+      "src": "assets/constructions/n9/n9-025.webp",
+      "title": {
+        "ca": "nena · dibuixar · posar — postal",
+        "es": "NIÑA · DIBUJAR · PONER · POSTAL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · dibuixar · posar — postal.",
+        "es": "NIÑA · DIBUJAR · PONER · POSTAL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-2e0a67ac121f",
+        "w-c211f7486a30",
+        "w-3ea66248a161",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-2e0a67ac121f",
+        "w-c211f7486a30",
+        "w-3ea66248a161",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.505Z",
+      "target": "n9-025",
+      "constructionId": "n9-025",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "Completa un dels rajos grans del sol sobre la postal ajaguda."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la postal acabada dreta en un suport baix. La cara dibuixada queda de front."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la postal rígida sense text amb una banda lateral i un dibuix de sol"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "b7fd3909f1f36820fd7ae5c3b14d3caf536b47cd537935ee72473fbd249ea510",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "282736cae78d3d9ab384890497c21f41a0f6f215222160b91efd4ffc9f503af0"
+    },
+    {
+      "id": "cace-n9-026",
+      "src": "assets/constructions/n9/n9-026.webp",
+      "title": {
+        "ca": "dona · pintar · posar — pedra",
+        "es": "MUJER · PINTAR · PONER · PIEDRA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · pintar · posar — pedra.",
+        "es": "MUJER · PINTAR · PONER · PIEDRA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-417c3df2d659",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-417c3df2d659",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.658Z",
+      "target": "n9-026",
+      "constructionId": "n9-026",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Pinta una banda ampla sobre la part fosca de la pedra, amb el pinzell tocant el cantell."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Deixa la mateixa pedra sobre una reixeta baixa per assecar-la. Es veuen la banda completa i la zona natural."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pedra aplanada amb una zona natural de color clar"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6d087fbca5a52197d9282a96615465010131600ddec723a01039095b2ddee554",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8a6b47df64fcbb4febcb91fe3390a15552f467937881f6f178266246cc3d7dbe"
+    },
+    {
+      "id": "cace-n9-027",
+      "src": "assets/constructions/n9/n9-027.webp",
+      "title": {
+        "ca": "noia · pintar · guardar — pinzell / dibuix",
+        "es": "CHICA · PINTAR · GUARDAR · PINCEL · DIBUJO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · pintar · guardar — pinzell / dibuix.",
+        "es": "CHICA · PINTAR · GUARDAR · PINCEL · DIBUJO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-f0441e0dd3b0",
+        "w-33df96705776",
+        "w-07181748ab10",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-f0441e0dd3b0",
+        "w-33df96705776",
+        "w-07181748ab10",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.839Z",
+      "target": "n9-027",
+      "constructionId": "n9-027",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Omple una part del sostre de la casa amb la punta del pinzell. El pot per al pinzell és buit."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Posa el pinzell usat dins el pot, amb mànec i cerres visibles a través de la paret translúcida. El sostre està complet."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el pinzell de mànec marcat amb una banda i el dibuix gran d’una casa"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "5228143328be03b8e329fb1131ff37daf88500b82424e6a20101c84761fd2144",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "192e69d8cef6c2f2e5ce94979d258bd5180ce517c9e79ccf4abb6d614fdf4e86"
+    },
+    {
+      "id": "cace-n9-028",
+      "src": "assets/constructions/n9/n9-028.webp",
+      "title": {
+        "ca": "noi · pintar · posar — caixa",
+        "es": "CHICO · PINTAR · PONER · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · pintar · posar — caixa.",
+        "es": "CHICO · PINTAR · PONER · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.983Z",
+      "target": "n9-028",
+      "constructionId": "n9-028",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Pinta la tapa, que descansa separada, deixant una franja encara sense cobrir."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la tapa amb la franja acabada sobre la caixa, amb l’osca de front."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa de tapa separable amb osca de mitja lluna"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "79c54c0d11b46cef9833e5cdbdc564e43d4d49b04e258f03f1802cf6da9b60ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "89afef864593442d0d68ba988b4e71a346d6847dfc90df79430c1a378b4037dc"
+    },
+    {
+      "id": "cace-n9-122",
+      "src": "assets/constructions/n9/n9-122.webp",
+      "title": {
+        "ca": "gat · menjar · guardar — galetes / caixa",
+        "es": "GATO · COMER · GUARDAR · GALLETAS · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · menjar · guardar — galetes / caixa.",
+        "es": "GATO · COMER · GUARDAR · GALLETAS · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-c248ebfe6f67",
+        "w-f0441e0dd3b0",
+        "w-eecb1a704a59",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-c248ebfe6f67",
+        "w-f0441e0dd3b0",
+        "w-eecb1a704a59",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.140Z",
+      "target": "n9-122",
+      "constructionId": "n9-122",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Mossega una galeta i al plat hi destaca una altra galeta sencera al costat de les molles."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la galeta sencera dins la caixa encara oberta. Al plat queden mitja galeta i molles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les galetes quadrades i la caixa baixa amb relleu ondulat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "23bb45150345cf87da7308e37867486f8c3030db918021b7eb53f46feec58504",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1327974c87a018edb6bc4816d143489166e8375f000b251a9fb2fd20c5baa17b"
+    },
+    {
+      "id": "cace-n9-123",
+      "src": "assets/constructions/n9/n9-123.webp",
+      "title": {
+        "ca": "gos · menjar · posar — iogurt / cullera",
+        "es": "PERRO · COMER · PONER · YOGUR · CUCHARA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · menjar · posar — iogurt / cullera.",
+        "es": "PERRO · COMER · PONER · YOGUR · CUCHARA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-c248ebfe6f67",
+        "w-c211f7486a30",
+        "w-eddf876b7cc3",
+        "w-9c9849fac1d3",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-c248ebfe6f67",
+        "w-c211f7486a30",
+        "w-eddf876b7cc3",
+        "w-9c9849fac1d3",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.272Z",
+      "target": "n9-123",
+      "constructionId": "n9-123",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "Tasta el iogurt amb el got encara amb contingut visible."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa la cullera empastifada dins el got gairebé buit. Es veuen les parets interiors amb restes de iogurt."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got de iogurt sense marca amb una pestanya de tapa ampla i la cullera de mànec arrodonit"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b69e1be4a27975f0615260c0d935e0e8816393975e6d90503eae0dbcb2519fe1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3b44b1e8260c5f3b817dc1872e1084f7f4078fbaf870f55751db73f7c25cbbaa"
+    },
+    {
+      "id": "cace-n9-124",
+      "src": "assets/constructions/n9/n9-124.webp",
+      "title": {
+        "ca": "ós · dibuixar · guardar — dibuix / carpeta",
+        "es": "OSO · DIBUJAR · GUARDAR · DIBUJO · CARPETA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · dibuixar · guardar — dibuix / carpeta.",
+        "es": "OSO · DIBUJAR · GUARDAR · DIBUJO · CARPETA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-2e0a67ac121f",
+        "w-f0441e0dd3b0",
+        "w-07181748ab10",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-2e0a67ac121f",
+        "w-f0441e0dd3b0",
+        "w-07181748ab10",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.430Z",
+      "target": "n9-124",
+      "constructionId": "n9-124",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "Acaba la cua del peix amb la punta del llapis en contacte. La carpeta és oberta al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Fa lliscar el full dins la carpeta oberta. El dibuix complet encara és llegible en la part que sobresurt."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full de cantonada arrodonida amb un dibuix de peix i la carpeta amb goma ampla"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "438606c2fd7f846d04f1665a47b9f6b344ed7ccb50f567b4f3b5b2e64ecdb4be",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "162daacef7e97563614a50f412e4756e59956d66257cfb629bee433b2d70518a"
+    },
+    {
+      "id": "cace-n9-125",
+      "src": "assets/constructions/n9/n9-125.webp",
+      "title": {
+        "ca": "mico · dibuixar · posar — postal",
+        "es": "MONO · DIBUJAR · PONER · POSTAL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · dibuixar · posar — postal.",
+        "es": "MONO · DIBUJAR · PONER · POSTAL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-2e0a67ac121f",
+        "w-c211f7486a30",
+        "w-3ea66248a161",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-2e0a67ac121f",
+        "w-c211f7486a30",
+        "w-3ea66248a161",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.572Z",
+      "target": "n9-125",
+      "constructionId": "n9-125",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "Completa un dels rajos grans del sol sobre la postal ajaguda."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la postal acabada dreta en un suport baix. La cara dibuixada queda de front."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la postal rígida sense text amb una banda lateral i un dibuix de sol"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7cc386ec49d938da651d46a94c88929a4719ab9e50117ee89880865118dd61ce",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0d7550f937295fa11412c1cd3accdab98fc06c72ac45b6b7cc847db75a246c81"
+    },
+    {
+      "id": "cace-n9-126",
+      "src": "assets/constructions/n9/n9-126.webp",
+      "title": {
+        "ca": "esquirol · pintar · posar — pedra",
+        "es": "ARDILLA · PINTAR · PONER · PIEDRA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · pintar · posar — pedra.",
+        "es": "ARDILLA · PINTAR · PONER · PIEDRA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-417c3df2d659",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-417c3df2d659",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.752Z",
+      "target": "n9-126",
+      "constructionId": "n9-126",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Pinta una banda ampla sobre la part fosca de la pedra, amb el pinzell tocant el cantell."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Deixa la mateixa pedra sobre una reixeta baixa per assecar-la. Es veuen la banda completa i la zona natural."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pedra aplanada amb una zona natural de color clar"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "5f3272b1845cef6b2f4b72cefd1168c86f0e2906af2358ddd74dd5e22e2b8272",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6a648b6446a1afd9bf0a297cfada4f0bb62d0c459a063c11c603a3d0d1d7497b"
+    },
+    {
+      "id": "cace-n9-127",
+      "src": "assets/constructions/n9/n9-127.webp",
+      "title": {
+        "ca": "elefant · pintar · guardar — pinzell / dibuix",
+        "es": "ELEFANTE · PINTAR · GUARDAR · PINCEL · DIBUJO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · pintar · guardar — pinzell / dibuix.",
+        "es": "ELEFANTE · PINTAR · GUARDAR · PINCEL · DIBUJO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-b04a48827310",
+        "w-f0441e0dd3b0",
+        "w-33df96705776",
+        "w-07181748ab10",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-b04a48827310",
+        "w-f0441e0dd3b0",
+        "w-33df96705776",
+        "w-07181748ab10",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:38.916Z",
+      "target": "n9-127",
+      "constructionId": "n9-127",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Omple una part del sostre de la casa amb la punta del pinzell. El pot per al pinzell és buit."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Posa el pinzell usat dins el pot, amb mànec i cerres visibles a través de la paret translúcida. El sostre està complet."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el pinzell de mànec marcat amb una banda i el dibuix gran d’una casa"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3f84e69ac8d4d147da04428464fd7f25b36aac7c6ddc341f8235d54805db3135",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5a357e29d625f5e1b228172bafe39f978709acddc59d90e7710fe1635c10c0da"
+    },
+    {
+      "id": "cace-n9-128",
+      "src": "assets/constructions/n9/n9-128.webp",
+      "title": {
+        "ca": "ruc · pintar · posar — caixa",
+        "es": "BURRO · PINTAR · PONER · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · pintar · posar — caixa.",
+        "es": "BURRO · PINTAR · PONER · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-b04a48827310",
+        "w-c211f7486a30",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:35:39.072Z",
+      "target": "n9-128",
+      "constructionId": "n9-128",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Pinta la tapa, que descansa separada, deixant una franja encara sense cobrir."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca la tapa amb la franja acabada sobre la caixa, amb l’osca de front."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa de tapa separable amb osca de mitja lluna"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4899e07701e91fe66dfea820d722282c5eb7bad863ed0128d6704d1d0fdf9336",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4160c95e8739eba172923361cc6a7bfc4204418ab9c50d1e0b87ee9497ef5233"
+    },
     {
       "id": "cace-n9-014",
       "src": "assets/constructions/n9/n9-014.webp",
@@ -161604,7 +162656,21 @@
         "cace-n9-117",
         "cace-n9-118",
         "cace-n9-119",
-        "cace-n9-120"
+        "cace-n9-120",
+        "cace-n9-022",
+        "cace-n9-023",
+        "cace-n9-024",
+        "cace-n9-025",
+        "cace-n9-026",
+        "cace-n9-027",
+        "cace-n9-028",
+        "cace-n9-122",
+        "cace-n9-123",
+        "cace-n9-124",
+        "cace-n9-125",
+        "cace-n9-126",
+        "cace-n9-127",
+        "cace-n9-128"
       ]
     }
   ]

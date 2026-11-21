@@ -1,0 +1,106 @@
+{
+  "constructionId": "n9-131",
+  "file": "output/production/n9/n9-131/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: el puzle amb dibuix de vaixell i la caixa de tapa llisa. Ordered moments in Catalan: PANEL 1: Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat. PANEL 2: Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Puzzle has exactly FOUR large pieces forming one simple sailboat. First TWO assembled, THIRD in hand being fitted, FOURTH beside. Final all FOUR joined into complete SAME sailboat, sliding whole into box large enough for it. Piece shapes and total size constant.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-131",
+    "number": 131,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "activitat-tancament",
+    "familyId": "n9-f-031",
+    "counterpartId": "n9-031",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · jugar · guardar — puzle / caixa"
+    },
+    "labels": [
+      "CONILL",
+      "JUGAR",
+      "GUARDAR",
+      "PUZLE",
+      "CAIXA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-6d90f16f5461",
+      "w-f0441e0dd3b0",
+      "w-0006cf1ffdae",
+      "w-696b7c739d30",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "actions": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      }
+    ],
+    "referents": [
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-6d90f16f5461",
+        "evidence": "Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-f0441e0dd3b0",
+        "evidence": "Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "el puzle amb dibuix de vaixell i la caixa de tapa llisa"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:43:47.202Z"
+}

@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-029",
   "file": "output/production/n9/n9-029/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has medium brown skin and dark wavy hair. Preserve this identity exactly across panels. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NEN (school-age boy). Continuity anchor: dos grups de peces de fusta, discos i cubs, i la caixa dividida. Ordered moments in Catalan: PANEL 1: Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos. PANEL 2: Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Simplify wooden pieces in BOTH PANELS to EXACTLY FOUR TOTAL per panel, TWO round wooden DISKS and TWO wooden CUBES, all clearly separate and individually visible, no stacks or overlaps. LEFT: boy holds ONE disk just above table; remaining ONE disk and TWO cubes lie together as small mixed cluster, nothing else on table. Two-compartment box empty. RIGHT: exactly TWO disks lie side by side in left compartment and TWO cubes side by side in right compartment, boy fingers just releasing one of the disks. All four objects same size as corresponding pieces in left panel. Remove every extra piece. Preserve boy, hands, natural anatomy, furniture, box, viewpoint and white background. No numbers or labels.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-029",
     "number": 29,
@@ -102,5 +102,29 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T12:35:39.151Z"
+  "created": "2026-11-21T12:35:39.151Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-029/rejected-01.png",
+      "reason": "Quantitat de peces canvia entre moments.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has medium brown skin and dark wavy hair. Preserve this identity exactly across panels. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NEN (school-age boy). Continuity anchor: dos grups de peces de fusta, discos i cubs, i la caixa dividida. Ordered moments in Catalan: PANEL 1: Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos. PANEL 2: Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T12:41:48.425Z"
+    },
+    {
+      "file": "output/production/n9/n9-029/rejected-02.png",
+      "reason": "El recompte encara varia; simplificar a dues peces de cada classe.",
+      "prompt": "Make wooden PIECE COUNTS consistent across both panels, preserving boy, hands, furniture and camera. Exactly FIVE wooden circular disks and FOUR wooden cubes in total in EACH panel. LEFT: mixed pile of FOUR cubes plus TWO disks on left; group of TWO disks in middle; boy holds FIFTH disk immediately above mixed pile. RIGHT: exactly FIVE disks in left compartment, exactly FOUR cubes in right compartment, boy gently lowering last disk with hand. No extra pieces or hidden duplicates. Keep disk and cube sizes identical between moments and realistic relative to boy hands. Same two-compartment box. All anatomy and framing unchanged, no text.",
+      "rejectedAt": "2026-11-21T12:43:10.192Z"
+    }
+  ],
+  "review": "Recompte corregit a quatre peces recognoscibles: dos discos i dos cubs abans i després. Classifica des del grup mixt i després desa per formes en dos compartiments. Mans, escala i perspectiva naturals.",
+  "alt": {
+    "ca": "nen · classificar · guardar — peces / caixa.",
+    "es": "NIÑO · CLASIFICAR · GUARDAR · PIEZAS · CAJA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "6cdfd1f8e6848de423a6657533034610d7ab11170da8c770bc5376a29792c2f2",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:43:46.698Z"
 }

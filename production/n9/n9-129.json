@@ -1,0 +1,106 @@
+{
+  "constructionId": "n9-129",
+  "file": "output/production/n9/n9-129/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: TORTUGA. Continuity anchor: dos grups de peces de fusta, discos i cubs, i la caixa dividida. Ordered moments in Catalan: PANEL 1: Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos. PANEL 2: Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions. Exactly FOUR pieces total, TWO wooden disks and TWO wooden cubes, same FOUR in BOTH panels, all individually visible, no piles hiding extra pieces. First sort from mixed group, second grouped by form in box compartments.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-129",
+    "number": 129,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "activitat-tancament",
+    "familyId": "n9-f-029",
+    "counterpartId": "n9-029",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "tortuga · classificar · guardar — peces / caixa"
+    },
+    "labels": [
+      "TORTUGA",
+      "CLASSIFICAR",
+      "GUARDAR",
+      "PECES",
+      "CAIXA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-837cfa89f5df",
+      "w-f0441e0dd3b0",
+      "w-776ec487889f",
+      "w-696b7c739d30",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "agent": {
+      "label": "TORTUGA",
+      "wordId": "w-12dcca2ee56e"
+    },
+    "actions": [
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      }
+    ],
+    "referents": [
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-837cfa89f5df",
+        "evidence": "Amb part de les peces encara barrejades, separa un disc del munt i el deixa amb els altres discos."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-f0441e0dd3b0",
+        "evidence": "Fa baixar els dos grups als compartiments. Es veuen els discos junts i els cubs junts."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "dos grups de peces de fusta, discos i cubs, i la caixa dividida"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:43:46.866Z"
+}
