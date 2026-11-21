@@ -1,0 +1,133 @@
+{
+  "constructionId": "n8-130",
+  "file": "output/production/n8/n8-130/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: giraffe, on the LEFT. Second participant: monkey, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. GIRAFA a esquerra: Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles. MICO a dreta: Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PLAT, ESPONJA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-130",
+    "number": 130,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-030",
+    "counterpartId": "n8-030",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "girafa · netejar · plat / mico · saltar"
+    },
+    "labels": [
+      "GIRAFA",
+      "NETEJAR",
+      "PLAT",
+      "MICO",
+      "SALTAR"
+    ],
+    "wordIds": [
+      "w-e60f76be7b6c",
+      "w-4e6be686e7c1",
+      "w-55d250f4cf1e",
+      "w-12a87560751b",
+      "w-aac354dd31c8"
+    ],
+    "primaryWordId": "w-e60f76be7b6c",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GIRAFA",
+            "wordId": "w-e60f76be7b6c"
+          },
+          {
+            "role": "action",
+            "label": "NETEJAR",
+            "wordId": "w-4e6be686e7c1"
+          },
+          {
+            "role": "patient",
+            "label": "PLAT",
+            "wordId": "w-55d250f4cf1e"
+          }
+        ],
+        "labels": [
+          "GIRAFA",
+          "NETEJAR",
+          "PLAT"
+        ],
+        "wordIds": [
+          "w-e60f76be7b6c",
+          "w-4e6be686e7c1",
+          "w-55d250f4cf1e"
+        ],
+        "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+        "context": [
+          {
+            "label": "ESPONJA",
+            "wordId": "w-2d404e0d8979"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "MICO",
+            "wordId": "w-12a87560751b"
+          },
+          {
+            "role": "action",
+            "label": "SALTAR",
+            "wordId": "w-aac354dd31c8"
+          }
+        ],
+        "labels": [
+          "MICO",
+          "SALTAR"
+        ],
+        "wordIds": [
+          "w-12a87560751b",
+          "w-aac354dd31c8"
+        ],
+        "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. GIRAFA a esquerra: Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles. MICO a dreta: Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-12a87560751b|w-aac354dd31c8||w-e60f76be7b6c|w-4e6be686e7c1|w-55d250f4cf1e",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:03:35.439Z",
+  "review": "Esponja en contacte amb el plat, amb restes visibles. L’altre participant salta amb peus elevats i ombra al terra. Figures completes amb marges, objectes propis i mans coherents; anatomia humana natural, articulacions i suport plausibles, cap extremitat allargada; espècies recognoscibles al dibuix. Fons blanc i cap text. Revisió visual individual semàntica i anatòmica superada.",
+  "alt": {
+    "ca": "girafa · netejar · plat / mico · saltar.",
+    "es": "JIRAFA · LIMPIAR · PLATO · MONO · SALTAR."
+  },
+  "originalSha256": "0bc88d6e64e654983cf76ccea6df918ddde492549124c6f9577dec0020686760",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:07:54.639Z",
+  "publicationVersion": "0.1.140",
+  "importedAt": "2026-11-21T09:08:25.373960+00:00"
+}

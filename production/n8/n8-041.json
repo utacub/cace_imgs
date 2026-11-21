@@ -1,0 +1,134 @@
+{
+  "constructionId": "n8-041",
+  "file": "output/production/n8/n8-041/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: school-age girl, on the LEFT. Second participant: school-age boy, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NENA a esquerra: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. NEN a dreta: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PLASTILINA, GANIVET, TAULA, CISTELL. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. TALLAR uses a blunt round-tip table knife cutting soft PLASTILINA on a nearby low table, clear cut in the clay, supporting hand safely away from blade. No food cutting.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-041",
+    "number": 41,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-accio",
+    "familyId": "n8-f-041",
+    "counterpartId": "n8-141",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · tallar · plastilina / nen · portar · cistell"
+    },
+    "labels": [
+      "NENA",
+      "TALLAR",
+      "PLASTILINA",
+      "NEN",
+      "PORTAR",
+      "CISTELL"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-7a101d803c16",
+      "w-0606be9fcf92",
+      "w-b4012100fe09",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867"
+          },
+          {
+            "role": "action",
+            "label": "TALLAR",
+            "wordId": "w-7a101d803c16"
+          },
+          {
+            "role": "patient",
+            "label": "PLASTILINA",
+            "wordId": "w-0606be9fcf92"
+          }
+        ],
+        "labels": [
+          "NENA",
+          "TALLAR",
+          "PLASTILINA"
+        ],
+        "wordIds": [
+          "w-cda6fa4a9867",
+          "w-7a101d803c16",
+          "w-0606be9fcf92"
+        ],
+        "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+        "context": [
+          {
+            "label": "GANIVET",
+            "wordId": "w-49819bf5e906"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09"
+          },
+          {
+            "role": "action",
+            "label": "PORTAR",
+            "wordId": "w-73b71e1ff757"
+          },
+          {
+            "role": "patient",
+            "label": "CISTELL",
+            "wordId": "w-120fb6b37e88"
+          }
+        ],
+        "labels": [
+          "NEN",
+          "PORTAR",
+          "CISTELL"
+        ],
+        "wordIds": [
+          "w-b4012100fe09",
+          "w-73b71e1ff757",
+          "w-120fb6b37e88"
+        ],
+        "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NENA a esquerra: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. NEN a dreta: Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-b4012100fe09|w-73b71e1ff757|w-120fb6b37e88||w-cda6fa4a9867|w-7a101d803c16|w-0606be9fcf92",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:08:03.431Z"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.139",
+  "version": "0.1.140",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,2410 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-026",
+      "src": "assets/constructions/n8/n8-026.webp",
+      "title": {
+        "ca": "nen · netejar · plat / noia · portar · cistell",
+        "es": "NIÑO · LIMPIAR · PLATO · CHICA · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nen · netejar · plat / noia · portar · cistell.",
+        "es": "NIÑO · LIMPIAR · PLATO · CHICA · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:54.504Z",
+      "target": "n8-026",
+      "constructionId": "n8-026",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "2386a4e937c6bd2f36c35718147224e54492981f0072bfb36f850730f36d7600",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b20efcae00202c2b9c373e3484b3c212df81a2c78974b18d5e109f3707297f4b"
+    },
+    {
+      "id": "cace-n8-027",
+      "src": "assets/constructions/n8/n8-027.webp",
+      "title": {
+        "ca": "noi · netejar · plat / dona · aixecar · pilota",
+        "es": "CHICO · LIMPIAR · PLATO · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "noi · netejar · plat / dona · aixecar · pilota.",
+        "es": "CHICO · LIMPIAR · PLATO · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:54.733Z",
+      "target": "n8-027",
+      "constructionId": "n8-027",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f9680c04c006b5b8a966322fef872de89f5291d75104e214c82b478b64536d34",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "37bbbc1e1eb70ebf407178479f9d0fca2ba6034d9dd4f5f6e32c8e72a4951eeb"
+    },
+    {
+      "id": "cace-n8-028",
+      "src": "assets/constructions/n8/n8-028.webp",
+      "title": {
+        "ca": "nena · netejar · plat / noia · olorar · flor",
+        "es": "NIÑA · LIMPIAR · PLATO · CHICA · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "nena · netejar · plat / noia · olorar · flor.",
+        "es": "NIÑA · LIMPIAR · PLATO · CHICA · OLER · FLOR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:54.944Z",
+      "target": "n8-028",
+      "constructionId": "n8-028",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "99e4ba351fca7983b0f271cd981268998ec2ff485c75cb9c5f134a8b8756e42f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "09c7d71399e450015168c81a5e4c6985f39ffb5687e490b915b61489b48f790b"
+    },
+    {
+      "id": "cace-n8-029",
+      "src": "assets/constructions/n8/n8-029.webp",
+      "title": {
+        "ca": "home · netejar · plat / noi · abraçar · coixí",
+        "es": "HOMBRE · LIMPIAR · PLATO · CHICO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · netejar · plat / noi · abraçar · coixí.",
+        "es": "HOMBRE · LIMPIAR · PLATO · CHICO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-01bc6dcab46b",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:55.157Z",
+      "target": "n8-029",
+      "constructionId": "n8-029",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "319e4983654656f41ced3650dc65803a08bf71f4a087525a04718675af9c8b04",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "693a35c85599a2b4fef7fc6e69562599b86981dc714fcb0ac15cc8bf65626ce6"
+    },
+    {
+      "id": "cace-n8-030",
+      "src": "assets/constructions/n8/n8-030.webp",
+      "title": {
+        "ca": "dona · netejar · plat / nena · saltar",
+        "es": "MUJER · LIMPIAR · PLATO · NIÑA · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · netejar · plat / nena · saltar.",
+        "es": "MUJER · LIMPIAR · PLATO · NIÑA · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-cda6fa4a9867",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.339Z",
+      "target": "n8-030",
+      "constructionId": "n8-030",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8881ad4256db7938aef1861f4588e44310eed81b450442c056fe9e1dc256f351",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a647ad7addf9b275c708c3278c17c729958d70edc82c31a6747e2fae86e028eb"
+    },
+    {
+      "id": "cace-n8-031",
+      "src": "assets/constructions/n8/n8-031.webp",
+      "title": {
+        "ca": "nena · assecar · cullera / nen · portar · cistell",
+        "es": "NIÑA · SECAR · CUCHARA · NIÑO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "nena · assecar · cullera / nen · portar · cistell.",
+        "es": "NIÑA · SECAR · CUCHARA · NIÑO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b4012100fe09",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.536Z",
+      "target": "n8-031",
+      "constructionId": "n8-031",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "57fefa35707de9c07c96d4370a0a8005fd08c42b2b7fe080a20c2707c2556cfb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ef9a0a657937178ef21a9f2ed02fd5abe921e3c287cba759f8c7a846cbb4680b"
+    },
+    {
+      "id": "cace-n8-032",
+      "src": "assets/constructions/n8/n8-032.webp",
+      "title": {
+        "ca": "nen · assecar · cullera / dona · aixecar · pilota",
+        "es": "NIÑO · SECAR · CUCHARA · MUJER · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "nen · assecar · cullera / dona · aixecar · pilota.",
+        "es": "NIÑO · SECAR · CUCHARA · MUJER · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-72e9fe9a8b43",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.820Z",
+      "target": "n8-032",
+      "constructionId": "n8-032",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "14a6d1219e9582ead7cae5d3b39d4dace394cac5ffe6256d11779d63a1041e45",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "28df3c6d325e59105ca820bf1f9284f674b2803e124cd10a8d0b15adda8a7dc3"
+    },
+    {
+      "id": "cace-n8-033",
+      "src": "assets/constructions/n8/n8-033.webp",
+      "title": {
+        "ca": "noia · assecar · cullera / noi · olorar · flor",
+        "es": "CHICA · SECAR · CUCHARA · CHICO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "noia · assecar · cullera / noi · olorar · flor.",
+        "es": "CHICA · SECAR · CUCHARA · CHICO · OLER · FLOR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-01bc6dcab46b",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.007Z",
+      "target": "n8-033",
+      "constructionId": "n8-033",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "891cd96500f0e7d67721d7490152bb09546f6445db2d80f5f874dfd0b7cbab34",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b17fe38804bcaffc345f710baf6089bae6bd5dd200c9187bbcf7414e1937446f"
+    },
+    {
+      "id": "cace-n8-034",
+      "src": "assets/constructions/n8/n8-034.webp",
+      "title": {
+        "ca": "home · assecar · cullera / nena · abraçar · coixí",
+        "es": "HOMBRE · SECAR · CUCHARA · NIÑA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "home · assecar · cullera / nena · abraçar · coixí.",
+        "es": "HOMBRE · SECAR · CUCHARA · NIÑA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cda6fa4a9867",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.205Z",
+      "target": "n8-034",
+      "constructionId": "n8-034",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a3f567b6723e47f314262b744c36f9d550624a7b44c978e2dc277158333ef4ff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1f454b5bba55c074913f14cfdfe6b4ffcb98f67434407c551d5439decabbe558"
+    },
+    {
+      "id": "cace-n8-035",
+      "src": "assets/constructions/n8/n8-035.webp",
+      "title": {
+        "ca": "dona · assecar · cullera / home · saltar",
+        "es": "MUJER · SECAR · CUCHARA · HOMBRE · SALTAR"
+      },
+      "alt": {
+        "ca": "dona · assecar · cullera / home · saltar.",
+        "es": "MUJER · SECAR · CUCHARA · HOMBRE · SALTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cfe24f6b3c38",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.402Z",
+      "target": "n8-035",
+      "constructionId": "n8-035",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ea61eceabc29bc5ef4d405aaa572072a89f326839a6abcd8458db098545b37ef",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4ade362af1046e36aeca7960368dfaecdfe2b4e7aa8b8af77638a16c464041c7"
+    },
+    {
+      "id": "cace-n8-126",
+      "src": "assets/constructions/n8/n8-126.webp",
+      "title": {
+        "ca": "ós · netejar · plat / conill · portar · cistell",
+        "es": "OSO · LIMPIAR · PLATO · CONEJO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "ós · netejar · plat / conill · portar · cistell.",
+        "es": "OSO · LIMPIAR · PLATO · CONEJO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:54.620Z",
+      "target": "n8-126",
+      "constructionId": "n8-126",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "f65200522cc2ab5503cc0e6495e3c563c0e52f65750f3f93b49103713cd56ff3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b7f20202562162eafd3b3632947f7bc7b9f142b9640d044fe08dd1471e299d51"
+    },
+    {
+      "id": "cace-n8-127",
+      "src": "assets/constructions/n8/n8-127.webp",
+      "title": {
+        "ca": "elefant · netejar · plat / gat · aixecar · pilota",
+        "es": "ELEFANTE · LIMPIAR · PLATO · GATO · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "elefant · netejar · plat / gat · aixecar · pilota.",
+        "es": "ELEFANTE · LIMPIAR · PLATO · GATO · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:54.845Z",
+      "target": "n8-127",
+      "constructionId": "n8-127",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "227792962cbb19a9dd3a0c6e69eaae9b1f87d81a4156eb99dd7c5fd85ec22e2e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9155e14b12a05f113ded66680a5fc4c703810691a02a5baacf0907cee444320f"
+    },
+    {
+      "id": "cace-n8-128",
+      "src": "assets/constructions/n8/n8-128.webp",
+      "title": {
+        "ca": "gos · netejar · plat / cangur · olorar · flor",
+        "es": "PERRO · LIMPIAR · PLATO · CANGURO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gos · netejar · plat / cangur · olorar · flor.",
+        "es": "PERRO · LIMPIAR · PLATO · CANGURO · OLER · FLOR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-d5395d03acbf",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:55.054Z",
+      "target": "n8-128",
+      "constructionId": "n8-128",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "a68ff7fab6ec375cbe98c2c20c111a72adf58830029c91d1dd428e224ad5a2b0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "427e8339afe02fcdbebd40455e33654470ecaccd9bde1f7ce46aa0025cc0a360"
+    },
+    {
+      "id": "cace-n8-129",
+      "src": "assets/constructions/n8/n8-129.webp",
+      "title": {
+        "ca": "pinguí · netejar · plat / zebra · abraçar · coixí",
+        "es": "PINGÜINO · LIMPIAR · PLATO · CEBRA · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "pinguí · netejar · plat / zebra · abraçar · coixí.",
+        "es": "PINGÜINO · LIMPIAR · PLATO · CEBRA · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-0dc8fba9677d",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T08:59:55.272Z",
+      "target": "n8-129",
+      "constructionId": "n8-129",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "817e1ebcfa63f19939522a681305681f8803cbe86dcfe35c78ac26abe6f9482e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bde4e56fd2b322372b9a81f94268c5a87e5d4fa89a3b32e5f4d87cf3b418fb5c"
+    },
+    {
+      "id": "cace-n8-130",
+      "src": "assets/constructions/n8/n8-130.webp",
+      "title": {
+        "ca": "girafa · netejar · plat / mico · saltar",
+        "es": "JIRAFA · LIMPIAR · PLATO · MONO · SALTAR"
+      },
+      "alt": {
+        "ca": "girafa · netejar · plat / mico · saltar.",
+        "es": "JIRAFA · LIMPIAR · PLATO · MONO · SALTAR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-12a87560751b",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.439Z",
+      "target": "n8-130",
+      "constructionId": "n8-130",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "0bc88d6e64e654983cf76ccea6df918ddde492549124c6f9577dec0020686760",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "236bbba585571704f153db54780d980170d7f76e913628008abc8c4e0e7a4a1b"
+    },
+    {
+      "id": "cace-n8-131",
+      "src": "assets/constructions/n8/n8-131.webp",
+      "title": {
+        "ca": "mico · assecar · cullera / ós · portar · cistell",
+        "es": "MONO · SECAR · CUCHARA · OSO · LLEVAR · CESTA"
+      },
+      "alt": {
+        "ca": "mico · assecar · cullera / ós · portar · cistell.",
+        "es": "MONO · SECAR · CUCHARA · OSO · LLEVAR · CESTA."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-a06249642996",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.727Z",
+      "target": "n8-131",
+      "constructionId": "n8-131",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "PORTAR",
+              "wordId": "w-73b71e1ff757"
+            },
+            {
+              "role": "patient",
+              "label": "CISTELL",
+              "wordId": "w-120fb6b37e88"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PORTAR",
+            "CISTELL"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-73b71e1ff757",
+            "w-120fb6b37e88"
+          ],
+          "evidence": "Cistell buit sostingut per la nansa al costat del cos mentre fa un pas curt sobre el mateix terra; sense lliurament al company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "6130169589ae3f408c20e7ff97b4634c94bf50b15c6223250df3e1371b564ae9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f7316afbd0b7448c71cfdc84664353a6fa6cac5f0149d8f41bfb0c13eaa2a942"
+    },
+    {
+      "id": "cace-n8-132",
+      "src": "assets/constructions/n8/n8-132.webp",
+      "title": {
+        "ca": "conill · assecar · cullera / elefant · aixecar · pilota",
+        "es": "CONEJO · SECAR · CUCHARA · ELEFANTE · LEVANTAR · PELOTA"
+      },
+      "alt": {
+        "ca": "conill · assecar · cullera / elefant · aixecar · pilota.",
+        "es": "CONEJO · SECAR · CUCHARA · ELEFANTE · LEVANTAR · PELOTA."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b059d8ef0bc9",
+        "w-e12d88415c80",
+        "w-b7f578451973"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:35.905Z",
+      "target": "n8-132",
+      "constructionId": "n8-132",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "AIXECAR",
+              "wordId": "w-e12d88415c80"
+            },
+            {
+              "role": "patient",
+              "label": "PILOTA",
+              "wordId": "w-b7f578451973"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "AIXECAR",
+            "PILOTA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-e12d88415c80",
+            "w-b7f578451973"
+          ],
+          "evidence": "Dues mans eleven una pilota lleugera fins a l’altura del pit, separada d’una base baixa; colzes flexionats i base sencera visible.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "859cd1dc228c0e6c05269422a7ab81b1d31b6507852646072d1dbe3b503c1e00",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2e6f99f17eaaea427cd1a8c34970020300a79814eeb31796b9fe8aa6682e68e7"
+    },
+    {
+      "id": "cace-n8-133",
+      "src": "assets/constructions/n8/n8-133.webp",
+      "title": {
+        "ca": "gat · assecar · cullera / gos · olorar · flor",
+        "es": "GATO · SECAR · CUCHARA · PERRO · OLER · FLOR"
+      },
+      "alt": {
+        "ca": "gat · assecar · cullera / gos · olorar · flor.",
+        "es": "GATO · SECAR · CUCHARA · PERRO · OLER · FLOR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-4761fde107a7",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.111Z",
+      "target": "n8-133",
+      "constructionId": "n8-133",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "OLORAR",
+              "wordId": "w-fc006ad2b6a7"
+            },
+            {
+              "role": "patient",
+              "label": "FLOR",
+              "wordId": "w-6c5def9143c8"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "OLORAR",
+            "FLOR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-fc006ad2b6a7",
+            "w-6c5def9143c8"
+          ],
+          "evidence": "Una sola flor amb tija visible prop del nas, cap lleument inclinat i boca tancada; no la menja ni la rega.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "ac7ca46f7b917412c0e79f0e670fd4a69cb1f4f438c0d1ade5ded4cffcc1309a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "20f38e6479f25f1b6d3533273ed452974c9dd081087badd07d6de8ee7845014d"
+    },
+    {
+      "id": "cace-n8-134",
+      "src": "assets/constructions/n8/n8-134.webp",
+      "title": {
+        "ca": "cangur · assecar · cullera / pinguí · abraçar · coixí",
+        "es": "CANGURO · SECAR · CUCHARA · PINGÜINO · ABRAZAR · ALMOHADA"
+      },
+      "alt": {
+        "ca": "cangur · assecar · cullera / pinguí · abraçar · coixí.",
+        "es": "CANGURO · SECAR · CUCHARA · PINGÜINO · ABRAZAR · ALMOHADA."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-5993b1ea57aa",
+        "w-780639e2d630",
+        "w-44260b79b61e"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.304Z",
+      "target": "n8-134",
+      "constructionId": "n8-134",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ABRAÇAR",
+              "wordId": "w-780639e2d630"
+            },
+            {
+              "role": "patient",
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ABRAÇAR",
+            "COIXÍ"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-780639e2d630",
+            "w-44260b79b61e"
+          ],
+          "evidence": "Dos braços envolten un coixí ample contra el pit, amb colzes flexionats i mans visibles; no abraça el company.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "c2f234d1a3ff76aebc21fb6ff8ec4a2bc9bc552f6c0f2465e0c92eaca8669895",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "be131cb89ef2ccda0c87b4ec30e119fa3ac7019a7637a1eabb8eb16078b934c7"
+    },
+    {
+      "id": "cace-n8-135",
+      "src": "assets/constructions/n8/n8-135.webp",
+      "title": {
+        "ca": "zebra · assecar · cullera / girafa · saltar",
+        "es": "CEBRA · SECAR · CUCHARA · JIRAFA · SALTAR"
+      },
+      "alt": {
+        "ca": "zebra · assecar · cullera / girafa · saltar.",
+        "es": "CEBRA · SECAR · CUCHARA · JIRAFA · SALTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-e60f76be7b6c",
+        "w-aac354dd31c8"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:03:36.491Z",
+      "target": "n8-135",
+      "constructionId": "n8-135",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "SALTAR",
+              "wordId": "w-aac354dd31c8"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SALTAR"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-aac354dd31c8"
+          ],
+          "evidence": "Instant d’un salt baix: els dos peus separats del terra, genolls flexionats i ombra petita sota els peus; sense línies de moviment ni equipament.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "62faf3440300528fc9c67727cb73f8771bed647202d696210896276102ec2968",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d5f98337e87205c1675ac224c50f90596c79fe81468bed1e2ed967e41278a656"
+    },
     {
       "id": "cace-n8-022",
       "src": "assets/constructions/n8/n8-022.webp",
@@ -141669,7 +144073,27 @@
         "cace-n8-122",
         "cace-n8-123",
         "cace-n8-124",
-        "cace-n8-125"
+        "cace-n8-125",
+        "cace-n8-026",
+        "cace-n8-027",
+        "cace-n8-028",
+        "cace-n8-029",
+        "cace-n8-030",
+        "cace-n8-031",
+        "cace-n8-032",
+        "cace-n8-033",
+        "cace-n8-034",
+        "cace-n8-035",
+        "cace-n8-126",
+        "cace-n8-127",
+        "cace-n8-128",
+        "cace-n8-129",
+        "cace-n8-130",
+        "cace-n8-131",
+        "cace-n8-132",
+        "cace-n8-133",
+        "cace-n8-134",
+        "cace-n8-135"
       ]
     }
   ]
