@@ -1,5 +1,6 @@
 """Record individual N11 reviews and build batches from accepted originals."""
 import argparse
+from collections import Counter
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -8,6 +9,8 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
+from zipfile import ZipFile
 
 from PIL import Image
 
@@ -62,11 +65,11 @@ def record_review(decision, item):
     source_hash = digest(source)
     if any(attempt['sha256'] == source_hash for attempt in record['attempts']):
         return
-    assert record.get('status') != 'accepted', item_id
     assert decision['status'] in ('accepted', 'rejected'), item_id
     assert decision['review'].strip() and decision['prompt'].strip(), item_id
     accepted = decision['status'] == 'accepted'
     if accepted:
+        assert record.get('status') != 'accepted', item_id
         assert decision['alt']['ca'].strip() and decision['alt']['es'].strip(), item_id
     with Image.open(source) as image:
         assert image.format == 'PNG'
@@ -86,7 +89,8 @@ def record_review(decision, item):
         'status': decision['status'], 'sha256': source_hash, 'file': relative, 'prompt': decision['prompt'],
         'review': decision['review'], 'reviewedAt': timestamp(),
     })
-    record['status'] = decision['status']
+    if record.get('status') != 'accepted':
+        record['status'] = decision['status']
     if accepted:
         record.update({
             'reviewed': True, 'prompt': decision['prompt'], 'review': decision['review'], 'alt': decision['alt'],
@@ -213,11 +217,87 @@ def release(plan, items, catalog, version):
     run('git', 'diff', '--check')
 
 
+def verify_bank(catalog):
+    bank = ROOT / 'bank'
+    manifest = read_json(bank / 'manifest.json')
+    expected = {asset['src']: asset['displaySha256'] for asset in catalog['assets']}
+    archive_hash = hashlib.sha256()
+    with tempfile.TemporaryFile() as assembled:
+        for index, part in enumerate(manifest['parts']):
+            assert part['path'] == f'images.zip.part-{index:04d}'
+            raw = (bank / part['path']).read_bytes()
+            assert len(raw) == part['bytes'] and hashlib.sha256(raw).hexdigest() == part['sha256']
+            archive_hash.update(raw)
+            assembled.write(raw)
+        assert assembled.tell() == manifest['archive_bytes']
+        assert archive_hash.hexdigest() == manifest['archive_sha256']
+        with ZipFile(assembled) as archive:
+            assert len(archive.namelist()) == manifest['images'] == len(expected)
+            assert set(archive.namelist()) == expected.keys()
+            for path, sha256 in expected.items():
+                assert hashlib.sha256(archive.read(path)).hexdigest() == sha256, path
+    return manifest
+
+
+def audit(plan, items, catalog, publication):
+    baseline = catalog_at(plan['baseline']['head'])
+    verify_previous(catalog, baseline)
+    assert len(catalog['assets']) == len(baseline['assets']) + len(items)
+    assets = {asset['constructionId']: asset for asset in catalog['assets'] if asset['levels'] == [11]}
+    assert assets.keys() == items.keys()
+    assert len({asset['originalSha256'] for asset in assets.values()}) == len(items)
+    collection = next(entry for entry in catalog['collections'] if entry['id'] == COLLECTION)
+    expected_ids = {asset['id'] for asset in assets.values()}
+    assert len(collection['items']) == len(items) and set(collection['items']) == expected_ids
+    groups = Counter(item['group'] for item in items.values())
+    families = Counter(item['familyId'] for item in items.values())
+    assert len(items) == 200 and len(families) == 100 and set(families.values()) == {2}
+    assert groups == {'habitual': 100, 'insolita': 100}
+    themes = Counter(item['theme'] for item in items.values())
+    attempts = Counter()
+    for item_id, item in items.items():
+        record = read_json(record_path(item_id))
+        asset = assets[item_id]
+        assert record['construction'] == item and record['reviewed'] and record['status'] == 'accepted'
+        assert len(asset['moments']) == 4 and asset['tags'] == item['wordIds']
+        assert record['alt'] == asset['alt'] and set(record['alt']) == {'ca', 'es'}
+        assert all(text.strip() for text in record['alt'].values())
+        assert digest(ROOT / record['file']) == asset['originalSha256'] == record['originalSha256']
+        assert digest(ROOT / 'dist' / asset['src']) == asset['displaySha256']
+        selected = [entry for entry in record['attempts'] if entry['status'] == 'accepted']
+        assert len(selected) == 1 and selected[0]['sha256'] == record['originalSha256']
+        assert selected[0]['review'] == record['review'] and selected[0]['prompt'] == record['prompt']
+        for attempt in record['attempts']:
+            assert attempt['review'].strip() and attempt['prompt'].strip()
+            assert digest(ROOT / attempt['file']) == attempt['sha256']
+            attempts[attempt['status']] += 1
+    assert attempts['accepted'] == len(items) and set(attempts) <= {'accepted', 'rejected'}
+    assert publication['status'] == 'verified' and publication['version'] == catalog['version']
+    assert publication['catalogImages'] == len(catalog['assets'])
+    assert publication['n11DownloadsVerified'] == len(items) and set(publication['verifiedIds']) == expected_ids
+    assert catalog_at(publication['commit']) == catalog
+    bank = verify_bank(catalog)
+    report = {
+        'status': 'valid', 'checkedAt': timestamp(), 'catalogVersion': catalog['version'],
+        'catalogImages': len(catalog['assets']), 'baselineCommit': plan['baseline']['head'],
+        'preservedImages': len(baseline['assets']), 'preservedWords': len(baseline['words']),
+        'publishedN11': len(items), 'familyPairs': len(families), 'stimuliPerGroup': groups,
+        'stimuliPerTheme': themes, 'totalMoments': sum(len(asset['moments']) for asset in assets.values()),
+        'reviewedCandidates': attempts.total(), 'accepted': attempts['accepted'],
+        'rejectedAttempts': attempts['rejected'], 'pending': [],
+        'bankImagesVerified': bank['images'], 'bankPartsVerified': len(bank['parts']),
+        'bankArchiveSha256': bank['archive_sha256'], 'publicVerification': publication,
+    }
+    write_json(PRODUCTION / 'n11-final-audit.json', report)
+    print(json.dumps({key: value for key, value in report.items() if key != 'publicVerification'}))
+
+
 def main():
     parser = argparse.ArgumentParser()
     actions = parser.add_subparsers(dest='command', required=True)
     actions.add_parser('review').add_argument('decisions', type=Path)
     actions.add_parser('release').add_argument('version')
+    actions.add_parser('audit').add_argument('publication', type=Path)
     args = parser.parse_args()
     plan = read_json(PRODUCTION / 'n11-plan.json')
     items = {item['id']: item for item in plan['items']}
@@ -226,8 +306,10 @@ def main():
         for decision in read_json(args.decisions):
             record_review(decision, items[decision['id']])
         progress(items, catalog)
-    else:
+    elif args.command == 'release':
         release(plan, items, catalog, args.version)
+    else:
+        audit(plan, items, catalog, read_json(args.publication))
 
 
 if __name__ == '__main__':

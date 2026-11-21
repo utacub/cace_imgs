@@ -1,5 +1,5 @@
 {
-  "version": "0.1.176",
+  "version": "0.1.177",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1148 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n11-044",
+      "src": "assets/constructions/n11/n11-044.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La tassa que faltava · foto",
+        "es": "NIÑO · HOMBRE · PONER · LLEVAR · BEBER · TAZA · LECHE · COCINA · COMEDOR"
+      },
+      "alt": {
+        "ca": "L’home posa una tassa vermella al lloc buit. El nen hi aboca llet de la gerra i tots dos beuen de la seva tassa.",
+        "es": "El hombre pone una taza roja en el sitio vacío. El niño vierte leche de la jarra y ambos beben de su taza."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-73b71e1ff757",
+        "w-a5ddba336d84",
+        "w-adecb8403118",
+        "w-e596f4e7a6bb",
+        "w-2a34971d94b3",
+        "w-32c0089441f0"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-73b71e1ff757",
+        "w-a5ddba336d84",
+        "w-adecb8403118",
+        "w-e596f4e7a6bb",
+        "w-2a34971d94b3",
+        "w-32c0089441f0"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:47:22+00:00",
+      "target": "n11-044",
+      "constructionId": "n11-044",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A té una tassa a la taula del menjador i manté la gerra dreta. B veu l’altre lloc buit."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "B"
+          ],
+          "evidence": "B porta la segona tassa des de la cuina i deixa la nansa triangular cap al segon seient."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A"
+          ],
+          "evidence": "A aboca llet a la segona tassa. La primera ja és plena fins a la mateixa altura i el nivell de la gerra ha baixat."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B passa la tassa rodona cap a A i conserva la triangular. A beu de la tassa rodona i B acosta la triangular als llavis."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Dues tasses, una amb nansa rodona i l’altra triangular, i una gerra transparent amb dues marques de relleu."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-044",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09",
+            "role": "participant que prepara el servei",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que afegeix la segona tassa",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CUINA",
+            "wordId": "w-2a34971d94b3"
+          },
+          {
+            "label": "MENJADOR",
+            "wordId": "w-32c0089441f0"
+          }
+        ],
+        "narrative": "B aporta la tassa que falta i A omple tots dos llocs perquè puguin beure plegats."
+      },
+      "originalSha256": "184472d2e6c5dcfcfa8243e53006f23d98bbe129ee5a20d2a6fb7bbd8ebfbb99",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "268489e311328ee64b07aacfc5044ddba2d7a2d9fac82035c9ccae33ea9f6399"
+    },
+    {
+      "id": "cace-n11-128",
+      "src": "assets/constructions/n11/n11-128.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La galleda del castell · dibuix",
+        "es": "CANGURO · CONEJO · JUGAR · LLEVAR · PONER · CUBO · PALA · PARQUE"
+      },
+      "alt": {
+        "ca": "El cangur omple de sorra una galleda amb forma de torre. El conill tomba i aixeca la galleda, i la torre queda dreta.",
+        "es": "El canguro llena de arena un cubo con forma de torre. El conejo vuelca y levanta el cubo, y la torre queda en pie."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-73b71e1ff757",
+        "w-c211f7486a30",
+        "w-7f04619a8649",
+        "w-208167fa638f",
+        "w-fb96ae342785"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-73b71e1ff757",
+        "w-c211f7486a30",
+        "w-7f04619a8649",
+        "w-208167fa638f",
+        "w-fb96ae342785"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:45:42+00:00",
+      "target": "n11-128",
+      "constructionId": "n11-128",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A omple la galleda al sorral amb la pala. B aplana amb la mà una zona lliure per al castell."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A porta la galleda plena pel mànec fins al replà allisat. B hi posa la pala al costat."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "B"
+          ],
+          "evidence": "B gira la galleda amb les dues mans, amb la boca plana sobre la sorra preparada."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B aixeca el motlle buit i A assenyala els quatre merlets que han quedat al castell de sorra."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Una galleda de motlle amb quatre merlets, una pala curta i un sorral amb marge baix."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-028",
+        "participants": [
+          {
+            "key": "A",
+            "label": "CANGUR",
+            "wordId": "w-d5395d03acbf",
+            "role": "participant que omple i transporta",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b",
+            "role": "participant que desemmotlla",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "PARC",
+            "wordId": "w-fb96ae342785"
+          }
+        ],
+        "narrative": "A porta el motlle ple fins al lloc que B ha aplanat i B el desemmotlla deixant els merlets drets."
+      },
+      "originalSha256": "4cc83d37564a9afef9398ac13ceeacf8ffffec51e8a20d570214596eb5e3985e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b987b068ddf1b20a2499f4be6ae009223494b279d98188b64e5f07a336beb822"
+    },
+    {
+      "id": "cace-n11-148",
+      "src": "assets/constructions/n11/n11-148.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "L’entrepà i les dues carmanyoles · dibuix",
+        "es": "CANGURO · PERRO · PONER · CERRAR · GUARDAR · BOCADILLO · FIAMBRERA · COCINA"
+      },
+      "alt": {
+        "ca": "El gos obre les dues carmanyoles. El gos i el cangur hi guarden una meitat de l’entrepà cadascú i s’enduen les carmanyoles tancades.",
+        "es": "El perro abre las dos fiambreras. El perro y el canguro guardan una mitad del bocadillo cada uno y se llevan las fiambreras cerradas."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-4000ec1e6d5b",
+        "w-f0441e0dd3b0",
+        "w-0c47f11deffa",
+        "w-c3b8bd56e942",
+        "w-2a34971d94b3"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-4000ec1e6d5b",
+        "w-f0441e0dd3b0",
+        "w-0c47f11deffa",
+        "w-c3b8bd56e942",
+        "w-2a34971d94b3"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:45:42+00:00",
+      "target": "n11-148",
+      "constructionId": "n11-148",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B obre dues carmanyoles sobre la taula mentre A mostra les dues meitats sobre un únic plat."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A posa una meitat dins de cada carmanyola. B orienta les frontisses cap a fora."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B tanca la primera i A tanca la segona amb les meitats encara visibles a través de la tapa."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A i B recullen una carmanyola cadascú i el plat únic queda buit."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Dues meitats d’un entrepà amb crosta ondulada i dues carmanyoles amb tapes translúcides de colors diferents."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-048",
+        "participants": [
+          {
+            "key": "A",
+            "label": "CANGUR",
+            "wordId": "w-d5395d03acbf",
+            "role": "participant que reparteix",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "GOS",
+            "wordId": "w-4761fde107a7",
+            "role": "participant que prepara les carmanyoles",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CUINA",
+            "wordId": "w-2a34971d94b3"
+          }
+        ],
+        "narrative": "B prepara les carmanyoles i A hi reparteix les dues meitats abans que cadascú se n’endugui una."
+      },
+      "originalSha256": "5417dda1b452b77d53b3524b6872abb91428909250fbf3cd581409801418e332",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d32b6dd320ec5afe8cb63d680da496fc3352db3b341bc2b4dacda92c7afa7d98"
+    },
+    {
+      "id": "cace-n11-162",
+      "src": "assets/constructions/n11/n11-162.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El pa de dues puntes · dibuix",
+        "es": "GATO · LEÓN · COMPRAR · PAGAR · DAR · PAN · PANADERÍA"
+      },
+      "alt": {
+        "ca": "El gat paga dues monedes i obre la bossa. El lleó hi posa el pa de dues puntes i recull el platet amb les monedes.",
+        "es": "El gato paga dos monedas y abre la bolsa. El león mete el pan de dos puntas y recoge el platillo con las monedas."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-fbc89c059c15",
+        "w-57b3143c692c",
+        "w-eac4fec3f647",
+        "w-dd80e4e4de38",
+        "w-96e21018e871",
+        "w-2c34917e64b7"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-fbc89c059c15",
+        "w-57b3143c692c",
+        "w-eac4fec3f647",
+        "w-dd80e4e4de38",
+        "w-96e21018e871",
+        "w-2c34917e64b7"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:47:09+00:00",
+      "target": "n11-162",
+      "constructionId": "n11-162",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B mostra el panet i A posa dues monedes al platet del taulell."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B recull les dues monedes i A acosta la bossa oberta a la part baixa del taulell."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B posa el panet dins la bossa mentre A sosté una nansa a cada mà."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A aixeca la bossa amb les dues puntes del panet visibles i el platet queda buit davant de B."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un panet amb dues puntes i una bossa oberta amb nansa fosca, dues monedes grosses sense inscripció i un platet."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-062",
+        "participants": [
+          {
+            "key": "A",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02",
+            "role": "client que recull la compra",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "LLEÓ",
+            "wordId": "w-fbc89c059c15",
+            "role": "dependent que la prepara",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "FORN DE PA",
+            "wordId": "w-2c34917e64b7"
+          }
+        ],
+        "narrative": "A paga i acosta la bossa oberta perquè B li pugui lliurar el pa que ha triat."
+      },
+      "originalSha256": "110d596f5f87e4d2ee511811e7a9cd172e637b3d4f3039480256d1d464b919d6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bcce6d242847f1cd0b0538d165aec95c0ca6f575713145ac84bd0eece8038807"
+    },
+    {
+      "id": "cace-n11-173",
+      "src": "assets/constructions/n11/n11-173.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El tambor entre bastidors · dibuix",
+        "es": "PERRO · CONEJO · LLEVAR · AYUDAR · TOCAR · TAMBOR · TEATRO"
+      },
+      "alt": {
+        "ca": "El gos arriba amb un tambor i el conill li obre la cortina. El gos posa el tambor sobre l’estora i en toca la membrana.",
+        "es": "El perro llega con un tambor y el conejo le abre la cortina. El perro pone el tambor sobre la alfombra y toca el parche."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-5b2ff1d40d54",
+        "w-072ecc01e120",
+        "w-e54dc34d54dc",
+        "w-69105eb76f78"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-51a7805e979b",
+        "w-73b71e1ff757",
+        "w-5b2ff1d40d54",
+        "w-072ecc01e120",
+        "w-e54dc34d54dc",
+        "w-69105eb76f78"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:45:47+00:00",
+      "target": "n11-173",
+      "constructionId": "n11-173",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A agafa el tambor per la carcassa darrere del teló i B té la mà a la vora ondulada."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B obre el lateral, mostrant el suport baix, i A hi avança amb el tambor a dues mans."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A assenta el tambor al suport amb les tires de front i B se situa davant amb una mà alçada."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B toca la membrana amb el palmell. A queda de costat amb les mans lliures i el teló segueix recollit."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un tambor amb dues tires amples i un suport baix, un teló lateral amb vora ondulada."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-073",
+        "participants": [
+          {
+            "key": "A",
+            "label": "GOS",
+            "wordId": "w-4761fde107a7",
+            "role": "participant que du el tambor",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b",
+            "role": "participant que obre pas i toca",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "TEATRE",
+            "wordId": "w-69105eb76f78"
+          }
+        ],
+        "narrative": "B obre pas perquè A pugui col·locar el tambor, i després B toca amb l’instrument ja estable."
+      },
+      "originalSha256": "10cf4be3d9902aaffe288ab16b39e79b82f883e05e4732b4a6174e21c352c1fe",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4c9241a591bf1a272a705a46e55a855b71c2d8cb7fa8bbf255d77b7eff49e7c3"
+    },
+    {
+      "id": "cace-n11-174",
+      "src": "assets/constructions/n11/n11-174.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La caixa al taller · dibuix",
+        "es": "OSO · GATO · ABRIR · LLEVAR · CLASIFICAR · CAJA · PIEZAS · TALLER"
+      },
+      "alt": {
+        "ca": "L’ós i el gat separen les peces barrejades. L’ós posa els tres discos en una safata i el gat posa els tres tubs a l’altra.",
+        "es": "El oso y el gato separan las piezas mezcladas. El oso coloca los tres discos en una bandeja y el gato coloca los tres tubos en la otra."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-11ff74d27c02",
+        "w-a10b29af07c7",
+        "w-73b71e1ff757",
+        "w-837cfa89f5df",
+        "w-696b7c739d30",
+        "w-776ec487889f",
+        "w-2b087864d4ff"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-11ff74d27c02",
+        "w-a10b29af07c7",
+        "w-73b71e1ff757",
+        "w-837cfa89f5df",
+        "w-696b7c739d30",
+        "w-776ec487889f",
+        "w-2b087864d4ff"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:47:09+00:00",
+      "target": "n11-174",
+      "constructionId": "n11-174",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A porta la caixa tancada al banc de treball escolar. B mostra les dues safates buides."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A"
+          ],
+          "evidence": "A obre la caixa deixant visibles els tres tubs i els tres discos barrejats."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B trasllada els tubs a una safata mentre A aixeca els discos un a un cap a l’altra."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A inclina la caixa buida de cara a B. Les dues safates mostren tres tubs i tres discos separats."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Una caixa baixa amb una osca i sis peces grans: tres tubs i tres discos, dues safates planes."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-074",
+        "participants": [
+          {
+            "key": "A",
+            "label": "ÓS",
+            "wordId": "w-a06249642996",
+            "role": "participant que rep i buida la caixa",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02",
+            "role": "participant que ordena les peces",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "TALLER",
+            "wordId": "w-2b087864d4ff"
+          }
+        ],
+        "narrative": "A porta i obre la caixa i tots dos en separen el contingut en dues safates."
+      },
+      "originalSha256": "f51e4f5ec3437e33b7f3667ca188f35cdb2f0ea7cf4e3c72f44d0942dc47949b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4e0e0e7c1d4d8b79bec412583527b65a7dd7b215bf1e57204a8b1e2c995b4797"
+    },
+    {
+      "id": "cace-n11-175",
+      "src": "assets/constructions/n11/n11-175.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La postal de la parada · dibuix",
+        "es": "MONO · PERRO · MIRAR · COMPRAR · DAR · POSTAL · MERCADO"
+      },
+      "alt": {
+        "ca": "El mico assenyala una targeta amb un peix. El gos la treu del suport, el mico paga amb una moneda i s’endú la targeta.",
+        "es": "El mono señala una tarjeta con un pez. El perro la saca del expositor, el mono paga con una moneda y se lleva la tarjeta."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-4761fde107a7",
+        "w-e67dd0fa47ce",
+        "w-57b3143c692c",
+        "w-dd80e4e4de38",
+        "w-3ea66248a161",
+        "w-d6951854cbf7"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-4761fde107a7",
+        "w-e67dd0fa47ce",
+        "w-57b3143c692c",
+        "w-dd80e4e4de38",
+        "w-3ea66248a161",
+        "w-d6951854cbf7"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:45:42+00:00",
+      "target": "n11-175",
+      "constructionId": "n11-175",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B treu la del peix de la ranura central pels cantells i mostra la figura a A."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-075",
+        "participants": [
+          {
+            "key": "A",
+            "label": "MICO",
+            "wordId": "w-12a87560751b",
+            "role": "client que tria la postal",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "GOS",
+            "wordId": "w-4761fde107a7",
+            "role": "dependent que l’extreu i la lliura",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "MERCAT",
+            "wordId": "w-d6951854cbf7"
+          }
+        ],
+        "narrative": "A assenyala la postal que vol. B la treu, A paga i s’endú la postal triada."
+      },
+      "originalSha256": "38ddfc2af65c3f62a7d062cc6907964ea07ccaf4620d98771c4a5c72dd586fb5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cb5d09c1427749d4072efbaafdf9ab9a11b7bac7ddf6d6652a382478c5bedbc9"
+    },
+    {
+      "id": "cace-n11-181",
+      "src": "assets/constructions/n11/n11-181.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El planter de dues files · dibuix",
+        "es": "CONEJO · TIGRE · PLANTAR · REGAR · AYUDAR · PLANTA · HUERTO"
+      },
+      "alt": {
+        "ca": "El tigre acosta quatre plançons al conill. El conill els planta i el tigre els rega.",
+        "es": "El tigre acerca cuatro plantones al conejo. El conejo los planta y el tigre los riega."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-7a57f3835ffd",
+        "w-6af4a2a10994",
+        "w-00107994a0cd",
+        "w-5b2ff1d40d54",
+        "w-03d524b232d7",
+        "w-7338bad6a84a"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-7a57f3835ffd",
+        "w-6af4a2a10994",
+        "w-00107994a0cd",
+        "w-5b2ff1d40d54",
+        "w-03d524b232d7",
+        "w-7338bad6a84a"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:45:47+00:00",
+      "target": "n11-181",
+      "constructionId": "n11-181",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A assenyala els dos solcs buits mentre B acosta a terra la safata amb les quatre plàntules."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A planta les dues rodones al primer solc i B li acosta les dues punxegudes al segon."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A acaba la segona fila i B aboca un raig curt al peu de les punxegudes, amb la terra de la primera fila ja fosca."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A i B s’aparten de l’hort. Es veuen les dues files de dues plantes amb terra humida i la gerreta amb menys aigua."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Quatre plàntules, dues de fulla rodona i dues de fulla punxeguda, dos solcs curts i una gerreta transparent."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-081",
+        "participants": [
+          {
+            "key": "A",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b",
+            "role": "participant que organitza el planter",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "TIGRE",
+            "wordId": "w-7a57f3835ffd",
+            "role": "participant que rega",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "HORT",
+            "wordId": "w-7338bad6a84a"
+          }
+        ],
+        "narrative": "A planta les quatre plàntules en dues files amb l’ajut de B, que les rega al lloc preparat."
+      },
+      "originalSha256": "ef34b385d955b29fd314040d6652799c7160a9a769e7b9c0943ab130cc416d5b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9d7bbb8b9b6016c846a6d714de9d14375e01d7d2cce7bbff752e35e78d087331"
+    },
+    {
+      "id": "cace-n11-191",
+      "src": "assets/constructions/n11/n11-191.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "L’aigua passa als dos testos · dibuix",
+        "es": "CONEJO · GATO · LLEVAR · AYUDAR · REGAR · CUBO · PLANTA · HUERTO"
+      },
+      "alt": {
+        "ca": "El conill porta una galleda d’aigua. El gat omple una regadora, rega els dos testos amb l’ajuda del conill i li torna la regadora.",
+        "es": "El conejo trae un cubo con agua. El gato llena una regadera, riega las dos macetas con la ayuda del conejo y le devuelve la regadera."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-11ff74d27c02",
+        "w-73b71e1ff757",
+        "w-5b2ff1d40d54",
+        "w-00107994a0cd",
+        "w-7f04619a8649",
+        "w-03d524b232d7",
+        "w-7338bad6a84a"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-11ff74d27c02",
+        "w-73b71e1ff757",
+        "w-5b2ff1d40d54",
+        "w-00107994a0cd",
+        "w-7f04619a8649",
+        "w-03d524b232d7",
+        "w-7338bad6a84a"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:46:07+00:00",
+      "target": "n11-191",
+      "constructionId": "n11-191",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A du la galleda amb aigua fins a la marca. B indica els dos testos amb terra clara i seca."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A deixa la galleda en una base plana i B omple una gerreta petita, amb l’aigua restant a la vista."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B rega el test de fulla llarga. A acosta el de fulla rodona al seu costat i B hi dirigeix el raig següent."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "Els dos testos tenen terra fosca. B retorna la gerreta buida a A amb aigua sota la marca de la galleda."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Una galleda translúcida amb una marca de relleu i dos testos amb fulles de formes diferents."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-091",
+        "participants": [
+          {
+            "key": "A",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b",
+            "role": "participant que du l’aigua",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02",
+            "role": "participant que reparteix l’aigua",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "HORT",
+            "wordId": "w-7338bad6a84a"
+          }
+        ],
+        "narrative": "A porta l’aigua i acosta el segon test a B, que rega els dos testos amb la mateixa gerreta."
+      },
+      "originalSha256": "d9715aa750900fedd8096a91139567ba50a50fd3e421a400d97adf6af653500e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5d287a9f05b38ccdb3f5ee86d44b19fecec187ef8b327e0504d8ee8b1944a1d0"
+    },
+    {
+      "id": "cace-n11-194",
+      "src": "assets/constructions/n11/n11-194.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "Les pinyes al lloc de la mostra · dibuix",
+        "es": "OSO · MONO · LLEVAR · CLASIFICAR · PONER · CESTA · BOSQUE"
+      },
+      "alt": {
+        "ca": "L’ós recull tres pinyes i les porta al drap que ha estès el mico. Junts separen la pinya llarga de les dues curtes.",
+        "es": "El oso recoge tres piñas y las lleva a la tela que ha extendido el mono. Juntos separan la piña larga de las dos cortas."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-12a87560751b",
+        "w-73b71e1ff757",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-120fb6b37e88",
+        "w-c912bb04c6c9"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-12a87560751b",
+        "w-73b71e1ff757",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-120fb6b37e88",
+        "w-c912bb04c6c9"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:46:07+00:00",
+      "target": "n11-194",
+      "constructionId": "n11-194",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A alça la pinya llarga del terra al costat d’un cistell amb les altres dues visibles. B estén el drap."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A posa al cistell la tercera pinya i el transporta fins al drap desplegat per B."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B posa la llarga a un costat del drap mentre A hi acosta juntes les dues curtes."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "Al drap es veu una pinya llarga separada de les dues curtes. A i B observen els grups amb el cistell al mig, buit."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Tres pinyes caigudes, una llarga i dues curtes, un cistell baix i un drap amb dos espais lliures."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-094",
+        "participants": [
+          {
+            "key": "A",
+            "label": "ÓS",
+            "wordId": "w-a06249642996",
+            "role": "participant que guarda les pinyes trobades",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "MICO",
+            "wordId": "w-12a87560751b",
+            "role": "participant que disposa la mostra",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "BOSC",
+            "wordId": "w-c912bb04c6c9"
+          }
+        ],
+        "narrative": "A recull l’última pinya i B desplega el drap. Entre tots dos disposen la mostra per mides."
+      },
+      "originalSha256": "ea4a0411dc9ba56e004b054dfbf5b9022b8f71a7f06b6b6f86a6ff636dd01ea8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2ff11248d6f03511a26f779e2b4b03a682acf72cdb45ef80d425d4d72f8301d4"
+    },
     {
       "id": "cace-n11-001",
       "src": "assets/constructions/n11/n11-001.webp",
@@ -210947,7 +212089,17 @@
         "cace-n11-183",
         "cace-n11-187",
         "cace-n11-193",
-        "cace-n11-195"
+        "cace-n11-195",
+        "cace-n11-044",
+        "cace-n11-128",
+        "cace-n11-148",
+        "cace-n11-162",
+        "cace-n11-173",
+        "cace-n11-174",
+        "cace-n11-175",
+        "cace-n11-181",
+        "cace-n11-191",
+        "cace-n11-194"
       ]
     }
   ]
