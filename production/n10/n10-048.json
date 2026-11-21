@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-048",
+    "number": 48,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-048",
+    "counterpartId": "n10-148",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tocar · pintura / davantal → brut"
+    },
+    "labels": [
+      "HOME",
+      "TOCAR",
+      "PINTURA",
+      "DAVANTAL",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-4e39a6280b90",
+      "w-df5e5b442a24",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "DAVANTAL",
+        "wordId": "w-df5e5b442a24"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "f5f7102e52a700aba90092aae51f14e7523b19a303a69392f7eb09eb615b060f",
+      "file": "output/production/n10/n10-048/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte. RIGHT result: En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal. Continuity and accounting: Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Els dits de la mà premuda apunten lateralment, mentre que l’empremta final apunta amunt i situa el polze en un altre angle. L’orientació de la marca ha de correspondre al contacte.",
+      "reviewedAt": "2026-11-21T16:02:51+00:00"
+    }
+  ],
+  "status": "rejected"
+}

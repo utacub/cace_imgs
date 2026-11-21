@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-029",
+    "number": 29,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-029",
+    "counterpartId": "n10-129",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tancar · galleda / aigua → ple"
+    },
+    "labels": [
+      "DONA",
+      "TANCAR",
+      "GALLEDA",
+      "AIGUA",
+      "PLE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4000ec1e6d5b",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-427a0daa495d",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": {
+      "label": "PLE",
+      "wordId": "w-427a0daa495d"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d51122913665857c52c64d87c9c73739f803deb10beab4e81c84e74045d2882b",
+      "file": "output/production/n10/n10-029/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible. RIGHT result: El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat. Continuity and accounting: Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El mateix broc manté l’entrada d’aigua. La mà introdueix el tap al desguàs visible, s’interromp el raig de sortida i el nivell puja dins la galleda, amb la safata a sota.",
+      "reviewedAt": "2026-11-21T16:02:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible. RIGHT result: El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat. Continuity and accounting: Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El mateix broc manté l’entrada d’aigua. La mà introdueix el tap al desguàs visible, s’interromp el raig de sortida i el nivell puja dins la galleda, amb la safata a sota.",
+  "alt": {
+    "ca": "Una dona tapa el desguàs de la galleda. L’aigua continua entrant i el nivell puja perquè ja no en surt.",
+    "es": "Una mujer tapa el desagüe del cubo. El agua sigue entrando y el nivel sube porque ya no sale."
+  },
+  "originalSha256": "d51122913665857c52c64d87c9c73739f803deb10beab4e81c84e74045d2882b",
+  "file": "output/production/n10/n10-029/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:49+00:00",
+  "tool": "ImageGen integrat"
+}

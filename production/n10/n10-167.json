@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-167",
+    "number": 167,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-067",
+    "counterpartId": "n10-067",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · estripar · mocador → trencat"
+    },
+    "labels": [
+      "ZEBRA",
+      "ESTRIPAR",
+      "MOCADOR",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-d6ff14eb6fb5",
+      "w-35e3a6c8a7fd",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "ESTRIPAR",
+      "wordId": "w-d6ff14eb6fb5"
+    },
+    "referents": [
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un mocador prim de paper amb un estampat senzill té una osca petita."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un mocador de paper amb la mateixa amplada total repartida en dues parts."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1db7fc738ba6811eaa78132e59d03f6bc6ea0ad9c407de81d84f8c6209074c7d",
+      "file": "output/production/n10/n10-167/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador prim de paper amb un estampat senzill té una osca petita. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre. RIGHT result: Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars. Continuity and accounting: Un mocador de paper amb la mateixa amplada total repartida en dues parts. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La ruptura comença a l’osca quan la zebra estira les dues vores. El mocador acaba en dos fragments amb l’estampat floral i les vores complementàries.",
+      "reviewedAt": "2026-11-21T16:03:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador prim de paper amb un estampat senzill té una osca petita. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre. RIGHT result: Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars. Continuity and accounting: Un mocador de paper amb la mateixa amplada total repartida en dues parts. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La ruptura comença a l’osca quan la zebra estira les dues vores. El mocador acaba en dos fragments amb l’estampat floral i les vores complementàries.",
+  "alt": {
+    "ca": "Una zebra estira un mocador de paper a banda i banda d’una osca i el parteix en dos trossos.",
+    "es": "Una cebra tira de un pañuelo de papel a ambos lados de una muesca y lo parte en dos trozos."
+  },
+  "originalSha256": "1db7fc738ba6811eaa78132e59d03f6bc6ea0ad9c407de81d84f8c6209074c7d",
+  "file": "output/production/n10/n10-167/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:03:01+00:00",
+  "tool": "ImageGen integrat"
+}

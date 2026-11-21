@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-012",
+    "number": 12,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-012",
+    "counterpartId": "n10-112",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · tancar · finestra / mocador → caure"
+    },
+    "labels": [
+      "HOME",
+      "TANCAR",
+      "FINESTRA",
+      "MOCADOR",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4000ec1e6d5b",
+      "w-59560a6c11b6",
+      "w-35e3a6c8a7fd",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d62457869d85615aa0974678f5fcd00bf1fd4ac688a4fa71bd096919baaaca22",
+      "file": "output/production/n10/n10-012/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit. RIGHT result: El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat. Continuity and accounting: Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La vora inferior de la fulla toca i desplaça el mocador plegat al llarg de l’ampit. Es veu penjant al contacte i, al final, a terra dins l’habitació, amb el mateix rivet fosc.",
+      "reviewedAt": "2026-11-21T16:02:48+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit. RIGHT result: El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat. Continuity and accounting: Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La vora inferior de la fulla toca i desplaça el mocador plegat al llarg de l’ampit. Es veu penjant al contacte i, al final, a terra dins l’habitació, amb el mateix rivet fosc.",
+  "alt": {
+    "ca": "Un home tanca la finestra. La fulla desplaça el mocador de l’ampit i el mocador cau a terra.",
+    "es": "Un hombre cierra la ventana. La hoja desplaza el pañuelo del alféizar y el pañuelo cae al suelo."
+  },
+  "originalSha256": "d62457869d85615aa0974678f5fcd00bf1fd4ac688a4fa71bd096919baaaca22",
+  "file": "output/production/n10/n10-012/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:48+00:00",
+  "tool": "ImageGen integrat"
+}

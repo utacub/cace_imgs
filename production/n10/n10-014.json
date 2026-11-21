@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-014",
+    "number": 14,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-014",
+    "counterpartId": "n10-114",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · posar · caixa / llapis → caure"
+    },
+    "labels": [
+      "NEN",
+      "POSAR",
+      "CAIXA",
+      "LLAPIS",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-1775aa96869e",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un llapis està travessat prop del cantell de la taula."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Desplaça una capsa baixa damunt la taula. El lateral topa amb el llapis, que roda sobre el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El llapis és a sota i la capsa continua a sobre."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una capsa de dues grapes i un llapis amb goma contrastada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "97b78dde7a822ff61c97ecfee57ed794d8275f05e81c43b32ef969a0f604567c",
+      "file": "output/production/n10/n10-014/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un llapis està travessat prop del cantell de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Desplaça una capsa baixa damunt la taula. El lateral topa amb el llapis, que roda sobre el cantell. RIGHT result: El llapis és a sota i la capsa continua a sobre. Continuity and accounting: Una capsa de dues grapes i un llapis amb goma contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "A la vinyeta central queda un espai blanc visible entre el lateral de la caixa i el llapis. Es veu el llapis caure, però no es veu què l’empeny.",
+      "reviewedAt": "2026-11-21T16:02:48+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-031",
+    "number": 31,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-031",
+    "counterpartId": "n10-131",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · desvestir · jaqueta / mocador → caure"
+    },
+    "labels": [
+      "NENA",
+      "DESVESTIR",
+      "JAQUETA",
+      "MOCADOR",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-8fd6305d0051",
+      "w-baf6d3603bb3",
+      "w-35e3a6c8a7fd",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "DESVESTIR",
+      "wordId": "w-8fd6305d0051"
+    },
+    "referents": [
+      {
+        "label": "JAQUETA",
+        "wordId": "w-baf6d3603bb3"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "En treure’s una jaqueta, el mocador sobresurt clarament de la butxaca."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La butxaca gira cap per avall quan es treu la màniga. El mocador en surt amb un extrem encara al llavi de la butxaca."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El mocador és a terra sota la butxaca. La jaqueta es conserva a les mans."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una jaqueta de butxaca rectangular i un mocador amb vora de ratlles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d518c2e40454a2d6f2cd6ad79870aa997568452b404a8b4bf4e50a773496ac37",
+      "file": "output/production/n10/n10-031/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: En treure’s una jaqueta, el mocador sobresurt clarament de la butxaca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La butxaca gira cap per avall quan es treu la màniga. El mocador en surt amb un extrem encara al llavi de la butxaca. RIGHT result: El mocador és a terra sota la butxaca. La jaqueta es conserva a les mans. Continuity and accounting: Una jaqueta de butxaca rectangular i un mocador amb vora de ratlles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El mocador sobresurt de la butxaca al primer moment. En treure la màniga, la mateixa butxaca queda orientada cap avall i el mocador en surt per l’obertura. Acaba a terra amb el mateix rivet.",
+      "reviewedAt": "2026-11-21T16:06:14+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: En treure’s una jaqueta, el mocador sobresurt clarament de la butxaca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La butxaca gira cap per avall quan es treu la màniga. El mocador en surt amb un extrem encara al llavi de la butxaca. RIGHT result: El mocador és a terra sota la butxaca. La jaqueta es conserva a les mans. Continuity and accounting: Una jaqueta de butxaca rectangular i un mocador amb vora de ratlles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El mocador sobresurt de la butxaca al primer moment. En treure la màniga, la mateixa butxaca queda orientada cap avall i el mocador en surt per l’obertura. Acaba a terra amb el mateix rivet.",
+  "alt": {
+    "ca": "Una nena es treu la jaqueta. La butxaca es gira cap per avall i en cau un mocador.",
+    "es": "Una niña se quita la chaqueta. El bolsillo se pone boca abajo y cae un pañuelo."
+  },
+  "originalSha256": "d518c2e40454a2d6f2cd6ad79870aa997568452b404a8b4bf4e50a773496ac37",
+  "file": "output/production/n10/n10-031/image.png",
+  "width": 1821,
+  "height": 864,
+  "created": "2026-11-21T16:06:14+00:00",
+  "tool": "ImageGen integrat"
+}

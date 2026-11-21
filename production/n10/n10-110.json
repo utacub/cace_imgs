@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-110",
+    "number": 110,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-010",
+    "counterpartId": "n10-010",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · tocar · pala / nina → caure"
+    },
+    "labels": [
+      "ESQUIROL",
+      "TOCAR",
+      "PALA",
+      "NINA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-072ecc01e120",
+      "w-208167fa638f",
+      "w-db89958a3c63",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una nina de roba seu al cantell d’una caixa baixa. La pala de joguina és més enllà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La part plana de la pala, guiada amb cura, empeny el peu de la nina endavant mentre la nina perd la base del seient."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La nina reposa d’esquena a terra davant de la caixa i encara es veu la pala."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una nina amb dos botons cosits i una pala de punta arrodonida."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "c4d40e9fa8429efe674923f87a499386ba3fdd55954c413ded390cdf33bb110a",
+      "file": "output/production/n10/n10-110/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic squirrel; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una nina de roba seu al cantell d’una caixa baixa. La pala de joguina és més enllà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La part plana de la pala, guiada amb cura, empeny el peu de la nina endavant mentre la nina perd la base del seient. RIGHT result: La nina reposa d’esquena a terra davant de la caixa i encara es veu la pala. Continuity and accounting: Una nina amb dos botons cosits i una pala de punta arrodonida. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La pala empeny els peus cap a l’esquerra, mentre la nina acaba desplaçada cap a la dreta. El moviment final no es pot atribuir amb confiança al gest dibuixat.",
+      "reviewedAt": "2026-11-21T16:02:57+00:00"
+    }
+  ],
+  "status": "rejected"
+}

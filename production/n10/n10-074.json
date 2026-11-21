@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-074",
+    "number": 74,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-074",
+    "counterpartId": "n10-174",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · plastilina / cullera → tou"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "PLASTILINA",
+      "CULLERA",
+      "TOU",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-0606be9fcf92",
+      "w-9c9849fac1d3",
+      "w-615686838917",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "outcome": {
+      "label": "TOU",
+      "wordId": "w-615686838917"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "111b536372eb7f041dd6f23049d932f9f270e3eca009b41705ef26e6b3c9ee22",
+      "file": "output/production/n10/n10-074/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió. RIGHT result: La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte. Continuity and accounting: Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La cullera toca la peça de plastilina al centre i exerceix pressió sobre el suport. En retirar-la queda una concavitat de la mateixa forma i una sola peça eixamplada.",
+      "reviewedAt": "2026-11-21T16:07:44+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una porció de plastilina amb un traç bicolor presenta una superfície alta i llisa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el dors de la cullera al centre. Es veu la vora de la porció créixer mentre baixa el punt de pressió. RIGHT result: La concavitat arrodonida de la peça és visible, amb la cullera a sobre sense contacte. Continuity and accounting: Una cullera de perfil ovoide i una porció. La quantitat de plastilina es conserva. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La cullera toca la peça de plastilina al centre i exerceix pressió sobre el suport. En retirar-la queda una concavitat de la mateixa forma i una sola peça eixamplada.",
+  "alt": {
+    "ca": "Un nen pressiona la plastilina amb el dors d’una cullera. La cullera hi deixa un clot arrodonit.",
+    "es": "Un niño presiona la plastilina con el dorso de una cuchara. La cuchara deja un hueco redondeado."
+  },
+  "originalSha256": "111b536372eb7f041dd6f23049d932f9f270e3eca009b41705ef26e6b3c9ee22",
+  "file": "output/production/n10/n10-074/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:07:44+00:00",
+  "tool": "ImageGen integrat"
+}

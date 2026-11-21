@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-028",
+    "number": 28,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-028",
+    "counterpartId": "n10-128",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · aixecar · caixa / tren / rampa → baixar"
+    },
+    "labels": [
+      "NOI",
+      "AIXECAR",
+      "CAIXA",
+      "TREN",
+      "RAMPA",
+      "BAIXAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-e12d88415c80",
+      "w-696b7c739d30",
+      "w-b961c4c94862",
+      "w-9079294dc56e",
+      "w-3638c1a730c8",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "TREN",
+        "wordId": "w-b961c4c94862"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      }
+    ],
+    "outcome": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un tren de joguina té les rodes sobre una rampa baixa i el frontal contra una caixa que el bloqueja."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Alça la caixa verticalment i el frontal del tren passa per sota amb les rodes sobre la rampa."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El tren s’ha aturat al replà inferior. La caixa continua suspesa a les mans."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un tren de dues finestres grans, una caixa de tapa blava i una sola rampa."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3aca350ab087b2729c4aaa0e5c622661130bc205144fa0dbc422f421c4241204",
+      "file": "output/production/n10/n10-028/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina té les rodes sobre una rampa baixa i el frontal contra una caixa que el bloqueja. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Alça la caixa verticalment i el frontal del tren passa per sota amb les rodes sobre la rampa. RIGHT result: El tren s’ha aturat al replà inferior. La caixa continua suspesa a les mans. Continuity and accounting: Un tren de dues finestres grans, una caixa de tapa blava i una sola rampa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La caixa amb tapa blava atura el frontal del tren. En alçar-la, queda visible el pas i el tren baixa sobre la mateixa rampa fins al replà.",
+      "reviewedAt": "2026-11-21T16:02:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un tren de joguina té les rodes sobre una rampa baixa i el frontal contra una caixa que el bloqueja. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Alça la caixa verticalment i el frontal del tren passa per sota amb les rodes sobre la rampa. RIGHT result: El tren s’ha aturat al replà inferior. La caixa continua suspesa a les mans. Continuity and accounting: Un tren de dues finestres grans, una caixa de tapa blava i una sola rampa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La caixa amb tapa blava atura el frontal del tren. En alçar-la, queda visible el pas i el tren baixa sobre la mateixa rampa fins al replà.",
+  "alt": {
+    "ca": "Un noi aixeca la caixa que barrava el pas al tren de joguina. El tren baixa de la rampa.",
+    "es": "Un chico levanta la caja que bloqueaba el paso al tren de juguete. El tren baja por la rampa."
+  },
+  "originalSha256": "3aca350ab087b2729c4aaa0e5c622661130bc205144fa0dbc422f421c4241204",
+  "file": "output/production/n10/n10-028/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:49+00:00",
+  "tool": "ImageGen integrat"
+}

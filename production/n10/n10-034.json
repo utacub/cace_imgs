@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-034",
+    "number": 34,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-034",
+    "counterpartId": "n10-134",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · agafar · cullera / pilota → baixar"
+    },
+    "labels": [
+      "NOI",
+      "AGAFAR",
+      "CULLERA",
+      "PILOTA",
+      "BAIXAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-677819a0a32a",
+      "w-9c9849fac1d3",
+      "w-b7f578451973",
+      "w-3638c1a730c8",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "outcome": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota reposa al replà inferior i la cullera encara és a la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ef85e72e9c0578dfdf7b479267cdac2ca6477c973ad698b9dde69bcb4b410954",
+      "file": "output/production/n10/n10-034/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera. RIGHT result: La pilota reposa al replà inferior i la cullera encara és a la mà. Continuity and accounting: Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La cullera al canal actua de topall. En retirar-la, la pilota passa per l’espai alliberat i continua fins al replà del mateix canal. La cullera es manté a la mà.",
+      "reviewedAt": "2026-11-21T16:06:14+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera rígida fa de topall davant d’una pilota sobre un canal inclinat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Retira la cullera cap al costat i deixa lliure el canal. La pilota passa pel punt que ocupava la cullera. RIGHT result: La pilota reposa al replà inferior i la cullera encara és a la mà. Continuity and accounting: Una pilota d’escuma amb motiu circular, una cullera amb mànec corbat i un canal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La cullera al canal actua de topall. En retirar-la, la pilota passa per l’espai alliberat i continua fins al replà del mateix canal. La cullera es manté a la mà.",
+  "alt": {
+    "ca": "Un noi retira la cullera que feia de topall. La pilota baixa pel canal fins al replà.",
+    "es": "Un chico retira la cuchara que servía de tope. La pelota baja por el canal hasta la parte llana."
+  },
+  "originalSha256": "ef85e72e9c0578dfdf7b479267cdac2ca6477c973ad698b9dde69bcb4b410954",
+  "file": "output/production/n10/n10-034/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:06:14+00:00",
+  "tool": "ImageGen integrat"
+}

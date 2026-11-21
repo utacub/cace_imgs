@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-018",
+    "number": 18,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-018",
+    "counterpartId": "n10-118",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · portar · manta / tovallola → caure"
+    },
+    "labels": [
+      "HOME",
+      "PORTAR",
+      "MANTA",
+      "TOVALLOLA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-732ff8e447b5",
+      "w-045fa0b1ae9d",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "PORTAR",
+      "wordId": "w-73b71e1ff757"
+    },
+    "referents": [
+      {
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tovallola plegada sobresurt una mica del cantell d’un banc. Porta una manta plegada al costat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La vora de la manta toca lateralment el plec de la tovallola i el desplaça més enllà del cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La tovallola és a terra sota el banc. La manta segueix als braços."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tovallola amb vora verda i una manta gruixuda de quadres."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "512933a4b8bccd207b78aea72507ea56325ad9b4aa22237149ea7dc55e8b7d45",
+      "file": "output/production/n10/n10-018/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tovallola plegada sobresurt una mica del cantell d’un banc. Porta una manta plegada al costat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La vora de la manta toca lateralment el plec de la tovallola i el desplaça més enllà del cantell. RIGHT result: La tovallola és a terra sota el banc. La manta segueix als braços. Continuity and accounting: Una tovallola amb vora verda i una manta gruixuda de quadres. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La manta es mou cap al centre del banc i entra en contacte pel cantó exterior, però la tovallola cau per aquest mateix extrem. El desplaçament previst no correspon al contacte.",
+      "reviewedAt": "2026-11-21T16:05:14+00:00"
+    }
+  ],
+  "status": "rejected"
+}

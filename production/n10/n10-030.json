@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-030",
+    "number": 30,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-030",
+    "counterpartId": "n10-130",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · obrir · galleda / aigua → buit"
+    },
+    "labels": [
+      "HOME",
+      "OBRIR",
+      "GALLEDA",
+      "AIGUA",
+      "BUIT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-a10b29af07c7",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-1d8378757b29",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": {
+      "label": "BUIT",
+      "wordId": "w-1d8378757b29"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda transparent amb tap lateral té aigua fins a mitja altura, amb el desguàs arran del fons. A sota hi ha una safata buida."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Extreu el tap. El raig surt exactament de l’orifici i entra a la safata."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La galleda queda buida, amb només unes gotes adherides al fons. L’aigua és a la safata."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda, un tap a la mà i una safata transparent de capacitat suficient."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1daab41d21f73e94f81337fe4f63db24afda53098069248de28aa1eb9c99126c",
+      "file": "output/production/n10/n10-030/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent amb tap lateral té aigua fins a mitja altura, amb el desguàs arran del fons. A sota hi ha una safata buida. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Extreu el tap. El raig surt exactament de l’orifici i entra a la safata. RIGHT result: La galleda queda buida, amb només unes gotes adherides al fons. L’aigua és a la safata. Continuity and accounting: Una galleda, un tap a la mà i una safata transparent de capacitat suficient. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El tap surt del mateix orifici i deixa veure un raig continu fins a la safata. A mesura que baixa el nivell de la galleda puja el de la safata transparent.",
+      "reviewedAt": "2026-11-21T16:02:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent amb tap lateral té aigua fins a mitja altura, amb el desguàs arran del fons. A sota hi ha una safata buida. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Extreu el tap. El raig surt exactament de l’orifici i entra a la safata. RIGHT result: La galleda queda buida, amb només unes gotes adherides al fons. L’aigua és a la safata. Continuity and accounting: Una galleda, un tap a la mà i una safata transparent de capacitat suficient. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El tap surt del mateix orifici i deixa veure un raig continu fins a la safata. A mesura que baixa el nivell de la galleda puja el de la safata transparent.",
+  "alt": {
+    "ca": "Un home treu el tap de la galleda. L’aigua en surt per l’orifici i es recull a la safata.",
+    "es": "Un hombre quita el tapón del cubo. El agua sale por el orificio y se recoge en la bandeja."
+  },
+  "originalSha256": "1daab41d21f73e94f81337fe4f63db24afda53098069248de28aa1eb9c99126c",
+  "file": "output/production/n10/n10-030/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:49+00:00",
+  "tool": "ImageGen integrat"
+}

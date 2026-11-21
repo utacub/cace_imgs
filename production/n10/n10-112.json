@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-112",
+    "number": 112,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-012",
+    "counterpartId": "n10-012",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · tancar · finestra / mocador → caure"
+    },
+    "labels": [
+      "GAT",
+      "TANCAR",
+      "FINESTRA",
+      "MOCADOR",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-4000ec1e6d5b",
+      "w-59560a6c11b6",
+      "w-35e3a6c8a7fd",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1e4062f1c2ac52c26bab4e09ec2405be1ddc5530263028576ff36be543256e84",
+      "file": "output/production/n10/n10-112/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit. RIGHT result: El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat. Continuity and accounting: Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La fulla gira sobre les mateixes frontisses i el cantell deixa el mocador penjant. A l’última vinyeta el mateix mocador de rivet vermell és sota l’ampit.",
+      "reviewedAt": "2026-11-21T16:02:57+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cat; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit. RIGHT result: El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat. Continuity and accounting: Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La fulla gira sobre les mateixes frontisses i el cantell deixa el mocador penjant. A l’última vinyeta el mateix mocador de rivet vermell és sota l’ampit.",
+  "alt": {
+    "ca": "Un gat tanca la finestra. Quan la fulla toca el mocador, el fa caure de l’ampit.",
+    "es": "Un gato cierra la ventana. Cuando la hoja toca el pañuelo, lo hace caer del alféizar."
+  },
+  "originalSha256": "1e4062f1c2ac52c26bab4e09ec2405be1ddc5530263028576ff36be543256e84",
+  "file": "output/production/n10/n10-112/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:57+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-010",
+    "number": 10,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-010",
+    "counterpartId": "n10-110",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · tocar · pala / nina → caure"
+    },
+    "labels": [
+      "NOI",
+      "TOCAR",
+      "PALA",
+      "NINA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-208167fa638f",
+      "w-db89958a3c63",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una nina de roba seu al cantell d’una caixa baixa. La pala de joguina és més enllà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La part plana de la pala, guiada amb cura, empeny el peu de la nina endavant mentre la nina perd la base del seient."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La nina reposa d’esquena a terra davant de la caixa i encara es veu la pala."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una nina amb dos botons cosits i una pala de punta arrodonida."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b2b173ffe79a68f655726403595e2fd17170b6845d4ef50b4badf3af746e790c",
+      "file": "output/production/n10/n10-010/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una nina de roba seu al cantell d’una caixa baixa. La pala de joguina és més enllà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La part plana de la pala, guiada amb cura, empeny el peu de la nina endavant mentre la nina perd la base del seient. RIGHT result: La nina reposa d’esquena a terra davant de la caixa i encara es veu la pala. Continuity and accounting: Una nina amb dos botons cosits i una pala de punta arrodonida. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La pala apareix sota els dos peus i els aixeca, però el tronc bascula enrere i la nina acaba a terra davant de la caixa. El contacte i la trajectòria final no s’enllacen amb prou claredat.",
+      "reviewedAt": "2026-11-21T16:02:48+00:00"
+    }
+  ],
+  "status": "rejected"
+}

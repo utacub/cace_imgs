@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-067",
+    "number": 67,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-067",
+    "counterpartId": "n10-167",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · estripar · mocador → trencat"
+    },
+    "labels": [
+      "NENA",
+      "ESTRIPAR",
+      "MOCADOR",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-d6ff14eb6fb5",
+      "w-35e3a6c8a7fd",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "ESTRIPAR",
+      "wordId": "w-d6ff14eb6fb5"
+    },
+    "referents": [
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un mocador prim de paper amb un estampat senzill té una osca petita."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un mocador de paper amb la mateixa amplada total repartida en dues parts."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "138ef84a78fb163e6188defdb52cc3ab0ac13c23320db48a2e4a5609355239b9",
+      "file": "output/production/n10/n10-067/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador prim de paper amb un estampat senzill té una osca petita. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre. RIGHT result: Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars. Continuity and accounting: Un mocador de paper amb la mateixa amplada total repartida en dues parts. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tensió de les mans eixampla l’osca del mocador de paper fins a la ruptura. Es veuen els dos fragments, amb el mateix estampat i vores que encaixen.",
+      "reviewedAt": "2026-11-21T16:02:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador prim de paper amb un estampat senzill té una osca petita. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre. RIGHT result: Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars. Continuity and accounting: Un mocador de paper amb la mateixa amplada total repartida en dues parts. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La tensió de les mans eixampla l’osca del mocador de paper fins a la ruptura. Es veuen els dos fragments, amb el mateix estampat i vores que encaixen.",
+  "alt": {
+    "ca": "Una nena estira el mocador de paper pels dos costats d’una osca. El paper s’esquinça en dos trossos.",
+    "es": "Una niña tira del pañuelo de papel a ambos lados de una muesca. El papel se rasga en dos trozos."
+  },
+  "originalSha256": "138ef84a78fb163e6188defdb52cc3ab0ac13c23320db48a2e4a5609355239b9",
+  "file": "output/production/n10/n10-067/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:51+00:00",
+  "tool": "ImageGen integrat"
+}

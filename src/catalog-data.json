@@ -1,5 +1,5 @@
 {
-  "version": "0.1.163",
+  "version": "0.1.164",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1983 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n10-003",
+      "src": "assets/constructions/n10/n10-003.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · posar · llibre / dau → caure",
+        "es": "CHICA · PONER · LIBRO · DADO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia desplaça un llibre que empeny un dau més enllà del cantell. El dau cau a l’estora.",
+        "es": "Una chica desliza un libro que empuja un dado más allá del borde. El dado cae sobre la alfombra."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:01:11+00:00",
+      "target": "n10-003",
+      "constructionId": "n10-003",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un dau reposa vora el cantell de la taula, separat del llibre."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "En fer lliscar el llibre tancat, el llom empeny el dau i el deixa mig fora del cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dau és a l’estora sota el cantell. El llibre continua a la taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un dau gros de punts i un llibre de llom verd, visibles sencers."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "eb30db8349326c8b8837016ba3c2e5e07324d68f88456bff7a627d9517f11572",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "677f86b586c263a59cc52060d3b1873af9c6d0a044a599f3330b0ad2edde9f17"
+    },
+    {
+      "id": "cace-n10-011",
+      "src": "assets/constructions/n10/n10-011.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "dona · baixar · poma / rampa / got → caure",
+        "es": "MUJER · BAJAR · MANZANA · RAMPA · VASO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una dona deixa rodar una poma. Quan la poma toca la base d’un got buit, el got es tomba.",
+        "es": "Una mujer deja rodar una manzana. Cuando la manzana toca la base de un vaso vacío, el vaso se vuelca."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-3638c1a730c8",
+        "w-809c680b5699",
+        "w-9079294dc56e",
+        "w-1bed9f18ebab",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-3638c1a730c8",
+        "w-809c680b5699",
+        "w-9079294dc56e",
+        "w-1bed9f18ebab",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:48+00:00",
+      "target": "n10-011",
+      "constructionId": "n10-011",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una poma és a dalt d’una rampa curta amb vores baixes. Hi ha un got buit dret al replà inferior."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La poma que deixa rodar entra en contacte amb la base del got de plàstic, que s’inclina."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El got buit es veu ajagut al replà amb la poma al costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una poma amb una taca natural i un got amb dues bandes."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "0e7292fcd411b5ea9f3381a69348f0fbf5844646e4f2abce07aa4c2df423d619",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d53f5f5dbefef4d1738308a97e339e0e50a95a1f14c7b57f6e2101a6d45473a9"
+    },
+    {
+      "id": "cace-n10-012",
+      "src": "assets/constructions/n10/n10-012.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "home · tancar · finestra / mocador → caure",
+        "es": "HOMBRE · CERRAR · VENTANA · PAÑUELO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un home tanca la finestra. La fulla desplaça el mocador de l’ampit i el mocador cau a terra.",
+        "es": "Un hombre cierra la ventana. La hoja desplaza el pañuelo del alféizar y el pañuelo cae al suelo."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-4000ec1e6d5b",
+        "w-59560a6c11b6",
+        "w-35e3a6c8a7fd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-4000ec1e6d5b",
+        "w-59560a6c11b6",
+        "w-35e3a6c8a7fd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:48+00:00",
+      "target": "n10-012",
+      "constructionId": "n10-012",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "d62457869d85615aa0974678f5fcd00bf1fd4ac688a4fa71bd096919baaaca22",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "17beecdb9a4eb81f7be3b9b3bd3de2624b6846b6ccbc392ac6e3d83fbeefa6a6"
+    },
+    {
+      "id": "cace-n10-028",
+      "src": "assets/constructions/n10/n10-028.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noi · aixecar · caixa / tren / rampa → baixar",
+        "es": "CHICO · LEVANTAR · CAJA · TREN · RAMPA · BAJAR · PORQUE"
+      },
+      "alt": {
+        "ca": "Un noi aixeca la caixa que barrava el pas al tren de joguina. El tren baixa de la rampa.",
+        "es": "Un chico levanta la caja que bloqueaba el paso al tren de juguete. El tren baja por la rampa."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-e12d88415c80",
+        "w-696b7c739d30",
+        "w-b961c4c94862",
+        "w-9079294dc56e",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-e12d88415c80",
+        "w-696b7c739d30",
+        "w-b961c4c94862",
+        "w-9079294dc56e",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:49+00:00",
+      "target": "n10-028",
+      "constructionId": "n10-028",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un tren de joguina té les rodes sobre una rampa baixa i el frontal contra una caixa que el bloqueja."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Alça la caixa verticalment i el frontal del tren passa per sota amb les rodes sobre la rampa."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El tren s’ha aturat al replà inferior. La caixa continua suspesa a les mans."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un tren de dues finestres grans, una caixa de tapa blava i una sola rampa."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "3aca350ab087b2729c4aaa0e5c622661130bc205144fa0dbc422f421c4241204",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "644e3b6e48bd225de80f8239acd1df87ba351face9d86c4b920dbc5f7d1489e8"
+    },
+    {
+      "id": "cace-n10-029",
+      "src": "assets/constructions/n10/n10-029.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "dona · tancar · galleda / aigua → ple",
+        "es": "MUJER · CERRAR · CUBO · AGUA · LLENO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una dona tapa el desguàs de la galleda. L’aigua continua entrant i el nivell puja perquè ja no en surt.",
+        "es": "Una mujer tapa el desagüe del cubo. El agua sigue entrando y el nivel sube porque ya no sale."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-4000ec1e6d5b",
+        "w-7f04619a8649",
+        "w-00e8b2c10536",
+        "w-427a0daa495d",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-4000ec1e6d5b",
+        "w-7f04619a8649",
+        "w-00e8b2c10536",
+        "w-427a0daa495d",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:49+00:00",
+      "target": "n10-029",
+      "constructionId": "n10-029",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una galleda transparent és sota un broc fix. Un raig petit hi entra i, pel desguàs obert, en surt un altre cap a la safata."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem el tap a l’orifici fins que es talla el raig de sortida, amb l’entrada encara visible."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El nivell de la galleda ha pujat fins a una banda just sota el llavi. El raig de sortida ha cessat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una galleda amb banda just sota el llavi, un tap i un broc fix. La safata reté l’aigua que ha sortit abans del tancament."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "d51122913665857c52c64d87c9c73739f803deb10beab4e81c84e74045d2882b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dd37d4fa439300963360239518197b34fe09dd2c852fd4de4cfe9399217d439f"
+    },
+    {
+      "id": "cace-n10-030",
+      "src": "assets/constructions/n10/n10-030.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "home · obrir · galleda / aigua → buit",
+        "es": "HOMBRE · ABRIR · CUBO · AGUA · VACÍO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un home treu el tap de la galleda. L’aigua en surt per l’orifici i es recull a la safata.",
+        "es": "Un hombre quita el tapón del cubo. El agua sale por el orificio y se recoge en la bandeja."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-a10b29af07c7",
+        "w-7f04619a8649",
+        "w-00e8b2c10536",
+        "w-1d8378757b29",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-a10b29af07c7",
+        "w-7f04619a8649",
+        "w-00e8b2c10536",
+        "w-1d8378757b29",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:49+00:00",
+      "target": "n10-030",
+      "constructionId": "n10-030",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una galleda transparent amb tap lateral té aigua fins a mitja altura, amb el desguàs arran del fons. A sota hi ha una safata buida."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Extreu el tap. El raig surt exactament de l’orifici i entra a la safata."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La galleda queda buida, amb només unes gotes adherides al fons. L’aigua és a la safata."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una galleda, un tap a la mà i una safata transparent de capacitat suficient."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1daab41d21f73e94f81337fe4f63db24afda53098069248de28aa1eb9c99126c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "daa312a46ff836e3339e039d40e0c99e2d94c0c3fe2a9c2be3e58f53544b40b5"
+    },
+    {
+      "id": "cace-n10-044",
+      "src": "assets/constructions/n10/n10-044.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · regar · planta / aigua / taula → mullat",
+        "es": "NIÑO · REGAR · PLANTA · AGUA · MESA · MOJADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen rega una planta. Part del raig passa per fora de la vora del test i mulla la taula.",
+        "es": "Un niño riega una planta. Parte del chorro pasa por fuera del borde de la maceta y moja la mesa."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-00e8b2c10536",
+        "w-1544f4efec59",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-00e8b2c10536",
+        "w-1544f4efec59",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:01:42+00:00",
+      "target": "n10-044",
+      "constructionId": "n10-044",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un test de planta és en un extrem de la taula seca. La regadora és a la mà."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El raig sobrepassa la vora del test i impacta a la taula al costat del test."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Queden unes gotes grans i un bassal localitzat allà on impactava el raig. El test no es mou."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una planta de quatre fulles i un test de vora ampla. Un petit cèrcol recull el bassal a la taula."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "775dfcce4c7ae14ec01fcfa4044cdbd31561b17700b5200477e66e9a19835921",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ea47553ffc51ee22e81d8f1c1206ddb7b8766a41138efa903e9db67935b402fc"
+    },
+    {
+      "id": "cace-n10-045",
+      "src": "assets/constructions/n10/n10-045.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · posar · botes → brut",
+        "es": "CHICA · PONER · BOTAS · SUCIO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia posa una bota enfangada sobre l’estora i hi deixa una petjada.",
+        "es": "Una chica pone una bota embarrada sobre la esterilla y deja una huella."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-a644e017ea31",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-a644e017ea31",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:01:42+00:00",
+      "target": "n10-045",
+      "constructionId": "n10-045",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una bota té fang enganxat a la sola. Una estora clara és neta."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Planta la bota a l’estora. El fang entra en contacte amb les fibres per sota de la sola."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Aixeca el peu i deixa visible la petjada amb el mateix dibuix de la sola. Part del fang resta a la bota."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un parell de botes amb tres tacs amples a cada sola i una estora clara amb rivet."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "3f30537afd0467b5a73c2ef3b08cadad5fe8918a9ea1d0d038a010312072308a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "035435f647e02e41bf68b26dd915bbdf712a3c0798dd5ad35d3dbf96b0ad31ac"
+    },
+    {
+      "id": "cace-n10-046",
+      "src": "assets/constructions/n10/n10-046.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noi · agafar · pintura / pinzell / mocador → brut",
+        "es": "CHICO · COGER · PINTURA · PINCEL · PAÑUELO · SUCIO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un noi sosté un pinzell carregat. Una gota de pintura cau i taca el mocador.",
+        "es": "Un chico sostiene un pincel cargado. Una gota de pintura cae y mancha el pañuelo."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-677819a0a32a",
+        "w-4e39a6280b90",
+        "w-33df96705776",
+        "w-35e3a6c8a7fd",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-677819a0a32a",
+        "w-4e39a6280b90",
+        "w-33df96705776",
+        "w-35e3a6c8a7fd",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:50+00:00",
+      "target": "n10-046",
+      "constructionId": "n10-046",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "a404769568d8e410e66b40292388d4c4d17a45a8c503fcbb57da2a38dbe4add5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "485669a1c767d8acc556cd74f8eb9f32c6896291cc4e33396571827c1c6709d8"
+    },
+    {
+      "id": "cace-n10-049",
+      "src": "assets/constructions/n10/n10-049.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nena · posar · pintura / plat / cullera → brut",
+        "es": "NIÑA · PONER · PINTURA · PLATO · CUCHARA · SUCIO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una nena posa el dors pintat d’una cullera contra el plat. Quan l’aixeca hi queda una marca blava.",
+        "es": "Una niña pone el dorso pintado de una cuchara contra el plato. Al levantarla queda una marca azul."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-4e39a6280b90",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-4e39a6280b90",
+        "w-55d250f4cf1e",
+        "w-9c9849fac1d3",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:51+00:00",
+      "target": "n10-049",
+      "constructionId": "n10-049",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una cullera de joguina té pintura al dors. El plat és net."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Deixa el dors de la cullera en contacte amb la superfície plana del plat."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Alça la cullera i hi queda una marca curta amb la mateixa curvatura del dors."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un plat blanc amb cercle blau i una cullera de mànec vermell. Part de la pintura resta al dors."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "8c273817e87d8004302304dea838dda0ccf7e41795e9f961f3a2a13ccd8347d2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "410ebf7846fead3c17e66531458c747d0efc9df6b88f9d8f0304c3a0487841d7"
+    },
+    {
+      "id": "cace-n10-067",
+      "src": "assets/constructions/n10/n10-067.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nena · estripar · mocador → trencat",
+        "es": "NIÑA · RASGAR · PAÑUELO · ROTO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una nena estira el mocador de paper pels dos costats d’una osca. El paper s’esquinça en dos trossos.",
+        "es": "Una niña tira del pañuelo de papel a ambos lados de una muesca. El papel se rasga en dos trozos."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-35e3a6c8a7fd",
+        "w-6f07968b10be",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-35e3a6c8a7fd",
+        "w-6f07968b10be",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:51+00:00",
+      "target": "n10-067",
+      "constructionId": "n10-067",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un mocador prim de paper amb un estampat senzill té una osca petita."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un mocador de paper amb la mateixa amplada total repartida en dues parts."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "138ef84a78fb163e6188defdb52cc3ab0ac13c23320db48a2e4a5609355239b9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dcfca5ec766cec337317936ba661f9901a909440464e84ce572df3436d56a872"
+    },
+    {
+      "id": "cace-n10-068",
+      "src": "assets/constructions/n10/n10-068.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · estirar · globus → llarg",
+        "es": "NIÑO · ESTIRAR · GLOBO · LARGO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen estira els dos extrems d’un globus desinflat. El làtex es fa més llarg i més estret.",
+        "es": "Un niño estira los dos extremos de un globo desinflado. El látex se hace más largo y estrecho."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-f19cff282499",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-99499cd7f270",
+        "w-f19cff282499",
+        "w-8c01add53f6c",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:51+00:00",
+      "target": "n10-068",
+      "constructionId": "n10-068",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un globus desinflat de làtex és pla damunt de la taula."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Manté el globus notablement allargat, amb la boca recognoscible i el centre estret."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1d7e640f410b4a53b23edca99f696d8f2d020ccd25e2d295e60cfc90e7c9d298",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1686ac3a7b4127ef7111e5a9b554bd6d9f5a26edd2247e88659904130df220f0"
+    },
+    {
+      "id": "cace-n10-082",
+      "src": "assets/constructions/n10/n10-082.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noi · tocar · llum / commutador → apagat",
+        "es": "CHICO · TOCAR · LUZ · CONMUTADOR · APAGADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un noi prem l’interruptor de la caixa lluminosa. La caixa i el reflex sobre la taula s’apaguen.",
+        "es": "Un chico pulsa el interruptor de la caja luminosa. La caja y el reflejo sobre la mesa se apagan."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-072ecc01e120",
+        "w-30c924a12d6f",
+        "w-16311bdde998",
+        "w-32ded36c2a62",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-072ecc01e120",
+        "w-30c924a12d6f",
+        "w-16311bdde998",
+        "w-32ded36c2a62",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:01:42+00:00",
+      "target": "n10-082",
+      "constructionId": "n10-082",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "El llum d’una caixa lluminosa sense imatges és encès. El dit resta fora del commutador integrat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El dit pressiona l’altre extrem del botó basculant. La font lluminosa i el reflex al suport s’apaguen alhora."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Obre la mà i el commutador queda en la nova posició. La taula conserva la mateixa llum ambiental i desapareix el reflex local."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una caixa lluminosa de vora grisa i un commutador visible al marc."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "60f8f9d40e94a62c3f856eae0bfcb32a6ea111fb722b05e908b666eebe76dab8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "24a6444bed3c529c999b3bf81d45ca25786db75d50c0922491450b20a7fb4c1d"
+    },
+    {
+      "id": "cace-n10-085",
+      "src": "assets/constructions/n10/n10-085.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nena · tocar · ventilador / paper → volar",
+        "es": "NIÑA · TOCAR · VENTILADOR · PAPEL · VOLAR · PORQUE"
+      },
+      "alt": {
+        "ca": "Una nena encén el ventilador. L’aire aixeca una tira de paper que reposava a la safata.",
+        "es": "Una niña enciende el ventilador. El aire levanta una tira de papel que estaba sobre la bandeja."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-072ecc01e120",
+        "w-dde24b127364",
+        "w-cd5c60f0d076",
+        "w-9f503dadd8f0",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-072ecc01e120",
+        "w-dde24b127364",
+        "w-cd5c60f0d076",
+        "w-9f503dadd8f0",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:54+00:00",
+      "target": "n10-085",
+      "constructionId": "n10-085",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "db7f2736dc2f097abb846fd4772ecbaba70583efd3127666e4623590b8c83abf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b95748a3d78c22dbdc8d5d206d6d16a9d4085a5e1cb2ffa76a8d4df1acba5172"
+    },
+    {
+      "id": "cace-n10-103",
+      "src": "assets/constructions/n10/n10-103.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "gos · posar · llibre / dau → caure",
+        "es": "PERRO · PONER · LIBRO · DADO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un gos empeny un llibre que fa sortir un dau més enllà del cantell. El dau cau a l’estora.",
+        "es": "Un perro empuja un libro que desplaza un dado más allá del borde. El dado cae sobre la esterilla."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:08+00:00",
+      "target": "n10-103",
+      "constructionId": "n10-103",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un dau reposa vora el cantell de la taula, separat del llibre."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "En fer lliscar el llibre tancat, el llom empeny el dau i el deixa mig fora del cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dau és a l’estora sota el cantell. El llibre continua a la taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un dau gros de punts i un llibre de llom verd, visibles sencers."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "9918caefa7c955932ceb7ec473c2fbdadf8dfd6a523ecbd85b870b6593c4864e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "66e6d022668a79ee78b33c1307158f97aff76f1b1cbcc6494fcdf6a4bb036b6a"
+    },
+    {
+      "id": "cace-n10-104",
+      "src": "assets/constructions/n10/n10-104.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "ós · jugar · pilota / titella → caure",
+        "es": "OSO · JUGAR · PELOTA · TÍTERE · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un ós llança una pilota tova que colpeja un titella de roba i el tomba.",
+        "es": "Un oso lanza una pelota blanda que golpea un títere de tela y lo derriba."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-3063ed1cff1f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-3063ed1cff1f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:08+00:00",
+      "target": "n10-104",
+      "constructionId": "n10-104",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un titella de tela és dret sobre una base baixa. La pilota d’escuma és a la mà."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Després del llançament curt, la pilota d’escuma impacta el tronc del titella i el fa bascular."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El titella queda estès a la mateixa base, amb la pilota al costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un titella amb dues orelles desiguals i una pilota tova amb franja."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "6f8a62853f387f1ce0c2bc381d1882112559ea2993fb74db70d5bcb0dd4afa18",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ecd7ce27415b1a47ba22f16dd288110ac59a199c27609110f1b576e86b82cfad"
+    },
+    {
+      "id": "cace-n10-111",
+      "src": "assets/constructions/n10/n10-111.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "conill · baixar · poma / rampa / got → caure",
+        "es": "CONEJO · BAJAR · MANZANA · RAMPA · VASO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un conill deixa baixar una poma per la rampa. La poma topa amb la base del got i el tomba.",
+        "es": "Un conejo deja bajar una manzana por la rampa. La manzana choca con la base del vaso y lo vuelca."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-3638c1a730c8",
+        "w-809c680b5699",
+        "w-9079294dc56e",
+        "w-1bed9f18ebab",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-3638c1a730c8",
+        "w-809c680b5699",
+        "w-9079294dc56e",
+        "w-1bed9f18ebab",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:57+00:00",
+      "target": "n10-111",
+      "constructionId": "n10-111",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una poma és a dalt d’una rampa curta amb vores baixes. Hi ha un got buit dret al replà inferior."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La poma que deixa rodar entra en contacte amb la base del got de plàstic, que s’inclina."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El got buit es veu ajagut al replà amb la poma al costat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una poma amb una taca natural i un got amb dues bandes."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "53c182ce763a0cad3dfcbf6ad03ab50bc897c967c326110b6492fb989414e271",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e968da745caa58442558093046c89883b97207667446fa8b9bfc700fc55babb9"
+    },
+    {
+      "id": "cace-n10-112",
+      "src": "assets/constructions/n10/n10-112.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "gat · tancar · finestra / mocador → caure",
+        "es": "GATO · CERRAR · VENTANA · PAÑUELO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un gat tanca la finestra. Quan la fulla toca el mocador, el fa caure de l’ampit.",
+        "es": "Un gato cierra la ventana. Cuando la hoja toca el pañuelo, lo hace caer del alféizar."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-4000ec1e6d5b",
+        "w-59560a6c11b6",
+        "w-35e3a6c8a7fd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-4000ec1e6d5b",
+        "w-59560a6c11b6",
+        "w-35e3a6c8a7fd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:57+00:00",
+      "target": "n10-112",
+      "constructionId": "n10-112",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un mocador plegat és al cantell interior de l’ampit d’una finestra amb fulla que obre endins."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "En tancar la fulla, el cantell interior toca el mocador i el deixa penjant sobre la vora de l’ampit."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El mocador jeu a terra dins l’habitació, sota l’ampit. La fulla ha avançat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un mocador amb una vora contrastada i una sola fulla amb frontisses visibles."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1e4062f1c2ac52c26bab4e09ec2405be1ddc5530263028576ff36be543256e84",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "691a4db5ffe1115cfe32dfe81791b021bdcdcd080b2adfcb513e4e279835df01"
+    },
+    {
+      "id": "cace-n10-125",
+      "src": "assets/constructions/n10/n10-125.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "mico · posar · llibre / pilota",
+        "es": "MONO · PONER · LIBRO · PELOTA · PORQUE"
+      },
+      "alt": {
+        "ca": "Un mico posa un llibre davant de la pilota. El llom l’atura abans que arribi al cantell de la taula.",
+        "es": "Un mono coloca un libro delante de la pelota. El lomo la detiene antes de que llegue al borde de la mesa."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-b7f578451973",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-b7f578451973",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:03:41+00:00",
+      "target": "n10-125",
+      "constructionId": "n10-125",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una pilota d’escuma roda cap al cantell d’una taula baixa, amb el llibre a la mà."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Posa el llibre pla travessant el trajecte abans del cantell. La pilota ja toca el llom, encara sobre la taula."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La pilota resta contra el llom del llibre. El tram fins al cantell queda buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una pilota amb un anell de color i un llibre rígid prou gruixut."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "e11fe20cec36e5d47a7f968614c1f8c72faf46bef7dd423cc06771782369fe42",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4144d9dcdd06573950d529cd3f2dbeebb503b6e6ca93501aa21afa8d16592b44"
+    },
+    {
+      "id": "cace-n10-126",
+      "src": "assets/constructions/n10/n10-126.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "vaca · estirar · mocador / dau → caure",
+        "es": "VACA · ESTIRAR · PAÑUELO · DADO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una vaca estira un mocador que arrossega un dau fora de la taula. El dau cau a l’estora.",
+        "es": "Una vaca tira de un pañuelo que arrastra un dado fuera de la mesa. El dado cae a la esterilla."
+      },
+      "tags": [
+        "w-c54f45209550",
+        "w-99499cd7f270",
+        "w-35e3a6c8a7fd",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-c54f45209550",
+      "targetWordIds": [
+        "w-c54f45209550",
+        "w-99499cd7f270",
+        "w-35e3a6c8a7fd",
+        "w-e0fc52e298ac",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:03:41+00:00",
+      "target": "n10-126",
+      "constructionId": "n10-126",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un dau és damunt d’un mocador amb un extrem que sobresurt de la taula baixa."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Estira el mocador lentament. El dau avança sobre la tela fins que passa el cantell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dau reposa a l’estora de sota i el mocador sencer penja de la mà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un dau d’escuma gros i un mocador amb serrell curt."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "f205dadfd54b431d52dc2e94049adc4f0e912618cb3ee3f7de1e3cebb8f90537",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "421188c452860fb23c369dc8bf41d0703d0113a3d94a1ebdd2469c2f7790710b"
+    },
+    {
+      "id": "cace-n10-127",
+      "src": "assets/constructions/n10/n10-127.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "zebra · estripar · paper / anell → caure",
+        "es": "CEBRA · RASGAR · PAPEL · ANILLO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una zebra esquinça la tira de paper que sosté un anell. L’anell cau amb el fragment de sota.",
+        "es": "Una cebra rasga la tira de papel que sostiene un aro. El aro cae con el fragmento inferior."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-3637247e36f7",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:57+00:00",
+      "target": "n10-127",
+      "constructionId": "n10-127",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un anell lleuger penja d’una tira gruixuda de paper presa entre les mans."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Esquinça la tira per una osca. La part inferior i l’anell comencen a baixar junts."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "L’anell i el tros inferior jeuen damunt la taula. La mà encara subjecta la part superior."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un anell gran de plàstic i dos fragments complementaris de la mateixa tira verda."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "0b07efd6f030b05d3d034cd25f691707d0a4a130daa56fb4ca89dd3490883de0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0a0e2005f8d5a8ab8e6cfe7a0f377552d545f1f9481ded952a75007166e81caf"
+    },
+    {
+      "id": "cace-n10-128",
+      "src": "assets/constructions/n10/n10-128.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "ruc · aixecar · caixa / tren / rampa → baixar",
+        "es": "BURRO · LEVANTAR · CAJA · TREN · RAMPA · BAJAR · PORQUE"
+      },
+      "alt": {
+        "ca": "Un ruc alça la caixa que aturava el tren. El tren pot baixar fins al peu de la rampa.",
+        "es": "Un burro levanta la caja que detenía el tren. El tren puede bajar hasta el pie de la rampa."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-e12d88415c80",
+        "w-696b7c739d30",
+        "w-b961c4c94862",
+        "w-9079294dc56e",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-e12d88415c80",
+        "w-696b7c739d30",
+        "w-b961c4c94862",
+        "w-9079294dc56e",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:02:57+00:00",
+      "target": "n10-128",
+      "constructionId": "n10-128",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un tren de joguina té les rodes sobre una rampa baixa i el frontal contra una caixa que el bloqueja."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Alça la caixa verticalment i el frontal del tren passa per sota amb les rodes sobre la rampa."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El tren s’ha aturat al replà inferior. La caixa continua suspesa a les mans."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un tren de dues finestres grans, una caixa de tapa blava i una sola rampa."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "5e4bbde08535f729226f1a8f90e7760abfd66bf7e21c8782a2ea36170a70dd9f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "709ff50ac3ccbcdd4f4bbb8725bcbdfb9174a5b0f68d7fb6844e44b554662334"
+    },
+    {
+      "id": "cace-n10-144",
+      "src": "assets/constructions/n10/n10-144.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "ós · regar · planta / aigua / taula → mullat",
+        "es": "OSO · REGAR · PLANTA · AGUA · MESA · MOJADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un ós rega una planta. Una part de l’aigua passa per damunt de la vora i mulla la taula al costat del test.",
+        "es": "Un oso riega una planta. Parte del agua pasa por encima del borde y moja la mesa junto a la maceta."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-00e8b2c10536",
+        "w-1544f4efec59",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-00e8b2c10536",
+        "w-1544f4efec59",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:04:13+00:00",
+      "target": "n10-144",
+      "constructionId": "n10-144",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un test de planta és en un extrem de la taula seca. La regadora és a la mà."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El raig sobrepassa la vora del test i impacta a la taula al costat del test."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Queden unes gotes grans i un bassal localitzat allà on impactava el raig. El test no es mou."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una planta de quatre fulles i un test de vora ampla. Un petit cèrcol recull el bassal a la taula."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "097b98f1c868664ff6b8286b4565b6753efaec3c8c1c7ad28f9506bde66d3d6b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "675fb6a2ba9b7633d3587a231ab4565df55beff537989cacd6fecde84b549e70"
+    },
+    {
+      "id": "cace-n10-145",
+      "src": "assets/constructions/n10/n10-145.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "mico · posar · botes → brut",
+        "es": "MONO · PONER · BOTAS · SUCIO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un mico posa una bota enfangada a l’estora. En alçar-la, es veuen les tres marques de la sola.",
+        "es": "Un mono pone una bota embarrada sobre la esterilla. Al levantarla se ven las tres marcas de la suela."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-a644e017ea31",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-a644e017ea31",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:04:13+00:00",
+      "target": "n10-145",
+      "constructionId": "n10-145",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una bota té fang enganxat a la sola. Una estora clara és neta."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Planta la bota a l’estora. El fang entra en contacte amb les fibres per sota de la sola."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Aixeca el peu i deixa visible la petjada amb el mateix dibuix de la sola. Part del fang resta a la bota."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un parell de botes amb tres tacs amples a cada sola i una estora clara amb rivet."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "a525b0350b2b6eb3171b6b8d721e691a9960acb984dfd57f7a2212ad9e1aaac7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c341d086173670e907bd6bbcdc8e79e1835a65953e17fd1694bc1c1db9ee23e2"
+    },
+    {
+      "id": "cace-n10-147",
+      "src": "assets/constructions/n10/n10-147.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "zebra · posar · pintura / got / paper → brut",
+        "es": "CEBRA · PONER · PINTURA · VASO · PAPEL · SUCIO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una zebra prem la base pintada d’un got sobre el paper i hi deixa una empremta circular.",
+        "es": "Una cebra presiona la base pintada de un vaso sobre el papel y deja una huella circular."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-c211f7486a30",
+        "w-4e39a6280b90",
+        "w-1bed9f18ebab",
+        "w-cd5c60f0d076",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-c211f7486a30",
+        "w-4e39a6280b90",
+        "w-1bed9f18ebab",
+        "w-cd5c60f0d076",
+        "w-e8c7f0581229",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:03:01+00:00",
+      "target": "n10-147",
+      "constructionId": "n10-147",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un got buit porta un anell de pintura a la base exterior. El paper és net."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem la base del got contra el paper mantenint-lo vertical."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un got de plàstic amb base circular i un full. Una sola empremta."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "cb44913fc7064a48e37edeed730f0528beb1f1a1e79c71b2c7c4e789f40a7fba",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6ac6d437374e981ed0d597a6ae80ed42546ebbe8ba24e081d8c6927bff35cf09"
+    },
+    {
+      "id": "cace-n10-167",
+      "src": "assets/constructions/n10/n10-167.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "zebra · estripar · mocador → trencat",
+        "es": "CEBRA · RASGAR · PAÑUELO · ROTO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una zebra estira un mocador de paper a banda i banda d’una osca i el parteix en dos trossos.",
+        "es": "Una cebra tira de un pañuelo de papel a ambos lados de una muesca y lo parte en dos trozos."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-d6ff14eb6fb5",
+        "w-35e3a6c8a7fd",
+        "w-6f07968b10be",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-d6ff14eb6fb5",
+        "w-35e3a6c8a7fd",
+        "w-6f07968b10be",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:03:01+00:00",
+      "target": "n10-167",
+      "constructionId": "n10-167",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un mocador prim de paper amb un estampat senzill té una osca petita."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Estira la tela de paper a banda i banda de l’osca, que s’obre fins a la marca del centre."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Els dos fragments conserven l’estampat i es veuen totes dues vores irregulars."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un mocador de paper amb la mateixa amplada total repartida en dues parts."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1db7fc738ba6811eaa78132e59d03f6bc6ea0ad9c407de81d84f8c6209074c7d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8be4892069f4daf28d3dbf22f98f723180a1d019bf22cc5e8ae3e3cf60b17d56"
+    },
+    {
+      "id": "cace-n10-182",
+      "src": "assets/constructions/n10/n10-182.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "gat · tocar · llum / commutador → apagat",
+        "es": "GATO · TOCAR · LUZ · CONMUTADOR · APAGADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un gat prem l’interruptor de la caixa lluminosa i aquesta s’apaga.",
+        "es": "Un gato pulsa el interruptor de la caja luminosa y esta se apaga."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-072ecc01e120",
+        "w-30c924a12d6f",
+        "w-16311bdde998",
+        "w-32ded36c2a62",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-072ecc01e120",
+        "w-30c924a12d6f",
+        "w-16311bdde998",
+        "w-32ded36c2a62",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T16:04:13+00:00",
+      "target": "n10-182",
+      "constructionId": "n10-182",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "El llum d’una caixa lluminosa sense imatges és encès. El dit resta fora del commutador integrat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El dit pressiona l’altre extrem del botó basculant. La font lluminosa i el reflex al suport s’apaguen alhora."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Obre la mà i el commutador queda en la nova posició. La taula conserva la mateixa llum ambiental i desapareix el reflex local."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una caixa lluminosa de vora grisa i un commutador visible al marc."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "cd15bd34c65ddbe136351c561a1791de2944b6e6a3e6765c8ca7c018bf28f8ef",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "83df8719c2b37fff1070b39d8e62f5ec326414c316bc5beecc1dd3a4622bf863"
+    },
     {
       "id": "cace-n10-004",
       "src": "assets/constructions/n10/n10-004.webp",
@@ -176137,7 +178114,34 @@
         "cace-n10-107",
         "cace-n10-109",
         "cace-n10-165",
-        "cace-n10-166"
+        "cace-n10-166",
+        "cace-n10-003",
+        "cace-n10-011",
+        "cace-n10-012",
+        "cace-n10-028",
+        "cace-n10-029",
+        "cace-n10-030",
+        "cace-n10-044",
+        "cace-n10-045",
+        "cace-n10-046",
+        "cace-n10-049",
+        "cace-n10-067",
+        "cace-n10-068",
+        "cace-n10-082",
+        "cace-n10-085",
+        "cace-n10-103",
+        "cace-n10-104",
+        "cace-n10-111",
+        "cace-n10-112",
+        "cace-n10-125",
+        "cace-n10-126",
+        "cace-n10-127",
+        "cace-n10-128",
+        "cace-n10-144",
+        "cace-n10-145",
+        "cace-n10-147",
+        "cace-n10-167",
+        "cace-n10-182"
       ]
     }
   ]

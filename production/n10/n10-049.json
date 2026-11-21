@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-049",
+    "number": 49,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-049",
+    "counterpartId": "n10-149",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · posar · pintura / plat / cullera → brut"
+    },
+    "labels": [
+      "NENA",
+      "POSAR",
+      "PINTURA",
+      "PLAT",
+      "CULLERA",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-4e39a6280b90",
+      "w-55d250f4cf1e",
+      "w-9c9849fac1d3",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una cullera de joguina té pintura al dors. El plat és net."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Deixa el dors de la cullera en contacte amb la superfície plana del plat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Alça la cullera i hi queda una marca curta amb la mateixa curvatura del dors."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un plat blanc amb cercle blau i una cullera de mànec vermell. Part de la pintura resta al dors."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8c273817e87d8004302304dea838dda0ccf7e41795e9f961f3a2a13ccd8347d2",
+      "file": "output/production/n10/n10-049/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera de joguina té pintura al dors. El plat és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa el dors de la cullera en contacte amb la superfície plana del plat. RIGHT result: Alça la cullera i hi queda una marca curta amb la mateixa curvatura del dors. Continuity and accounting: Un plat blanc amb cercle blau i una cullera de mànec vermell. Part de la pintura resta al dors. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El dors amb pintura toca la superfície neta del plat i deixa una marca curta i corbada. Al final n’hi ha un residu a la mateixa cullera, que conserva el mànec vermell.",
+      "reviewedAt": "2026-11-21T16:02:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una cullera de joguina té pintura al dors. El plat és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa el dors de la cullera en contacte amb la superfície plana del plat. RIGHT result: Alça la cullera i hi queda una marca curta amb la mateixa curvatura del dors. Continuity and accounting: Un plat blanc amb cercle blau i una cullera de mànec vermell. Part de la pintura resta al dors. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El dors amb pintura toca la superfície neta del plat i deixa una marca curta i corbada. Al final n’hi ha un residu a la mateixa cullera, que conserva el mànec vermell.",
+  "alt": {
+    "ca": "Una nena posa el dors pintat d’una cullera contra el plat. Quan l’aixeca hi queda una marca blava.",
+    "es": "Una niña pone el dorso pintado de una cuchara contra el plato. Al levantarla queda una marca azul."
+  },
+  "originalSha256": "8c273817e87d8004302304dea838dda0ccf7e41795e9f961f3a2a13ccd8347d2",
+  "file": "output/production/n10/n10-049/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:51+00:00",
+  "tool": "ImageGen integrat"
+}

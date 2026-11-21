@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-050",
+    "number": 50,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-050",
+    "counterpartId": "n10-150",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · xocolata / tovalló → brut"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "XOCOLATA",
+      "TOVALLÓ",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-1f4f66a7bc82",
+      "w-b9ac8312c767",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "XOCOLATA",
+        "wordId": "w-1f4f66a7bc82"
+      },
+      {
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "La punta d’una porció de xocolata tova és visible i el tovalló és net."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La punta tova frega el tovalló en una trajectòria curta, encara unida a la porció."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Queda una ratlla marró curta. La porció és sencera amb una punta aixafada."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una porció quadrada de xocolata i un tovalló amb doblec diagonal."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "87b354e58e5da8584f33600212497b9b5521bbc15de6156e04d4d0c6b2f91597",
+      "file": "output/production/n10/n10-050/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La punta d’una porció de xocolata tova és visible i el tovalló és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La punta tova frega el tovalló en una trajectòria curta, encara unida a la porció. RIGHT result: Queda una ratlla marró curta. La porció és sencera amb una punta aixafada. Continuity and accounting: Una porció quadrada de xocolata i un tovalló amb doblec diagonal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La mateixa porció de xocolata frega el tovalló pel cantó. Es veu transferència al punt de contacte i el rastre marró queda a prop del doblec, amb la xocolata encara sencera.",
+      "reviewedAt": "2026-11-21T16:06:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La punta d’una porció de xocolata tova és visible i el tovalló és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La punta tova frega el tovalló en una trajectòria curta, encara unida a la porció. RIGHT result: Queda una ratlla marró curta. La porció és sencera amb una punta aixafada. Continuity and accounting: Una porció quadrada de xocolata i un tovalló amb doblec diagonal. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La mateixa porció de xocolata frega el tovalló pel cantó. Es veu transferència al punt de contacte i el rastre marró queda a prop del doblec, amb la xocolata encara sencera.",
+  "alt": {
+    "ca": "Un nen frega la punta de la xocolata contra un tovalló i hi deixa un rastre marró.",
+    "es": "Un niño frota la punta del chocolate contra una servilleta y deja un rastro marrón."
+  },
+  "originalSha256": "87b354e58e5da8584f33600212497b9b5521bbc15de6156e04d4d0c6b2f91597",
+  "file": "output/production/n10/n10-050/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:06:50+00:00",
+  "tool": "ImageGen integrat"
+}

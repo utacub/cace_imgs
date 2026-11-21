@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-185",
+    "number": 185,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-085",
+    "counterpartId": "n10-085",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · tocar · ventilador / paper → volar"
+    },
+    "labels": [
+      "MICO",
+      "TOCAR",
+      "VENTILADOR",
+      "PAPER",
+      "VOLAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-072ecc01e120",
+      "w-dde24b127364",
+      "w-cd5c60f0d076",
+      "w-9f503dadd8f0",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "agent": {
+      "label": "MICO",
+      "wordId": "w-12a87560751b"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "VENTILADOR",
+        "wordId": "w-dde24b127364"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "VOLAR",
+      "wordId": "w-9f503dadd8f0"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "42715ddce332f38c84cc68650d1d7cc08954d6e226dc87e46191d80023249a24",
+      "file": "output/production/n10/n10-185/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic monkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux. RIGHT result: El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant. Continuity and accounting: Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La reixeta mira frontalment, però la tira s’aixeca al costat esquerre, fora de la sortida d’aire que indica la posició del ventilador.",
+      "reviewedAt": "2026-11-21T16:03:01+00:00"
+    }
+  ],
+  "status": "rejected"
+}

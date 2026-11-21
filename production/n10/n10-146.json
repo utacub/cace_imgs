@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-146",
+    "number": 146,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-046",
+    "counterpartId": "n10-046",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "vaca · agafar · pintura / pinzell / mocador → brut"
+    },
+    "labels": [
+      "VACA",
+      "AGAFAR",
+      "PINTURA",
+      "PINZELL",
+      "MOCADOR",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-c54f45209550",
+      "w-677819a0a32a",
+      "w-4e39a6280b90",
+      "w-33df96705776",
+      "w-35e3a6c8a7fd",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-c54f45209550",
+    "agent": {
+      "label": "VACA",
+      "wordId": "w-c54f45209550"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "258e606719fcf9d27985db256380e337e8bf4203570da828e483844c00eb7020",
+      "file": "output/production/n10/n10-146/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell. RIGHT result: El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor. Continuity and accounting: Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "L’objecte que rep la taca sembla un full de paper amb una vora enrotllada. Cal un mocador de roba distingible, amb plecs o vores cosides.",
+      "reviewedAt": "2026-11-21T16:03:01+00:00"
+    }
+  ],
+  "status": "rejected"
+}

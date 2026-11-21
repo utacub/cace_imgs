@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-011",
+    "number": 11,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-011",
+    "counterpartId": "n10-111",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · baixar · poma / rampa / got → caure"
+    },
+    "labels": [
+      "DONA",
+      "BAIXAR",
+      "POMA",
+      "RAMPA",
+      "GOT",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-3638c1a730c8",
+      "w-809c680b5699",
+      "w-9079294dc56e",
+      "w-1bed9f18ebab",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "referents": [
+      {
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una poma és a dalt d’una rampa curta amb vores baixes. Hi ha un got buit dret al replà inferior."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La poma que deixa rodar entra en contacte amb la base del got de plàstic, que s’inclina."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El got buit es veu ajagut al replà amb la poma al costat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una poma amb una taca natural i un got amb dues bandes."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "0e7292fcd411b5ea9f3381a69348f0fbf5844646e4f2abce07aa4c2df423d619",
+      "file": "output/production/n10/n10-011/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una poma és a dalt d’una rampa curta amb vores baixes. Hi ha un got buit dret al replà inferior. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La poma que deixa rodar entra en contacte amb la base del got de plàstic, que s’inclina. RIGHT result: El got buit es veu ajagut al replà amb la poma al costat. Continuity and accounting: Una poma amb una taca natural i un got amb dues bandes. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La mateixa poma baixa per la rampa i toca la base del got amb dues bandes. El got s’inclina allunyant-se de la poma i acaba ajagut buit al replà.",
+      "reviewedAt": "2026-11-21T16:02:48+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una poma és a dalt d’una rampa curta amb vores baixes. Hi ha un got buit dret al replà inferior. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La poma que deixa rodar entra en contacte amb la base del got de plàstic, que s’inclina. RIGHT result: El got buit es veu ajagut al replà amb la poma al costat. Continuity and accounting: Una poma amb una taca natural i un got amb dues bandes. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La mateixa poma baixa per la rampa i toca la base del got amb dues bandes. El got s’inclina allunyant-se de la poma i acaba ajagut buit al replà.",
+  "alt": {
+    "ca": "Una dona deixa rodar una poma. Quan la poma toca la base d’un got buit, el got es tomba.",
+    "es": "Una mujer deja rodar una manzana. Cuando la manzana toca la base de un vaso vacío, el vaso se vuelca."
+  },
+  "originalSha256": "0e7292fcd411b5ea9f3381a69348f0fbf5844646e4f2abce07aa4c2df423d619",
+  "file": "output/production/n10/n10-011/image.png",
+  "width": 2140,
+  "height": 735,
+  "created": "2026-11-21T16:02:48+00:00",
+  "tool": "ImageGen integrat"
+}

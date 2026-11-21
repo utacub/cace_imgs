@@ -1,0 +1,112 @@
+{
+  "construction": {
+    "id": "n10-071",
+    "number": 71,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-071",
+    "counterpartId": "n10-171",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tancar · paper / caixa"
+    },
+    "labels": [
+      "DONA",
+      "TANCAR",
+      "PAPER",
+      "CAIXA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4000ec1e6d5b",
+      "w-cd5c60f0d076",
+      "w-696b7c739d30",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "a753696cb2de0d2777d5fd23bfd2d961ff94aecc9eef288b4f70f3fc12440cb2",
+      "file": "output/production/n10/n10-071/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla. RIGHT result: Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa. Continuity and accounting: Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tapa prem el cartró just a l’altura de la ratlla. Després de reobrir queda un plec localitzat a la mateixa ratlla i la tira continua sencera.",
+      "reviewedAt": "2026-11-21T16:07:44+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla. RIGHT result: Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa. Continuity and accounting: Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La tapa prem el cartró just a l’altura de la ratlla. Després de reobrir queda un plec localitzat a la mateixa ratlla i la tira continua sencera.",
+  "alt": {
+    "ca": "Una noia abaixa la tapa d’una caixa sobre una tira de cartró. La pressió hi deixa un plec.",
+    "es": "Una chica baja la tapa de una caja sobre una tira de cartón. La presión deja un doblez."
+  },
+  "originalSha256": "a753696cb2de0d2777d5fd23bfd2d961ff94aecc9eef288b4f70f3fc12440cb2",
+  "file": "output/production/n10/n10-071/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:07:44+00:00",
+  "tool": "ImageGen integrat"
+}

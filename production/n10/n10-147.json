@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-147",
+    "number": 147,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-047",
+    "counterpartId": "n10-047",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · posar · pintura / got / paper → brut"
+    },
+    "labels": [
+      "ZEBRA",
+      "POSAR",
+      "PINTURA",
+      "GOT",
+      "PAPER",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-c211f7486a30",
+      "w-4e39a6280b90",
+      "w-1bed9f18ebab",
+      "w-cd5c60f0d076",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un got buit porta un anell de pintura a la base exterior. El paper és net."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem la base del got contra el paper mantenint-lo vertical."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un got de plàstic amb base circular i un full. Una sola empremta."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "cb44913fc7064a48e37edeed730f0528beb1f1a1e79c71b2c7c4e789f40a7fba",
+      "file": "output/production/n10/n10-147/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un got buit porta un anell de pintura a la base exterior. El paper és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la base del got contra el paper mantenint-lo vertical. RIGHT result: Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus. Continuity and accounting: Un got de plàstic amb base circular i un full. Una sola empremta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El got és dret i l’anell de pintura queda visible a l’exterior de la base. El contacte transfereix una sola empremta circular del mateix diàmetre, amb pintura residual al got.",
+      "reviewedAt": "2026-11-21T16:03:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un got buit porta un anell de pintura a la base exterior. El paper és net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem la base del got contra el paper mantenint-lo vertical. RIGHT result: Aixeca el got. El paper té un anell amb el diàmetre exacte de la base i la base conserva residus. Continuity and accounting: Un got de plàstic amb base circular i un full. Una sola empremta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El got és dret i l’anell de pintura queda visible a l’exterior de la base. El contacte transfereix una sola empremta circular del mateix diàmetre, amb pintura residual al got.",
+  "alt": {
+    "ca": "Una zebra prem la base pintada d’un got sobre el paper i hi deixa una empremta circular.",
+    "es": "Una cebra presiona la base pintada de un vaso sobre el papel y deja una huella circular."
+  },
+  "originalSha256": "cb44913fc7064a48e37edeed730f0528beb1f1a1e79c71b2c7c4e789f40a7fba",
+  "file": "output/production/n10/n10-147/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:03:01+00:00",
+  "tool": "ImageGen integrat"
+}

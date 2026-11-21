@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-019",
+    "number": 19,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-019",
+    "counterpartId": "n10-119",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · tocar · vaixell / plastilina → caure"
+    },
+    "labels": [
+      "NENA",
+      "TOCAR",
+      "VAIXELL",
+      "PLASTILINA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-f94e3ce6d6e3",
+      "w-0606be9fcf92",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "VAIXELL",
+        "wordId": "w-f94e3ce6d6e3"
+      },
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les tres peces de la pila són a la taula, ajagudes prop de la proa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un vaixell de joguina i tres peces amples de plastilina de colors fixos."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ba5a04492301910a7d3e2ca32b155cf1aaf65591e0b0864b0bd4c10f6e27a554",
+      "file": "output/production/n10/n10-019/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça. RIGHT result: Les tres peces de la pila són a la taula, ajagudes prop de la proa. Continuity and accounting: Un vaixell de joguina i tres peces amples de plastilina de colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La proa es veu en contacte amb la peça verda inferior, que surt del centre de la pila. Es compten les mateixes tres peces de plastilina, ara a la taula, i el mateix vaixell.",
+      "reviewedAt": "2026-11-21T16:05:14+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un petit vaixell de joguina és sobre una taula, apartat d’una pila de plastilina dreta. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Guia el vaixell sobre la taula. La proa empeny la peça inferior de la pila i la descalça. RIGHT result: Les tres peces de la pila són a la taula, ajagudes prop de la proa. Continuity and accounting: Un vaixell de joguina i tres peces amples de plastilina de colors fixos. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La proa es veu en contacte amb la peça verda inferior, que surt del centre de la pila. Es compten les mateixes tres peces de plastilina, ara a la taula, i el mateix vaixell.",
+  "alt": {
+    "ca": "Una nena fa avançar un vaixell de joguina. La proa empeny la peça de sota i la pila de tres peces de plastilina cau.",
+    "es": "Una niña hace avanzar un barco de juguete. La proa empuja la pieza inferior y la pila de tres piezas de plastilina cae."
+  },
+  "originalSha256": "ba5a04492301910a7d3e2ca32b155cf1aaf65591e0b0864b0bd4c10f6e27a554",
+  "file": "output/production/n10/n10-019/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:05:14+00:00",
+  "tool": "ImageGen integrat"
+}

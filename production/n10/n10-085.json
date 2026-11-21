@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-085",
+    "number": 85,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-085",
+    "counterpartId": "n10-185",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · tocar · ventilador / paper → volar"
+    },
+    "labels": [
+      "NENA",
+      "TOCAR",
+      "VENTILADOR",
+      "PAPER",
+      "VOLAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-dde24b127364",
+      "w-cd5c60f0d076",
+      "w-9f503dadd8f0",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "VENTILADOR",
+        "wordId": "w-dde24b127364"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "VOLAR",
+      "wordId": "w-9f503dadd8f0"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "db7f2736dc2f097abb846fd4772ecbaba70583efd3127666e4623590b8c83abf",
+      "file": "output/production/n10/n10-085/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux. RIGHT result: El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant. Continuity and accounting: Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les aspes comencen quietes. El dit toca el comandament, es veu la rotació darrere la reixeta i el mateix paper s’alça a la sortida d’aire, lluny de les mans.",
+      "reviewedAt": "2026-11-21T16:02:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un rectangle de paper molt lleuger reposa a la taula davant d’un ventilador de reixeta. El botó encara és alçat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó a la base. Es veuen les aspes en rotació rere la reixeta i el paper s’aixeca al costat d’on rep el flux. RIGHT result: El paper vola dins el camp davant de la reixeta, lluny de les mans. El ventilador continua girant. Continuity and accounting: Un ventilador fix, una sola tira de paper i una safata ampla que delimita l’espai. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Les aspes comencen quietes. El dit toca el comandament, es veu la rotació darrere la reixeta i el mateix paper s’alça a la sortida d’aire, lluny de les mans.",
+  "alt": {
+    "ca": "Una nena encén el ventilador. L’aire aixeca una tira de paper que reposava a la safata.",
+    "es": "Una niña enciende el ventilador. El aire levanta una tira de papel que estaba sobre la bandeja."
+  },
+  "originalSha256": "db7f2736dc2f097abb846fd4772ecbaba70583efd3127666e4623590b8c83abf",
+  "file": "output/production/n10/n10-085/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:54+00:00",
+  "tool": "ImageGen integrat"
+}

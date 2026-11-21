@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-053",
+    "number": 53,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-053",
+    "counterpartId": "n10-153",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · posar · carmanyola / aigua → mullat"
+    },
+    "labels": [
+      "DONA",
+      "POSAR",
+      "CARMANYOLA",
+      "AIGUA",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-c3b8bd56e942",
+      "w-00e8b2c10536",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una carmanyola transparent amb una mica d’aigua i la tapa mal encaixada és damunt d’una estora seca."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Inclina la carmanyola. Les gotes surten per l’escletxa i toquen les fibres de l’estora."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Una zona fosca i humida queda sota l’escletxa. Es veu el nivell més baix dins del recipient."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una carmanyola amb dues grapes, una d’oberta, i una estora amb vora."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8ffffd33a4e3f045e087af9dab65c0dadaeac8f60c6650800d49cdec2ceec89b",
+      "file": "output/production/n10/n10-053/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola transparent amb una mica d’aigua i la tapa mal encaixada és damunt d’una estora seca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Inclina la carmanyola. Les gotes surten per l’escletxa i toquen les fibres de l’estora. RIGHT result: Una zona fosca i humida queda sota l’escletxa. Es veu el nivell més baix dins del recipient. Continuity and accounting: Una carmanyola amb dues grapes, una d’oberta, i una estora amb vora. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La carmanyola té la mateixa grapa oberta. Les gotes surten per sota de l’escletxa de la tapa i deixen la taca damunt de la mateixa zona de l’estora.",
+      "reviewedAt": "2026-11-21T16:06:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola transparent amb una mica d’aigua i la tapa mal encaixada és damunt d’una estora seca. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Inclina la carmanyola. Les gotes surten per l’escletxa i toquen les fibres de l’estora. RIGHT result: Una zona fosca i humida queda sota l’escletxa. Es veu el nivell més baix dins del recipient. Continuity and accounting: Una carmanyola amb dues grapes, una d’oberta, i una estora amb vora. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La carmanyola té la mateixa grapa oberta. Les gotes surten per sota de l’escletxa de la tapa i deixen la taca damunt de la mateixa zona de l’estora.",
+  "alt": {
+    "ca": "Una dona inclina una carmanyola mal tancada. L’aigua s’escapa per l’escletxa i mulla l’estora.",
+    "es": "Una mujer inclina una fiambrera mal cerrada. El agua se escapa por la rendija y moja la esterilla."
+  },
+  "originalSha256": "8ffffd33a4e3f045e087af9dab65c0dadaeac8f60c6650800d49cdec2ceec89b",
+  "file": "output/production/n10/n10-053/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:06:50+00:00",
+  "tool": "ImageGen integrat"
+}

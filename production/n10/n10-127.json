@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-127",
+    "number": 127,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-027",
+    "counterpartId": "n10-027",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · estripar · paper / anell → caure"
+    },
+    "labels": [
+      "ZEBRA",
+      "ESTRIPAR",
+      "PAPER",
+      "ANELL",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-d6ff14eb6fb5",
+      "w-cd5c60f0d076",
+      "w-3637247e36f7",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "ESTRIPAR",
+      "wordId": "w-d6ff14eb6fb5"
+    },
+    "referents": [
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "ANELL",
+        "wordId": "w-3637247e36f7"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un anell lleuger penja d’una tira gruixuda de paper presa entre les mans."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Esquinça la tira per una osca. La part inferior i l’anell comencen a baixar junts."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’anell i el tros inferior jeuen damunt la taula. La mà encara subjecta la part superior."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un anell gran de plàstic i dos fragments complementaris de la mateixa tira verda."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "0b07efd6f030b05d3d034cd25f691707d0a4a130daa56fb4ca89dd3490883de0",
+      "file": "output/production/n10/n10-127/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell lleuger penja d’una tira gruixuda de paper presa entre les mans. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Esquinça la tira per una osca. La part inferior i l’anell comencen a baixar junts. RIGHT result: L’anell i el tros inferior jeuen damunt la taula. La mà encara subjecta la part superior. Continuity and accounting: Un anell gran de plàstic i dos fragments complementaris de la mateixa tira verda. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "L’anell penja de la tira. Es veu la ruptura de la tira i el fragment baix amb l’anell lliure de les potes. Les dues vores es complementen i el fragment baix cau amb l’anell.",
+      "reviewedAt": "2026-11-21T16:02:57+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un anell lleuger penja d’una tira gruixuda de paper presa entre les mans. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Esquinça la tira per una osca. La part inferior i l’anell comencen a baixar junts. RIGHT result: L’anell i el tros inferior jeuen damunt la taula. La mà encara subjecta la part superior. Continuity and accounting: Un anell gran de plàstic i dos fragments complementaris de la mateixa tira verda. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "L’anell penja de la tira. Es veu la ruptura de la tira i el fragment baix amb l’anell lliure de les potes. Les dues vores es complementen i el fragment baix cau amb l’anell.",
+  "alt": {
+    "ca": "Una zebra esquinça la tira de paper que sosté un anell. L’anell cau amb el fragment de sota.",
+    "es": "Una cebra rasga la tira de papel que sostiene un aro. El aro cae con el fragmento inferior."
+  },
+  "originalSha256": "0b07efd6f030b05d3d034cd25f691707d0a4a130daa56fb4ca89dd3490883de0",
+  "file": "output/production/n10/n10-127/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:57+00:00",
+  "tool": "ImageGen integrat"
+}

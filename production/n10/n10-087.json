@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-087",
+    "number": 87,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-087",
+    "counterpartId": "n10-187",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · estirar · cremallera / motxilla → obrir"
+    },
+    "labels": [
+      "NOIA",
+      "ESTIRAR",
+      "CREMALLERA",
+      "MOTXILLA",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-99499cd7f270",
+      "w-04607780ade0",
+      "w-43db0ea26088",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CREMALLERA",
+        "wordId": "w-04607780ade0"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una motxilla amb cremallera contínua i un coixinet que es manté dins."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "7196f35e34b7ec20b89c47f6a5a273c3f130d21fecf108080fc9dd933a6293df",
+      "file": "output/production/n10/n10-087/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Amb un sol tirador, la cremallera hauria de quedar oberta de manera contínua entre el tirador i l’extrem d’on ha sortit. La vinyeta central presenta una obertura intermèdia que es torna a segellar cap a aquell extrem.",
+      "reviewedAt": "2026-11-21T16:02:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

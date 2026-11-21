@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-068",
+    "number": 68,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-068",
+    "counterpartId": "n10-168",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · estirar · globus → llarg"
+    },
+    "labels": [
+      "NEN",
+      "ESTIRAR",
+      "GLOBUS",
+      "LLARG",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-99499cd7f270",
+      "w-f19cff282499",
+      "w-8c01add53f6c",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      }
+    ],
+    "outcome": {
+      "label": "LLARG",
+      "wordId": "w-8c01add53f6c"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un globus desinflat de làtex és pla damunt de la taula."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Manté el globus notablement allargat, amb la boca recognoscible i el centre estret."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1d7e640f410b4a53b23edca99f696d8f2d020ccd25e2d295e60cfc90e7c9d298",
+      "file": "output/production/n10/n10-068/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un globus desinflat de làtex és pla damunt de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret. RIGHT result: Manté el globus notablement allargat, amb la boca recognoscible i el centre estret. Continuity and accounting: Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "El globus desinflat s’identifica per la mateixa boca a l’esquerra. Les mans separen la boca i la punta, el làtex queda tens i s’allarga alhora que s’estreny.",
+      "reviewedAt": "2026-11-21T16:02:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un globus desinflat de làtex és pla damunt de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Subjecta la boca amb una mà i la punta oposada amb l’altra. En separar-les es veu el làtex tens i més estret. RIGHT result: Manté el globus notablement allargat, amb la boca recognoscible i el centre estret. Continuity and accounting: Un únic globus buit i sencer. L’elongació exigeix tensió visible als dos extrems. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "El globus desinflat s’identifica per la mateixa boca a l’esquerra. Les mans separen la boca i la punta, el làtex queda tens i s’allarga alhora que s’estreny.",
+  "alt": {
+    "ca": "Un nen estira els dos extrems d’un globus desinflat. El làtex es fa més llarg i més estret.",
+    "es": "Un niño estira los dos extremos de un globo desinflado. El látex se hace más largo y estrecho."
+  },
+  "originalSha256": "1d7e640f410b4a53b23edca99f696d8f2d020ccd25e2d295e60cfc90e7c9d298",
+  "file": "output/production/n10/n10-068/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:51+00:00",
+  "tool": "ImageGen integrat"
+}

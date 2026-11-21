@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-046",
+    "number": 46,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-046",
+    "counterpartId": "n10-146",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · agafar · pintura / pinzell / mocador → brut"
+    },
+    "labels": [
+      "NOI",
+      "AGAFAR",
+      "PINTURA",
+      "PINZELL",
+      "MOCADOR",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-677819a0a32a",
+      "w-4e39a6280b90",
+      "w-33df96705776",
+      "w-35e3a6c8a7fd",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "a404769568d8e410e66b40292388d4c4d17a45a8c503fcbb57da2a38dbe4add5",
+      "file": "output/production/n10/n10-046/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell. RIGHT result: El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor. Continuity and accounting: Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Una gota blava es desprèn de la punta del pinzell i toca el mocador. La taca final té la mida esperada i queda exactament a sota de la posició de la gota.",
+      "reviewedAt": "2026-11-21T16:02:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un pinzell carregat amb una gota de pintura se sosté sobre un mocador net. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: La gota cau en vertical. La punta inferior toca la tela i forma una taca rodona exactament a sota del pinzell. RIGHT result: El pinzell és alçat i el mocador té la mateixa taca. La càrrega del pinzell és menor. Continuity and accounting: Un pinzell amb virolla ampla i un mocador amb dos plecs. Una sola gota de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Una gota blava es desprèn de la punta del pinzell i toca el mocador. La taca final té la mida esperada i queda exactament a sota de la posició de la gota.",
+  "alt": {
+    "ca": "Un noi sosté un pinzell carregat. Una gota de pintura cau i taca el mocador.",
+    "es": "Un chico sostiene un pincel cargado. Una gota de pintura cae y mancha el pañuelo."
+  },
+  "originalSha256": "a404769568d8e410e66b40292388d4c4d17a45a8c503fcbb57da2a38dbe4add5",
+  "file": "output/production/n10/n10-046/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:02:50+00:00",
+  "tool": "ImageGen integrat"
+}
