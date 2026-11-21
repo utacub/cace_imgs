@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: adult man, on the RIGHT. Second participant: school-age girl, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. HOME a dreta: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. NENA a esquerra: Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY CAIXA, PINZELL, TAULA, LLIT, COIXÍ. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. Natural varied human actors: first participant has deep brown skin, second has medium brown skin. Natural hair texture and neutral everyday clothes, no uniforms or costumes. Keep the exact age groups and event roles specified above.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n8-064",
     "number": 64,
@@ -130,5 +130,17 @@
     "compositionKey": "w-cda6fa4a9867|w-2c4809267c13||w-cfe24f6b3c38|w-b04a48827310|w-696b7c739d30",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T09:35:25.427Z"
+  "created": "2026-11-21T09:35:25.427Z",
+  "review": "Home pinta caixa sobre taula baixa amb pinzell en contacte; nena dorm amb ulls tancats. Figures senceres, mans pròpies, fons blanc sense text.",
+  "alt": {
+    "ca": "home · pintar · caixa / nena · dormir.",
+    "es": "HOMBRE · PINTAR · CAJA · NIÑA · DORMIR."
+  },
+  "originalSha256": "0d2f75994a9954daddbcfd503c0c090735a4db8b3f0fc27f2296bc3c6b0be837",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:40:57.904Z",
+  "publicationVersion": "0.1.143",
+  "importedAt": "2026-11-21T09:57:33.331016+00:00"
 }

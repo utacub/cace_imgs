@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-177",
+  "file": "output/production/n8/n8-177/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: elephant, on the RIGHT. Second participant: cat, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ELEFANT a dreta: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. GAT a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PLASTILINA, GANIVET, TAULA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. TALLAR uses a blunt round-tip table knife cutting soft PLASTILINA on a nearby low table, clear cut in the clay, supporting hand safely away from blade. No food cutting.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-177",
+    "number": 177,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-077",
+    "counterpartId": "n8-077",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "elefant · tallar · plastilina / gat · riure"
+    },
+    "labels": [
+      "ELEFANT",
+      "TALLAR",
+      "PLASTILINA",
+      "GAT",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-b059d8ef0bc9",
+      "w-7a101d803c16",
+      "w-0606be9fcf92",
+      "w-11ff74d27c02",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-b059d8ef0bc9",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ELEFANT",
+            "wordId": "w-b059d8ef0bc9"
+          },
+          {
+            "role": "action",
+            "label": "TALLAR",
+            "wordId": "w-7a101d803c16"
+          },
+          {
+            "role": "patient",
+            "label": "PLASTILINA",
+            "wordId": "w-0606be9fcf92"
+          }
+        ],
+        "labels": [
+          "ELEFANT",
+          "TALLAR",
+          "PLASTILINA"
+        ],
+        "wordIds": [
+          "w-b059d8ef0bc9",
+          "w-7a101d803c16",
+          "w-0606be9fcf92"
+        ],
+        "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+        "context": [
+          {
+            "label": "GANIVET",
+            "wordId": "w-49819bf5e906"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GAT",
+            "wordId": "w-11ff74d27c02"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "GAT",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-11ff74d27c02",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ELEFANT a dreta: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. GAT a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-11ff74d27c02|w-8a560cbf66b0||w-b059d8ef0bc9|w-7a101d803c16|w-0606be9fcf92",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:41:02.469Z",
+  "review": "Elefant talla plastilina amb ganivet rom i tall visible; gat riu amb boca oberta. Figures completes, braços coherents, fons blanc sense text.",
+  "alt": {
+    "ca": "elefant · tallar · plastilina / gat · riure.",
+    "es": "ELEFANTE · CORTAR · PLASTILINA · GATO · REÍR."
+  },
+  "originalSha256": "03936bad4f6c0fc8da5ea6be02ac3f2304b21ed2b58e5440aef5eac0e44b0517",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:49:46.765Z",
+  "publicationVersion": "0.1.143",
+  "importedAt": "2026-11-21T09:57:59.446769+00:00"
+}

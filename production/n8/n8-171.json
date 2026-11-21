@@ -1,0 +1,133 @@
+{
+  "constructionId": "n8-171",
+  "file": "output/production/n8/n8-171/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: monkey, on the RIGHT. Second participant: bear, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. MICO a dreta: Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos. ÓS a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY CULLERA, TOVALLOLA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. CULLERA is a large serving SPOON: keep its concave oval bowl and long handle visible. Towel touches only part of it, with a few visible water droplets. Not a plate or fork.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-171",
+    "number": 171,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-071",
+    "counterpartId": "n8-071",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "mico · assecar · cullera / ós · riure"
+    },
+    "labels": [
+      "MICO",
+      "ASSECAR",
+      "CULLERA",
+      "ÓS",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-ae417aa563dd",
+      "w-9c9849fac1d3",
+      "w-a06249642996",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "MICO",
+            "wordId": "w-12a87560751b"
+          },
+          {
+            "role": "action",
+            "label": "ASSECAR",
+            "wordId": "w-ae417aa563dd"
+          },
+          {
+            "role": "patient",
+            "label": "CULLERA",
+            "wordId": "w-9c9849fac1d3"
+          }
+        ],
+        "labels": [
+          "MICO",
+          "ASSECAR",
+          "CULLERA"
+        ],
+        "wordIds": [
+          "w-12a87560751b",
+          "w-ae417aa563dd",
+          "w-9c9849fac1d3"
+        ],
+        "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+        "context": [
+          {
+            "label": "TOVALLOLA",
+            "wordId": "w-045fa0b1ae9d"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ÓS",
+            "wordId": "w-a06249642996"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "ÓS",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-a06249642996",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. MICO a dreta: Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos. ÓS a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-12a87560751b|w-ae417aa563dd|w-9c9849fac1d3||w-a06249642996|w-8a560cbf66b0",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:41:00.245Z",
+  "review": "Mico asseca cullera amb tovallola i gotes; os riu amb boca oberta. Figures completes, braços coherents, fons blanc sense text.",
+  "alt": {
+    "ca": "mico · assecar · cullera / ós · riure.",
+    "es": "MONO · SECAR · CUCHARA · OSO · REÍR."
+  },
+  "originalSha256": "c0343edf112f2354d239d7200020b0f3690efa0a78eeed05229afc6e66a1314d",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:49:44.469Z",
+  "publicationVersion": "0.1.143",
+  "importedAt": "2026-11-21T09:57:55.482350+00:00"
+}

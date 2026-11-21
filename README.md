@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.142 conté **3793 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **124 construccions N8** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6, N7 o N8 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.143 conté **3829 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **160 construccions N8** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6, N7 o N8 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -26,12 +26,12 @@ El N6 incorpora **200 de les 200 construccions aprovades**: 100 fotografies habi
 
 El N7 incorpora **200 de les 200 construccions aprovades**: 100 fotografies habituals i 100 dibuixos plans insòlits. «N7 · Precisió» mostra dos referents semblants i una acció dirigida només al que satisfà el qualificador: aspecte, estat o posició. Quatre etiquetes exactes, cinc per a posició amb suport. Col·lecció «N7 · Precisió», filtre de nivell 7. Pla: `production/n7-plan.json`; progrés: `production/n7-progress.json`; prompts i revisions: `production/n7/`. El pla N7 està complet. Revisió anatòmica del 13/11/2026: 100 fotografies revisades i 24 substituïdes per versions amb proporcions naturals; els 100 dibuixos es conserven intactes. Registre i prompts: production/n7-anatomy-review.json i production/n7-anatomy/.
 
-El N8 incorpora **124 de les 200 construccions aprovades**: 62 fotografies habituals i 62 dibuixos plans insòlits. «N8 · Dos esdeveniments» relaciona dues accions o estats en un mateix instant i una mateixa escena. Cada participant conserva el seu predicat i pacient en les metadades; entre quatre i sis etiquetes CACE exactes. Col·lecció «N8 · Dos esdeveniments», filtre de nivell 8. Pla: `production/n8-plan.json`; progrés: `production/n8-progress.json`; prompts i revisions: `production/n8/`. Producció parcial per lots; estat i autorització vigents al registre de progrés.
+El N8 incorpora **160 de les 200 construccions aprovades**: 80 fotografies habituals i 80 dibuixos plans insòlits. «N8 · Dos esdeveniments» relaciona dues accions o estats en un mateix instant i una mateixa escena. Cada participant conserva el seu predicat i pacient en les metadades; entre quatre i sis etiquetes CACE exactes. Col·lecció «N8 · Dos esdeveniments», filtre de nivell 8. Pla: `production/n8-plan.json`; progrés: `production/n8-progress.json`; prompts i revisions: `production/n8/`. Producció parcial per lots; estat i autorització vigents al registre de progrés.
 
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 3793 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 3829 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.

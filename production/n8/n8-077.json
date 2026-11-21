@@ -1,0 +1,137 @@
+{
+  "constructionId": "n8-077",
+  "file": "output/production/n8/n8-077/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: young man, on the LEFT. Second participant: adult woman, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NOI a esquerra: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. DONA a dreta: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY PLASTILINA, GANIVET, TAULA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. TALLAR uses a blunt round-tip table knife cutting soft PLASTILINA on a nearby low table, clear cut in the clay, supporting hand safely away from blade. No food cutting. Natural varied human actors: first participant has light brown skin, second has deep brown skin. Natural hair texture and neutral everyday clothes, no uniforms or costumes. Keep the exact age groups and event roles specified above.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n8-077",
+    "number": 77,
+    "level": 8,
+    "group": "habitual",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-077",
+    "counterpartId": "n8-177",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · tallar · plastilina / dona · riure"
+    },
+    "labels": [
+      "NOI",
+      "TALLAR",
+      "PLASTILINA",
+      "DONA",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-7a101d803c16",
+      "w-0606be9fcf92",
+      "w-72e9fe9a8b43",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b"
+          },
+          {
+            "role": "action",
+            "label": "TALLAR",
+            "wordId": "w-7a101d803c16"
+          },
+          {
+            "role": "patient",
+            "label": "PLASTILINA",
+            "wordId": "w-0606be9fcf92"
+          }
+        ],
+        "labels": [
+          "NOI",
+          "TALLAR",
+          "PLASTILINA"
+        ],
+        "wordIds": [
+          "w-01bc6dcab46b",
+          "w-7a101d803c16",
+          "w-0606be9fcf92"
+        ],
+        "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+        "context": [
+          {
+            "label": "GANIVET",
+            "wordId": "w-49819bf5e906"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "DONA",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-72e9fe9a8b43",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "esquerra",
+      "event2Side": "dreta",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. NOI a esquerra: Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall. DONA a dreta: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-01bc6dcab46b|w-7a101d803c16|w-0606be9fcf92||w-72e9fe9a8b43|w-8a560cbf66b0",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:41:02.211Z",
+  "review": "Noi talla plastilina amb ganivet rom i mà lluny; dona riu amb boca oberta. Figures completes, braços coherents, fons blanc sense text.",
+  "alt": {
+    "ca": "noi · tallar · plastilina / dona · riure.",
+    "es": "CHICO · CORTAR · PLASTILINA · MUJER · REÍR."
+  },
+  "originalSha256": "54b22e4266e548260fa9c18699c2a31c0b1359136c4f41e91581ae8c995f4e94",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T09:49:46.567Z",
+  "publicationVersion": "0.1.143",
+  "importedAt": "2026-11-21T09:57:46.808810+00:00"
+}

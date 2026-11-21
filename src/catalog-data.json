@@ -1,5 +1,5 @@
 {
-  "version": "0.1.142",
+  "version": "0.1.143",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,4294 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-062",
+      "src": "assets/constructions/n8/n8-062.webp",
+      "title": {
+        "ca": "nen · regar · planta / dona · riure",
+        "es": "NIÑO · REGAR · PLANTA · MUJER · REÍR"
+      },
+      "alt": {
+        "ca": "nen · regar · planta / dona · riure.",
+        "es": "NIÑO · REGAR · PLANTA · MUJER · REÍR."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:24.276Z",
+      "target": "n8-062",
+      "constructionId": "n8-062",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "33b32bf7ccf4c73e6d4cf50ba98f4dccef9d69384dcb3fd58098ac67911979d9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "59a2a921f6b3caedc395a662c7c063d654fb5ba39b8439425fc527deb3546170"
+    },
+    {
+      "id": "cace-n8-063",
+      "src": "assets/constructions/n8/n8-063.webp",
+      "title": {
+        "ca": "noia · pintar · caixa / noi · seure",
+        "es": "CHICA · PINTAR · CAJA · CHICO · SENTAR"
+      },
+      "alt": {
+        "ca": "noia · pintar · caixa / noi · seure.",
+        "es": "CHICA · PINTAR · CAJA · CHICO · SENTAR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-01bc6dcab46b",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-01bc6dcab46b",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:24.735Z",
+      "target": "n8-063",
+      "constructionId": "n8-063",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "79ac65ffa1ab791cbcc1641854e37c8b2df799d7249a13a906ff7c1564025860",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "172be254fa92a3a7e5e26fffff5989f1ebf3eee42a9f23886c148d66be6bd2b4"
+    },
+    {
+      "id": "cace-n8-064",
+      "src": "assets/constructions/n8/n8-064.webp",
+      "title": {
+        "ca": "home · pintar · caixa / nena · dormir",
+        "es": "HOMBRE · PINTAR · CAJA · NIÑA · DORMIR"
+      },
+      "alt": {
+        "ca": "home · pintar · caixa / nena · dormir.",
+        "es": "HOMBRE · PINTAR · CAJA · NIÑA · DORMIR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cda6fa4a9867",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cda6fa4a9867",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:25.427Z",
+      "target": "n8-064",
+      "constructionId": "n8-064",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "0d2f75994a9954daddbcfd503c0c090735a4db8b3f0fc27f2296bc3c6b0be837",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ccfaecf0065b5be67e6dbb0c2f1747ca753cf73d0012883c8e1e29c09c41d09f"
+    },
+    {
+      "id": "cace-n8-065",
+      "src": "assets/constructions/n8/n8-065.webp",
+      "title": {
+        "ca": "dona · pintar · caixa / home · riure",
+        "es": "MUJER · PINTAR · CAJA · HOMBRE · REÍR"
+      },
+      "alt": {
+        "ca": "dona · pintar · caixa / home · riure.",
+        "es": "MUJER · PINTAR · CAJA · HOMBRE · REÍR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:26.243Z",
+      "target": "n8-065",
+      "constructionId": "n8-065",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f69de520b94c7f5f8013dc49d7724f38cac457e18cf5a7d8750032cdc62410e7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "903a87393196bedcc47f4c866935020e22d60034a0d1b3213d84dee292c9c22c"
+    },
+    {
+      "id": "cace-n8-066",
+      "src": "assets/constructions/n8/n8-066.webp",
+      "title": {
+        "ca": "nen · netejar · plat / noia · seure",
+        "es": "NIÑO · LIMPIAR · PLATO · CHICA · SENTAR"
+      },
+      "alt": {
+        "ca": "nen · netejar · plat / noia · seure.",
+        "es": "NIÑO · LIMPIAR · PLATO · CHICA · SENTAR."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:27.008Z",
+      "target": "n8-066",
+      "constructionId": "n8-066",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f32370982ede3449bfc388a6bd1fedaa4c6c73eca2684ab345bd5e2e83378a48",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2820c5febd4e4224e0558984c4603da9bd11c4b47dd1706641ff66aeee2cd05f"
+    },
+    {
+      "id": "cace-n8-067",
+      "src": "assets/constructions/n8/n8-067.webp",
+      "title": {
+        "ca": "noi · netejar · plat / dona · dormir",
+        "es": "CHICO · LIMPIAR · PLATO · MUJER · DORMIR"
+      },
+      "alt": {
+        "ca": "noi · netejar · plat / dona · dormir.",
+        "es": "CHICO · LIMPIAR · PLATO · MUJER · DORMIR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:27.769Z",
+      "target": "n8-067",
+      "constructionId": "n8-067",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f93c4786c454162a9577e94cef88d4f73f453ad709f8340f689d38bc49aa62d2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "95d3de3d268d8705bfb8e3f2892a54931b80f7adcdaa01f2efd6c4cc60b4dd6c"
+    },
+    {
+      "id": "cace-n8-068",
+      "src": "assets/constructions/n8/n8-068.webp",
+      "title": {
+        "ca": "nena · netejar · plat / noia · riure",
+        "es": "NIÑA · LIMPIAR · PLATO · CHICA · REÍR"
+      },
+      "alt": {
+        "ca": "nena · netejar · plat / noia · riure.",
+        "es": "NIÑA · LIMPIAR · PLATO · CHICA · REÍR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-b38ff488f862",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.365Z",
+      "target": "n8-068",
+      "constructionId": "n8-068",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d9d6a1c2807c5e110a442e9e1a3958f19dfa9db6b4b4ef4daddae56a259735df",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f3a8dde8eae1f8eec0987b83a9562bcbe2649e6f83ae1d13b02d01afe207cde8"
+    },
+    {
+      "id": "cace-n8-069",
+      "src": "assets/constructions/n8/n8-069.webp",
+      "title": {
+        "ca": "home · assecar · cullera / noi · seure",
+        "es": "HOMBRE · SECAR · CUCHARA · CHICO · SENTAR"
+      },
+      "alt": {
+        "ca": "home · assecar · cullera / noi · seure.",
+        "es": "HOMBRE · SECAR · CUCHARA · CHICO · SENTAR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-01bc6dcab46b",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-01bc6dcab46b",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.550Z",
+      "target": "n8-069",
+      "constructionId": "n8-069",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d206b62642f2ca1af66b65a40faf71a6b974cfd441fbeb092cae4da45dcf0a85",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ba23d526fc090c76b5992ee3330a1ed11b7d7f73ed385223e16ea794640dcca1"
+    },
+    {
+      "id": "cace-n8-070",
+      "src": "assets/constructions/n8/n8-070.webp",
+      "title": {
+        "ca": "dona · assecar · cullera / nena · dormir",
+        "es": "MUJER · SECAR · CUCHARA · NIÑA · DORMIR"
+      },
+      "alt": {
+        "ca": "dona · assecar · cullera / nena · dormir.",
+        "es": "MUJER · SECAR · CUCHARA · NIÑA · DORMIR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cda6fa4a9867",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-cda6fa4a9867",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.744Z",
+      "target": "n8-070",
+      "constructionId": "n8-070",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c35dd0b0b052182ba75ebc8a3436e0cb814785f5fa0303a0a7be1d2e10f8c883",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4a969692a9047b42bf646a9bb69833680d647fab0fb8015dca7940df21f8c1e9"
+    },
+    {
+      "id": "cace-n8-071",
+      "src": "assets/constructions/n8/n8-071.webp",
+      "title": {
+        "ca": "nena · assecar · cullera / nen · riure",
+        "es": "NIÑA · SECAR · CUCHARA · NIÑO · REÍR"
+      },
+      "alt": {
+        "ca": "nena · assecar · cullera / nen · riure.",
+        "es": "NIÑA · SECAR · CUCHARA · NIÑO · REÍR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b4012100fe09",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-b4012100fe09",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.000Z",
+      "target": "n8-071",
+      "constructionId": "n8-071",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "45a9c6b97c997d853bb0c3712e0c12eb2fc28606e143f84319cb10fe58f3cb4b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f8f4b63cbde322e72ea879f0b1564ba4a3aab6fb41c2a6f1917f13100c621f25"
+    },
+    {
+      "id": "cace-n8-072",
+      "src": "assets/constructions/n8/n8-072.webp",
+      "title": {
+        "ca": "nen · pentinar · nina / dona · seure",
+        "es": "NIÑO · PEINAR · MUÑECA · MUJER · SENTAR"
+      },
+      "alt": {
+        "ca": "nen · pentinar · nina / dona · seure.",
+        "es": "NIÑO · PEINAR · MUÑECA · MUJER · SENTAR."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-72e9fe9a8b43",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.427Z",
+      "target": "n8-072",
+      "constructionId": "n8-072",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "895097c98c08a9794893620826be3fe252400e24a540502d84238bcbe43b588b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7482f0e413ded52c7b14224ffc48fdfba7dcd12a1d39086c908375c6a809a102"
+    },
+    {
+      "id": "cace-n8-073",
+      "src": "assets/constructions/n8/n8-073.webp",
+      "title": {
+        "ca": "noia · pentinar · nina / noi · dormir",
+        "es": "CHICA · PEINAR · MUÑECA · CHICO · DORMIR"
+      },
+      "alt": {
+        "ca": "noia · pentinar · nina / noi · dormir.",
+        "es": "CHICA · PEINAR · MUÑECA · CHICO · DORMIR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.633Z",
+      "target": "n8-073",
+      "constructionId": "n8-073",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a66d5e774cb809c971a113250f854231f44db6e807bc48835dcbd9afdf620b63",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "aba110875f9ac22c2ed045fcb904e432b1946365e4d585ca35d9390f1af73148"
+    },
+    {
+      "id": "cace-n8-074",
+      "src": "assets/constructions/n8/n8-074.webp",
+      "title": {
+        "ca": "home · pentinar · nina / nena · riure",
+        "es": "HOMBRE · PEINAR · MUÑECA · NIÑA · REÍR"
+      },
+      "alt": {
+        "ca": "home · pentinar · nina / nena · riure.",
+        "es": "HOMBRE · PEINAR · MUÑECA · NIÑA · REÍR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.871Z",
+      "target": "n8-074",
+      "constructionId": "n8-074",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "47f06a13d5ccdf105a7d704d760fc5ea1fa96dccd16ca7182afc69a8dd5d5be4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1c2914330e4a8b3045faa727503358d58ef4b497bd8eb2bba3715853d4220a10"
+    },
+    {
+      "id": "cace-n8-075",
+      "src": "assets/constructions/n8/n8-075.webp",
+      "title": {
+        "ca": "dona · tallar · plastilina / home · seure",
+        "es": "MUJER · CORTAR · PLASTILINA · HOMBRE · SENTAR"
+      },
+      "alt": {
+        "ca": "dona · tallar · plastilina / home · seure.",
+        "es": "MUJER · CORTAR · PLASTILINA · HOMBRE · SENTAR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-cfe24f6b3c38",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:01.229Z",
+      "target": "n8-075",
+      "constructionId": "n8-075",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f239a1ef8fdf38be802a25c78871fcebfc4e9599d3e24f4f3e7442e531f0c510",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a342c62e17c36c682c5fe44988bc5cd371be7d1096e33cfd3f99c35e49b541d5"
+    },
+    {
+      "id": "cace-n8-076",
+      "src": "assets/constructions/n8/n8-076.webp",
+      "title": {
+        "ca": "nen · tallar · plastilina / noia · dormir",
+        "es": "NIÑO · CORTAR · PLASTILINA · CHICA · DORMIR"
+      },
+      "alt": {
+        "ca": "nen · tallar · plastilina / noia · dormir.",
+        "es": "NIÑO · CORTAR · PLASTILINA · CHICA · DORMIR."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b38ff488f862",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-b38ff488f862",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:01.661Z",
+      "target": "n8-076",
+      "constructionId": "n8-076",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ab687b87948dc109636b8476fdeb212c15201f7eac8898f1a2c77e25cb003e07",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b33fa8d0baacacbba116b3bfb9a2303b9449f57fbdc6d1ed63b359bec93db0f7"
+    },
+    {
+      "id": "cace-n8-077",
+      "src": "assets/constructions/n8/n8-077.webp",
+      "title": {
+        "ca": "noi · tallar · plastilina / dona · riure",
+        "es": "CHICO · CORTAR · PLASTILINA · MUJER · REÍR"
+      },
+      "alt": {
+        "ca": "noi · tallar · plastilina / dona · riure.",
+        "es": "CHICO · CORTAR · PLASTILINA · MUJER · REÍR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:02.211Z",
+      "target": "n8-077",
+      "constructionId": "n8-077",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "54b22e4266e548260fa9c18699c2a31c0b1359136c4f41e91581ae8c995f4e94",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "96bdf6c81f1d8ad87497edc8ec05022cf2e6482044add22a7b0268330b2e16c0"
+    },
+    {
+      "id": "cace-n8-078",
+      "src": "assets/constructions/n8/n8-078.webp",
+      "title": {
+        "ca": "nena · estripar · paper / noia · seure",
+        "es": "NIÑA · RASGAR · PAPEL · CHICA · SENTAR"
+      },
+      "alt": {
+        "ca": "nena · estripar · paper / noia · seure.",
+        "es": "NIÑA · RASGAR · PAPEL · CHICA · SENTAR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-b38ff488f862",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-b38ff488f862",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:02.702Z",
+      "target": "n8-078",
+      "constructionId": "n8-078",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "78401e4391fb719b69e23ab47409cfa5d98ecb9df9a81570a21d1f82a3447bc2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "eeb55afadd2c18ff306e12674f9664a43c242625116f6916f0eb150793b899b3"
+    },
+    {
+      "id": "cace-n8-079",
+      "src": "assets/constructions/n8/n8-079.webp",
+      "title": {
+        "ca": "home · estripar · paper / noi · dormir",
+        "es": "HOMBRE · RASGAR · PAPEL · CHICO · DORMIR"
+      },
+      "alt": {
+        "ca": "home · estripar · paper / noi · dormir.",
+        "es": "HOMBRE · RASGAR · PAPEL · CHICO · DORMIR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-01bc6dcab46b",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:03.221Z",
+      "target": "n8-079",
+      "constructionId": "n8-079",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "45dcd86992cb69f85fbd7b4324eb9522c358673b71be76975877c06b9017cc96",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "68bf21f2a4435da7b27792ec215f560d931171bb98924169ce7df386b55dfbf1"
+    },
+    {
+      "id": "cace-n8-162",
+      "src": "assets/constructions/n8/n8-162.webp",
+      "title": {
+        "ca": "conill · regar · planta / elefant · riure",
+        "es": "CONEJO · REGAR · PLANTA · ELEFANTE · REÍR"
+      },
+      "alt": {
+        "ca": "conill · regar · planta / elefant · riure.",
+        "es": "CONEJO · REGAR · PLANTA · ELEFANTE · REÍR."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b059d8ef0bc9",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-00107994a0cd",
+        "w-03d524b232d7",
+        "w-b059d8ef0bc9",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:24.476Z",
+      "target": "n8-162",
+      "constructionId": "n8-162",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "REGAR",
+              "wordId": "w-00107994a0cd"
+            },
+            {
+              "role": "patient",
+              "label": "PLANTA",
+              "wordId": "w-03d524b232d7"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "REGAR",
+            "PLANTA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-00107994a0cd",
+            "w-03d524b232d7"
+          ],
+          "evidence": "Got inclinat amb un raig curt que arriba a la terra del test, al costat del cos; planta completa i raig visibles.",
+          "context": [
+            {
+              "label": "GOT",
+              "wordId": "w-1bed9f18ebab"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "572b6c6a294bcdc47561b7f32a5ca0e9cf69587f933fc89ccb0e8d38e6842e39",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9639acd1dd6c3976720b50b02b140a43732c4d23c63c9c9d218d58c062b8329f"
+    },
+    {
+      "id": "cace-n8-163",
+      "src": "assets/constructions/n8/n8-163.webp",
+      "title": {
+        "ca": "gat · pintar · caixa / gos · seure",
+        "es": "GATO · PINTAR · CAJA · PERRO · SENTAR"
+      },
+      "alt": {
+        "ca": "gat · pintar · caixa / gos · seure.",
+        "es": "GATO · PINTAR · CAJA · PERRO · SENTAR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-4761fde107a7",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-4761fde107a7",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:25.043Z",
+      "target": "n8-163",
+      "constructionId": "n8-163",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e51d024d394075d4854fcb7aa0319f497355652ee8d95d8d52ac2c6db935c762",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "98ea816a0df00e0f9a6f75d688c6d66bc1e788adb47006724a8eeb6689d4a1a3"
+    },
+    {
+      "id": "cace-n8-164",
+      "src": "assets/constructions/n8/n8-164.webp",
+      "title": {
+        "ca": "cangur · pintar · caixa / pinguí · dormir",
+        "es": "CANGURO · PINTAR · CAJA · PINGÜINO · DORMIR"
+      },
+      "alt": {
+        "ca": "cangur · pintar · caixa / pinguí · dormir.",
+        "es": "CANGURO · PINTAR · CAJA · PINGÜINO · DORMIR."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-5993b1ea57aa",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-5993b1ea57aa",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:25.834Z",
+      "target": "n8-164",
+      "constructionId": "n8-164",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8564112ec3811ea38d9de6c5a86641c5f70325fa019b770cc72f2dee8ffe467f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "eb29d2bd04f03983c325f3ab37f8c6146ab5a6b5bb3a9f67b2813460cd36aa62"
+    },
+    {
+      "id": "cace-n8-165",
+      "src": "assets/constructions/n8/n8-165.webp",
+      "title": {
+        "ca": "zebra · pintar · caixa / girafa · riure",
+        "es": "CEBRA · PINTAR · CAJA · JIRAFA · REÍR"
+      },
+      "alt": {
+        "ca": "zebra · pintar · caixa / girafa · riure.",
+        "es": "CEBRA · PINTAR · CAJA · JIRAFA · REÍR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-b04a48827310",
+        "w-696b7c739d30",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:26.634Z",
+      "target": "n8-165",
+      "constructionId": "n8-165",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "PINTAR",
+              "wordId": "w-b04a48827310"
+            },
+            {
+              "role": "patient",
+              "label": "CAIXA",
+              "wordId": "w-696b7c739d30"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "PINTAR",
+            "CAIXA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-b04a48827310",
+            "w-696b7c739d30"
+          ],
+          "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+          "context": [
+            {
+              "label": "PINZELL",
+              "wordId": "w-33df96705776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "45dce761d8b9dfa31db84a5829f8fd0aaaede0d4df30cf67b3a8f4e4ceee4f78",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2856d17f7d0ded007c1dab5ce47839ba8ef841fb080de40c428835c3c80386a8"
+    },
+    {
+      "id": "cace-n8-166",
+      "src": "assets/constructions/n8/n8-166.webp",
+      "title": {
+        "ca": "ós · netejar · plat / conill · seure",
+        "es": "OSO · LIMPIAR · PLATO · CONEJO · SENTAR"
+      },
+      "alt": {
+        "ca": "ós · netejar · plat / conill · seure.",
+        "es": "OSO · LIMPIAR · PLATO · CONEJO · SENTAR."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-51a7805e979b",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-51a7805e979b",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:27.410Z",
+      "target": "n8-166",
+      "constructionId": "n8-166",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e5c06e890608e6571b91ec1731f7b6466b81dcfbe60ded11935dd885367af7ea",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d7d57148555f79f01984f04cf8d378fcb648c37b680d65f781e6d4b425624880"
+    },
+    {
+      "id": "cace-n8-167",
+      "src": "assets/constructions/n8/n8-167.webp",
+      "title": {
+        "ca": "elefant · netejar · plat / gat · dormir",
+        "es": "ELEFANTE · LIMPIAR · PLATO · GATO · DORMIR"
+      },
+      "alt": {
+        "ca": "elefant · netejar · plat / gat · dormir.",
+        "es": "ELEFANTE · LIMPIAR · PLATO · GATO · DORMIR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-11ff74d27c02",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-11ff74d27c02",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:35:28.181Z",
+      "target": "n8-167",
+      "constructionId": "n8-167",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "30f63916c8a02fa4fa670c98a3638491656245a23ec9ae68b27bc92e6656287e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a6504a0a55120b85b7191f9db68b16cdf25ea2985e13329005b55330048807e3"
+    },
+    {
+      "id": "cace-n8-168",
+      "src": "assets/constructions/n8/n8-168.webp",
+      "title": {
+        "ca": "gos · netejar · plat / cangur · riure",
+        "es": "PERRO · LIMPIAR · PLATO · CANGURO · REÍR"
+      },
+      "alt": {
+        "ca": "gos · netejar · plat / cangur · riure.",
+        "es": "PERRO · LIMPIAR · PLATO · CANGURO · REÍR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-d5395d03acbf",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-d5395d03acbf",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.460Z",
+      "target": "n8-168",
+      "constructionId": "n8-168",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "NETEJAR",
+              "wordId": "w-4e6be686e7c1"
+            },
+            {
+              "role": "patient",
+              "label": "PLAT",
+              "wordId": "w-55d250f4cf1e"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "NETEJAR",
+            "PLAT"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-4e6be686e7c1",
+            "w-55d250f4cf1e"
+          ],
+          "evidence": "Esponja porosa fregant una petita resta de menjar al plat sostingut davant del tronc; contacte i zona netejada visibles.",
+          "context": [
+            {
+              "label": "ESPONJA",
+              "wordId": "w-2d404e0d8979"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b1ccdc6309621b52ab38e113ffc712b65a59dfdd6c00d7ca31ca17f19aaade4f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a1b461b357b8b2680f68e3bd26b70b8f425c9f792aad5419e21737d583d1121b"
+    },
+    {
+      "id": "cace-n8-169",
+      "src": "assets/constructions/n8/n8-169.webp",
+      "title": {
+        "ca": "pinguí · assecar · cullera / zebra · seure",
+        "es": "PINGÜINO · SECAR · CUCHARA · CEBRA · SENTAR"
+      },
+      "alt": {
+        "ca": "pinguí · assecar · cullera / zebra · seure.",
+        "es": "PINGÜINO · SECAR · CUCHARA · CEBRA · SENTAR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-0dc8fba9677d",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-0dc8fba9677d",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.644Z",
+      "target": "n8-169",
+      "constructionId": "n8-169",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "0d3375e4877686571d356d4d75ede02a4978f7fcf1fba117bc0db3e0e601800e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6375711f90aeb563a6d9c92ac0c4152d7b4aeb9e19ab4e43ca3329db2391138c"
+    },
+    {
+      "id": "cace-n8-170",
+      "src": "assets/constructions/n8/n8-170.webp",
+      "title": {
+        "ca": "girafa · assecar · cullera / mico · dormir",
+        "es": "JIRAFA · SECAR · CUCHARA · MONO · DORMIR"
+      },
+      "alt": {
+        "ca": "girafa · assecar · cullera / mico · dormir.",
+        "es": "JIRAFA · SECAR · CUCHARA · MONO · DORMIR."
+      },
+      "tags": [
+        "w-e60f76be7b6c",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-12a87560751b",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-e60f76be7b6c",
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-12a87560751b",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:40:59.853Z",
+      "target": "n8-170",
+      "constructionId": "n8-170",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "ef6d9627b698c9c29773427528a6b4bc20e36244deb42f125bdad3f2913d4ae5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dc4b28371941be63b72b964005d9b1530c5e363212298ce344f0c11745ef8a91"
+    },
+    {
+      "id": "cace-n8-171",
+      "src": "assets/constructions/n8/n8-171.webp",
+      "title": {
+        "ca": "mico · assecar · cullera / ós · riure",
+        "es": "MONO · SECAR · CUCHARA · OSO · REÍR"
+      },
+      "alt": {
+        "ca": "mico · assecar · cullera / ós · riure.",
+        "es": "MONO · SECAR · CUCHARA · OSO · REÍR."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-a06249642996",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-ae417aa563dd",
+        "w-9c9849fac1d3",
+        "w-a06249642996",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.245Z",
+      "target": "n8-171",
+      "constructionId": "n8-171",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "action",
+              "label": "ASSECAR",
+              "wordId": "w-ae417aa563dd"
+            },
+            {
+              "role": "patient",
+              "label": "CULLERA",
+              "wordId": "w-9c9849fac1d3"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "ASSECAR",
+            "CULLERA"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-ae417aa563dd",
+            "w-9c9849fac1d3"
+          ],
+          "evidence": "Tovallola de ris en contacte amb una cullera de servir humida; gotes visibles, cavitat i mànec descoberts, mans prop del cos.",
+          "context": [
+            {
+              "label": "TOVALLOLA",
+              "wordId": "w-045fa0b1ae9d"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "c0343edf112f2354d239d7200020b0f3690efa0a78eeed05229afc6e66a1314d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0bbbe4ac908a686c013e97388b5d28dbb7af8393c29011c34f3e42c7d4520b99"
+    },
+    {
+      "id": "cace-n8-172",
+      "src": "assets/constructions/n8/n8-172.webp",
+      "title": {
+        "ca": "conill · pentinar · nina / elefant · seure",
+        "es": "CONEJO · PEINAR · MUÑECA · ELEFANTE · SENTAR"
+      },
+      "alt": {
+        "ca": "conill · pentinar · nina / elefant · seure.",
+        "es": "CONEJO · PEINAR · MUÑECA · ELEFANTE · SENTAR."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-b059d8ef0bc9",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.527Z",
+      "target": "n8-172",
+      "constructionId": "n8-172",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1fe3cf19782b77b1c13ca3ff8d316b40d948598c6b630c2426b1b36502d16e96",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7eff1b29cb55bc059eb9197c229a098c7c0e00d276c10a65b935d2811ead4bf4"
+    },
+    {
+      "id": "cace-n8-173",
+      "src": "assets/constructions/n8/n8-173.webp",
+      "title": {
+        "ca": "gat · pentinar · nina / gos · dormir",
+        "es": "GATO · PEINAR · MUÑECA · PERRO · DORMIR"
+      },
+      "alt": {
+        "ca": "gat · pentinar · nina / gos · dormir.",
+        "es": "GATO · PEINAR · MUÑECA · PERRO · DORMIR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-4761fde107a7",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-4761fde107a7",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:00.744Z",
+      "target": "n8-173",
+      "constructionId": "n8-173",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4451252ad8fc9a9748a2588a6228b06367f20f8b25feec71992f305bad3f6a2a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "55a9f818ae74b498479d980882e09937207c6c0faab23cedce71f5c100b73a48"
+    },
+    {
+      "id": "cace-n8-174",
+      "src": "assets/constructions/n8/n8-174.webp",
+      "title": {
+        "ca": "cangur · pentinar · nina / pinguí · riure",
+        "es": "CANGURO · PEINAR · MUÑECA · PINGÜINO · REÍR"
+      },
+      "alt": {
+        "ca": "cangur · pentinar · nina / pinguí · riure.",
+        "es": "CANGURO · PEINAR · MUÑECA · PINGÜINO · REÍR."
+      },
+      "tags": [
+        "w-d5395d03acbf",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-5993b1ea57aa",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-d5395d03acbf",
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-83c248429f07",
+        "w-db89958a3c63",
+        "w-5993b1ea57aa",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:01.044Z",
+      "target": "n8-174",
+      "constructionId": "n8-174",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "action",
+              "label": "PENTINAR",
+              "wordId": "w-83c248429f07"
+            },
+            {
+              "role": "patient",
+              "label": "NINA",
+              "wordId": "w-db89958a3c63"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "PENTINAR",
+            "NINA"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-83c248429f07",
+            "w-db89958a3c63"
+          ],
+          "evidence": "Pinta passant entre els cabells llargs d’una nina completa recolzada en una taula baixa pròxima; no pentina el segon participant.",
+          "context": [
+            {
+              "label": "PINTA",
+              "wordId": "w-b91f3bd4d776"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7e625f0abf59c90684e55ee8bae59f5247970481481a06cbd2db9a1fce3d669e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d4e367732edeba15d7259b4077757b43e7631ec0419cc89a56698dfadd66d293"
+    },
+    {
+      "id": "cace-n8-175",
+      "src": "assets/constructions/n8/n8-175.webp",
+      "title": {
+        "ca": "zebra · tallar · plastilina / girafa · seure",
+        "es": "CEBRA · CORTAR · PLASTILINA · JIRAFA · SENTAR"
+      },
+      "alt": {
+        "ca": "zebra · tallar · plastilina / girafa · seure.",
+        "es": "CEBRA · CORTAR · PLASTILINA · JIRAFA · SENTAR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-e60f76be7b6c",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-e60f76be7b6c",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:01.417Z",
+      "target": "n8-175",
+      "constructionId": "n8-175",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "f63d9f9011a9cdccfd37efc67a2693dcdac129e83128f7472d0f112e3de22185",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9053dd724a068b4309e2424444931b545a6a80d3afba1602a0609c515c54a26d"
+    },
+    {
+      "id": "cace-n8-176",
+      "src": "assets/constructions/n8/n8-176.webp",
+      "title": {
+        "ca": "ós · tallar · plastilina / conill · dormir",
+        "es": "OSO · CORTAR · PLASTILINA · CONEJO · DORMIR"
+      },
+      "alt": {
+        "ca": "ós · tallar · plastilina / conill · dormir.",
+        "es": "OSO · CORTAR · PLASTILINA · CONEJO · DORMIR."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-51a7805e979b",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-51a7805e979b",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:01.975Z",
+      "target": "n8-176",
+      "constructionId": "n8-176",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CONILL",
+              "wordId": "w-51a7805e979b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "CONILL",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-51a7805e979b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "88f7ad11eafddc77a2d5cc3d57e4b51d9b429a35b0e9afcd7f526da55b536161",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4a2cc6e903f1a14095e6b2fba3189fe30d6727a03538c674f7a3a7fce71e7dbc"
+    },
+    {
+      "id": "cace-n8-177",
+      "src": "assets/constructions/n8/n8-177.webp",
+      "title": {
+        "ca": "elefant · tallar · plastilina / gat · riure",
+        "es": "ELEFANTE · CORTAR · PLASTILINA · GATO · REÍR"
+      },
+      "alt": {
+        "ca": "elefant · tallar · plastilina / gat · riure.",
+        "es": "ELEFANTE · CORTAR · PLASTILINA · GATO · REÍR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:02.469Z",
+      "target": "n8-177",
+      "constructionId": "n8-177",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "action",
+              "label": "TALLAR",
+              "wordId": "w-7a101d803c16"
+            },
+            {
+              "role": "patient",
+              "label": "PLASTILINA",
+              "wordId": "w-0606be9fcf92"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "TALLAR",
+            "PLASTILINA"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-7a101d803c16",
+            "w-0606be9fcf92"
+          ],
+          "evidence": "Ganivet de taula de punta arrodonida en contacte amb una tira de plastilina sobre una taula baixa, amb una separació visible; mà de suport fora del tall.",
+          "context": [
+            {
+              "label": "GANIVET",
+              "wordId": "w-49819bf5e906"
+            },
+            {
+              "label": "TAULA",
+              "wordId": "w-1544f4efec59"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "03936bad4f6c0fc8da5ea6be02ac3f2304b21ed2b58e5440aef5eac0e44b0517",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "89c92cb0b9fec2b166ccfd00e26a0afe22ae7ed44236a1c8abe629a290d464a2"
+    },
+    {
+      "id": "cace-n8-178",
+      "src": "assets/constructions/n8/n8-178.webp",
+      "title": {
+        "ca": "gos · estripar · paper / cangur · seure",
+        "es": "PERRO · RASGAR · PAPEL · CANGURO · SENTAR"
+      },
+      "alt": {
+        "ca": "gos · estripar · paper / cangur · seure.",
+        "es": "PERRO · RASGAR · PAPEL · CANGURO · SENTAR."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-d5395d03acbf",
+        "w-045dc98b2849"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-d5395d03acbf",
+        "w-045dc98b2849"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:02.975Z",
+      "target": "n8-178",
+      "constructionId": "n8-178",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "CANGUR",
+              "wordId": "w-d5395d03acbf"
+            },
+            {
+              "role": "state",
+              "label": "SEURE",
+              "wordId": "w-045dc98b2849"
+            }
+          ],
+          "labels": [
+            "CANGUR",
+            "SEURE"
+          ],
+          "wordIds": [
+            "w-d5395d03acbf",
+            "w-045dc98b2849"
+          ],
+          "evidence": "Posició asseguda quieta en una cadira: pelvis sostinguda pel seient, esquena dreta, peus recolzats i mans relaxades a les cuixes; ulls oberts i expressió neutra.",
+          "context": [
+            {
+              "label": "CADIRA",
+              "wordId": "w-e1efe2c4e23d"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2ed15cbcbf870b5a69bd6ee540b288cbf60cefab3de9d187c09f841948323223",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "382daee44ab5cecb8ee920809c4cde9d159a44efc53408fd0e34d6b6a33bf280"
+    },
+    {
+      "id": "cace-n8-179",
+      "src": "assets/constructions/n8/n8-179.webp",
+      "title": {
+        "ca": "pinguí · estripar · paper / zebra · dormir",
+        "es": "PINGÜINO · RASGAR · PAPEL · CEBRA · DORMIR"
+      },
+      "alt": {
+        "ca": "pinguí · estripar · paper / zebra · dormir.",
+        "es": "PINGÜINO · RASGAR · PAPEL · CEBRA · DORMIR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-0dc8fba9677d",
+        "w-2c4809267c13"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-0dc8fba9677d",
+        "w-2c4809267c13"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T09:41:03.493Z",
+      "target": "n8-179",
+      "constructionId": "n8-179",
+      "events": [
+        {
+          "id": "e1",
+          "type": "accio",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "action",
+              "label": "ESTRIPAR",
+              "wordId": "w-d6ff14eb6fb5"
+            },
+            {
+              "role": "patient",
+              "label": "PAPER",
+              "wordId": "w-cd5c60f0d076"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "ESTRIPAR",
+            "PAPER"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-d6ff14eb6fb5",
+            "w-cd5c60f0d076"
+          ],
+          "evidence": "Dues mans separen un full mut: estrip central visible amb les dues parts encara unides per un extrem; sense tisores ni fragments addicionals.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "287b4c4dc9842be82d5c6c9d59db2dbdfd3bbfb01623d227e0ed6e507ba81e72",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6e2d2d8c1654a79cb9b888e02e2562129e11eb0dda6e3857893fd5075d51edc2"
+    },
     {
       "id": "cace-n8-048",
       "src": "assets/constructions/n8/n8-048.webp",
@@ -149865,7 +154153,43 @@
         "cace-n8-158",
         "cace-n8-159",
         "cace-n8-160",
-        "cace-n8-161"
+        "cace-n8-161",
+        "cace-n8-062",
+        "cace-n8-063",
+        "cace-n8-064",
+        "cace-n8-065",
+        "cace-n8-066",
+        "cace-n8-067",
+        "cace-n8-068",
+        "cace-n8-069",
+        "cace-n8-070",
+        "cace-n8-071",
+        "cace-n8-072",
+        "cace-n8-073",
+        "cace-n8-074",
+        "cace-n8-075",
+        "cace-n8-076",
+        "cace-n8-077",
+        "cace-n8-078",
+        "cace-n8-079",
+        "cace-n8-162",
+        "cace-n8-163",
+        "cace-n8-164",
+        "cace-n8-165",
+        "cace-n8-166",
+        "cace-n8-167",
+        "cace-n8-168",
+        "cace-n8-169",
+        "cace-n8-170",
+        "cace-n8-171",
+        "cace-n8-172",
+        "cace-n8-173",
+        "cace-n8-174",
+        "cace-n8-175",
+        "cace-n8-176",
+        "cace-n8-177",
+        "cace-n8-178",
+        "cace-n8-179"
       ]
     }
   ]
