@@ -106,7 +106,44 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador molt lleuger amb un cantell fixat queda estès pel flux del ventilador encès. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó d’aturada. El mocador cau parcialment mentre disminueix la rotació de les aspes rere la reixeta. RIGHT result: El mocador penja del mateix cantell amb els plecs relaxats. Les aspes són nítides i aturades. Continuity and accounting: Un ventilador fix i un mocador amb cercles impresos, subjectat pel mateix cantell. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this previously rejected feature: El mocador queda al lateral d’un ventilador orientat de front. Les ratlles gràfiques suplanten una trajectòria d’aire que la geometria de l’escena no explica. Strict side view: fan at LEFT clearly facing right, grille in profile. Handkerchief fixed by one upper left corner ON A SMALL stand to the right of the fan, in direct path of the same axis. It extends right initially with spinning blades visible; slumps when switch is pushed, drops vertically from exact same clip when blades stop. No arrows or lines. Keep the supporting clip and angle consistent.",
       "review": "La peülla prem un botó blau que apareix només al centre, al costat del botó vermell inicial i final, en comptes de prémer el control identificable.",
       "reviewedAt": "2026-11-21T17:17:06+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "a53ce6c1d5574858b7dafcf35ebd1fdf25008bd10558bc86639ebbbfcbb363fd",
+      "file": "output/production/n10/n10-186/rejected-03.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic cow; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un mocador molt lleuger amb un cantell fixat queda estès pel flux del ventilador encès. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem el botó d’aturada. El mocador cau parcialment mentre disminueix la rotació de les aspes rere la reixeta. RIGHT result: El mocador penja del mateix cantell amb els plecs relaxats. Les aspes són nítides i aturades. Continuity and accounting: Un ventilador fix i un mocador amb cercles impresos, subjectat pel mateix cantell. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Only ONE red push button on the entirely blue fan base, exactly same location all three panels. In middle, cow hoof touches and obscures the TOP HALF of this red button, red visible on tip. No other controls anywhere. Same unchanged polka dot fabric clip, fabric declines as fan stops.",
+      "review": "El ventilador apunta cap a la càmera, però el mocador s’estén a un costat i darrere seu. La pinça també queda suspesa en l’aire sense cap suport.",
+      "reviewedAt": "2026-11-21T17:23:20+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "893faae49590fb57457a095fcb92941bb20e9150bc28d10022361e4e4b79fa8f",
+      "file": "output/production/n10/n10-186/rejected-04.png",
+      "prompt": "Keep all three panels, cow, side-on fan aimed RIGHT at the scarf, and fabric clamped to separate metal stand. Make one tiny edit ONLY to the controls of the fan in the middle panel: delete the extra blue control that appears under the hoof, then move the red button still visible in the middle a tiny distance left so the hoof visibly depresses it (or move the hoof a tiny distance onto red button). A single RED button in each panel, exactly the same position. Everything else unchanged.",
+      "review": "El polsador vermell es prem, però l’eix del ventilador és frontal i el mocador queda al lateral, fora del doll d’aire.",
+      "reviewedAt": "2026-11-21T17:25:52+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "7ae9b35333fb363cb78b31120b1d5c5853aa21f54fed9078f30358440c5f4489",
+      "file": "output/production/n10/n10-186/image.png",
+      "prompt": "Make exactly ONE tiny correction to the middle panel of this drawing. Remove the RIGHTMOST unpressed red button from the blue fan base near its right edge and fill that small spot with solid blue matching the base. The OTHER red button touching the cow's hoof remains. Everything else in all three panels must stay exactly the same. In particular do NOT rotate the side-view fan or change the scarf stand.",
+      "review": "La peülla prem l’únic botó vermell. El ventilador orientat cap al mocador s’atura i el mateix mocador cau de forma gradual, sempre fixat a la pinça del suport.",
+      "reviewedAt": "2026-11-21T17:28:29+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Make exactly ONE tiny correction to the middle panel of this drawing. Remove the RIGHTMOST unpressed red button from the blue fan base near its right edge and fill that small spot with solid blue matching the base. The OTHER red button touching the cow's hoof remains. Everything else in all three panels must stay exactly the same. In particular do NOT rotate the side-view fan or change the scarf stand.",
+  "review": "La peülla prem l’únic botó vermell. El ventilador orientat cap al mocador s’atura i el mateix mocador cau de forma gradual, sempre fixat a la pinça del suport.",
+  "alt": {
+    "ca": "La vaca prem el botó del ventilador. Quan les aspes s’aturen, el mocador queda penjant de la pinça.",
+    "es": "La vaca pulsa el botón del ventilador. Cuando se detienen las aspas, el pañuelo queda colgando de la pinza."
+  },
+  "originalSha256": "7ae9b35333fb363cb78b31120b1d5c5853aa21f54fed9078f30358440c5f4489",
+  "file": "output/production/n10/n10-186/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T17:28:29+00:00",
+  "tool": "ImageGen integrat"
 }

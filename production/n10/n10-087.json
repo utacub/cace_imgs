@@ -106,7 +106,44 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this visual failure from a previous candidate: Amb un sol tirador, la cremallera hauria de quedar oberta de manera contínua entre el tirador i l’extrem d’on ha sortit. La vinyeta central presenta una obertura intermèdia que es torna a segellar cap a aquell extrem. ",
       "review": "El tirador es desplaça de dreta a esquerra. A la fase central s’obren les dents que té a l’esquerra, abans que el tirador hi passi. El tram recorregut, a la dreta, continua tancat.",
       "reviewedAt": "2026-11-21T17:01:55+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "142cb58e95af9f8d0c2dc8235f5e012e86733ce24e7331da4b4639ed43c7f966",
+      "file": "output/production/n10/n10-087/rejected-03.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Use a single large zipper on a recognizable backpack, arc shape in front. LEFT zipper entirely CLOSED, slider starts at visual LEFT. CENTER slider arrives at the midpoint after moving LEFT TO RIGHT; the entire track LEFT OF SLIDER is open with a dark wedge of visible interior and two distinct separated rows of teeth; RIGHT OF SLIDER zipper is still completely SEALED to end. RIGHT slider is at END on FAR RIGHT, full continuous opening and single beige cushion. No closed section anywhere behind the slider.",
+      "review": "La cremallera s’obre pel costat correcte, però al final el braç que agafava el tirador desapareix darrere la motxilla i la mà surt a l’altre extrem amb un abast corporal incoherent.",
+      "reviewedAt": "2026-11-21T17:22:21+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "0c44991462f3152483f7bcecc547f8824f044c7e391216177888d93bf41ddead",
+      "file": "output/production/n10/n10-087/rejected-04.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: La motxilla descansa a la taula amb les dents unides i un tirador visible en un extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador en el sentit d’obertura. Les dents queden separades al costat recorregut i unides a l’altre. RIGHT result: L’obertura admet veure un sol coixinet a dins. El tirador queda al final del mateix recorregut. Continuity and accounting: Una motxilla amb cremallera contínua i un coixinet que es manté dins. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Keep exactly TWO anatomically attached hands on screen, the operating hand should change to her left hand in the final panel while her right hand now visibly steadies the bag near the left side seam. In first slider at left; second cursor at center, open behind left, closed ahead right; final slider seated at right endpoint. No arm travels invisibly behind bag from opposite shoulder. One cream cushion seen only when open.",
+      "review": "El tirador comença i acaba a la dreta, i al centre les dents obertes són davant seu en el recorregut de dreta a esquerra.",
+      "reviewedAt": "2026-11-21T17:23:20+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "9e90168aaa0a84b73e2ba0dfaab7237895f9e9b88e4e5f075bd830d099e36332",
+      "file": "output/production/n10/n10-087/image.png",
+      "prompt": "Keep ALL zipper states and placement in this triptych unchanged. First two panels unchanged. Change only the woman's TWO natural hands and upper limbs in the FINAL right-hand panel so the woman's left hand, anatomically attached to left arm from the shoulder on image right, holds the rightmost zipper slider, and her right hand, attached to the shoulder on image left, steadies the left side of the backpack at the left seam. Remove the floating top hand and have a completely visible left forearm from the right-side shoulder down to the pulled slider on the right. Exactly two hands, no extended or hidden arm. Do not change the clothe and the backpack or cream cushion, natural photography.",
+      "review": "El tirador avança d’esquerra a dreta i separa les dents al tram recorregut. Les mans són visibles en postures plausibles i es veu un sol coixinet dins la mateixa motxilla.",
+      "reviewedAt": "2026-11-21T17:25:52+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Keep ALL zipper states and placement in this triptych unchanged. First two panels unchanged. Change only the woman's TWO natural hands and upper limbs in the FINAL right-hand panel so the woman's left hand, anatomically attached to left arm from the shoulder on image right, holds the rightmost zipper slider, and her right hand, attached to the shoulder on image left, steadies the left side of the backpack at the left seam. Remove the floating top hand and have a completely visible left forearm from the right-side shoulder down to the pulled slider on the right. Exactly two hands, no extended or hidden arm. Do not change the clothe and the backpack or cream cushion, natural photography.",
+  "review": "El tirador avança d’esquerra a dreta i separa les dents al tram recorregut. Les mans són visibles en postures plausibles i es veu un sol coixinet dins la mateixa motxilla.",
+  "alt": {
+    "ca": "La dona estira el tirador de la cremallera, obre la motxilla i hi deixa veure un coixinet.",
+    "es": "La mujer tira del cursor de la cremallera, abre la mochila y deja ver un cojín dentro."
+  },
+  "originalSha256": "9e90168aaa0a84b73e2ba0dfaab7237895f9e9b88e4e5f075bd830d099e36332",
+  "file": "output/production/n10/n10-087/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T17:25:52+00:00",
+  "tool": "ImageGen integrat"
 }

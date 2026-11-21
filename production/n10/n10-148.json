@@ -106,7 +106,36 @@
       "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte. RIGHT result: En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal. Continuity and accounting: Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Correct this previously rejected feature: La mà es recolza amb els dits cap al costat esquerre, però les marques finals pugen verticalment. La forma i l’orientació de l’empremta han de correspondre als dits que toquen el davantal. The red painted hand is the donkey's RIGHT palm. The right forearm reaches across its body. Center fingers and thumb spread and point diagonally upward toward the viewer's LEFT, at 45 degrees; paint is only on palm side not the back. Final imprint points exactly 45 degrees UP-LEFT, same sizes, same thumb position and only part of the palm mark. Only one hand touches apron.",
       "review": "La vinyeta central mostra els dits grisos orientats diferent d’uns dits vermells que se superposen al seu darrere. L’empremta correspon a la segona silueta, i no al contacte de la mà gris.",
       "reviewedAt": "2026-11-21T17:12:21+00:00"
+    },
+    {
+      "status": "rejected",
+      "sha256": "9b93fc354ab16a7090c12180ae2483908a8c1680fe8373d717b266388ee69adf",
+      "file": "output/production/n10/n10-148/rejected-03.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic donkey; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un davantal net cobreix l’agent i té un plec que sobresurt. L’agent mostra un palmell amb pintura. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El palmell pintat se sosté pla contra el davantal i la pintura apareix al marge del contacte. RIGHT result: En separar la mà es veuen els dits pintats i l’empremta parcial coherent amb aquests dits al davantal. Continuity and accounting: Un davantal amb butxaca quadrada i la mateixa mà. Una sola empremta de pintura. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image. Specific production fix: Use a single right paw (anthropomorphic hand) with 4 coherent digits on its own wrist pressing the apron in middle; the other paw stays at edge. NO superposed stamp or other hand in middle. Last paw held palm toward viewer away from the apron, wet red print on apron matching width and finger orientation. Show firm palm-to-apron contact in middle.",
+      "review": "La mà prem amb els dits cap a l’esquerra i el polze cap amunt, però la petjada final té els dits cap amunt i el polze cap a l’esquerra.",
+      "reviewedAt": "2026-11-21T17:23:20+00:00"
+    },
+    {
+      "status": "accepted",
+      "sha256": "89a139482c5444c2d29da376f387134bc5a284a9c9f311d1555b49172f52b838",
+      "file": "output/production/n10/n10-148/image.png",
+      "prompt": "Only change the painted red handprint on the white apron in the THIRD (rightmost) panel. Delete the currently upright print and replace it in same spot with a red printed hand silhouette oriented HORIZONTALLY, four fingers pointing toward image LEFT, shorter thumb pointing UP, precisely matching the pressed gray hand silhouette seen in middle panel. Do not change ANYTHING else, especially don’t redraw the center hand. Same three panels, donkey, bowl and brushes. No text or symbols.",
+      "review": "La mà gira per fer contacte palmar complet, i la petjada conserva els dits cap a l’esquerra i el polze amunt en la mateixa zona del davantal.",
+      "reviewedAt": "2026-11-21T17:25:52+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Only change the painted red handprint on the white apron in the THIRD (rightmost) panel. Delete the currently upright print and replace it in same spot with a red printed hand silhouette oriented HORIZONTALLY, four fingers pointing toward image LEFT, shorter thumb pointing UP, precisely matching the pressed gray hand silhouette seen in middle panel. Do not change ANYTHING else, especially don’t redraw the center hand. Same three panels, donkey, bowl and brushes. No text or symbols.",
+  "review": "La mà gira per fer contacte palmar complet, i la petjada conserva els dits cap a l’esquerra i el polze amunt en la mateixa zona del davantal.",
+  "alt": {
+    "ca": "El ruc prem la mà pintada de vermell contra el davantal i hi deixa la petjada.",
+    "es": "El burro presiona la mano pintada de rojo contra el delantal y deja la huella."
+  },
+  "originalSha256": "89a139482c5444c2d29da376f387134bc5a284a9c9f311d1555b49172f52b838",
+  "file": "output/production/n10/n10-148/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T17:25:52+00:00",
+  "tool": "ImageGen integrat"
 }
