@@ -4,8 +4,8 @@
   "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Photorealistic synthetic studio photograph of two real human people, natural skin, fabric and body proportions. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: young man, on the LEFT. Second participant: adult woman, on the RIGHT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. NOI a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. DONA a dreta: Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dues persones senceres amb proporcions humanes naturals; fotografia sintètica. Proporcions naturals de braços, avantbraços, mans, tronc i cames; articulacions, preses i suport físic plausibles. Acostar persona o objecte, ajustar el suport o flexionar els genolls si cal; mai allargar extremitats. No creuar braços entre participants. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY no objects. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed. Natural varied human actors: first participant has light brown skin, second has deep brown skin. Natural hair texture and neutral everyday clothes, no uniforms or costumes. Keep the exact age groups and event roles specified above.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n8-097",
     "number": 97,
@@ -103,5 +103,17 @@
     "compositionKey": "w-01bc6dcab46b|w-8a560cbf66b0||w-72e9fe9a8b43|w-9fbc08b69e53",
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T10:01:15.689Z"
+  "created": "2026-11-21T10:01:15.689Z",
+  "review": "Noi riu de peu amb boca oberta; dona plora amb llàgrimes visibles per les galtes. Figures completes i proporcionades, braços relaxats, sense contacte ni causa representada, fons blanc i sense text.",
+  "alt": {
+    "ca": "noi · riure / dona · plorar.",
+    "es": "CHICO · REÍR · MUJER · LLORAR."
+  },
+  "originalSha256": "3a5ce6e9249986df70fb42e937b0879568df70b1f136bc7b1fd948ab67702e9b",
+  "width": 1536,
+  "height": 1024,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T10:09:10.193Z",
+  "publicationVersion": "0.1.145",
+  "importedAt": "2026-11-21T10:09:14.814124+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.144",
+  "version": "0.1.145",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1662 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n8-093",
+      "src": "assets/constructions/n8/n8-093.webp",
+      "title": {
+        "ca": "noia · dormir / noi · riure",
+        "es": "CHICA · DORMIR · CHICO · REÍR"
+      },
+      "alt": {
+        "ca": "noia · dormir / noi · riure.",
+        "es": "CHICA · DORMIR · CHICO · REÍR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-2c4809267c13",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-2c4809267c13",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:13.863Z",
+      "target": "n8-093",
+      "constructionId": "n8-093",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8c599cdee5e97e59b196e3fb4b6917e4297a37a9182b2285634b5f55bb6139c0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bee6a1dda7a060d08ede9a196baf3a82064f90ded28f0b31ad44073f7dc3f796"
+    },
+    {
+      "id": "cace-n8-094",
+      "src": "assets/constructions/n8/n8-094.webp",
+      "title": {
+        "ca": "dona · dormir / home · riure",
+        "es": "MUJER · DORMIR · HOMBRE · REÍR"
+      },
+      "alt": {
+        "ca": "dona · dormir / home · riure.",
+        "es": "MUJER · DORMIR · HOMBRE · REÍR."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13",
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:14.232Z",
+      "target": "n8-094",
+      "constructionId": "n8-094",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1abad94b965408c370332910eb27cd3743a5ff84a1c8f5d3c69b34cd4d964172",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2280a135986304b03cadb6b3098ca534f830eaca5adfa0b298bfbb4e68285252"
+    },
+    {
+      "id": "cace-n8-095",
+      "src": "assets/constructions/n8/n8-095.webp",
+      "title": {
+        "ca": "noi · dormir / dona · riure",
+        "es": "CHICO · DORMIR · MUJER · REÍR"
+      },
+      "alt": {
+        "ca": "noi · dormir / dona · riure.",
+        "es": "CHICO · DORMIR · MUJER · REÍR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-2c4809267c13",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-2c4809267c13",
+        "w-72e9fe9a8b43",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:14.659Z",
+      "target": "n8-095",
+      "constructionId": "n8-095",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "94ee0d3ea9db798a42f199e21a01027ef2406e63b6e31fe6705b4229887f02a4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "51dd264dd96dac6e75faead1824b420f9ec7c5fc2b2452081dc6465b94dc36a0"
+    },
+    {
+      "id": "cace-n8-096",
+      "src": "assets/constructions/n8/n8-096.webp",
+      "title": {
+        "ca": "home · dormir / noi · riure",
+        "es": "HOMBRE · DORMIR · CHICO · REÍR"
+      },
+      "alt": {
+        "ca": "home · dormir / noi · riure.",
+        "es": "HOMBRE · DORMIR · CHICO · REÍR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-2c4809267c13",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-2c4809267c13",
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:15.113Z",
+      "target": "n8-096",
+      "constructionId": "n8-096",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "94197bd3db2cbaaaad5f671092134c9a03b7de895ebc86c3d5104c8137fe55c3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6a70e6e72ec0d0afc0ba2aa1817fa58b5f9ebe11c641d89734b08a4a929eea09"
+    },
+    {
+      "id": "cace-n8-097",
+      "src": "assets/constructions/n8/n8-097.webp",
+      "title": {
+        "ca": "noi · riure / dona · plorar",
+        "es": "CHICO · REÍR · MUJER · LLORAR"
+      },
+      "alt": {
+        "ca": "noi · riure / dona · plorar.",
+        "es": "CHICO · REÍR · MUJER · LLORAR."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0",
+        "w-72e9fe9a8b43",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-8a560cbf66b0",
+        "w-72e9fe9a8b43",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:15.689Z",
+      "target": "n8-097",
+      "constructionId": "n8-097",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "DONA",
+              "wordId": "w-72e9fe9a8b43"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "DONA",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-72e9fe9a8b43",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "3a5ce6e9249986df70fb42e937b0879568df70b1f136bc7b1fd948ab67702e9b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "42595b35e90bef69350ed201e9bf77d32682ec9e022bc8ffdaed17aa62de1b0c"
+    },
+    {
+      "id": "cace-n8-098",
+      "src": "assets/constructions/n8/n8-098.webp",
+      "title": {
+        "ca": "home · riure / noi · plorar",
+        "es": "HOMBRE · REÍR · CHICO · LLORAR"
+      },
+      "alt": {
+        "ca": "home · riure / noi · plorar.",
+        "es": "HOMBRE · REÍR · CHICO · LLORAR."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-8a560cbf66b0",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:16.211Z",
+      "target": "n8-098",
+      "constructionId": "n8-098",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "HOME",
+              "wordId": "w-cfe24f6b3c38"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "HOME",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cfe24f6b3c38",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7338e69766594c758345497047df8ae8ad4413e00ce43fe14269e8896ce0c211",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "22291a24199187aad04dda004275c468c7ae012bd59a7fd8de2e94bdace7b99e"
+    },
+    {
+      "id": "cace-n8-099",
+      "src": "assets/constructions/n8/n8-099.webp",
+      "title": {
+        "ca": "nena · riure / nen · plorar",
+        "es": "NIÑA · REÍR · NIÑO · LLORAR"
+      },
+      "alt": {
+        "ca": "nena · riure / nen · plorar.",
+        "es": "NIÑA · REÍR · NIÑO · LLORAR."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0",
+        "w-b4012100fe09",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-8a560cbf66b0",
+        "w-b4012100fe09",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:16.714Z",
+      "target": "n8-099",
+      "constructionId": "n8-099",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NENA",
+              "wordId": "w-cda6fa4a9867"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NENA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-cda6fa4a9867",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NEN",
+              "wordId": "w-b4012100fe09"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NEN",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-b4012100fe09",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "e6bfb32c7cb323ed7c0be2a00e5c4b0136fce0f17573356ef47e113087a0940d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4fa41804cbd56df800a2d2012e675155c07086aeab2bced7fc3adaf9a5709600"
+    },
+    {
+      "id": "cace-n8-100",
+      "src": "assets/constructions/n8/n8-100.webp",
+      "title": {
+        "ca": "noia · riure / noi · plorar",
+        "es": "CHICA · REÍR · CHICO · LLORAR"
+      },
+      "alt": {
+        "ca": "noia · riure / noi · plorar.",
+        "es": "CHICA · REÍR · CHICO · LLORAR."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-8a560cbf66b0",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-8a560cbf66b0",
+        "w-01bc6dcab46b",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:17.262Z",
+      "target": "n8-100",
+      "constructionId": "n8-100",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOIA",
+              "wordId": "w-b38ff488f862"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "NOIA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b38ff488f862",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "NOI",
+              "wordId": "w-01bc6dcab46b"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "NOI",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-01bc6dcab46b",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ae3c892fbedfd6f91bc5fb51687f9a649747e241e1f628d26a258cf598a0fbf7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7fcbe457726740a3eb9e731f63ea11c730f9ccac4af57a0838ec31450e86d0e8"
+    },
+    {
+      "id": "cace-n8-193",
+      "src": "assets/constructions/n8/n8-193.webp",
+      "title": {
+        "ca": "gat · dormir / gos · riure",
+        "es": "GATO · DORMIR · PERRO · REÍR"
+      },
+      "alt": {
+        "ca": "gat · dormir / gos · riure.",
+        "es": "GATO · DORMIR · PERRO · REÍR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-2c4809267c13",
+        "w-4761fde107a7",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-2c4809267c13",
+        "w-4761fde107a7",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:14.046Z",
+      "target": "n8-193",
+      "constructionId": "n8-193",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8e2ebdf279cf67feec4911a71247c71c64ac24b4beb28268ef10744da4b96888",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3dbcd2f4fe1c9694344a85c09a38d3fd8426568659b01aac2995acf66e3c9f20"
+    },
+    {
+      "id": "cace-n8-194",
+      "src": "assets/constructions/n8/n8-194.webp",
+      "title": {
+        "ca": "zebra · dormir / girafa · riure",
+        "es": "CEBRA · DORMIR · JIRAFA · REÍR"
+      },
+      "alt": {
+        "ca": "zebra · dormir / girafa · riure.",
+        "es": "CEBRA · DORMIR · JIRAFA · REÍR."
+      },
+      "tags": [
+        "w-0dc8fba9677d",
+        "w-2c4809267c13",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-0dc8fba9677d",
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-2c4809267c13",
+        "w-e60f76be7b6c",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:14.443Z",
+      "target": "n8-194",
+      "constructionId": "n8-194",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GIRAFA",
+              "wordId": "w-e60f76be7b6c"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GIRAFA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-e60f76be7b6c",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "20dc38bd9b2941d0eff4dbbb330af5909d5da1ea270c5afe0cdef254c89e1f45",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8945497f5d0129eaa591a95b33c5bfdf12d143934950a865c323c3dc1d416989"
+    },
+    {
+      "id": "cace-n8-195",
+      "src": "assets/constructions/n8/n8-195.webp",
+      "title": {
+        "ca": "elefant · dormir / gat · riure",
+        "es": "ELEFANTE · DORMIR · GATO · REÍR"
+      },
+      "alt": {
+        "ca": "elefant · dormir / gat · riure.",
+        "es": "ELEFANTE · DORMIR · GATO · REÍR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-2c4809267c13",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-2c4809267c13",
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:14.902Z",
+      "target": "n8-195",
+      "constructionId": "n8-195",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "83876cf898a24f881bd362edba18af70e2b898e7a4dbef47ac17b6fcb98854ee",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fd37ceb697d12c70259fd246a79076fe52b960b336a1546a06c1e208806fcd93"
+    },
+    {
+      "id": "cace-n8-196",
+      "src": "assets/constructions/n8/n8-196.webp",
+      "title": {
+        "ca": "pinguí · dormir / zebra · riure",
+        "es": "PINGÜINO · DORMIR · CEBRA · REÍR"
+      },
+      "alt": {
+        "ca": "pinguí · dormir / zebra · riure.",
+        "es": "PINGÜINO · DORMIR · CEBRA · REÍR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-2c4809267c13",
+        "w-0dc8fba9677d",
+        "w-8a560cbf66b0"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-2c4809267c13",
+        "w-0dc8fba9677d",
+        "w-8a560cbf66b0"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:15.468Z",
+      "target": "n8-196",
+      "constructionId": "n8-196",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "DORMIR",
+              "wordId": "w-2c4809267c13"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "DORMIR"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-2c4809267c13"
+          ],
+          "evidence": "Cos estirat de costat sobre un llit baix complet, cap recolzat en un coixí, ulls tancats i postura relaxada; cos sense manta que el tapi, cap símbol de son.",
+          "context": [
+            {
+              "label": "LLIT",
+              "wordId": "w-5f7c1679605f"
+            },
+            {
+              "label": "COIXÍ",
+              "wordId": "w-44260b79b61e"
+            }
+          ]
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "5b2cade17b083d3ada6cb3a7fe03f77386826168695e816c3efa8ec057af2f46",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "78211b27821ea68f9f629de9291b3ca1a1f43cbe2aad7bfdf4c59f5b589a4874"
+    },
+    {
+      "id": "cace-n8-197",
+      "src": "assets/constructions/n8/n8-197.webp",
+      "title": {
+        "ca": "elefant · riure / gat · plorar",
+        "es": "ELEFANTE · REÍR · GATO · LLORAR"
+      },
+      "alt": {
+        "ca": "elefant · riure / gat · plorar.",
+        "es": "ELEFANTE · REÍR · GATO · LLORAR."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-8a560cbf66b0",
+        "w-11ff74d27c02",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-8a560cbf66b0",
+        "w-11ff74d27c02",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:15.937Z",
+      "target": "n8-197",
+      "constructionId": "n8-197",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ELEFANT",
+              "wordId": "w-b059d8ef0bc9"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "ELEFANT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-b059d8ef0bc9",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "85187ff47c61b78f4d811451d1db1778f7c92cfe88c52e7b1d95c4f79aae1fb3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5af42d732156625fa8610c19042abce91312701cdcbea917b5d739c96d08e615"
+    },
+    {
+      "id": "cace-n8-198",
+      "src": "assets/constructions/n8/n8-198.webp",
+      "title": {
+        "ca": "pinguí · riure / zebra · plorar",
+        "es": "PINGÜINO · REÍR · CEBRA · LLORAR"
+      },
+      "alt": {
+        "ca": "pinguí · riure / zebra · plorar.",
+        "es": "PINGÜINO · REÍR · CEBRA · LLORAR."
+      },
+      "tags": [
+        "w-5993b1ea57aa",
+        "w-8a560cbf66b0",
+        "w-0dc8fba9677d",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-5993b1ea57aa",
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-8a560cbf66b0",
+        "w-0dc8fba9677d",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:16.446Z",
+      "target": "n8-198",
+      "constructionId": "n8-198",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "PINGUÍ",
+              "wordId": "w-5993b1ea57aa"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "PINGUÍ",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-5993b1ea57aa",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ZEBRA",
+              "wordId": "w-0dc8fba9677d"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "ZEBRA",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-0dc8fba9677d",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8e1e97f267d693bf8a10860902bf1c4391a0eee0fc787ab3e7df9375052928bc",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "79327e62ca31572ff315639fb2c8a6a5238ccdcb14a5d31dbb48a3f338896ca5"
+    },
+    {
+      "id": "cace-n8-199",
+      "src": "assets/constructions/n8/n8-199.webp",
+      "title": {
+        "ca": "mico · riure / ós · plorar",
+        "es": "MONO · REÍR · OSO · LLORAR"
+      },
+      "alt": {
+        "ca": "mico · riure / ós · plorar.",
+        "es": "MONO · REÍR · OSO · LLORAR."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-8a560cbf66b0",
+        "w-a06249642996",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-8a560cbf66b0",
+        "w-a06249642996",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:16.947Z",
+      "target": "n8-199",
+      "constructionId": "n8-199",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "MICO",
+              "wordId": "w-12a87560751b"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "MICO",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-12a87560751b",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "ÓS",
+              "wordId": "w-a06249642996"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "ÓS",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-a06249642996",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1fdc7421dd22d433ba8fc232ef49ec3944549d6f56654868e94d054b57eea84e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b02b4ba9521debdb20404edbc822e40f14ce7c0cdf065374afe8966e13d77fe7"
+    },
+    {
+      "id": "cace-n8-200",
+      "src": "assets/constructions/n8/n8-200.webp",
+      "title": {
+        "ca": "gat · riure / gos · plorar",
+        "es": "GATO · REÍR · PERRO · LLORAR"
+      },
+      "alt": {
+        "ca": "gat · riure / gos · plorar.",
+        "es": "GATO · REÍR · PERRO · LLORAR."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0",
+        "w-4761fde107a7",
+        "w-9fbc08b69e53"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-8a560cbf66b0",
+        "w-4761fde107a7",
+        "w-9fbc08b69e53"
+      ],
+      "levels": [
+        8
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T10:01:17.597Z",
+      "target": "n8-200",
+      "constructionId": "n8-200",
+      "events": [
+        {
+          "id": "e1",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GAT",
+              "wordId": "w-11ff74d27c02"
+            },
+            {
+              "role": "state",
+              "label": "RIURE",
+              "wordId": "w-8a560cbf66b0"
+            }
+          ],
+          "labels": [
+            "GAT",
+            "RIURE"
+          ],
+          "wordIds": [
+            "w-11ff74d27c02",
+            "w-8a560cbf66b0"
+          ],
+          "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+          "context": []
+        },
+        {
+          "id": "e2",
+          "type": "estat",
+          "roles": [
+            {
+              "role": "agent",
+              "label": "GOS",
+              "wordId": "w-4761fde107a7"
+            },
+            {
+              "role": "state",
+              "label": "PLORAR",
+              "wordId": "w-9fbc08b69e53"
+            }
+          ],
+          "labels": [
+            "GOS",
+            "PLORAR"
+          ],
+          "wordIds": [
+            "w-4761fde107a7",
+            "w-9fbc08b69e53"
+          ],
+          "evidence": "Rostre prou gran amb llàgrimes clares sobre les galtes i comissures avall; postura estable, sense ferides, perill, gest d’agressió ni causa suggerida.",
+          "context": []
+        }
+      ],
+      "semanticRelation": {
+        "type": "coexistencia-en-un-mateix-instant",
+        "wordId": null,
+        "simultaneous": true,
+        "causalClaim": false,
+        "temporalOrder": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b3a6495cdc7a90053fdda7ef8ad6efd9da057da5f2638280c8c699e83104bf1b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9a93bd41ff2c00815485d8f3f3ffde6adf8070b3135013a8780d811c2f4bae7a"
+    },
     {
       "id": "cace-n8-080",
       "src": "assets/constructions/n8/n8-080.webp",
@@ -156789,7 +158445,23 @@
         "cace-n8-188",
         "cace-n8-190",
         "cace-n8-191",
-        "cace-n8-192"
+        "cace-n8-192",
+        "cace-n8-093",
+        "cace-n8-094",
+        "cace-n8-095",
+        "cace-n8-096",
+        "cace-n8-097",
+        "cace-n8-098",
+        "cace-n8-099",
+        "cace-n8-100",
+        "cace-n8-193",
+        "cace-n8-194",
+        "cace-n8-195",
+        "cace-n8-196",
+        "cace-n8-197",
+        "cace-n8-198",
+        "cace-n8-199",
+        "cace-n8-200"
       ]
     }
   ]
