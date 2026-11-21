@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-101",
+    "number": 101,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-001",
+    "counterpartId": "n10-001",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · jugar · pilota / construccions → caure"
+    },
+    "labels": [
+      "CONILL",
+      "JUGAR",
+      "PILOTA",
+      "CONSTRUCCIONS",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-6d90f16f5461",
+      "w-b7f578451973",
+      "w-d92d094286cd",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "trigger": {
+      "label": "JUGAR",
+      "wordId": "w-6d90f16f5461"
+    },
+    "referents": [
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "CONSTRUCCIONS",
+        "wordId": "w-d92d094286cd"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una torre de blocs és dreta davant de la pilota."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La pilota que fa rodar toca el bloc de baix i l’empeny de costat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota queda al costat de la torre caiguda."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota amb franja i quatre blocs bicolors, tots visibles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "b5eaca5b6c364a4dc76a72efb71f9515199eb1d4f6e47d429d1c5c7f5f2dace6",
+      "file": "output/production/n10/n10-101/image.png",
+      "prompt": "One wide landscape classroom illustration, flat 2D using clean solid shapes and simple dark outlines, exactly three equal images in a horizontal triptych separated by generous pure white gutters. Show the same friendly clearly recognizable anthropomorphic rabbit with long upright ears and a small cotton tail, wearing a teal shirt and blue trousers, kneeling on the white floor in identical fixed oblique view and scale in each panel. Exactly one small white foam ball with a purple stripe and exactly four clearly countable rectangular large toy blocks with blue ends and ochre wood-colored sides, identical sizes and colors in all panels. LEFT: the rabbit is about to roll the ball from its paw, a small gap clearly separates the ball and the tall tower of all four blocks flat face on flat face. CENTER: the striped ball touches and nudges ONLY the bottom block sideways, with the upper blocks tilting away in response. This contact is large and unmistakable. The paws are away from the blocks and ball. RIGHT: the same four blocks, individually countable, lie toppled next to the same resting ball on the floor. White background, natural joint action, light support shadows, no other props, no text or label of any kind, no arrow or motion lines, no logo. Preserve full rabbit including ears, feet and tail with generous margins in each panel. Aspect ratio landscape.",
+      "review": "El contorn de la pilota toca directament el bloc inferior. Les potes del conill queden separades de la torre, les tres peces superiors basculen i al final es compten els mateixos quatre blocs.",
+      "reviewedAt": "2026-11-21T15:40:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "One wide landscape classroom illustration, flat 2D using clean solid shapes and simple dark outlines, exactly three equal images in a horizontal triptych separated by generous pure white gutters. Show the same friendly clearly recognizable anthropomorphic rabbit with long upright ears and a small cotton tail, wearing a teal shirt and blue trousers, kneeling on the white floor in identical fixed oblique view and scale in each panel. Exactly one small white foam ball with a purple stripe and exactly four clearly countable rectangular large toy blocks with blue ends and ochre wood-colored sides, identical sizes and colors in all panels. LEFT: the rabbit is about to roll the ball from its paw, a small gap clearly separates the ball and the tall tower of all four blocks flat face on flat face. CENTER: the striped ball touches and nudges ONLY the bottom block sideways, with the upper blocks tilting away in response. This contact is large and unmistakable. The paws are away from the blocks and ball. RIGHT: the same four blocks, individually countable, lie toppled next to the same resting ball on the floor. White background, natural joint action, light support shadows, no other props, no text or label of any kind, no arrow or motion lines, no logo. Preserve full rabbit including ears, feet and tail with generous margins in each panel. Aspect ratio landscape.",
+  "review": "El contorn de la pilota toca directament el bloc inferior. Les potes del conill queden separades de la torre, les tres peces superiors basculen i al final es compten els mateixos quatre blocs.",
+  "alt": {
+    "ca": "Un conill fa rodar una pilota contra una torre de quatre blocs. L’impacte tomba la torre.",
+    "es": "Un conejo hace rodar una pelota contra una torre de cuatro bloques. El impacto derriba la torre."
+  },
+  "originalSha256": "b5eaca5b6c364a4dc76a72efb71f9515199eb1d4f6e47d429d1c5c7f5f2dace6",
+  "file": "output/production/n10/n10-101/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:40:29+00:00",
+  "tool": "ImageGen integrat"
+}

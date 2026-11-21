@@ -67,6 +67,14 @@ n8_assets = defaultdict(list)
 n9_plan_path = root / 'production/n9-plan.json'
 n9_plan = {item['id']: item for item in json.loads(n9_plan_path.read_text(encoding='utf-8'))['items']} if n9_plan_path.exists() else {}
 n9_assets = defaultdict(list)
+n10_plan_path = root / 'production/n10-plan.json'
+n10_plan = {item['id']: item for item in json.loads(n10_plan_path.read_text(encoding='utf-8'))['items']} if n10_plan_path.exists() else {}
+n10_assets = defaultdict(list)
+construction_levels = [
+    (2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets),
+    (5, n5_plan, n5_assets), (6, n6_plan, n6_assets), (7, n7_plan, n7_assets),
+    (8, n8_plan, n8_assets), (9, n9_plan, n9_assets), (10, n10_plan, n10_assets),
+]
 word_records = {word['id']: word for word in data['words']}
 for asset in data['assets']:
     relative = PurePosixPath(asset['src'])
@@ -81,7 +89,7 @@ for asset in data['assets']:
     assert asset.get('primaryWordId') in asset['tags'], asset['id']
     assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
     if asset.get('constructionId'):
-        level, plan, level_assets = next((level, plan, assets) for level, plan, assets in [(2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets), (5, n5_plan, n5_assets), (6, n6_plan, n6_assets), (7, n7_plan, n7_assets), (8, n8_plan, n8_assets), (9, n9_plan, n9_assets)] if asset['constructionId'] in plan)
+        level, plan, level_assets = next(entry for entry in construction_levels if asset['constructionId'] in entry[1])
         construction = plan[asset['constructionId']]
         assert asset['origin'] == 'generated' and asset['levels'] == [level], asset['id']
         assert asset['targetWordIds'] == construction['wordIds'] == asset['tags'], asset['id']
@@ -90,10 +98,13 @@ for asset in data['assets']:
         if level == 8:
             assert asset['events'] == construction['events'], asset['id']
             assert asset['semanticRelation'] == construction['relation'], asset['id']
-        if level == 9:
+        if level in (9, 10):
             assert asset['moments'] == construction['moments'], asset['id']
             assert asset['continuity'] == construction['continuity'], asset['id']
             assert asset['semanticRelation'] == construction['relation'], asset['id']
+        if level == 10:
+            assert construction['relation']['causalClaim'] is True, asset['id']
+            assert asset['semanticRelation']['type'] == 'causa-consequencia', asset['id']
         level_assets[asset['constructionId']].append(asset['id'])
     elif asset.get('origin') == 'generated':
         targets[asset['target']].add(asset['variant'])
@@ -109,6 +120,11 @@ assert all(len(assets) == 1 for assets in n6_assets.values()), 'Each N6 construc
 assert all(len(assets) == 1 for assets in n7_assets.values()), 'Each N7 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n9_assets.values()), 'Each N9 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n8_assets.values()), 'Each N8 construction must have exactly one image'
+assert all(len(assets) == 1 for assets in n10_assets.values()), 'Each N10 construction must have exactly one image'
+if n10_assets:
+    collection = next(collection for collection in data['collections'] if collection['id'] == 'cace-n10-causes')
+    assert len(collection['items']) == len(n10_assets)
+    assert set(collection['items']) == {ids[0] for ids in n10_assets.values()}
 assert not any(path.stat().st_size == 0 for path in (root / 'dist/assets').rglob('*') if path.is_file())
 assert not list((root / 'dist').rglob('*.tmp'))
-print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'complete_n4_constructions': len(n4_assets), 'complete_n5_constructions': len(n5_assets), 'complete_n6_constructions': len(n6_assets), 'complete_n8_constructions': len(n8_assets), 'complete_n9_constructions': len(n9_assets), 'vocabulary_entries': len(data['words'])}))
+print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'complete_n4_constructions': len(n4_assets), 'complete_n5_constructions': len(n5_assets), 'complete_n6_constructions': len(n6_assets), 'complete_n8_constructions': len(n8_assets), 'complete_n9_constructions': len(n9_assets), 'complete_n10_constructions': len(n10_assets), 'vocabulary_entries': len(data['words'])}))

@@ -1,0 +1,87 @@
+{
+  "status": "valid",
+  "scope": "Validació estructural del pla i de la preservació local. La revisió semàntica és textual. La verificació visual queda pendent.",
+  "baseline": {
+    "head": "d13757abc7a0fea7b1fd1c2bcd228e967f811759",
+    "version": "0.1.159",
+    "totalAssets": 4069,
+    "words": 861,
+    "catalogSha256": "c7e53a7ba43c9b2a041c98294587a84354bf8834179dd1d56825d2d2c1134e32",
+    "bankArchiveSha256": "4c7876cbce894cd6bdf86a5dc6ba6c300750a63569574135396fc2a72fd64eb5"
+  },
+  "catalogUnchanged": true,
+  "catalogAssetsPreserved": 4069,
+  "catalogWordsPreserved": 861,
+  "localDisplayHashesChecked": 4069,
+  "bankPartHashesChecked": 125,
+  "bankArchiveSha256": "4c7876cbce894cd6bdf86a5dc6ba6c300750a63569574135396fc2a72fd64eb5",
+  "changesOutsidePlanningFiles": [],
+  "totalItems": 200,
+  "uniqueIds": 200,
+  "uniqueTitles": 200,
+  "homologousFamilies": 100,
+  "distinctPhysicalCues": 100,
+  "totalMoments": 600,
+  "targetOccurrencesChecked": 1208,
+  "distinctTargetWordIds": 123,
+  "distribution": {
+    "habitual": {
+      "total": 100,
+      "causalTypes": {
+        "impacte": 20,
+        "suport-barrera": 20,
+        "transferencia": 20,
+        "deformacio": 20,
+        "mecanisme": 20
+      },
+      "framesPerImage": {
+        "3": 100
+      },
+      "agents": {
+        "NENA": 17,
+        "NEN": 17,
+        "NOIA": 17,
+        "NOI": 17,
+        "DONA": 16,
+        "HOME": 16
+      },
+      "outcomesWithCaceTerm": 93,
+      "adultOnly": 1
+    },
+    "insolita": {
+      "total": 100,
+      "causalTypes": {
+        "impacte": 20,
+        "suport-barrera": 20,
+        "transferencia": 20,
+        "deformacio": 20,
+        "mecanisme": 20
+      },
+      "framesPerImage": {
+        "3": 100
+      },
+      "agents": {
+        "CONILL": 10,
+        "GAT": 10,
+        "GOS": 10,
+        "ÓS": 10,
+        "MICO": 10,
+        "VACA": 10,
+        "ZEBRA": 10,
+        "RUC": 10,
+        "PORC": 10,
+        "ESQUIROL": 10
+      },
+      "outcomesWithCaceTerm": 93,
+      "adultOnly": 1
+    }
+  },
+  "authorization": {
+    "planning": true,
+    "generation": false,
+    "import": false,
+    "publication": false
+  },
+  "planSha256": "125597901c87411ea36115c10647f5a660c434143c7454ea3f681125b8d44533",
+  "readablePlanSha256": "9a15c3a5123d1d670bc210438ccd15be16e15ef78db548dafe08b603c49985c7"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-001",
+    "number": 1,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-001",
+    "counterpartId": "n10-101",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · jugar · pilota / construccions → caure"
+    },
+    "labels": [
+      "NENA",
+      "JUGAR",
+      "PILOTA",
+      "CONSTRUCCIONS",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-6d90f16f5461",
+      "w-b7f578451973",
+      "w-d92d094286cd",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "JUGAR",
+      "wordId": "w-6d90f16f5461"
+    },
+    "referents": [
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "CONSTRUCCIONS",
+        "wordId": "w-d92d094286cd"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una torre de blocs és dreta davant de la pilota."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "La pilota que fa rodar toca el bloc de baix i l’empeny de costat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota queda al costat de la torre caiguda."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota amb franja i quatre blocs bicolors, tots visibles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "b3ca58a5ee9028f96b9134502b90b6217c87cbb78bce5a1ef2b6fb7ab7e13662",
+      "file": "output/production/n10/n10-001/image.png",
+      "prompt": "Create one wide landscape raster picture for classroom causal language practice, a horizontal photographic triptych with exactly three equal clear panels, wide white gutters and pure white studio background, same camera and full figure each time. Each panel has the same school-age girl in the same teal shirt and jeans kneeling on a white floor next to exactly one small white foam ball with a purple stripe and exactly four large bicolor rectangular toy blocks, blue ends and natural wood sides. LEFT: her hand is on the striped ball ready to roll it, with a clear small gap between the ball and a vertical tower of four blocks stacked on their broad faces. CENTER: the ball has rolled into the base and the surface of the striped ball is visibly pressing directly against the lowest block, which shifts sideways relative to the three above and makes the tower visibly tip away. Her hands are clearly back at her body. RIGHT: all four of the same blocks are clearly countable, toppled as a low scattered group near exactly the same ball resting on the floor. No extra blocks, objects or actors. Physically plausible support and gravity, realistic anatomy, identical ball and block dimensions, grounded contact shadows. Leave white margin around her head, knees, shoes and all objects. No text, numbers, arrows, lines of motion, logos or watermark. Wide horizontal 3:2 synthetic photorealistic studio photography.",
+      "review": "El punt d’impacte és visible a la base. Els quatre blocs són presents en cada vinyeta, amb la torre inclinada només al contacte i els blocs estirats al final. La mateixa pilota, la postura i l’escala són coherents.",
+      "reviewedAt": "2026-11-21T15:40:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create one wide landscape raster picture for classroom causal language practice, a horizontal photographic triptych with exactly three equal clear panels, wide white gutters and pure white studio background, same camera and full figure each time. Each panel has the same school-age girl in the same teal shirt and jeans kneeling on a white floor next to exactly one small white foam ball with a purple stripe and exactly four large bicolor rectangular toy blocks, blue ends and natural wood sides. LEFT: her hand is on the striped ball ready to roll it, with a clear small gap between the ball and a vertical tower of four blocks stacked on their broad faces. CENTER: the ball has rolled into the base and the surface of the striped ball is visibly pressing directly against the lowest block, which shifts sideways relative to the three above and makes the tower visibly tip away. Her hands are clearly back at her body. RIGHT: all four of the same blocks are clearly countable, toppled as a low scattered group near exactly the same ball resting on the floor. No extra blocks, objects or actors. Physically plausible support and gravity, realistic anatomy, identical ball and block dimensions, grounded contact shadows. Leave white margin around her head, knees, shoes and all objects. No text, numbers, arrows, lines of motion, logos or watermark. Wide horizontal 3:2 synthetic photorealistic studio photography.",
+  "review": "El punt d’impacte és visible a la base. Els quatre blocs són presents en cada vinyeta, amb la torre inclinada només al contacte i els blocs estirats al final. La mateixa pilota, la postura i l’escala són coherents.",
+  "alt": {
+    "ca": "Una nena fa rodar una pilota contra la base d’una torre de quatre blocs i la tomba.",
+    "es": "Una niña hace rodar una pelota contra la base de una torre de cuatro bloques y la derriba."
+  },
+  "originalSha256": "b3ca58a5ee9028f96b9134502b90b6217c87cbb78bce5a1ef2b6fb7ab7e13662",
+  "file": "output/production/n10/n10-001/image.png",
+  "width": 1536,
+  "height": 1024,
+  "created": "2026-11-21T15:40:29+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,3 +1,9 @@
+# N10 · Producció i publicació autoritzades
+
+L’usuari aprova el pla de 200 estímuls i autoritza generar, revisar individualment i publicar N10 per lots. Verificar el desencadenant, el mecanisme físic i la conseqüència de cada imatge, amb continuïtat d’agent, referents i quantitats. Preservar les 4.069 imatges i les 861 entrades del catàleg 0.1.159 i comprovar el banc per SHA-256. Pla a `production/n10-plan.json`, progrés a `production/n10-progress.json`, originals a `output/production/n10/` i revisions a `production/n10/`.
+
+---
+
 # N9 · 200 imatges completades i publicades · 21/11/2026
 
 200/200 N9 revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.159: 4069 imatges i 861 entrades CACE. Les 3869 imatges anteriors i les quatre N9 existents en reprendre es preserven exactament. Les 200 descàrregues públiques han estat verificades amb SHA-256 a 2026-11-21T14:58:37Z.

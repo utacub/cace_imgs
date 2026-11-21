@@ -1,5 +1,5 @@
 {
-  "version": "0.1.159",
+  "version": "0.1.160",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,152 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n10-001",
+      "src": "assets/constructions/n10/n10-001.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nena · jugar · pilota / construccions → caure",
+        "es": "NIÑA · JUGAR · PELOTA · CONSTRUCCIONES · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una nena fa rodar una pilota contra la base d’una torre de quatre blocs i la tomba.",
+        "es": "Una niña hace rodar una pelota contra la base de una torre de cuatro bloques y la derriba."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-d92d094286cd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-d92d094286cd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:40:29+00:00",
+      "target": "n10-001",
+      "constructionId": "n10-001",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una torre de blocs és dreta davant de la pilota."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La pilota que fa rodar toca el bloc de baix i l’empeny de costat."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La pilota queda al costat de la torre caiguda."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una pilota amb franja i quatre blocs bicolors, tots visibles."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "b3ca58a5ee9028f96b9134502b90b6217c87cbb78bce5a1ef2b6fb7ab7e13662",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5128a57dd86ce068ff11bed5e3cdc5bb1fa630f3ff4122f5c88ca513b6bd9a13"
+    },
+    {
+      "id": "cace-n10-101",
+      "src": "assets/constructions/n10/n10-101.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "conill · jugar · pilota / construccions → caure",
+        "es": "CONEJO · JUGAR · PELOTA · CONSTRUCCIONES · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un conill fa rodar una pilota contra una torre de quatre blocs. L’impacte tomba la torre.",
+        "es": "Un conejo hace rodar una pelota contra una torre de cuatro bloques. El impacto derriba la torre."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-d92d094286cd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-b7f578451973",
+        "w-d92d094286cd",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:40:29+00:00",
+      "target": "n10-101",
+      "constructionId": "n10-101",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una torre de blocs és dreta davant de la pilota."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "La pilota que fa rodar toca el bloc de baix i l’empeny de costat."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La pilota queda al costat de la torre caiguda."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una pilota amb franja i quatre blocs bicolors, tots visibles."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "b5eaca5b6c364a4dc76a72efb71f9515199eb1d4f6e47d429d1c5c7f5f2dace6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7e5e8dc83c3e67b38a0e4a9f9b08aa88b37955ecda58412121fa7e60ea212652"
+    },
     {
       "id": "cace-n9-094",
       "src": "assets/constructions/n9/n9-094.webp",
@@ -174132,6 +174278,14 @@
         "cace-n9-198",
         "cace-n9-199",
         "cace-n9-200"
+      ]
+    },
+    {
+      "id": "cace-n10-causes",
+      "name": "N10 · Causes",
+      "items": [
+        "cace-n10-001",
+        "cace-n10-101"
       ]
     }
   ]
