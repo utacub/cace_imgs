@@ -1,0 +1,112 @@
+{
+  "constructionId": "n9-064",
+  "file": "output/production/n9/n9-064/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has deep brown skin and short natural curly hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOI (young adult man). Continuity anchor: la galleda metàl·lica de boca ampla amb dues ranures. Ordered moments in Catalan: PANEL 1: Galleda sense motiu exterior i amb les dues ranures descobertes. PANEL 2: El pinzell omple la segona de tres franges gruixudes. La primera ja és pintada. PANEL 3: Acabat amb tres franges grosses. El metall es manté visible al peu i al voltant de les ranures.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-064",
+    "number": 64,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "aspecte",
+    "familyId": "n9-f-064",
+    "counterpartId": "n9-164",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · pintar — galleda"
+    },
+    "labels": [
+      "NOI",
+      "PINTAR",
+      "GALLEDA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-b04a48827310",
+      "w-7f04619a8649",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "actions": [
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      }
+    ],
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": null,
+        "evidence": "Galleda sense motiu exterior i amb les dues ranures descobertes."
+      },
+      {
+        "number": 2,
+        "role": "transicio",
+        "actionWordId": "w-b04a48827310",
+        "evidence": "El pinzell omple la segona de tres franges gruixudes. La primera ja és pintada."
+      },
+      {
+        "number": 3,
+        "role": "final",
+        "actionWordId": null,
+        "evidence": "Acabat amb tres franges grosses. El metall es manté visible al peu i al voltant de les ranures."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la galleda metàl·lica de boca ampla amb dues ranures"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T13:30:57.294Z",
+  "review": "Galleda metàl·lica estable, primera franja i pintura en procés, tres bandes vermelles finals; agafada i proporcions naturals.",
+  "alt": {
+    "ca": "noi · pintar — galleda.",
+    "es": "CHICO · PINTAR · CUBO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "3c381d05247a2f3163f24fbcde0382cbe131f24f260bca690fce7805ae6a9465",
+  "width": 2149,
+  "height": 732,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T13:34:47.155Z",
+  "publicationVersion": "0.1.154",
+  "importedAt": "2026-11-21T13:35:15.485636+00:00"
+}

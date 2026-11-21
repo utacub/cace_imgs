@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-156",
   "file": "output/production/n9/n9-156/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ESQUIROL. Continuity anchor: la rajola sense marca amb relleu rectangular. Ordered moments in Catalan: PANEL 1: Rajola sencera de quatre files sobre una safata. PANEL 2: Parteix la rajola amb totes dues mans per una incisió. Es veu l’escletxa del trencament. PANEL 3: Dues peces grans, una amb una sola fila i l’altra amb tres, ensenyen les vores fracturades.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Edit only the chocolate geometry to enforce conservation. First panel exactly a THREE rows by FOUR columns chocolate bar (12 rectangular squares). Middle panel same 3 by 4 bar, fracture vertically ONE COLUMN FROM THE RIGHT, separating a 3 by 3 piece from a 3 by 1 strip. Last panel left piece 3 rows by 3 columns (9) and right strip 3 rows by 1 column (3), equal square dimensions to first panel; arrange strip vertically on tray beside larger piece, with complementary jagged fracture edges. Preserve squirrel, anatomy, table, tray, all other visuals, white background, three panels. No text or graphic marks.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-156",
     "number": 156,
@@ -96,5 +96,25 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T13:23:39.177Z"
+  "created": "2026-11-21T13:23:39.177Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-156/rejected-01.png",
+      "reason": "La rajola perd preses i la fractura central no correspon al fragment final.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ESQUIROL. Continuity anchor: la rajola sense marca amb relleu rectangular. Ordered moments in Catalan: PANEL 1: Rajola sencera de quatre files sobre una safata. PANEL 2: Parteix la rajola amb totes dues mans per una incisió. Es veu l’escletxa del trencament. PANEL 3: Dues peces grans, una amb una sola fila i l’altra amb tres, ensenyen les vores fracturades.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T13:26:34.193Z"
+    }
+  ],
+  "review": "Corregida: dotze preses, fractura lateral i fragments de nou i tres preses; dimensions, safata i esquirol estables.",
+  "alt": {
+    "ca": "esquirol · trencar — xocolata.",
+    "es": "ARDILLA · ROMPER · CHOCOLATE · ANTES · DESPUÉS."
+  },
+  "originalSha256": "f66ffda4724c99ea798f927941b2d3213cc1531b2e57f7786d3331c9de439f37",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T13:27:57.225Z",
+  "publicationVersion": "0.1.154",
+  "importedAt": "2026-11-21T13:35:16.153589+00:00"
 }
