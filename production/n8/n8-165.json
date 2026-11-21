@@ -1,0 +1,125 @@
+{
+  "constructionId": "n8-165",
+  "file": "output/production/n8/n8-165/image.png",
+  "prompt": "Use case: scientific-educational. ONE finished CACE classroom image. Clean flat 2D illustration of two friendly anthropomorphic animals, solid colors and simple clear outlines, no photo textures. Real recognizable species, no costumes or extra human limbs. Pure white seamless background. Landscape composition. Leave at least 7 percent white border on all sides around every complete body and prop: full heads, hands, feet and tails inside the frame. Two equally prominent participants at comparable visual scale in ONE continuous shared floor and perspective, close enough to belong to the same scene. No panels, separators, collage, repeated participant or timeline. First participant: zebra, on the RIGHT. Second participant: giraffe, on the LEFT. Follow exactly these two simultaneous events (Catalan specification): Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a dreta: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. GIRAFA a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada. Critical anatomy: normal upper arms, forearms, hands, torso and legs; plausible joints, grip and weight support. Bring objects and furniture within normal reach, adjust support height or bend knees; NEVER elongate limbs. Keep hands assigned to their own participant and prop, no cross-contact. For sleep, eyes clearly closed with head on pillow and body fully supported. For laughing/crying, make facial evidence readable without symbols; never suggest ridicule or a cause. No text, letters, numbers, brands, logos, watermark, speech balloons, motion lines or graphic symbols anywhere. Book pages, paper and packages blank. Exactly two target events, no additional active characters. STRICT minimal objects: ONLY CAIXA, PINZELL, TAULA. No extra furniture, desks, pencils, cups, paper or books. Do not add school supplies. Each participant stands naturally except SEURE (seated on ONE bare chair), DORMIR (lying on bed), and SALTAR (airborne low jump). In LLEGIR the reader STANDS holding the book, NO chair or desk. In RIURE or PLORAR the participant STANDS, with hands relaxed beside body and no objects. Only furniture explicitly needed by the target action is allowed.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n8-165",
+    "number": 165,
+    "level": 8,
+    "group": "insolita",
+    "eventType": "accio-estat",
+    "familyId": "n8-f-065",
+    "counterpartId": "n8-065",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · pintar · caixa / girafa · riure"
+    },
+    "labels": [
+      "ZEBRA",
+      "PINTAR",
+      "CAIXA",
+      "GIRAFA",
+      "RIURE"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-b04a48827310",
+      "w-696b7c739d30",
+      "w-e60f76be7b6c",
+      "w-8a560cbf66b0"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "events": [
+      {
+        "id": "e1",
+        "type": "accio",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "ZEBRA",
+            "wordId": "w-0dc8fba9677d"
+          },
+          {
+            "role": "action",
+            "label": "PINTAR",
+            "wordId": "w-b04a48827310"
+          },
+          {
+            "role": "patient",
+            "label": "CAIXA",
+            "wordId": "w-696b7c739d30"
+          }
+        ],
+        "labels": [
+          "ZEBRA",
+          "PINTAR",
+          "CAIXA"
+        ],
+        "wordIds": [
+          "w-0dc8fba9677d",
+          "w-b04a48827310",
+          "w-696b7c739d30"
+        ],
+        "evidence": "Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima.",
+        "context": [
+          {
+            "label": "PINZELL",
+            "wordId": "w-33df96705776"
+          },
+          {
+            "label": "TAULA",
+            "wordId": "w-1544f4efec59"
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "type": "estat",
+        "roles": [
+          {
+            "role": "agent",
+            "label": "GIRAFA",
+            "wordId": "w-e60f76be7b6c"
+          },
+          {
+            "role": "state",
+            "label": "RIURE",
+            "wordId": "w-8a560cbf66b0"
+          }
+        ],
+        "labels": [
+          "GIRAFA",
+          "RIURE"
+        ],
+        "wordIds": [
+          "w-e60f76be7b6c",
+          "w-8a560cbf66b0"
+        ],
+        "evidence": "Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so.",
+        "context": []
+      }
+    ],
+    "relation": {
+      "type": "coexistencia-en-un-mateix-instant",
+      "wordId": null,
+      "simultaneous": true,
+      "causalClaim": false,
+      "temporalOrder": false
+    },
+    "composition": {
+      "event1Side": "dreta",
+      "event2Side": "esquerra",
+      "sharedSpace": true,
+      "frameCount": 1
+    },
+    "visualDescription": "Dos participants en una mateixa escena contínua i en un únic instant. ZEBRA a dreta: Pinzell en contacte amb una cara d’una caixa petita, deixant una franja fresca de pintura; caixa damunt una taula baixa pròxima. GIRAFA a esquerra: Rostre prou gran amb somriure obert, galtes elevades i ulls lleument entretancats; cos estable, mans en repòs i sense llàgrimes ni símbols de so. Cadascun té el seu espai de treball a l’abast; cap contacte entre agents ni pacients intercanviats. Mateix terra i perspectiva, cap separador ni vinyeta. Dos animals antropomòrfics amables, amb cos sencer i espècie recognoscible; dibuix pla. Fons blanc, marges amplis, sense text ni marques. Exactament dues predicacions objectiu; no hi ha abans/després ni causa representada.",
+    "compositionKey": "w-0dc8fba9677d|w-b04a48827310|w-696b7c739d30||w-e60f76be7b6c|w-8a560cbf66b0",
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T09:35:26.634Z"
+}
