@@ -1,6 +1,6 @@
 {
   "level": 9,
-  "status": "active",
+  "status": "complete",
   "authorization": {
     "date": "2026-11-21",
     "instruction": "Continua generant, revisant i publicant les 196 imatges N9 que falten, vigilant les proporcions, la perspectiva i la coherència entre vinyetes.",
@@ -9,22 +9,8 @@
     "publication": true
   },
   "planned": 200,
-  "complete": 187,
-  "pending": [
-    "n9-094",
-    "n9-095",
-    "n9-096",
-    "n9-097",
-    "n9-098",
-    "n9-099",
-    "n9-100",
-    "n9-195",
-    "n9-196",
-    "n9-197",
-    "n9-198",
-    "n9-199",
-    "n9-200"
-  ],
+  "complete": 200,
+  "pending": [],
   "baseline": {
     "head": "20df65c4388ac192c6713b929ff8670583986699",
     "version": "0.1.145",
@@ -32,11 +18,11 @@
     "words": 861,
     "catalogSha256": "f0c655871dac52b8b11acc7beaab6fbb9aba7ad5552be244009e634ace4be921"
   },
-  "updated": "2026-11-21T14:31:06.021Z",
-  "completedHabitual": 93,
-  "completedInsolita": 94,
-  "catalogVersion": "0.1.158",
-  "imported": 185,
+  "updated": "2026-11-21T14:53:12.969Z",
+  "completedHabitual": 100,
+  "completedInsolita": 100,
+  "catalogVersion": "0.1.159",
+  "imported": 200,
   "collectionId": "cace-n9-sequencies",
   "publicationAuthorization": {
     "date": "2026-11-21",
@@ -59,12 +45,12 @@
       "resolution": "Tres intents descartats; vista posterior i edició de la coberta oberta a esquerra amb mides igualades a la pàgina."
     }
   ],
-  "publicVerified": 173,
-  "publicVersion": "0.1.157",
-  "publicVerifiedAt": "2026-11-21T14:26:12Z",
+  "publicVerified": 185,
+  "publicVersion": "0.1.158",
+  "publicVerifiedAt": "2026-11-21T14:38:53Z",
   "lastDeployment": {
-    "commit": "f66bc25",
-    "publicVerification": "output/n9-publication-0.1.157.json",
+    "commit": "b07bbe2",
+    "publicVerification": "output/n9-publication-0.1.158.json",
     "status": "public-catalog-and-downloads-verified"
   },
   "resumeBaseline": {

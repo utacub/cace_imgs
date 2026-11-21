@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-198",
   "file": "output/production/n9/n9-198/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: RUC. Continuity anchor: les quatre peces de fusta amb cantells fàcilment distingibles. Ordered moments in Catalan: PANEL 1: Quatre blocs separats sobre una mateixa base de treball. PANEL 2: Encaixa el tercer bloc damunt dels dos de la base. El quart és a la vora. PANEL 3: Els quatre blocs formen un pont baix amb un buit central, sense peces lliures.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Middle and last panel wooden blocks still too long. Make exact correction: PANEL2 shorten the top held block by 40 percent, so its width equals ONE individual base block (roughly 85 pixels). Move the two base blocks closer so only a 15-pixel gap remains and this shorter third block bridges them. Fourth loose block unchanged. PANEL3 shorten EACH of the two top blocks to match the width of ONE base block (about 85 pixels), move base blocks together leaving only a 15-pixel gap; top two meet above center. All four block lengths exactly match panel1 individual block length. Preserve donkey, hand grip following shorter block, table, white background, first panel unchanged. No extra blocks or merged beam.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-198",
     "number": 198,
@@ -96,5 +96,31 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T14:16:44.057Z"
+  "created": "2026-11-21T14:16:44.057Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-198/rejected-01.png",
+      "reason": "El tercer bloc es converteix en una biga massa llarga.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: RUC. Continuity anchor: les quatre peces de fusta amb cantells fàcilment distingibles. Ordered moments in Catalan: PANEL 1: Quatre blocs separats sobre una mateixa base de treball. PANEL 2: Encaixa el tercer bloc damunt dels dos de la base. El quart és a la vora. PANEL 3: Els quatre blocs formen un pont baix amb un buit central, sense peces lliures.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T14:46:38.840Z"
+    },
+    {
+      "file": "output/production/n9/n9-198/rejected-02.png",
+      "reason": "El tercer bloc encara supera la longitud dels inicials.",
+      "prompt": "Correct ONLY block dimensions while preserving donkey, anatomy and table. Four IDENTICAL wooden rectangular cuboids, each length about 1.8 times its depth and height. Same physical dimensions throughout. Panel1 four separate matching blocks, oriented with their long 110px side facing camera. Panel2 two base blocks below with a small central gap about 60px, third block on top under donkey's hand has exactly same 110px length as each base (not one huge beam), fourth identical block aside. Panel3 exactly two matching blocks below separated by small gap and two matching blocks above meeting at center, forming stable low bridge. Every block same size as first across all panels; no growth or fusion. No text or extra pieces.",
+      "rejectedAt": "2026-11-21T14:50:06.506Z"
+    }
+  ],
+  "review": "Corregida la longitud dels blocs superiors; quatre peces conservades, pont baix amb buit i contacte de la mà, mateix ruc i perspectiva.",
+  "alt": {
+    "ca": "ruc · posar — construccions.",
+    "es": "BURRO · PONER · CONSTRUCCIONES · ANTES · DESPUÉS."
+  },
+  "originalSha256": "4a225f1c411d794edace18c14f947321b539a3b92a723414aad3c3d1f30f2479",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T14:53:12.932Z",
+  "publicationVersion": "0.1.159",
+  "importedAt": "2026-11-21T14:53:19.368883+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.158",
+  "version": "0.1.159",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1194 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-094",
+      "src": "assets/constructions/n9/n9-094.webp",
+      "title": {
+        "ca": "noi · classificar — anell / caixa",
+        "es": "CHICO · CLASIFICAR · ANILLO · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · classificar — anell / caixa.",
+        "es": "CHICO · CLASIFICAR · ANILLO · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-837cfa89f5df",
+        "w-3637247e36f7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-837cfa89f5df",
+        "w-3637247e36f7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.926Z",
+      "target": "n9-094",
+      "constructionId": "n9-094",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Anells de dues mides formant un sol munt, amb la caixa buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Deixa un anell petit en un compartiment, amb un de gran a l’altre i peces pendents fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els anells petits i grans són en compartiments diferents. El munt inicial ha desaparegut."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos anells grans i petits i una caixa plana amb un separador"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f72e4b2345168039d05c8538f9627ce1ea0771504297ba2018ba32fbaa0cb051",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2f245da9f3bb5bcc8704689fc0c502a492e4baa34b0c0e8bba64f075605ec6d7"
+    },
+    {
+      "id": "cace-n9-095",
+      "src": "assets/constructions/n9/n9-095.webp",
+      "title": {
+        "ca": "dona · classificar — collaret / caixa",
+        "es": "MUJER · CLASIFICAR · COLLAR · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · classificar — collaret / caixa.",
+        "es": "MUJER · CLASIFICAR · COLLAR · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-837cfa89f5df",
+        "w-072184ba0291",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-837cfa89f5df",
+        "w-072184ba0291",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.151Z",
+      "target": "n9-095",
+      "constructionId": "n9-095",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Collarets estesos barrejant tots dos materials."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Col·loca un collaret de fusta amb un altre de fusta. Un de metall ja reposa a l’altra safata."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tots els de fusta són en una safata i tots els de metall a l’altra, sense apilar-los."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "sis collarets amb comptes de fusta o de metall i una caixa de dues safates"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "c7a501a13be46babaccd61e5edfb3e520da973705ba1d93dfec82d224f606667",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "63b7d1145a2fa09ebb3c018fde6c24c11e5534765694b8289890b9adff0ff140"
+    },
+    {
+      "id": "cace-n9-096",
+      "src": "assets/constructions/n9/n9-096.webp",
+      "title": {
+        "ca": "home · posar — peces / puzle",
+        "es": "HOMBRE · PONER · PIEZAS · PUZZLE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · posar — peces / puzle.",
+        "es": "HOMBRE · PONER · PIEZAS · PUZZLE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-776ec487889f",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-776ec487889f",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.370Z",
+      "target": "n9-096",
+      "constructionId": "n9-096",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Quatre peces fora del tauler buit. L’ull de la balena es veu en una peça."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Encaixa la tercera peça. Dues són al seu lloc i es veu l’encaix buit que falta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les quatre peces formen una balena sencera i no en queda cap fora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el puzle de quatre peces grosses amb la imatge d’una balena"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "3f17be319a60f2951731942ca2120413879c12652a9eaa6de273a988893dc732",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1741d8c605c3f7c9eeb5aa5232255355b16d21065dc5bcc7ad63b57048b2a958"
+    },
+    {
+      "id": "cace-n9-097",
+      "src": "assets/constructions/n9/n9-097.webp",
+      "title": {
+        "ca": "nena · posar — gomets / fitxa",
+        "es": "NIÑA · PONER · PEGATINAS · FICHA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · posar — gomets / fitxa.",
+        "es": "NIÑA · PONER · PEGATINAS · FICHA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-aefa398e3d70",
+        "w-bbb632324402",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-aefa398e3d70",
+        "w-bbb632324402",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.596Z",
+      "target": "n9-097",
+      "constructionId": "n9-097",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Fitxa buida i paper de suport amb tots els gomets sencers."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca el tercer gomet sobre la banda. Ja n’hi ha dos de posats i dos espais buits al suport."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Cinc gomets fan una fila a la fitxa. Tots cinc cercles del suport s’han buidat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la fitxa amb una banda llisa i els gomets circulars grossos"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a1323c043fa764c0bcbb390d2574feaa15c4ea1c12e111c90468f2081b2f25d0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f26bf4316389145f15d96c9826a3de277218955abdd3ee9bb9459f00cf35592d"
+    },
+    {
+      "id": "cace-n9-098",
+      "src": "assets/constructions/n9/n9-098.webp",
+      "title": {
+        "ca": "nen · posar — construccions",
+        "es": "NIÑO · PONER · CONSTRUCCIONES · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · posar — construccions.",
+        "es": "NIÑO · PONER · CONSTRUCCIONES · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-c211f7486a30",
+        "w-d92d094286cd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-c211f7486a30",
+        "w-d92d094286cd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.840Z",
+      "target": "n9-098",
+      "constructionId": "n9-098",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Quatre blocs separats sobre una mateixa base de treball."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Encaixa el tercer bloc damunt dels dos de la base. El quart és a la vora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els quatre blocs formen un pont baix amb un buit central, sense peces lliures."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les quatre peces de fusta amb cantells fàcilment distingibles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "477c767b95d49bce917921b322e382d1db64319b754ca01b9997fbec1181cb09",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "545934a4e70af32fd2d62d88990614631f78165e22c54e4bb34d305c627eddf1"
+    },
+    {
+      "id": "cace-n9-099",
+      "src": "assets/constructions/n9/n9-099.webp",
+      "title": {
+        "ca": "noia · posar — anelles",
+        "es": "CHICA · PONER · ANILLAS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · posar — anelles.",
+        "es": "CHICA · PONER · ANILLAS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-318e0675051a",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-318e0675051a",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:44.186Z",
+      "target": "n9-099",
+      "constructionId": "n9-099",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres anelles separades a terra i eix lliure."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Fa baixar l’anella mitjana per l’eix. La gran ja és a la base i la petita és fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les tres anelles queden apilades amb mida decreixent i el terra és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "tres anelles gruixudes de diàmetres diferents i un suport amb eix vertical baix"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "b77976bed3d992818f9ded26f719d674b849fe0e9a7ce347c46080066e10cd9f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3fefaedb3c96d0e2accb79dcfebfe7a94b5c67055c8afba02dae416f8aaf58ae"
+    },
+    {
+      "id": "cace-n9-100",
+      "src": "assets/constructions/n9/n9-100.webp",
+      "title": {
+        "ca": "noi · posar — braçalet",
+        "es": "CHICO · PONER · PULSERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · posar — braçalet.",
+        "es": "CHICO · PONER · PULSERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-8e480bbd82cc",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-8e480bbd82cc",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:44.415Z",
+      "target": "n9-100",
+      "constructionId": "n9-100",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Cordó de braçalet estès amb totes les peces fora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Insereix la tercera peça pel cap lliure. Dues ja són al cordó al costat del nus."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Braçalet complet, amb totes quatre peces reunides al voltant del cordó i cap peça fora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cordó del braçalet amb un nus gros i les quatre peces perforades"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "3c8f7c060189a8e0376d364d58ec09adddae614aeb60446b5fce9a11f0aa796b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "38e48930dc00104477a1eb370f37d4b42dbdadc187c90838e35e7ef723616387"
+    },
+    {
+      "id": "cace-n9-193",
+      "src": "assets/constructions/n9/n9-193.webp",
+      "title": {
+        "ca": "gos · classificar — roba / cistell",
+        "es": "PERRO · CLASIFICAR · ROPA · CESTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · classificar — roba / cistell.",
+        "es": "PERRO · CLASIFICAR · ROPA · CESTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-837cfa89f5df",
+        "w-7dc88016e698",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-837cfa89f5df",
+        "w-7dc88016e698",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:42.827Z",
+      "target": "n9-193",
+      "constructionId": "n9-193",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Els mitjons, amb longituds clarament diferents, són barrejats entre els cistells buits."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Posa un mitjó llarg al cistell que ja té un de llarg. A l’altre n’hi ha un de curt."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Cada cistell té els tres mitjons de la seva mida. No queda cap peça entre els cistells."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els sis mitjons de dues mides i dos cistells baixos amb trames diferents"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4f434e65aa70645f7718d2052a7b5e75034cd4f4a14f9a03858c4293517b196d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "92881601d8f18c817bf1fbce9bd21810d531d7e13eb93db1601dd77cb310745a"
+    },
+    {
+      "id": "cace-n9-194",
+      "src": "assets/constructions/n9/n9-194.webp",
+      "title": {
+        "ca": "ós · classificar — anell / caixa",
+        "es": "OSO · CLASIFICAR · ANILLO · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · classificar — anell / caixa.",
+        "es": "OSO · CLASIFICAR · ANILLO · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-837cfa89f5df",
+        "w-3637247e36f7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-837cfa89f5df",
+        "w-3637247e36f7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.037Z",
+      "target": "n9-194",
+      "constructionId": "n9-194",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Anells de dues mides formant un sol munt, amb la caixa buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Deixa un anell petit en un compartiment, amb un de gran a l’altre i peces pendents fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els anells petits i grans són en compartiments diferents. El munt inicial ha desaparegut."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos anells grans i petits i una caixa plana amb un separador"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "87f82551c983d786ed7255ae1ac8574a338265d456aecd883c13ff13779a5b53",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "43c408bbee7bdafc12b0557654eddeb86f1a37ad6b4d68860cc8c5ea1ffe7566"
+    },
+    {
+      "id": "cace-n9-195",
+      "src": "assets/constructions/n9/n9-195.webp",
+      "title": {
+        "ca": "mico · classificar — collaret / caixa",
+        "es": "MONO · CLASIFICAR · COLLAR · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · classificar — collaret / caixa.",
+        "es": "MONO · CLASIFICAR · COLLAR · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-837cfa89f5df",
+        "w-072184ba0291",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-837cfa89f5df",
+        "w-072184ba0291",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.270Z",
+      "target": "n9-195",
+      "constructionId": "n9-195",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Collarets estesos barrejant tots dos materials."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Col·loca un collaret de fusta amb un altre de fusta. Un de metall ja reposa a l’altra safata."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tots els de fusta són en una safata i tots els de metall a l’altra, sense apilar-los."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "sis collarets amb comptes de fusta o de metall i una caixa de dues safates"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "6ff925b843fc3c2d102fd64edf458d130b1ab6ad64287660aede98b1e84bdb95",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b699aa67c5db24494279af632b3c8c2e7312cd526fa596f1c399e5ea9e179230"
+    },
+    {
+      "id": "cace-n9-196",
+      "src": "assets/constructions/n9/n9-196.webp",
+      "title": {
+        "ca": "esquirol · posar — peces / puzle",
+        "es": "ARDILLA · PONER · PIEZAS · PUZZLE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · posar — peces / puzle.",
+        "es": "ARDILLA · PONER · PIEZAS · PUZZLE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-c211f7486a30",
+        "w-776ec487889f",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-c211f7486a30",
+        "w-776ec487889f",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.484Z",
+      "target": "n9-196",
+      "constructionId": "n9-196",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Quatre peces fora del tauler buit. L’ull de la balena es veu en una peça."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Encaixa la tercera peça. Dues són al seu lloc i es veu l’encaix buit que falta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les quatre peces formen una balena sencera i no en queda cap fora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el puzle de quatre peces grosses amb la imatge d’una balena"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "d018df7fead1c6b5164d015666dafa80d1b9e34dcbe9cbe055836c22de0698df",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "456489bd1fb06ee8feab8d287ff1392cc2fcda3aba1a8f1d0d00df0429072eb5"
+    },
+    {
+      "id": "cace-n9-197",
+      "src": "assets/constructions/n9/n9-197.webp",
+      "title": {
+        "ca": "elefant · posar — gomets / fitxa",
+        "es": "ELEFANTE · PONER · PEGATINAS · FICHA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · posar — gomets / fitxa.",
+        "es": "ELEFANTE · PONER · PEGATINAS · FICHA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-c211f7486a30",
+        "w-aefa398e3d70",
+        "w-bbb632324402",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-c211f7486a30",
+        "w-aefa398e3d70",
+        "w-bbb632324402",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:43.694Z",
+      "target": "n9-197",
+      "constructionId": "n9-197",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Fitxa buida i paper de suport amb tots els gomets sencers."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Col·loca el tercer gomet sobre la banda. Ja n’hi ha dos de posats i dos espais buits al suport."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Cinc gomets fan una fila a la fitxa. Tots cinc cercles del suport s’han buidat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la fitxa amb una banda llisa i els gomets circulars grossos"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "ac7694f39872a8909ccf89805c68fea6b08d119deb9f40765250eb040b116b16",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a4dc5f877d5a6feea44222e9e4c9b437b85dace1cb2c9410f8d22336977c1f0e"
+    },
+    {
+      "id": "cace-n9-198",
+      "src": "assets/constructions/n9/n9-198.webp",
+      "title": {
+        "ca": "ruc · posar — construccions",
+        "es": "BURRO · PONER · CONSTRUCCIONES · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · posar — construccions.",
+        "es": "BURRO · PONER · CONSTRUCCIONES · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-c211f7486a30",
+        "w-d92d094286cd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-c211f7486a30",
+        "w-d92d094286cd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:44.057Z",
+      "target": "n9-198",
+      "constructionId": "n9-198",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Quatre blocs separats sobre una mateixa base de treball."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Encaixa el tercer bloc damunt dels dos de la base. El quart és a la vora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els quatre blocs formen un pont baix amb un buit central, sense peces lliures."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les quatre peces de fusta amb cantells fàcilment distingibles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4a225f1c411d794edace18c14f947321b539a3b92a723414aad3c3d1f30f2479",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d80a7aa59fd1d079155e6bbd237dae1120771a882c4b93a804b092025919d157"
+    },
+    {
+      "id": "cace-n9-199",
+      "src": "assets/constructions/n9/n9-199.webp",
+      "title": {
+        "ca": "tortuga · posar — anelles",
+        "es": "TORTUGA · PONER · ANILLAS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · posar — anelles.",
+        "es": "TORTUGA · PONER · ANILLAS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-c211f7486a30",
+        "w-318e0675051a",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-c211f7486a30",
+        "w-318e0675051a",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:44.307Z",
+      "target": "n9-199",
+      "constructionId": "n9-199",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres anelles separades a terra i eix lliure."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Fa baixar l’anella mitjana per l’eix. La gran ja és a la base i la petita és fora."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les tres anelles queden apilades amb mida decreixent i el terra és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "tres anelles gruixudes de diàmetres diferents i un suport amb eix vertical baix"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "391b40d2fa43174bb846d4d72633c46f1a9599ee44ef2b256826da9be21185a6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3216453481187939faa23a6223a06d636ab5dc17ce53a5ae3185416318a0e428"
+    },
+    {
+      "id": "cace-n9-200",
+      "src": "assets/constructions/n9/n9-200.webp",
+      "title": {
+        "ca": "porc · posar — braçalet",
+        "es": "CERDO · PONER · PULSERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · posar — braçalet.",
+        "es": "CERDO · PONER · PULSERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-8e480bbd82cc",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-8e480bbd82cc",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T14:16:44.687Z",
+      "target": "n9-200",
+      "constructionId": "n9-200",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Cordó de braçalet estès amb totes les peces fora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Insereix la tercera peça pel cap lliure. Dues ja són al cordó al costat del nus."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Braçalet complet, amb totes quatre peces reunides al voltant del cordó i cap peça fora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cordó del braçalet amb un nus gros i les quatre peces perforades"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7420b1ad9fcda7f518162b229c3186bba41cbf2eb60bb64ca3d063edcc092ce4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "cc7a6f582f4e407f593fbfaa676a8b387e5d2872997a3ec26cd9c067c6abc5d2"
+    },
     {
       "id": "cace-n9-087",
       "src": "assets/constructions/n9/n9-087.webp",
@@ -172928,7 +174116,22 @@
         "cace-n9-189",
         "cace-n9-190",
         "cace-n9-191",
-        "cace-n9-192"
+        "cace-n9-192",
+        "cace-n9-094",
+        "cace-n9-095",
+        "cace-n9-096",
+        "cace-n9-097",
+        "cace-n9-098",
+        "cace-n9-099",
+        "cace-n9-100",
+        "cace-n9-193",
+        "cace-n9-194",
+        "cace-n9-195",
+        "cace-n9-196",
+        "cace-n9-197",
+        "cace-n9-198",
+        "cace-n9-199",
+        "cace-n9-200"
       ]
     }
   ]
