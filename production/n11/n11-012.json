@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-012",
+    "number": 12,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-112",
+    "title": {
+      "ca": "El llapis a l’altra taula · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "DONAR",
+      "ESCRIURE",
+      "LLAPIS",
+      "PAPER",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-dd80e4e4de38",
+      "w-3472cd3a36ee",
+      "w-1775aa96869e",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que presta el llapis",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que acaba el traç",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-012",
+    "familyTitle": "El llapis a l’altra taula",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "ESCRIURE",
+        "wordId": "w-3472cd3a36ee"
+      },
+      {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B indica el final del bucle al seu full i mostra l’estot buit. A té el llapis entre els dits."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ofereix a B el llapis per la zona sense punta a través de l’espai entre taules contigües."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B tanca el bucle amb la punta en contacte amb el paper. A manté la mà oberta prop del cantell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B torna el llapis de dues franges i el bucle ara tancat queda de cara a tots dos."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un llapis amb dues franges fosques, un full amb un bucle interromput i un estot obert."
+    },
+    "narrative": "A presta el llapis quan veu el traç inacabat i B el retorna després de completar el bucle."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2e72c062958ea98a2b24b75f290d155319ba440c4cb5c00beaba51ca48cda25d",
+      "file": "output/production/n11/n11-012/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llapis a l’altra taula. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que presta el llapis; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que acaba el traç.\nRecurring visual anchors: Un llapis amb dues franges fosques, un full amb un bucle interromput i un estot obert.\n1. B indica el final del bucle al seu full i mostra l’estot buit. A té el llapis entre els dits.\n2. A ofereix a B el llapis per la zona sense punta a través de l’espai entre taules contigües.\n3. B tanca el bucle amb la punta en contacte amb el paper. A manté la mà oberta prop del cantell.\n4. B torna el llapis de dues franges i el bucle ara tancat queda de cara a tots dos.",
+      "review": "El bucle obert coincideix amb el punt que la dona indica. Un llapis passa de mà, completa el bucle i es torna amb el traç tancat a la vista.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llapis a l’altra taula. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que presta el llapis; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que acaba el traç.\nRecurring visual anchors: Un llapis amb dues franges fosques, un full amb un bucle interromput i un estot obert.\n1. B indica el final del bucle al seu full i mostra l’estot buit. A té el llapis entre els dits.\n2. A ofereix a B el llapis per la zona sense punta a través de l’espai entre taules contigües.\n3. B tanca el bucle amb la punta en contacte amb el paper. A manté la mà oberta prop del cantell.\n4. B torna el llapis de dues franges i el bucle ara tancat queda de cara a tots dos.",
+  "review": "El bucle obert coincideix amb el punt que la dona indica. Un llapis passa de mà, completa el bucle i es torna amb el traç tancat a la vista.",
+  "alt": {
+    "ca": "Un home deixa el seu llapis a una dona. Ella tanca el bucle del paper i li torna el llapis.",
+    "es": "Un hombre presta su lápiz a una mujer. Ella cierra el bucle del papel y le devuelve el lápiz."
+  },
+  "originalSha256": "2e72c062958ea98a2b24b75f290d155319ba440c4cb5c00beaba51ca48cda25d",
+  "file": "output/production/n11/n11-012/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:04:34+00:00",
+  "tool": "ImageGen integrat"
+}

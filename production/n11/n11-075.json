@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-075",
+    "number": 75,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-175",
+    "title": {
+      "ca": "La postal de la parada · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "MIRAR",
+      "COMPRAR",
+      "DONAR",
+      "POSTAL",
+      "MERCAT"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-e67dd0fa47ce",
+      "w-57b3143c692c",
+      "w-dd80e4e4de38",
+      "w-3ea66248a161",
+      "w-d6951854cbf7"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "client que tria la postal",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "dependent que l’extreu i la lliura",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-075",
+    "familyTitle": "La postal de la parada",
+    "settings": [
+      {
+        "label": "MERCAT",
+        "wordId": "w-d6951854cbf7"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "COMPRAR",
+        "wordId": "w-57b3143c692c"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSTAL",
+        "wordId": "w-3ea66248a161"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B treu la del peix de la ranura central pels cantells i mostra la figura a A."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures."
+    },
+    "narrative": "A assenyala la postal que vol. B la treu, A paga i s’endú la postal triada."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "cc0e91f08f2ad5e1abc7a5904744a97e471dc9424c5c48505dde824517f95c17",
+      "file": "output/production/n11/n11-075/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa postal de la parada. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, client que tria la postal; B = HOME, samarreta ocre amb dues ratlles blanques al davant, dependent que l’extreu i la lliura.\nRecurring visual anchors: Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures.\n1. A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo.\n2. B treu la del peix de la ranura central pels cantells i mostra la figura a A.\n3. A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible.\n4. A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor.",
+      "review": "Hi ha tres postals inicials. Es tria i es treu únicament el peix; la moneda passa del platet al dependent. Expositor i dues postals restants es mantenen.",
+      "reviewedAt": "2026-11-21T21:06:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa postal de la parada. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, client que tria la postal; B = HOME, samarreta ocre amb dues ratlles blanques al davant, dependent que l’extreu i la lliura.\nRecurring visual anchors: Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures.\n1. A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo.\n2. B treu la del peix de la ranura central pels cantells i mostra la figura a A.\n3. A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible.\n4. A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor.",
+  "review": "Hi ha tres postals inicials. Es tria i es treu únicament el peix; la moneda passa del platet al dependent. Expositor i dues postals restants es mantenen.",
+  "alt": {
+    "ca": "Una dona tria la postal del peix en una parada. El dependent la treu, cobra la moneda i li lliura la postal.",
+    "es": "Una mujer elige la postal del pez en un puesto. El dependiente la saca, cobra la moneda y le entrega la postal."
+  },
+  "originalSha256": "cc0e91f08f2ad5e1abc7a5904744a97e471dc9424c5c48505dde824517f95c17",
+  "file": "output/production/n11/n11-075/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:06:10+00:00",
+  "tool": "ImageGen integrat"
+}

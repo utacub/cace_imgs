@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-022",
+    "number": 22,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-122",
+    "title": {
+      "ca": "El torn al tobogan · foto"
+    },
+    "labels": [
+      "DONA",
+      "NENA",
+      "ESPERAR",
+      "PUJAR",
+      "BAIXAR",
+      "TOBOGAN",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cda6fa4a9867",
+      "w-afee7983cd9e",
+      "w-478890c976ea",
+      "w-3638c1a730c8",
+      "w-72ef210216af",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que baixa primer",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que espera el torn",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-022",
+    "familyTitle": "El torn al tobogan",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "ESPERAR",
+        "wordId": "w-afee7983cd9e"
+      },
+      {
+        "label": "PUJAR",
+        "wordId": "w-478890c976ea"
+      },
+      {
+        "label": "BAIXAR",
+        "wordId": "w-3638c1a730c8"
+      },
+      {
+        "label": "TOBOGAN",
+        "wordId": "w-72ef210216af"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades."
+    },
+    "narrative": "B espera mentre A baixa i, quan A deixa lliure l’arribada, B fa el seu torn."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9e5d5c96246e0a6287d6e808e9b91f4a77e9e54daa08788083c8f9ecc33807a0",
+      "file": "output/production/n11/n11-022/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl torn al tobogan. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que baixa primer; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que espera el torn.\nRecurring visual anchors: Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades.\n1. A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral.\n2. A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala.\n3. A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure.\n4. B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria.",
+      "review": "Mateix tobogan baix i estora. La nena comença a pujar quan la dona ja surt pel lateral. Mantenen separació i els passamans i suports són llegibles.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl torn al tobogan. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que baixa primer; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que espera el torn.\nRecurring visual anchors: Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades.\n1. A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral.\n2. A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala.\n3. A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure.\n4. B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria.",
+  "review": "Mateix tobogan baix i estora. La nena comença a pujar quan la dona ja surt pel lateral. Mantenen separació i els passamans i suports són llegibles.",
+  "alt": {
+    "ca": "Una dona baixa pel tobogan i deixa lliure l’estora. Una nena que esperava puja i després baixa pel mateix tobogan.",
+    "es": "Una mujer baja por el tobogán y deja libre la colchoneta. Una niña que esperaba sube y después baja por el mismo tobogán."
+  },
+  "originalSha256": "9e5d5c96246e0a6287d6e808e9b91f4a77e9e54daa08788083c8f9ecc33807a0",
+  "file": "output/production/n11/n11-022/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:04:34+00:00",
+  "tool": "ImageGen integrat"
+}

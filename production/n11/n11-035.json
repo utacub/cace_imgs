@@ -1,0 +1,129 @@
+{
+  "construction": {
+    "id": "n11-035",
+    "number": 35,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-135",
+    "title": {
+      "ca": "El trencaclosques de terra · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "JUGAR",
+      "PORTAR",
+      "POSAR",
+      "PUZLE",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-6d90f16f5461",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-0006cf1ffdae",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que recupera el fragment",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que sosté la figura a mig fer",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-035",
+    "familyTitle": "El trencaclosques de terra",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B subjecta tres peces encaixades sobre una estora i assenyala la teulada incompleta. A veu la quarta peça al banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A du la peça de teulada agafada pels costats fins a l’estora."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B reté el puzle per la base mentre A fa lliscar la peça fins que la canaleta coincideix."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B retiren les mans. Les quatre unions es veuen i la casa queda completa sobre l’estora."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un puzle gran de quatre peces amb una casa i una darrera peça de teulada amb canaleta marcada."
+    },
+    "narrative": "A troba la part que falta i B reté el trencaclosques perquè A hi pugui encaixar la teulada."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "f78f050b08a08af3056c3c3d95771332975cc81f96b02313176d9fcd89c7565b",
+      "file": "output/production/n11/n11-035/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl trencaclosques de terra. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que recupera el fragment; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que sosté la figura a mig fer.\nRecurring visual anchors: Un puzle gran de quatre peces amb una casa i una darrera peça de teulada amb canaleta marcada.\n1. B subjecta tres peces encaixades sobre una estora i assenyala la teulada incompleta. A veu la quarta peça al banc.\n2. A du la peça de teulada agafada pels costats fins a l’estora.\n3. B reté el puzle per la base mentre A fa lliscar la peça fins que la canaleta coincideix.\n4. A i B retiren les mans. Les quatre unions es veuen i la casa queda completa sobre l’estora.",
+      "review": "La peça lliure té unions internes i una extensió groga que no correspon al buit. La teulada queda superposada al tercer panell i apareixen divisions noves al quart.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "rejected"
+}

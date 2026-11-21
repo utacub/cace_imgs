@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-122",
+    "number": 122,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-022",
+    "title": {
+      "ca": "El torn al tobogan · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "MICO",
+      "ESPERAR",
+      "PUJAR",
+      "BAIXAR",
+      "TOBOGAN",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-12a87560751b",
+      "w-afee7983cd9e",
+      "w-478890c976ea",
+      "w-3638c1a730c8",
+      "w-72ef210216af",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que baixa primer",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que espera el torn",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-022",
+    "familyTitle": "El torn al tobogan",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "ESPERAR",
+        "wordId": "w-afee7983cd9e"
+      },
+      {
+        "label": "PUJAR",
+        "wordId": "w-478890c976ea"
+      },
+      {
+        "label": "BAIXAR",
+        "wordId": "w-3638c1a730c8"
+      },
+      {
+        "label": "TOBOGAN",
+        "wordId": "w-72ef210216af"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades."
+    },
+    "narrative": "B espera mentre A baixa i, quan A deixa lliure l’arribada, B fa el seu torn."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c71cbb071106e399d58792e08f18048101c123855369904d9ed839283bb04acb",
+      "file": "output/production/n11/n11-122/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl torn al tobogan. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que baixa primer; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que espera el torn.\nRecurring visual anchors: Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades.\n1. A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral.\n2. A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala.\n3. A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure.\n4. B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria.",
+      "review": "El gat baixa primer i surt de l’arribada mentre el mico puja per l’escala. Són llegibles passamans, rampa lliure i arribada del segon.",
+      "reviewedAt": "2026-11-21T21:07:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl torn al tobogan. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que baixa primer; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que espera el torn.\nRecurring visual anchors: Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades.\n1. A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral.\n2. A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala.\n3. A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure.\n4. B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria.",
+  "review": "El gat baixa primer i surt de l’arribada mentre el mico puja per l’escala. Són llegibles passamans, rampa lliure i arribada del segon.",
+  "alt": {
+    "ca": "Un gat baixa pel tobogan. Quan deixa lliure la sortida, un mico hi puja i després baixa.",
+    "es": "Un gato baja por el tobogán. Cuando deja libre la salida, un mono sube y después baja."
+  },
+  "originalSha256": "c71cbb071106e399d58792e08f18048101c123855369904d9ed839283bb04acb",
+  "file": "output/production/n11/n11-122/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:07:20+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-088",
+    "number": 88,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-188",
+    "title": {
+      "ca": "Les petxines tornen a la sorra · foto"
+    },
+    "labels": [
+      "NEN",
+      "DONA",
+      "AGAFAR",
+      "COMPTAR",
+      "POSAR",
+      "GALLEDA",
+      "PLATJA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-72e9fe9a8b43",
+      "w-677819a0a32a",
+      "w-8f17529d890a",
+      "w-c211f7486a30",
+      "w-7f04619a8649",
+      "w-4ccdc585328b"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que mostra la troballa",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que acompanya la devolució",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-088",
+    "familyTitle": "Les petxines tornen a la sorra",
+    "settings": [
+      {
+        "label": "PLATJA",
+        "wordId": "w-4ccdc585328b"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "COMPTAR",
+        "wordId": "w-8f17529d890a"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A treu la petxina estriada i B agafa la llisa de la vora de la galleda."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca."
+    },
+    "narrative": "A ensenya les dues petxines a B i, seguint el lloc que B indica, en deixen una cadascú a la sorra."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "711f0a645d672723602a9b54ad239318ab853897f4968eba78761d17d7239fd6",
+      "file": "output/production/n11/n11-088/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes petxines tornen a la sorra. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que mostra la troballa; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que acompanya la devolució.\nRecurring visual anchors: Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca.\n1. A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca.\n2. A treu la petxina estriada i B agafa la llisa de la vora de la galleda.\n3. Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les.\n4. A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc.",
+      "review": "Dues petxines de forma i textura diferents passen de la galleda a mans separades i a la sorra. La galleda buida i el recompte de dues tanquen el relat.",
+      "reviewedAt": "2026-11-21T21:07:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes petxines tornen a la sorra. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que mostra la troballa; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que acompanya la devolució.\nRecurring visual anchors: Dues petxines buides, una estriada i una llisa, una galleda baixa i una roca plana a la sorra seca.\n1. A inclina la galleda just prou per mostrar dues petxines a B. B assenyala la sorra al costat de la roca.\n2. A treu la petxina estriada i B agafa la llisa de la vora de la galleda.\n3. Tots dos dipositen la seva petxina sobre la sorra al peu de la roca sense solapar-les.\n4. A mostra la galleda buida i B indica amb dos dits separats les dues petxines intactes al mateix lloc.",
+  "review": "Dues petxines de forma i textura diferents passen de la galleda a mans separades i a la sorra. La galleda buida i el recompte de dues tanquen el relat.",
+  "alt": {
+    "ca": "Un nen i una dona treuen dues petxines de la galleda i en deixen una cadascú al costat de la roca.",
+    "es": "Un niño y una mujer sacan dos conchas del cubo y dejan una cada uno junto a la roca."
+  },
+  "originalSha256": "711f0a645d672723602a9b54ad239318ab853897f4968eba78761d17d7239fd6",
+  "file": "output/production/n11/n11-088/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:07:20+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-104",
+    "number": 104,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-004",
+    "title": {
+      "ca": "Les maraques a temps · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "MICO",
+      "DONAR",
+      "TOCAR",
+      "MARAQUES",
+      "TAMBOR",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-12a87560751b",
+      "w-dd80e4e4de38",
+      "w-072ecc01e120",
+      "w-f8cff350cb75",
+      "w-e54dc34d54dc",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que reparteix",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que prepara el ritme",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-004",
+    "familyTitle": "Les maraques a temps",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "MARAQUES",
+        "wordId": "w-f8cff350cb75"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té dues maraques a la taula. B està assegut al tambor i li mostra la mà lliure oberta."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A entrega una maraca i se’n queda una. B manté l’altra mà sobre el tambor per estabilitzar-lo."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B deixa la seva maraca sobre l’estora i fa un primer toc al tambor, mentre A aixeca la seva maraca mirant el gest."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B sacsegen una maraca cadascun l’un davant de l’altre. El tambor queda dret al mig."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues maraques amb una franja en relleu i un tambor amb dos peus sobre una mateixa estora."
+    },
+    "narrative": "A reparteix les maraques i B marca l’entrada al tambor abans que tots dos toquin amb una maraca cadascú."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "267184a6c115315060f06a1629e311e0488175ddae2bf9b6cdfa04119311547e",
+      "file": "output/production/n11/n11-104/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes maraques a temps. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que reparteix; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el ritme.\nRecurring visual anchors: Dues maraques amb una franja en relleu i un tambor amb dos peus sobre una mateixa estora.\n1. A té dues maraques a la taula. B està assegut al tambor i li mostra la mà lliure oberta.\n2. A entrega una maraca i se’n queda una. B manté l’altra mà sobre el tambor per estabilitzar-lo.\n3. B deixa la seva maraca sobre l’estora i fa un primer toc al tambor, mentre A aixeca la seva maraca mirant el gest.\n4. A i B sacsegen una maraca cadascun l’un davant de l’altre. El tambor queda dret al mig.",
+      "review": "Ratlles de moviment i de so afegides sobre el tambor i les maraques. El contacte i la posició poden explicar la història sense signes.",
+      "reviewedAt": "2026-11-21T21:06:10+00:00"
+    }
+  ],
+  "status": "rejected"
+}

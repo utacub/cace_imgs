@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-031",
+    "number": 31,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-131",
+    "title": {
+      "ca": "El gronxador del seient pla · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "ESPERAR",
+      "SEURE",
+      "JUGAR",
+      "GRONXADOR",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-afee7983cd9e",
+      "w-045dc98b2849",
+      "w-6d90f16f5461",
+      "w-d4238a750022",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que cedeix el seient",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que inicia el torn següent",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-031",
+    "familyTitle": "El gronxador del seient pla",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "ESPERAR",
+        "wordId": "w-afee7983cd9e"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "GRONXADOR",
+        "wordId": "w-d4238a750022"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla."
+    },
+    "narrative": "A atura i desocupa el gronxador perquè B pugui asseure-s’hi i començar el torn."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "91fb4f178d8a5924b076c73b310ce5becb8edc0fe95f0426a9249503731c7071",
+      "file": "output/production/n11/n11-031/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl gronxador del seient pla. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que cedeix el seient; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que inicia el torn següent.\nRecurring visual anchors: Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla.\n1. A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna.\n2. A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena.\n3. B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc.\n4. B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla.",
+      "review": "Dues cadenes, seient i banda estables. La nena té els peus a terra i s’allunya abans que la dona s’impulsi. La columna separa el pas de la trajectòria.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl gronxador del seient pla. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que cedeix el seient; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que inicia el torn següent.\nRecurring visual anchors: Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla.\n1. A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna.\n2. A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena.\n3. B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc.\n4. B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla.",
+  "review": "Dues cadenes, seient i banda estables. La nena té els peus a terra i s’allunya abans que la dona s’impulsi. La columna separa el pas de la trajectòria.",
+  "alt": {
+    "ca": "Una nena atura el gronxador i en baixa. Una dona que esperava s’hi asseu i comença a gronxar-se.",
+    "es": "Una niña detiene el columpio y se baja. Una mujer que esperaba se sienta y empieza a columpiarse."
+  },
+  "originalSha256": "91fb4f178d8a5924b076c73b310ce5becb8edc0fe95f0426a9249503731c7071",
+  "file": "output/production/n11/n11-031/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:04:34+00:00",
+  "tool": "ImageGen integrat"
+}

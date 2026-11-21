@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-131",
+    "number": 131,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-031",
+    "title": {
+      "ca": "El gronxador del seient pla · dibuix"
+    },
+    "labels": [
+      "CONILL",
+      "MICO",
+      "ESPERAR",
+      "SEURE",
+      "JUGAR",
+      "GRONXADOR",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-12a87560751b",
+      "w-afee7983cd9e",
+      "w-045dc98b2849",
+      "w-6d90f16f5461",
+      "w-d4238a750022",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que cedeix el seient",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que inicia el torn següent",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-031",
+    "familyTitle": "El gronxador del seient pla",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "ESPERAR",
+        "wordId": "w-afee7983cd9e"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "GRONXADOR",
+        "wordId": "w-d4238a750022"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla."
+    },
+    "narrative": "A atura i desocupa el gronxador perquè B pugui asseure-s’hi i començar el torn."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "2e6fe7089c34605db0eca3b63066daa5e211a6b9e0ccf1192d1d16f4e15fac20",
+      "file": "output/production/n11/n11-131/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl gronxador del seient pla. Actors and fixed identity: A = CONILL, armilla blau fosc amb un triangle clar al davant, participant que cedeix el seient; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que inicia el torn següent.\nRecurring visual anchors: Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla.\n1. A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna.\n2. A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena.\n3. B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc.\n4. B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla.",
+      "review": "Ratlles cinètiques al darrer panell. Cal mostrar el canvi amb la inclinació de les cadenes i els peus elevats, sense signes afegits.",
+      "reviewedAt": "2026-11-21T21:07:20+00:00"
+    }
+  ],
+  "status": "rejected"
+}

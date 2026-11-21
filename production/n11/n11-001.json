@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-001",
+    "number": 1,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-101",
+    "title": {
+      "ca": "El peix del passadís · foto"
+    },
+    "labels": [
+      "NENA",
+      "NEN",
+      "DIBUIXAR",
+      "PORTAR",
+      "POSAR",
+      "DIBUIX",
+      "CLASSE",
+      "ESCOLA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b4012100fe09",
+      "w-2e0a67ac121f",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-07181748ab10",
+      "w-3291fe2b2a8d",
+      "w-0156c87f929a"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "autor del dibuix",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "responsable de l’exposició",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-001",
+    "familyTitle": "El peix del passadís",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "DIBUIX",
+        "wordId": "w-07181748ab10"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acaba la tercera ratlla de la cua i B li mostra el marc buit des del llindar."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A du el dibuix fins al marc mentre B aguanta obertes les dues pinces."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B pinça la vora superior i A allisa la inferior amb la mà plana."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B observen la cua de tres ratlles al marc penjat al costat del mateix finestró."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un dibuix de peix amb una cua de tres ratlles, un marc buit amb dues pinces i una porta amb finestró rodó entre aula i passadís."
+    },
+    "narrative": "A prepara el peix per exposar-lo i B el fixa al passadís aprofitant que A el manté pla."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "87b4e890179d0bd49909565ed388935d0e8a9e24c76e4fd04636ad64eb72590b",
+      "file": "output/production/n11/n11-001/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl peix del passadís. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, autor del dibuix; B = NEN, samarreta ocre amb dues ratlles blanques al davant, responsable de l’exposició.\nRecurring visual anchors: Un dibuix de peix amb una cua de tres ratlles, un marc buit amb dues pinces i una porta amb finestró rodó entre aula i passadís.\n1. A acaba la tercera ratlla de la cua i B li mostra el marc buit des del llindar.\n2. A du el dibuix fins al marc mentre B aguanta obertes les dues pinces.\n3. B pinça la vora superior i A allisa la inferior amb la mà plana.\n4. A i B observen la cua de tres ratlles al marc penjat al costat del mateix finestró.",
+      "review": "La segona vinyeta mostra tres mans associades al nen i el punt de suport del marc és ambigu.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "rejected"
+}

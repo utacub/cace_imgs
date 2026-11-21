@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-018",
+    "number": 18,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-118",
+    "title": {
+      "ca": "El conte a dues mans · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "OBRIR",
+      "LLEGIR",
+      "ENSENYAR",
+      "CONTE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-a10b29af07c7",
+      "w-ef0bd41d6ee3",
+      "w-1eb1099a21ce",
+      "w-22f3876c9741",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que obre el conte",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que orienta el conte cap a la parella",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-018",
+    "familyTitle": "El conte a dues mans",
+    "settings": [
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta el conte tancat a un banc on B deixa espai al mig."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central."
+    },
+    "narrative": "A porta i obre el conte i B l’orienta perquè puguin mirar el dibuix del niu plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2ec1acb58339ed1fb8fe5b96df3992485220bdb3ea0bcadb39d5645258461bb3",
+      "file": "output/production/n11/n11-018/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte a dues mans. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que obre el conte; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que orienta el conte cap a la parella.\nRecurring visual anchors: Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central.\n1. A porta el conte tancat a un banc on B deixa espai al mig.\n2. A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar.\n3. B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell.\n4. A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat.",
+      "review": "La coberta és recognoscible, el nen reté la pàgina i tots dos assenyalen el pollet dins del niu, ja llegible per als dos. El llibre conserva mides i llom.",
+      "reviewedAt": "2026-11-21T21:04:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl conte a dues mans. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que obre el conte; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que orienta el conte cap a la parella.\nRecurring visual anchors: Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central.\n1. A porta el conte tancat a un banc on B deixa espai al mig.\n2. A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar.\n3. B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell.\n4. A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat.",
+  "review": "La coberta és recognoscible, el nen reté la pàgina i tots dos assenyalen el pollet dins del niu, ja llegible per als dos. El llibre conserva mides i llom.",
+  "alt": {
+    "ca": "Un home porta un conte amb una òliba. Un nen l’ajuda a obrir-lo i tots dos miren i assenyalen el pollet del niu.",
+    "es": "Un hombre trae un cuento con una lechuza. Un niño lo ayuda a abrirlo y los dos miran y señalan al polluelo del nido."
+  },
+  "originalSha256": "2ec1acb58339ed1fb8fe5b96df3992485220bdb3ea0bcadb39d5645258461bb3",
+  "file": "output/production/n11/n11-018/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:04:34+00:00",
+  "tool": "ImageGen integrat"
+}

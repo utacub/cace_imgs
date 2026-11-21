@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-085",
+    "number": 85,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-185",
+    "title": {
+      "ca": "La fulla que encaixa · foto"
+    },
+    "labels": [
+      "NENA",
+      "NEN",
+      "MIRAR",
+      "CLASSIFICAR",
+      "POSAR",
+      "FULLA",
+      "BOSC"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b4012100fe09",
+      "w-e67dd0fa47ce",
+      "w-837cfa89f5df",
+      "w-c211f7486a30",
+      "w-a82ff79805f9",
+      "w-c912bb04c6c9"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que troba la fulla",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que comprova la forma",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-085",
+    "familyTitle": "La fulla que encaixa",
+    "settings": [
+      {
+        "label": "BOSC",
+        "wordId": "w-c912bb04c6c9"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FULLA",
+        "wordId": "w-a82ff79805f9"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A recull la fulla lobulada al costat d’un tronc. B té la fulla allargada sobre el seu contorn i l’altre buit."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A acosta la fulla al contorn allargat des del costat. Hi sobresurten clarament els lòbuls."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B ressegueix el contorn buit lobulat i A hi gira la fulla amb el pecíol cap al perfil estret."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "La fulla encaixa al perfil buit. Tots dos observadors tenen les mans al marge i es veuen les dues fulles senceres."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una fulla lobulada caiguda, una fulla allargada, un tapet amb dos contorns de mida natural."
+    },
+    "narrative": "A troba una fulla nova i B li mostra el contorn que hi correspon perquè completi la parella."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7b8c44320b212e6e35eee8b2b2b032253beace812f7f636698c596cca53456e3",
+      "file": "output/production/n11/n11-085/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fulla que encaixa. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que troba la fulla; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que comprova la forma.\nRecurring visual anchors: Una fulla lobulada caiguda, una fulla allargada, un tapet amb dos contorns de mida natural.\n1. A recull la fulla lobulada al costat d’un tronc. B té la fulla allargada sobre el seu contorn i l’altre buit.\n2. A acosta la fulla al contorn allargat des del costat. Hi sobresurten clarament els lòbuls.\n3. B ressegueix el contorn buit lobulat i A hi gira la fulla amb el pecíol cap al perfil estret.\n4. La fulla encaixa al perfil buit. Tots dos observadors tenen les mans al marge i es veuen les dues fulles senceres.",
+      "review": "La fulla lobulada és només una i la fulla allargada roman sobre el seu contorn. El nen indica el lloc adequat abans que la nena hi posi la fulla.",
+      "reviewedAt": "2026-11-21T21:07:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fulla que encaixa. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que troba la fulla; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que comprova la forma.\nRecurring visual anchors: Una fulla lobulada caiguda, una fulla allargada, un tapet amb dos contorns de mida natural.\n1. A recull la fulla lobulada al costat d’un tronc. B té la fulla allargada sobre el seu contorn i l’altre buit.\n2. A acosta la fulla al contorn allargat des del costat. Hi sobresurten clarament els lòbuls.\n3. B ressegueix el contorn buit lobulat i A hi gira la fulla amb el pecíol cap al perfil estret.\n4. La fulla encaixa al perfil buit. Tots dos observadors tenen les mans al marge i es veuen les dues fulles senceres.",
+  "review": "La fulla lobulada és només una i la fulla allargada roman sobre el seu contorn. El nen indica el lloc adequat abans que la nena hi posi la fulla.",
+  "alt": {
+    "ca": "Una nena recull una fulla lobulada. Un nen li ensenya quin contorn hi correspon i ella hi col·loca la fulla.",
+    "es": "Una niña recoge una hoja lobulada. Un niño le muestra qué contorno le corresponde y ella coloca la hoja."
+  },
+  "originalSha256": "7b8c44320b212e6e35eee8b2b2b032253beace812f7f636698c596cca53456e3",
+  "file": "output/production/n11/n11-085/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:07:20+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.170",
+  "version": "0.1.171",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1020 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n11-004",
+      "src": "assets/constructions/n11/n11-004.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "Les maraques a temps · foto",
+        "es": "NIÑO · MUJER · DAR · TOCAR · MARACAS · TAMBOR · CLASE"
+      },
+      "alt": {
+        "ca": "Un nen dona una maraca a una dona que marca el ritme al tambor. Després tots dos toquen les maraques.",
+        "es": "Un niño da una maraca a una mujer que marca el ritmo con el tambor. Después ambos tocan las maracas."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-72e9fe9a8b43",
+        "w-dd80e4e4de38",
+        "w-072ecc01e120",
+        "w-f8cff350cb75",
+        "w-e54dc34d54dc",
+        "w-3291fe2b2a8d"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-72e9fe9a8b43",
+        "w-dd80e4e4de38",
+        "w-072ecc01e120",
+        "w-f8cff350cb75",
+        "w-e54dc34d54dc",
+        "w-3291fe2b2a8d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-004",
+      "constructionId": "n11-004",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A té dues maraques a la taula. B està assegut al tambor i li mostra la mà lliure oberta."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A entrega una maraca i se’n queda una. B manté l’altra mà sobre el tambor per estabilitzar-lo."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B deixa la seva maraca sobre l’estora i fa un primer toc al tambor, mentre A aixeca la seva maraca mirant el gest."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A i B sacsegen una maraca cadascun l’un davant de l’altre. El tambor queda dret al mig."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Dues maraques amb una franja en relleu i un tambor amb dos peus sobre una mateixa estora."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-004",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09",
+            "role": "participant que reparteix",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "participant que prepara el ritme",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CLASSE",
+            "wordId": "w-3291fe2b2a8d"
+          }
+        ],
+        "narrative": "A reparteix les maraques i B marca l’entrada al tambor abans que tots dos toquin amb una maraca cadascú."
+      },
+      "originalSha256": "d30c0882b9c9459d6b5fdf79e91d1fd1cd60d797f47df861fcd5a31e73dcb6cf",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "31fd8c35d1e9fe2f3d5a18fa850300c5422da2a6b5cc1bfcffac7f43125a5a3d"
+    },
+    {
+      "id": "cace-n11-012",
+      "src": "assets/constructions/n11/n11-012.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El llapis a l’altra taula · foto",
+        "es": "HOMBRE · MUJER · DAR · ESCRIBIR · LÁPIZ · PAPEL · CLASE"
+      },
+      "alt": {
+        "ca": "Un home deixa el seu llapis a una dona. Ella tanca el bucle del paper i li torna el llapis.",
+        "es": "Un hombre presta su lápiz a una mujer. Ella cierra el bucle del papel y le devuelve el lápiz."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-72e9fe9a8b43",
+        "w-dd80e4e4de38",
+        "w-3472cd3a36ee",
+        "w-1775aa96869e",
+        "w-cd5c60f0d076",
+        "w-3291fe2b2a8d"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-72e9fe9a8b43",
+        "w-dd80e4e4de38",
+        "w-3472cd3a36ee",
+        "w-1775aa96869e",
+        "w-cd5c60f0d076",
+        "w-3291fe2b2a8d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-012",
+      "constructionId": "n11-012",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B indica el final del bucle al seu full i mostra l’estot buit. A té el llapis entre els dits."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A ofereix a B el llapis per la zona sense punta a través de l’espai entre taules contigües."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B tanca el bucle amb la punta en contacte amb el paper. A manté la mà oberta prop del cantell."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B torna el llapis de dues franges i el bucle ara tancat queda de cara a tots dos."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un llapis amb dues franges fosques, un full amb un bucle interromput i un estot obert."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-012",
+        "participants": [
+          {
+            "key": "A",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que presta el llapis",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "participant que acaba el traç",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CLASSE",
+            "wordId": "w-3291fe2b2a8d"
+          }
+        ],
+        "narrative": "A presta el llapis quan veu el traç inacabat i B el retorna després de completar el bucle."
+      },
+      "originalSha256": "2e72c062958ea98a2b24b75f290d155319ba440c4cb5c00beaba51ca48cda25d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f135f53a20e3acc942e5189d06daff65722ee6463aa6a8d9d2f39eb8b8ca5eb2"
+    },
+    {
+      "id": "cace-n11-018",
+      "src": "assets/constructions/n11/n11-018.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El conte a dues mans · foto",
+        "es": "HOMBRE · CHICO · ABRIR · LEER · ENSEÑAR · CUENTO · BIBLIOTECA"
+      },
+      "alt": {
+        "ca": "Un home porta un conte amb una òliba. Un nen l’ajuda a obrir-lo i tots dos miren i assenyalen el pollet del niu.",
+        "es": "Un hombre trae un cuento con una lechuza. Un niño lo ayuda a abrirlo y los dos miran y señalan al polluelo del nido."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-01bc6dcab46b",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-1eb1099a21ce",
+        "w-22f3876c9741",
+        "w-25350f813f0d"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-01bc6dcab46b",
+        "w-a10b29af07c7",
+        "w-ef0bd41d6ee3",
+        "w-1eb1099a21ce",
+        "w-22f3876c9741",
+        "w-25350f813f0d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-018",
+      "constructionId": "n11-018",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A porta el conte tancat a un banc on B deixa espai al mig."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A obre el conte sobre el banc. B reté el cantell de la pàgina que es torna a tancar."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B gira el conte una mica perquè totes dues persones vegin el niu, mantenint el cantell amb el palmell."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A assenyala l’ocell petit al niu i B assenyala el mateix niu al dibuix, asseguts de costat."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un conte sense lletres amb una òliba a la coberta i un niu a la doble pàgina central."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-018",
+        "participants": [
+          {
+            "key": "A",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que obre el conte",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b",
+            "role": "participant que orienta el conte cap a la parella",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "BIBLIOTECA",
+            "wordId": "w-25350f813f0d"
+          }
+        ],
+        "narrative": "A porta i obre el conte i B l’orienta perquè puguin mirar el dibuix del niu plegats."
+      },
+      "originalSha256": "2ec1acb58339ed1fb8fe5b96df3992485220bdb3ea0bcadb39d5645258461bb3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "13bf03712ab8fb3aab0355c31b8af501bbe6b95611f48e95d3485aa44d055399"
+    },
+    {
+      "id": "cace-n11-022",
+      "src": "assets/constructions/n11/n11-022.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El torn al tobogan · foto",
+        "es": "MUJER · NIÑA · ESPERAR · SUBIR · BAJAR · TOBOGÁN · PARQUE"
+      },
+      "alt": {
+        "ca": "Una dona baixa pel tobogan i deixa lliure l’estora. Una nena que esperava puja i després baixa pel mateix tobogan.",
+        "es": "Una mujer baja por el tobogán y deja libre la colchoneta. Una niña que esperaba sube y después baja por el mismo tobogán."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-cda6fa4a9867",
+        "w-afee7983cd9e",
+        "w-478890c976ea",
+        "w-3638c1a730c8",
+        "w-72ef210216af",
+        "w-fb96ae342785"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-cda6fa4a9867",
+        "w-afee7983cd9e",
+        "w-478890c976ea",
+        "w-3638c1a730c8",
+        "w-72ef210216af",
+        "w-fb96ae342785"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-022",
+      "constructionId": "n11-022",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A està al capdamunt subjectant el passamà. B espera amb els dos peus a terra sota l’escala lateral."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A baixa assegut per la rampa i B mira el final de l’estora des del costat de l’escala."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A surt lateralment de l’estora i B puja agafat amb totes dues mans, amb la rampa lliure."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B arriba assegut a l’estora. A espera al costat amb els peus fora de la trajectòria."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un tobogan baix amb dos passamans i una estora d’arribada amb vores contrastades."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-022",
+        "participants": [
+          {
+            "key": "A",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "participant que baixa primer",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867",
+            "role": "participant que espera el torn",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "PARC",
+            "wordId": "w-fb96ae342785"
+          }
+        ],
+        "narrative": "B espera mentre A baixa i, quan A deixa lliure l’arribada, B fa el seu torn."
+      },
+      "originalSha256": "9e5d5c96246e0a6287d6e808e9b91f4a77e9e54daa08788083c8f9ecc33807a0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c7cdc81366c0fad2305fa62248061657cfa9c1d7f6f5fc7922205ab827a08fc2"
+    },
+    {
+      "id": "cace-n11-031",
+      "src": "assets/constructions/n11/n11-031.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El gronxador del seient pla · foto",
+        "es": "NIÑA · MUJER · ESPERAR · SENTAR · JUGAR · COLUMPIO · PARQUE"
+      },
+      "alt": {
+        "ca": "Una nena atura el gronxador i en baixa. Una dona que esperava s’hi asseu i comença a gronxar-se.",
+        "es": "Una niña detiene el columpio y se baja. Una mujer que esperaba se sienta y empieza a columpiarse."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-72e9fe9a8b43",
+        "w-afee7983cd9e",
+        "w-045dc98b2849",
+        "w-6d90f16f5461",
+        "w-d4238a750022",
+        "w-fb96ae342785"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-72e9fe9a8b43",
+        "w-afee7983cd9e",
+        "w-045dc98b2849",
+        "w-6d90f16f5461",
+        "w-d4238a750022",
+        "w-fb96ae342785"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-031",
+      "constructionId": "n11-031",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A seu amb els dos peus tocant terra i frena el seient. B espera més enllà de la columna."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A s’aixeca quan el seient és quiet i B hi arriba pel lateral amb una mà a la cadena."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B seu amb totes dues mans agafades a les cadenes i A passa darrere de la columna, fora de l’arc."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B s’impulsa a poca altura. A es veu quiet al costat de la columna de banda ampla."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un gronxador baix amb seient pla i dues cadenes, una columna de suport amb una banda ampla."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-031",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867",
+            "role": "participant que cedeix el seient",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "participant que inicia el torn següent",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "PARC",
+            "wordId": "w-fb96ae342785"
+          }
+        ],
+        "narrative": "A atura i desocupa el gronxador perquè B pugui asseure-s’hi i començar el torn."
+      },
+      "originalSha256": "91fb4f178d8a5924b076c73b310ce5becb8edc0fe95f0426a9249503731c7071",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "46bee14583829a2a8b954e5edef9ea56818db37e0f3e37efae28861b342cbaa0"
+    },
+    {
+      "id": "cace-n11-046",
+      "src": "assets/constructions/n11/n11-046.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "Les sabates de cada parell · foto",
+        "es": "MUJER · NIÑA · CLASIFICAR · GUARDAR · ZAPATOS · CASA"
+      },
+      "alt": {
+        "ca": "Una dona troba les dues sabates que faltaven sota un banc. Ella i una nena desen cada parell en un prestatge diferent.",
+        "es": "Una mujer encuentra los dos zapatos que faltaban bajo un banco. Ella y una niña guardan cada par en un estante distinto."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-cda6fa4a9867",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-6e2a67944770",
+        "w-57ca61c8d99d"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-cda6fa4a9867",
+        "w-837cfa89f5df",
+        "w-f0441e0dd3b0",
+        "w-6e2a67944770",
+        "w-57ca61c8d99d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-046",
+      "constructionId": "n11-046",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A alça l’única sabata de sola clara que hi ha al banc. B mostra una de sivella."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A"
+          ],
+          "evidence": "A troba sota el banc les altres dues sabates, una de cada mena, i les posa amb el perfil visible."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B uneix les dues de sivella en una lleixa mentre A alinea les dues de veta a l’altra."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "Tots dos retiren les mans. Les quatre sabates queden a la vista, en dos parells i amb el banc buit."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Dos parells: sabates de sola clara amb veta i sabates de sola fosca amb sivella. Dues lleixes baixes."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-046",
+        "participants": [
+          {
+            "key": "A",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "participant que localitza les sabates",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "NENA",
+            "wordId": "w-cda6fa4a9867",
+            "role": "participant que aparella i desa",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CASA",
+            "wordId": "w-57ca61c8d99d"
+          }
+        ],
+        "narrative": "A recupera les sabates soltes i B i A reuneixen els dos parells en llocs diferents."
+      },
+      "originalSha256": "242f99e1f3d8cbbffa92c9624ab44046509b3a76939837b74d559634686a042f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "11157b3523e14bc05004c68fc89a05adc14bab4d6df2ddd2ad0489dbf721025b"
+    },
+    {
+      "id": "cace-n11-047",
+      "src": "assets/constructions/n11/n11-047.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El coixí amb la funda girada · foto",
+        "es": "CHICO · HOMBRE · ABRIR · AYUDAR · PONER · ALMOHADA · CAMA · HABITACIÓN"
+      },
+      "alt": {
+        "ca": "Un noi gira i obre la funda. Un home hi posa el coixí i tots dos l’aplanen al llit.",
+        "es": "Un chico gira y abre la funda. Un hombre mete el cojín y los dos lo alisan sobre la cama."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-cfe24f6b3c38",
+        "w-a10b29af07c7",
+        "w-5b2ff1d40d54",
+        "w-c211f7486a30",
+        "w-44260b79b61e",
+        "w-5f7c1679605f",
+        "w-23dafac8fd59"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-cfe24f6b3c38",
+        "w-a10b29af07c7",
+        "w-5b2ff1d40d54",
+        "w-c211f7486a30",
+        "w-44260b79b61e",
+        "w-5f7c1679605f",
+        "w-23dafac8fd59"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:06:10+00:00",
+      "target": "n11-047",
+      "constructionId": "n11-047",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A sosté la funda amb una costura visible al davant. B presenta el coixí fora de la funda."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A"
+          ],
+          "evidence": "A gira la funda del dret fins que apareix el rombe i obre la boca a tota l’amplada."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B hi fa entrar primer dues cantonades del coixí mentre A sosté les dues vores de la boca."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A i B aplanen el coixí ja enfundat al llit. El rombe queda centrat entre les quatre cantonades."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un coixí quadrat i una funda amb un rombe brodat a la cara exterior; un llit amb capçal baix."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-047",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b",
+            "role": "participant que gira la funda",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que insereix el coixí",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "HABITACIÓ",
+            "wordId": "w-23dafac8fd59"
+          }
+        ],
+        "narrative": "A gira i obre la funda, B hi insereix el coixí i plegats el deixen preparat al llit."
+      },
+      "originalSha256": "5a543100fbeba9f32fdca27bbb3d8e47932bdf2d82a11f8deea8a14ad13d4c49",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6dfcdea2eba8a619094c2067fb7368dbe9a6a3fb4c8a56480494805c2ed5b643"
+    },
+    {
+      "id": "cace-n11-059",
+      "src": "assets/constructions/n11/n11-059.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "Els guants per sortir · foto",
+        "es": "CHICO · HOMBRE · LLEVAR · DAR · VESTIR · GUANTES · CASA"
+      },
+      "alt": {
+        "ca": "Un noi recull el guant de sota la cadira i ajuda un home a posar-se’l. L’home obre la porta amb els dos guants posats.",
+        "es": "Un chico recoge el guante de debajo de la silla y ayuda a un hombre a ponérselo. El hombre abre la puerta con los dos guantes puestos."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-cfe24f6b3c38",
+        "w-73b71e1ff757",
+        "w-dd80e4e4de38",
+        "w-4d2fcaf61d85",
+        "w-bd57efcdf7f5",
+        "w-57ca61c8d99d"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-cfe24f6b3c38",
+        "w-73b71e1ff757",
+        "w-dd80e4e4de38",
+        "w-4d2fcaf61d85",
+        "w-bd57efcdf7f5",
+        "w-57ca61c8d99d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:04:34+00:00",
+      "target": "n11-059",
+      "constructionId": "n11-059",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B ja porta un guant i mira la mà nua. A veu el segon sota la cadira."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A"
+          ],
+          "evidence": "A s’ajup i recull el guant pel puny, amb les dues bandes visibles."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A obre el puny perquè B hi introdueixi la mà nua amb el polze orientat."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B mostra els dos guants posats i obre la porta. A espera amb els dos peus a la catifa ovalada."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un parell de guants amb puny de dues bandes, una cadira a l’entrada i una catifa ovalada al llindar."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-059",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b",
+            "role": "participant que recull el guant caigut",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que completa el parell",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CASA",
+            "wordId": "w-57ca61c8d99d"
+          }
+        ],
+        "narrative": "A recupera el guant de B i l’ajuda a posar-se’l abans de sortir amb el parell complet."
+      },
+      "originalSha256": "7c989abf7d2cbc5202752a24e18f02ba68a03efabe8a341ae6b9a95995675a79",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b118ebca4318436483b6dbb23a6d56b0c0717486170e5d68b799adef52da31af"
+    },
+    {
+      "id": "cace-n11-075",
+      "src": "assets/constructions/n11/n11-075.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La postal de la parada · foto",
+        "es": "MUJER · HOMBRE · MIRAR · COMPRAR · DAR · POSTAL · MERCADO"
+      },
+      "alt": {
+        "ca": "Una dona tria la postal del peix en una parada. El dependent la treu, cobra la moneda i li lliura la postal.",
+        "es": "Una mujer elige la postal del pez en un puesto. El dependiente la saca, cobra la moneda y le entrega la postal."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-cfe24f6b3c38",
+        "w-e67dd0fa47ce",
+        "w-57b3143c692c",
+        "w-dd80e4e4de38",
+        "w-3ea66248a161",
+        "w-d6951854cbf7"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-cfe24f6b3c38",
+        "w-e67dd0fa47ce",
+        "w-57b3143c692c",
+        "w-dd80e4e4de38",
+        "w-3ea66248a161",
+        "w-d6951854cbf7"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:06:10+00:00",
+      "target": "n11-075",
+      "constructionId": "n11-075",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A assenyala la postal del peix mentre B posa una mà darrere del suport per estabilitzar-lo."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B treu la del peix de la ranura central pels cantells i mostra la figura a A."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A posa la moneda al platet mentre B ofereix la postal del peix amb la figura visible."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A s’emporta la del peix i B té la moneda a la mà. Les altres dues postals romanen a l’expositor."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Tres postals mudes amb una fulla, un peix i una vela; una moneda amb vora estriada i un expositor de ranures."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-075",
+        "participants": [
+          {
+            "key": "A",
+            "label": "DONA",
+            "wordId": "w-72e9fe9a8b43",
+            "role": "client que tria la postal",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "dependent que l’extreu i la lliura",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "MERCAT",
+            "wordId": "w-d6951854cbf7"
+          }
+        ],
+        "narrative": "A assenyala la postal que vol. B la treu, A paga i s’endú la postal triada."
+      },
+      "originalSha256": "cc0e91f08f2ad5e1abc7a5904744a97e471dc9424c5c48505dde824517f95c17",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c492c8e374004bca78b17088dbe573946253e42361f38958c70e93b8adfa43c5"
+    },
     {
       "id": "cace-n11-020",
       "src": "assets/constructions/n11/n11-020.webp",
@@ -189301,7 +190315,16 @@
       "items": [
         "cace-n11-020",
         "cace-n11-021",
-        "cace-n11-121"
+        "cace-n11-121",
+        "cace-n11-004",
+        "cace-n11-012",
+        "cace-n11-018",
+        "cace-n11-022",
+        "cace-n11-031",
+        "cace-n11-046",
+        "cace-n11-047",
+        "cace-n11-059",
+        "cace-n11-075"
       ]
     }
   ]

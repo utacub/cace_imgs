@@ -1,0 +1,135 @@
+{
+  "construction": {
+    "id": "n11-053",
+    "number": 53,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-153",
+    "title": {
+      "ca": "La cullera a l’armari · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NENA",
+      "PORTAR",
+      "ASSECAR",
+      "GUARDAR",
+      "CULLERA",
+      "ARMARI",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-cda6fa4a9867",
+      "w-73b71e1ff757",
+      "w-ae417aa563dd",
+      "w-f0441e0dd3b0",
+      "w-9c9849fac1d3",
+      "w-2286891fbee6",
+      "w-2a34971d94b3"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que prepara el calaix",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que eixuga la cullera",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-053",
+    "familyTitle": "La cullera a l’armari",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "label": "ARMARI",
+        "wordId": "w-2286891fbee6"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A obre el calaix buit de coberts mentre B sosté la cullera mullada damunt de la pica."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B embolica la cullera amb el drap, amb una part del mànec encara visible."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté el calaix obert pel tirador. B hi acosta la cullera seca amb els dos punts visibles."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa la cullera al compartiment buit i A comença a tancar el calaix sense que l’objecte en sobresurti."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una cullera de mànec amb dos punts gravats, un drap i un calaix baix amb un compartiment lliure."
+    },
+    "narrative": "A prepara un lloc al calaix i B hi desa la cullera un cop l’ha eixugat."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b87d4bde4cbde0d73ad989c272c16e97dd28d1e08bdebb85a5539acd55c81a1d",
+      "file": "output/production/n11/n11-053/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cullera a l’armari. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que prepara el calaix; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que eixuga la cullera.\nRecurring visual anchors: Una cullera de mànec amb dos punts gravats, un drap i un calaix baix amb un compartiment lliure.\n1. A obre el calaix buit de coberts mentre B sosté la cullera mullada damunt de la pica.\n2. B embolica la cullera amb el drap, amb una part del mànec encara visible.\n3. A sosté el calaix obert pel tirador. B hi acosta la cullera seca amb els dos punts visibles.\n4. B posa la cullera al compartiment buit i A comença a tancar el calaix sense que l’objecte en sobresurti.",
+      "review": "La cullera platejada es transforma en una de mànec marró i el cap desapareix al final. La continuïtat del referent és dubtosa.",
+      "reviewedAt": "2026-11-21T21:06:10+00:00"
+    }
+  ],
+  "status": "rejected"
+}

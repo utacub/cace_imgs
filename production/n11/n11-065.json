@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-065",
+    "number": 65,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-165",
+    "title": {
+      "ca": "La pilota que travessa la plaça · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NENA",
+      "VEURE",
+      "PORTAR",
+      "DONAR",
+      "PILOTA",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-cda6fa4a9867",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-b7f578451973",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que veu la pilota fora de lloc",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que la rep per tornar al joc",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-065",
+    "familyTitle": "La pilota que travessa la plaça",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba."
+    },
+    "narrative": "A torna la pilota que s’ha allunyat fins al lloc on B pot reprendre el joc."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "fb4430d23825e459201a01579ca73ba2119ec23f7335d341c03a1e6c79db3e32",
+      "file": "output/production/n11/n11-065/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota que travessa la plaça. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que veu la pilota fora de lloc; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que la rep per tornar al joc.\nRecurring visual anchors: Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba.\n1. B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba.\n2. A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses.\n3. B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota.\n4. B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B.",
+      "review": "Una pilota amb arc fosc torna del banc als discos. El pas de mans és visible i la nena la col·loca al punt de joc per reprendre l’activitat.",
+      "reviewedAt": "2026-11-21T21:07:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pilota que travessa la plaça. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que veu la pilota fora de lloc; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que la rep per tornar al joc.\nRecurring visual anchors: Una pilota amb un arc fosc, dues lloses en forma de disc i un banc de plaça amb una pota corba.\n1. B espera a les lloses amb les mans obertes. A veu la pilota aturada al peu de la pota corba.\n2. A alça la pilota amb les dues mans i travessa l’espai entre el banc i les lloses.\n3. B rep la pilota tocant l’arc amb una mà mentre A encara l’aguanta per sota.\n4. B posa la pilota sobre una llosa i A es col·loca sobre l’altra, preparats per reprendre el joc al lloc inicial de B.",
+  "review": "Una pilota amb arc fosc torna del banc als discos. El pas de mans és visible i la nena la col·loca al punt de joc per reprendre l’activitat.",
+  "alt": {
+    "ca": "Una noia recupera la pilota al peu del banc i la passa a una nena, que la torna a posar al lloc de joc.",
+    "es": "Una chica recupera la pelota junto al banco y se la pasa a una niña, que la devuelve al lugar de juego."
+  },
+  "originalSha256": "fb4430d23825e459201a01579ca73ba2119ec23f7335d341c03a1e6c79db3e32",
+  "file": "output/production/n11/n11-065/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:07:20+00:00",
+  "tool": "ImageGen integrat"
+}
