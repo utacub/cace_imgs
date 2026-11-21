@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-041",
+    "number": 41,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-041",
+    "counterpartId": "n10-141",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · posar · got / aigua / paper → mullat"
+    },
+    "labels": [
+      "DONA",
+      "POSAR",
+      "GOT",
+      "AIGUA",
+      "PAPER",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-1bed9f18ebab",
+      "w-00e8b2c10536",
+      "w-cd5c60f0d076",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un got transparent amb poca aigua és dret al costat d’un full sec."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Inclina el got. Un raig continu toca el full i deixa una vora humida que creix."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c4c2051cba946285fffad9bbc2a119f40aa9edf16b5a84907802d3182f0b73d7",
+      "file": "output/production/n10/n10-041/image.png",
+      "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural adult woman in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Un got transparent amb poca aigua és dret al costat d’un full sec. CENTER (explicit physical mechanism): Inclina el got. Un raig continu toca el full i deixa una vora humida que creix. RIGHT (consequence): El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat. Count and continuity: Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes. Show a medium-gray thick single sheet on a light blue shallow tray, clearly separated glass and dry sheet in panel one. Side view of visible water stream joining the glass lip to the paper, and a clear irregular darker blotch with saturated wrinkled boundary in panel three. The fluted drinking glass has no handle; the final upright water line is lower than initially. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+      "review": "El raig surt de la vora del got i impacta sobre el paper. El full passa de sec a mullat a partir d’aquell punt, amb arrugues i una zona fosca contínua. Safata, got i escala coherents.",
+      "reviewedAt": "2026-11-21T15:43:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural adult woman in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Un got transparent amb poca aigua és dret al costat d’un full sec. CENTER (explicit physical mechanism): Inclina el got. Un raig continu toca el full i deixa una vora humida que creix. RIGHT (consequence): El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat. Count and continuity: Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes. Show a medium-gray thick single sheet on a light blue shallow tray, clearly separated glass and dry sheet in panel one. Side view of visible water stream joining the glass lip to the paper, and a clear irregular darker blotch with saturated wrinkled boundary in panel three. The fluted drinking glass has no handle; the final upright water line is lower than initially. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+  "review": "El raig surt de la vora del got i impacta sobre el paper. El full passa de sec a mullat a partir d’aquell punt, amb arrugues i una zona fosca contínua. Safata, got i escala coherents.",
+  "alt": {
+    "ca": "Una dona inclina un got. L’aigua cau sobre el paper i el deixa mullat al punt on hi arriba el raig.",
+    "es": "Una mujer inclina un vaso. El agua cae sobre el papel y lo moja donde llega el chorro."
+  },
+  "originalSha256": "c4c2051cba946285fffad9bbc2a119f40aa9edf16b5a84907802d3182f0b73d7",
+  "file": "output/production/n10/n10-041/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:43:03+00:00",
+  "tool": "ImageGen integrat"
+}

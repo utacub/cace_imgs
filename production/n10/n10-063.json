@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-063",
+    "number": 63,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-063",
+    "counterpartId": "n10-163",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · plastilina → llis"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "PLASTILINA",
+      "LLIS",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-0606be9fcf92",
+      "w-1e7405a97c69",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "LLIS",
+      "wordId": "w-1e7405a97c69"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una bola té la cara superior rodona i un petit pegat de color a sobre."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El palmell prem la bola sobre la taula. Es veu la vora expandir-se al voltant del palmell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La peça té forma de disc amb el pegat estès a la cara plana."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola porció bicolor. El gruix disminueix quan creix el diàmetre."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "cd65badbb66598a2a2514eb8fa703246c7705988ed87b9aef6dbd5417a5a33e8",
+      "file": "output/production/n10/n10-063/image.png",
+      "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural young adult woman in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Una bola té la cara superior rodona i un petit pegat de color a sobre. CENTER (explicit physical mechanism): El palmell prem la bola sobre la taula. Es veu la vora expandir-se al voltant del palmell. RIGHT (consequence): La peça té forma de disc amb el pegat estès a la cara plana. Count and continuity: Una sola porció bicolor. El gruix disminueix quan creix el diàmetre. Saturated green modeling clay with tiny yellow patch near the upper front. Same mass of clay in all panels, more than doubles in width while becoming much thinner. Use unobstructed front quarter view; the yellow patch must be visible on the flattened top at the end. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+      "review": "El palmell pressiona la plastilina contra el suport i la vora s’eixampla al punt de contacte. La porció continua sencera i el pegat groc es veu a la bola i al disc més prim. Mans visibles i presa natural.",
+      "reviewedAt": "2026-11-21T15:43:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural young adult woman in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Una bola té la cara superior rodona i un petit pegat de color a sobre. CENTER (explicit physical mechanism): El palmell prem la bola sobre la taula. Es veu la vora expandir-se al voltant del palmell. RIGHT (consequence): La peça té forma de disc amb el pegat estès a la cara plana. Count and continuity: Una sola porció bicolor. El gruix disminueix quan creix el diàmetre. Saturated green modeling clay with tiny yellow patch near the upper front. Same mass of clay in all panels, more than doubles in width while becoming much thinner. Use unobstructed front quarter view; the yellow patch must be visible on the flattened top at the end. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+  "review": "El palmell pressiona la plastilina contra el suport i la vora s’eixampla al punt de contacte. La porció continua sencera i el pegat groc es veu a la bola i al disc més prim. Mans visibles i presa natural.",
+  "alt": {
+    "ca": "Una noia prem una bola de plastilina amb el palmell i la converteix en un disc pla.",
+    "es": "Una chica aplasta una bola de plastilina con la palma y la convierte en un disco plano."
+  },
+  "originalSha256": "cd65badbb66598a2a2514eb8fa703246c7705988ed87b9aef6dbd5417a5a33e8",
+  "file": "output/production/n10/n10-063/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:43:03+00:00",
+  "tool": "ImageGen integrat"
+}

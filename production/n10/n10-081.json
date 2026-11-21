@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-081",
+    "number": 81,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-081",
+    "counterpartId": "n10-181",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · tocar · commutador / làmpada → encès"
+    },
+    "labels": [
+      "NOIA",
+      "TOCAR",
+      "COMMUTADOR",
+      "LÀMPADA",
+      "ENCÈS",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-16311bdde998",
+      "w-50c9f146baff",
+      "w-f53919322490",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "COMMUTADOR",
+        "wordId": "w-16311bdde998"
+      },
+      {
+        "label": "LÀMPADA",
+        "wordId": "w-50c9f146baff"
+      }
+    ],
+    "outcome": {
+      "label": "ENCÈS",
+      "wordId": "w-f53919322490"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una làmpada de taula està apagada i el dit encara és separat del commutador mecànic visible al peu."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem el commutador amb el dit fins que bascula. S’encén la font dins la pantalla i es comença a veure el cercle de llum."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El dit s’aparta. El commutador resta en la nova posició i la llum incideix sobre la mateixa taula."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una làmpada de peu rodó, un commutador integrat i una pantalla. Mateixa llum ambiental."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "1dfa68c843799e45a2c308eb80c3396f2a6c88b37389d272a5889286144f90dd",
+      "file": "output/production/n10/n10-081/rejected-01.png",
+      "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural young adult woman in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Una làmpada de taula està apagada i el dit encara és separat del commutador mecànic visible al peu. CENTER (explicit physical mechanism): Prem el commutador amb el dit fins que bascula. S’encén la font dins la pantalla i es comença a veure el cercle de llum. RIGHT (consequence): El dit s’aparta. El commutador resta en la nova posició i la llum incideix sobre la mateixa taula. Count and continuity: Una làmpada de peu rodó, un commutador integrat i una pantalla. Mateixa llum ambiental. Use a large unlabeled mechanical rocker switch integral with lamp circular base, angled so the two positions are readable. A warm luminous patch on white tabletop and visibly glowing matte underside of shade distinguish ON. Maintain studio lighting unchanged. Switch is large enough to read, lamp is the only light object. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+      "review": "El dit pressiona l’extrem que ja era abaixat i el commutador manté la inclinació. També hi ha símbols petits gravats al botó. La llum canvia sense un canvi mecànic inequívoc.",
+      "reviewedAt": "2026-11-21T15:43:03+00:00"
+    }
+  ],
+  "status": "rejected"
+}

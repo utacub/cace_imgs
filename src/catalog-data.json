@@ -1,5 +1,5 @@
 {
-  "version": "0.1.160",
+  "version": "0.1.161",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,298 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n10-041",
+      "src": "assets/constructions/n10/n10-041.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "dona · posar · got / aigua / paper → mullat",
+        "es": "MUJER · PONER · VASO · AGUA · PAPEL · MOJADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una dona inclina un got. L’aigua cau sobre el paper i el deixa mullat al punt on hi arriba el raig.",
+        "es": "Una mujer inclina un vaso. El agua cae sobre el papel y lo moja donde llega el chorro."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-1bed9f18ebab",
+        "w-00e8b2c10536",
+        "w-cd5c60f0d076",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-1bed9f18ebab",
+        "w-00e8b2c10536",
+        "w-cd5c60f0d076",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:43:03+00:00",
+      "target": "n10-041",
+      "constructionId": "n10-041",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un got transparent amb poca aigua és dret al costat d’un full sec."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Inclina el got. Un raig continu toca el full i deixa una vora humida que creix."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "c4c2051cba946285fffad9bbc2a119f40aa9edf16b5a84907802d3182f0b73d7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b0679a7a0fa7219e60d1c787ddb19175b4f004a9be9f48a559fe1b3ab042bdf0"
+    },
+    {
+      "id": "cace-n10-063",
+      "src": "assets/constructions/n10/n10-063.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · tocar · plastilina → llis",
+        "es": "CHICA · TOCAR · PLASTILINA · LISO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia prem una bola de plastilina amb el palmell i la converteix en un disc pla.",
+        "es": "Una chica aplasta una bola de plastilina con la palma y la convierte en un disco plano."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-072ecc01e120",
+        "w-0606be9fcf92",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-072ecc01e120",
+        "w-0606be9fcf92",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:43:03+00:00",
+      "target": "n10-063",
+      "constructionId": "n10-063",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una bola té la cara superior rodona i un petit pegat de color a sobre."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El palmell prem la bola sobre la taula. Es veu la vora expandir-se al voltant del palmell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La peça té forma de disc amb el pegat estès a la cara plana."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una sola porció bicolor. El gruix disminueix quan creix el diàmetre."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "cd65badbb66598a2a2514eb8fa703246c7705988ed87b9aef6dbd5417a5a33e8",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "882e050c0ebc39d76d2de8f87a1c7a2b4757d020edce1e5fb7b12253e003ac38"
+    },
+    {
+      "id": "cace-n10-141",
+      "src": "assets/constructions/n10/n10-141.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "conill · posar · got / aigua / paper → mullat",
+        "es": "CONEJO · PONER · VASO · AGUA · PAPEL · MOJADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un conill vessa aigua d’un got sobre un full. El raig hi deixa una taca mullada.",
+        "es": "Un conejo vierte agua de un vaso sobre una hoja. El chorro deja una mancha húmeda."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-1bed9f18ebab",
+        "w-00e8b2c10536",
+        "w-cd5c60f0d076",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-1bed9f18ebab",
+        "w-00e8b2c10536",
+        "w-cd5c60f0d076",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:43:03+00:00",
+      "target": "n10-141",
+      "constructionId": "n10-141",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un got transparent amb poca aigua és dret al costat d’un full sec."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Inclina el got. Un raig continu toca el full i deixa una vora humida que creix."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "58225603a8f8d8ae1529f10842aedca3bdc143b0a79b12b58687a8ab5eb224ca",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "baaa403980ac894b04cbd88126866203650d68837b84a021745ccd1b34cb284e"
+    },
+    {
+      "id": "cace-n10-163",
+      "src": "assets/constructions/n10/n10-163.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "gos · tocar · plastilina → llis",
+        "es": "PERRO · TOCAR · PLASTILINA · LISO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un gos aplana una bola de plastilina amb la pota. La mateixa peça queda més ampla i prima.",
+        "es": "Un perro aplasta una bola de plastilina con la pata. La misma pieza queda más ancha y fina."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-072ecc01e120",
+        "w-0606be9fcf92",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-072ecc01e120",
+        "w-0606be9fcf92",
+        "w-1e7405a97c69",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:43:03+00:00",
+      "target": "n10-163",
+      "constructionId": "n10-163",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una bola té la cara superior rodona i un petit pegat de color a sobre."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "El palmell prem la bola sobre la taula. Es veu la vora expandir-se al voltant del palmell."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La peça té forma de disc amb el pegat estès a la cara plana."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una sola porció bicolor. El gruix disminueix quan creix el diàmetre."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "14db2b3f14478b7ca51011cb4de37a78849b979f404ba6ebb09e3ff1ca17a58a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "175a70e8eed7c984cdac7dc68ebbdd9b538265de22f66134b074f4b6a98dbb3c"
+    },
     {
       "id": "cace-n10-001",
       "src": "assets/constructions/n10/n10-001.webp",
@@ -174285,7 +174577,11 @@
       "name": "N10 · Causes",
       "items": [
         "cace-n10-001",
-        "cace-n10-101"
+        "cace-n10-101",
+        "cace-n10-041",
+        "cace-n10-063",
+        "cace-n10-141",
+        "cace-n10-163"
       ]
     }
   ]

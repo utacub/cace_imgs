@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-024",
+    "number": 24,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-024",
+    "counterpartId": "n10-124",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · agafar · pal / rampa / cotxe → baixar"
+    },
+    "labels": [
+      "HOME",
+      "AGAFAR",
+      "PAL",
+      "RAMPA",
+      "COTXE",
+      "BAIXAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-677819a0a32a",
+      "w-c8538c4482a2",
+      "w-9079294dc56e",
+      "w-1088e4bd6972",
+      "w-3638c1a730c8",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "COTXE",
+        "wordId": "w-1088e4bd6972"
+      }
+    ],
+    "outcome": {
+      "label": "BAIXAR",
+      "wordId": "w-3638c1a730c8"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un pal travesser impedeix que un cotxe de joguina baixi per la rampa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Aixeca el pal pels extrems. El cotxe comença a passar per l’espai obert sota el pal."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El cotxe és al peu de la rampa. El pal continua alçat a la mateixa alçada."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cotxe amb capó vermell, un pal rom i una rampa curta amb vores."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b75d8bab0c6d68e120a2ce31a58acb0140c1cc4a12b540174866b8a8a4fd0c4f",
+      "file": "output/production/n10/n10-024/rejected-01.png",
+      "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Photorealistic synthetic studio photography, a natural adult man in plain clothes, with human anatomy. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Un pal travesser impedeix que un cotxe de joguina baixi per la rampa. CENTER (explicit physical mechanism): Aixeca el pal pels extrems. El cotxe comença a passar per l’espai obert sota el pal. RIGHT (consequence): El cotxe és al peu de la rampa. El pal continua alçat a la mateixa alçada. Count and continuity: Un cotxe amb capó vermell, un pal rom i una rampa curta amb vores. Show rails and straight wooden crossbar edge-on so contact and clearance are unmistakable. The toy car is stationary against bar first, half a car-length past its former position in panel 2, and resting on the floor in panel 3. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+      "review": "Els topalls petits de fusta que sostenen el pal a la primera vinyeta desapareixen de la rampa a les altres dues. El canvi afecta just el mecanisme que s’ha de seguir.",
+      "reviewedAt": "2026-11-21T15:43:03+00:00"
+    }
+  ],
+  "status": "rejected"
+}

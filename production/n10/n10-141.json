@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-141",
+    "number": 141,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "transferencia",
+    "familyId": "n10-f-041",
+    "counterpartId": "n10-041",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · posar · got / aigua / paper → mullat"
+    },
+    "labels": [
+      "CONILL",
+      "POSAR",
+      "GOT",
+      "AIGUA",
+      "PAPER",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-c211f7486a30",
+      "w-1bed9f18ebab",
+      "w-00e8b2c10536",
+      "w-cd5c60f0d076",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un got transparent amb poca aigua és dret al costat d’un full sec."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Inclina el got. Un raig continu toca el full i deixa una vora humida que creix."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "58225603a8f8d8ae1529f10842aedca3bdc143b0a79b12b58687a8ab5eb224ca",
+      "file": "output/production/n10/n10-141/image.png",
+      "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Crisp flat children's educational illustration in solid colors and dark outlines, one friendly recognizable anthropomorphic rabbit with functional animal paws, species traits and no extra limbs. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Un got transparent amb poca aigua és dret al costat d’un full sec. CENTER (explicit physical mechanism): Inclina el got. Un raig continu toca el full i deixa una vora humida que creix. RIGHT (consequence): El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat. Count and continuity: Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes. Show a medium-gray thick single sheet on a light blue shallow tray, clearly separated glass and dry sheet in panel one. Side view of visible water stream joining the glass lip to the paper, and a clear irregular darker blotch with saturated wrinkled boundary in panel three. The fluted drinking glass has no handle; the final upright water line is lower than initially. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+      "review": "El mateix got estriat passa de dret a inclinat i torna a quedar dret amb menys aigua. El raig toca el full i la taca humida creix des del punt d’impacte. L’agent i la safata són constants.",
+      "reviewedAt": "2026-11-21T15:43:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly ONE finished educational causal-sequence raster image with a wide landscape horizontal triptych. Exactly THREE equal side by side panels separated by generous plain white gutters, no border. Every element is comfortably in frame with white margins. Crisp flat children's educational illustration in solid colors and dark outlines, one friendly recognizable anthropomorphic rabbit with functional animal paws, species traits and no extra limbs. Same single agent, facial identity, clothing, sizes, scale, white backdrop, camera angle, furniture and objects in all three panels. Keep important objects large and sharply legible while keeping all three full actors visible. Catalan content specification, translate visually: LEFT (initial state): Un got transparent amb poca aigua és dret al costat d’un full sec. CENTER (explicit physical mechanism): Inclina el got. Un raig continu toca el full i deixa una vora humida que creix. RIGHT (consequence): El full té una zona translúcida i ondulada sota el broc del got. El nivell del got ha baixat. Count and continuity: Un got estriat i un full amb cantonada arrodonida. Una safata reté les gotes. Show a medium-gray thick single sheet on a light blue shallow tray, clearly separated glass and dry sheet in panel one. Side view of visible water stream joining the glass lip to the paper, and a clear irregular darker blotch with saturated wrinkled boundary in panel three. The fluted drinking glass has no handle; the final upright water line is lower than initially. No words, letters, digits, arrows, motion-line marks, numbers, branding or watermark. Grounded shapes and correct contact and proportions, white backdrop.",
+  "review": "El mateix got estriat passa de dret a inclinat i torna a quedar dret amb menys aigua. El raig toca el full i la taca humida creix des del punt d’impacte. L’agent i la safata són constants.",
+  "alt": {
+    "ca": "Un conill vessa aigua d’un got sobre un full. El raig hi deixa una taca mullada.",
+    "es": "Un conejo vierte agua de un vaso sobre una hoja. El chorro deja una mancha húmeda."
+  },
+  "originalSha256": "58225603a8f8d8ae1529f10842aedca3bdc143b0a79b12b58687a8ab5eb224ca",
+  "file": "output/production/n10/n10-141/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:43:03+00:00",
+  "tool": "ImageGen integrat"
+}
