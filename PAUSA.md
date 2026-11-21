@@ -1,3 +1,11 @@
+# N8 · 200 imatges completades i publicades · 21/11/2026
+
+200/200 N8 revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.145, 3869 imatges i 861 entrades CACE. Les 3717 imatges existents en reprendre (incloses les 48 N8) es preserven íntegrament. Catàleg públic i 200 descàrregues WebP verificats amb SHA-256 a 2026-11-21T10:14:33Z. No generar més N8.
+
+Registre: production/n8-session-2026-11-21.json; auditoria: production/n8-final-audit.json; publicacions: production/n8-publications.json. Originals i descartades: output/production/n8; prompts i revisions: production/n8.
+
+---
+
 # N8 · Represa autoritzada · 21/11/2026
 
 L’usuari demana continuar generant i publicant N8. Reprendre els 152 pendents del pla fins a completar 200, sense nou límit horari. L’horari del 18/11 és històric i no s’aplica a aquesta represa. Una imatge per estímul, revisió individual semàntica i anatòmica, publicació per lots i preservació íntegra de les 3717 imatges existents (incloses les 48 N8) i 861 entrades CACE. Progrés: production/n8-progress.json.
