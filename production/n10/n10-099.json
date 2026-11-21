@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-099",
+    "number": 99,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-099",
+    "counterpartId": "n10-199",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · posar · botó / abric → tancar"
+    },
+    "labels": [
+      "NOIA",
+      "POSAR",
+      "BOTÓ",
+      "ABRIC",
+      "TANCAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-1ed7d690ac96",
+      "w-9596786336ca",
+      "w-4000ec1e6d5b",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "BOTÓ",
+        "wordId": "w-1ed7d690ac96"
+      },
+      {
+        "label": "ABRIC",
+        "wordId": "w-9596786336ca"
+      }
+    ],
+    "outcome": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "L’abric porta dos traus visibles i un botó gros queda alineat amb un d’ells."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Empeny el botó a través del trau. Una part del botó travessa el teixit i una part encara queda en els dits."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El botó reposa totalment a la cara exterior i manté les dues solapes superposades."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un abric amb dos traus i dos botons de formes distingibles, tots visibles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4c999c64d6b35c7026b507a31d82eab48c9042cf017d37a816244366d7c568c6",
+      "file": "output/production/n10/n10-099/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: L’abric porta dos traus visibles i un botó gros queda alineat amb un d’ells. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Empeny el botó a través del trau. Una part del botó travessa el teixit i una part encara queda en els dits. RIGHT result: El botó reposa totalment a la cara exterior i manté les dues solapes superposades. Continuity and accounting: Un abric amb dos traus i dos botons de formes distingibles, tots visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Es conserva el mateix botó rodó i es veu la vora del botó passant pel trau. Quan surt del tot, les dues solapes es mantenen juntes i el segon botó encara es reconeix.",
+      "reviewedAt": "2026-11-21T16:19:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: L’abric porta dos traus visibles i un botó gros queda alineat amb un d’ells. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Empeny el botó a través del trau. Una part del botó travessa el teixit i una part encara queda en els dits. RIGHT result: El botó reposa totalment a la cara exterior i manté les dues solapes superposades. Continuity and accounting: Un abric amb dos traus i dos botons de formes distingibles, tots visibles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Es conserva el mateix botó rodó i es veu la vora del botó passant pel trau. Quan surt del tot, les dues solapes es mantenen juntes i el segon botó encara es reconeix.",
+  "alt": {
+    "ca": "Una noia passa un botó pel trau i les dues solapes de l’abric queden unides.",
+    "es": "Una chica pasa un botón por el ojal y las dos solapas del abrigo quedan unidas."
+  },
+  "originalSha256": "4c999c64d6b35c7026b507a31d82eab48c9042cf017d37a816244366d7c568c6",
+  "file": "output/production/n10/n10-099/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:19:54+00:00",
+  "tool": "ImageGen integrat"
+}

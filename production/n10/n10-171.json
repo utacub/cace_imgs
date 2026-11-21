@@ -1,0 +1,112 @@
+{
+  "construction": {
+    "id": "n10-171",
+    "number": 171,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "deformacio",
+    "familyId": "n10-f-071",
+    "counterpartId": "n10-071",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "conill · tancar · paper / caixa"
+    },
+    "labels": [
+      "CONILL",
+      "TANCAR",
+      "PAPER",
+      "CAIXA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-4000ec1e6d5b",
+      "w-cd5c60f0d076",
+      "w-696b7c739d30",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "agent": {
+      "label": "CONILL",
+      "wordId": "w-51a7805e979b"
+    },
+    "trigger": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "referents": [
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "outcome": null,
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "17ebe6c0fec45a885b4c73b018968a7c9330169813028c9cce68368112c537d5",
+      "file": "output/production/n10/n10-171/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic rabbit; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla. RIGHT result: Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa. Continuity and accounting: Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tapa abaixada entra en contacte amb la tira al lloc de la ratlla. En reobrir-la, el cartró conserva el plec nou, a l’alçada de la mateixa vora.",
+      "reviewedAt": "2026-11-21T16:09:43+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic rabbit; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró prim sobresurt per la vora d’una caixa oberta, de la qual en toca el fons. Té una ratlla transversal just a l’alçada de la vora. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Abaixa la tapa. El cantell de la tapa pressiona la tira contra la vora de la caixa i hi inicia un plec a l’alçada de la ratlla. RIGHT result: Reobre prou la tapa perquè es vegi la tira sencera, doblegada just per la ratlla sobre la vora de la caixa. Continuity and accounting: Una tira sencera de ratlla negra i una caixa de tapa articulada. El canvi és un plec local. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La tapa abaixada entra en contacte amb la tira al lloc de la ratlla. En reobrir-la, el cartró conserva el plec nou, a l’alçada de la mateixa vora.",
+  "alt": {
+    "ca": "Un conill abaixa la tapa d’una caixa i doblega una tira de cartró que hi sobresortia.",
+    "es": "Un conejo baja la tapa de una caja y dobla una tira de cartón que sobresalía."
+  },
+  "originalSha256": "17ebe6c0fec45a885b4c73b018968a7c9330169813028c9cce68368112c537d5",
+  "file": "output/production/n10/n10-171/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:09:43+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-094",
+    "number": 94,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-094",
+    "counterpartId": "n10-194",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · posar · caixa / làmpada → fosc"
+    },
+    "labels": [
+      "NOI",
+      "POSAR",
+      "CAIXA",
+      "LÀMPADA",
+      "FOSC",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-50c9f146baff",
+      "w-28b64969cd51",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "LÀMPADA",
+        "wordId": "w-50c9f146baff"
+      }
+    ],
+    "outcome": {
+      "label": "FOSC",
+      "wordId": "w-28b64969cd51"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "65d39d41030ae62fdbcf04549340e7c881022819d1ce806304310106f4c6be6e",
+      "file": "output/production/n10/n10-094/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa. RIGHT result: La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa. Continuity and accounting: Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La caixa s’interposa en el feix i produeix una ombra lligada a la base, allargada en el sentit oposat al llum. La làmpada i la llum ambiental es mantenen.",
+      "reviewedAt": "2026-11-21T16:18:48+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada encesa il·lumina una superfície. Una caixa opaca amb una obertura lateral és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Interposa una cara opaca de la caixa entre la làmpada i el suport. La vora de l’ombra apareix tocant la base de la caixa. RIGHT result: La làmpada resta encesa i l’ombra del mateix perfil queda marcada al suport, just darrere de la caixa. Continuity and accounting: Una làmpada de peu negre i una caixa amb nansa. Llum ambiental constant. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La caixa s’interposa en el feix i produeix una ombra lligada a la base, allargada en el sentit oposat al llum. La làmpada i la llum ambiental es mantenen.",
+  "alt": {
+    "ca": "Un noi posa una caixa entre el llum i la taula. La caixa bloqueja part de la llum i hi fa ombra.",
+    "es": "Un chico pone una caja entre la lámpara y la mesa. La caja bloquea parte de la luz y proyecta una sombra."
+  },
+  "originalSha256": "65d39d41030ae62fdbcf04549340e7c881022819d1ce806304310106f4c6be6e",
+  "file": "output/production/n10/n10-094/image.png",
+  "width": 2149,
+  "height": 732,
+  "created": "2026-11-21T16:18:48+00:00",
+  "tool": "ImageGen integrat"
+}

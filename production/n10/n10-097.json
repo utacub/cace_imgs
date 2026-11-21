@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-097",
+    "number": 97,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-097",
+    "counterpartId": "n10-197",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · estirar · llum → encès"
+    },
+    "labels": [
+      "NENA",
+      "ESTIRAR",
+      "LLUM",
+      "ENCÈS",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-99499cd7f270",
+      "w-30c924a12d6f",
+      "w-f53919322490",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "LLUM",
+        "wordId": "w-30c924a12d6f"
+      }
+    ],
+    "outcome": {
+      "label": "ENCÈS",
+      "wordId": "w-f53919322490"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ddf2318bc6ef4e260ccb3b274f6937fa7e558231524d013144044f14df47e533",
+      "file": "output/production/n10/n10-097/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla. RIGHT result: Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula. Continuity and accounting: Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La mà estira i tiba el cordill, al mateix moment que s’encenen la font i el cercle a la taula. El llum queda encès quan el cordill torna a penjar.",
+      "reviewedAt": "2026-11-21T16:19:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una làmpada de taula apagada té un cordill curt de comandament amb una peça terminal grossa. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira només la peça terminal. El cordill manté la tensió i es veu encendre la font sota la pantalla. RIGHT result: Torna a penjar el cordill i deixa la mà separada. La làmpada queda encesa amb un cercle de llum a la taula. Continuity and accounting: Una làmpada de base oval, un cordill curt i una peça terminal rodona. Mateixa llum ambiental. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La mà estira i tiba el cordill, al mateix moment que s’encenen la font i el cercle a la taula. El llum queda encès quan el cordill torna a penjar.",
+  "alt": {
+    "ca": "Una nena estira el cordill de la làmpada. El llum s’encén i continua encès quan deixa anar el cordill.",
+    "es": "Una niña tira del cordón de la lámpara. La luz se enciende y sigue encendida al soltarlo."
+  },
+  "originalSha256": "ddf2318bc6ef4e260ccb3b274f6937fa7e558231524d013144044f14df47e533",
+  "file": "output/production/n10/n10-097/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:19:54+00:00",
+  "tool": "ImageGen integrat"
+}

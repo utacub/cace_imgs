@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-093",
+    "number": 93,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-093",
+    "counterpartId": "n10-193",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · aixecar · llum / carmanyola → clar"
+    },
+    "labels": [
+      "NOIA",
+      "AIXECAR",
+      "LLUM",
+      "CARMANYOLA",
+      "CLAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-e12d88415c80",
+      "w-30c924a12d6f",
+      "w-c3b8bd56e942",
+      "w-fcdd764901ac",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "LLUM",
+        "wordId": "w-30c924a12d6f"
+      },
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      }
+    ],
+    "outcome": {
+      "label": "CLAR",
+      "wordId": "w-fcdd764901ac"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una carmanyola opaca cobreix una petita llum ja encesa. A la vora inferior s’hi veu una escletxa brillant."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Aixeca una vora de la carmanyola i pel mateix costat surt una falca de llum que incideix a la taula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La carmanyola queda a la mà i es veu la llum descoberta i el cercle sencer a la taula."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una carmanyola opaca amb vora recta i una única llum circular fixa, alimentada amb pila."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "db4666dd1501cafea7631e954b81aca82818d9bb741626eb845b8ae1a3390b96",
+      "file": "output/production/n10/n10-093/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola opaca cobreix una petita llum ja encesa. A la vora inferior s’hi veu una escletxa brillant. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Aixeca una vora de la carmanyola i pel mateix costat surt una falca de llum que incideix a la taula. RIGHT result: La carmanyola queda a la mà i es veu la llum descoberta i el cercle sencer a la taula. Continuity and accounting: Una carmanyola opaca amb vora recta i una única llum circular fixa, alimentada amb pila. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La llum ja és visible per l’escletxa inicial. En alçar la vora del recipient, el feix augmenta pel mateix costat i deixa a la vista la llum circular, fixa a la taula.",
+      "reviewedAt": "2026-11-21T16:19:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola opaca cobreix una petita llum ja encesa. A la vora inferior s’hi veu una escletxa brillant. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Aixeca una vora de la carmanyola i pel mateix costat surt una falca de llum que incideix a la taula. RIGHT result: La carmanyola queda a la mà i es veu la llum descoberta i el cercle sencer a la taula. Continuity and accounting: Una carmanyola opaca amb vora recta i una única llum circular fixa, alimentada amb pila. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La llum ja és visible per l’escletxa inicial. En alçar la vora del recipient, el feix augmenta pel mateix costat i deixa a la vista la llum circular, fixa a la taula.",
+  "alt": {
+    "ca": "Una noia aixeca la carmanyola que cobreix una llum. En obrir l’escletxa, la claror s’estén sobre la taula.",
+    "es": "Una chica levanta la fiambrera que cubre una luz. Al abrir la ranura, la claridad se extiende por la mesa."
+  },
+  "originalSha256": "db4666dd1501cafea7631e954b81aca82818d9bb741626eb845b8ae1a3390b96",
+  "file": "output/production/n10/n10-093/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:19:54+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-096",
+    "number": 96,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-096",
+    "counterpartId": "n10-196",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · posar · plat / peces → pujar"
+    },
+    "labels": [
+      "HOME",
+      "POSAR",
+      "PLAT",
+      "PECES",
+      "PUJAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-55d250f4cf1e",
+      "w-776ec487889f",
+      "w-478890c976ea",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "outcome": {
+      "label": "PUJAR",
+      "wordId": "w-478890c976ea"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos plats són a alçades oposades. La peça segueix damunt del plat baix."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un sol balancí rígid, dos plats buits al principi i una única peça grossa."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e8cf06e99e8056b75b38ffff40dec8d947711cd2e994b92b9e1bb9fd3c8564d9",
+      "file": "output/production/n10/n10-096/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre. RIGHT result: Els dos plats són a alçades oposades. La peça segueix damunt del plat baix. Continuity and accounting: Un sol balancí rígid, dos plats buits al principi i una única peça grossa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Els plats comencen a la mateixa altura. Quan el bloc toca un dels plats, la barra gira sobre el fulcre i el plat oposat puja. Al final l’únic bloc roman al plat baix.",
+      "reviewedAt": "2026-11-21T16:19:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult man with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Dues safates planes unides a una barra amb fulcre central estan a la mateixa altura. Una peça grossa és a la mà. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa la peça en un plat. El pes fa baixar aquest extrem i l’altre plat s’alça solidàriament al voltant del fulcre. RIGHT result: Els dos plats són a alçades oposades. La peça segueix damunt del plat baix. Continuity and accounting: Un sol balancí rígid, dos plats buits al principi i una única peça grossa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Els plats comencen a la mateixa altura. Quan el bloc toca un dels plats, la barra gira sobre el fulcre i el plat oposat puja. Al final l’únic bloc roman al plat baix.",
+  "alt": {
+    "ca": "Un home posa un bloc en un dels plats de la balança. El plat amb el bloc baixa i l’altre s’alça.",
+    "es": "Un hombre pone un bloque en uno de los platos de la balanza. El plato con el bloque baja y el otro sube."
+  },
+  "originalSha256": "e8cf06e99e8056b75b38ffff40dec8d947711cd2e994b92b9e1bb9fd3c8564d9",
+  "file": "output/production/n10/n10-096/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:19:54+00:00",
+  "tool": "ImageGen integrat"
+}

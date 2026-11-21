@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-117",
+    "number": 117,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-017",
+    "counterpartId": "n10-017",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "zebra · tocar · coixí / pandereta → caure"
+    },
+    "labels": [
+      "ZEBRA",
+      "TOCAR",
+      "COIXÍ",
+      "PANDERETA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-0dc8fba9677d",
+      "w-072ecc01e120",
+      "w-44260b79b61e",
+      "w-f986e24ccb0e",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-0dc8fba9677d",
+    "agent": {
+      "label": "ZEBRA",
+      "wordId": "w-0dc8fba9677d"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "label": "PANDERETA",
+        "wordId": "w-f986e24ccb0e"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una pandereta de joguina està dreta dins d’una ranura, davant d’un coixí."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El cantó del coixí, empès amb els palmells, colpeja el cèrcol. La pandereta pivota a la ranura."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pandereta jeu plana damunt l’estora davant del coixí."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pandereta amb tres parelles de sonalls i un coixí de ratlles."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "77e402a5cc0b8378479bb06b462e133588fd9925a9993b589d3cda491e76d419",
+      "file": "output/production/n10/n10-117/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic zebra; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pandereta de joguina està dreta dins d’una ranura, davant d’un coixí. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: El cantó del coixí, empès amb els palmells, colpeja el cèrcol. La pandereta pivota a la ranura. RIGHT result: La pandereta jeu plana damunt l’estora davant del coixí. Continuity and accounting: Una pandereta amb tres parelles de sonalls i un coixí de ratlles. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les potes apareixen a tocar de la pandereta mentre el coixí és a l’altre costat. El contacte visible no permet atribuir l’empenta només al coixí.",
+      "reviewedAt": "2026-11-21T16:20:38+00:00"
+    }
+  ],
+  "status": "rejected"
+}

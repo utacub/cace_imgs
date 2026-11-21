@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-100",
+    "number": 100,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-100",
+    "counterpartId": "n10-200",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · aixecar · galleda / aigua / plat → obrir"
+    },
+    "labels": [
+      "NOI",
+      "AIXECAR",
+      "GALLEDA",
+      "AIGUA",
+      "PLAT",
+      "OBRIR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-e12d88415c80",
+      "w-7f04619a8649",
+      "w-00e8b2c10536",
+      "w-55d250f4cf1e",
+      "w-a10b29af07c7",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda transparent amb poca aigua té l’orifici inferior tancat per una palanca amb tap, visible des de dalt."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Alça la palanca, que retira el tap de l’orifici. El raig comença a sortir cap al plat."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El nivell de la galleda ha baixat i el plat conté l’aigua. La palanca i el tap queden visiblement alçats."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda transparent, una palanca unida al tap i un plat fondo de capacitat suficient."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "2c6dd289313efacde143ccf7fb687a43cfa05a401877e7a8e58ee4d510dcaa07",
+      "file": "output/production/n10/n10-100/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una galleda transparent amb poca aigua té l’orifici inferior tancat per una palanca amb tap, visible des de dalt. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Alça la palanca, que retira el tap de l’orifici. El raig comença a sortir cap al plat. RIGHT result: El nivell de la galleda ha baixat i el plat conté l’aigua. La palanca i el tap queden visiblement alçats. Continuity and accounting: Una galleda transparent, una palanca unida al tap i un plat fondo de capacitat suficient. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La palanca s’alça però el tap del desguàs queda ocult. Al final encara hi ha aigua per damunt de l’orifici obert i el raig ha desaparegut, de manera que no se’n pot seguir l’evacuació.",
+      "reviewedAt": "2026-11-21T16:20:38+00:00"
+    }
+  ],
+  "status": "rejected"
+}

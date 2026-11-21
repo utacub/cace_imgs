@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-062",
+    "number": 62,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-062",
+    "counterpartId": "n10-162",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · tallar · tisores / cartró → trencat"
+    },
+    "labels": [
+      "DONA",
+      "TALLAR",
+      "TISORES",
+      "CARTRÓ",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-7a101d803c16",
+      "w-f33c4296204d",
+      "w-849126f92ece",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "TALLAR",
+      "wordId": "w-7a101d803c16"
+    },
+    "referents": [
+      {
+        "label": "TISORES",
+        "wordId": "w-f33c4296204d"
+      },
+      {
+        "label": "CARTRÓ",
+        "wordId": "w-849126f92ece"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tira de cartró prim amb una ratlla diagonal és sencera. Les tisores escolars són obertes."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Amb la tira sobre la taula, les dues fulles de les tisores s’hi tanquen a través de la ratlla."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos trossos conserven la secció corresponent de la ratlla i encaixen pel cantell."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola tira de cartolina i unes tisores escolars de punta rodona. Persona adulta."
+    },
+    "adultOnly": true,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "d7a196a0318a266ed8beb19828b20348d4079a7e36431e6cf0a6cc988958a325",
+      "file": "output/production/n10/n10-062/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una tira de cartró prim amb una ratlla diagonal és sencera. Les tisores escolars són obertes. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Amb la tira sobre la taula, les dues fulles de les tisores s’hi tanquen a través de la ratlla. RIGHT result: Els dos trossos conserven la secció corresponent de la ratlla i encaixen pel cantell. Continuity and accounting: Una sola tira de cartolina i unes tisores escolars de punta rodona. Persona adulta. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les tisores desapareixen a la vinyeta final i a la de contacte costa verificar que les dues fulles abracin la cartolina a la línia del tall.",
+      "reviewedAt": "2026-11-21T16:18:05+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,110 @@
+{
+  "construction": {
+    "id": "n10-059",
+    "number": 59,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-059",
+    "counterpartId": "n10-159",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · posar · pintura / pilota / paper → brut"
+    },
+    "labels": [
+      "DONA",
+      "POSAR",
+      "PINTURA",
+      "PILOTA",
+      "PAPER",
+      "BRUT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-4e39a6280b90",
+      "w-b7f578451973",
+      "w-cd5c60f0d076",
+      "w-e8c7f0581229",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "outcome": {
+      "label": "BRUT",
+      "wordId": "w-e8c7f0581229"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una pilota d’escuma té una sola franja de pintura fresca i un full encara net és sobre una safata."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Fa rodar mitja volta la pilota fins que la franja pintada toca el full i hi imprimeix un tros de franja."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Alça la pilota. El full mostra el mateix tros de franja i queda pintura residual a la pilota."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una pilota amb dos cercles permanents que permeten seguir la rotació, un full i una safata."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "a3e9c4ac987d7cd6fd22fbb9ad89276bb486807a028e989627d0b25df823d2a3",
+      "file": "output/production/n10/n10-059/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una pilota d’escuma té una sola franja de pintura fresca i un full encara net és sobre una safata. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Fa rodar mitja volta la pilota fins que la franja pintada toca el full i hi imprimeix un tros de franja. RIGHT result: Alça la pilota. El full mostra el mateix tros de franja i queda pintura residual a la pilota. Continuity and accounting: Una pilota amb dos cercles permanents que permeten seguir la rotació, un full i una safata. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La pilota entra al full des de l’esquerra, però la franja impresa es veu principalment a la dreta, per davant de la pilota. La marca ha de quedar al tram que la pilota ja ha recorregut.",
+      "reviewedAt": "2026-11-21T16:18:05+00:00"
+    }
+  ],
+  "status": "rejected"
+}

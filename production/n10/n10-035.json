@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-035",
+    "number": 35,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-035",
+    "counterpartId": "n10-135",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · obrir · carmanyola / galetes → caure"
+    },
+    "labels": [
+      "DONA",
+      "OBRIR",
+      "CARMANYOLA",
+      "GALETES",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-a10b29af07c7",
+      "w-c3b8bd56e942",
+      "w-eecb1a704a59",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "OBRIR",
+      "wordId": "w-a10b29af07c7"
+    },
+    "referents": [
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      },
+      {
+        "label": "GALETES",
+        "wordId": "w-eecb1a704a59"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una carmanyola queda inclinada amb la tapa tancada sobre una safata. Es veuen dues galetes a través del cos transparent."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Obre la tapa cap a la safata. Dues galetes passen per l’obertura inferior de costat, amb trajectes separats."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les dues galetes senceres reposen sobre la safata i la carmanyola és buida."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una carmanyola amb tapa articulada i dues galetes grans amb vores diferents."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d20d6d0519d27a1edd07978f7974cf21935b13eedcbc5e5efac90dc3c0bf015e",
+      "file": "output/production/n10/n10-035/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola queda inclinada amb la tapa tancada sobre una safata. Es veuen dues galetes a través del cos transparent. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Obre la tapa cap a la safata. Dues galetes passen per l’obertura inferior de costat, amb trajectes separats. RIGHT result: Les dues galetes senceres reposen sobre la safata i la carmanyola és buida. Continuity and accounting: Una carmanyola amb tapa articulada i dues galetes grans amb vores diferents. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "Les dues galetes diferents es veuen dins la carmanyola transparent. Quan s’obre la tapa es veuen sortir per l’obertura i totes dues arriben senceres a la safata.",
+      "reviewedAt": "2026-11-21T16:16:17+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una carmanyola queda inclinada amb la tapa tancada sobre una safata. Es veuen dues galetes a través del cos transparent. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Obre la tapa cap a la safata. Dues galetes passen per l’obertura inferior de costat, amb trajectes separats. RIGHT result: Les dues galetes senceres reposen sobre la safata i la carmanyola és buida. Continuity and accounting: Una carmanyola amb tapa articulada i dues galetes grans amb vores diferents. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "Les dues galetes diferents es veuen dins la carmanyola transparent. Quan s’obre la tapa es veuen sortir per l’obertura i totes dues arriben senceres a la safata.",
+  "alt": {
+    "ca": "Una noia obre una carmanyola inclinada. Les dues galetes que hi havia a dins cauen a la safata.",
+    "es": "Una chica abre una fiambrera inclinada. Las dos galletas que había dentro caen a la bandeja."
+  },
+  "originalSha256": "d20d6d0519d27a1edd07978f7974cf21935b13eedcbc5e5efac90dc3c0bf015e",
+  "file": "output/production/n10/n10-035/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:16:17+00:00",
+  "tool": "ImageGen integrat"
+}

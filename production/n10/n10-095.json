@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-095",
+    "number": 95,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-095",
+    "counterpartId": "n10-195",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · aixecar · rampa / cistell → pujar"
+    },
+    "labels": [
+      "DONA",
+      "AIXECAR",
+      "RAMPA",
+      "CISTELL",
+      "PUJAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-e12d88415c80",
+      "w-9079294dc56e",
+      "w-120fb6b37e88",
+      "w-478890c976ea",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "outcome": {
+      "label": "PUJAR",
+      "wordId": "w-478890c976ea"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una rampa és gairebé plana amb el cistell al seu extrem exterior i la frontissa a l’altre extrem."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Aixeca l’extrem exterior agafant la vora. Una travessa baixa reté el cistell sense amagar la base."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El cistell queda més alt respecte d’un banc fix, encara recolzat sobre la plataforma alçada."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cistell buit amb nansa taronja, una plataforma amb frontissa visible i una travessa."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "4c84a716ff3dc1fda0e65e368638a1a05fe2f12b74d2f51b7ecdc35fbcff265b",
+      "file": "output/production/n10/n10-095/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una rampa és gairebé plana amb el cistell al seu extrem exterior i la frontissa a l’altre extrem. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Aixeca l’extrem exterior agafant la vora. Una travessa baixa reté el cistell sense amagar la base. RIGHT result: El cistell queda més alt respecte d’un banc fix, encara recolzat sobre la plataforma alçada. Continuity and accounting: Un cistell buit amb nansa taronja, una plataforma amb frontissa visible i una travessa. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La plataforma queda suspesa a la darrera vinyeta sense que cap mà ni suport en sostingui l’extrem. A més, la travessa apareix al costat que no impedeix que el cistell rellisqui pendent avall.",
+      "reviewedAt": "2026-11-21T16:19:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

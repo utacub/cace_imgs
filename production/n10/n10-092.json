@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-092",
+    "number": 92,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-092",
+    "counterpartId": "n10-192",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · aigua / got → tancar"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "AIGUA",
+      "GOT",
+      "TANCAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-00e8b2c10536",
+      "w-1bed9f18ebab",
+      "w-4000ec1e6d5b",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "outcome": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "476bfca0f586e22b39941ebaa9f14f6e67039a9fc4a031b64a8fccdfc40b608e",
+      "file": "output/production/n10/n10-092/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se. RIGHT result: La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida. Continuity and accounting: Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La palanca passa d’alçada a abaixada sota la mà: al mateix moment s’aprima el raig. Al final cessa el flux i l’aigua recollida continua al got.",
+      "reviewedAt": "2026-11-21T16:08:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age boy with realistic skin, clothing, anatomy, grip and reach. The actor has tan skin and brown curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una aixeta de lavabo deixa anar aigua i el got transparent és sota el broc. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Gira la maneta mentre l’altra mà sosté el got. El raig s’aprima just abans de tallar-se. RIGHT result: La maneta queda en la nova posició, cessa el raig i el got conserva l’aigua recollida. Continuity and accounting: Una aixeta amb una sola maneta i un got de base gruixuda. La pica reté les gotes sobrants. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La palanca passa d’alçada a abaixada sota la mà: al mateix moment s’aprima el raig. Al final cessa el flux i l’aigua recollida continua al got.",
+  "alt": {
+    "ca": "Un nen abaixa la palanca de l’aixeta. El raig es fa més fi i s’atura, mentre l’aigua del got es conserva.",
+    "es": "Un niño baja la palanca del grifo. El chorro se hace más fino y se detiene, mientras el agua queda en el vaso."
+  },
+  "originalSha256": "476bfca0f586e22b39941ebaa9f14f6e67039a9fc4a031b64a8fccdfc40b608e",
+  "file": "output/production/n10/n10-092/image.png",
+  "width": 2120,
+  "height": 742,
+  "created": "2026-11-21T16:08:55+00:00",
+  "tool": "ImageGen integrat"
+}

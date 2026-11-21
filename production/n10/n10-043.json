@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-043",
+    "number": 43,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-043",
+    "counterpartId": "n10-143",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · posar · esponja / aigua / cartró → mullat"
+    },
+    "labels": [
+      "NENA",
+      "POSAR",
+      "ESPONJA",
+      "AIGUA",
+      "CARTRÓ",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-2d404e0d8979",
+      "w-00e8b2c10536",
+      "w-849126f92ece",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "CARTRÓ",
+        "wordId": "w-849126f92ece"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una esponja humida és a sobre d’una safata i hi ha una placa seca de cartró al costat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Prem l’esponja contra el cartró. Es veu aigua sortir pels porus just a la vora de contacte."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "En alçar l’esponja, queda una empremta humida rectangular sobre el cartró."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una esponja rectangular, un cartró amb osca i una safata. L’esponja encara conserva part de l’aigua."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f9aff4ec51cec1a2779ff819280a61ac629198fe534c17036f46fb353a930dc5",
+      "file": "output/production/n10/n10-043/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una esponja humida és a sobre d’una safata i hi ha una placa seca de cartró al costat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem l’esponja contra el cartró. Es veu aigua sortir pels porus just a la vora de contacte. RIGHT result: En alçar l’esponja, queda una empremta humida rectangular sobre el cartró. Continuity and accounting: Una esponja rectangular, un cartró amb osca i una safata. L’esponja encara conserva part de l’aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La vora humida de l’esponja es veu just quan pressiona el cartró. La marca final correspon a la mateixa forma rectangular i l’esponja es conserva sencera.",
+      "reviewedAt": "2026-11-21T16:17:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has olive skin and straight dark hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una esponja humida és a sobre d’una safata i hi ha una placa seca de cartró al costat. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Prem l’esponja contra el cartró. Es veu aigua sortir pels porus just a la vora de contacte. RIGHT result: En alçar l’esponja, queda una empremta humida rectangular sobre el cartró. Continuity and accounting: Una esponja rectangular, un cartró amb osca i una safata. L’esponja encara conserva part de l’aigua. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La vora humida de l’esponja es veu just quan pressiona el cartró. La marca final correspon a la mateixa forma rectangular i l’esponja es conserva sencera.",
+  "alt": {
+    "ca": "Una noia prem una esponja humida contra el cartró. En retirar-la, el cartró té una empremta mullada.",
+    "es": "Una chica presiona una esponja húmeda contra el cartón. Al levantarla, el cartón tiene una huella mojada."
+  },
+  "originalSha256": "f9aff4ec51cec1a2779ff819280a61ac629198fe534c17036f46fb353a930dc5",
+  "file": "output/production/n10/n10-043/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:17:06+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-079",
+    "number": 79,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-079",
+    "counterpartId": "n10-179",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nena · enfilar · esponja / anelles → petita"
+    },
+    "labels": [
+      "NENA",
+      "ENFILAR",
+      "ESPONJA",
+      "ANELLES",
+      "PETITA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-e93a7bb5d41d",
+      "w-2d404e0d8979",
+      "w-318e0675051a",
+      "w-12c5f9c8621a",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "agent": {
+      "label": "NENA",
+      "wordId": "w-cda6fa4a9867"
+    },
+    "trigger": {
+      "label": "ENFILAR",
+      "wordId": "w-e93a7bb5d41d"
+    },
+    "referents": [
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "ANELLES",
+        "wordId": "w-318e0675051a"
+      }
+    ],
+    "outcome": {
+      "label": "PETITA",
+      "wordId": "w-12c5f9c8621a"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una esponja seca allargada és més ampla que el forat de l’anella rígida."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Comprimeix un extrem amb els dits i el fa entrar pel forat. L’anella estreny la part central."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "L’anella envolta la cintura estreta de l’esponja. Els extrems s’han expandit a banda i banda."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una sola anella gruixuda i una sola esponja bicolor, sense fissures."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2addcb66174bd83ed2dfe8d53fa42188fc7b2c6faaecadf859a7601be2183831",
+      "file": "output/production/n10/n10-079/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una esponja seca allargada és més ampla que el forat de l’anella rígida. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Comprimeix un extrem amb els dits i el fa entrar pel forat. L’anella estreny la part central. RIGHT result: L’anella envolta la cintura estreta de l’esponja. Els extrems s’han expandit a banda i banda. Continuity and accounting: Una sola anella gruixuda i una sola esponja bicolor, sense fissures. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "L’esponja sencera és més ampla que l’obertura. Una mà en comprimeix l’extrem durant el pas i l’anella estreny la part central, deixant els dos extrems expandits.",
+      "reviewedAt": "2026-11-21T16:18:48+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural school-age girl with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una esponja seca allargada és més ampla que el forat de l’anella rígida. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Comprimeix un extrem amb els dits i el fa entrar pel forat. L’anella estreny la part central. RIGHT result: L’anella envolta la cintura estreta de l’esponja. Els extrems s’han expandit a banda i banda. Continuity and accounting: Una sola anella gruixuda i una sola esponja bicolor, sense fissures. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "L’esponja sencera és més ampla que l’obertura. Una mà en comprimeix l’extrem durant el pas i l’anella estreny la part central, deixant els dos extrems expandits.",
+  "alt": {
+    "ca": "Una nena comprimeix una esponja per fer-la passar per l’anella. L’anella li estreny la part del mig.",
+    "es": "Una niña comprime una esponja para pasarla por el aro. El aro estrecha la parte central."
+  },
+  "originalSha256": "2addcb66174bd83ed2dfe8d53fa42188fc7b2c6faaecadf859a7601be2183831",
+  "file": "output/production/n10/n10-079/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:18:48+00:00",
+  "tool": "ImageGen integrat"
+}

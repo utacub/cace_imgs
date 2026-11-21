@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-077",
+    "number": 77,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-077",
+    "counterpartId": "n10-177",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · posar · xocolata / plat → trencat"
+    },
+    "labels": [
+      "DONA",
+      "POSAR",
+      "XOCOLATA",
+      "PLAT",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-1f4f66a7bc82",
+      "w-55d250f4cf1e",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "XOCOLATA",
+        "wordId": "w-1f4f66a7bc82"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una rajola de xocolata sencera reposa sobre dos suports baixos, amb la ranura central suspesa entre ells. L’agent aguanta un plat gruixut amb les dues mans."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Deixa reposar la vora del plat pesant sobre la ranura. Es veu la rajola flectir i trencar-se en aquell punt sobre una safata."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Els dos trossos jeuen a la safata a banda i banda de la vora del plat, que l’agent continua sostenint."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una rajola de sis quadrats, tres a cada tros, un plat, dos suports i totes les engrunes a la safata."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "4cfae7ec93ff95ab39d25f60f5ec6913ba911ed17badf4d2e92e9b5d6741b7f5",
+      "file": "output/production/n10/n10-077/rejected-01.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has medium brown skin and wavy black hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Una rajola de xocolata sencera reposa sobre dos suports baixos, amb la ranura central suspesa entre ells. L’agent aguanta un plat gruixut amb les dues mans. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Deixa reposar la vora del plat pesant sobre la ranura. Es veu la rajola flectir i trencar-se en aquell punt sobre una safata. RIGHT result: Els dos trossos jeuen a la safata a banda i banda de la vora del plat, que l’agent continua sostenint. Continuity and accounting: Una rajola de sis quadrats, tres a cada tros, un plat, dos suports i totes les engrunes a la safata. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "A sota del plat apareix una tija a l’última vinyeta, absent al començament. La ruptura ha de correspondre al contacte amb el cantell del mateix plat, amb el perfil constant.",
+      "reviewedAt": "2026-11-21T16:18:48+00:00"
+    }
+  ],
+  "status": "rejected"
+}

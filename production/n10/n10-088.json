@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-088",
+    "number": 88,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-088",
+    "counterpartId": "n10-188",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · estirar · cremallera / jaqueta → tancar"
+    },
+    "labels": [
+      "NOI",
+      "ESTIRAR",
+      "CREMALLERA",
+      "JAQUETA",
+      "TANCAR",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-99499cd7f270",
+      "w-04607780ade0",
+      "w-baf6d3603bb3",
+      "w-4000ec1e6d5b",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "CREMALLERA",
+        "wordId": "w-04607780ade0"
+      },
+      {
+        "label": "JAQUETA",
+        "wordId": "w-baf6d3603bb3"
+      }
+    ],
+    "outcome": {
+      "label": "TANCAR",
+      "wordId": "w-4000ec1e6d5b"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una jaqueta de coll blau, una cremallera i un sol cursor."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ec8757725b49697af659273bf7ca94c7e4c2632c12250a2ead169ff2b41a3e3e",
+      "file": "output/production/n10/n10-088/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador. RIGHT result: La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la. Continuity and accounting: Una jaqueta de coll blau, una cremallera i un sol cursor. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La mà estira el cursor i només queden unides les dents que ja ha recorregut. A l’última vinyeta el cursor arriba al coll i la mateixa jaqueta queda tancada.",
+      "reviewedAt": "2026-11-21T16:08:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult man with realistic skin, clothing, anatomy, grip and reach. The actor has dark brown skin and short natural curls. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Porta una jaqueta oberta, amb el passador ja inserit a la base de la cremallera. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira el tirador cap amunt amb una mà mentre sosté la base amb l’altra. Es veuen les dents unides només per sota del tirador. RIGHT result: La jaqueta queda tancada fins just sota el coll i el tirador és al costat de la barbeta, sense tocar-la. Continuity and accounting: Una jaqueta de coll blau, una cremallera i un sol cursor. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La mà estira el cursor i només queden unides les dents que ja ha recorregut. A l’última vinyeta el cursor arriba al coll i la mateixa jaqueta queda tancada.",
+  "alt": {
+    "ca": "Un noi estira cap amunt el tirador. Les dents de la cremallera s’uneixen i la jaqueta queda tancada.",
+    "es": "Un chico tira hacia arriba del tirador. Los dientes de la cremallera se unen y la chaqueta queda cerrada."
+  },
+  "originalSha256": "ec8757725b49697af659273bf7ca94c7e4c2632c12250a2ead169ff2b41a3e3e",
+  "file": "output/production/n10/n10-088/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:08:55+00:00",
+  "tool": "ImageGen integrat"
+}

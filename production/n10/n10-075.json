@@ -1,0 +1,111 @@
+{
+  "construction": {
+    "id": "n10-075",
+    "number": 75,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-075",
+    "counterpartId": "n10-175",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · estirar · plastilina → trencat"
+    },
+    "labels": [
+      "NOIA",
+      "ESTIRAR",
+      "PLASTILINA",
+      "TRENCAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-99499cd7f270",
+      "w-0606be9fcf92",
+      "w-6f07968b10be",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      }
+    ],
+    "outcome": {
+      "label": "TRENCAT",
+      "wordId": "w-6f07968b10be"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un cordó curt de plastilina bicolor és sencer."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Estira els extrems fins que el centre queda molt més prim i s’obre una esquerda transversal."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Les mans mostren dues parts amb l’estrenyiment repartit entre les dues vores."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cordó en dos trossos, cap porció afegida ni perduda."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e34dcdf8338f5649af52ffb521c64ac393911e78955158e62953421d03f1645e",
+      "file": "output/production/n10/n10-075/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un cordó curt de plastilina bicolor és sencer. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira els extrems fins que el centre queda molt més prim i s’obre una esquerda transversal. RIGHT result: Les mans mostren dues parts amb l’estrenyiment repartit entre les dues vores. Continuity and accounting: Un cordó en dos trossos, cap porció afegida ni perduda. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La tracció de les mans estreny el centre del cordó abans d’obrir una esquerda. Al final es compten dos fragments i es conserven els colors i les puntes estretes complementàries.",
+      "reviewedAt": "2026-11-21T16:18:05+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Synthetic photorealistic studio photography with one natural young adult woman with realistic skin, clothing, anatomy, grip and reach. The actor has fair skin and short chestnut hair. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un cordó curt de plastilina bicolor és sencer. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Estira els extrems fins que el centre queda molt més prim i s’obre una esquerda transversal. RIGHT result: Les mans mostren dues parts amb l’estrenyiment repartit entre les dues vores. Continuity and accounting: Un cordó en dos trossos, cap porció afegida ni perduda. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La tracció de les mans estreny el centre del cordó abans d’obrir una esquerda. Al final es compten dos fragments i es conserven els colors i les puntes estretes complementàries.",
+  "alt": {
+    "ca": "Una noia estira un cordó de plastilina. S’aprima al centre fins que es parteix en dos.",
+    "es": "Una chica estira un cordón de plastilina. Se estrecha en el centro hasta partirse en dos."
+  },
+  "originalSha256": "e34dcdf8338f5649af52ffb521c64ac393911e78955158e62953421d03f1645e",
+  "file": "output/production/n10/n10-075/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:18:05+00:00",
+  "tool": "ImageGen integrat"
+}

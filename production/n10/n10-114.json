@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-114",
+    "number": 114,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-014",
+    "counterpartId": "n10-014",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ós · posar · caixa / llapis → caure"
+    },
+    "labels": [
+      "ÓS",
+      "POSAR",
+      "CAIXA",
+      "LLAPIS",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-1775aa96869e",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "agent": {
+      "label": "ÓS",
+      "wordId": "w-a06249642996"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un llapis està travessat prop del cantell de la taula."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Desplaça una capsa baixa damunt la taula. El lateral topa amb el llapis, que roda sobre el cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El llapis és a sota i la capsa continua a sobre."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una capsa de dues grapes i un llapis amb goma contrastada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e71874d67f91705fcfe8f22a24229e6b80a8fa9ff20cb8609cf5acc143636747",
+      "file": "output/production/n10/n10-114/image.png",
+      "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un llapis està travessat prop del cantell de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Desplaça una capsa baixa damunt la taula. El lateral topa amb el llapis, que roda sobre el cantell. RIGHT result: El llapis és a sota i la capsa continua a sobre. Continuity and accounting: Una capsa de dues grapes i un llapis amb goma contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+      "review": "La cantonada de la caixa topa amb el llapis, que sobresurt del cantell i després acaba a sota. Es mantenen les dues grapes, el llapis i el mateix suport.",
+      "reviewedAt": "2026-11-21T16:09:43+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Create ONE wide educational raster stimulus with three equal side-by-side panels, large white gutters and margins, white studio background, exactly the same single actor and all the same props with identical scale, perspective, viewing angle and lighting throughout. Flat 2D children’s educational drawing using clear shapes, solid colors and dark clean outlines, of one recognizable anthropomorphic bear; same ears, tail and functional paws throughout. Draw or photograph the following Catalan causal brief without writing any words. LEFT baseline: Un llapis està travessat prop del cantell de la taula. CENTER show the exact physical contact mechanism and onset of the change, with the relevant parts fully visible: Desplaça una capsa baixa damunt la taula. El lateral topa amb el llapis, que roda sobre el cantell. RIGHT result: El llapis és a sota i la capsa continua a sobre. Continuity and accounting: Una capsa de dues grapes i un llapis amb goma contrastada. Fully visible hands, joints, support, edges and all the objects, enough free space around the figures, exact object dimensions and quantities. Keep the same props and furniture in all three panels. No graphics, arrows, motion lines, words, letters, digits, logos or watermark. Wide horizontal image.",
+  "review": "La cantonada de la caixa topa amb el llapis, que sobresurt del cantell i després acaba a sota. Es mantenen les dues grapes, el llapis i el mateix suport.",
+  "alt": {
+    "ca": "Un ós desplaça una caixa. La caixa empeny el llapis fins al cantell de la taula i el llapis cau.",
+    "es": "Un oso desliza una caja. La caja empuja el lápiz hasta el borde de la mesa y el lápiz cae."
+  },
+  "originalSha256": "e71874d67f91705fcfe8f22a24229e6b80a8fa9ff20cb8609cf5acc143636747",
+  "file": "output/production/n10/n10-114/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T16:09:43+00:00",
+  "tool": "ImageGen integrat"
+}
