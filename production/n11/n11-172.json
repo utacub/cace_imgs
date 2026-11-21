@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-172",
+    "number": 172,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-072",
+    "title": {
+      "ca": "El tiquet al seient · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "TIGRE",
+      "PORTAR",
+      "ENSENYAR",
+      "SEURE",
+      "TARGETA",
+      "CADIRA",
+      "TEATRE"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-7a57f3835ffd",
+      "w-73b71e1ff757",
+      "w-1eb1099a21ce",
+      "w-045dc98b2849",
+      "w-71048f407cf0",
+      "w-e1efe2c4e23d",
+      "w-69105eb76f78"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "visitant que busca el seient",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que guia fins a la cadira",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-072",
+    "familyTitle": "El tiquet al seient",
+    "settings": [
+      {
+        "label": "TEATRE",
+        "wordId": "w-69105eb76f78"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "TARGETA",
+        "wordId": "w-71048f407cf0"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra a B el semicercle de la targeta. Una cadira té un semicercle del mateix color al respatller i l’altra un triangle."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B assenyala la cadira del semicercle des del passadís mentre A manté la targeta encarada."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A hi arriba pel passadís i compara els dos semicercles de prop. B es manté a la sortida de la fila."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu a la cadira del semicercle amb la targeta sobre la falda. B seu a la cadira del triangle."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una targeta sense text amb un semicercle, dues cadires amb figures al respatller i un passadís curt."
+    },
+    "narrative": "A mostra la targeta i B el guia cap a la cadira amb la mateixa forma fins que s’hi asseu."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "31ff91afd8ecaa2e57648a3d8039f3b8011e3c3f1f95eb2efb129f840fa7f0f1",
+      "file": "output/production/n11/n11-172/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl tiquet al seient. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, visitant que busca el seient; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que guia fins a la cadira.\nRecurring visual anchors: Una targeta sense text amb un semicercle, dues cadires amb figures al respatller i un passadís curt.\n1. A mostra a B el semicercle de la targeta. Una cadira té un semicercle del mateix color al respatller i l’altra un triangle.\n2. B assenyala la cadira del semicercle des del passadís mentre A manté la targeta encarada.\n3. A hi arriba pel passadís i compara els dos semicercles de prop. B es manté a la sortida de la fila.\n4. A seu a la cadira del semicercle amb la targeta sobre la falda. B seu a la cadira del triangle.",
+      "review": "La targeta té el mateix semicercle que el respatller. El tigre indica la cadira. El gat la compara de prop i hi seu.",
+      "reviewedAt": "2026-11-21T21:28:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl tiquet al seient. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, visitant que busca el seient; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que guia fins a la cadira.\nRecurring visual anchors: Una targeta sense text amb un semicercle, dues cadires amb figures al respatller i un passadís curt.\n1. A mostra a B el semicercle de la targeta. Una cadira té un semicercle del mateix color al respatller i l’altra un triangle.\n2. B assenyala la cadira del semicercle des del passadís mentre A manté la targeta encarada.\n3. A hi arriba pel passadís i compara els dos semicercles de prop. B es manté a la sortida de la fila.\n4. A seu a la cadira del semicercle amb la targeta sobre la falda. B seu a la cadira del triangle.",
+  "review": "La targeta té el mateix semicercle que el respatller. El tigre indica la cadira. El gat la compara de prop i hi seu.",
+  "alt": {
+    "ca": "Un gat mostra la seva targeta i un tigre li ensenya quin seient té el mateix dibuix. Després seuen junts.",
+    "es": "Un gato muestra su tarjeta y un tigre le indica qué silla tiene el mismo dibujo. Después se sientan juntos."
+  },
+  "originalSha256": "31ff91afd8ecaa2e57648a3d8039f3b8011e3c3f1f95eb2efb129f840fa7f0f1",
+  "file": "output/production/n11/n11-172/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:28:20+00:00",
+  "tool": "ImageGen integrat"
+}

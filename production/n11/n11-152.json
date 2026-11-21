@@ -1,0 +1,155 @@
+{
+  "construction": {
+    "id": "n11-152",
+    "number": 152,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-052",
+    "title": {
+      "ca": "La capsa de la foto familiar · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "CANGUR",
+      "OBRIR",
+      "ENSENYAR",
+      "POSAR",
+      "FOTO",
+      "CAIXA",
+      "HABITACIÓ",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-d5395d03acbf",
+      "w-a10b29af07c7",
+      "w-1eb1099a21ce",
+      "w-c211f7486a30",
+      "w-f1db5ec173b6",
+      "w-696b7c739d30",
+      "w-23dafac8fd59",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que troba la foto",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que la prepara per mirar",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-052",
+    "familyTitle": "La capsa de la foto familiar",
+    "settings": [
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A obre la capsa al peu del llit i agafa la foto pels cantells. B acosta un suport buit."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la foto girant-la cap a B, que obre la pinça del suport."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B fixa la foto per baix i A porta el suport agafant-lo per la base fins a la taula de la sala."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos miren la foto dreta sobre el suport. A la imatge impresa es veuen sencers el banc i la finestra."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una capsa amb tancament oval, una foto muda d’un banc i una finestra, un suport de pinça."
+    },
+    "narrative": "A troba la foto, B la fixa al suport i A la porta a la sala perquè la puguin mirar tots dos."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e18b717674bc841a2b5c6d40802de24b50241125f7858c8ed95f25fd2b28d326",
+      "file": "output/production/n11/n11-152/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa capsa de la foto familiar. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que troba la foto; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que la prepara per mirar.\nRecurring visual anchors: Una capsa amb tancament oval, una foto muda d’un banc i una finestra, un suport de pinça.\n1. A obre la capsa al peu del llit i agafa la foto pels cantells. B acosta un suport buit.\n2. A mostra la foto girant-la cap a B, que obre la pinça del suport.\n3. B fixa la foto per baix i A porta el suport agafant-lo per la base fins a la taula de la sala.\n4. Tots dos miren la foto dreta sobre el suport. A la imatge impresa es veuen sencers el banc i la finestra.",
+      "review": "Mateixa foto amb banc i finestra. Cangur i gat la fixen a la pinça; el gat la trasllada i la foto queda dreta a la taula.",
+      "reviewedAt": "2026-11-21T21:28:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa capsa de la foto familiar. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que troba la foto; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que la prepara per mirar.\nRecurring visual anchors: Una capsa amb tancament oval, una foto muda d’un banc i una finestra, un suport de pinça.\n1. A obre la capsa al peu del llit i agafa la foto pels cantells. B acosta un suport buit.\n2. A mostra la foto girant-la cap a B, que obre la pinça del suport.\n3. B fixa la foto per baix i A porta el suport agafant-lo per la base fins a la taula de la sala.\n4. Tots dos miren la foto dreta sobre el suport. A la imatge impresa es veuen sencers el banc i la finestra.",
+  "review": "Mateixa foto amb banc i finestra. Cangur i gat la fixen a la pinça; el gat la trasllada i la foto queda dreta a la taula.",
+  "alt": {
+    "ca": "Un gat troba una foto en una caixa i un cangur la fixa al suport. Porten la foto fins a la sala i la miren plegats.",
+    "es": "Un gato encuentra una foto en una caja y un canguro la coloca en el soporte. Llevan la foto al salón y la miran juntos."
+  },
+  "originalSha256": "e18b717674bc841a2b5c6d40802de24b50241125f7858c8ed95f25fd2b28d326",
+  "file": "output/production/n11/n11-152/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:28:55+00:00",
+  "tool": "ImageGen integrat"
+}

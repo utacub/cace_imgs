@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-140",
+    "number": 140,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-040",
+    "title": {
+      "ca": "El cistell de bàdminton · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "ÓS",
+      "JUGAR",
+      "PORTAR",
+      "GUARDAR",
+      "CISTELL",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-a06249642996",
+      "w-6d90f16f5461",
+      "w-73b71e1ff757",
+      "w-f0441e0dd3b0",
+      "w-120fb6b37e88",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que acaba de jugar",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que recupera els volants",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-040",
+    "familyTitle": "El cistell de bàdminton",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acaba amb la raqueta baixa i veu un volant a terra. B mira el segon volant sobre un banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B recull el del banc mentre A acosta el de terra cap al cistell agafant-lo pel tap."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el primer al cistell i sosté la nansa. B diposita el del banc al costat."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos carreguen les raquetes separades pels mànecs. Els dos volants queden visibles al cistell que A porta."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos volants grossos de pràctica amb puntes arrodonides, dues raquetes i un cistell baix amb nansa doble."
+    },
+    "narrative": "A i B recuperen un volant cadascú i els reuneixen al cistell quan acaben de jugar."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "88f7141d077d497b98ed22bcfbd5a3690e2ba3dc685c65a73871b075df37b7a3",
+      "file": "output/production/n11/n11-140/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell de bàdminton. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que acaba de jugar; B = ÓS, samarreta ocre amb dues ratlles blanques al davant, participant que recupera els volants.\nRecurring visual anchors: Dos volants grossos de pràctica amb puntes arrodonides, dues raquetes i un cistell baix amb nansa doble.\n1. A acaba amb la raqueta baixa i veu un volant a terra. B mira el segon volant sobre un banc.\n2. B recull el del banc mentre A acosta el de terra cap al cistell agafant-lo pel tap.\n3. A posa el primer al cistell i sosté la nansa. B diposita el del banc al costat.\n4. Tots dos carreguen les raquetes separades pels mànecs. Els dos volants queden visibles al cistell que A porta.",
+      "review": "Els dos volants tenen origen i destí visibles. Un entra des de terra i l’altre des del banc. En marxar són dins la cistella.",
+      "reviewedAt": "2026-11-21T21:28:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell de bàdminton. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que acaba de jugar; B = ÓS, samarreta ocre amb dues ratlles blanques al davant, participant que recupera els volants.\nRecurring visual anchors: Dos volants grossos de pràctica amb puntes arrodonides, dues raquetes i un cistell baix amb nansa doble.\n1. A acaba amb la raqueta baixa i veu un volant a terra. B mira el segon volant sobre un banc.\n2. B recull el del banc mentre A acosta el de terra cap al cistell agafant-lo pel tap.\n3. A posa el primer al cistell i sosté la nansa. B diposita el del banc al costat.\n4. Tots dos carreguen les raquetes separades pels mànecs. Els dos volants queden visibles al cistell que A porta.",
+  "review": "Els dos volants tenen origen i destí visibles. Un entra des de terra i l’altre des del banc. En marxar són dins la cistella.",
+  "alt": {
+    "ca": "Un tigre i un ós recullen un volant cadascun. Els desen junts i marxen amb la cistella.",
+    "es": "Un tigre y un oso recogen un volante cada uno. Los guardan juntos y se van con la cesta."
+  },
+  "originalSha256": "88f7141d077d497b98ed22bcfbd5a3690e2ba3dc685c65a73871b075df37b7a3",
+  "file": "output/production/n11/n11-140/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:28:55+00:00",
+  "tool": "ImageGen integrat"
+}

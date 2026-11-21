@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-139",
+    "number": 139,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-039",
+    "title": {
+      "ca": "El carro de pilotes · dibuix"
+    },
+    "labels": [
+      "LLEÓ",
+      "GOS",
+      "PORTAR",
+      "CLASSIFICAR",
+      "GUARDAR",
+      "PILOTA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-fbc89c059c15",
+      "w-4761fde107a7",
+      "w-73b71e1ff757",
+      "w-837cfa89f5df",
+      "w-f0441e0dd3b0",
+      "w-b7f578451973",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-fbc89c059c15",
+    "participants": [
+      {
+        "key": "A",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que recull les pilotes",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que ordena el carro",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-039",
+    "familyTitle": "El carro de pilotes",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts."
+    },
+    "narrative": "A recupera les tres pilotes i B les separa al carro segons el seu relleu abans d’endur-se-les."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "399f0a3e86f5e6c8f02018b0041951b0c2266e0a57a9a49a052b08c3e2a4537b",
+      "file": "output/production/n11/n11-139/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl carro de pilotes. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que recull les pilotes; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que ordena el carro.\nRecurring visual anchors: Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts.\n1. A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible.\n2. A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec.\n3. B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu.\n4. B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles.",
+      "review": "El lleó recull les tres pilotes i el gos les classifica. Les dues llises són al costat de la rugosa, separades pel divisor del carro.",
+      "reviewedAt": "2026-11-21T21:28:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl carro de pilotes. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que recull les pilotes; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que ordena el carro.\nRecurring visual anchors: Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts.\n1. A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible.\n2. A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec.\n3. B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu.\n4. B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles.",
+  "review": "El lleó recull les tres pilotes i el gos les classifica. Les dues llises són al costat de la rugosa, separades pel divisor del carro.",
+  "alt": {
+    "ca": "Un lleó recull tres pilotes. Un gos desa les dues llises al compartiment gran i la rugosa al petit.",
+    "es": "Un león recoge tres pelotas. Un perro guarda las dos lisas en el compartimento grande y la rugosa en el pequeño."
+  },
+  "originalSha256": "399f0a3e86f5e6c8f02018b0041951b0c2266e0a57a9a49a052b08c3e2a4537b",
+  "file": "output/production/n11/n11-139/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:28:55+00:00",
+  "tool": "ImageGen integrat"
+}

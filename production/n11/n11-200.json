@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-200",
+    "number": 200,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-100",
+    "title": {
+      "ca": "La safata del mirador d’ocells · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "CONILL",
+      "PORTAR",
+      "AJUDAR",
+      "POSAR",
+      "OCELL",
+      "AIGUA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-51a7805e979b",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-52fa5badbff5",
+      "w-00e8b2c10536",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que prepara l’aigua",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que observa des del banc",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-100",
+    "familyTitle": "La safata del mirador d’ocells",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "OCELL",
+        "wordId": "w-52fa5badbff5"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acosta el plat buit a un suport baix. B, amb la gerreta a la mà, indica un ocell posat en una branca distant."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B dona la gerreta i torna al banc mentre A aboca un raig curt al plat fins a formar una làmina prima."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A es retira amb la gerreta dreta amb aigua restant i seu al costat de B. L’ocell és ara a terra al costat del suport."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Des del banc, tots dos miren l’ocell amb el bec a la làmina del mateix plat. La gerreta queda dreta entre els dos."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un plat poc fondo de vora estriada, una gerreta transparent amb marca i un banc a distància del plat."
+    },
+    "narrative": "B localitza l’ocell i dona aigua a A, que omple el plat. Junts es retiren i miren com l’ocell beu."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "19dff6c76bed98cacc58eb1e8fff4a448bc98a3e53f33e69a1ce03c2a3e9a17f",
+      "file": "output/production/n11/n11-200/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa safata del mirador d’ocells. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que prepara l’aigua; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que observa des del banc.\nRecurring visual anchors: Un plat poc fondo de vora estriada, una gerreta transparent amb marca i un banc a distància del plat.\n1. A acosta el plat buit a un suport baix. B, amb la gerreta a la mà, indica un ocell posat en una branca distant.\n2. B dona la gerreta i torna al banc mentre A aboca un raig curt al plat fins a formar una làmina prima.\n3. A es retira amb la gerreta dreta amb aigua restant i seu al costat de B. L’ocell és ara a terra al costat del suport.\n4. Des del banc, tots dos miren l’ocell amb el bec a la làmina del mateix plat. La gerreta queda dreta entre els dos.",
+      "review": "El conill identifica l’ocell i passa la gerra al tigre. La branca queda buida i el mateix ocell arriba al plat. Es veu aigua a la gerra i al plat al final.",
+      "reviewedAt": "2026-11-21T21:32:57+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa safata del mirador d’ocells. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que prepara l’aigua; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que observa des del banc.\nRecurring visual anchors: Un plat poc fondo de vora estriada, una gerreta transparent amb marca i un banc a distància del plat.\n1. A acosta el plat buit a un suport baix. B, amb la gerreta a la mà, indica un ocell posat en una branca distant.\n2. B dona la gerreta i torna al banc mentre A aboca un raig curt al plat fins a formar una làmina prima.\n3. A es retira amb la gerreta dreta amb aigua restant i seu al costat de B. L’ocell és ara a terra al costat del suport.\n4. Des del banc, tots dos miren l’ocell amb el bec a la làmina del mateix plat. La gerreta queda dreta entre els dos.",
+  "review": "El conill identifica l’ocell i passa la gerra al tigre. La branca queda buida i el mateix ocell arriba al plat. Es veu aigua a la gerra i al plat al final.",
+  "alt": {
+    "ca": "Un conill localitza un ocell i dona la gerra al tigre. El tigre posa aigua al plat i el miren beure des del banc.",
+    "es": "Un conejo localiza un pájaro y da la jarra al tigre. El tigre pone agua en el plato y lo ven beber desde el banco."
+  },
+  "originalSha256": "19dff6c76bed98cacc58eb1e8fff4a448bc98a3e53f33e69a1ce03c2a3e9a17f",
+  "file": "output/production/n11/n11-200/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:32:57+00:00",
+  "tool": "ImageGen integrat"
+}

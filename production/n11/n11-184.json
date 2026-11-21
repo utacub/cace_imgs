@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-184",
+    "number": 184,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-084",
+    "title": {
+      "ca": "El cistell al pas estret · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "GOS",
+      "PORTAR",
+      "DONAR",
+      "CAMINAR",
+      "CISTELL",
+      "BOSC"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-4761fde107a7",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-6ec00ca36441",
+      "w-120fb6b37e88",
+      "w-c912bb04c6c9"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que creua primer pel pas",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que transfereix la càrrega",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-084",
+    "familyTitle": "El cistell al pas estret",
+    "settings": [
+      {
+        "label": "BOSC",
+        "wordId": "w-c912bb04c6c9"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "CAMINAR",
+        "wordId": "w-6ec00ca36441"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona."
+    },
+    "narrative": "A passa primer i rep el cistell de B, que així pot travessar el pas estret amb les mans lliures."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3bba97f3f5a7c2eb206a1914fa0e964548adaf51d1ebfc58e0a05251ec4b72d3",
+      "file": "output/production/n11/n11-184/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell al pas estret. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que creua primer pel pas; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que transfereix la càrrega.\nRecurring visual anchors: Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona.\n1. A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada.\n2. A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell.\n3. B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons.\n4. B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample.",
+      "review": "Una cistella i dues pinyes al llarg de les quatre vinyetes. L’ós creua primer i rep la càrrega. El gos passa després amb les mans lliures.",
+      "reviewedAt": "2026-11-21T21:31:37+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell al pas estret. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que creua primer pel pas; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que transfereix la càrrega.\nRecurring visual anchors: Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona.\n1. A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada.\n2. A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell.\n3. B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons.\n4. B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample.",
+  "review": "Una cistella i dues pinyes al llarg de les quatre vinyetes. L’ós creua primer i rep la càrrega. El gos passa després amb les mans lliures.",
+  "alt": {
+    "ca": "Un ós travessa el pas estret. Un gos li passa el cistell de les dues pinyes i després el segueix.",
+    "es": "Un oso cruza el paso estrecho. Un perro le pasa la cesta de las dos piñas y después lo sigue."
+  },
+  "originalSha256": "3bba97f3f5a7c2eb206a1914fa0e964548adaf51d1ebfc58e0a05251ec4b72d3",
+  "file": "output/production/n11/n11-184/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:31:37+00:00",
+  "tool": "ImageGen integrat"
+}

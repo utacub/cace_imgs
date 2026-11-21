@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-177",
+    "number": 177,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-077",
+    "title": {
+      "ca": "La clau del calaix de devolucions · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "MICO",
+      "DONAR",
+      "OBRIR",
+      "GUARDAR",
+      "CLAU",
+      "LLIBRE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-12a87560751b",
+      "w-dd80e4e4de38",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-49f4bdd9a93a",
+      "w-3bb995df42bf",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que porta el llibre",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que obre el calaix",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-077",
+    "familyTitle": "La clau del calaix de devolucions",
+    "settings": [
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CLAU",
+        "wordId": "w-49f4bdd9a93a"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira la clau al pany amb A sostenint el llibre de cantell."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins."
+    },
+    "narrative": "A porta el llibre i presta la clau a B, que obre el calaix i li torna la clau un cop desat el llibre."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2acbe96543d1a53552db631756519c747531faddfb756a724f9d96794bcaee6e",
+      "file": "output/production/n11/n11-177/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa clau del calaix de devolucions. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que porta el llibre; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que obre el calaix.\nRecurring visual anchors: Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins.\n1. A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat.\n2. B gira la clau al pany amb A sostenint el llibre de cantell.\n3. B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles.\n4. El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A.",
+      "review": "Una clau, dos llibres al calaix i un tercer de ratlles que s’hi afegeix. El mico obre i torna la clau a la tortuga.",
+      "reviewedAt": "2026-11-21T21:29:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa clau del calaix de devolucions. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que porta el llibre; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que obre el calaix.\nRecurring visual anchors: Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins.\n1. A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat.\n2. B gira la clau al pany amb A sostenint el llibre de cantell.\n3. B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles.\n4. El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A.",
+  "review": "Una clau, dos llibres al calaix i un tercer de ratlles que s’hi afegeix. El mico obre i torna la clau a la tortuga.",
+  "alt": {
+    "ca": "Una tortuga dona una clau a un mico. Ell obre el calaix, ella hi posa el llibre i ell li torna la clau.",
+    "es": "Una tortuga da una llave a un mono. Él abre el cajón, ella guarda el libro y él le devuelve la llave."
+  },
+  "originalSha256": "2acbe96543d1a53552db631756519c747531faddfb756a724f9d96794bcaee6e",
+  "file": "output/production/n11/n11-177/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:29:29+00:00",
+  "tool": "ImageGen integrat"
+}

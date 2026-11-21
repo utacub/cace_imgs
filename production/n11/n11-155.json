@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-155",
+    "number": 155,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-055",
+    "title": {
+      "ca": "Els tres draps estesos · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "CONILL",
+      "ASSECAR",
+      "PORTAR",
+      "POSAR",
+      "CUINA",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-51a7805e979b",
+      "w-ae417aa563dd",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-2a34971d94b3",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que estèn els draps",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que sosté el cistell",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-055",
+    "familyTitle": "Els tres draps estesos",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ensenya un drap d’una ratlla sobre els altres dos dins el cistell que B sosté."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta el cistell fins a la barra i A hi estèn el drap d’una ratlla."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A estèn el de dues ratlles mentre B aixeca el cistell per deixar el tercer a l’abast."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mostra el cistell buit i A assenyala els tres draps que pengen a la barra, amb una, dues i tres ratlles visibles."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres draps mullats d’una, dues i tres ratlles i una barra d’eixugar amb tres espais lliures."
+    },
+    "narrative": "B du el cistell a la barra i hi deixa els draps a l’abast d’A, que els estén tots tres."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4bd998c75e58e4ae1058ef5e2a0e7ce1f5a64e83d6ed61d61edc44164b5622ab",
+      "file": "output/production/n11/n11-155/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls tres draps estesos. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que estèn els draps; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que sosté el cistell.\nRecurring visual anchors: Tres draps mullats d’una, dues i tres ratlles i una barra d’eixugar amb tres espais lliures.\n1. A ensenya un drap d’una ratlla sobre els altres dos dins el cistell que B sosté.\n2. B porta el cistell fins a la barra i A hi estèn el drap d’una ratlla.\n3. A estèn el de dues ratlles mentre B aixeca el cistell per deixar el tercer a l’abast.\n4. B mostra el cistell buit i A assenyala els tres draps que pengen a la barra, amb una, dues i tres ratlles visibles.",
+      "review": "Tres draps amb una, dues i tres ratlles. El conill porta el cistell i el mico penja els draps. L’última vinyeta els mostra tots tres a la barra.",
+      "reviewedAt": "2026-11-21T21:30:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls tres draps estesos. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que estèn els draps; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que sosté el cistell.\nRecurring visual anchors: Tres draps mullats d’una, dues i tres ratlles i una barra d’eixugar amb tres espais lliures.\n1. A ensenya un drap d’una ratlla sobre els altres dos dins el cistell que B sosté.\n2. B porta el cistell fins a la barra i A hi estèn el drap d’una ratlla.\n3. A estèn el de dues ratlles mentre B aixeca el cistell per deixar el tercer a l’abast.\n4. B mostra el cistell buit i A assenyala els tres draps que pengen a la barra, amb una, dues i tres ratlles visibles.",
+  "review": "Tres draps amb una, dues i tres ratlles. El conill porta el cistell i el mico penja els draps. L’última vinyeta els mostra tots tres a la barra.",
+  "alt": {
+    "ca": "Un conill porta tres draps al mico perquè els pengi. En acabar mostren la barra amb els tres draps i el cistell buit.",
+    "es": "Un conejo lleva tres paños al mono para que los cuelgue. Al terminar muestran la barra con los tres paños y la cesta vacía."
+  },
+  "originalSha256": "4bd998c75e58e4ae1058ef5e2a0e7ce1f5a64e83d6ed61d61edc44164b5622ab",
+  "file": "output/production/n11/n11-155/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:30:04+00:00",
+  "tool": "ImageGen integrat"
+}

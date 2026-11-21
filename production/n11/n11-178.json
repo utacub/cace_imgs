@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-178",
+    "number": 178,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-078",
+    "title": {
+      "ca": "El got del segon lloc · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "ESQUIROL",
+      "DONAR",
+      "PORTAR",
+      "BEURE",
+      "GOT",
+      "AIGUA",
+      "BAR"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-cc5063e253e2",
+      "w-dd80e4e4de38",
+      "w-73b71e1ff757",
+      "w-a5ddba336d84",
+      "w-1bed9f18ebab",
+      "w-00e8b2c10536",
+      "w-2323fb67068e"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que prepara els dos gots",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que porta l’aigua a taula",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-078",
+    "familyTitle": "El got del segon lloc",
+    "settings": [
+      {
+        "label": "BAR",
+        "wordId": "w-2323fb67068e"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa els dos gots buits sobre la safata que B sosté recolzada al taulell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides."
+    },
+    "narrative": "A posa els gots a la safata que porta B fins als dos llocs, on A els omple."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ed9012e36f2ff1168bcb9f020310d3dc5eb00a964f17a5a24df8763afe63466f",
+      "file": "output/production/n11/n11-178/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl got del segon lloc. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos gots; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que porta l’aigua a taula.\nRecurring visual anchors: Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides.\n1. A posa els dos gots buits sobre la safata que B sosté recolzada al taulell.\n2. B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra.\n3. B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada.\n4. A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat.",
+      "review": "Un got cilíndric i un de peu. L’esquirol els du sobre la safata i el cangur hi aboca aigua. Queda líquid residual a la gerra.",
+      "reviewedAt": "2026-11-21T21:29:29+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl got del segon lloc. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos gots; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que porta l’aigua a taula.\nRecurring visual anchors: Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides.\n1. A posa els dos gots buits sobre la safata que B sosté recolzada al taulell.\n2. B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra.\n3. B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada.\n4. A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat.",
+  "review": "Un got cilíndric i un de peu. L’esquirol els du sobre la safata i el cangur hi aboca aigua. Queda líquid residual a la gerra.",
+  "alt": {
+    "ca": "Un esquirol porta dos gots a la taula. Un cangur els omple i després beuen plegats.",
+    "es": "Una ardilla lleva dos vasos a la mesa. Un canguro los llena y luego beben juntos."
+  },
+  "originalSha256": "ed9012e36f2ff1168bcb9f020310d3dc5eb00a964f17a5a24df8763afe63466f",
+  "file": "output/production/n11/n11-178/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:29:29+00:00",
+  "tool": "ImageGen integrat"
+}

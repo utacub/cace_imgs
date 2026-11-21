@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-190",
+    "number": 190,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-090",
+    "title": {
+      "ca": "La barrera del planter · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "LLEÓ",
+      "VEURE",
+      "PORTAR",
+      "POSAR",
+      "PLANTA",
+      "PAL",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-fbc89c059c15",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-03d524b232d7",
+      "w-c8538c4482a2",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que detecta el forat de la tanca",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que reinstal·la la peça",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-090",
+    "familyTitle": "La barrera del planter",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça el pal caigut i el dona a B des del costat exterior del planter."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes."
+    },
+    "narrative": "A troba i lliura el pal caigut i B el torna a l’encaix perquè A hi pugui recolzar la corda."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3397c81468152c7bd3e0c5631fc18db9785e42304f714b0eadb9284ff775dda3",
+      "file": "output/production/n11/n11-190/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa barrera del planter. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que detecta el forat de la tanca; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que reinstal·la la peça.\nRecurring visual anchors: Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes.\n1. A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà.\n2. A alça el pal caigut i el dona a B des del costat exterior del planter.\n3. B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta.\n4. La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes.",
+      "review": "Tres pals abans i després. El tigre passa el pal caigut i aixeca la corda, i el lleó reinstal·la el suport. El tram queda tens al final.",
+      "reviewedAt": "2026-11-21T21:32:20+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa barrera del planter. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que detecta el forat de la tanca; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que reinstal·la la peça.\nRecurring visual anchors: Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes.\n1. A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà.\n2. A alça el pal caigut i el dona a B des del costat exterior del planter.\n3. B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta.\n4. La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes.",
+  "review": "Tres pals abans i després. El tigre passa el pal caigut i aixeca la corda, i el lleó reinstal·la el suport. El tram queda tens al final.",
+  "alt": {
+    "ca": "Un tigre recull un pal caigut. Un lleó el torna a posar i el tigre hi passa la corda per tancar el planter.",
+    "es": "Un tigre recoge un poste caído. Un león lo vuelve a poner y el tigre coloca la cuerda para cerrar el semillero."
+  },
+  "originalSha256": "3397c81468152c7bd3e0c5631fc18db9785e42304f714b0eadb9284ff775dda3",
+  "file": "output/production/n11/n11-190/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:32:20+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-163",
+    "number": 163,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-063",
+    "title": {
+      "ca": "La cistella que canviava de mà · dibuix"
+    },
+    "labels": [
+      "GOS",
+      "TIGRE",
+      "COMPRAR",
+      "DONAR",
+      "PORTAR",
+      "CISTELL",
+      "TARONJA",
+      "MERCAT"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-7a57f3835ffd",
+      "w-57b3143c692c",
+      "w-dd80e4e4de38",
+      "w-73b71e1ff757",
+      "w-120fb6b37e88",
+      "w-0a8209be882f",
+      "w-d6951854cbf7"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que fa la compra",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que l’ajuda a dur-la",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-063",
+    "familyTitle": "La cistella que canviava de mà",
+    "settings": [
+      {
+        "label": "MERCAT",
+        "wordId": "w-d6951854cbf7"
+      }
+    ],
+    "targets": [
+      {
+        "label": "COMPRAR",
+        "wordId": "w-57b3143c692c"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      },
+      {
+        "label": "TARONJA",
+        "wordId": "w-0a8209be882f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acosta el cistell buit a les tres taronges. B estabilitza la nansa doble pel costat lliure."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa les tres taronges al cistell mentre B sosté una nansa a cada mà."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B rep tot el pes del cistell i A aparta les mans quan s’allunyen del mateix taulell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta el cistell amb les tres taronges visibles i A li manté oberta la porta de sortida."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un cistell amb nansa doble i tres taronges sobre un taulell baix amb una vora dentada."
+    },
+    "narrative": "A recull les taronges i B s’encarrega de portar el cistell mentre A li obre la sortida."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "def478c26e46deb2bd833afcc2e4dce90dcfa279823f21a9246827ab78c0b86d",
+      "file": "output/production/n11/n11-163/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cistella que canviava de mà. Actors and fixed identity: A = GOS, armilla blau fosc amb un triangle clar al davant, participant que fa la compra; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que l’ajuda a dur-la.\nRecurring visual anchors: Un cistell amb nansa doble i tres taronges sobre un taulell baix amb una vora dentada.\n1. A acosta el cistell buit a les tres taronges. B estabilitza la nansa doble pel costat lliure.\n2. A posa les tres taronges al cistell mentre B sosté una nansa a cada mà.\n3. B rep tot el pes del cistell i A aparta les mans quan s’allunyen del mateix taulell.\n4. B porta el cistell amb les tres taronges visibles i A li manté oberta la porta de sortida.",
+      "review": "Tres taronges, dues nanses i un sol cistell. El gos posa la fruita mentre el tigre l’aguanta. El tigre la du i el gos obre la porta.",
+      "reviewedAt": "2026-11-21T21:30:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cistella que canviava de mà. Actors and fixed identity: A = GOS, armilla blau fosc amb un triangle clar al davant, participant que fa la compra; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que l’ajuda a dur-la.\nRecurring visual anchors: Un cistell amb nansa doble i tres taronges sobre un taulell baix amb una vora dentada.\n1. A acosta el cistell buit a les tres taronges. B estabilitza la nansa doble pel costat lliure.\n2. A posa les tres taronges al cistell mentre B sosté una nansa a cada mà.\n3. B rep tot el pes del cistell i A aparta les mans quan s’allunyen del mateix taulell.\n4. B porta el cistell amb les tres taronges visibles i A li manté oberta la porta de sortida.",
+  "review": "Tres taronges, dues nanses i un sol cistell. El gos posa la fruita mentre el tigre l’aguanta. El tigre la du i el gos obre la porta.",
+  "alt": {
+    "ca": "Un gos posa tres taronges al cistell. Un tigre se l’emporta i el gos li deixa oberta la porta.",
+    "es": "Un perro pone tres naranjas en la cesta. Un tigre se la lleva y el perro le deja la puerta abierta."
+  },
+  "originalSha256": "def478c26e46deb2bd833afcc2e4dce90dcfa279823f21a9246827ab78c0b86d",
+  "file": "output/production/n11/n11-163/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:30:04+00:00",
+  "tool": "ImageGen integrat"
+}

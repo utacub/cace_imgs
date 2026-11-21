@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-156",
+    "number": 156,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-056",
+    "title": {
+      "ca": "La bossa que s’obre · dibuix"
+    },
+    "labels": [
+      "ESQUIROL",
+      "GAT",
+      "AJUDAR",
+      "OBRIR",
+      "GUARDAR",
+      "BOSSA",
+      "CAIXA",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-11ff74d27c02",
+      "w-5b2ff1d40d54",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-7db8d682fed4",
+      "w-696b7c739d30",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que sosté la bossa",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que recupera la capsa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-056",
+    "familyTitle": "La bossa que s’obre",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix."
+    },
+    "narrative": "A manté la bossa oberta i dret el fons mentre B hi posa la caixa abans d’endur-se-la."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d77433c32e458bed15b28619cba3775ebfe02cee2ef813cdd7077c3537498a61",
+      "file": "output/production/n11/n11-156/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bossa que s’obre. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que sosté la bossa; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que recupera la capsa.\nRecurring visual anchors: Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix.\n1. B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada.\n2. A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa.\n3. B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca.\n4. B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins.",
+      "review": "El gat du la capsa de cantoneres i l’esquirol obre la bossa. La mateixa capsa es veu a dins quan el gat n’agafa les nanses.",
+      "reviewedAt": "2026-11-21T21:30:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bossa que s’obre. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que sosté la bossa; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que recupera la capsa.\nRecurring visual anchors: Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix.\n1. B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada.\n2. A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa.\n3. B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca.\n4. B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins.",
+  "review": "El gat du la capsa de cantoneres i l’esquirol obre la bossa. La mateixa capsa es veu a dins quan el gat n’agafa les nanses.",
+  "alt": {
+    "ca": "Un esquirol obre la bossa i un gat hi posa la capsa. El gat ja se la pot endur per les dues nanses.",
+    "es": "Una ardilla abre la bolsa y un gato mete la caja. El gato ya puede llevársela por las dos asas."
+  },
+  "originalSha256": "d77433c32e458bed15b28619cba3775ebfe02cee2ef813cdd7077c3537498a61",
+  "file": "output/production/n11/n11-156/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:30:04+00:00",
+  "tool": "ImageGen integrat"
+}

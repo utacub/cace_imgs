@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-167",
+    "number": 167,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-067",
+    "title": {
+      "ca": "Una cadira més a la plaça · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "ÓS",
+      "PORTAR",
+      "POSAR",
+      "SEURE",
+      "CADIRA",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-a06249642996",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-045dc98b2849",
+      "w-e1efe2c4e23d",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que reubica la cadira",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que prepara la taula",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-067",
+    "familyTitle": "Una cadira més a la plaça",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats."
+    },
+    "narrative": "B prepara dos llocs i A acosta la cadira separada perquè puguin ocupar els dos seients."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "89cc62b34862f58361b88e1476b3559edfa947939e01da94f4d06cef8e46c973",
+      "file": "output/production/n11/n11-167/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna cadira més a la plaça. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que reubica la cadira; B = ÓS, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la taula.\nRecurring visual anchors: Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats.\n1. B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc.\n2. A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat.\n3. A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria.\n4. A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu.",
+      "review": "Respatllers d’una ratlla i de dues, dues cadires i dos plats. La tortuga porta la cadira d’una ratlla fins al lloc lliure que indica l’ós.",
+      "reviewedAt": "2026-11-21T21:31:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna cadira més a la plaça. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que reubica la cadira; B = ÓS, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la taula.\nRecurring visual anchors: Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats.\n1. B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc.\n2. A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat.\n3. A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria.\n4. A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu.",
+  "review": "Respatllers d’una ratlla i de dues, dues cadires i dos plats. La tortuga porta la cadira d’una ratlla fins al lloc lliure que indica l’ós.",
+  "alt": {
+    "ca": "Un ós prepara dos plats. Una tortuga acosta la cadira separada i tots dos seuen a taula.",
+    "es": "Un oso prepara dos platos. Una tortuga acerca la silla separada y los dos se sientan a la mesa."
+  },
+  "originalSha256": "89cc62b34862f58361b88e1476b3559edfa947939e01da94f4d06cef8e46c973",
+  "file": "output/production/n11/n11-167/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:31:06+00:00",
+  "tool": "ImageGen integrat"
+}

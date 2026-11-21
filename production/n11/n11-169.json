@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-169",
+    "number": 169,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-069",
+    "title": {
+      "ca": "El paquet a l’aparador · dibuix"
+    },
+    "labels": [
+      "LLEÓ",
+      "ESQUIROL",
+      "PORTAR",
+      "AJUDAR",
+      "POSAR",
+      "REGAL",
+      "CAIXA",
+      "BOTIGA"
+    ],
+    "wordIds": [
+      "w-fbc89c059c15",
+      "w-cc5063e253e2",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-1cd900d2ebf0",
+      "w-696b7c739d30",
+      "w-c299f0f22ee8"
+    ],
+    "primaryWordId": "w-fbc89c059c15",
+    "participants": [
+      {
+        "key": "A",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que porta l’expositor",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que situa el paquet",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-069",
+    "familyTitle": "El paquet a l’aparador",
+    "settings": [
+      {
+        "label": "BOTIGA",
+        "wordId": "w-c299f0f22ee8"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "REGAL",
+        "wordId": "w-1cd900d2ebf0"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça la plataforma buida des de sota el taulell. B manté la capsa amb llaç al taulell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A posa la plataforma a la vitrina i mostra la superfície plana amb la mà oberta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa la capsa sobre la plataforma mentre A li aguanta oberta la porta lateral."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos es col·loquen de l’altra banda del vidre i miren la capsa centrada, amb l’anella ben visible."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una capsa de regal amb llaç d’anella única, una plataforma baixa estable i una vitrina sense lletres."
+    },
+    "narrative": "A prepara la plataforma i manté oberta la vitrina perquè B hi pugui exposar el regal."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "feaa6a01dcab7373150b6ccafc86a0ac6d45e6da1968a7489f397239bc69629f",
+      "file": "output/production/n11/n11-169/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paquet a l’aparador. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que porta l’expositor; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que situa el paquet.\nRecurring visual anchors: Una capsa de regal amb llaç d’anella única, una plataforma baixa estable i una vitrina sense lletres.\n1. A alça la plataforma buida des de sota el taulell. B manté la capsa amb llaç al taulell.\n2. A posa la plataforma a la vitrina i mostra la superfície plana amb la mà oberta.\n3. B posa la capsa sobre la plataforma mentre A li aguanta oberta la porta lateral.\n4. Tots dos es col·loquen de l’altra banda del vidre i miren la capsa centrada, amb l’anella ben visible.",
+      "review": "La plataforma entra a la vitrina i el lleó sosté el batent obert. L’esquirol hi posa un sol paquet que poden mirar a través del vidre.",
+      "reviewedAt": "2026-11-21T21:31:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paquet a l’aparador. Actors and fixed identity: A = LLEÓ, armilla blau fosc amb un triangle clar al davant, participant que porta l’expositor; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que situa el paquet.\nRecurring visual anchors: Una capsa de regal amb llaç d’anella única, una plataforma baixa estable i una vitrina sense lletres.\n1. A alça la plataforma buida des de sota el taulell. B manté la capsa amb llaç al taulell.\n2. A posa la plataforma a la vitrina i mostra la superfície plana amb la mà oberta.\n3. B posa la capsa sobre la plataforma mentre A li aguanta oberta la porta lateral.\n4. Tots dos es col·loquen de l’altra banda del vidre i miren la capsa centrada, amb l’anella ben visible.",
+  "review": "La plataforma entra a la vitrina i el lleó sosté el batent obert. L’esquirol hi posa un sol paquet que poden mirar a través del vidre.",
+  "alt": {
+    "ca": "Un lleó prepara l’expositor. Un esquirol hi deixa el regal amb llaç i tots dos el miren a la vitrina.",
+    "es": "Un león prepara el expositor. Una ardilla coloca el regalo con lazo y ambos lo miran en la vitrina."
+  },
+  "originalSha256": "feaa6a01dcab7373150b6ccafc86a0ac6d45e6da1968a7489f397239bc69629f",
+  "file": "output/production/n11/n11-169/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:31:06+00:00",
+  "tool": "ImageGen integrat"
+}

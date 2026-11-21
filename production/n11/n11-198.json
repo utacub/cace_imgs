@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-198",
+    "number": 198,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-098",
+    "title": {
+      "ca": "El pont al sorral · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "LLEÓ",
+      "PORTAR",
+      "POSAR",
+      "AJUDAR",
+      "PAL",
+      "PEDRA",
+      "PLATJA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-fbc89c059c15",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-5b2ff1d40d54",
+      "w-c8538c4482a2",
+      "w-417c3df2d659",
+      "w-4ccdc585328b"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que prepara els dos suports",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que aporta i posa el travesser",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-098",
+    "familyTitle": "El pont al sorral",
+    "settings": [
+      {
+        "label": "PLATJA",
+        "wordId": "w-4ccdc585328b"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      },
+      {
+        "label": "PEDRA",
+        "wordId": "w-417c3df2d659"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A col·loca una pedra a cada vora del canal. B porta el pal aplanat amb la bifurcació cap al costat d’A."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B acosta el pal sobre el canal i A ajusta la segona pedra fins que queda sota la punta curta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B abaixa el pal sobre les dues pedres. A reté una pedra amb els dits al costat, fora del punt de càrrega."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B treuen les mans. El pont de joguina queda recolzat als dos extrems amb la bifurcació visible."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un pal aplanat amb una bifurcació a un extrem i dues pedres planes entre dues vores d’un canal sec de joc."
+    },
+    "narrative": "A disposa les dues pedres i B hi col·loca el pal de manera que el pont quedi estable sobre el canal."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "c3764f4a82793e805de9d5cb6b3dfa45205f3757c46ab9b35ecc35485f9b0ba6",
+      "file": "output/production/n11/n11-198/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl pont al sorral. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos suports; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que aporta i posa el travesser.\nRecurring visual anchors: Un pal aplanat amb una bifurcació a un extrem i dues pedres planes entre dues vores d’un canal sec de joc.\n1. A col·loca una pedra a cada vora del canal. B porta el pal aplanat amb la bifurcació cap al costat d’A.\n2. B acosta el pal sobre el canal i A ajusta la segona pedra fins que queda sota la punta curta.\n3. B abaixa el pal sobre les dues pedres. A reté una pedra amb els dits al costat, fora del punt de càrrega.\n4. A i B treuen les mans. El pont de joguina queda recolzat als dos extrems amb la bifurcació visible.",
+      "review": "Dues pedres i el mateix pal forcat. El cangur prepara els suports i el lleó hi recolza el pal sobre el canal. Contactes i mans lliures al final.",
+      "reviewedAt": "2026-11-21T21:32:57+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl pont al sorral. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos suports; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que aporta i posa el travesser.\nRecurring visual anchors: Un pal aplanat amb una bifurcació a un extrem i dues pedres planes entre dues vores d’un canal sec de joc.\n1. A col·loca una pedra a cada vora del canal. B porta el pal aplanat amb la bifurcació cap al costat d’A.\n2. B acosta el pal sobre el canal i A ajusta la segona pedra fins que queda sota la punta curta.\n3. B abaixa el pal sobre les dues pedres. A reté una pedra amb els dits al costat, fora del punt de càrrega.\n4. A i B treuen les mans. El pont de joguina queda recolzat als dos extrems amb la bifurcació visible.",
+  "review": "Dues pedres i el mateix pal forcat. El cangur prepara els suports i el lleó hi recolza el pal sobre el canal. Contactes i mans lliures al final.",
+  "alt": {
+    "ca": "Un cangur posa una pedra a cada vora del canal. Un lleó hi col·loca el pal i junts deixen fet el pont de sorra.",
+    "es": "Un canguro pone una piedra a cada lado del canal. Un león coloca el palo y dejan hecho el puente de arena."
+  },
+  "originalSha256": "c3764f4a82793e805de9d5cb6b3dfa45205f3757c46ab9b35ecc35485f9b0ba6",
+  "file": "output/production/n11/n11-198/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:32:57+00:00",
+  "tool": "ImageGen integrat"
+}

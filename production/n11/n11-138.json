@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-138",
+    "number": 138,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-038",
+    "title": {
+      "ca": "El globus lligat al banc · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "GAT",
+      "AJUDAR",
+      "ESTIRAR",
+      "POSAR",
+      "GLOBUS",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-11ff74d27c02",
+      "w-5b2ff1d40d54",
+      "w-99499cd7f270",
+      "w-c211f7486a30",
+      "w-f19cff282499",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que recupera el cordill",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que fixa el globus",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-038",
+    "familyTitle": "El globus lligat al banc",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval."
+    },
+    "narrative": "A recupera el cordill de la branca i B el fixa al banc mentre A impedeix que el globus s’escapi."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7c7c6f2cb91dd1fff2265127d23ff64d77b1058a0ada35f61f63386a3af0ff01",
+      "file": "output/production/n11/n11-138/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl globus lligat al banc. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que recupera el cordill; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el globus.\nRecurring visual anchors: Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval.\n1. El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc.\n2. A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit.\n3. B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval.\n4. El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures.",
+      "review": "El cangur allibera i sosté el cordill. El gat el lliga a l’anella del banc. El mateix globus queda subjecte amb els personatges apartats.",
+      "reviewedAt": "2026-11-21T21:28:55+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl globus lligat al banc. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que recupera el cordill; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el globus.\nRecurring visual anchors: Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval.\n1. El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc.\n2. A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit.\n3. B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval.\n4. El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures.",
+  "review": "El cangur allibera i sosté el cordill. El gat el lliga a l’anella del banc. El mateix globus queda subjecte amb els personatges apartats.",
+  "alt": {
+    "ca": "Un cangur allibera el globus de la branca. Un gat lliga el cordill al banc perquè el globus quedi subjecte.",
+    "es": "Un canguro libera el globo de la rama. Un gato ata el cordel al banco para que el globo quede sujeto."
+  },
+  "originalSha256": "7c7c6f2cb91dd1fff2265127d23ff64d77b1058a0ada35f61f63386a3af0ff01",
+  "file": "output/production/n11/n11-138/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:28:55+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-173",
+    "number": 173,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-073",
+    "title": {
+      "ca": "El tambor entre bastidors · dibuix"
+    },
+    "labels": [
+      "GOS",
+      "CONILL",
+      "PORTAR",
+      "AJUDAR",
+      "TOCAR",
+      "TAMBOR",
+      "TEATRE"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-51a7805e979b",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-072ecc01e120",
+      "w-e54dc34d54dc",
+      "w-69105eb76f78"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que du el tambor",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que obre pas i toca",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-073",
+    "familyTitle": "El tambor entre bastidors",
+    "settings": [
+      {
+        "label": "TEATRE",
+        "wordId": "w-69105eb76f78"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A agafa el tambor per la carcassa darrere del teló i B té la mà a la vora ondulada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B obre el lateral, mostrant el suport baix, i A hi avança amb el tambor a dues mans."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenta el tambor al suport amb les tires de front i B se situa davant amb una mà alçada."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B toca la membrana amb el palmell. A queda de costat amb les mans lliures i el teló segueix recollit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un tambor amb dues tires amples i un suport baix, un teló lateral amb vora ondulada."
+    },
+    "narrative": "B obre pas perquè A pugui col·locar el tambor, i després B toca amb l’instrument ja estable."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "75375f5ccaef035e0f84823f584be4f0e0109b8f40f6e5b894ec746c06e6ba42",
+      "file": "output/production/n11/n11-173/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl tambor entre bastidors. Actors and fixed identity: A = GOS, armilla blau fosc amb un triangle clar al davant, participant que du el tambor; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que obre pas i toca.\nRecurring visual anchors: Un tambor amb dues tires amples i un suport baix, un teló lateral amb vora ondulada.\n1. A agafa el tambor per la carcassa darrere del teló i B té la mà a la vora ondulada.\n2. B obre el lateral, mostrant el suport baix, i A hi avança amb el tambor a dues mans.\n3. A assenta el tambor al suport amb les tires de front i B se situa davant amb una mà alçada.\n4. B toca la membrana amb el palmell. A queda de costat amb les mans lliures i el teló segueix recollit.",
+      "review": "La segona vinyeta dibuixa tres potes davanteres al conill. La presa del teló no es pot atribuir amb seguretat.",
+      "reviewedAt": "2026-11-21T21:28:20+00:00"
+    }
+  ],
+  "status": "rejected"
+}

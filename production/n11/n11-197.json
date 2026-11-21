@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-197",
+    "number": 197,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-097",
+    "title": {
+      "ca": "La foto de les dues fulles · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "CANGUR",
+      "MIRAR",
+      "POSAR",
+      "ENSENYAR",
+      "FULLA",
+      "CÀMERA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-d5395d03acbf",
+      "w-e67dd0fa47ce",
+      "w-c211f7486a30",
+      "w-1eb1099a21ce",
+      "w-a82ff79805f9",
+      "w-b9b63d370891",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que situa les dues fulles",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que documenta la parella",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-097",
+    "familyTitle": "La foto de les dues fulles",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "FULLA",
+        "wordId": "w-a82ff79805f9"
+      },
+      {
+        "label": "CÀMERA",
+        "wordId": "w-b9b63d370891"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa les dues fulles sobre el llistó fosc del banc. B acosta la càmera amb la lent encarada al seient."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B indica amb un dit la vora de la fulla de cor, que tapa part del nervi de l’altra."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A separa les fulles una amplada de dit i B enquadra el perfil de cadascuna amb el llistó sencer."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira la pantalla amb les dues fulles separades. A la mira amb les fulles reals encara visibles al banc."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues fulles caigudes, una en forma de cor i una amb nervi clar, una càmera i un banc amb un únic llistó fosc."
+    },
+    "narrative": "B indica la part tapada i A separa les fulles perquè B pugui mostrar-les senceres en una sola foto."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "cf6dbcddee707a7e43178dcc8fc0dee0a7f919768b841ec9036161b97803b9cd",
+      "file": "output/production/n11/n11-197/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto de les dues fulles. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que situa les dues fulles; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que documenta la parella.\nRecurring visual anchors: Dues fulles caigudes, una en forma de cor i una amb nervi clar, una càmera i un banc amb un únic llistó fosc.\n1. A posa les dues fulles sobre el llistó fosc del banc. B acosta la càmera amb la lent encarada al seient.\n2. B indica amb un dit la vora de la fulla de cor, que tapa part del nervi de l’altra.\n3. A separa les fulles una amplada de dit i B enquadra el perfil de cadascuna amb el llistó sencer.\n4. B gira la pantalla amb les dues fulles separades. A la mira amb les fulles reals encara visibles al banc.",
+      "review": "La fulla de cor tapa part del nervi fins que la tortuga la separa. La pantalla confirma les dues formes, que són visibles a la mateixa posició al banc.",
+      "reviewedAt": "2026-11-21T21:32:57+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto de les dues fulles. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que situa les dues fulles; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que documenta la parella.\nRecurring visual anchors: Dues fulles caigudes, una en forma de cor i una amb nervi clar, una càmera i un banc amb un únic llistó fosc.\n1. A posa les dues fulles sobre el llistó fosc del banc. B acosta la càmera amb la lent encarada al seient.\n2. B indica amb un dit la vora de la fulla de cor, que tapa part del nervi de l’altra.\n3. A separa les fulles una amplada de dit i B enquadra el perfil de cadascuna amb el llistó sencer.\n4. B gira la pantalla amb les dues fulles separades. A la mira amb les fulles reals encara visibles al banc.",
+  "review": "La fulla de cor tapa part del nervi fins que la tortuga la separa. La pantalla confirma les dues formes, que són visibles a la mateixa posició al banc.",
+  "alt": {
+    "ca": "Una tortuga separa les dues fulles quan un cangur li assenyala la part tapada. El cangur en fa una foto i la hi ensenya.",
+    "es": "Una tortuga separa las dos hojas cuando un canguro le señala la parte tapada. El canguro toma una foto y se la enseña."
+  },
+  "originalSha256": "cf6dbcddee707a7e43178dcc8fc0dee0a7f919768b841ec9036161b97803b9cd",
+  "file": "output/production/n11/n11-197/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:32:57+00:00",
+  "tool": "ImageGen integrat"
+}

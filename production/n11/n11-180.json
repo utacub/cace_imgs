@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-180",
+    "number": 180,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-080",
+    "title": {
+      "ca": "La bossa al penjador de l’esplai · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "CANGUR",
+      "PORTAR",
+      "AJUDAR",
+      "GUARDAR",
+      "BOSSA",
+      "ESPLAI"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-d5395d03acbf",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-f0441e0dd3b0",
+      "w-7db8d682fed4",
+      "w-a584ee1b6c27"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que torna amb la bossa",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que busca un ganxo lliure",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-080",
+    "familyTitle": "La bossa al penjador de l’esplai",
+    "settings": [
+      {
+        "label": "ESPLAI",
+        "wordId": "w-a584ee1b6c27"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta la bossa al penja-robes i B li indica el ganxo del mig buit entre dues peces de roba."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B separa els dos abrics amb les mans pels cantells. A alça les dues nanses juntes."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A passa les nanses pel ganxo mentre B aguanta la bossa per la base fins que hi recolza el pes."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B deixen anar la bossa. La franja diagonal queda visible entre les dues peces de roba."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bossa amb dues nanses i una franja diagonal, un penja-robes amb tres ganxos i dues peces de roba penjades."
+    },
+    "narrative": "B localitza un ganxo lliure i separa els abrics perquè A hi pugui penjar la bossa."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "c83b9a9d675d3aefb19406abca190cfd20f063f0e3b7049b676ee235fcc8d88b",
+      "file": "output/production/n11/n11-180/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bossa al penjador de l’esplai. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que torna amb la bossa; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que busca un ganxo lliure.\nRecurring visual anchors: Una bossa amb dues nanses i una franja diagonal, un penja-robes amb tres ganxos i dues peces de roba penjades.\n1. A porta la bossa al penja-robes i B li indica el ganxo del mig buit entre dues peces de roba.\n2. B separa els dos abrics amb les mans pels cantells. A alça les dues nanses juntes.\n3. A passa les nanses pel ganxo mentre B aguanta la bossa per la base fins que hi recolza el pes.\n4. A i B deixen anar la bossa. La franja diagonal queda visible entre les dues peces de roba.",
+      "review": "A la segona vinyeta apareix una pota addicional sobre l’abric verd mentre el tigre ja subjecta les dues nanses.",
+      "reviewedAt": "2026-11-21T21:29:29+00:00"
+    }
+  ],
+  "status": "rejected"
+}

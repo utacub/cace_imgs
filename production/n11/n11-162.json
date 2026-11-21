@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-162",
+    "number": 162,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-062",
+    "title": {
+      "ca": "El pa de dues puntes · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "LLEÓ",
+      "COMPRAR",
+      "PAGAR",
+      "DONAR",
+      "PA",
+      "FORN DE PA"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-fbc89c059c15",
+      "w-57b3143c692c",
+      "w-eac4fec3f647",
+      "w-dd80e4e4de38",
+      "w-96e21018e871",
+      "w-2c34917e64b7"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "client que recull la compra",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "dependent que la prepara",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-062",
+    "familyTitle": "El pa de dues puntes",
+    "settings": [
+      {
+        "label": "FORN DE PA",
+        "wordId": "w-2c34917e64b7"
+      }
+    ],
+    "targets": [
+      {
+        "label": "COMPRAR",
+        "wordId": "w-57b3143c692c"
+      },
+      {
+        "label": "PAGAR",
+        "wordId": "w-eac4fec3f647"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mostra el panet i A posa dues monedes al platet del taulell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B recull les dues monedes i A acosta la bossa oberta a la part baixa del taulell."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa el panet dins la bossa mentre A sosté una nansa a cada mà."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aixeca la bossa amb les dues puntes del panet visibles i el platet queda buit davant de B."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un panet amb dues puntes i una bossa oberta amb nansa fosca, dues monedes grosses sense inscripció i un platet."
+    },
+    "narrative": "A paga i acosta la bossa oberta perquè B li pugui lliurar el pa que ha triat."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "6bbb715abb2f820a8bb7e6096e975e72d6726c00041727c30c6145e1a91ef9ce",
+      "file": "output/production/n11/n11-162/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl pa de dues puntes. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, client que recull la compra; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, dependent que la prepara.\nRecurring visual anchors: Un panet amb dues puntes i una bossa oberta amb nansa fosca, dues monedes grosses sense inscripció i un platet.\n1. B mostra el panet i A posa dues monedes al platet del taulell.\n2. B recull les dues monedes i A acosta la bossa oberta a la part baixa del taulell.\n3. B posa el panet dins la bossa mentre A sosté una nansa a cada mà.\n4. A aixeca la bossa amb les dues puntes del panet visibles i el platet queda buit davant de B.",
+      "review": "A l’inici, el gat té una moneda a la mà i n’hi ha dues més al platet. La seqüència només en justifica dues.",
+      "reviewedAt": "2026-11-21T21:30:04+00:00"
+    }
+  ],
+  "status": "rejected"
+}
