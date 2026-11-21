@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-067",
+    "number": 67,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-167",
+    "title": {
+      "ca": "Una cadira més a la plaça · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "PORTAR",
+      "POSAR",
+      "SEURE",
+      "CADIRA",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-045dc98b2849",
+      "w-e1efe2c4e23d",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que reubica la cadira",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que prepara la taula",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-067",
+    "familyTitle": "Una cadira més a la plaça",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats."
+    },
+    "narrative": "B prepara dos llocs i A acosta la cadira separada perquè puguin ocupar els dos seients."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4532d844dec35b65734679886a0ee6d5468e98809fde7e2867edf845f429671d",
+      "file": "output/production/n11/n11-067/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna cadira més a la plaça. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que reubica la cadira; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la taula.\nRecurring visual anchors: Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats.\n1. B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc.\n2. A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat.\n3. A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria.\n4. A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu.",
+      "review": "Una cadira inicialment separada es trasllada al lloc que indica la dona. Les dues cadires i els dos plats són visibles quan s’asseuen.",
+      "reviewedAt": "2026-11-21T21:23:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna cadira més a la plaça. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que reubica la cadira; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la taula.\nRecurring visual anchors: Una cadira amb una barra clara, una altra amb dues barres i una taula baixa amb dos plats.\n1. B para dos llocs a la taula, però la cadira d’una barra és separada al costat del banc.\n2. A porta la cadira agafant-la pel respatller i B indica l’espai lliure vora el plat.\n3. A reposa les quatre potes a terra davant el segon plat, amb B apartant-se de la trajectòria.\n4. A seu a la cadira d’una barra i B a l’altra. Tots dos plats queden accessibles davant seu.",
+  "review": "Una cadira inicialment separada es trasllada al lloc que indica la dona. Les dues cadires i els dos plats són visibles quan s’asseuen.",
+  "alt": {
+    "ca": "Una dona para taula per a dues persones. Una nena acosta la cadira que falta i totes dues s’asseuen.",
+    "es": "Una mujer pone la mesa para dos personas. Una niña acerca la silla que falta y las dos se sientan."
+  },
+  "originalSha256": "4532d844dec35b65734679886a0ee6d5468e98809fde7e2867edf845f429671d",
+  "file": "output/production/n11/n11-067/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:23:39+00:00",
+  "tool": "ImageGen integrat"
+}

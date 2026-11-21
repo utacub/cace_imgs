@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-145",
+    "number": 145,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-045",
+    "title": {
+      "ca": "L’estora mullada · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "TIGRE",
+      "MULLAR",
+      "ASSECAR",
+      "POSAR",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-7a57f3835ffd",
+      "w-0f8bf7297a41",
+      "w-ae417aa563dd",
+      "w-c211f7486a30",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que detecta el terra mullat",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que canvia l’estora",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-045",
+    "familyTitle": "L’estora mullada",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MULLAR",
+        "wordId": "w-0f8bf7297a41"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’atura al costat d’una petjada humida sobre l’estora de ratlles. B sosté l’estora de cercles plegada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B retira la de ratlles pels dos costats i deixa lliure el rectangle de terra mullat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A eixuga el rectangle amb el drap mentre B penja l’estora mullada al penjador baix amb les ratlles visibles."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B estira l’estora de cercles al terra sec. A hi passa amb la sola neta i el drap usat queda al costat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una estora de ratlles mullada, una estora seca amb cercles, un drap i un penjador baix."
+    },
+    "narrative": "B retira l’estora mullada i A eixuga el terra abans que B estengui l’estora seca i A hi passi."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f4e222afd9c06bcd8a74d2c52bc53eed4908b8e3cf0f7924e5d9371bbc3e9685",
+      "file": "output/production/n11/n11-145/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’estora mullada. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que detecta el terra mullat; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que canvia l’estora.\nRecurring visual anchors: Una estora de ratlles mullada, una estora seca amb cercles, un drap i un penjador baix.\n1. A s’atura al costat d’una petjada humida sobre l’estora de ratlles. B sosté l’estora de cercles plegada.\n2. B retira la de ratlles pels dos costats i deixa lliure el rectangle de terra mullat.\n3. A eixuga el rectangle amb el drap mentre B penja l’estora mullada al penjador baix amb les ratlles visibles.\n4. B estira l’estora de cercles al terra sec. A hi passa amb la sola neta i el drap usat queda al costat.",
+      "review": "Es veuen la petjada i el terra mullat. El tigre penja l’estora de ratlles mentre el mico eixuga el terra. Al final el mico passa per l’estora seca.",
+      "reviewedAt": "2026-11-21T21:21:30+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’estora mullada. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que detecta el terra mullat; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que canvia l’estora.\nRecurring visual anchors: Una estora de ratlles mullada, una estora seca amb cercles, un drap i un penjador baix.\n1. A s’atura al costat d’una petjada humida sobre l’estora de ratlles. B sosté l’estora de cercles plegada.\n2. B retira la de ratlles pels dos costats i deixa lliure el rectangle de terra mullat.\n3. A eixuga el rectangle amb el drap mentre B penja l’estora mullada al penjador baix amb les ratlles visibles.\n4. B estira l’estora de cercles al terra sec. A hi passa amb la sola neta i el drap usat queda al costat.",
+  "review": "Es veuen la petjada i el terra mullat. El tigre penja l’estora de ratlles mentre el mico eixuga el terra. Al final el mico passa per l’estora seca.",
+  "alt": {
+    "ca": "Un tigre retira l’estora mullada i un mico eixuga el terra. El tigre hi posa l’estora seca i el mico hi passa.",
+    "es": "Un tigre retira la alfombrilla mojada y un mono seca el suelo. El tigre pone la alfombrilla seca y el mono pasa sobre ella."
+  },
+  "originalSha256": "f4e222afd9c06bcd8a74d2c52bc53eed4908b8e3cf0f7924e5d9371bbc3e9685",
+  "file": "output/production/n11/n11-145/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:21:30+00:00",
+  "tool": "ImageGen integrat"
+}

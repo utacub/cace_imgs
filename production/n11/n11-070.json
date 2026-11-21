@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-070",
+    "number": 70,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-170",
+    "title": {
+      "ca": "El banc de l’estació · foto"
+    },
+    "labels": [
+      "DONA",
+      "NENA",
+      "MIRAR",
+      "AJUDAR",
+      "PORTAR",
+      "MOTXILLA",
+      "ESTACIÓ"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cda6fa4a9867",
+      "w-e67dd0fa47ce",
+      "w-5b2ff1d40d54",
+      "w-73b71e1ff757",
+      "w-43db0ea26088",
+      "w-9b3c255b8732"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que recorda la motxilla",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que torna al banc a recollir-la",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-070",
+    "familyTitle": "El banc de l’estació",
+    "settings": [
+      {
+        "label": "ESTACIÓ",
+        "wordId": "w-9b3c255b8732"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B han arribat a la porta interior. A mira enrere cap a la motxilla visible al banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A indica la motxilla amb la mà oberta i B gira el cos cap al banc."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B agafa la motxilla pel mànec del mateix banc i la porta cap a la porta que A sosté oberta."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos travessen el llindar i B porta la motxilla amb els dos rombes visibles, lluny de vies i andanes."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una motxilla amb solapa amb dos rombes, un banc de llistons i una porta interior, dins del vestíbul."
+    },
+    "narrative": "A indica la motxilla oblidada i B torna a buscar-la. Quan es retroben, A li manté oberta la porta."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "34dbed0086ed6ad02c81afbcbd1ade29cd9c053a2e004d3f34d53f711e83d1bd",
+      "file": "output/production/n11/n11-070/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl banc de l’estació. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que recorda la motxilla; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que torna al banc a recollir-la.\nRecurring visual anchors: Una motxilla amb solapa amb dos rombes, un banc de llistons i una porta interior, dins del vestíbul.\n1. A i B han arribat a la porta interior. A mira enrere cap a la motxilla visible al banc.\n2. A indica la motxilla amb la mà oberta i B gira el cos cap al banc.\n3. B agafa la motxilla pel mànec del mateix banc i la porta cap a la porta que A sosté oberta.\n4. Tots dos travessen el llindar i B porta la motxilla amb els dos rombes visibles, lluny de vies i andanes.",
+      "review": "Els dos personatges es veuen sortint del mateix llindar cap al costat del banc, tot i que les vinyetes anteriors els mostren avançant des del banc cap al llindar.",
+      "reviewedAt": "2026-11-21T21:23:39+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,135 @@
+{
+  "construction": {
+    "id": "n11-133",
+    "number": 133,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-033",
+    "title": {
+      "ca": "La pista del veig-veig · dibuix"
+    },
+    "labels": [
+      "GOS",
+      "TORTUGA",
+      "JUGAR",
+      "MIRAR",
+      "ENSENYAR",
+      "VEIG-VEIG",
+      "FLOR",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-12dcca2ee56e",
+      "w-6d90f16f5461",
+      "w-e67dd0fa47ce",
+      "w-1eb1099a21ce",
+      "w-1084c9d129f4",
+      "w-6c5def9143c8",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que mostra la pista",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que localitza la flor",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-033",
+    "familyTitle": "La pista del veig-veig",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "VEIG-VEIG",
+        "wordId": "w-1084c9d129f4"
+      },
+      {
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ensenya la targeta a B tot mantenint de perfil els tres testos al rerefons."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B s’acosta al primer test i separa les mans al costat d’una flor de pètals llisos."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta la targeta cap al test del mig. B compara el dibuix amb la flor lobulada d’aquest test."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B assenyala la flor del mig i A gira la targeta de cara. El contorn lobulat coincideix."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una targeta de joc amb un pètal lobulat i tres testos, un amb una flor de pètals lobulats."
+    },
+    "narrative": "A ensenya la forma del pètal i B revisa els testos i localitza la flor que hi coincideix."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "e36d8a05398ada6501e1f35315715ad2b29cdbfbdd704334d98d0200ee462ff5",
+      "file": "output/production/n11/n11-133/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pista del veig-veig. Actors and fixed identity: A = GOS, armilla blau fosc amb un triangle clar al davant, participant que mostra la pista; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que localitza la flor.\nRecurring visual anchors: Una targeta de joc amb un pètal lobulat i tres testos, un amb una flor de pètals lobulats.\n1. A ensenya la targeta a B tot mantenint de perfil els tres testos al rerefons.\n2. B s’acosta al primer test i separa les mans al costat d’una flor de pètals llisos.\n3. A porta la targeta cap al test del mig. B compara el dibuix amb la flor lobulada d’aquest test.\n4. B assenyala la flor del mig i A gira la targeta de cara. El contorn lobulat coincideix.",
+      "review": "Apareix un quart test mentre els tres originals continuen al prestatge. La forma de pètal tampoc distingeix la flor triada d’altres flors.",
+      "reviewedAt": "2026-11-21T21:27:32+00:00"
+    }
+  ],
+  "status": "rejected"
+}

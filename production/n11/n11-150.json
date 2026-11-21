@@ -1,0 +1,135 @@
+{
+  "construction": {
+    "id": "n11-150",
+    "number": 150,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-050",
+    "title": {
+      "ca": "La jaqueta de la cremallera oberta · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "MICO",
+      "VESTIR",
+      "AJUDAR",
+      "TANCAR",
+      "JAQUETA",
+      "CREMALLERA",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-12a87560751b",
+      "w-4d2fcaf61d85",
+      "w-5b2ff1d40d54",
+      "w-4000ec1e6d5b",
+      "w-baf6d3603bb3",
+      "w-04607780ade0",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que es posa la jaqueta",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que encaixa la cremallera",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-050",
+    "familyTitle": "La jaqueta de la cremallera oberta",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "JAQUETA",
+        "wordId": "w-baf6d3603bb3"
+      },
+      {
+        "label": "CREMALLERA",
+        "wordId": "w-04607780ade0"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’ha posat la jaqueta amb els dos costats separats. B s’ajup davant la unió inferior."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B subjecta la capsa de la cremallera i hi guia l’extrem oposat amb els dits separats."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A estira el tirador unes dents amunt mentre B aguanta la vora de roba, lluny de les dents."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la jaqueta tancada i B obre la porta del carrer des del mateix banc."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una jaqueta amb colzes ovalats i un tirador gruixut, al banc de l’entrada."
+    },
+    "narrative": "B encaixa la base de la cremallera perquè A es pugui cordar la jaqueta i puguin sortir."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "7925e7db1b5413ff045c69b26b56fee14e4a8cb07616857abf6cab26f48a3064",
+      "file": "output/production/n11/n11-150/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa jaqueta de la cremallera oberta. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que es posa la jaqueta; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que encaixa la cremallera.\nRecurring visual anchors: Una jaqueta amb colzes ovalats i un tirador gruixut, al banc de l’entrada.\n1. A s’ha posat la jaqueta amb els dos costats separats. B s’ajup davant la unió inferior.\n2. B subjecta la capsa de la cremallera i hi guia l’extrem oposat amb els dits separats.\n3. A estira el tirador unes dents amunt mentre B aguanta la vora de roba, lluny de les dents.\n4. A mostra la jaqueta tancada i B obre la porta del carrer des del mateix banc.",
+      "review": "La cremallera sobresurt fins a la sabata a la primera vinyeta i s’escurça sobtadament a la següent. La part mòbil no correspon a la vora.",
+      "reviewedAt": "2026-11-21T21:21:30+00:00"
+    }
+  ],
+  "status": "rejected"
+}

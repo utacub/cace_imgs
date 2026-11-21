@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-082",
+    "number": 82,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-182",
+    "title": {
+      "ca": "La pedra per marcar el camí · foto"
+    },
+    "labels": [
+      "DONA",
+      "NENA",
+      "CAMINAR",
+      "MIRAR",
+      "POSAR",
+      "PEDRA",
+      "BOSC"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cda6fa4a9867",
+      "w-6ec00ca36441",
+      "w-e67dd0fa47ce",
+      "w-c211f7486a30",
+      "w-417c3df2d659",
+      "w-c912bb04c6c9"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que detecta la bifurcació",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que fa coincidir la pista",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-082",
+    "familyTitle": "La pedra per marcar el camí",
+    "settings": [
+      {
+        "label": "BOSC",
+        "wordId": "w-c912bb04c6c9"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CAMINAR",
+        "wordId": "w-6ec00ca36441"
+      },
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PEDRA",
+        "wordId": "w-417c3df2d659"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’atura a la bifurcació amb el dibuix obert. B veu un tronc forcat al començament d’un dels dos camins."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa una pedra vetada a la base del tronc forcat i A acosta el dibuix per comparar les dues branques."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A guarda el dibuix i entra al camí del tronc. B el segueix passant pel costat de la pedra."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos arriben al banc que es veia més enllà del tronc. La pedra i la bifurcació queden al rerefons."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pedra aplanada amb veta clara, un dibuix sense text amb la silueta d’un tronc forcat i dos camins nets."
+    },
+    "narrative": "A porta el dibuix i B identifica i marca el camí que hi coincideix. El segueixen fins al banc."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7137ff081b96bb095b40893cc0b02a136dfc7211d9de2a43ddb64975cac253bb",
+      "file": "output/production/n11/n11-082/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pedra per marcar el camí. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que detecta la bifurcació; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que fa coincidir la pista.\nRecurring visual anchors: Una pedra aplanada amb veta clara, un dibuix sense text amb la silueta d’un tronc forcat i dos camins nets.\n1. A s’atura a la bifurcació amb el dibuix obert. B veu un tronc forcat al començament d’un dels dos camins.\n2. B posa una pedra vetada a la base del tronc forcat i A acosta el dibuix per comparar les dues branques.\n3. A guarda el dibuix i entra al camí del tronc. B el segueix passant pel costat de la pedra.\n4. Tots dos arriben al banc que es veia més enllà del tronc. La pedra i la bifurcació queden al rerefons.",
+      "review": "El dibuix coincideix amb l’arbre forcat. La nena marca el punt amb la pedra i segueixen el camí fins al banc, amb l’arbre al rerefons.",
+      "reviewedAt": "2026-11-21T21:22:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pedra per marcar el camí. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que detecta la bifurcació; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que fa coincidir la pista.\nRecurring visual anchors: Una pedra aplanada amb veta clara, un dibuix sense text amb la silueta d’un tronc forcat i dos camins nets.\n1. A s’atura a la bifurcació amb el dibuix obert. B veu un tronc forcat al començament d’un dels dos camins.\n2. B posa una pedra vetada a la base del tronc forcat i A acosta el dibuix per comparar les dues branques.\n3. A guarda el dibuix i entra al camí del tronc. B el segueix passant pel costat de la pedra.\n4. Tots dos arriben al banc que es veia més enllà del tronc. La pedra i la bifurcació queden al rerefons.",
+  "review": "El dibuix coincideix amb l’arbre forcat. La nena marca el punt amb la pedra i segueixen el camí fins al banc, amb l’arbre al rerefons.",
+  "alt": {
+    "ca": "Una dona du el dibuix d’un arbre i una nena troba el tronc que hi coincideix. El marquen amb una pedra i segueixen el camí fins al banc.",
+    "es": "Una mujer lleva el dibujo de un árbol y una niña encuentra el tronco que coincide con él. Lo marcan con una piedra y siguen el sendero hasta el banco."
+  },
+  "originalSha256": "7137ff081b96bb095b40893cc0b02a136dfc7211d9de2a43ddb64975cac253bb",
+  "file": "output/production/n11/n11-082/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:22:11+00:00",
+  "tool": "ImageGen integrat"
+}

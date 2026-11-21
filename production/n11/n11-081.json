@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-081",
+    "number": 81,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-181",
+    "title": {
+      "ca": "El planter de dues files · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NOI",
+      "PLANTAR",
+      "REGAR",
+      "AJUDAR",
+      "PLANTA",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-01bc6dcab46b",
+      "w-6af4a2a10994",
+      "w-00107994a0cd",
+      "w-5b2ff1d40d54",
+      "w-03d524b232d7",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que organitza el planter",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que rega",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-081",
+    "familyTitle": "El planter de dues files",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PLANTAR",
+        "wordId": "w-6af4a2a10994"
+      },
+      {
+        "label": "REGAR",
+        "wordId": "w-00107994a0cd"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala els dos solcs buits mentre B acosta a terra la safata amb les quatre plàntules."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A planta les dues rodones al primer solc i B li acosta les dues punxegudes al segon."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acaba la segona fila i B aboca un raig curt al peu de les punxegudes, amb la terra de la primera fila ja fosca."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B s’aparten de l’hort. Es veuen les dues files de dues plantes amb terra humida i la gerreta amb menys aigua."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Quatre plàntules, dues de fulla rodona i dues de fulla punxeguda, dos solcs curts i una gerreta transparent."
+    },
+    "narrative": "A planta les quatre plàntules en dues files amb l’ajut de B, que les rega al lloc preparat."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f470a6eee4c8dd74eaa64e276328450f1d8e87107f2ba76cae6981b1ca4c62e4",
+      "file": "output/production/n11/n11-081/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl planter de dues files. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que organitza el planter; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que rega.\nRecurring visual anchors: Quatre plàntules, dues de fulla rodona i dues de fulla punxeguda, dos solcs curts i una gerreta transparent.\n1. A assenyala els dos solcs buits mentre B acosta a terra la safata amb les quatre plàntules.\n2. A planta les dues rodones al primer solc i B li acosta les dues punxegudes al segon.\n3. A acaba la segona fila i B aboca un raig curt al peu de les punxegudes, amb la terra de la primera fila ja fosca.\n4. A i B s’aparten de l’hort. Es veuen les dues files de dues plantes amb terra humida i la gerreta amb menys aigua.",
+      "review": "Dues plàntules rodones i dues de punxa. El noi acosta el planter i rega, i la noia completa les dues files. Queda menys aigua a la gerra.",
+      "reviewedAt": "2026-11-21T21:22:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl planter de dues files. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que organitza el planter; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que rega.\nRecurring visual anchors: Quatre plàntules, dues de fulla rodona i dues de fulla punxeguda, dos solcs curts i una gerreta transparent.\n1. A assenyala els dos solcs buits mentre B acosta a terra la safata amb les quatre plàntules.\n2. A planta les dues rodones al primer solc i B li acosta les dues punxegudes al segon.\n3. A acaba la segona fila i B aboca un raig curt al peu de les punxegudes, amb la terra de la primera fila ja fosca.\n4. A i B s’aparten de l’hort. Es veuen les dues files de dues plantes amb terra humida i la gerreta amb menys aigua.",
+  "review": "Dues plàntules rodones i dues de punxa. El noi acosta el planter i rega, i la noia completa les dues files. Queda menys aigua a la gerra.",
+  "alt": {
+    "ca": "Una noia planta quatre plàntules en dues files. Un noi les hi acosta i rega els dos solcs.",
+    "es": "Una chica planta cuatro plantones en dos hileras. Un chico se los acerca y riega los dos surcos."
+  },
+  "originalSha256": "f470a6eee4c8dd74eaa64e276328450f1d8e87107f2ba76cae6981b1ca4c62e4",
+  "file": "output/production/n11/n11-081/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:22:11+00:00",
+  "tool": "ImageGen integrat"
+}

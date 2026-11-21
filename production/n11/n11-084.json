@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-084",
+    "number": 84,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-184",
+    "title": {
+      "ca": "El cistell al pas estret · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "PORTAR",
+      "DONAR",
+      "CAMINAR",
+      "CISTELL",
+      "BOSC"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-6ec00ca36441",
+      "w-120fb6b37e88",
+      "w-c912bb04c6c9"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que creua primer pel pas",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que transfereix la càrrega",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-084",
+    "familyTitle": "El cistell al pas estret",
+    "settings": [
+      {
+        "label": "BOSC",
+        "wordId": "w-c912bb04c6c9"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "CAMINAR",
+        "wordId": "w-6ec00ca36441"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona."
+    },
+    "narrative": "A passa primer i rep el cistell de B, que així pot travessar el pas estret amb les mans lliures."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f225568dbee88451308331aba645e8ccb8ff68923c395972b72e103c41f2017b",
+      "file": "output/production/n11/n11-084/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell al pas estret. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que creua primer pel pas; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que transfereix la càrrega.\nRecurring visual anchors: Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona.\n1. A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada.\n2. A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell.\n3. B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons.\n4. B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample.",
+      "review": "Mateix cistell i dues pinyes. El pas fa d’embut i es veu el contacte amb les mans en el relleu. L’home carrega el cistell a l’arribada.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl cistell al pas estret. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que creua primer pel pas; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que transfereix la càrrega.\nRecurring visual anchors: Un cistell amb nansa de fusta i dues pinyes, un pas baix entre dues roques amb espai per a una persona.\n1. A està a l’entrada del pas. B mostra que carregar el cistell de costat ocuparia tota l’amplada.\n2. A creua amb les mans lliures fins a l’altra banda, mirant enrere cap a les dues pinyes del cistell.\n3. B passa la nansa cap a A a través de l’obertura mentre les dues pinyes romanen al fons.\n4. B surt pel pas amb les mans lliures i A du el cistell amb totes dues pinyes pel camí ample.",
+  "review": "Mateix cistell i dues pinyes. El pas fa d’embut i es veu el contacte amb les mans en el relleu. L’home carrega el cistell a l’arribada.",
+  "alt": {
+    "ca": "Un home travessa primer el pas estret. Una dona li passa el cistell i després el segueix amb les mans lliures.",
+    "es": "Un hombre cruza primero el paso estrecho. Una mujer le pasa la cesta y después lo sigue con las manos libres."
+  },
+  "originalSha256": "f225568dbee88451308331aba645e8ccb8ff68923c395972b72e103c41f2017b",
+  "file": "output/production/n11/n11-084/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:11+00:00",
+  "tool": "ImageGen integrat"
+}

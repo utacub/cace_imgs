@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-079",
+    "number": 79,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-179",
+    "title": {
+      "ca": "El banc sota el porxo · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "VEURE",
+      "PORTAR",
+      "POSAR",
+      "CAIXA",
+      "PLAÇA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-ae2160411fa0"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que protegeix el contingut",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que indica el lloc cobert",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-079",
+    "familyTitle": "El banc sota el porxo",
+    "settings": [
+      {
+        "label": "PLAÇA",
+        "wordId": "w-ae2160411fa0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la caixa amb dues làmines a la plaça, amb gotes visibles al paviment. B indica el banc sec de sota l’arc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A du la caixa plana cap al porxo i B aparta una cadireta que ocupava un extrem del banc."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa la caixa al lloc lliure. B aixeca una làmina pels cantells i A manté l’altra dins la caixa."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos miren les dues làmines, una recolzada dins la caixa i una a les mans de B, sota l’arc i lluny de les gotes."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una caixa oberta amb cantoneres i dues làmines rígides, un banc de pedra sota un porxo amb arc."
+    },
+    "narrative": "B mostra un lloc cobert i el buida perquè A hi porti les làmines i puguin mirar-les en sec."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f5065d548241250cc9cff15e5a7861e3454332021f78a4b49ffccfd97e79c10a",
+      "file": "output/production/n11/n11-079/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl banc sota el porxo. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que protegeix el contingut; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que indica el lloc cobert.\nRecurring visual anchors: Una caixa oberta amb cantoneres i dues làmines rígides, un banc de pedra sota un porxo amb arc.\n1. A sosté la caixa amb dues làmines a la plaça, amb gotes visibles al paviment. B indica el banc sec de sota l’arc.\n2. A du la caixa plana cap al porxo i B aparta una cadireta que ocupava un extrem del banc.\n3. A posa la caixa al lloc lliure. B aixeca una làmina pels cantells i A manté l’altra dins la caixa.\n4. Tots dos miren les dues làmines, una recolzada dins la caixa i una a les mans de B, sota l’arc i lluny de les gotes.",
+      "review": "Es veu la plaça mullada, l’arc i la cadira retirada. Una làmina queda dins la caixa i l’altra a les mans de la dona, totes dues sota cobert.",
+      "reviewedAt": "2026-11-21T21:22:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl banc sota el porxo. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que protegeix el contingut; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que indica el lloc cobert.\nRecurring visual anchors: Una caixa oberta amb cantoneres i dues làmines rígides, un banc de pedra sota un porxo amb arc.\n1. A sosté la caixa amb dues làmines a la plaça, amb gotes visibles al paviment. B indica el banc sec de sota l’arc.\n2. A du la caixa plana cap al porxo i B aparta una cadireta que ocupava un extrem del banc.\n3. A posa la caixa al lloc lliure. B aixeca una làmina pels cantells i A manté l’altra dins la caixa.\n4. Tots dos miren les dues làmines, una recolzada dins la caixa i una a les mans de B, sota l’arc i lluny de les gotes.",
+  "review": "Es veu la plaça mullada, l’arc i la cadira retirada. Una làmina queda dins la caixa i l’altra a les mans de la dona, totes dues sota cobert.",
+  "alt": {
+    "ca": "Una dona indica un porxo sec i aparta una cadira. Una nena hi porta una caixa i miren les dues làmines a cobert.",
+    "es": "Una mujer indica un porche seco y aparta una silla. Una niña lleva una caja y miran las dos láminas bajo techo."
+  },
+  "originalSha256": "f5065d548241250cc9cff15e5a7861e3454332021f78a4b49ffccfd97e79c10a",
+  "file": "output/production/n11/n11-079/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:22:11+00:00",
+  "tool": "ImageGen integrat"
+}

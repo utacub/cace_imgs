@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-132",
+    "number": 132,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-032",
+    "title": {
+      "ca": "Les bombolles al replà sec · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "ESQUIROL",
+      "OBRIR",
+      "JUGAR",
+      "PORTAR",
+      "BOMBOLLES",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-cc5063e253e2",
+      "w-a10b29af07c7",
+      "w-6d90f16f5461",
+      "w-73b71e1ff757",
+      "w-b74889cc7803",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que du el pot",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que bufa des de terra ferma",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-032",
+    "familyTitle": "Les bombolles al replà sec",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BOMBOLLES",
+        "wordId": "w-b74889cc7803"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té el pot tancat vora el toll. B mostra el replà sec i hi posa els dos peus."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta el pot fins al banc sense travessar el toll i el manté dret mentre B desenrosca la tapa."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B aixeca l’anella amb pel·lícula visible i bufa cap al replà. A reté el pot amb la boca amunt."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tres bombolles visibles floten sobre el replà. B torna l’anella a la boca del pot que A sosté."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un pot d’anella amb tapa unida a la vareta, un banc i un replà sec contigu a un toll."
+    },
+    "narrative": "B troba un lloc sec per jugar. A hi du i sosté el pot perquè B pugui fer bombolles."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e96c7e72bf9334fee3ed0cc9953a03495a2372ccdab268f5b176e1c9696e56b3",
+      "file": "output/production/n11/n11-132/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes bombolles al replà sec. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que du el pot; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que bufa des de terra ferma.\nRecurring visual anchors: Un pot d’anella amb tapa unida a la vareta, un banc i un replà sec contigu a un toll.\n1. A té el pot tancat vora el toll. B mostra el replà sec i hi posa els dos peus.\n2. A porta el pot fins al banc sense travessar el toll i el manté dret mentre B desenrosca la tapa.\n3. B aixeca l’anella amb pel·lícula visible i bufa cap al replà. A reté el pot amb la boca amunt.\n4. Tres bombolles visibles floten sobre el replà. B torna l’anella a la boca del pot que A sosté.",
+      "review": "Un pot i una vareta. El gat sosté el pot prop del banc i l’esquirol obre, bufa i torna la vareta. Les tres bombolles es veuen sobre el replà.",
+      "reviewedAt": "2026-11-21T21:27:32+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes bombolles al replà sec. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que du el pot; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que bufa des de terra ferma.\nRecurring visual anchors: Un pot d’anella amb tapa unida a la vareta, un banc i un replà sec contigu a un toll.\n1. A té el pot tancat vora el toll. B mostra el replà sec i hi posa els dos peus.\n2. A porta el pot fins al banc sense travessar el toll i el manté dret mentre B desenrosca la tapa.\n3. B aixeca l’anella amb pel·lícula visible i bufa cap al replà. A reté el pot amb la boca amunt.\n4. Tres bombolles visibles floten sobre el replà. B torna l’anella a la boca del pot que A sosté.",
+  "review": "Un pot i una vareta. El gat sosté el pot prop del banc i l’esquirol obre, bufa i torna la vareta. Les tres bombolles es veuen sobre el replà.",
+  "alt": {
+    "ca": "Un gat porta el pot al banc. Un esquirol el destapa i fa bombolles des del replà sec.",
+    "es": "Un gato lleva el bote al banco. Una ardilla lo abre y hace pompas desde el rellano seco."
+  },
+  "originalSha256": "e96c7e72bf9334fee3ed0cc9953a03495a2372ccdab268f5b176e1c9696e56b3",
+  "file": "output/production/n11/n11-132/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:27:32+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,153 @@
+{
+  "construction": {
+    "id": "n11-160",
+    "number": 160,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-060",
+    "title": {
+      "ca": "El tovalló amb una cantonada · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "ESQUIROL",
+      "PORTAR",
+      "POSAR",
+      "AJUDAR",
+      "TOVALLÓ",
+      "PLAT",
+      "CUINA",
+      "MENJADOR"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-cc5063e253e2",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-5b2ff1d40d54",
+      "w-b9ac8312c767",
+      "w-55d250f4cf1e",
+      "w-2a34971d94b3",
+      "w-32c0089441f0"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que reparteix els tovallons",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que completa el segon cobert",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-060",
+    "familyTitle": "El tovalló amb una cantonada",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "TOVALLÓ",
+        "wordId": "w-b9ac8312c767"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A desplega els dos tovallons a la cuina. B mira els dos plats buits de la taula contigua."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A du els dos tovallons al menjador i en posa un amb la vora visible sota el primer plat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B agafa el de cantonada brodada i alça lleugerament el segon plat per fer-hi lliscar el tovalló."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Els dos plats queden al seu lloc. Cada vora de roba sobresurt pel mateix costat i A i B retiren les mans."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos plats llisos i dos tovallons, un amb vora fosca i un amb una cantonada brodada."
+    },
+    "narrative": "A reparteix els tovallons i B acaba de preparar el segon lloc fins que els dos plats queden servits igual."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "b0976b69efeb954bfe594a486fb821eb31a5f4877c731c3cbee587e58381b904",
+      "file": "output/production/n11/n11-160/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl tovalló amb una cantonada. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que reparteix els tovallons; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que completa el segon cobert.\nRecurring visual anchors: Dos plats llisos i dos tovallons, un amb vora fosca i un amb una cantonada brodada.\n1. A desplega els dos tovallons a la cuina. B mira els dos plats buits de la taula contigua.\n2. A du els dos tovallons al menjador i en posa un amb la vora visible sota el primer plat.\n3. B agafa el de cantonada brodada i alça lleugerament el segon plat per fer-hi lliscar el tovalló.\n4. Els dos plats queden al seu lloc. Cada vora de roba sobresurt pel mateix costat i A i B retiren les mans.",
+      "review": "El tigre estén i posa el de vora fosca. L’esquirol posa el tovalló brodat sota el segon plat. Les marques es mantenen.",
+      "reviewedAt": "2026-11-21T21:21:30+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl tovalló amb una cantonada. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que reparteix els tovallons; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que completa el segon cobert.\nRecurring visual anchors: Dos plats llisos i dos tovallons, un amb vora fosca i un amb una cantonada brodada.\n1. A desplega els dos tovallons a la cuina. B mira els dos plats buits de la taula contigua.\n2. A du els dos tovallons al menjador i en posa un amb la vora visible sota el primer plat.\n3. B agafa el de cantonada brodada i alça lleugerament el segon plat per fer-hi lliscar el tovalló.\n4. Els dos plats queden al seu lloc. Cada vora de roba sobresurt pel mateix costat i A i B retiren les mans.",
+  "review": "El tigre estén i posa el de vora fosca. L’esquirol posa el tovalló brodat sota el segon plat. Les marques es mantenen.",
+  "alt": {
+    "ca": "Un tigre prepara dos tovallons. Entre ell i un esquirol en posen un sota de cada plat.",
+    "es": "Un tigre prepara dos servilletas. Entre él y una ardilla ponen una debajo de cada plato."
+  },
+  "originalSha256": "b0976b69efeb954bfe594a486fb821eb31a5f4877c731c3cbee587e58381b904",
+  "file": "output/production/n11/n11-160/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:21:30+00:00",
+  "tool": "ImageGen integrat"
+}

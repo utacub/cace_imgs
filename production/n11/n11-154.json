@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-154",
+    "number": 154,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-054",
+    "title": {
+      "ca": "La gerra buida del dinar · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "TIGRE",
+      "PORTAR",
+      "BEURE",
+      "AIGUA",
+      "GOT",
+      "MENJADOR",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-7a57f3835ffd",
+      "w-73b71e1ff757",
+      "w-a5ddba336d84",
+      "w-00e8b2c10536",
+      "w-1bed9f18ebab",
+      "w-32c0089441f0",
+      "w-2a34971d94b3"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que detecta que falta aigua",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que omple i torna la gerra",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-054",
+    "familyTitle": "La gerra buida del dinar",
+    "settings": [
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una gerra transparent amb broc triangular i dos gots amb bases diferents."
+    },
+    "narrative": "B veu que la gerra és buida i la reomple perquè A i B tinguin aigua als seus gots."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "77ccea72dec099f1c93e15a95e63abacc753efab63a71e83293e9cfb1ce183d1",
+      "file": "output/production/n11/n11-154/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa gerra buida del dinar. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que detecta que falta aigua; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que omple i torna la gerra.\nRecurring visual anchors: Una gerra transparent amb broc triangular i dos gots amb bases diferents.\n1. A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig.\n2. B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta.\n3. B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got.\n4. A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la.",
+      "review": "Gerra buida inicialment, raig a l’aixeta i nivell residual al final. Els vasos tenen formes diferents i cadascú en té un.",
+      "reviewedAt": "2026-11-21T21:21:30+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa gerra buida del dinar. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que detecta que falta aigua; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que omple i torna la gerra.\nRecurring visual anchors: Una gerra transparent amb broc triangular i dos gots amb bases diferents.\n1. A inclina la gerra buida cap al seu got buit. B li acosta una mà i mira la boca sense raig.\n2. B porta la mateixa gerra fins a la pica i l’omple parcialment sota l’aixeta oberta.\n3. B torna amb el nivell visible i omple els dos gots de bases diferents a la taula. A estabilitza el seu got.\n4. A beu d’un got i B s’acosta l’altre als llavis. A la gerra dreta queda un nivell inferior al del moment d’omplir-la.",
+  "review": "Gerra buida inicialment, raig a l’aixeta i nivell residual al final. Els vasos tenen formes diferents i cadascú en té un.",
+  "alt": {
+    "ca": "Un ós veu que la gerra és buida. Un tigre hi posa aigua i omple els gots perquè tots dos puguin beure.",
+    "es": "Un oso ve que la jarra está vacía. Un tigre la llena de agua y sirve los vasos para que ambos puedan beber."
+  },
+  "originalSha256": "77ccea72dec099f1c93e15a95e63abacc753efab63a71e83293e9cfb1ce183d1",
+  "file": "output/production/n11/n11-154/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:21:30+00:00",
+  "tool": "ImageGen integrat"
+}

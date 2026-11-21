@@ -1,0 +1,147 @@
+{
+  "construction": {
+    "id": "n11-089",
+    "number": 89,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-189",
+    "title": {
+      "ca": "Els envasos del berenar · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NENA",
+      "MENJAR",
+      "PORTAR",
+      "GUARDAR",
+      "ESCOMBRARIES",
+      "BOSSA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-cda6fa4a9867",
+      "w-c248ebfe6f67",
+      "w-73b71e1ff757",
+      "w-f0441e0dd3b0",
+      "w-e3340935e286",
+      "w-7db8d682fed4",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que recull l’envoltori",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que recull el got i tanca la bossa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-089",
+    "familyTitle": "Els envasos del berenar",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MENJAR",
+        "wordId": "w-c248ebfe6f67"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "ESCOMBRARIES",
+        "wordId": "w-e3340935e286"
+      },
+      {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aixeca l’envoltori de sobre el banc. B sosté el got buit i obre una nansa de la bossa."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A posa l’envoltori al fons i manté la boca oberta amb les mans al marge."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B deixa el got al costat de l’envoltori i passa les nanses a una mà per tancar la boca."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B s’endú la bossa amb els dos residus visibles. A comprova el banc buit amb la mà oberta."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un envoltori arrugat i un got buit, una bossa transparent amb nanses i un banc de fusta clara."
+    },
+    "narrative": "A recull l’envoltori i B hi afegeix el got i tanca la bossa. A i B deixen el banc buit."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4aa58442f5c4a3025400507dc5a2dbfede03373a8e6f9798c486eb8a658fee58",
+      "file": "output/production/n11/n11-089/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls envasos del berenar. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que recull l’envoltori; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que recull el got i tanca la bossa.\nRecurring visual anchors: Un envoltori arrugat i un got buit, una bossa transparent amb nanses i un banc de fusta clara.\n1. A aixeca l’envoltori de sobre el banc. B sosté el got buit i obre una nansa de la bossa.\n2. A posa l’envoltori al fons i manté la boca oberta amb les mans al marge.\n3. B deixa el got al costat de l’envoltori i passa les nanses a una mà per tancar la boca.\n4. B s’endú la bossa amb els dos residus visibles. A comprova el banc buit amb la mà oberta.",
+      "review": "Hi ha un embolcall i un got. La noia posa l’embolcall i la nena hi afegeix el got. Els dos residus es veuen dins la bossa al final.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEls envasos del berenar. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que recull l’envoltori; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que recull el got i tanca la bossa.\nRecurring visual anchors: Un envoltori arrugat i un got buit, una bossa transparent amb nanses i un banc de fusta clara.\n1. A aixeca l’envoltori de sobre el banc. B sosté el got buit i obre una nansa de la bossa.\n2. A posa l’envoltori al fons i manté la boca oberta amb les mans al marge.\n3. B deixa el got al costat de l’envoltori i passa les nanses a una mà per tancar la boca.\n4. B s’endú la bossa amb els dos residus visibles. A comprova el banc buit amb la mà oberta.",
+  "review": "Hi ha un embolcall i un got. La noia posa l’embolcall i la nena hi afegeix el got. Els dos residus es veuen dins la bossa al final.",
+  "alt": {
+    "ca": "Una noia i una nena recullen l’embolcall i el got del berenar. Els posen en una bossa i deixen el banc buit.",
+    "es": "Una chica y una niña recogen el envoltorio y el vaso de la merienda. Los meten en una bolsa y dejan el banco vacío."
+  },
+  "originalSha256": "4aa58442f5c4a3025400507dc5a2dbfede03373a8e6f9798c486eb8a658fee58",
+  "file": "output/production/n11/n11-089/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:11+00:00",
+  "tool": "ImageGen integrat"
+}

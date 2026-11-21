@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-061",
+    "number": 61,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-161",
+    "title": {
+      "ca": "El llibre a la bústia · foto"
+    },
+    "labels": [
+      "NENA",
+      "NEN",
+      "PORTAR",
+      "AJUDAR",
+      "POSAR",
+      "LLIBRE",
+      "CARRER",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b4012100fe09",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-3bb995df42bf",
+      "w-951a66dc1251",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que retorna el llibre",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que mostra i sosté la ranura",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-061",
+    "familyTitle": "El llibre a la bústia",
+    "settings": [
+      {
+        "label": "CARRER",
+        "wordId": "w-951a66dc1251"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A du el llibre pel llom fins a la porta de la biblioteca. B mira la bústia visible a dins."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B alça la tapa abatible pel mànec i A orienta el llibre pla a l’altura de la boca."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A introdueix el llibre. La balena i una banda del llom encara sobresurten mentre B sosté la tapa."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B deixa baixar la tapa amb la boca lliure. A mostra les mans buides davant la finestreta on es veu el llom."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un llibre amb una balena i un llom amb dues bandes, una bústia baixa interior amb boca abatible."
+    },
+    "narrative": "B mostra i obre el punt de devolució perquè A pugui dipositar el llibre dins la biblioteca."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "ddd897ce01d6972fb9ce7943ffd1ac77c9d3ad5f1dda8164d3e466ca853c1e4f",
+      "file": "output/production/n11/n11-061/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llibre a la bústia. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que retorna el llibre; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que mostra i sosté la ranura.\nRecurring visual anchors: Un llibre amb una balena i un llom amb dues bandes, una bústia baixa interior amb boca abatible.\n1. A du el llibre pel llom fins a la porta de la biblioteca. B mira la bústia visible a dins.\n2. B alça la tapa abatible pel mànec i A orienta el llibre pla a l’altura de la boca.\n3. A introdueix el llibre. La balena i una banda del llom encara sobresurten mentre B sosté la tapa.\n4. B deixa baixar la tapa amb la boca lliure. A mostra les mans buides davant la finestreta on es veu el llom.",
+      "review": "La nena porta i introdueix el llibre de la balena mentre el nen aixeca la tapa. La finestreta mostra el llom de dues ratlles al final.",
+      "reviewedAt": "2026-11-21T21:21:35+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl llibre a la bústia. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que retorna el llibre; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que mostra i sosté la ranura.\nRecurring visual anchors: Un llibre amb una balena i un llom amb dues bandes, una bústia baixa interior amb boca abatible.\n1. A du el llibre pel llom fins a la porta de la biblioteca. B mira la bústia visible a dins.\n2. B alça la tapa abatible pel mànec i A orienta el llibre pla a l’altura de la boca.\n3. A introdueix el llibre. La balena i una banda del llom encara sobresurten mentre B sosté la tapa.\n4. B deixa baixar la tapa amb la boca lliure. A mostra les mans buides davant la finestreta on es veu el llom.",
+  "review": "La nena porta i introdueix el llibre de la balena mentre el nen aixeca la tapa. La finestreta mostra el llom de dues ratlles al final.",
+  "alt": {
+    "ca": "Una nena torna un llibre a la biblioteca. Un nen obre la bústia perquè ella l’hi pugui posar i després la tanca.",
+    "es": "Una niña devuelve un libro a la biblioteca. Un niño abre el buzón para que ella lo meta y después lo cierra."
+  },
+  "originalSha256": "ddd897ce01d6972fb9ce7943ffd1ac77c9d3ad5f1dda8164d3e466ca853c1e4f",
+  "file": "output/production/n11/n11-061/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:21:35+00:00",
+  "tool": "ImageGen integrat"
+}

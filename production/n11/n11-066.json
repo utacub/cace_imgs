@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-066",
+    "number": 66,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-166",
+    "title": {
+      "ca": "El paraigua torna al comerç · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "PORTAR",
+      "TORNAR",
+      "DONAR",
+      "PARAIGUA",
+      "CARRER",
+      "BOTIGA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-c011365e24bc",
+      "w-dd80e4e4de38",
+      "w-057e09311c15",
+      "w-951a66dc1251",
+      "w-c299f0f22ee8"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que retorna l’objecte",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "dependent que l’identifica i el rep",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-066",
+    "familyTitle": "El paraigua torna al comerç",
+    "settings": [
+      {
+        "label": "CARRER",
+        "wordId": "w-951a66dc1251"
+      },
+      {
+        "label": "BOTIGA",
+        "wordId": "w-c299f0f22ee8"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "TORNAR",
+        "wordId": "w-c011365e24bc"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PARAIGUA",
+        "wordId": "w-057e09311c15"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’atura davant la botiga amb el paraigua plegat i B assenyala l’espai buit del paraigüer interior."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A du el paraigua al llindar. B obre la porta de vidre pel tirador."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A lliura el mànec en U a B i B el fa baixar fins al paraigüer."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El paraigua queda dret amb el mànec en U al costat de l’anella superior. B allibera la presa i A es retira amb mans buides."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un paraigua plegat amb mànec en forma d’U, una porta de vidre i un paraigüer de dues anelles."
+    },
+    "narrative": "A torna a la botiga amb el paraigua i B l’acull i el deixa dret al seu lloc."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "4f3430ad1c1402de1ed7ec4344bc50a3bf726fc106f9a360740ce96ea96a05fd",
+      "file": "output/production/n11/n11-066/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paraigua torna al comerç. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que retorna l’objecte; B = DONA, samarreta ocre amb dues ratlles blanques al davant, dependent que l’identifica i el rep.\nRecurring visual anchors: Un paraigua plegat amb mànec en forma d’U, una porta de vidre i un paraigüer de dues anelles.\n1. A s’atura davant la botiga amb el paraigua plegat i B assenyala l’espai buit del paraigüer interior.\n2. A du el paraigua al llindar. B obre la porta de vidre pel tirador.\n3. A lliura el mànec en U a B i B el fa baixar fins al paraigüer.\n4. El paraigua queda dret amb el mànec en U al costat de l’anella superior. B allibera la presa i A es retira amb mans buides.",
+      "review": "El mànec corb identifica un sol paraigua fins al paraigüer. La dona el rep al llindar i l’home se’n va amb mans buides.",
+      "reviewedAt": "2026-11-21T21:23:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paraigua torna al comerç. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que retorna l’objecte; B = DONA, samarreta ocre amb dues ratlles blanques al davant, dependent que l’identifica i el rep.\nRecurring visual anchors: Un paraigua plegat amb mànec en forma d’U, una porta de vidre i un paraigüer de dues anelles.\n1. A s’atura davant la botiga amb el paraigua plegat i B assenyala l’espai buit del paraigüer interior.\n2. A du el paraigua al llindar. B obre la porta de vidre pel tirador.\n3. A lliura el mànec en U a B i B el fa baixar fins al paraigüer.\n4. El paraigua queda dret amb el mànec en U al costat de l’anella superior. B allibera la presa i A es retira amb mans buides.",
+  "review": "El mànec corb identifica un sol paraigua fins al paraigüer. La dona el rep al llindar i l’home se’n va amb mans buides.",
+  "alt": {
+    "ca": "Un home torna un paraigua a una botiga. Una dona l’agafa i el posa dret al paraigüer.",
+    "es": "Un hombre devuelve un paraguas a una tienda. Una mujer lo recoge y lo coloca de pie en el paragüero."
+  },
+  "originalSha256": "4f3430ad1c1402de1ed7ec4344bc50a3bf726fc106f9a360740ce96ea96a05fd",
+  "file": "output/production/n11/n11-066/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:23:39+00:00",
+  "tool": "ImageGen integrat"
+}

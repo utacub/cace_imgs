@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-148",
+    "number": 148,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-048",
+    "title": {
+      "ca": "L’entrepà i les dues carmanyoles · dibuix"
+    },
+    "labels": [
+      "CANGUR",
+      "GOS",
+      "POSAR",
+      "TANCAR",
+      "GUARDAR",
+      "ENTREPÀ",
+      "CARMANYOLA",
+      "CUINA"
+    ],
+    "wordIds": [
+      "w-d5395d03acbf",
+      "w-4761fde107a7",
+      "w-c211f7486a30",
+      "w-4000ec1e6d5b",
+      "w-f0441e0dd3b0",
+      "w-0c47f11deffa",
+      "w-c3b8bd56e942",
+      "w-2a34971d94b3"
+    ],
+    "primaryWordId": "w-d5395d03acbf",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que reparteix",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que prepara les carmanyoles",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-048",
+    "familyTitle": "L’entrepà i les dues carmanyoles",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "targets": [
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "ENTREPÀ",
+        "wordId": "w-0c47f11deffa"
+      },
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B obre dues carmanyoles sobre la taula mentre A mostra les dues meitats sobre un únic plat."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa una meitat dins de cada carmanyola. B orienta les frontisses cap a fora."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B tanca la primera i A tanca la segona amb les meitats encara visibles a través de la tapa."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B recullen una carmanyola cadascú i el plat únic queda buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues meitats d’un entrepà amb crosta ondulada i dues carmanyoles amb tapes translúcides de colors diferents."
+    },
+    "narrative": "B prepara les carmanyoles i A hi reparteix les dues meitats abans que cadascú se n’endugui una."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "9094833f9b3fb4d9e7b63a10327649d5d69b7ab4be2dea2a74ac8d5f782d1267",
+      "file": "output/production/n11/n11-148/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’entrepà i les dues carmanyoles. Actors and fixed identity: A = CANGUR, armilla blau fosc amb un triangle clar al davant, participant que reparteix; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que prepara les carmanyoles.\nRecurring visual anchors: Dues meitats d’un entrepà amb crosta ondulada i dues carmanyoles amb tapes translúcides de colors diferents.\n1. B obre dues carmanyoles sobre la taula mentre A mostra les dues meitats sobre un únic plat.\n2. A posa una meitat dins de cada carmanyola. B orienta les frontisses cap a fora.\n3. B tanca la primera i A tanca la segona amb les meitats encara visibles a través de la tapa.\n4. A i B recullen una carmanyola cadascú i el plat únic queda buit.",
+      "review": "Cangur i gos canvien de costat a la tercera vinyeta i tornen a invertir-se a la quarta, sense transició visible. El seguiment de les carmanyoles queda confús.",
+      "reviewedAt": "2026-11-21T21:21:30+00:00"
+    }
+  ],
+  "status": "rejected"
+}

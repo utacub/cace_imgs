@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-093",
+    "number": 93,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-193",
+    "title": {
+      "ca": "La manta al lloc sec · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NOI",
+      "MIRAR",
+      "PORTAR",
+      "POSAR",
+      "MANTA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-01bc6dcab46b",
+      "w-e67dd0fa47ce",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-732ff8e447b5",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que detecta herba humida",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que busca un suport sec",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-093",
+    "familyTitle": "La manta al lloc sec",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la manta plegada sobre l’herba i veu la clapa humida amb una petjada. B indica el banc sec."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B mou el cistell de l’extrem del banc cap al costat, alliberant el seient."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A diposita la manta plegada al banc i B li ajuda a desplegar-la al llarg del seient."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos seuen sobre la quadrícula. El cistell és al lateral i la clapa mullada continua a terra."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una manta quadriculada i un cistell baix; una clapa humida a la vora d’un banc sec llarg."
+    },
+    "narrative": "A detecta on l’herba és humida i B deixa lliure el banc perquè hi puguin estendre la manta."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "28195fe6a6823b1da221e4ebac16745fee3994445dc6a0788ba789a9b2dc64bb",
+      "file": "output/production/n11/n11-093/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa manta al lloc sec. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que detecta herba humida; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que busca un suport sec.\nRecurring visual anchors: Una manta quadriculada i un cistell baix; una clapa humida a la vora d’un banc sec llarg.\n1. A sosté la manta plegada sobre l’herba i veu la clapa humida amb una petjada. B indica el banc sec.\n2. B mou el cistell de l’extrem del banc cap al costat, alliberant el seient.\n3. A diposita la manta plegada al banc i B li ajuda a desplegar-la al llarg del seient.\n4. Tots dos seuen sobre la quadrícula. El cistell és al lateral i la clapa mullada continua a terra.",
+      "review": "El toll i el cistell permeten entendre el canvi al banc. El noi fa lloc i la noia du la manta, que queda estesa sota tots dos.",
+      "reviewedAt": "2026-11-21T21:26:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa manta al lloc sec. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que detecta herba humida; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que busca un suport sec.\nRecurring visual anchors: Una manta quadriculada i un cistell baix; una clapa humida a la vora d’un banc sec llarg.\n1. A sosté la manta plegada sobre l’herba i veu la clapa humida amb una petjada. B indica el banc sec.\n2. B mou el cistell de l’extrem del banc cap al costat, alliberant el seient.\n3. A diposita la manta plegada al banc i B li ajuda a desplegar-la al llarg del seient.\n4. Tots dos seuen sobre la quadrícula. El cistell és al lateral i la clapa mullada continua a terra.",
+  "review": "El toll i el cistell permeten entendre el canvi al banc. El noi fa lloc i la noia du la manta, que queda estesa sota tots dos.",
+  "alt": {
+    "ca": "Una noia veu l’herba mullada. Un noi deixa lliure el banc i hi estenen la manta per seure-hi.",
+    "es": "Una chica ve la hierba mojada. Un chico despeja el banco y extienden la manta para sentarse."
+  },
+  "originalSha256": "28195fe6a6823b1da221e4ebac16745fee3994445dc6a0788ba789a9b2dc64bb",
+  "file": "output/production/n11/n11-093/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:26:54+00:00",
+  "tool": "ImageGen integrat"
+}

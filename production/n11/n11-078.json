@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-078",
+    "number": 78,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-178",
+    "title": {
+      "ca": "El got del segon lloc · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "DONAR",
+      "PORTAR",
+      "BEURE",
+      "GOT",
+      "AIGUA",
+      "BAR"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-dd80e4e4de38",
+      "w-73b71e1ff757",
+      "w-a5ddba336d84",
+      "w-1bed9f18ebab",
+      "w-00e8b2c10536",
+      "w-2323fb67068e"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que prepara els dos gots",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que porta l’aigua a taula",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-078",
+    "familyTitle": "El got del segon lloc",
+    "settings": [
+      {
+        "label": "BAR",
+        "wordId": "w-2323fb67068e"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa els dos gots buits sobre la safata que B sosté recolzada al taulell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides."
+    },
+    "narrative": "A posa els gots a la safata que porta B fins als dos llocs, on A els omple."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "8621f506633dbe1228989b70094f5764e0e80df8da59a7a49fa3fd88ebf725d6",
+      "file": "output/production/n11/n11-078/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl got del segon lloc. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos gots; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que porta l’aigua a taula.\nRecurring visual anchors: Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides.\n1. A posa els dos gots buits sobre la safata que B sosté recolzada al taulell.\n2. B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra.\n3. B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada.\n4. A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat.",
+      "review": "Dos gots de formes diferents passen del taulell a la taula. El noi du la safata i l’home hi porta l’aigua. El nivell final ha baixat.",
+      "reviewedAt": "2026-11-21T21:22:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl got del segon lloc. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que prepara els dos gots; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que porta l’aigua a taula.\nRecurring visual anchors: Dos gots amb bases diferents, una gerra transparent i una safata amb dues vores arrodonides.\n1. A posa els dos gots buits sobre la safata que B sosté recolzada al taulell.\n2. B porta els dos gots fins a la taula baixa i A l’acompanya amb la gerra.\n3. B separa els gots als dos llocs mentre A omple un got i després l’altre fins a mitja alçada.\n4. A beu del seu got mig ple. B seu al seu davant i aixeca el seu got, amb una base diferent. La safata és buida i el nivell de la gerra ha baixat.",
+  "review": "Dos gots de formes diferents passen del taulell a la taula. El noi du la safata i l’home hi porta l’aigua. El nivell final ha baixat.",
+  "alt": {
+    "ca": "Un noi porta dos gots buits en una safata. Un home els omple i tots dos beuen aigua.",
+    "es": "Un chico lleva dos vasos vacíos en una bandeja. Un hombre los llena y los dos beben agua."
+  },
+  "originalSha256": "8621f506633dbe1228989b70094f5764e0e80df8da59a7a49fa3fd88ebf725d6",
+  "file": "output/production/n11/n11-078/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:22:11+00:00",
+  "tool": "ImageGen integrat"
+}

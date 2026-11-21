@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-094",
+    "number": 94,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-194",
+    "title": {
+      "ca": "Les pinyes al lloc de la mostra · foto"
+    },
+    "labels": [
+      "DONA",
+      "NENA",
+      "PORTAR",
+      "CLASSIFICAR",
+      "POSAR",
+      "CISTELL",
+      "BOSC"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cda6fa4a9867",
+      "w-73b71e1ff757",
+      "w-837cfa89f5df",
+      "w-c211f7486a30",
+      "w-120fb6b37e88",
+      "w-c912bb04c6c9"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que guarda les pinyes trobades",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que disposa la mostra",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-094",
+    "familyTitle": "Les pinyes al lloc de la mostra",
+    "settings": [
+      {
+        "label": "BOSC",
+        "wordId": "w-c912bb04c6c9"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça la pinya llarga del terra al costat d’un cistell amb les altres dues visibles. B estén el drap."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa al cistell la tercera pinya i el transporta fins al drap desplegat per B."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa la llarga a un costat del drap mentre A hi acosta juntes les dues curtes."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Al drap es veu una pinya llarga separada de les dues curtes. A i B observen els grups amb el cistell al mig, buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres pinyes caigudes, una llarga i dues curtes, un cistell baix i un drap amb dos espais lliures."
+    },
+    "narrative": "A recull l’última pinya i B desplega el drap. Entre tots dos disposen la mostra per mides."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9743309e87788b02bdec908962d89081a187a82b5f3239914b433f5b0578c63f",
+      "file": "output/production/n11/n11-094/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes pinyes al lloc de la mostra. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que guarda les pinyes trobades; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que disposa la mostra.\nRecurring visual anchors: Tres pinyes caigudes, una llarga i dues curtes, un cistell baix i un drap amb dos espais lliures.\n1. A alça la pinya llarga del terra al costat d’un cistell amb les altres dues visibles. B estén el drap.\n2. A posa al cistell la tercera pinya i el transporta fins al drap desplegat per B.\n3. B posa la llarga a un costat del drap mentre A hi acosta juntes les dues curtes.\n4. Al drap es veu una pinya llarga separada de les dues curtes. A i B observen els grups amb el cistell al mig, buit.",
+      "review": "Dues pinyes curtes i una de llarga. La dona recull la que falta i la nena prepara el drap. El cistell buit queda al costat dels dos grups.",
+      "reviewedAt": "2026-11-21T21:26:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes pinyes al lloc de la mostra. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que guarda les pinyes trobades; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que disposa la mostra.\nRecurring visual anchors: Tres pinyes caigudes, una llarga i dues curtes, un cistell baix i un drap amb dos espais lliures.\n1. A alça la pinya llarga del terra al costat d’un cistell amb les altres dues visibles. B estén el drap.\n2. A posa al cistell la tercera pinya i el transporta fins al drap desplegat per B.\n3. B posa la llarga a un costat del drap mentre A hi acosta juntes les dues curtes.\n4. Al drap es veu una pinya llarga separada de les dues curtes. A i B observen els grups amb el cistell al mig, buit.",
+  "review": "Dues pinyes curtes i una de llarga. La dona recull la que falta i la nena prepara el drap. El cistell buit queda al costat dels dos grups.",
+  "alt": {
+    "ca": "Una dona recull la tercera pinya i una nena prepara un drap. Entre totes dues hi col·loquen les dues curtes separades de la llarga.",
+    "es": "Una mujer recoge la tercera piña y una niña prepara un paño. Entre las dos colocan las dos cortas separadas de la larga."
+  },
+  "originalSha256": "9743309e87788b02bdec908962d89081a187a82b5f3239914b433f5b0578c63f",
+  "file": "output/production/n11/n11-094/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:26:54+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-056",
+    "number": 56,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-156",
+    "title": {
+      "ca": "La bossa que s’obre · foto"
+    },
+    "labels": [
+      "NEN",
+      "HOME",
+      "AJUDAR",
+      "OBRIR",
+      "GUARDAR",
+      "BOSSA",
+      "CAIXA",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-cfe24f6b3c38",
+      "w-5b2ff1d40d54",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-7db8d682fed4",
+      "w-696b7c739d30",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que sosté la bossa",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que recupera la capsa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-056",
+    "familyTitle": "La bossa que s’obre",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "BOSSA",
+        "wordId": "w-7db8d682fed4"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix."
+    },
+    "narrative": "A manté la bossa oberta i dret el fons mentre B hi posa la caixa abans d’endur-se-la."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "30495cd4e384aa615ba63703ab89d832065f0214a4690d99395b7e92618e342e",
+      "file": "output/production/n11/n11-056/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bossa que s’obre. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que sosté la bossa; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que recupera la capsa.\nRecurring visual anchors: Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix.\n1. B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada.\n2. A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa.\n3. B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca.\n4. B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins.",
+      "review": "El nen obre les nanses i l’home passa la caixa amb cantoneres. El cantell es veu al fons de la mateixa bossa quan l’home ja la pot agafar.",
+      "reviewedAt": "2026-11-21T21:21:35+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bossa que s’obre. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que sosté la bossa; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que recupera la capsa.\nRecurring visual anchors: Una bossa de dues nanses llargues, una capsa amb cantoneres clares i un banc baix.\n1. B du la capsa i la bossa, que se li plega sobre si mateixa al banc. A assenyala l’obertura aixafada.\n2. A separa les dues nanses i manté la bossa dreta sobre el banc mentre B alça la capsa.\n3. B introdueix la capsa primer de cantell i després la recolza plana al fons, amb A subjectant la boca.\n4. B posa totes dues nanses sobre el seu avantbraç i A deixa de sostenir la bossa. Es veu el cantell clar a dins.",
+  "review": "El nen obre les nanses i l’home passa la caixa amb cantoneres. El cantell es veu al fons de la mateixa bossa quan l’home ja la pot agafar.",
+  "alt": {
+    "ca": "Un nen obre la bossa perquè un home hi pugui posar una capsa. L’home passa les nanses pel braç quan la capsa ja és dins.",
+    "es": "Un niño abre la bolsa para que un hombre meta una caja. El hombre se pasa las asas por el brazo cuando la caja está dentro."
+  },
+  "originalSha256": "30495cd4e384aa615ba63703ab89d832065f0214a4690d99395b7e92618e342e",
+  "file": "output/production/n11/n11-056/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:21:35+00:00",
+  "tool": "ImageGen integrat"
+}

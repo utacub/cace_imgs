@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-113",
+    "number": 113,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-013",
+    "title": {
+      "ca": "Tres testos al lleixiu · dibuix"
+    },
+    "labels": [
+      "GOS",
+      "MICO",
+      "PLANTAR",
+      "POSAR",
+      "PLANTA",
+      "PRESTATGERIA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-12a87560751b",
+      "w-6af4a2a10994",
+      "w-c211f7486a30",
+      "w-03d524b232d7",
+      "w-d6d32ee8f603",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que acaba el tercer test",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que prepara el lloc d’exposició",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-013",
+    "familyTitle": "Tres testos al lleixiu",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PLANTAR",
+        "wordId": "w-6af4a2a10994"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      },
+      {
+        "label": "PRESTATGERIA",
+        "wordId": "w-d6d32ee8f603"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté el pa de terra de la plàntula davant del tercer test. B posa la safata buida al lleixiu."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A planta la plàntula de dues fulles. B hi du els dos testos ja plantats i deixa un tercer espai buit."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A lliura el tercer test a B amb les mans sota la base i B el diposita a l’espai lliure."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Els tres testos queden alineats a la mateixa safata. A i B s’ajupen per mirar la plàntula de dues fulles."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres testos iguals amb una banda, dos ja plantats i un amb terra, una plàntula de dues fulles i un lleixiu baix amb safata."
+    },
+    "narrative": "A acaba de plantar el tercer test i B li fa lloc al costat dels dos que ja ha traslladat."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "d9188db26408dbd37673c04b726f1c099b0c2b80b6916680fc0d65599f2b5795",
+      "file": "output/production/n11/n11-113/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nTres testos al lleixiu. Actors and fixed identity: A = GOS, armilla blau fosc amb un triangle clar al davant, participant que acaba el tercer test; B = MICO, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el lloc d’exposició.\nRecurring visual anchors: Tres testos iguals amb una banda, dos ja plantats i un amb terra, una plàntula de dues fulles i un lleixiu baix amb safata.\n1. A sosté el pa de terra de la plàntula davant del tercer test. B posa la safata buida al lleixiu.\n2. A planta la plàntula de dues fulles. B hi du els dos testos ja plantats i deixa un tercer espai buit.\n3. A lliura el tercer test a B amb les mans sota la base i B el diposita a l’espai lliure.\n4. Els tres testos queden alineats a la mateixa safata. A i B s’ajupen per mirar la plàntula de dues fulles.",
+      "review": "Quatre testos a la segona vinyeta, un de més respecte al plantejament i el tancament.",
+      "reviewedAt": "2026-11-21T21:25:52+00:00"
+    }
+  ],
+  "status": "rejected"
+}

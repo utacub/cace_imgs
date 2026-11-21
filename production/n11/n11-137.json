@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-137",
+    "number": 137,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-037",
+    "title": {
+      "ca": "La fireta amb un plat lliure · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "CONILL",
+      "JUGAR",
+      "DONAR",
+      "POSAR",
+      "FIRETA",
+      "PLAT",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-51a7805e979b",
+      "w-6d90f16f5461",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-192ce25072c4",
+      "w-55d250f4cf1e",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que prepara la comanda de joguina",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que recull la comanda",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-037",
+    "familyTitle": "La fireta amb un plat lliure",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FIRETA",
+        "wordId": "w-192ce25072c4"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A passa un dels trossos al plat llis amb els dits al costat de la peça."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc."
+    },
+    "narrative": "A reparteix les peces de fireta i B porta el seu plat a la taula on acaben jugant plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "bec84a2fea6bdece9ae0b6898d77371f6892f1daba22f571c1032db43ce10212",
+      "file": "output/production/n11/n11-137/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fireta amb un plat lliure. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que prepara la comanda de joguina; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que recull la comanda.\nRecurring visual anchors: Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc.\n1. A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit.\n2. A passa un dels trossos al plat llis amb els dits al costat de la peça.\n3. B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça.\n4. Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat.",
+      "review": "Dues porcions de joguina, un plat puntejat i un de llis. La tortuga en reparteix una al conill i s’asseuen junts a la taula de la fireta.",
+      "reviewedAt": "2026-11-21T21:27:32+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fireta amb un plat lliure. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que prepara la comanda de joguina; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant que recull la comanda.\nRecurring visual anchors: Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc.\n1. A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit.\n2. A passa un dels trossos al plat llis amb els dits al costat de la peça.\n3. B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça.\n4. Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat.",
+  "review": "Dues porcions de joguina, un plat puntejat i un de llis. La tortuga en reparteix una al conill i s’asseuen junts a la taula de la fireta.",
+  "alt": {
+    "ca": "Una tortuga dona al conill un tros de pastís de joguina. Cadascun s’emporta un plat a la taula per jugar.",
+    "es": "Una tortuga da al conejo un trozo de pastel de juguete. Cada uno lleva un plato a la mesa para jugar."
+  },
+  "originalSha256": "bec84a2fea6bdece9ae0b6898d77371f6892f1daba22f571c1032db43ce10212",
+  "file": "output/production/n11/n11-137/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:27:32+00:00",
+  "tool": "ImageGen integrat"
+}

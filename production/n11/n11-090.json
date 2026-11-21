@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-090",
+    "number": 90,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-190",
+    "title": {
+      "ca": "La barrera del planter · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "VEURE",
+      "PORTAR",
+      "POSAR",
+      "PLANTA",
+      "PAL",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-03d524b232d7",
+      "w-c8538c4482a2",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que detecta el forat de la tanca",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que reinstal·la la peça",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-090",
+    "familyTitle": "La barrera del planter",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça el pal caigut i el dona a B des del costat exterior del planter."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes."
+    },
+    "narrative": "A troba i lliura el pal caigut i B el torna a l’encaix perquè A hi pugui recolzar la corda."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "5d5e7ded1c5d339f6f388d60c3a676bf348a8c215fd0c1beb6cc15b94c4c4e58",
+      "file": "output/production/n11/n11-090/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa barrera del planter. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que detecta el forat de la tanca; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que reinstal·la la peça.\nRecurring visual anchors: Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes.\n1. A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà.\n2. A alça el pal caigut i el dona a B des del costat exterior del planter.\n3. B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta.\n4. La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes.",
+      "review": "L’home recull el pal caigut i el lliura. El nen el posa i l’home torna a tensar la corda. Tres pals visibles en el resultat.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa barrera del planter. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que detecta el forat de la tanca; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que reinstal·la la peça.\nRecurring visual anchors: Tres pals iguals amb punta rodona, dos en vertical i un caigut, amb una corda lligada a les dues puntes extremes.\n1. A assenyala el pal central caigut davant les plantes. B aixeca el tram fluix de la corda amb una mà.\n2. A alça el pal caigut i el dona a B des del costat exterior del planter.\n3. B posa el pal central al seu encaix de terra i A alça la corda fins a la ranura de la punta.\n4. La corda queda tensada sobre els tres pals. A i B es retiren del planter sense trepitjar les plantes.",
+  "review": "L’home recull el pal caigut i el lliura. El nen el posa i l’home torna a tensar la corda. Tres pals visibles en el resultat.",
+  "alt": {
+    "ca": "Un home troba el pal caigut. Un nen el torna al seu lloc i l’home hi recull la corda per reparar la tanca.",
+    "es": "Un hombre encuentra el poste caído. Un niño lo devuelve a su sitio y el hombre coloca la cuerda para reparar la valla."
+  },
+  "originalSha256": "5d5e7ded1c5d339f6f388d60c3a676bf348a8c215fd0c1beb6cc15b94c4c4e58",
+  "file": "output/production/n11/n11-090/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:11+00:00",
+  "tool": "ImageGen integrat"
+}

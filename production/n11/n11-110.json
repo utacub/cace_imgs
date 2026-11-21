@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-110",
+    "number": 110,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-010",
+    "title": {
+      "ca": "La bata del penjador · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "CONILL",
+      "VEURE",
+      "PORTAR",
+      "DONAR",
+      "BATA",
+      "PATI",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-51a7805e979b",
+      "w-c53e5833e5d3",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-002ea7673dd7",
+      "w-b8852b37e441",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que veu la bata",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant a qui li correspon",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-010",
+    "familyTitle": "La bata del penjador",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "BATA",
+        "wordId": "w-002ea7673dd7"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Des del pati A veu la bata sobre la cadira i B mostra les mànigues de la samarreta davant del ganxo buit, al llindar."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A recull la bata per la veta i la porta cap al llindar. B assenyala una de les butxaques ratllades."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A agafa una màniga perquè B hi passi el braç. La segona màniga encara penja buida."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B du la bata posada i cordada amb les dues butxaques al davant. A li acosta un pinzell a la taula de classe."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bata amb dues butxaques ratllades, una cadira baixa i un penja-robes amb un ganxo buit."
+    },
+    "narrative": "A torna la bata oblidada i ajuda B a posar-se-la perquè pugui reprendre l’activitat de pintura."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1b253ad49e467c2d409a82d875551bdac2e69000efaf0535c47841ce2282d0ec",
+      "file": "output/production/n11/n11-110/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bata del penjador. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que veu la bata; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant a qui li correspon.\nRecurring visual anchors: Una bata amb dues butxaques ratllades, una cadira baixa i un penja-robes amb un ganxo buit.\n1. Des del pati A veu la bata sobre la cadira i B mostra les mànigues de la samarreta davant del ganxo buit, al llindar.\n2. A recull la bata per la veta i la porta cap al llindar. B assenyala una de les butxaques ratllades.\n3. A agafa una màniga perquè B hi passi el braç. La segona màniga encara penja buida.\n4. B du la bata posada i cordada amb les dues butxaques al davant. A li acosta un pinzell a la taula de classe.",
+      "review": "La bata amb dues butxaques ratllades passa de la cadira al conill. El tigre aguanta la màniga i li prepara el pinzell quan ja porta la bata.",
+      "reviewedAt": "2026-11-21T21:25:52+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa bata del penjador. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que veu la bata; B = CONILL, samarreta ocre amb dues ratlles blanques al davant, participant a qui li correspon.\nRecurring visual anchors: Una bata amb dues butxaques ratllades, una cadira baixa i un penja-robes amb un ganxo buit.\n1. Des del pati A veu la bata sobre la cadira i B mostra les mànigues de la samarreta davant del ganxo buit, al llindar.\n2. A recull la bata per la veta i la porta cap al llindar. B assenyala una de les butxaques ratllades.\n3. A agafa una màniga perquè B hi passi el braç. La segona màniga encara penja buida.\n4. B du la bata posada i cordada amb les dues butxaques al davant. A li acosta un pinzell a la taula de classe.",
+  "review": "La bata amb dues butxaques ratllades passa de la cadira al conill. El tigre aguanta la màniga i li prepara el pinzell quan ja porta la bata.",
+  "alt": {
+    "ca": "Un tigre recull la bata d’un conill i l’ajuda a posar-se-la. El conill ja es pot posar a pintar.",
+    "es": "Un tigre recoge la bata de un conejo y lo ayuda a ponérsela. El conejo ya puede ponerse a pintar."
+  },
+  "originalSha256": "1b253ad49e467c2d409a82d875551bdac2e69000efaf0535c47841ce2282d0ec",
+  "file": "output/production/n11/n11-110/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:52+00:00",
+  "tool": "ImageGen integrat"
+}

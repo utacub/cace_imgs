@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-064",
+    "number": 64,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-164",
+    "title": {
+      "ca": "La carta davant de correus · foto"
+    },
+    "labels": [
+      "NEN",
+      "DONA",
+      "PORTAR",
+      "POSAR",
+      "DONAR",
+      "CARTA",
+      "CARRER",
+      "CORREUS"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-dd80e4e4de38",
+      "w-c80ed8fe0391",
+      "w-951a66dc1251",
+      "w-672b6da3feee"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que prepara la carta",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que fa el dipòsit",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-064",
+    "familyTitle": "La carta davant de correus",
+    "settings": [
+      {
+        "label": "CARRER",
+        "wordId": "w-951a66dc1251"
+      },
+      {
+        "label": "CORREUS",
+        "wordId": "w-672b6da3feee"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "CARTA",
+        "wordId": "w-c80ed8fe0391"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la carta amb el sol visible i B mostra el sobre obert al costat de la bústia de correus."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A insereix la carta al sobre que B sosté. L’últim raig encara sobresurt de la boca."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B tanca la solapa i fa lliscar el sobre per la ranura amb els dits al cantell exterior."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El sobre ja no sobresurt de la ranura. A i B s’aparten amb les mans buides i la mateixa ranura queda visible."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una carta muda doblegada amb un sol dibuixat, un sobre amb solapa triangular i una bústia amb ranura horitzontal."
+    },
+    "narrative": "A insereix la carta al sobre que B aguanta i B tanca el sobre i el diposita a la bústia."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f7ae6933dc0b897474aeb619ef8502214f131644b04e5ef60c389830292f743d",
+      "file": "output/production/n11/n11-064/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa carta davant de correus. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que prepara la carta; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que fa el dipòsit.\nRecurring visual anchors: Una carta muda doblegada amb un sol dibuixat, un sobre amb solapa triangular i una bústia amb ranura horitzontal.\n1. A sosté la carta amb el sol visible i B mostra el sobre obert al costat de la bústia de correus.\n2. A insereix la carta al sobre que B sosté. L’últim raig encara sobresurt de la boca.\n3. B tanca la solapa i fa lliscar el sobre per la ranura amb els dits al cantell exterior.\n4. El sobre ja no sobresurt de la ranura. A i B s’aparten amb les mans buides i la mateixa ranura queda visible.",
+      "review": "Una carta amb sol i un sobre. El nen introdueix la carta i la dona fa lliscar el sobre a la bústia. Ranura visible i mans buides al final.",
+      "reviewedAt": "2026-11-21T21:23:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa carta davant de correus. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que prepara la carta; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que fa el dipòsit.\nRecurring visual anchors: Una carta muda doblegada amb un sol dibuixat, un sobre amb solapa triangular i una bústia amb ranura horitzontal.\n1. A sosté la carta amb el sol visible i B mostra el sobre obert al costat de la bústia de correus.\n2. A insereix la carta al sobre que B sosté. L’últim raig encara sobresurt de la boca.\n3. B tanca la solapa i fa lliscar el sobre per la ranura amb els dits al cantell exterior.\n4. El sobre ja no sobresurt de la ranura. A i B s’aparten amb les mans buides i la mateixa ranura queda visible.",
+  "review": "Una carta amb sol i un sobre. El nen introdueix la carta i la dona fa lliscar el sobre a la bústia. Ranura visible i mans buides al final.",
+  "alt": {
+    "ca": "Un nen posa una carta amb un dibuix dins el sobre que aguanta una dona. La dona tanca el sobre i el posa a la bústia.",
+    "es": "Un niño mete una carta con un dibujo en el sobre que sostiene una mujer. La mujer cierra el sobre y lo echa al buzón."
+  },
+  "originalSha256": "f7ae6933dc0b897474aeb619ef8502214f131644b04e5ef60c389830292f743d",
+  "file": "output/production/n11/n11-064/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:23:39+00:00",
+  "tool": "ImageGen integrat"
+}

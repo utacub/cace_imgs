@@ -1,0 +1,129 @@
+{
+  "construction": {
+    "id": "n11-083",
+    "number": 83,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-183",
+    "title": {
+      "ca": "El test abans del vent · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "VEURE",
+      "AJUDAR",
+      "POSAR",
+      "PLANTA",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-c53e5833e5d3",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-03d524b232d7",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que estabilitza el test",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que hi posa un recer",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-083",
+    "familyTitle": "El test abans del vent",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "VEURE",
+        "wordId": "w-c53e5833e5d3"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A subjecta el test amb les dues mans quan les fulles s’inclinen cap a un costat. B veu el mateix moviment."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta la pantalla plana fins a la cara d’on ve el vent mentre A reté el test al mateix punt."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B desplega i recolza els dos peus de la pantalla a terra, entre una cinta que es mou i el test."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A allibera el test i B retira les mans de la pantalla estable. Les fulles resten dretes al recer i la cinta exterior segueix inclinada."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un test baix amb una veta horitzontal, una planta de fulles amples i una pantalla baixa amb base plegable."
+    },
+    "narrative": "A estabilitza el test mentre B posa la pantalla, i la planta queda protegida quan A pot deixar-la anar."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "446abbe8d01ba7b9520321681531b1c1c9428f60e171e0434dff823073b2a3c8",
+      "file": "output/production/n11/n11-083/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl test abans del vent. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que estabilitza el test; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que hi posa un recer.\nRecurring visual anchors: Un test baix amb una veta horitzontal, una planta de fulles amples i una pantalla baixa amb base plegable.\n1. A subjecta el test amb les dues mans quan les fulles s’inclinen cap a un costat. B veu el mateix moviment.\n2. B porta la pantalla plana fins a la cara d’on ve el vent mentre A reté el test al mateix punt.\n3. B desplega i recolza els dos peus de la pantalla a terra, entre una cinta que es mou i el test.\n4. A allibera el test i B retira les mans de la pantalla estable. Les fulles resten dretes al recer i la cinta exterior segueix inclinada.",
+      "review": "La cinta s’estén cap a l’esquerra mentre les fulles es dobleguen cap a la dreta, en direccions oposades. La pantalla ha de protegir del corrent que indiquen les dues pistes.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "rejected"
+}

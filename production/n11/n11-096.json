@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-096",
+    "number": 96,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-196",
+    "title": {
+      "ca": "El camí fins al mirador · foto"
+    },
+    "labels": [
+      "HOME",
+      "DONA",
+      "CAMINAR",
+      "ESPERAR",
+      "AJUDAR",
+      "MOTXILLA",
+      "MUNTANYA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-72e9fe9a8b43",
+      "w-6ec00ca36441",
+      "w-afee7983cd9e",
+      "w-5b2ff1d40d54",
+      "w-43db0ea26088",
+      "w-97b4e23f647c"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que espera al replà",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que porta la motxilla",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-096",
+    "familyTitle": "El camí fins al mirador",
+    "settings": [
+      {
+        "label": "MUNTANYA",
+        "wordId": "w-97b4e23f647c"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CAMINAR",
+        "wordId": "w-6ec00ca36441"
+      },
+      {
+        "label": "ESPERAR",
+        "wordId": "w-afee7983cd9e"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A espera al replà amb mans obertes. B agafa la corretja de la motxilla, que frega el maluc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la base de la motxilla mentre B escurça la corretja pel passador i en recull la punta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B camina amb la motxilla centrada i la corretja recollida. A reprèn el pas al seu costat."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Els dos arriben a la barana. B té la mateixa motxilla a l’esquena i assenyala amb A el paisatge des del mateix costat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una motxilla amb sivella ampla i una marca triangular, un camí pla amb replà i una barana de mirador al fons."
+    },
+    "narrative": "A espera i aguanta la base de la motxilla perquè B ajusti la corretja i puguin arribar junts al mirador."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3d306aa8510a3ffd4fd837b40da506f47bb26c3572640be7c3e4c18800da4d0e",
+      "file": "output/production/n11/n11-096/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl camí fins al mirador. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que espera al replà; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que porta la motxilla.\nRecurring visual anchors: Una motxilla amb sivella ampla i una marca triangular, un camí pla amb replà i una barana de mirador al fons.\n1. A espera al replà amb mans obertes. B agafa la corretja de la motxilla, que frega el maluc.\n2. A sosté la base de la motxilla mentre B escurça la corretja pel passador i en recull la punta.\n3. B camina amb la motxilla centrada i la corretja recollida. A reprèn el pas al seu costat.\n4. Els dos arriben a la barana. B té la mateixa motxilla a l’esquena i assenyala amb A el paisatge des del mateix costat.",
+      "review": "L’home aguanta la motxilla mentre la noia recull la corretja. Triangle i sivella es mantenen i arriben plegats a la barana.",
+      "reviewedAt": "2026-11-21T21:26:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl camí fins al mirador. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que espera al replà; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que porta la motxilla.\nRecurring visual anchors: Una motxilla amb sivella ampla i una marca triangular, un camí pla amb replà i una barana de mirador al fons.\n1. A espera al replà amb mans obertes. B agafa la corretja de la motxilla, que frega el maluc.\n2. A sosté la base de la motxilla mentre B escurça la corretja pel passador i en recull la punta.\n3. B camina amb la motxilla centrada i la corretja recollida. A reprèn el pas al seu costat.\n4. Els dos arriben a la barana. B té la mateixa motxilla a l’esquena i assenyala amb A el paisatge des del mateix costat.",
+  "review": "L’home aguanta la motxilla mentre la noia recull la corretja. Triangle i sivella es mantenen i arriben plegats a la barana.",
+  "alt": {
+    "ca": "Un home sosté la motxilla perquè una noia pugui ajustar la corretja. Després continuen junts fins al mirador.",
+    "es": "Un hombre sostiene la mochila para que una chica pueda ajustar la correa. Después siguen juntos hasta el mirador."
+  },
+  "originalSha256": "3d306aa8510a3ffd4fd837b40da506f47bb26c3572640be7c3e4c18800da4d0e",
+  "file": "output/production/n11/n11-096/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:26:54+00:00",
+  "tool": "ImageGen integrat"
+}

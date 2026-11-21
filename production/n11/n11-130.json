@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-130",
+    "number": 130,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-030",
+    "title": {
+      "ca": "El punt que surt a la foto · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "GOS",
+      "JUGAR",
+      "AJUDAR",
+      "MIRAR",
+      "CÀMERA",
+      "BÒCCIA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-4761fde107a7",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-e67dd0fa47ce",
+      "w-b9b63d370891",
+      "w-468cb6717208",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que acosta les boles",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que fixa el resultat amb la càmera",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-030",
+    "familyTitle": "El punt que surt a la foto",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "CÀMERA",
+        "wordId": "w-b9b63d370891"
+      },
+      {
+        "label": "BÒCCIA",
+        "wordId": "w-468cb6717208"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acaba de deixar anar la bola de l’anell. B mira la blanca i les dues boles a terra."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B s’ajup amb la càmera i enquadra les tres boles. A indica el buit més curt sense moure-les."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mostra la pantalla amb la mateixa disposició. A acosta la mà oberta al seu costat sense tapar-la."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos comparen la captura amb les tres boles a terra, on la de l’anell continua més a prop de la blanca."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bola blanca i dues boles toves, una amb anell enfosquit; càmera amb pantalla sense símbols."
+    },
+    "narrative": "A deixa la bola prop de la blanca i B en fa una foto que permet comparar les distàncies amb les originals."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7cb7840e084fc8c7717e1988f317a692695f10029f68113fe891463453acc242",
+      "file": "output/production/n11/n11-130/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl punt que surt a la foto. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que acosta les boles; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el resultat amb la càmera.\nRecurring visual anchors: Una bola blanca i dues boles toves, una amb anell enfosquit; càmera amb pantalla sense símbols.\n1. A acaba de deixar anar la bola de l’anell. B mira la blanca i les dues boles a terra.\n2. B s’ajup amb la càmera i enquadra les tres boles. A indica el buit més curt sense moure-les.\n3. B mostra la pantalla amb la mateixa disposició. A acosta la mà oberta al seu costat sense tapar-la.\n4. Tots dos comparen la captura amb les tres boles a terra, on la de l’anell continua més a prop de la blanca.",
+      "review": "Tres boles. Es conserva quin espai és el més curt. El tigre les indica i el gos en fa una foto amb la disposició correcta visible.",
+      "reviewedAt": "2026-11-21T21:27:32+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl punt que surt a la foto. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que acosta les boles; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el resultat amb la càmera.\nRecurring visual anchors: Una bola blanca i dues boles toves, una amb anell enfosquit; càmera amb pantalla sense símbols.\n1. A acaba de deixar anar la bola de l’anell. B mira la blanca i les dues boles a terra.\n2. B s’ajup amb la càmera i enquadra les tres boles. A indica el buit més curt sense moure-les.\n3. B mostra la pantalla amb la mateixa disposició. A acosta la mà oberta al seu costat sense tapar-la.\n4. Tots dos comparen la captura amb les tres boles a terra, on la de l’anell continua més a prop de la blanca.",
+  "review": "Tres boles. Es conserva quin espai és el més curt. El tigre les indica i el gos en fa una foto amb la disposició correcta visible.",
+  "alt": {
+    "ca": "Un tigre assenyala les boles de bòccia i un gos les fotografia. Comparen quina és més a prop de la blanca.",
+    "es": "Un tigre señala las bolas de boccia y un perro las fotografía. Comparan cuál está más cerca de la blanca."
+  },
+  "originalSha256": "7cb7840e084fc8c7717e1988f317a692695f10029f68113fe891463453acc242",
+  "file": "output/production/n11/n11-130/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:27:32+00:00",
+  "tool": "ImageGen integrat"
+}

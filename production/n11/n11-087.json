@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-087",
+    "number": 87,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-187",
+    "title": {
+      "ca": "La foto de l’ocell del pont · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "MIRAR",
+      "ENSENYAR",
+      "CÀMERA",
+      "OCELL",
+      "RIU",
+      "PONT"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-e67dd0fa47ce",
+      "w-1eb1099a21ce",
+      "w-b9b63d370891",
+      "w-52fa5badbff5",
+      "w-200bf73b4683",
+      "w-887bf8a73186"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que localitza l’ocell",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que fa una foto des de lluny",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-087",
+    "familyTitle": "La foto de l’ocell del pont",
+    "settings": [
+      {
+        "label": "RIU",
+        "wordId": "w-200bf73b4683"
+      },
+      {
+        "label": "PONT",
+        "wordId": "w-887bf8a73186"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "CÀMERA",
+        "wordId": "w-b9b63d370891"
+      },
+      {
+        "label": "OCELL",
+        "wordId": "w-52fa5badbff5"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A veu l’ocell des del sender de la riba. B és al començament del pont amb la càmera baixa."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A indica el pal des de darrere de la barana i B apunta la càmera sense avançar més enllà del passamà."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira la pantalla amb l’ocell i el pal visibles. A s’hi acosta mantenint els peus al pont."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos comparen la franja alar de la pantalla amb l’ocell encara al mateix pal, separat pel riu."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un ocell amb franja alar fosca sobre un pal a la riba oposada, una càmera i un pont amb barana sòlida."
+    },
+    "narrative": "A localitza l’ocell per a B i B en fa una foto que permet veure plegats la mateixa franja alar."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "706ce9f846b5da6722e876c1dff2e903317dc99f7f5cc0d1b861ce3570e94dbf",
+      "file": "output/production/n11/n11-087/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto de l’ocell del pont. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que localitza l’ocell; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que fa una foto des de lluny.\nRecurring visual anchors: Un ocell amb franja alar fosca sobre un pal a la riba oposada, una càmera i un pont amb barana sòlida.\n1. A veu l’ocell des del sender de la riba. B és al començament del pont amb la càmera baixa.\n2. A indica el pal des de darrere de la barana i B apunta la càmera sense avançar més enllà del passamà.\n3. B gira la pantalla amb l’ocell i el pal visibles. A s’hi acosta mantenint els peus al pont.\n4. Tots dos comparen la franja alar de la pantalla amb l’ocell encara al mateix pal, separat pel riu.",
+      "review": "L’ocell de franja fosca es veu sobre el mateix pal i a la pantalla. La dona el localitza i l’home el fotografia des de la barana.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto de l’ocell del pont. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que localitza l’ocell; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que fa una foto des de lluny.\nRecurring visual anchors: Un ocell amb franja alar fosca sobre un pal a la riba oposada, una càmera i un pont amb barana sòlida.\n1. A veu l’ocell des del sender de la riba. B és al començament del pont amb la càmera baixa.\n2. A indica el pal des de darrere de la barana i B apunta la càmera sense avançar més enllà del passamà.\n3. B gira la pantalla amb l’ocell i el pal visibles. A s’hi acosta mantenint els peus al pont.\n4. Tots dos comparen la franja alar de la pantalla amb l’ocell encara al mateix pal, separat pel riu.",
+  "review": "L’ocell de franja fosca es veu sobre el mateix pal i a la pantalla. La dona el localitza i l’home el fotografia des de la barana.",
+  "alt": {
+    "ca": "Una dona assenyala un ocell al riu. Un home en fa una foto des del pont i tots dos comparen l’ocell amb la imatge.",
+    "es": "Una mujer señala un pájaro en el río. Un hombre lo fotografía desde el puente y los dos lo comparan con la imagen."
+  },
+  "originalSha256": "706ce9f846b5da6722e876c1dff2e903317dc99f7f5cc0d1b861ce3570e94dbf",
+  "file": "output/production/n11/n11-087/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:11+00:00",
+  "tool": "ImageGen integrat"
+}

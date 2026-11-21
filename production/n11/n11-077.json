@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-077",
+    "number": 77,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-177",
+    "title": {
+      "ca": "La clau del calaix de devolucions · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NENA",
+      "DONAR",
+      "OBRIR",
+      "GUARDAR",
+      "CLAU",
+      "LLIBRE",
+      "BIBLIOTECA"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-cda6fa4a9867",
+      "w-dd80e4e4de38",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-49f4bdd9a93a",
+      "w-3bb995df42bf",
+      "w-25350f813f0d"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que porta el llibre",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que obre el calaix",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-077",
+    "familyTitle": "La clau del calaix de devolucions",
+    "settings": [
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CLAU",
+        "wordId": "w-49f4bdd9a93a"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira la clau al pany amb A sostenint el llibre de cantell."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins."
+    },
+    "narrative": "A porta el llibre i presta la clau a B, que obre el calaix i li torna la clau un cop desat el llibre."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "aeea3137fc2ecfff2bfc5933fd387c9b6e0348476b4878b864a675fe5bd7ca7b",
+      "file": "output/production/n11/n11-077/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa clau del calaix de devolucions. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que porta el llibre; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que obre el calaix.\nRecurring visual anchors: Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins.\n1. A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat.\n2. B gira la clau al pany amb A sostenint el llibre de cantell.\n3. B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles.\n4. El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A.",
+      "review": "Una sola clau obre el calaix i torna a la noia. Es veuen dos llibres al principi de l’obertura i tres després d’afegir el de ratlles.",
+      "reviewedAt": "2026-11-21T21:22:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa clau del calaix de devolucions. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant que porta el llibre; B = NENA, samarreta ocre amb dues ratlles blanques al davant, participant que obre el calaix.\nRecurring visual anchors: Una clau amb cap oval i un llibre amb ratlles, un calaix amb pany i dos llibres ja a dins.\n1. A sosté el llibre de ratlles i ofereix a B la clau pel cap oval. El calaix és tancat.\n2. B gira la clau al pany amb A sostenint el llibre de cantell.\n3. B estira el calaix i A hi posa el llibre de ratlles al costat dels dos llibres visibles.\n4. El calaix queda entreobert mostrant els tres llibres. B treu la clau i la retorna a la mà lliure d’A.",
+  "review": "Una sola clau obre el calaix i torna a la noia. Es veuen dos llibres al principi de l’obertura i tres després d’afegir el de ratlles.",
+  "alt": {
+    "ca": "Una noia deixa una clau a una nena. La nena obre el calaix, la noia hi posa el llibre i la nena li torna la clau.",
+    "es": "Una chica presta una llave a una niña. La niña abre el cajón, la chica coloca el libro y la niña le devuelve la llave."
+  },
+  "originalSha256": "aeea3137fc2ecfff2bfc5933fd387c9b6e0348476b4878b864a675fe5bd7ca7b",
+  "file": "output/production/n11/n11-077/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:22:11+00:00",
+  "tool": "ImageGen integrat"
+}

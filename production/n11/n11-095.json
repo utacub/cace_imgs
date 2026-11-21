@@ -1,0 +1,129 @@
+{
+  "construction": {
+    "id": "n11-095",
+    "number": 95,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-195",
+    "title": {
+      "ca": "La barraca amb el sostre dret · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "AJUDAR",
+      "PORTAR",
+      "POSAR",
+      "PAL",
+      "CÀMPING"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-5b2ff1d40d54",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-c8538c4482a2",
+      "w-83beeb602e46"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que sosté el tendal plegat",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que recupera el suport",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-095",
+    "familyTitle": "La barraca amb el sostre dret",
+    "settings": [
+      {
+        "label": "CÀMPING",
+        "wordId": "w-83beeb602e46"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PAL",
+        "wordId": "w-c8538c4482a2"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté amb les mans la vora del tendal a poca altura. B veu el suport solt al costat de la segona base."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B alça el suport vertical amb les dues mans i el posa al centre de la base buida."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B guia el cap del suport a la butxaca de la tela mentre A l’aguanta tibant pel cantell."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El tendal queda sobre els dos suports dins de les bases. A i B hi posen una safata a sota i retiren les mans de la tela."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un tendal lleuger amb vora fosca i dos suports de punta roma sobre bases amples, un d’ells encara a terra."
+    },
+    "narrative": "A manté tibant el tendal mentre B recupera i encaixa el suport absent, i tots dos l’aprofiten."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "c21fb87f6e71deb4dcf16bec966d6c0b25f2bf6d3f6347b475692a0cfa36faa0",
+      "file": "output/production/n11/n11-095/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa barraca amb el sostre dret. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que sosté el tendal plegat; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que recupera el suport.\nRecurring visual anchors: Un tendal lleuger amb vora fosca i dos suports de punta roma sobre bases amples, un d’ells encara a terra.\n1. A sosté amb les mans la vora del tendal a poca altura. B veu el suport solt al costat de la segona base.\n2. B alça el suport vertical amb les dues mans i el posa al centre de la base buida.\n3. B guia el cap del suport a la butxaca de la tela mentre A l’aguanta tibant pel cantell.\n4. El tendal queda sobre els dos suports dins de les bases. A i B hi posen una safata a sota i retiren les mans de la tela.",
+      "review": "Els dos pals passen d’arribar a la cintura a quedar per sobre del cap sense mostrar cap ajust. Amb un sol canvi de suport no es pot explicar l’alçada final.",
+      "reviewedAt": "2026-11-21T21:26:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

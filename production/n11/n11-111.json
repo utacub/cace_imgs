@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-111",
+    "number": 111,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-011",
+    "title": {
+      "ca": "La foto al marc baix · dibuix"
+    },
+    "labels": [
+      "CONILL",
+      "GOS",
+      "PORTAR",
+      "POSAR",
+      "FOTO",
+      "CAIXA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-51a7805e979b",
+      "w-4761fde107a7",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-f1db5ec173b6",
+      "w-696b7c739d30",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-51a7805e979b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "CONILL",
+        "wordId": "w-51a7805e979b",
+        "role": "participant que recupera la foto",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "participant que prepara el marc",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-011",
+    "familyTitle": "La foto al marc baix",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A treu la foto pels cantells i la du fins al marc que B sosté dret."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable."
+    },
+    "narrative": "A recupera la foto i B prepara el marc perquè la imatge de la torre quedi exposada i dreta."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9d2614d85926c862876bb8826006c29e190b542cb78408eee93ca599e1621f66",
+      "file": "output/production/n11/n11-111/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto al marc baix. Actors and fixed identity: A = CONILL, armilla blau fosc amb un triangle clar al davant, participant que recupera la foto; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el marc.\nRecurring visual anchors: Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable.\n1. A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula.\n2. A treu la foto pels cantells i la du fins al marc que B sosté dret.\n3. B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall.\n4. Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota.",
+      "review": "Una foto de tres blocs i un marc amb peu fixe. El gos el sosté i el conill hi posa la foto. Al final es pot veure la mateixa torre.",
+      "reviewedAt": "2026-11-21T21:25:52+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto al marc baix. Actors and fixed identity: A = CONILL, armilla blau fosc amb un triangle clar al davant, participant que recupera la foto; B = GOS, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el marc.\nRecurring visual anchors: Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable.\n1. A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula.\n2. A treu la foto pels cantells i la du fins al marc que B sosté dret.\n3. B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall.\n4. Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota.",
+  "review": "Una foto de tres blocs i un marc amb peu fixe. El gos el sosté i el conill hi posa la foto. Al final es pot veure la mateixa torre.",
+  "alt": {
+    "ca": "Un conill treu de la capsa la foto d’una torre. Un gos prepara el marc i entre tots dos hi posen la foto.",
+    "es": "Un conejo saca de la caja la foto de una torre. Un perro prepara el marco y entre los dos colocan la foto."
+  },
+  "originalSha256": "9d2614d85926c862876bb8826006c29e190b542cb78408eee93ca599e1621f66",
+  "file": "output/production/n11/n11-111/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:52+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-086",
+    "number": 86,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-186",
+    "title": {
+      "ca": "Una flor després del camí · foto"
+    },
+    "labels": [
+      "NOI",
+      "NOIA",
+      "PORTAR",
+      "DONAR",
+      "PLANTAR",
+      "FLOR",
+      "PARC",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-b38ff488f862",
+      "w-73b71e1ff757",
+      "w-dd80e4e4de38",
+      "w-6af4a2a10994",
+      "w-6c5def9143c8",
+      "w-fb96ae342785",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que du el plançó",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que obre i cobreix el forat",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-086",
+    "familyTitle": "Una flor després del camí",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      },
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PLANTAR",
+        "wordId": "w-6af4a2a10994"
+      },
+      {
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça la safata amb la flor des del banc d’accés al parc. B mostra el forat obert al parterre contigu."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A porta la safata fins al cantell i sosté la flor per sota del pa de terra."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B rep el pa de terra i l’assenta al forat. A deixa la safata buida al costat de la pedra plana."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B acaba de cobrir l’arrel i A assenyala els mateixos dos capolls drets al parterre."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una flor amb dos capolls i pa de terra compacte, una safata i un parterre baix amb una pedra plana al cantell."
+    },
+    "narrative": "A du la flor fins al forat preparat per B, que la planta amb el pa de terra intacte."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "a797e1a98ccc6235a32802e178e4c4cfa68b66cc60fe6003f675e3b71cd8766c",
+      "file": "output/production/n11/n11-086/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna flor després del camí. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que du el plançó; B = NOIA, samarreta ocre amb dues ratlles blanques al davant, participant que obre i cobreix el forat.\nRecurring visual anchors: Una flor amb dos capolls i pa de terra compacte, una safata i un parterre baix amb una pedra plana al cantell.\n1. A alça la safata amb la flor des del banc d’accés al parc. B mostra el forat obert al parterre contigu.\n2. A porta la safata fins al cantell i sosté la flor per sota del pa de terra.\n3. B rep el pa de terra i l’assenta al forat. A deixa la safata buida al costat de la pedra plana.\n4. B acaba de cobrir l’arrel i A assenyala els mateixos dos capolls drets al parterre.",
+      "review": "Dos capolls i pa de terra sencer. El noi porta la flor i la noia la posa dins el forat, amb safata buida i pedra fixa al final.",
+      "reviewedAt": "2026-11-21T21:25:11+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUna flor després del camí. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que du el plançó; B = NOIA, samarreta ocre amb dues ratlles blanques al davant, participant que obre i cobreix el forat.\nRecurring visual anchors: Una flor amb dos capolls i pa de terra compacte, una safata i un parterre baix amb una pedra plana al cantell.\n1. A alça la safata amb la flor des del banc d’accés al parc. B mostra el forat obert al parterre contigu.\n2. A porta la safata fins al cantell i sosté la flor per sota del pa de terra.\n3. B rep el pa de terra i l’assenta al forat. A deixa la safata buida al costat de la pedra plana.\n4. B acaba de cobrir l’arrel i A assenyala els mateixos dos capolls drets al parterre.",
+  "review": "Dos capolls i pa de terra sencer. El noi porta la flor i la noia la posa dins el forat, amb safata buida i pedra fixa al final.",
+  "alt": {
+    "ca": "Un noi porta una planta amb dos capolls. Una noia la planta al forat que ha preparat i el noi assenyala els capolls.",
+    "es": "Un chico lleva una planta con dos capullos. Una chica la planta en el agujero que ha preparado y el chico señala los capullos."
+  },
+  "originalSha256": "a797e1a98ccc6235a32802e178e4c4cfa68b66cc60fe6003f675e3b71cd8766c",
+  "file": "output/production/n11/n11-086/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:25:11+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-091",
+    "number": 91,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-191",
+    "title": {
+      "ca": "L’aigua passa als dos testos · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "PORTAR",
+      "AJUDAR",
+      "REGAR",
+      "GALLEDA",
+      "PLANTA",
+      "HORT"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-00107994a0cd",
+      "w-7f04619a8649",
+      "w-03d524b232d7",
+      "w-7338bad6a84a"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que du l’aigua",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que reparteix l’aigua",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "natura",
+    "familyId": "n11-f-091",
+    "familyTitle": "L’aigua passa als dos testos",
+    "settings": [
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "REGAR",
+        "wordId": "w-00107994a0cd"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A du la galleda amb aigua fins a la marca. B indica els dos testos amb terra clara i seca."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A deixa la galleda en una base plana i B omple una gerreta petita, amb l’aigua restant a la vista."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B rega el test de fulla llarga. A acosta el de fulla rodona al seu costat i B hi dirigeix el raig següent."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Els dos testos tenen terra fosca. B retorna la gerreta buida a A amb aigua sota la marca de la galleda."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una galleda translúcida amb una marca de relleu i dos testos amb fulles de formes diferents."
+    },
+    "narrative": "A porta l’aigua i acosta el segon test a B, que rega els dos testos amb la mateixa gerreta."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "3cc257e81ab30ea366b5ab8c772ddb56ca4c0050436dbf19403000c97ef5e6d2",
+      "file": "output/production/n11/n11-091/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’aigua passa als dos testos. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que du l’aigua; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que reparteix l’aigua.\nRecurring visual anchors: Una galleda translúcida amb una marca de relleu i dos testos amb fulles de formes diferents.\n1. A du la galleda amb aigua fins a la marca. B indica els dos testos amb terra clara i seca.\n2. A deixa la galleda en una base plana i B omple una gerreta petita, amb l’aigua restant a la vista.\n3. B rega el test de fulla llarga. A acosta el de fulla rodona al seu costat i B hi dirigeix el raig següent.\n4. Els dos testos tenen terra fosca. B retorna la gerreta buida a A amb aigua sota la marca de la galleda.",
+      "review": "La galleda desapareix al tercer quadre i la nena i la dona canvien de costat sense transició. Cal seguir el recipient i les dues funcions en un punt de vista estable.",
+      "reviewedAt": "2026-11-21T21:26:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}
