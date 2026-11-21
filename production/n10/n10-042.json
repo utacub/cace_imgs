@@ -1,0 +1,123 @@
+{
+  "construction": {
+    "id": "n10-042",
+    "number": 42,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "transferencia",
+    "familyId": "n10-f-042",
+    "counterpartId": "n10-142",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "home · estirar · tovallola / aigua / samarreta → mullat"
+    },
+    "labels": [
+      "HOME",
+      "ESTIRAR",
+      "TOVALLOLA",
+      "AIGUA",
+      "SAMARRETA",
+      "MULLAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-99499cd7f270",
+      "w-045fa0b1ae9d",
+      "w-00e8b2c10536",
+      "w-0702f52b3b74",
+      "w-8d5a009dde27",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "agent": {
+      "label": "HOME",
+      "wordId": "w-cfe24f6b3c38"
+    },
+    "trigger": {
+      "label": "ESTIRAR",
+      "wordId": "w-99499cd7f270"
+    },
+    "referents": [
+      {
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "SAMARRETA",
+        "wordId": "w-0702f52b3b74"
+      }
+    ],
+    "outcome": {
+      "label": "MULLAT",
+      "wordId": "w-8d5a009dde27"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una tovallola xopa està estesa prop d’una samarreta seca sobre una safata."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Arrossega la tovallola sobre una màniga. El plec humit es prem contra la tela just on apareix la taca."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La màniga mostra una taca amb la forma de la zona de contacte. La resta és seca."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una tovallola amb banda i una samarreta amb vora de coll. La humitat passa d’una tela a l’altra."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f7e3369148156148578359090c6e3ffcc5882876eda75a0fe964ca82a94b27c3",
+      "file": "output/production/n10/n10-042/image.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural adult man in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Una tovallola xopa està estesa prop d’una samarreta seca sobre una safata. CENTER explicit physical cause: Arrossega la tovallola sobre una màniga. El plec humit es prem contra la tela just on apareix la taca. RIGHT consequence: La màniga mostra una taca amb la forma de la zona de contacte. La resta és seca. Continuity and object accounting: Una tovallola amb banda i una samarreta amb vora de coll. La humitat passa d’una tela a l’altra.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "Samarreta seca al principi, pressió de la tovallola humida sobre una sola màniga i taca final al punt exacte de contacte. Es mantenen les dues peces i la mateixa safata.",
+      "reviewedAt": "2026-11-21T15:49:32+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural adult man in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Una tovallola xopa està estesa prop d’una samarreta seca sobre una safata. CENTER explicit physical cause: Arrossega la tovallola sobre una màniga. El plec humit es prem contra la tela just on apareix la taca. RIGHT consequence: La màniga mostra una taca amb la forma de la zona de contacte. La resta és seca. Continuity and object accounting: Una tovallola amb banda i una samarreta amb vora de coll. La humitat passa d’una tela a l’altra.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+  "review": "Samarreta seca al principi, pressió de la tovallola humida sobre una sola màniga i taca final al punt exacte de contacte. Es mantenen les dues peces i la mateixa safata.",
+  "alt": {
+    "ca": "Un home prem una tovallola mullada contra una màniga. L’aigua mulla la part de la samarreta que ha tocat la tovallola.",
+    "es": "Un hombre presiona una toalla mojada contra una manga. El agua moja la parte de la camiseta que ha tocado la toalla."
+  },
+  "originalSha256": "f7e3369148156148578359090c6e3ffcc5882876eda75a0fe964ca82a94b27c3",
+  "file": "output/production/n10/n10-042/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:49:32+00:00",
+  "tool": "ImageGen integrat"
+}

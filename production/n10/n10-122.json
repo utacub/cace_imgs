@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-122",
+    "number": 122,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-022",
+    "counterpartId": "n10-022",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · aixecar · galleda / pilota → caure"
+    },
+    "labels": [
+      "GAT",
+      "AIXECAR",
+      "GALLEDA",
+      "PILOTA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-e12d88415c80",
+      "w-7f04619a8649",
+      "w-b7f578451973",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "AIXECAR",
+      "wordId": "w-e12d88415c80"
+    },
+    "referents": [
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una galleda cap per avall sosté una pilota d’escuma encaixada al cul sobre una vora baixa."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Inclina i aixeca la galleda per la nansa. La pilota surt de la concavitat pel costat baix."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La pilota és a l’estora. La galleda és buida i encara és a la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una galleda amb nansa recta i una pilota amb dues bandes."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "cfa28c419628741fc73ee1fd2581da4e51b7e7c587bfd614810e7a215d536a38",
+      "file": "output/production/n10/n10-122/rejected-01.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Flat 2D educational picture book art of one friendly recognizable anthropomorphic cat, solid colors, clean outlines, correct functional anatomy and no additional human arms. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Una galleda cap per avall sosté una pilota d’escuma encaixada al cul sobre una vora baixa. CENTER explicit physical cause: Inclina i aixeca la galleda per la nansa. La pilota surt de la concavitat pel costat baix. RIGHT consequence: La pilota és a l’estora. La galleda és buida i encara és a la mà. Continuity and object accounting: Una galleda amb nansa recta i una pilota amb dues bandes.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "La galleda tapa la pilota al començament i la pilota apareix de sota seu. L’acció la descobreix, en lloc de fer-la perdre el suport superior de la galleda.",
+      "reviewedAt": "2026-11-21T15:49:34+00:00"
+    }
+  ],
+  "status": "rejected"
+}

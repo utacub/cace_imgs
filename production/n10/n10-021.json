@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-021",
+    "number": 21,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "suport-barrera",
+    "familyId": "n10-f-021",
+    "counterpartId": "n10-121",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · agafar · paper / llibre → caure"
+    },
+    "labels": [
+      "NOIA",
+      "AGAFAR",
+      "PAPER",
+      "LLIBRE",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-677819a0a32a",
+      "w-cd5c60f0d076",
+      "w-3bb995df42bf",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "trigger": {
+      "label": "AGAFAR",
+      "wordId": "w-677819a0a32a"
+    },
+    "referents": [
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un llibre reposa sobre un plec de cartró a manera de falca i té un cantell aixecat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Retira la falca. El cantell aixecat del llibre baixa mentre el contrari segueix en contacte amb la taula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El llibre reposa pla i la falca sencera és a la mà."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un llibre de franja diagonal i una sola tira de cartró plegada."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "0f2867867e5383eb4005fae397bf95e75054acb1d6ea6a08426fdba7a1179380",
+      "file": "output/production/n10/n10-021/image.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural young adult woman in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un llibre reposa sobre un plec de cartró a manera de falca i té un cantell aixecat. CENTER explicit physical cause: Retira la falca. El cantell aixecat del llibre baixa mentre el contrari segueix en contacte amb la taula. RIGHT consequence: El llibre reposa pla i la falca sencera és a la mà. Continuity and object accounting: Un llibre de franja diagonal i una sola tira de cartró plegada.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "La falca sosté un extrem del llibre; la mà retira exactament la mateixa falca i l’extrem baixa. La franja i el cantell de la taula es mantenen.",
+      "reviewedAt": "2026-11-21T15:49:31+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural young adult woman in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un llibre reposa sobre un plec de cartró a manera de falca i té un cantell aixecat. CENTER explicit physical cause: Retira la falca. El cantell aixecat del llibre baixa mentre el contrari segueix en contacte amb la taula. RIGHT consequence: El llibre reposa pla i la falca sencera és a la mà. Continuity and object accounting: Un llibre de franja diagonal i una sola tira de cartró plegada.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+  "review": "La falca sosté un extrem del llibre; la mà retira exactament la mateixa falca i l’extrem baixa. La franja i el cantell de la taula es mantenen.",
+  "alt": {
+    "ca": "Una noia treu la falca de cartró que sosté un cantell del llibre. El llibre baixa i queda pla.",
+    "es": "Una chica retira la cuña de cartón que sostiene un borde del libro. El libro baja y queda plano."
+  },
+  "originalSha256": "0f2867867e5383eb4005fae397bf95e75054acb1d6ea6a08426fdba7a1179380",
+  "file": "output/production/n10/n10-021/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:49:31+00:00",
+  "tool": "ImageGen integrat"
+}

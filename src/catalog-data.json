@@ -1,5 +1,5 @@
 {
-  "version": "0.1.161",
+  "version": "0.1.162",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,740 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n10-002",
+      "src": "assets/constructions/n10/n10-002.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "nen · tocar · cotxe / galleda → caure",
+        "es": "NIÑO · TOCAR · COCHE · CUBO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un nen guia un cotxe de joguina. El para-xocs toca la galleda i la tomba.",
+        "es": "Un niño guía un coche de juguete. El parachoques toca el cubo y lo vuelca."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-072ecc01e120",
+        "w-1088e4bd6972",
+        "w-7f04619a8649",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-072ecc01e120",
+        "w-1088e4bd6972",
+        "w-7f04619a8649",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:31+00:00",
+      "target": "n10-002",
+      "constructionId": "n10-002",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un cotxe de joguina encara és separat de la galleda petita dreta."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La galleda buida queda de costat, al punt de contacte amb el cotxe."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un cotxe amb sostre clar i una galleda amb nansa groga."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "038805065f81e6b2771408d44949f5e7713001032a94391bb6f8b127785c8d22",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3623f0101d8592e88a07bdea8039e776968a6034ca000cb882272e5be0411953"
+    },
+    {
+      "id": "cace-n10-021",
+      "src": "assets/constructions/n10/n10-021.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · agafar · paper / llibre → caure",
+        "es": "CHICA · COGER · PAPEL · LIBRO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia treu la falca de cartró que sosté un cantell del llibre. El llibre baixa i queda pla.",
+        "es": "Una chica retira la cuña de cartón que sostiene un borde del libro. El libro baja y queda plano."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-677819a0a32a",
+        "w-cd5c60f0d076",
+        "w-3bb995df42bf",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-677819a0a32a",
+        "w-cd5c60f0d076",
+        "w-3bb995df42bf",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:31+00:00",
+      "target": "n10-021",
+      "constructionId": "n10-021",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un llibre reposa sobre un plec de cartró a manera de falca i té un cantell aixecat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Retira la falca. El cantell aixecat del llibre baixa mentre el contrari segueix en contacte amb la taula."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El llibre reposa pla i la falca sencera és a la mà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un llibre de franja diagonal i una sola tira de cartró plegada."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "0f2867867e5383eb4005fae397bf95e75054acb1d6ea6a08426fdba7a1179380",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9043a076cc0049686c5f7292f411066144cca3b3663031e5a71d4a6b0d2bdf75"
+    },
+    {
+      "id": "cace-n10-042",
+      "src": "assets/constructions/n10/n10-042.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "home · estirar · tovallola / aigua / samarreta → mullat",
+        "es": "HOMBRE · ESTIRAR · TOALLA · AGUA · CAMISETA · MOJADO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un home prem una tovallola mullada contra una màniga. L’aigua mulla la part de la samarreta que ha tocat la tovallola.",
+        "es": "Un hombre presiona una toalla mojada contra una manga. El agua moja la parte de la camiseta que ha tocado la toalla."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-99499cd7f270",
+        "w-045fa0b1ae9d",
+        "w-00e8b2c10536",
+        "w-0702f52b3b74",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-99499cd7f270",
+        "w-045fa0b1ae9d",
+        "w-00e8b2c10536",
+        "w-0702f52b3b74",
+        "w-8d5a009dde27",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:32+00:00",
+      "target": "n10-042",
+      "constructionId": "n10-042",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una tovallola xopa està estesa prop d’una samarreta seca sobre una safata."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Arrossega la tovallola sobre una màniga. El plec humit es prem contra la tela just on apareix la taca."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La màniga mostra una taca amb la forma de la zona de contacte. La resta és seca."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una tovallola amb banda i una samarreta amb vora de coll. La humitat passa d’una tela a l’altra."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "f7e3369148156148578359090c6e3ffcc5882876eda75a0fe964ca82a94b27c3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "346e664cd697fa1abc888e672b78c508e16d6fcf0355690de825099522b31239"
+    },
+    {
+      "id": "cace-n10-064",
+      "src": "assets/constructions/n10/n10-064.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noi · posar · esponja / got → petita",
+        "es": "CHICO · PONER · ESPONJA · VASO · PEQUEÑO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un noi comprimeix una esponja amb les mans perquè passi per la boca del got. L’esponja queda encaixada a dins.",
+        "es": "Un chico comprime una esponja con las manos para que pase por la boca del vaso. La esponja queda encajada dentro."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-2d404e0d8979",
+        "w-1bed9f18ebab",
+        "w-12c5f9c8621a",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-2d404e0d8979",
+        "w-1bed9f18ebab",
+        "w-12c5f9c8621a",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:33+00:00",
+      "target": "n10-064",
+      "constructionId": "n10-064",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una esponja seca és clarament més ampla que la boca d’un got transparent."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Comprimeix l’esponja amb els dits mentre entra per la boca, amb les parets del got visibles."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Al got, l’esponja està comprimida entre les parets i conserva una alçada similar a la de partida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una esponja amb una vora tallada i un got estable. Cap canvi de volum del got."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "1364178090768daed1d75e39b303cb892b12111df1f02a7e0a8da0974f943eab",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9be58a93da96617808f7b6f8d6b4f4b41da5b5911c336b1bf753a72a4951e520"
+    },
+    {
+      "id": "cace-n10-081",
+      "src": "assets/constructions/n10/n10-081.webp",
+      "kind": "photo",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "noia · tocar · commutador / làmpada → encès",
+        "es": "CHICA · TOCAR · CONMUTADOR · LÁMPARA · ENCENDIDO · PORQUE"
+      },
+      "alt": {
+        "ca": "Una noia prem el commutador del peu de la làmpada. El commutador bascula i el llum queda encès.",
+        "es": "Una chica pulsa el interruptor de la base de la lámpara. El interruptor bascula y la luz queda encendida."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-072ecc01e120",
+        "w-16311bdde998",
+        "w-50c9f146baff",
+        "w-f53919322490",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-072ecc01e120",
+        "w-16311bdde998",
+        "w-50c9f146baff",
+        "w-f53919322490",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:33+00:00",
+      "target": "n10-081",
+      "constructionId": "n10-081",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una làmpada de taula està apagada i el dit encara és separat del commutador mecànic visible al peu."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem el commutador amb el dit fins que bascula. S’encén la font dins la pantalla i es comença a veure el cercle de llum."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dit s’aparta. El commutador resta en la nova posició i la llum incideix sobre la mateixa taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una làmpada de peu rodó, un commutador integrat i una pantalla. Mateixa llum ambiental."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "b107d424a08b9ede9fea2b335756194316ab0d0cb9b7c9ddd85fc6ee01d49222",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5cac67f312b0301748d720321746eac8b40a5f16df4d8c8a023ad4509558821d"
+    },
+    {
+      "id": "cace-n10-102",
+      "src": "assets/constructions/n10/n10-102.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "gat · tocar · cotxe / galleda → caure",
+        "es": "GATO · TOCAR · COCHE · CUBO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un gat empeny un cotxe de joguina que topa amb la galleda i la tomba.",
+        "es": "Un gato empuja un coche de juguete que choca con el cubo y lo vuelca."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-072ecc01e120",
+        "w-1088e4bd6972",
+        "w-7f04619a8649",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-072ecc01e120",
+        "w-1088e4bd6972",
+        "w-7f04619a8649",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:33+00:00",
+      "target": "n10-102",
+      "constructionId": "n10-102",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un cotxe de joguina encara és separat de la galleda petita dreta."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "La galleda buida queda de costat, al punt de contacte amb el cotxe."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un cotxe amb sostre clar i una galleda amb nansa groga."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "53a751dd0824d0a402f84cd683f8c086ebb7b355734447d05978af54e3a71b74",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8ea0397400a43639043ba93c1475ebdfeb941ec3d35871195967eb6b6f0c3670"
+    },
+    {
+      "id": "cace-n10-121",
+      "src": "assets/constructions/n10/n10-121.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "conill · agafar · paper / llibre → caure",
+        "es": "CONEJO · COGER · PAPEL · LIBRO · CAER · PORQUE"
+      },
+      "alt": {
+        "ca": "Un conill retira el cartró que mantenia el llibre inclinat. En perdre el suport, el llibre queda pla.",
+        "es": "Un conejo retira el cartón que mantenía el libro inclinado. Al perder el apoyo, el libro queda plano."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-677819a0a32a",
+        "w-cd5c60f0d076",
+        "w-3bb995df42bf",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-677819a0a32a",
+        "w-cd5c60f0d076",
+        "w-3bb995df42bf",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:34+00:00",
+      "target": "n10-121",
+      "constructionId": "n10-121",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un llibre reposa sobre un plec de cartró a manera de falca i té un cantell aixecat."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Retira la falca. El cantell aixecat del llibre baixa mentre el contrari segueix en contacte amb la taula."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El llibre reposa pla i la falca sencera és a la mà."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un llibre de franja diagonal i una sola tira de cartró plegada."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "074083765dcdff684a29970a17a59833d162fb2da5ed305f6ed3a22bc10b1830",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "598e921ae28a58093f0eb17f102d9ed3fb7826d60bca487a1b58675116bfc706"
+    },
+    {
+      "id": "cace-n10-124",
+      "src": "assets/constructions/n10/n10-124.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "ós · agafar · pal / rampa / cotxe → baixar",
+        "es": "OSO · COGER · PALO · RAMPA · COCHE · BAJAR · PORQUE"
+      },
+      "alt": {
+        "ca": "Un ós alça el pal que barrava la rampa. En quedar lliure el pas, el cotxe de joguina baixa.",
+        "es": "Un oso levanta el palo que bloqueaba la rampa. Al quedar libre el paso, el coche de juguete baja."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-677819a0a32a",
+        "w-c8538c4482a2",
+        "w-9079294dc56e",
+        "w-1088e4bd6972",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-677819a0a32a",
+        "w-c8538c4482a2",
+        "w-9079294dc56e",
+        "w-1088e4bd6972",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:34+00:00",
+      "target": "n10-124",
+      "constructionId": "n10-124",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Un pal travesser impedeix que un cotxe de joguina baixi per la rampa."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Aixeca el pal pels extrems. El cotxe comença a passar per l’espai obert sota el pal."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El cotxe és al peu de la rampa. El pal continua alçat a la mateixa alçada."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Un cotxe amb capó vermell, un pal rom i una rampa curta amb vores."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "41f3e11f64aa2677dbaf1c5f0ad69edb5523ef7f6f4b559112aa31ef611f1e87",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "48b99fc89a8a6470a0619c5baef33a30c44f261e54bc1cf2b3d26f8f4b298f8b"
+    },
+    {
+      "id": "cace-n10-164",
+      "src": "assets/constructions/n10/n10-164.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "ós · posar · esponja / got → petita",
+        "es": "OSO · PONER · ESPONJA · VASO · PEQUEÑO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un ós estreny una esponja més ampla que el got. Quan la comprimeix, l’esponja entra i queda encaixada.",
+        "es": "Un oso aprieta una esponja más ancha que el vaso. Al comprimirla, la esponja entra y queda encajada."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-c211f7486a30",
+        "w-2d404e0d8979",
+        "w-1bed9f18ebab",
+        "w-12c5f9c8621a",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-c211f7486a30",
+        "w-2d404e0d8979",
+        "w-1bed9f18ebab",
+        "w-12c5f9c8621a",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:36+00:00",
+      "target": "n10-164",
+      "constructionId": "n10-164",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una esponja seca és clarament més ampla que la boca d’un got transparent."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Comprimeix l’esponja amb els dits mentre entra per la boca, amb les parets del got visibles."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "Al got, l’esponja està comprimida entre les parets i conserva una alçada similar a la de partida."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una esponja amb una vora tallada i un got estable. Cap canvi de volum del got."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "c08f72bdf376d2fd0d51b7517643a4fceffbf7c9d7027d27bf28e902985ee625",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0ea16c3e35709558d3a029deea6fea8561decb83577ab913d0fa47c7d606b3fb"
+    },
+    {
+      "id": "cace-n10-181",
+      "src": "assets/constructions/n10/n10-181.webp",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "title": {
+        "ca": "conill · tocar · commutador / làmpada → encès",
+        "es": "CONEJO · TOCAR · CONMUTADOR · LÁMPARA · ENCENDIDO · PORQUE"
+      },
+      "alt": {
+        "ca": "Un conill bascula l’interruptor del peu de la làmpada. En accionar-lo, la làmpada s’encén.",
+        "es": "Un conejo bascula el interruptor de la base de la lámpara. Al accionarlo, la lámpara se enciende."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-072ecc01e120",
+        "w-16311bdde998",
+        "w-50c9f146baff",
+        "w-f53919322490",
+        "w-01c0ff9f9a17"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-072ecc01e120",
+        "w-16311bdde998",
+        "w-50c9f146baff",
+        "w-f53919322490",
+        "w-01c0ff9f9a17"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T15:49:36+00:00",
+      "target": "n10-181",
+      "constructionId": "n10-181",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "estat-inicial",
+          "evidence": "Una làmpada de taula està apagada i el dit encara és separat del commutador mecànic visible al peu."
+        },
+        {
+          "number": 2,
+          "role": "desencadenant",
+          "evidence": "Prem el commutador amb el dit fins que bascula. S’encén la font dins la pantalla i es comença a veure el cercle de llum."
+        },
+        {
+          "number": 3,
+          "role": "consequencia",
+          "evidence": "El dit s’aparta. El commutador resta en la nova posició i la llum incideix sobre la mateixa taula."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "Una làmpada de peu rodó, un commutador integrat i una pantalla. Mateixa llum ambiental."
+      },
+      "semanticRelation": {
+        "type": "causa-consequencia",
+        "markers": [
+          {
+            "label": "PERQUÈ",
+            "wordId": "w-01c0ff9f9a17"
+          }
+        ],
+        "causalClaim": true
+      },
+      "originalSha256": "7f45fa137a5c46d3e0c495a2556f5e9f08c07a1afa2a6dc77e95214e00404975",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d38f7503753164b815bb65970c1689afed00f89a13b69b36fd000e1ba89929d1"
+    },
     {
       "id": "cace-n10-041",
       "src": "assets/constructions/n10/n10-041.webp",
@@ -174581,7 +175315,17 @@
         "cace-n10-041",
         "cace-n10-063",
         "cace-n10-141",
-        "cace-n10-163"
+        "cace-n10-163",
+        "cace-n10-002",
+        "cace-n10-021",
+        "cace-n10-042",
+        "cace-n10-064",
+        "cace-n10-081",
+        "cace-n10-102",
+        "cace-n10-121",
+        "cace-n10-124",
+        "cace-n10-164",
+        "cace-n10-181"
       ]
     }
   ]

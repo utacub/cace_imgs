@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-002",
+    "number": 2,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "impacte",
+    "familyId": "n10-f-002",
+    "counterpartId": "n10-102",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "nen · tocar · cotxe / galleda → caure"
+    },
+    "labels": [
+      "NEN",
+      "TOCAR",
+      "COTXE",
+      "GALLEDA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-1088e4bd6972",
+      "w-7f04619a8649",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "agent": {
+      "label": "NEN",
+      "wordId": "w-b4012100fe09"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "COTXE",
+        "wordId": "w-1088e4bd6972"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un cotxe de joguina encara és separat de la galleda petita dreta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La galleda buida queda de costat, al punt de contacte amb el cotxe."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cotxe amb sostre clar i una galleda amb nansa groga."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "038805065f81e6b2771408d44949f5e7713001032a94391bb6f8b127785c8d22",
+      "file": "output/production/n10/n10-002/image.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural school-age boy in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un cotxe de joguina encara és separat de la galleda petita dreta. CENTER explicit physical cause: Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula. RIGHT consequence: La galleda buida queda de costat, al punt de contacte amb el cotxe. Continuity and object accounting: Un cotxe amb sostre clar i una galleda amb nansa groga.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "El para-xocs toca la galleda i aquesta gira sobre la base en el punt de contacte. El cotxe i la nansa groga es mantenen. Al final, la galleda buida és de costat.",
+      "reviewedAt": "2026-11-21T15:49:31+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural school-age boy in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un cotxe de joguina encara és separat de la galleda petita dreta. CENTER explicit physical cause: Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula. RIGHT consequence: La galleda buida queda de costat, al punt de contacte amb el cotxe. Continuity and object accounting: Un cotxe amb sostre clar i una galleda amb nansa groga.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+  "review": "El para-xocs toca la galleda i aquesta gira sobre la base en el punt de contacte. El cotxe i la nansa groga es mantenen. Al final, la galleda buida és de costat.",
+  "alt": {
+    "ca": "Un nen guia un cotxe de joguina. El para-xocs toca la galleda i la tomba.",
+    "es": "Un niño guía un coche de juguete. El parachoques toca el cubo y lo vuelca."
+  },
+  "originalSha256": "038805065f81e6b2771408d44949f5e7713001032a94391bb6f8b127785c8d22",
+  "file": "output/production/n10/n10-002/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:49:31+00:00",
+  "tool": "ImageGen integrat"
+}

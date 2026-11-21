@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-082",
+    "number": 82,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "mecanisme",
+    "familyId": "n10-f-082",
+    "counterpartId": "n10-182",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · tocar · llum / commutador → apagat"
+    },
+    "labels": [
+      "NOI",
+      "TOCAR",
+      "LLUM",
+      "COMMUTADOR",
+      "APAGAT",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-30c924a12d6f",
+      "w-16311bdde998",
+      "w-32ded36c2a62",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "LLUM",
+        "wordId": "w-30c924a12d6f"
+      },
+      {
+        "label": "COMMUTADOR",
+        "wordId": "w-16311bdde998"
+      }
+    ],
+    "outcome": {
+      "label": "APAGAT",
+      "wordId": "w-32ded36c2a62"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "El llum d’una caixa lluminosa sense imatges és encès. El dit resta fora del commutador integrat."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "El dit pressiona l’altre extrem del botó basculant. La font lluminosa i el reflex al suport s’apaguen alhora."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Obre la mà i el commutador queda en la nova posició. La taula conserva la mateixa llum ambiental i desapareix el reflex local."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una caixa lluminosa de vora grisa i un commutador visible al marc."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "85274022fc32c8f024b3979f84bfae262396127327f1f33bb05cc1fa1ccd7e9a",
+      "file": "output/production/n10/n10-082/rejected-01.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural young adult man in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: El llum d’una caixa lluminosa sense imatges és encès. El dit resta fora del commutador integrat. CENTER explicit physical cause: El dit pressiona l’altre extrem del botó basculant. La font lluminosa i el reflex al suport s’apaguen alhora. RIGHT consequence: Obre la mà i el commutador queda en la nova posició. La taula conserva la mateixa llum ambiental i desapareix el reflex local. Continuity and object accounting: Una caixa lluminosa de vora grisa i un commutador visible al marc.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "L’interruptor porta símbols visibles i no mostra amb prou claredat quina posició adopta després de prémer-lo.",
+      "reviewedAt": "2026-11-21T15:49:33+00:00"
+    }
+  ],
+  "status": "rejected"
+}

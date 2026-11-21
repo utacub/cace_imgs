@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-064",
+    "number": 64,
+    "level": 10,
+    "group": "habitual",
+    "causalType": "deformacio",
+    "familyId": "n10-f-064",
+    "counterpartId": "n10-164",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noi · posar · esponja / got → petita"
+    },
+    "labels": [
+      "NOI",
+      "POSAR",
+      "ESPONJA",
+      "GOT",
+      "PETITA",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-2d404e0d8979",
+      "w-1bed9f18ebab",
+      "w-12c5f9c8621a",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "agent": {
+      "label": "NOI",
+      "wordId": "w-01bc6dcab46b"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      }
+    ],
+    "outcome": {
+      "label": "PETITA",
+      "wordId": "w-12c5f9c8621a"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Una esponja seca és clarament més ampla que la boca d’un got transparent."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Comprimeix l’esponja amb els dits mentre entra per la boca, amb les parets del got visibles."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "Al got, l’esponja està comprimida entre les parets i conserva una alçada similar a la de partida."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Una esponja amb una vora tallada i un got estable. Cap canvi de volum del got."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "1364178090768daed1d75e39b303cb892b12111df1f02a7e0a8da0974f943eab",
+      "file": "output/production/n10/n10-064/image.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural young adult man in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Una esponja seca és clarament més ampla que la boca d’un got transparent. CENTER explicit physical cause: Comprimeix l’esponja amb els dits mentre entra per la boca, amb les parets del got visibles. RIGHT consequence: Al got, l’esponja està comprimida entre les parets i conserva una alçada similar a la de partida. Continuity and object accounting: Una esponja amb una vora tallada i un got estable. Cap canvi de volum del got.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "L’esponja és clarament més ampla que el got. Les dues mans la comprimeixen i es veu passar per l’obertura. Continua encaixada al mateix vas, amb la peça sencera.",
+      "reviewedAt": "2026-11-21T15:49:33+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Photorealistic synthetic white-background studio photography of one natural young adult man in plain clothes. Correct human anatomy and grip. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Una esponja seca és clarament més ampla que la boca d’un got transparent. CENTER explicit physical cause: Comprimeix l’esponja amb els dits mentre entra per la boca, amb les parets del got visibles. RIGHT consequence: Al got, l’esponja està comprimida entre les parets i conserva una alçada similar a la de partida. Continuity and object accounting: Una esponja amb una vora tallada i un got estable. Cap canvi de volum del got.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+  "review": "L’esponja és clarament més ampla que el got. Les dues mans la comprimeixen i es veu passar per l’obertura. Continua encaixada al mateix vas, amb la peça sencera.",
+  "alt": {
+    "ca": "Un noi comprimeix una esponja amb les mans perquè passi per la boca del got. L’esponja queda encaixada a dins.",
+    "es": "Un chico comprime una esponja con las manos para que pase por la boca del vaso. La esponja queda encajada dentro."
+  },
+  "originalSha256": "1364178090768daed1d75e39b303cb892b12111df1f02a7e0a8da0974f943eab",
+  "file": "output/production/n10/n10-064/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:49:33+00:00",
+  "tool": "ImageGen integrat"
+}

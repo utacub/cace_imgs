@@ -1,0 +1,117 @@
+{
+  "construction": {
+    "id": "n10-102",
+    "number": 102,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-002",
+    "counterpartId": "n10-002",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gat · tocar · cotxe / galleda → caure"
+    },
+    "labels": [
+      "GAT",
+      "TOCAR",
+      "COTXE",
+      "GALLEDA",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-072ecc01e120",
+      "w-1088e4bd6972",
+      "w-7f04619a8649",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "agent": {
+      "label": "GAT",
+      "wordId": "w-11ff74d27c02"
+    },
+    "trigger": {
+      "label": "TOCAR",
+      "wordId": "w-072ecc01e120"
+    },
+    "referents": [
+      {
+        "label": "COTXE",
+        "wordId": "w-1088e4bd6972"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un cotxe de joguina encara és separat de la galleda petita dreta."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "La galleda buida queda de costat, al punt de contacte amb el cotxe."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un cotxe amb sostre clar i una galleda amb nansa groga."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "53a751dd0824d0a402f84cd683f8c086ebb7b355734447d05978af54e3a71b74",
+      "file": "output/production/n10/n10-102/image.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Flat 2D educational picture book art of one friendly recognizable anthropomorphic cat, solid colors, clean outlines, correct functional anatomy and no additional human arms. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un cotxe de joguina encara és separat de la galleda petita dreta. CENTER explicit physical cause: Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula. RIGHT consequence: La galleda buida queda de costat, al punt de contacte amb el cotxe. Continuity and object accounting: Un cotxe amb sostre clar i una galleda amb nansa groga.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "La pota guia el cotxe, la part davantera toca el lateral de la galleda i la fa bascular sobre la base. Es conserva el sostre clar, la nansa groga i el recompte.",
+      "reviewedAt": "2026-11-21T15:49:33+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Flat 2D educational picture book art of one friendly recognizable anthropomorphic cat, solid colors, clean outlines, correct functional anatomy and no additional human arms. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un cotxe de joguina encara és separat de la galleda petita dreta. CENTER explicit physical cause: Guia el cotxe amb un dit. El para-xocs pressiona el costat de la galleda, que bascula. RIGHT consequence: La galleda buida queda de costat, al punt de contacte amb el cotxe. Continuity and object accounting: Un cotxe amb sostre clar i una galleda amb nansa groga.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+  "review": "La pota guia el cotxe, la part davantera toca el lateral de la galleda i la fa bascular sobre la base. Es conserva el sostre clar, la nansa groga i el recompte.",
+  "alt": {
+    "ca": "Un gat empeny un cotxe de joguina que topa amb la galleda i la tomba.",
+    "es": "Un gato empuja un coche de juguete que choca con el cubo y lo vuelca."
+  },
+  "originalSha256": "53a751dd0824d0a402f84cd683f8c086ebb7b355734447d05978af54e3a71b74",
+  "file": "output/production/n10/n10-102/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T15:49:33+00:00",
+  "tool": "ImageGen integrat"
+}

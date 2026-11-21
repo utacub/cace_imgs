@@ -1,0 +1,104 @@
+{
+  "construction": {
+    "id": "n10-103",
+    "number": 103,
+    "level": 10,
+    "group": "insolita",
+    "causalType": "impacte",
+    "familyId": "n10-f-003",
+    "counterpartId": "n10-003",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · posar · llibre / dau → caure"
+    },
+    "labels": [
+      "GOS",
+      "POSAR",
+      "LLIBRE",
+      "DAU",
+      "CAURE",
+      "PERQUÈ"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-c211f7486a30",
+      "w-3bb995df42bf",
+      "w-e0fc52e298ac",
+      "w-71979f4e95bc",
+      "w-01c0ff9f9a17"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "agent": {
+      "label": "GOS",
+      "wordId": "w-4761fde107a7"
+    },
+    "trigger": {
+      "label": "POSAR",
+      "wordId": "w-c211f7486a30"
+    },
+    "referents": [
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      }
+    ],
+    "outcome": {
+      "label": "CAURE",
+      "wordId": "w-71979f4e95bc"
+    },
+    "moments": [
+      {
+        "number": 1,
+        "role": "estat-inicial",
+        "evidence": "Un dau reposa vora el cantell de la taula, separat del llibre."
+      },
+      {
+        "number": 2,
+        "role": "desencadenant",
+        "evidence": "En fer lliscar el llibre tancat, el llom empeny el dau i el deixa mig fora del cantell."
+      },
+      {
+        "number": 3,
+        "role": "consequencia",
+        "evidence": "El dau és a l’estora sota el cantell. El llibre continua a la taula."
+      }
+    ],
+    "relation": {
+      "type": "causa-consequencia",
+      "markers": [
+        {
+          "label": "PERQUÈ",
+          "wordId": "w-01c0ff9f9a17"
+        }
+      ],
+      "causalClaim": true
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "Un dau gros de punts i un llibre de llom verd, visibles sencers."
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "f7dbd65bca7135997e9da630d16e8be655be7f0d1aa05784c119167e56b2e813",
+      "file": "output/production/n10/n10-103/rejected-01.png",
+      "prompt": "Generate exactly one finished raster illustration for classroom causal reasoning. Landscape canvas, three equally wide side-by-side panels with broad pure white gutters and generous outer margins. Flat 2D educational picture book art of one friendly recognizable anthropomorphic dog, solid colors, clean outlines, correct functional anatomy and no additional human arms. Same agent and exact fixed 3/4 camera, light direction, scene layout, object sizes and geometry across the panels. Maximize legibility of the contact point and result while leaving margins around every object and body. Use minimal supports and white backdrop. Catalan brief, interpret in the pictures: LEFT state of departure: Un dau reposa vora el cantell de la taula, separat del llibre. CENTER explicit physical cause: En fer lliscar el llibre tancat, el llom empeny el dau i el deixa mig fora del cantell. RIGHT consequence: El dau és a l’estora sota el cantell. El llibre continua a la taula. Continuity and object accounting: Un dau gros de punts i un llibre de llom verd, visibles sencers.  No graphic arrows, movement lines, words, letters, numbers, signage, logo or watermark. Keep all object edges, hand contact and supports physically coherent. Three panels, readable left to right.",
+      "review": "El dau encara és tot damunt del tauler a la vinyeta central. Una deformació verda entre el llibre i el dau desdibuixa el contacte i no mostra que el dau perdi el suport al cantell.",
+      "reviewedAt": "2026-11-21T15:49:34+00:00"
+    }
+  ],
+  "status": "rejected"
+}
