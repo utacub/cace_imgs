@@ -1,5 +1,5 @@
 {
-  "version": "0.1.151",
+  "version": "0.1.152",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1548 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-030",
+      "src": "assets/constructions/n9/n9-030.webp",
+      "title": {
+        "ca": "home · classificar · posar — cromos / carpeta",
+        "es": "HOMBRE · CLASIFICAR · PONER · CROMOS · CARPETA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · classificar · posar — cromos / carpeta.",
+        "es": "HOMBRE · CLASIFICAR · PONER · CROMOS · CARPETA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-8797b9b05556",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-8797b9b05556",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:46.940Z",
+      "target": "n9-030",
+      "constructionId": "n9-030",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Separa les dues menes de cromos en dues piles amb les cares descobertes."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Introdueix un cromo a l’última funda buida. Les altres fundes mostren una fila de cada mena."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "cromos muts amb figures de flors o peixos i la carpeta de fundes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d7a6d8b014189af8e9068af956a884f90b2cfeddf256d9dde733977a482473d6",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "266fa78b721cf54f1ef55d32fff01d6dabe12ab50e39119d5f36496d171cd262"
+    },
+    {
+      "id": "cace-n9-032",
+      "src": "assets/constructions/n9/n9-032.webp",
+      "title": {
+        "ca": "nen · jugar · guardar — construccions / caixa",
+        "es": "NIÑO · JUGAR · GUARDAR · CONSTRUCCIONES · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · jugar · guardar — construccions / caixa.",
+        "es": "NIÑO · JUGAR · GUARDAR · CONSTRUCCIONES · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-d92d094286cd",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-d92d094286cd",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.275Z",
+      "target": "n9-032",
+      "constructionId": "n9-032",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Encaixa la peça superior d’una torre baixa, amb el darrer cub encara a la mà."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la construcció sencera en la caixa oberta, sostenint la torre per la base."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "els mateixos blocs de fusta i la caixa oberta de base ampla"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "2cb7a972276ee1a54bdb86eee202a75826e6d2902b590f8adc0d461795a68931",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d77c2cd3d68c85aa7420521cfd6d3139e7b22411cd603741d4b0c3752b5b7d8a"
+    },
+    {
+      "id": "cace-n9-040",
+      "src": "assets/constructions/n9/n9-040.webp",
+      "title": {
+        "ca": "home · cosir · posar — mocador",
+        "es": "HOMBRE · COSER · PONER · PAÑUELO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · cosir · posar — mocador.",
+        "es": "HOMBRE · COSER · PONER · PAÑUELO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-b591637a58a1",
+        "w-c211f7486a30",
+        "w-35e3a6c8a7fd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-b591637a58a1",
+        "w-c211f7486a30",
+        "w-35e3a6c8a7fd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:19.998Z",
+      "target": "n9-040",
+      "constructionId": "n9-040",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b591637a58a1",
+          "evidence": "Cus les darreres puntades visibles d’un pedaç, amb una punta del rombe encara aixecada."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el mocador acabat estès sobre una barra baixa. Es veu el rombe complet i cosit per les quatre vores."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el mocador quadrat amb vora fosca i un pedaç clar en forma de rombe"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6814c5b6f9bd4a2608f36f566c29d11dc3340053ddab62ed88a8993962c70b58",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "99989fbbf3aa10930c7a1149dffca40581124a0c65381648f87af14725bde99c"
+    },
+    {
+      "id": "cace-n9-041",
+      "src": "assets/constructions/n9/n9-041.webp",
+      "title": {
+        "ca": "nena · tallar — paper",
+        "es": "NIÑA · CORTAR · PAPEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · tallar — paper.",
+        "es": "NIÑA · CORTAR · PAPEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-7a101d803c16",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-7a101d803c16",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.157Z",
+      "target": "n9-041",
+      "constructionId": "n9-041",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Full sencer i pla sobre el suport, amb la quadrícula seguida de banda a banda."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Les tisores tallen en línia recta. La meitat del tall ja separa dos costats."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues tires es veuen de costat, amb les parts de la quadrícula encara alineables."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full d’angle arrodonit amb una quadrícula geomètrica sense signes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "21123e55386f3afc92a8d5f824ce5666058726a8f6a126eb1c56189e5de4a9e7",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8ab1a98b6f679c7eb5cde9b8ceb0141843712678920841d36af7078ee1298138"
+    },
+    {
+      "id": "cace-n9-042",
+      "src": "assets/constructions/n9/n9-042.webp",
+      "title": {
+        "ca": "noia · tallar — plastilina",
+        "es": "CHICA · CORTAR · PLASTILINA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · tallar — plastilina.",
+        "es": "CHICA · CORTAR · PLASTILINA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.308Z",
+      "target": "n9-042",
+      "constructionId": "n9-042",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Barra única, allargada i sencera."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Amb una pala roma de modelatge, talla fins a la meitat del gruix. Els dos costats encara toquen."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues porcions separades amb la mateixa veta i els extrems del tall encarats."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la barra de plastilina amb una veta contínua"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "d552e746532dc3ffe5ecab7e8d57ae0ab135574197e9219a3776d3b7254c6015",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f438243b01cb254ec702138dcddbe75c75960deb0e92138d8773206841b0ea1f"
+    },
+    {
+      "id": "cace-n9-043",
+      "src": "assets/constructions/n9/n9-043.webp",
+      "title": {
+        "ca": "dona · tallar — pa",
+        "es": "MUJER · CORTAR · PAN · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · tallar — pa.",
+        "es": "MUJER · CORTAR · PAN · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-96e21018e871",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-96e21018e871",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.486Z",
+      "target": "n9-043",
+      "constructionId": "n9-043",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Barra sencera en una fusta baixa."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Fa un tall amb ganivet de pa, amb les mans lluny de la fulla i una llesca encara unida per sota."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La llesca és tombada al costat i hi ha molles. La resta de la barra conserva l’esquerda més llarga."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la barra curta amb dues esquerdes naturals a la crosta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "55190dd8ad08d6c16d575c5fcb66cfa5ce593731c15133fa9504ee97f14fc98b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "906b2a8f3f11f17908ffbd247d3b6435adf9316eb6cf65100c7aa70d232a400b"
+    },
+    {
+      "id": "cace-n9-044",
+      "src": "assets/constructions/n9/n9-044.webp",
+      "title": {
+        "ca": "home · tallar — formatge",
+        "es": "HOMBRE · CORTAR · QUESO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · tallar — formatge.",
+        "es": "HOMBRE · CORTAR · QUESO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-6d884b3532e7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-6d884b3532e7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.722Z",
+      "target": "n9-044",
+      "constructionId": "n9-044",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Peça triangular sencera, sense cap llesca al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Amb un tallador rom, separa parcialment una làmina fina. La vora de l’escorça encara és contínua a la base."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La làmina queda estesa al costat de la peça, amb vores complementàries."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la peça triangular amb una escorça fosca visible"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "19cd3d3f06908b8346788d20c5fe68f054019e0b52f5511a8a1f017a6cd06a70",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0b9068998eac3304d0aeefc9a7f3faf89342a810a02bf62568e4accfec0be466"
+    },
+    {
+      "id": "cace-n9-045",
+      "src": "assets/constructions/n9/n9-045.webp",
+      "title": {
+        "ca": "home · tallar — tomàquet",
+        "es": "HOMBRE · CORTAR · TOMATE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · tallar — tomàquet.",
+        "es": "HOMBRE · CORTAR · TOMATE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-d1d187dcdcb5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-d1d187dcdcb5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.899Z",
+      "target": "n9-045",
+      "constructionId": "n9-045",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tomàquet sencer damunt una fusta, amb el peduncle a la vista."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "La fulla del ganivet entra al tomàquet. Ja es veu una part de la secció amb llavors."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues meitats separades mostren la secció. Una conserva el peduncle."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el tomàquet amb un petit peduncle corbat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "8d0e96409ba95e41561df1bd39bb95377b1ea0fb10f81039f7ce2a9ade7160d1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1cca61861a08e99a450522a09d391a6a5e49de9140038ffc6ea573dda85fa5ee"
+    },
+    {
+      "id": "cace-n9-046",
+      "src": "assets/constructions/n9/n9-046.webp",
+      "title": {
+        "ca": "home · tallar — pastanaga",
+        "es": "HOMBRE · CORTAR · ZANAHORIA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · tallar — pastanaga.",
+        "es": "HOMBRE · CORTAR · ZANAHORIA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-626dd3bf53e5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-626dd3bf53e5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:21.110Z",
+      "target": "n9-046",
+      "constructionId": "n9-046",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pastanaga sencera sobre la fusta, del mateix costat tota l’estona."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Dues rodanxes són separades i la tercera està mig tallada, amb el tallador en contacte."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres rodanxes separades i la pastanaga escurçada, que conserva les fulles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pastanaga gruixuda amb un doble plec lateral i tres fulles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6db5d9a1537ab60ca6d6c0db7f5f8d40edd508aa63d56fdcd13f94f5e8dfca25",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "265b4e6a213c1cbc0b780abf781bfb0d1e0071c4fbbdc0f611def2be26e92801"
+    },
+    {
+      "id": "cace-n9-047",
+      "src": "assets/constructions/n9/n9-047.webp",
+      "title": {
+        "ca": "dona · tallar — poma",
+        "es": "MUJER · CORTAR · MANZANA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · tallar — poma.",
+        "es": "MUJER · CORTAR · MANZANA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:21.272Z",
+      "target": "n9-047",
+      "constructionId": "n9-047",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Poma sencera de perfil, amb la frontera entre els dos colors visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla la poma verticalment amb una secció ja visible. Les mans són al mànec i fora del recorregut de la fulla."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues meitats mostren una secció amb llavors. La frontera cromàtica es manté."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la poma de pell bicolor amb una fulla al peduncle"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "91e1b43b944f1891e82ea1c9259bf103cf846fa175100457b364c504b4f3b26e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2443864f65ebd169af2826e86970d767acba3b9562c5a722d768f44125be2acd"
+    },
+    {
+      "id": "cace-n9-130",
+      "src": "assets/constructions/n9/n9-130.webp",
+      "title": {
+        "ca": "porc · classificar · posar — cromos / carpeta",
+        "es": "CERDO · CLASIFICAR · PONER · CROMOS · CARPETA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · classificar · posar — cromos / carpeta.",
+        "es": "CERDO · CLASIFICAR · PONER · CROMOS · CARPETA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-8797b9b05556",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-837cfa89f5df",
+        "w-c211f7486a30",
+        "w-8797b9b05556",
+        "w-46f884632cd7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.022Z",
+      "target": "n9-130",
+      "constructionId": "n9-130",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-837cfa89f5df",
+          "evidence": "Separa les dues menes de cromos en dues piles amb les cares descobertes."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Introdueix un cromo a l’última funda buida. Les altres fundes mostren una fila de cada mena."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "cromos muts amb figures de flors o peixos i la carpeta de fundes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3b87ff52c23ce2e242bf4774a20363aa8b057451321354343910f1dffff2f9ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dc8d6140b3856bf4b494e5001e0669f2e36e42a49c47b1eb525bd29225492ed4"
+    },
+    {
+      "id": "cace-n9-131",
+      "src": "assets/constructions/n9/n9-131.webp",
+      "title": {
+        "ca": "conill · jugar · guardar — puzle / caixa",
+        "es": "CONEJO · JUGAR · GUARDAR · PUZZLE · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · jugar · guardar — puzle / caixa.",
+        "es": "CONEJO · JUGAR · GUARDAR · PUZZLE · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-0006cf1ffdae",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-6d90f16f5461",
+        "w-f0441e0dd3b0",
+        "w-0006cf1ffdae",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:43:47.202Z",
+      "target": "n9-131",
+      "constructionId": "n9-131",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Té mig vaixell muntat i està encaixant el fragment de la vela. Les darreres peces són visibles al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa el puzle complet a la caixa de base plana, sense desmuntar-lo. El vaixell sencer és visible."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el puzle amb dibuix de vaixell i la caixa de tapa llisa"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "be73fdc4ca184ed81973c62a72e30f1e5ea5bbe35382471606228093840840fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "44c0aac5e48b1c92d723f2622be54ba174449da73e480477c54559dd318c3d0f"
+    },
+    {
+      "id": "cace-n9-139",
+      "src": "assets/constructions/n9/n9-139.webp",
+      "title": {
+        "ca": "tortuga · cosir · guardar — botó / camisa",
+        "es": "TORTUGA · COSER · GUARDAR · BOTÓN · CAMISA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · cosir · guardar — botó / camisa.",
+        "es": "TORTUGA · COSER · GUARDAR · BOTÓN · CAMISA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-b591637a58a1",
+        "w-f0441e0dd3b0",
+        "w-1ed7d690ac96",
+        "w-2dc987121b47",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-b591637a58a1",
+        "w-f0441e0dd3b0",
+        "w-1ed7d690ac96",
+        "w-2dc987121b47",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:19.923Z",
+      "target": "n9-139",
+      "constructionId": "n9-139",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b591637a58a1",
+          "evidence": "Estira el fil per l’últim forat, amb el botó encara separat un dit de la camisa."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Desa la camisa plegada amb el botó ferm i descobert. L’agulla i el fil queden al coixinet de costura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el botó gros de quatre forats i la camisa amb puny doble"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "31248596242843f7e5b47f86cb3c66dc0226bfa5c5793d9f4fa745f26d8b4a45",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c27455bcafb6c6cd04be267bb37b517ffbbe1e389b1b09a6db9846921cf7ada5"
+    },
+    {
+      "id": "cace-n9-140",
+      "src": "assets/constructions/n9/n9-140.webp",
+      "title": {
+        "ca": "porc · cosir · posar — mocador",
+        "es": "CERDO · COSER · PONER · PAÑUELO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · cosir · posar — mocador.",
+        "es": "CERDO · COSER · PONER · PAÑUELO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-b591637a58a1",
+        "w-c211f7486a30",
+        "w-35e3a6c8a7fd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-b591637a58a1",
+        "w-c211f7486a30",
+        "w-35e3a6c8a7fd",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.080Z",
+      "target": "n9-140",
+      "constructionId": "n9-140",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-b591637a58a1",
+          "evidence": "Cus les darreres puntades visibles d’un pedaç, amb una punta del rombe encara aixecada."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el mocador acabat estès sobre una barra baixa. Es veu el rombe complet i cosit per les quatre vores."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el mocador quadrat amb vora fosca i un pedaç clar en forma de rombe"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "8598b857543c1853063916cffc9c68d5c3aedd74a21640bc1c4deda74271d08b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e9a4ef3792ba5685936029a5f42a0f3347f75586023eb1fa1e71b1e2ea58436b"
+    },
+    {
+      "id": "cace-n9-141",
+      "src": "assets/constructions/n9/n9-141.webp",
+      "title": {
+        "ca": "conill · tallar — paper",
+        "es": "CONEJO · CORTAR · PAPEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · tallar — paper.",
+        "es": "CONEJO · CORTAR · PAPEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-7a101d803c16",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-7a101d803c16",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.234Z",
+      "target": "n9-141",
+      "constructionId": "n9-141",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Full sencer i pla sobre el suport, amb la quadrícula seguida de banda a banda."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Les tisores tallen en línia recta. La meitat del tall ja separa dos costats."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues tires es veuen de costat, amb les parts de la quadrícula encara alineables."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full d’angle arrodonit amb una quadrícula geomètrica sense signes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "65969a807f0912ecafb4e3ddecccd800ab0d1f4f69d56041c22c9c1112a83afa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7a339ecc4992a6f7878d7361c0dfd163eb4354aaa00250796f0bf19f3a6df2a5"
+    },
+    {
+      "id": "cace-n9-142",
+      "src": "assets/constructions/n9/n9-142.webp",
+      "title": {
+        "ca": "gat · tallar — plastilina",
+        "es": "GATO · CORTAR · PLASTILINA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · tallar — plastilina.",
+        "es": "GATO · CORTAR · PLASTILINA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-7a101d803c16",
+        "w-0606be9fcf92",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.389Z",
+      "target": "n9-142",
+      "constructionId": "n9-142",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Barra única, allargada i sencera."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Amb una pala roma de modelatge, talla fins a la meitat del gruix. Els dos costats encara toquen."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues porcions separades amb la mateixa veta i els extrems del tall encarats."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la barra de plastilina amb una veta contínua"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "dab7f819e45748c417ab923b3434a151619d564aeb21f18ddcb54cd71389a7aa",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6c278d0885d760a9aa10d00671a9ae2d1d070723466b0b26ebc98b1f3b630178"
+    },
+    {
+      "id": "cace-n9-143",
+      "src": "assets/constructions/n9/n9-143.webp",
+      "title": {
+        "ca": "gos · tallar — pa",
+        "es": "PERRO · CORTAR · PAN · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · tallar — pa.",
+        "es": "PERRO · CORTAR · PAN · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-7a101d803c16",
+        "w-96e21018e871",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-7a101d803c16",
+        "w-96e21018e871",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.589Z",
+      "target": "n9-143",
+      "constructionId": "n9-143",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Barra sencera en una fusta baixa."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Fa un tall amb ganivet de pa, amb les mans lluny de la fulla i una llesca encara unida per sota."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La llesca és tombada al costat i hi ha molles. La resta de la barra conserva l’esquerda més llarga."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la barra curta amb dues esquerdes naturals a la crosta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3eefb1f83bee20252a7ac4a470499bcff77730982d57d095d1dc4546e3ba3263",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "354d566f4b647b7cf5c066d7d5ecb8a874037190c11a410d33379d2874913c63"
+    },
+    {
+      "id": "cace-n9-144",
+      "src": "assets/constructions/n9/n9-144.webp",
+      "title": {
+        "ca": "ós · tallar — formatge",
+        "es": "OSO · CORTAR · QUESO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · tallar — formatge.",
+        "es": "OSO · CORTAR · QUESO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-7a101d803c16",
+        "w-6d884b3532e7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-7a101d803c16",
+        "w-6d884b3532e7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.819Z",
+      "target": "n9-144",
+      "constructionId": "n9-144",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Peça triangular sencera, sense cap llesca al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Amb un tallador rom, separa parcialment una làmina fina. La vora de l’escorça encara és contínua a la base."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La làmina queda estesa al costat de la peça, amb vores complementàries."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la peça triangular amb una escorça fosca visible"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "25c58d2774e41d1b078666d965cab6b5ead14b4f7532db75f3ef2ead01de7454",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1fb3eb2930fc64857c11998404ec7307e853aee525f738a4f4d85c38695fe8ed"
+    },
+    {
+      "id": "cace-n9-145",
+      "src": "assets/constructions/n9/n9-145.webp",
+      "title": {
+        "ca": "mico · tallar — tomàquet",
+        "es": "MONO · CORTAR · TOMATE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · tallar — tomàquet.",
+        "es": "MONO · CORTAR · TOMATE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-7a101d803c16",
+        "w-d1d187dcdcb5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-7a101d803c16",
+        "w-d1d187dcdcb5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:20.995Z",
+      "target": "n9-145",
+      "constructionId": "n9-145",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tomàquet sencer damunt una fusta, amb el peduncle a la vista."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "La fulla del ganivet entra al tomàquet. Ja es veu una part de la secció amb llavors."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues meitats separades mostren la secció. Una conserva el peduncle."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el tomàquet amb un petit peduncle corbat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e9bb8e218764d15d4a6e7074241eb59ff373c492fbca81318c366094d64bce68",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6ea70528957983504a6c4ffe7cea62bf3791538f0036090ee5b244d614a52c9f"
+    },
+    {
+      "id": "cace-n9-146",
+      "src": "assets/constructions/n9/n9-146.webp",
+      "title": {
+        "ca": "esquirol · tallar — pastanaga",
+        "es": "ARDILLA · CORTAR · ZANAHORIA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · tallar — pastanaga.",
+        "es": "ARDILLA · CORTAR · ZANAHORIA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-7a101d803c16",
+        "w-626dd3bf53e5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-7a101d803c16",
+        "w-626dd3bf53e5",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:57:21.193Z",
+      "target": "n9-146",
+      "constructionId": "n9-146",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pastanaga sencera sobre la fusta, del mateix costat tota l’estona."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Dues rodanxes són separades i la tercera està mig tallada, amb el tallador en contacte."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres rodanxes separades i la pastanaga escurçada, que conserva les fulles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pastanaga gruixuda amb un doble plec lateral i tres fulles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "499539a7bee5f47ff611d39e5f71c3fecee6e0126300ff86f07549f9006ad77b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "48a75a576581ebf7069d41d78fec9c75c1a5b2e494b54377f414d611380cb76f"
+    },
     {
       "id": "cace-n9-029",
       "src": "assets/constructions/n9/n9-029.webp",
@@ -164040,7 +165582,27 @@
         "cace-n9-135",
         "cace-n9-136",
         "cace-n9-137",
-        "cace-n9-138"
+        "cace-n9-138",
+        "cace-n9-030",
+        "cace-n9-032",
+        "cace-n9-040",
+        "cace-n9-041",
+        "cace-n9-042",
+        "cace-n9-043",
+        "cace-n9-044",
+        "cace-n9-045",
+        "cace-n9-046",
+        "cace-n9-047",
+        "cace-n9-130",
+        "cace-n9-131",
+        "cace-n9-139",
+        "cace-n9-140",
+        "cace-n9-141",
+        "cace-n9-142",
+        "cace-n9-143",
+        "cace-n9-144",
+        "cace-n9-145",
+        "cace-n9-146"
       ]
     }
   ]
