@@ -1,0 +1,118 @@
+{
+  "constructionId": "n9-106",
+  "file": "output/production/n9/n9-106/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ESQUIROL. Continuity anchor: la bata amb vores fosques i la caixa de cantonada escapçada. Ordered moments in Catalan: PANEL 1: Es posa la bata per la segona màniga. La caixa és tota del color del cartró. PANEL 2: Amb la bata posada, passa el pinzell per la caixa i hi deixa una banda ampla.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-106",
+    "number": 106,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-006",
+    "counterpartId": "n9-006",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · vestir · pintar — bata / caixa"
+    },
+    "labels": [
+      "ESQUIROL",
+      "VESTIR",
+      "PINTAR",
+      "BATA",
+      "CAIXA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-4d2fcaf61d85",
+      "w-b04a48827310",
+      "w-002ea7673dd7",
+      "w-696b7c739d30",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "actions": [
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      }
+    ],
+    "referents": [
+      {
+        "label": "BATA",
+        "wordId": "w-002ea7673dd7"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-4d2fcaf61d85",
+        "evidence": "Es posa la bata per la segona màniga. La caixa és tota del color del cartró."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-b04a48827310",
+        "evidence": "Amb la bata posada, passa el pinzell per la caixa i hi deixa una banda ampla."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la bata amb vores fosques i la caixa de cantonada escapçada"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:19:14.866Z",
+  "review": "Esquirol complet amb anatomia recognoscible, mateixa bata de vores fosques. Caixa de cantonada escapçada amb gruix visible; banda de pintura aplicada amb contacte. Proporcions i punt de vista estables.",
+  "alt": {
+    "ca": "esquirol · vestir · pintar — bata / caixa.",
+    "es": "ARDILLA · VESTIR · PINTAR · BATA · CAJA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "7a08613bdbf4b8f49d2300a98f69ef9ab603b759ead85c6e963f8916d9a5515b",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:22:49.150Z",
+  "publicationVersion": "0.1.147",
+  "importedAt": "2026-11-21T12:24:55.494215+00:00"
+}

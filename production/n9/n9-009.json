@@ -1,0 +1,118 @@
+{
+  "constructionId": "n9-009",
+  "file": "output/production/n9/n9-009/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOIA (young adult woman). Continuity anchor: la muntura ovalada i la revista amb una coberta geomètrica. Ordered moments in Catalan: PANEL 1: S’acosta les ulleres als ulls amb totes dues mans. La revista encara és tancada. PANEL 2: Amb les ulleres posades, mira la doble pàgina oberta amb fotografies i espais muts.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-009",
+    "number": 9,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-009",
+    "counterpartId": "n9-109",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "noia · posar · llegir — ulleres / revista"
+    },
+    "labels": [
+      "NOIA",
+      "POSAR",
+      "LLEGIR",
+      "ULLERES",
+      "REVISTA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-ef0bd41d6ee3",
+      "w-2ab74322bbef",
+      "w-21bb2302223c",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "agent": {
+      "label": "NOIA",
+      "wordId": "w-b38ff488f862"
+    },
+    "actions": [
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      }
+    ],
+    "referents": [
+      {
+        "label": "ULLERES",
+        "wordId": "w-2ab74322bbef"
+      },
+      {
+        "label": "REVISTA",
+        "wordId": "w-21bb2302223c"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-c211f7486a30",
+        "evidence": "S’acosta les ulleres als ulls amb totes dues mans. La revista encara és tancada."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-ef0bd41d6ee3",
+        "evidence": "Amb les ulleres posades, mira la doble pàgina oberta amb fotografies i espais muts."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la muntura ovalada i la revista amb una coberta geomètrica"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:19:15.298Z",
+  "review": "Noia adulta sencera, ulleres ovalades de mida constant. Les posa davant dels ulls i després llegeix revista oberta sense text. Cos, mans i taula en perspectiva coherent.",
+  "alt": {
+    "ca": "noia · posar · llegir — ulleres / revista.",
+    "es": "CHICA · PONER · LEER · GAFAS · REVISTA · ANTES · DESPUÉS."
+  },
+  "originalSha256": "4575d368d7c6159051f38616c9daf4d6d1a21fede8cc97b222bff01ae2d1496e",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:22:49.928Z",
+  "publicationVersion": "0.1.147",
+  "importedAt": "2026-11-21T12:24:54.249845+00:00"
+}

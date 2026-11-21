@@ -1,0 +1,100 @@
+{
+  "constructionId": "n9-113",
+  "file": "output/production/n9/n9-113/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: GOS. Continuity anchor: la flor amb cinc pètals amples i un capoll lateral. Ordered moments in Catalan: PANEL 1: Aplega els dits al voltant de la tija mentre la flor encara és al cistell. PANEL 2: Apropa la mateixa flor al nas amb la tija lliure del cistell.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-113",
+    "number": 113,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-013",
+    "counterpartId": "n9-013",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "gos · agafar · olorar — flor"
+    },
+    "labels": [
+      "GOS",
+      "AGAFAR",
+      "OLORAR",
+      "FLOR",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-4761fde107a7",
+      "w-677819a0a32a",
+      "w-fc006ad2b6a7",
+      "w-6c5def9143c8",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-4761fde107a7",
+    "agent": {
+      "label": "GOS",
+      "wordId": "w-4761fde107a7"
+    },
+    "actions": [
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "OLORAR",
+        "wordId": "w-fc006ad2b6a7"
+      }
+    ],
+    "referents": [
+      {
+        "label": "FLOR",
+        "wordId": "w-6c5def9143c8"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-677819a0a32a",
+        "evidence": "Aplega els dits al voltant de la tija mentre la flor encara és al cistell."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-fc006ad2b6a7",
+        "evidence": "Apropa la mateixa flor al nas amb la tija lliure del cistell."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la flor amb cinc pètals amples i un capoll lateral"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:24:36.537Z"
+}

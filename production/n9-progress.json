@@ -3,21 +3,14 @@
   "status": "active",
   "authorization": {
     "date": "2026-11-21",
-    "instruction": "D'acord, ja pots començar a genera i publicar aquestes imatges",
+    "instruction": "Continua generant, revisant i publicant les 196 imatges N9 que falten, vigilant les proporcions, la perspectiva i la coherència entre vinyetes.",
     "generation": true,
     "import": true,
     "publication": true
   },
   "planned": 200,
-  "complete": 4,
+  "complete": 17,
   "pending": [
-    "n9-003",
-    "n9-004",
-    "n9-005",
-    "n9-006",
-    "n9-007",
-    "n9-008",
-    "n9-009",
     "n9-010",
     "n9-011",
     "n9-012",
@@ -109,12 +102,6 @@
     "n9-098",
     "n9-099",
     "n9-100",
-    "n9-103",
-    "n9-104",
-    "n9-105",
-    "n9-106",
-    "n9-107",
-    "n9-108",
     "n9-109",
     "n9-110",
     "n9-111",
@@ -215,15 +202,15 @@
     "words": 861,
     "catalogSha256": "f0c655871dac52b8b11acc7beaab6fbb9aba7ad5552be244009e634ace4be921"
   },
-  "updated": "2026-11-21T11:51:59.194Z",
-  "completedHabitual": 2,
-  "completedInsolita": 2,
-  "catalogVersion": "0.1.146",
-  "imported": 4,
+  "updated": "2026-11-21T12:24:36.801Z",
+  "completedHabitual": 9,
+  "completedInsolita": 8,
+  "catalogVersion": "0.1.147",
+  "imported": 17,
   "collectionId": "cace-n9-sequencies",
   "publicationAuthorization": {
     "date": "2026-11-21",
-    "instruction": "D'acord, ja pots començar a genera i publicar aquestes imatges",
+    "instruction": "Continua generant, revisant i publicant les 196 imatges N9 que falten, vigilant les proporcions, la perspectiva i la coherència entre vinyetes.",
     "generation": true,
     "import": true,
     "publication": true
@@ -249,5 +236,12 @@
     "commit": "52618480ca065a6dbbc836560b9e80be789a1768",
     "publicVerification": "output/n9-publication-0.1.146.json",
     "status": "public-catalog-and-downloads-verified"
+  },
+  "resumeBaseline": {
+    "head": "9058385fe64d60ce59995edbc35ce1e2a5adb6d5",
+    "version": "0.1.146",
+    "images": 3873,
+    "words": 861,
+    "existingN9": 4
   }
 }

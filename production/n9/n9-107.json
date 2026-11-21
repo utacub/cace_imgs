@@ -1,0 +1,118 @@
+{
+  "constructionId": "n9-107",
+  "file": "output/production/n9/n9-107/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ELEFANT. Continuity anchor: la capa curta amb tanca rodona i el titella de guant amb orelles llargues. Ordered moments in Catalan: PANEL 1: Es corda la capa. El titella de guant és pla sobre el suport. PANEL 2: Amb la capa cordada, fa moure el titella de guant ben separat del cos.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-107",
+    "number": 107,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-007",
+    "counterpartId": "n9-007",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "elefant · vestir · jugar — disfressa / titella"
+    },
+    "labels": [
+      "ELEFANT",
+      "VESTIR",
+      "JUGAR",
+      "DISFRESSA",
+      "TITELLA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-b059d8ef0bc9",
+      "w-4d2fcaf61d85",
+      "w-6d90f16f5461",
+      "w-a4bdd537cdef",
+      "w-3063ed1cff1f",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-b059d8ef0bc9",
+    "agent": {
+      "label": "ELEFANT",
+      "wordId": "w-b059d8ef0bc9"
+    },
+    "actions": [
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      }
+    ],
+    "referents": [
+      {
+        "label": "DISFRESSA",
+        "wordId": "w-a4bdd537cdef"
+      },
+      {
+        "label": "TITELLA",
+        "wordId": "w-3063ed1cff1f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-4d2fcaf61d85",
+        "evidence": "Es corda la capa. El titella de guant és pla sobre el suport."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-6d90f16f5461",
+        "evidence": "Amb la capa cordada, fa moure el titella de guant ben separat del cos."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la capa curta amb tanca rodona i el titella de guant amb orelles llargues"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:19:15.032Z",
+  "review": "Elefant complet amb mateixa capa i tanca rodona. Titella de guant inert a taula i després a la pota amb boca oberta. Escala constant i extremitats plausibles.",
+  "alt": {
+    "ca": "elefant · vestir · jugar — disfressa / titella.",
+    "es": "ELEFANTE · VESTIR · JUGAR · DISFRAZ · TÍTERE · ANTES · DESPUÉS."
+  },
+  "originalSha256": "4e8532078ad663cbe19e95f00d4f79b5ba5765c87e452fa2262726b54676d439",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:22:49.533Z",
+  "publicationVersion": "0.1.147",
+  "importedAt": "2026-11-21T12:24:55.794290+00:00"
+}

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.146",
+  "version": "0.1.147",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,990 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-003",
+      "src": "assets/constructions/n9/n9-003.webp",
+      "title": {
+        "ca": "noia · obrir · jugar — caixa / puzle",
+        "es": "CHICA · ABRIR · JUGAR · CAJA · PUZZLE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · obrir · jugar — caixa / puzle.",
+        "es": "CHICA · ABRIR · JUGAR · CAJA · PUZZLE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-a10b29af07c7",
+        "w-6d90f16f5461",
+        "w-696b7c739d30",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-a10b29af07c7",
+        "w-6d90f16f5461",
+        "w-696b7c739d30",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:17:25.824Z",
+      "target": "n9-003",
+      "constructionId": "n9-003",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Separa la tapa. Es veuen totes les peces dins, encara desmuntades."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Encaixa dues peces sobre la taula. La caixa oberta conté la resta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa baixa amb una osca i les peces grosses de la mateixa escena geomètrica"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6739898a3158811db523c4968d4e3f029e031d900471bd990d7b97dc7de2b846",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c0833e5daed3a36f1f66868042deb9e5001f6c517238cf34680f10e745310ce7"
+    },
+    {
+      "id": "cace-n9-004",
+      "src": "assets/constructions/n9/n9-004.webp",
+      "title": {
+        "ca": "noi · obrir · beure — bossa de mà / got",
+        "es": "CHICO · ABRIR · BEBER · BOLSA DE MANO · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · obrir · beure — bossa de mà / got.",
+        "es": "CHICO · ABRIR · BEBER · BOLSA DE MANO · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-a10b29af07c7",
+        "w-a5ddba336d84",
+        "w-227ea9ad182c",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-a10b29af07c7",
+        "w-a5ddba336d84",
+        "w-227ea9ad182c",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:17:26.024Z",
+      "target": "n9-004",
+      "constructionId": "n9-004",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Obre la bossa i deixa el got visible a dins."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-a5ddba336d84",
+          "evidence": "Beu pel broc del got. La bossa queda oberta a la mateixa banda."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa amb nansa trenada i el got transparent amb tapa de broc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "23cd4cccd07929b4443ac235378580e4264c40489774f2322533cd5709e53260",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "83c2311a17ddd6aa6fd5cae04f2e7524213fdd3858bfa838992f0437421a73d9"
+    },
+    {
+      "id": "cace-n9-005",
+      "src": "assets/constructions/n9/n9-005.webp",
+      "title": {
+        "ca": "dona · vestir · plantar — davantal / planta",
+        "es": "MUJER · VESTIR · PLANTAR · DELANTAL · PLANTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · vestir · plantar — davantal / planta.",
+        "es": "MUJER · VESTIR · PLANTAR · DELANTAL · PLANTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-4d2fcaf61d85",
+        "w-6af4a2a10994",
+        "w-df5e5b442a24",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-4d2fcaf61d85",
+        "w-6af4a2a10994",
+        "w-df5e5b442a24",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:14.632Z",
+      "target": "n9-005",
+      "constructionId": "n9-005",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Passa el cap per la cinta del davantal, amb les mans netes. La plàntula és al seu test provisional."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6af4a2a10994",
+          "evidence": "Amb el davantal posat, subjecta la mateixa plàntula pel pa de terra i la baixa dins el test definitiu."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el davantal de butxaca rodona i la plàntula de tres fulles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a8cf9691ae0ac17294da14f8b3c6fc05c6a78f5cfc5eccb0663a28e29ed142e5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "35c378ea5c8ab899c010fdada000e41d5c305964382799bd52dd2be7c0b07dee"
+    },
+    {
+      "id": "cace-n9-006",
+      "src": "assets/constructions/n9/n9-006.webp",
+      "title": {
+        "ca": "home · vestir · pintar — bata / caixa",
+        "es": "HOMBRE · VESTIR · PINTAR · BATA · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · vestir · pintar — bata / caixa.",
+        "es": "HOMBRE · VESTIR · PINTAR · BATA · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-4d2fcaf61d85",
+        "w-b04a48827310",
+        "w-002ea7673dd7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-4d2fcaf61d85",
+        "w-b04a48827310",
+        "w-002ea7673dd7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:14.787Z",
+      "target": "n9-006",
+      "constructionId": "n9-006",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Es posa la bata per la segona màniga. La caixa és tota del color del cartró."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Amb la bata posada, passa el pinzell per la caixa i hi deixa una banda ampla."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bata amb vores fosques i la caixa de cantonada escapçada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ff05058d5b5d23887f2fd305ff78be94e59e9957690c2e8844860bdb84aedb18",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6246d7f6c4507ca2caada4d449ce79b1e5fe22a8db739f22065fa17c7165f860"
+    },
+    {
+      "id": "cace-n9-007",
+      "src": "assets/constructions/n9/n9-007.webp",
+      "title": {
+        "ca": "nena · vestir · jugar — disfressa / titella",
+        "es": "NIÑA · VESTIR · JUGAR · DISFRAZ · TÍTERE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · vestir · jugar — disfressa / titella.",
+        "es": "NIÑA · VESTIR · JUGAR · DISFRAZ · TÍTERE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-4d2fcaf61d85",
+        "w-6d90f16f5461",
+        "w-a4bdd537cdef",
+        "w-3063ed1cff1f",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-4d2fcaf61d85",
+        "w-6d90f16f5461",
+        "w-a4bdd537cdef",
+        "w-3063ed1cff1f",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:14.947Z",
+      "target": "n9-007",
+      "constructionId": "n9-007",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Es corda la capa. El titella de guant és pla sobre el suport."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Amb la capa cordada, fa moure el titella de guant ben separat del cos."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la capa curta amb tanca rodona i el titella de guant amb orelles llargues"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6cff81a9c28503d2b6313b0c89c940184faf7a9f96726ef962523298f45a0d47",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9303121bd02b7c3683c2d4dcfe91a94da5711d57666e5df812ee888f6a65a3e4"
+    },
+    {
+      "id": "cace-n9-008",
+      "src": "assets/constructions/n9/n9-008.webp",
+      "title": {
+        "ca": "nen · vestir · ballar — sabates",
+        "es": "NIÑO · VESTIR · BAILAR · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · vestir · ballar — sabates.",
+        "es": "NIÑO · VESTIR · BAILAR · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-4d2fcaf61d85",
+        "w-7808c37127c0",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-4d2fcaf61d85",
+        "w-7808c37127c0",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:15.109Z",
+      "target": "n9-008",
+      "constructionId": "n9-008",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Acaba de calçar la segona sabata en postura asseguda."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-7808c37127c0",
+          "evidence": "Amb totes dues sabates posades, fa un pas de ball amb braços i cames en una postura estable i expressiva."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les sabates amb dues bandes laterals"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "67dc012f0dbb5db06f29685e7c1aa4264abd6c202d81af122caeb94c04250a72",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b14f501039a84966497a42892a007b3f639acbbbc1d1a5becc147cb016bfe189"
+    },
+    {
+      "id": "cace-n9-009",
+      "src": "assets/constructions/n9/n9-009.webp",
+      "title": {
+        "ca": "noia · posar · llegir — ulleres / revista",
+        "es": "CHICA · PONER · LEER · GAFAS · REVISTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · posar · llegir — ulleres / revista.",
+        "es": "CHICA · PONER · LEER · GAFAS · REVISTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-ef0bd41d6ee3",
+        "w-2ab74322bbef",
+        "w-21bb2302223c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-ef0bd41d6ee3",
+        "w-2ab74322bbef",
+        "w-21bb2302223c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:15.298Z",
+      "target": "n9-009",
+      "constructionId": "n9-009",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "S’acosta les ulleres als ulls amb totes dues mans. La revista encara és tancada."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-ef0bd41d6ee3",
+          "evidence": "Amb les ulleres posades, mira la doble pàgina oberta amb fotografies i espais muts."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la muntura ovalada i la revista amb una coberta geomètrica"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "4575d368d7c6159051f38616c9daf4d6d1a21fede8cc97b222bff01ae2d1496e",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fe159a733b96305ff639844a11da666b0583c5c78e4cbf81daa26f0e3c93319d"
+    },
+    {
+      "id": "cace-n9-103",
+      "src": "assets/constructions/n9/n9-103.webp",
+      "title": {
+        "ca": "gos · obrir · jugar — caixa / puzle",
+        "es": "PERRO · ABRIR · JUGAR · CAJA · PUZZLE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · obrir · jugar — caixa / puzle.",
+        "es": "PERRO · ABRIR · JUGAR · CAJA · PUZZLE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-a10b29af07c7",
+        "w-6d90f16f5461",
+        "w-696b7c739d30",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-a10b29af07c7",
+        "w-6d90f16f5461",
+        "w-696b7c739d30",
+        "w-0006cf1ffdae",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:17:25.935Z",
+      "target": "n9-103",
+      "constructionId": "n9-103",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Separa la tapa. Es veuen totes les peces dins, encara desmuntades."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Encaixa dues peces sobre la taula. La caixa oberta conté la resta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la caixa baixa amb una osca i les peces grosses de la mateixa escena geomètrica"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4616dadd43c246a33203fbd5ab5aa7cf85918f06dc68fba7aa0dbc6de7580784",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "dbdd21a733239f05a4b04e95050207d1264cff715a45dde17c145755e7815edd"
+    },
+    {
+      "id": "cace-n9-104",
+      "src": "assets/constructions/n9/n9-104.webp",
+      "title": {
+        "ca": "ós · obrir · beure — bossa de mà / got",
+        "es": "OSO · ABRIR · BEBER · BOLSA DE MANO · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · obrir · beure — bossa de mà / got.",
+        "es": "OSO · ABRIR · BEBER · BOLSA DE MANO · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-a10b29af07c7",
+        "w-a5ddba336d84",
+        "w-227ea9ad182c",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-a10b29af07c7",
+        "w-a5ddba336d84",
+        "w-227ea9ad182c",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:17:26.151Z",
+      "target": "n9-104",
+      "constructionId": "n9-104",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-a10b29af07c7",
+          "evidence": "Obre la bossa i deixa el got visible a dins."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-a5ddba336d84",
+          "evidence": "Beu pel broc del got. La bossa queda oberta a la mateixa banda."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa amb nansa trenada i el got transparent amb tapa de broc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "f8f0f0ff0318c5543ad70820851ef00e1e013dc40b60492f811de9ba268e5e21",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5d2b4327c93db3cbec1369460c208e24274016023e0f2f7421e81d283bb88a56"
+    },
+    {
+      "id": "cace-n9-105",
+      "src": "assets/constructions/n9/n9-105.webp",
+      "title": {
+        "ca": "mico · vestir · plantar — davantal / planta",
+        "es": "MONO · VESTIR · PLANTAR · DELANTAL · PLANTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · vestir · plantar — davantal / planta.",
+        "es": "MONO · VESTIR · PLANTAR · DELANTAL · PLANTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-4d2fcaf61d85",
+        "w-6af4a2a10994",
+        "w-df5e5b442a24",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-4d2fcaf61d85",
+        "w-6af4a2a10994",
+        "w-df5e5b442a24",
+        "w-03d524b232d7",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:14.709Z",
+      "target": "n9-105",
+      "constructionId": "n9-105",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Passa el cap per la cinta del davantal, amb les mans netes. La plàntula és al seu test provisional."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6af4a2a10994",
+          "evidence": "Amb el davantal posat, subjecta la mateixa plàntula pel pa de terra i la baixa dins el test definitiu."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el davantal de butxaca rodona i la plàntula de tres fulles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "2d5994253830e6e094a5820e8bde36d881837255dcce7759bd8871e7026f4033",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a95c64ca56319dbf5393733556eba77a9092e8171a053b4c608cf0ee86bc653b"
+    },
+    {
+      "id": "cace-n9-106",
+      "src": "assets/constructions/n9/n9-106.webp",
+      "title": {
+        "ca": "esquirol · vestir · pintar — bata / caixa",
+        "es": "ARDILLA · VESTIR · PINTAR · BATA · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · vestir · pintar — bata / caixa.",
+        "es": "ARDILLA · VESTIR · PINTAR · BATA · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-4d2fcaf61d85",
+        "w-b04a48827310",
+        "w-002ea7673dd7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-4d2fcaf61d85",
+        "w-b04a48827310",
+        "w-002ea7673dd7",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:14.866Z",
+      "target": "n9-106",
+      "constructionId": "n9-106",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Es posa la bata per la segona màniga. La caixa és tota del color del cartró."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Amb la bata posada, passa el pinzell per la caixa i hi deixa una banda ampla."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bata amb vores fosques i la caixa de cantonada escapçada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "7a08613bdbf4b8f49d2300a98f69ef9ab603b759ead85c6e963f8916d9a5515b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ac45ba86f6c42b17e063fb6734fbdaf7314f00c22f3539c35ad1e1a6b237899a"
+    },
+    {
+      "id": "cace-n9-107",
+      "src": "assets/constructions/n9/n9-107.webp",
+      "title": {
+        "ca": "elefant · vestir · jugar — disfressa / titella",
+        "es": "ELEFANTE · VESTIR · JUGAR · DISFRAZ · TÍTERE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · vestir · jugar — disfressa / titella.",
+        "es": "ELEFANTE · VESTIR · JUGAR · DISFRAZ · TÍTERE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-4d2fcaf61d85",
+        "w-6d90f16f5461",
+        "w-a4bdd537cdef",
+        "w-3063ed1cff1f",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-4d2fcaf61d85",
+        "w-6d90f16f5461",
+        "w-a4bdd537cdef",
+        "w-3063ed1cff1f",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:15.032Z",
+      "target": "n9-107",
+      "constructionId": "n9-107",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Es corda la capa. El titella de guant és pla sobre el suport."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Amb la capa cordada, fa moure el titella de guant ben separat del cos."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la capa curta amb tanca rodona i el titella de guant amb orelles llargues"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "4e8532078ad663cbe19e95f00d4f79b5ba5765c87e452fa2262726b54676d439",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "80aa8e59be17ce529155a6e0f6a0eebd0b7564709057ad59414e055c2ffdb696"
+    },
+    {
+      "id": "cace-n9-108",
+      "src": "assets/constructions/n9/n9-108.webp",
+      "title": {
+        "ca": "ruc · vestir · ballar — sabates",
+        "es": "BURRO · VESTIR · BAILAR · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · vestir · ballar — sabates.",
+        "es": "BURRO · VESTIR · BAILAR · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-4d2fcaf61d85",
+        "w-7808c37127c0",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-4d2fcaf61d85",
+        "w-7808c37127c0",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:19:15.176Z",
+      "target": "n9-108",
+      "constructionId": "n9-108",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-4d2fcaf61d85",
+          "evidence": "Acaba de calçar la segona sabata en postura asseguda."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-7808c37127c0",
+          "evidence": "Amb totes dues sabates posades, fa un pas de ball amb braços i cames en una postura estable i expressiva."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "les sabates amb dues bandes laterals"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "01f154f50a21bb52c804c59fbabdad2a6d0990686e92a3df335800e64b10c3fb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d1eb2e5e1adb3e3f478bb829c0f683395f9f66c1f1901b3026f714b6b6bb6ff4"
+    },
     {
       "id": "cace-n9-102",
       "src": "assets/constructions/n9/n9-102.webp",
@@ -158771,7 +159755,20 @@
         "cace-n9-001",
         "cace-n9-101",
         "cace-n9-002",
-        "cace-n9-102"
+        "cace-n9-102",
+        "cace-n9-003",
+        "cace-n9-004",
+        "cace-n9-005",
+        "cace-n9-006",
+        "cace-n9-007",
+        "cace-n9-008",
+        "cace-n9-009",
+        "cace-n9-103",
+        "cace-n9-104",
+        "cace-n9-105",
+        "cace-n9-106",
+        "cace-n9-107",
+        "cace-n9-108"
       ]
     }
   ]

@@ -1,0 +1,112 @@
+{
+  "constructionId": "n9-108",
+  "file": "output/production/n9/n9-108/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: RUC. Continuity anchor: les sabates amb dues bandes laterals. Ordered moments in Catalan: PANEL 1: Acaba de calçar la segona sabata en postura asseguda. PANEL 2: Amb totes dues sabates posades, fa un pas de ball amb braços i cames en una postura estable i expressiva.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": true,
+  "status": "accepted",
+  "construction": {
+    "id": "n9-108",
+    "number": 108,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-008",
+    "counterpartId": "n9-008",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "ruc · vestir · ballar — sabates"
+    },
+    "labels": [
+      "RUC",
+      "VESTIR",
+      "BALLAR",
+      "SABATES",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-444243ea062c",
+      "w-4d2fcaf61d85",
+      "w-7808c37127c0",
+      "w-6e2a67944770",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-444243ea062c",
+    "agent": {
+      "label": "RUC",
+      "wordId": "w-444243ea062c"
+    },
+    "actions": [
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "BALLAR",
+        "wordId": "w-7808c37127c0"
+      }
+    ],
+    "referents": [
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-4d2fcaf61d85",
+        "evidence": "Acaba de calçar la segona sabata en postura asseguda."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-7808c37127c0",
+        "evidence": "Amb totes dues sabates posades, fa un pas de ball amb braços i cames en una postura estable i expressiva."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "les sabates amb dues bandes laterals"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:19:15.176Z",
+  "review": "Ruc complet amb banc i sabates de dues bandes estables. Es calça la segona sabata en postura flexionada i després balla amb totes dues posades. Perspectiva, preses i proporcions coherents.",
+  "alt": {
+    "ca": "ruc · vestir · ballar — sabates.",
+    "es": "BURRO · VESTIR · BAILAR · ZAPATOS · ANTES · DESPUÉS."
+  },
+  "originalSha256": "01f154f50a21bb52c804c59fbabdad2a6d0990686e92a3df335800e64b10c3fb",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:22:49.706Z",
+  "publicationVersion": "0.1.147",
+  "importedAt": "2026-11-21T12:24:56.076305+00:00"
+}
