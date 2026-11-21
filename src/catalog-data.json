@@ -1,5 +1,5 @@
 {
-  "version": "0.1.147",
+  "version": "0.1.148",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,762 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-010",
+      "src": "assets/constructions/n9/n9-010.webp",
+      "title": {
+        "ca": "noi · posar · jugar — cistell / pilota",
+        "es": "CHICO · PONER · JUGAR · CESTA · PELOTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · posar · jugar — cistell / pilota.",
+        "es": "CHICO · PONER · JUGAR · CESTA · PELOTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-6d90f16f5461",
+        "w-120fb6b37e88",
+        "w-b7f578451973",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-6d90f16f5461",
+        "w-120fb6b37e88",
+        "w-b7f578451973",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.030Z",
+      "target": "n9-010",
+      "constructionId": "n9-010",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el cistell al centre d’una estora rodona i encara toca la nansa. La pilota és a terra al seu costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Amb el cistell al centre de l’estora, fa un llançament curt de la pilota cap a l’obertura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cistell obert de nansa baixa i la pilota amb un cercle gran"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9b35f583f453dccf37afee2dc8efcfa911553e3347e90347f9f4fc4f873dc431",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "40c987bc5c94985e0593708a0f4df3040ca6457dbd245103e7551b30f0522cbc"
+    },
+    {
+      "id": "cace-n9-011",
+      "src": "assets/constructions/n9/n9-011.webp",
+      "title": {
+        "ca": "dona · posar · dibuixar — paper / llapis",
+        "es": "MUJER · PONER · DIBUJAR · PAPEL · LÁPIZ · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · posar · dibuixar — paper / llapis.",
+        "es": "MUJER · PONER · DIBUJAR · PAPEL · LÁPIZ · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-2e0a67ac121f",
+        "w-cd5c60f0d076",
+        "w-1775aa96869e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-2e0a67ac121f",
+        "w-cd5c60f0d076",
+        "w-1775aa96869e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.168Z",
+      "target": "n9-011",
+      "constructionId": "n9-011",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Alinea el full blanc davant seu. El llapis encara reposa al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "El llapis deixa el traç d’una flor sobre el full."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full amb un angle arrodonit i el llapis gruixut"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "dd5d52f33ebdb7518c0bb1c60a3c1c8f923bdb2fedd8a21de88eb89786c7ddff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "950f48245ada4efd689b62df6c54d9a09859c2620c2998b5fba8a0aca778c012"
+    },
+    {
+      "id": "cace-n9-012",
+      "src": "assets/constructions/n9/n9-012.webp",
+      "title": {
+        "ca": "home · posar · menjar — plat / pastís",
+        "es": "HOMBRE · PONER · COMER · PLATO · PASTEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · posar · menjar — plat / pastís.",
+        "es": "HOMBRE · PONER · COMER · PLATO · PASTEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-c248ebfe6f67",
+        "w-55d250f4cf1e",
+        "w-d7e3d6f746de",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-c248ebfe6f67",
+        "w-55d250f4cf1e",
+        "w-d7e3d6f746de",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.315Z",
+      "target": "n9-012",
+      "constructionId": "n9-012",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el tall sencer sobre el plat, agafat amb una pala de servir."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "La forquilla porta un bocí a la boca. Al tall hi ha el buit corresponent."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat amb vora ondulada i el tall de pastís de dues capes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "310abbf66352b3516d945652c75d1d317b8fd17bdc504ce327021c940d36feb0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6aaaeeeae6f4c14d0dc71d54c88dd664b4cb3db760242dc2bdb4c75f29932744"
+    },
+    {
+      "id": "cace-n9-013",
+      "src": "assets/constructions/n9/n9-013.webp",
+      "title": {
+        "ca": "nena · agafar · olorar — flor",
+        "es": "NIÑA · COGER · OLER · FLOR · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · agafar · olorar — flor.",
+        "es": "NIÑA · COGER · OLER · FLOR · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-677819a0a32a",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-677819a0a32a",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.464Z",
+      "target": "n9-013",
+      "constructionId": "n9-013",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-677819a0a32a",
+          "evidence": "Aplega els dits al voltant de la tija mentre la flor encara és al cistell."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-fc006ad2b6a7",
+          "evidence": "Apropa la mateixa flor al nas amb la tija lliure del cistell."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la flor amb cinc pètals amples i un capoll lateral"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "31ec409156f48b16ce084db9744a3507b5e3338d3bed7dac1a1746fa9b077cab",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5a3ba01ef34ea2a74e0e10e33c86d72bcd05258c9971510169215748d4893e4d"
+    },
+    {
+      "id": "cace-n9-015",
+      "src": "assets/constructions/n9/n9-015.webp",
+      "title": {
+        "ca": "noia · agafar · netejar — esponja / mirall",
+        "es": "CHICA · COGER · LIMPIAR · ESPONJA · ESPEJO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · agafar · netejar — esponja / mirall.",
+        "es": "CHICA · COGER · LIMPIAR · ESPONJA · ESPEJO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-677819a0a32a",
+        "w-4e6be686e7c1",
+        "w-2d404e0d8979",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-677819a0a32a",
+        "w-4e6be686e7c1",
+        "w-2d404e0d8979",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.767Z",
+      "target": "n9-015",
+      "constructionId": "n9-015",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-677819a0a32a",
+          "evidence": "Agafa l’esponja seca al costat del mirall, que té un esquitx de fang gran."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Amb l’esponja en contacte, deixa una passada neta clarament visible al mirall."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "l’esponja oval i el mirall amb marc de doble cantell"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a5b1b8974cc45ede871bdd919c7c71c14104f68ff423b044314ea9037f4113ba",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0d984e2e3ccaa905503a779ae611196d314f488c48086a8c22f1c711bfddddd8"
+    },
+    {
+      "id": "cace-n9-109",
+      "src": "assets/constructions/n9/n9-109.webp",
+      "title": {
+        "ca": "tortuga · posar · llegir — ulleres / revista",
+        "es": "TORTUGA · PONER · LEER · GAFAS · REVISTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · posar · llegir — ulleres / revista.",
+        "es": "TORTUGA · PONER · LEER · GAFAS · REVISTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-c211f7486a30",
+        "w-ef0bd41d6ee3",
+        "w-2ab74322bbef",
+        "w-21bb2302223c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-c211f7486a30",
+        "w-ef0bd41d6ee3",
+        "w-2ab74322bbef",
+        "w-21bb2302223c",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:35.963Z",
+      "target": "n9-109",
+      "constructionId": "n9-109",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "S’acosta les ulleres als ulls amb totes dues mans. La revista encara és tancada."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-ef0bd41d6ee3",
+          "evidence": "Amb les ulleres posades, mira la doble pàgina oberta amb fotografies i espais muts."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la muntura ovalada i la revista amb una coberta geomètrica"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3e7e34af99a4ab890c7bb2e28114fe201cd69db552685d2ed961cb42d3e73f9c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7abbe5f7c9f03596a100f82e28eb38505e25702d75e055dd98584c3a11cac069"
+    },
+    {
+      "id": "cace-n9-110",
+      "src": "assets/constructions/n9/n9-110.webp",
+      "title": {
+        "ca": "porc · posar · jugar — cistell / pilota",
+        "es": "CERDO · PONER · JUGAR · CESTA · PELOTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · posar · jugar — cistell / pilota.",
+        "es": "CERDO · PONER · JUGAR · CESTA · PELOTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-6d90f16f5461",
+        "w-120fb6b37e88",
+        "w-b7f578451973",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-c211f7486a30",
+        "w-6d90f16f5461",
+        "w-120fb6b37e88",
+        "w-b7f578451973",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.102Z",
+      "target": "n9-110",
+      "constructionId": "n9-110",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el cistell al centre d’una estora rodona i encara toca la nansa. La pilota és a terra al seu costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-6d90f16f5461",
+          "evidence": "Amb el cistell al centre de l’estora, fa un llançament curt de la pilota cap a l’obertura."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cistell obert de nansa baixa i la pilota amb un cercle gran"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3ac945c0f7d847b92d6c094c617a7e54101fcaa10e205b691ae1ba47061add5c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3142988e5491e3be050536a442b669d5025dbbe450f20609e120dc9c7106dde2"
+    },
+    {
+      "id": "cace-n9-111",
+      "src": "assets/constructions/n9/n9-111.webp",
+      "title": {
+        "ca": "conill · posar · dibuixar — paper / llapis",
+        "es": "CONEJO · PONER · DIBUJAR · PAPEL · LÁPIZ · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · posar · dibuixar — paper / llapis.",
+        "es": "CONEJO · PONER · DIBUJAR · PAPEL · LÁPIZ · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-2e0a67ac121f",
+        "w-cd5c60f0d076",
+        "w-1775aa96869e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-2e0a67ac121f",
+        "w-cd5c60f0d076",
+        "w-1775aa96869e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.239Z",
+      "target": "n9-111",
+      "constructionId": "n9-111",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Alinea el full blanc davant seu. El llapis encara reposa al costat."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-2e0a67ac121f",
+          "evidence": "El llapis deixa el traç d’una flor sobre el full."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full amb un angle arrodonit i el llapis gruixut"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "be8a0f21f2f20383f965d1deaf287c80c5bfaf833d61e4a893a288888b938f26",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3ca77604efcb3df0e9584d170362efd3674d52cf9e5b0b273a33c55a413c380e"
+    },
+    {
+      "id": "cace-n9-112",
+      "src": "assets/constructions/n9/n9-112.webp",
+      "title": {
+        "ca": "gat · posar · menjar — plat / pastís",
+        "es": "GATO · PONER · COMER · PLATO · PASTEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · posar · menjar — plat / pastís.",
+        "es": "GATO · PONER · COMER · PLATO · PASTEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-c211f7486a30",
+        "w-c248ebfe6f67",
+        "w-55d250f4cf1e",
+        "w-d7e3d6f746de",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-c211f7486a30",
+        "w-c248ebfe6f67",
+        "w-55d250f4cf1e",
+        "w-d7e3d6f746de",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.391Z",
+      "target": "n9-112",
+      "constructionId": "n9-112",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Posa el tall sencer sobre el plat, agafat amb una pala de servir."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-c248ebfe6f67",
+          "evidence": "La forquilla porta un bocí a la boca. Al tall hi ha el buit corresponent."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat amb vora ondulada i el tall de pastís de dues capes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "5debf8f70e5f3884afd68aefad207a944a644f6c96ccd7dddd2da678c1110160",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "403b0772729bae3d25893ac4d6efefc6d68cd85b60067b1784e247741f630652"
+    },
+    {
+      "id": "cace-n9-113",
+      "src": "assets/constructions/n9/n9-113.webp",
+      "title": {
+        "ca": "gos · agafar · olorar — flor",
+        "es": "PERRO · COGER · OLER · FLOR · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · agafar · olorar — flor.",
+        "es": "PERRO · COGER · OLER · FLOR · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-677819a0a32a",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-677819a0a32a",
+        "w-fc006ad2b6a7",
+        "w-6c5def9143c8",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T12:24:36.537Z",
+      "target": "n9-113",
+      "constructionId": "n9-113",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": "w-677819a0a32a",
+          "evidence": "Aplega els dits al voltant de la tija mentre la flor encara és al cistell."
+        },
+        {
+          "number": 2,
+          "role": "final",
+          "actionWordId": "w-fc006ad2b6a7",
+          "evidence": "Apropa la mateixa flor al nas amb la tija lliure del cistell."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la flor amb cinc pètals amples i un capoll lateral"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "72524a0befc78dd35677e2749ffde730ccdff0e2d8d1441840f68b887d6b67ce",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "7a48c3b66093771ffb95a849ce8ac2140bb457103af6f6504a57e88b0c5a555d"
+    },
     {
       "id": "cace-n9-003",
       "src": "assets/constructions/n9/n9-003.webp",
@@ -159768,7 +160524,17 @@
         "cace-n9-105",
         "cace-n9-106",
         "cace-n9-107",
-        "cace-n9-108"
+        "cace-n9-108",
+        "cace-n9-010",
+        "cace-n9-011",
+        "cace-n9-012",
+        "cace-n9-013",
+        "cace-n9-015",
+        "cace-n9-109",
+        "cace-n9-110",
+        "cace-n9-111",
+        "cace-n9-112",
+        "cace-n9-113"
       ]
     }
   ]

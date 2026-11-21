@@ -1,0 +1,100 @@
+{
+  "constructionId": "n9-116",
+  "file": "output/production/n9/n9-116/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ESQUIROL. Continuity anchor: el tobogan baix amb escala lateral i dos passamans. Ordered moments in Catalan: PANEL 1: Puja per l’escala amb un peu en un graó i les mans al passamà. PANEL 2: Baixa assegut per la rampa del mateix tobogan, peus endavant i lluny de l’escala.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-116",
+    "number": 116,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "preparacio-us",
+    "familyId": "n9-f-016",
+    "counterpartId": "n9-016",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · pujar · baixar — tobogan"
+    },
+    "labels": [
+      "ESQUIROL",
+      "PUJAR",
+      "BAIXAR",
+      "TOBOGAN",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-478890c976ea",
+      "w-3638c1a730c8",
+      "w-72ef210216af",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "actions": [
+      {
+        "label": "PUJAR",
+        "wordId": "w-478890c976ea"
+      },
+      {
+        "label": "BAIXAR",
+        "wordId": "w-3638c1a730c8"
+      }
+    ],
+    "referents": [
+      {
+        "label": "TOBOGAN",
+        "wordId": "w-72ef210216af"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": "w-478890c976ea",
+        "evidence": "Puja per l’escala amb un peu en un graó i les mans al passamà."
+      },
+      {
+        "number": 2,
+        "role": "final",
+        "actionWordId": "w-3638c1a730c8",
+        "evidence": "Baixa assegut per la rampa del mateix tobogan, peus endavant i lluny de l’escala."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "el tobogan baix amb escala lateral i dos passamans"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 2,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T12:30:18.432Z"
+}
