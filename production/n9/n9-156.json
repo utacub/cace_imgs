@@ -1,0 +1,100 @@
+{
+  "constructionId": "n9-156",
+  "file": "output/production/n9/n9-156/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ESQUIROL. Continuity anchor: la rajola sense marca amb relleu rectangular. Ordered moments in Catalan: PANEL 1: Rajola sencera de quatre files sobre una safata. PANEL 2: Parteix la rajola amb totes dues mans per una incisió. Es veu l’escletxa del trencament. PANEL 3: Dues peces grans, una amb una sola fila i l’altra amb tres, ensenyen les vores fracturades.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "drawing",
+  "variant": "pla-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-156",
+    "number": 156,
+    "level": 9,
+    "group": "insolita",
+    "sequenceType": "forma",
+    "familyId": "n9-f-056",
+    "counterpartId": "n9-056",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "title": {
+      "ca": "esquirol · trencar — xocolata"
+    },
+    "labels": [
+      "ESQUIROL",
+      "TRENCAR",
+      "XOCOLATA",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-081a45716a49",
+      "w-1f4f66a7bc82",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "agent": {
+      "label": "ESQUIROL",
+      "wordId": "w-cc5063e253e2"
+    },
+    "actions": [
+      {
+        "label": "TRENCAR",
+        "wordId": "w-081a45716a49"
+      }
+    ],
+    "referents": [
+      {
+        "label": "XOCOLATA",
+        "wordId": "w-1f4f66a7bc82"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": null,
+        "evidence": "Rajola sencera de quatre files sobre una safata."
+      },
+      {
+        "number": 2,
+        "role": "transicio",
+        "actionWordId": "w-081a45716a49",
+        "evidence": "Parteix la rajola amb totes dues mans per una incisió. Es veu l’escletxa del trencament."
+      },
+      {
+        "number": 3,
+        "role": "final",
+        "actionWordId": null,
+        "evidence": "Dues peces grans, una amb una sola fila i l’altra amb tres, ensenyen les vores fracturades."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "la rajola sense marca amb relleu rectangular"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T13:23:39.177Z"
+}

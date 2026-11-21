@@ -1,5 +1,5 @@
 {
-  "version": "0.1.152",
+  "version": "0.1.153",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1410 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-048",
+      "src": "assets/constructions/n9/n9-048.webp",
+      "title": {
+        "ca": "home · tallar — meló",
+        "es": "HOMBRE · CORTAR · MELÓN · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · tallar — meló.",
+        "es": "HOMBRE · CORTAR · MELÓN · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-6e26418723da",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-6e26418723da",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.167Z",
+      "target": "n9-048",
+      "constructionId": "n9-048",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Meló sencer amb ratlles llargues visibles."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla una porció gran, encara unida per una part de l’escorça. La polpa es veu per l’obertura."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La porció tombada i el meló mostren la mateixa polpa i la continuïtat de dues ratlles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el meló ratllat de base oval"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "20b238a22a432698c6ec9e21d475eaafb90fce42b9b325a7349479201cd49344",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "88c375a8b193a7b83da6ddd89c1e2f86b0a9ad6f330932c956a40eac580d7dc3"
+    },
+    {
+      "id": "cace-n9-049",
+      "src": "assets/constructions/n9/n9-049.webp",
+      "title": {
+        "ca": "dona · tallar — pera",
+        "es": "MUJER · CORTAR · PERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · tallar — pera.",
+        "es": "MUJER · CORTAR · PERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-9630a1d828c9",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-7a101d803c16",
+        "w-9630a1d828c9",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.345Z",
+      "target": "n9-049",
+      "constructionId": "n9-049",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pera sencera recolzada sobre el costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "El tallador entra per la part ampla. Es veu el cantell moll d’una falca encara unida."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Falca separada amb la secció de la piga i la resta de la pera amb el peduncle."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pera amb un peduncle llarg i una piga clara"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "7ad246addc749af1e3b97972f42218255dbba1637b045b87cf4260c8fd4348c5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "219d2feb88c6f14d4bab72ebc7dd65b5ff9de9472ad29d3b06d7026258985043"
+    },
+    {
+      "id": "cace-n9-050",
+      "src": "assets/constructions/n9/n9-050.webp",
+      "title": {
+        "ca": "home · tallar — entrepà",
+        "es": "HOMBRE · CORTAR · BOCADILLO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · tallar — entrepà.",
+        "es": "HOMBRE · CORTAR · BOCADILLO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-7a101d803c16",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.528Z",
+      "target": "n9-050",
+      "constructionId": "n9-050",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Entrepà rectangular sencer amb dues capes visibles."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla en diagonal mentre subjecta l’entrepà per la punta oposada."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues meitats triangulars separades, amb la línia de tall corresponent."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "l’entrepà pla de vores torrades i farciment verd visible"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "74065f1a64b4308272b338e10d5982b71808fde7e0090c28f9fc41891eae4af2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "9e126ba7b7962e1ed57c16a7d60a6a51c808a3903fc9dca68b3c220e5044ee2f"
+    },
+    {
+      "id": "cace-n9-051",
+      "src": "assets/constructions/n9/n9-051.webp",
+      "title": {
+        "ca": "noia · estripar — paper",
+        "es": "CHICA · RASGAR · PAPEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · estripar — paper.",
+        "es": "CHICA · RASGAR · PAPEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.723Z",
+      "target": "n9-051",
+      "constructionId": "n9-051",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Full enter subjectat pels angles superiors."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Obre amb dues mans un esquinç irregular pel mig. Una part del full encara uneix els dos costats."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues meitats ensenyen vores dentades complementàries i el patró de punts partit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full blanc amb punts dibuixats que travessen el centre"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "f0f35b5ebd19b061160b2687cdc7161b90b5508007d925c8132200e7450bbb2d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "539ec028964ac01fe3ac7ba1ade39ae8aa93ff155fb26a8622bec9cadb88421a"
+    },
+    {
+      "id": "cace-n9-052",
+      "src": "assets/constructions/n9/n9-052.webp",
+      "title": {
+        "ca": "noi · estripar — carta",
+        "es": "CHICO · RASGAR · CARTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · estripar — carta.",
+        "es": "CHICO · RASGAR · CARTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-d6ff14eb6fb5",
+        "w-c80ed8fe0391",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-d6ff14eb6fb5",
+        "w-c80ed8fe0391",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.917Z",
+      "target": "n9-052",
+      "constructionId": "n9-052",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "La carta, desplegada i sencera, mostra una flor dibuixada. El sobre obert és al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Esquinça la carta pel centre de la flor amb totes dues mans. El sobre continua sencer."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els dos trossos al costat del mateix sobre es poden reunir visualment per recompondre la flor."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carta muda amb un dibuix gran i de traç senzill i el seu sobre"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1c4ab1280305c06f5a0bdd8d4a143a96b178d6a00d83b9dfa3ef3e7e742a0d7a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a233f903562d9eafcfeab5b031e546bc3c4a557fd9fefd4be344f38c6cab7084"
+    },
+    {
+      "id": "cace-n9-053",
+      "src": "assets/constructions/n9/n9-053.webp",
+      "title": {
+        "ca": "nena · estripar — diari",
+        "es": "NIÑA · RASGAR · DIARIO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · estripar — diari.",
+        "es": "NIÑA · RASGAR · DIARIO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-125b3c1951ac",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-d6ff14eb6fb5",
+        "w-125b3c1951ac",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.093Z",
+      "target": "n9-053",
+      "constructionId": "n9-053",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Un full de diari de gran format, sencer i obert."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Estira dues puntes i esquinça el full a través de la fotografia."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els fragments de la mateixa muntanya queden separats i orientats igual."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el diari plegat amb una fotografia de muntanya i sense lletres"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "1b565acd7d101f27751f60c83e11d794b95022b9347dc82362fb0e8ecb6b18cb",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e8737c538a4b5d88870945f1239b4369795d15af42dbade7010ac2ac97de5d0b"
+    },
+    {
+      "id": "cace-n9-054",
+      "src": "assets/constructions/n9/n9-054.webp",
+      "title": {
+        "ca": "nen · estripar — bossa",
+        "es": "NIÑO · RASGAR · BOLSA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · estripar — bossa.",
+        "es": "NIÑO · RASGAR · BOLSA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-d6ff14eb6fb5",
+        "w-7db8d682fed4",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-d6ff14eb6fb5",
+        "w-7db8d682fed4",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.319Z",
+      "target": "n9-054",
+      "constructionId": "n9-054",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Bossa de paper sencera, buida i dreta."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Estira la boca de la bossa i obre un esquinç llarg per un costat."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La bossa queda oberta en una làmina irregular. La nansa continua fixada a la mateixa vora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa de paper amb una nansa de cordó fosc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "45055b81e1e62b98f73af137a5273340a30476e3bbe47512091051d06b6288ed",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5b158f25dabc50657707f23351119007c4043ea1d5ed3c77a719549d919fd2b5"
+    },
+    {
+      "id": "cace-n9-055",
+      "src": "assets/constructions/n9/n9-055.webp",
+      "title": {
+        "ca": "nena · trencar — galetes",
+        "es": "NIÑA · ROMPER · GALLETAS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · trencar — galetes.",
+        "es": "NIÑA · ROMPER · GALLETAS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-081a45716a49",
+        "w-eecb1a704a59",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-081a45716a49",
+        "w-eecb1a704a59",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.501Z",
+      "target": "n9-055",
+      "constructionId": "n9-055",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Galeta sencera sostinguda davant d’un plat buit."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-081a45716a49",
+          "evidence": "Flexiona la galeta amb les dues mans. Hi apareix una fractura i cauen molles."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dos bocins separats al plat, amb la mateixa cantonada arrodonida i les molles entre tots dos."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la galeta quadrada amb una de les quatre cantonades rodona"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "31d700b1c5bf9b423ccad6c029192dd7d4583c8adaba8b29c921da964c70ed63",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ab0b964c1ec988618461c2157167090b30cb2dc5a85d6e415a6dcf1a0be8b52f"
+    },
+    {
+      "id": "cace-n9-056",
+      "src": "assets/constructions/n9/n9-056.webp",
+      "title": {
+        "ca": "nen · trencar — xocolata",
+        "es": "NIÑO · ROMPER · CHOCOLATE · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · trencar — xocolata.",
+        "es": "NIÑO · ROMPER · CHOCOLATE · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-081a45716a49",
+        "w-1f4f66a7bc82",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-081a45716a49",
+        "w-1f4f66a7bc82",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:23:39.085Z",
+      "target": "n9-056",
+      "constructionId": "n9-056",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Rajola sencera de quatre files sobre una safata."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-081a45716a49",
+          "evidence": "Parteix la rajola amb totes dues mans per una incisió. Es veu l’escletxa del trencament."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues peces grans, una amb una sola fila i l’altra amb tres, ensenyen les vores fracturades."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la rajola sense marca amb relleu rectangular"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "862fc1c456404ace65bdd9c5f4218099447f2ce03e104772e273d8af354dc5e1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a2cd15ed7ff65fc0e1cd95f400df860e2ddb1b53c29758661ea87ef580b648ac"
+    },
+    {
+      "id": "cace-n9-147",
+      "src": "assets/constructions/n9/n9-147.webp",
+      "title": {
+        "ca": "elefant · tallar — poma",
+        "es": "ELEFANTE · CORTAR · MANZANA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · tallar — poma.",
+        "es": "ELEFANTE · CORTAR · MANZANA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-7a101d803c16",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-7a101d803c16",
+        "w-809c680b5699",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.002Z",
+      "target": "n9-147",
+      "constructionId": "n9-147",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Poma sencera de perfil, amb la frontera entre els dos colors visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla la poma verticalment amb una secció ja visible. Les mans són al mànec i fora del recorregut de la fulla."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues meitats mostren una secció amb llavors. La frontera cromàtica es manté."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la poma de pell bicolor amb una fulla al peduncle"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "49020e7025f38ba07673317f22e50578abf362c2de8d50ac1f124d00da776ad1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "fe2a8e357d21c06a5937a54d1ea86e8a67fd52ba381538ed2a61ec486b8df985"
+    },
+    {
+      "id": "cace-n9-148",
+      "src": "assets/constructions/n9/n9-148.webp",
+      "title": {
+        "ca": "ruc · tallar — meló",
+        "es": "BURRO · CORTAR · MELÓN · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · tallar — meló.",
+        "es": "BURRO · CORTAR · MELÓN · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-7a101d803c16",
+        "w-6e26418723da",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-7a101d803c16",
+        "w-6e26418723da",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.264Z",
+      "target": "n9-148",
+      "constructionId": "n9-148",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Meló sencer amb ratlles llargues visibles."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla una porció gran, encara unida per una part de l’escorça. La polpa es veu per l’obertura."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La porció tombada i el meló mostren la mateixa polpa i la continuïtat de dues ratlles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el meló ratllat de base oval"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b68dc83b11879f294f7cc0194ce0949fe03f405624dffd5f6388ca6bdd88859b",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bd7e9677e5149216ec4e217dba420d65f1f2ae525a4b8054855c7d26b37ad8b7"
+    },
+    {
+      "id": "cace-n9-149",
+      "src": "assets/constructions/n9/n9-149.webp",
+      "title": {
+        "ca": "tortuga · tallar — pera",
+        "es": "TORTUGA · CORTAR · PERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · tallar — pera.",
+        "es": "TORTUGA · CORTAR · PERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-7a101d803c16",
+        "w-9630a1d828c9",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-7a101d803c16",
+        "w-9630a1d828c9",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.439Z",
+      "target": "n9-149",
+      "constructionId": "n9-149",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pera sencera recolzada sobre el costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "El tallador entra per la part ampla. Es veu el cantell moll d’una falca encara unida."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Falca separada amb la secció de la piga i la resta de la pera amb el peduncle."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pera amb un peduncle llarg i una piga clara"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "a462e25aa04ed3907940098bdf1477de231a1b767b856f3e620720664a37a9c1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "3855b3086c26c85acad25477125316851a6f59d21453ab02bb28ed2bae146411"
+    },
+    {
+      "id": "cace-n9-150",
+      "src": "assets/constructions/n9/n9-150.webp",
+      "title": {
+        "ca": "porc · tallar — entrepà",
+        "es": "CERDO · CORTAR · BOCADILLO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · tallar — entrepà.",
+        "es": "CERDO · CORTAR · BOCADILLO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-7a101d803c16",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-7a101d803c16",
+        "w-0c47f11deffa",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.612Z",
+      "target": "n9-150",
+      "constructionId": "n9-150",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Entrepà rectangular sencer amb dues capes visibles."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-7a101d803c16",
+          "evidence": "Talla en diagonal mentre subjecta l’entrepà per la punta oposada."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dues meitats triangulars separades, amb la línia de tall corresponent."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "l’entrepà pla de vores torrades i farciment verd visible"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "92510c9ce903c908d7a1d6ad84f136aed203ff5fe71d6c9393bee9f2c6aef67c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "33e33fc37bdf48c422697a83b3bce0410e9d17cce855f47a51c62bb855e24309"
+    },
+    {
+      "id": "cace-n9-151",
+      "src": "assets/constructions/n9/n9-151.webp",
+      "title": {
+        "ca": "conill · estripar — paper",
+        "es": "CONEJO · RASGAR · PAPEL · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · estripar — paper.",
+        "es": "CONEJO · RASGAR · PAPEL · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-d6ff14eb6fb5",
+        "w-cd5c60f0d076",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:16.818Z",
+      "target": "n9-151",
+      "constructionId": "n9-151",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Full enter subjectat pels angles superiors."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Obre amb dues mans un esquinç irregular pel mig. Una part del full encara uneix els dos costats."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Les dues meitats ensenyen vores dentades complementàries i el patró de punts partit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el full blanc amb punts dibuixats que travessen el centre"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "aaa86b1734ea86796a7cc3d9c39ee4288f277d95b9c957e58f7ca3e7d04ee1a1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "c7ede406a30ccb840448c36b75af1a9f9315d1dba34f447edf39885679d84c70"
+    },
+    {
+      "id": "cace-n9-152",
+      "src": "assets/constructions/n9/n9-152.webp",
+      "title": {
+        "ca": "gat · estripar — carta",
+        "es": "GATO · RASGAR · CARTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · estripar — carta.",
+        "es": "GATO · RASGAR · CARTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-d6ff14eb6fb5",
+        "w-c80ed8fe0391",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-d6ff14eb6fb5",
+        "w-c80ed8fe0391",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.006Z",
+      "target": "n9-152",
+      "constructionId": "n9-152",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "La carta, desplegada i sencera, mostra una flor dibuixada. El sobre obert és al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Esquinça la carta pel centre de la flor amb totes dues mans. El sobre continua sencer."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els dos trossos al costat del mateix sobre es poden reunir visualment per recompondre la flor."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carta muda amb un dibuix gran i de traç senzill i el seu sobre"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "6f6db22cc135019321970641e32b6c43867b294143b3c992faa205f591fba978",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "0459f0aef4183da3c8a170d1cda7ab738fbd976f023aa7856827f3268d37a272"
+    },
+    {
+      "id": "cace-n9-153",
+      "src": "assets/constructions/n9/n9-153.webp",
+      "title": {
+        "ca": "gos · estripar — diari",
+        "es": "PERRO · RASGAR · DIARIO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · estripar — diari.",
+        "es": "PERRO · RASGAR · DIARIO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-d6ff14eb6fb5",
+        "w-125b3c1951ac",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-d6ff14eb6fb5",
+        "w-125b3c1951ac",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.222Z",
+      "target": "n9-153",
+      "constructionId": "n9-153",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Un full de diari de gran format, sencer i obert."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Estira dues puntes i esquinça el full a través de la fotografia."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Els fragments de la mateixa muntanya queden separats i orientats igual."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el diari plegat amb una fotografia de muntanya i sense lletres"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "67bd53d20c1d02b90160c7a949ce993aaf34da5e1b64a3b62b540de0c99dccb2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "bce7cec6af08db6c068f357080b4d83300affcc7e03ea1191d7a0697ad59635b"
+    },
+    {
+      "id": "cace-n9-154",
+      "src": "assets/constructions/n9/n9-154.webp",
+      "title": {
+        "ca": "ós · estripar — bossa",
+        "es": "OSO · RASGAR · BOLSA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · estripar — bossa.",
+        "es": "OSO · RASGAR · BOLSA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-d6ff14eb6fb5",
+        "w-7db8d682fed4",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-d6ff14eb6fb5",
+        "w-7db8d682fed4",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:06:17.410Z",
+      "target": "n9-154",
+      "constructionId": "n9-154",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Bossa de paper sencera, buida i dreta."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-d6ff14eb6fb5",
+          "evidence": "Estira la boca de la bossa i obre un esquinç llarg per un costat."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La bossa queda oberta en una làmina irregular. La nansa continua fixada a la mateixa vora."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la bossa de paper amb una nansa de cordó fosc"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "90c2c11012bdade8adc1880345d5474a4407eb2d7d0a0c68629fff17fddf8b63",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "2bc48ca9ffceae0f62bbc47caae7788b827938341550e927d05256bb68645aaa"
+    },
+    {
+      "id": "cace-n9-155",
+      "src": "assets/constructions/n9/n9-155.webp",
+      "title": {
+        "ca": "mico · trencar — galetes",
+        "es": "MONO · ROMPER · GALLETAS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · trencar — galetes.",
+        "es": "MONO · ROMPER · GALLETAS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-081a45716a49",
+        "w-eecb1a704a59",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-081a45716a49",
+        "w-eecb1a704a59",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:23:39.007Z",
+      "target": "n9-155",
+      "constructionId": "n9-155",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Galeta sencera sostinguda davant d’un plat buit."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-081a45716a49",
+          "evidence": "Flexiona la galeta amb les dues mans. Hi apareix una fractura i cauen molles."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Dos bocins separats al plat, amb la mateixa cantonada arrodonida i les molles entre tots dos."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la galeta quadrada amb una de les quatre cantonades rodona"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "1e138f5deff6fc3410814d8ba61de59d34181ad731f1bb344cabcdacadd41301",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b7807dafde982fd1150cf8ad071c7bbb74b2ea5b2a204cf29ddfbf3a5a2ef0b9"
+    },
     {
       "id": "cace-n9-030",
       "src": "assets/constructions/n9/n9-030.webp",
@@ -165602,7 +167006,25 @@
         "cace-n9-143",
         "cace-n9-144",
         "cace-n9-145",
-        "cace-n9-146"
+        "cace-n9-146",
+        "cace-n9-048",
+        "cace-n9-049",
+        "cace-n9-050",
+        "cace-n9-051",
+        "cace-n9-052",
+        "cace-n9-053",
+        "cace-n9-054",
+        "cace-n9-055",
+        "cace-n9-056",
+        "cace-n9-147",
+        "cace-n9-148",
+        "cace-n9-149",
+        "cace-n9-150",
+        "cace-n9-151",
+        "cace-n9-152",
+        "cace-n9-153",
+        "cace-n9-154",
+        "cace-n9-155"
       ]
     }
   ]
