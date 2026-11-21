@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-081",
   "file": "output/production/n9/n9-081/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has medium brown skin and dark wavy hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOIA (young adult woman). Continuity anchor: el got transparent de base facetada i el mateix líquid clar. Ordered moments in Catalan: PANEL 1: Got buit damunt un suport pla; gerra amb aigua ben visible. PANEL 2: Raig continu cap al got i nivell a mitja alçada. PANEL 3: Got gairebé ple i gerra dreta amb un nivell més baix.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Edit ONLY water levels in this three-panel photograph to make physical volume conservation plausible. Pitcher capacity is roughly 3 glasses. PANEL1 pitcher exactly HALF full and glass completely empty (no horizontal water surface in glass). PANEL2 pitcher tilted with visible water stream into glass at half-full, remaining water level consistent. PANEL3 glass THREE-QUARTERS full and pitcher ONE-QUARTER full. Keep horizontal water surfaces whenever vessels upright, clear transparent water, exact same pitcher and glass geometry and faceted base, same young woman, table, hands, anatomy, background and panels. No text or marks.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-081",
     "number": 81,
@@ -102,5 +102,23 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T13:42:50.235Z"
+  "created": "2026-11-21T13:42:50.235Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-081/rejected-01.png",
+      "reason": "La baixada del nivell de la gerra és excessiva per al volum del got.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has medium brown skin and dark wavy hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOIA (young adult woman). Continuity anchor: el got transparent de base facetada i el mateix líquid clar. Ordered moments in Catalan: PANEL 1: Got buit damunt un suport pla; gerra amb aigua ben visible. PANEL 2: Raig continu cap al got i nivell a mitja alçada. PANEL 3: Got gairebé ple i gerra dreta amb un nivell més baix.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T13:59:06.605Z"
+    }
+  ],
+  "review": "Corregits els nivells: gerra parcialment plena, raig al got i nivell menor final; got facetat i anatomia conservats.",
+  "alt": {
+    "ca": "noia · posar — aigua / got.",
+    "es": "CHICA · PONER · AGUA · VASO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "b5e3822fe9cfcdfbddcc489da091e2397c18e647cd0d3b8bb84337108ac55089",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T14:01:27.162Z"
 }
