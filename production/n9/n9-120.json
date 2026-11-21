@@ -1,11 +1,11 @@
 {
   "constructionId": "n9-120",
   "file": "output/production/n9/n9-120/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: PORC. Continuity anchor: el tauler de recorregut sense signes i el dau gros de cares de colors. Ordered moments in Catalan: PANEL 1: Col·loca el tauler a la taula. El dau i una fitxa encara són al costat. PANEL 2: Amb el tauler pla i la fitxa a la casella de sortida, llança el dau a poca altura i amb la mà oberta.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Remove ONLY the two black curved motion strokes above the airborne colored die in RIGHT PANEL, replacing them with pure white background. Keep pig, hands, die, board, piece, table and chair exactly unchanged in both panels. No motion lines, text or added symbols.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-120",
     "number": 120,
@@ -102,5 +102,25 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T12:30:19.113Z"
+  "created": "2026-11-21T12:30:19.113Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-120/rejected-01.png",
+      "reason": "Línies gràfiques de moviment al dau.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 2 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: PORC. Continuity anchor: el tauler de recorregut sense signes i el dau gros de cares de colors. Ordered moments in Catalan: PANEL 1: Col·loca el tauler a la taula. El dau i una fitxa encara són al costat. PANEL 2: Amb el tauler pla i la fitxa a la casella de sortida, llança el dau a poca altura i amb la mà oberta.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T12:34:32.118Z"
+    }
+  ],
+  "review": "Retirades línies de moviment. Porc complet posa tauler mut i després llança dau de colors; mateixa fitxa i recorregut. Proporcions i perspectiva estables.",
+  "alt": {
+    "ca": "porc · posar · jugar — joc de taula / dau.",
+    "es": "CERDO · PONER · JUGAR · JUEGO DE MESA · DADO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "45a6b2dc3ae7b8dad1b03f3dc5fea25e98a6cad420d36b9b5a53a82e20c0f539",
+  "width": 1774,
+  "height": 887,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T12:35:37.839Z",
+  "publicationVersion": "0.1.149",
+  "importedAt": "2026-11-21T12:36:01.240502+00:00"
 }

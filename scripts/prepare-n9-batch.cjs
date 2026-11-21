@@ -13,6 +13,7 @@ for (const id of selected) {
   const item = plan.items.find(item => item.id === id);
   const prompt = 'Create ONE finished CACE educational temporal sequence image, wide horizontal composition. ' +
     (item.kind === 'photo' ? 'Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy.' : 'Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs.') +
+    (item.kind === 'photo' ? ' Actor has ' + ['deep brown skin and short natural curly hair', 'medium brown skin and dark wavy hair', 'fair skin and straight chestnut hair', 'light brown skin and curly dark hair'][item.number % 4] + '. Preserve this identity exactly across panels.' : '') +
     ' Exactly ' + item.composition.frameCount + ' equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: ' + item.agent.label +
     (agentNames[item.agent.label] ? ' (' + agentNames[item.agent.label] + ')' : '') +
     '. Continuity anchor: ' + item.continuity.anchor + '. Ordered moments in Catalan: ' +
