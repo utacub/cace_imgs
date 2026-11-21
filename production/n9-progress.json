@@ -227,5 +227,27 @@
     "generation": true,
     "import": true,
     "publication": true
+  },
+  "qualityRequirements": [
+    "Proporcions anatòmiques naturals i articulacions plausibles",
+    "Escala constant de persones, animals, objectes i mobiliari entre vinyetes",
+    "Perspectiva coherent de cobertes, fulls, frontisses i recipients",
+    "Continuïtat de formes, materials, roba i trets identificadors",
+    "Contactes i preses físicament plausibles; figures completes amb marges"
+  ],
+  "userCorrections": [
+    {
+      "item": "n9-101",
+      "issue": "Obertura incorrecta i incoherència de perspectiva i dimensions de portada i fulls",
+      "resolution": "Tres intents descartats; vista posterior i edició de la coberta oberta a esquerra amb mides igualades a la pàgina."
+    }
+  ],
+  "publicVerified": 4,
+  "publicVersion": "0.1.146",
+  "publicVerifiedAt": "2026-11-21T11:56:59Z",
+  "lastDeployment": {
+    "commit": "52618480ca065a6dbbc836560b9e80be789a1768",
+    "publicVerification": "output/n9-publication-0.1.146.json",
+    "status": "public-catalog-and-downloads-verified"
   }
 }

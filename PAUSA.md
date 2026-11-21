@@ -1,3 +1,9 @@
+# N9 · Primer lot publicat i verificat · 21/11/2026
+
+4/200 N9 revisades i publicades: 2 fotografies i 2 dibuixos. Catàleg 0.1.146, 3873 imatges i 861 entrades CACE. Les 3869 imatges anteriors preservades. Verificació pública SHA-256 de les quatre descàrregues a 2026-11-21T11:56:59Z. Resten 196 estímuls autoritzats al registre production/n9-progress.json. Correcció del conill n9-101 després de tres descartats per obertura, perspectiva i dimensions del llibre. Revisió reforçada de proporcions, escala, coherència i continuïtat. Originals i descartats a output/production/n9; prompts i revisions a production/n9.
+
+---
+
 # N9 · Producció i publicació autoritzades · 21/11/2026
 
 L’usuari aprova el pla i autoritza generar, revisar i publicar les 200 N9 per lots. Una imatge composta per estímul, 100 fotografies habituals i 100 dibuixos plans insòlits. Revisió individual d’ordre temporal, continuïtat, llegibilitat i anatomia. Preservar les 3869 imatges i 861 entrades CACE anteriors. Pla original a production/n9-plan.json; autorització i progrés a production/n9-progress.json.
