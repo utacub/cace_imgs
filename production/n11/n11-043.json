@@ -1,0 +1,155 @@
+{
+  "construction": {
+    "id": "n11-043",
+    "number": 43,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-143",
+    "title": {
+      "ca": "Un lloc per a la motxilla · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "OBRIR",
+      "GUARDAR",
+      "PORTAR",
+      "MOTXILLA",
+      "CONTE",
+      "CASA",
+      "HABITACIÓ"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-73b71e1ff757",
+      "w-43db0ea26088",
+      "w-22f3876c9741",
+      "w-57ca61c8d99d",
+      "w-23dafac8fd59"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que prepara la motxilla",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que porta el conte",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-043",
+    "familyTitle": "Un lloc per a la motxilla",
+    "settings": [
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té la motxilla oberta sobre el banc d’entrada. B surt de l’habitació amb el conte de l’ocell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A separa les vores de la boca i B hi introdueix el conte amb el dibuix cap enfora."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B sosté la motxilla pel mànec mentre A tanca la cremallera. El conte queda a dins."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A deixa la motxilla a l’espai lliure de la lleixa i B plega el banc abatible, ja buit."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una motxilla amb butxaca semicircular, un conte amb un ocell i una lleixa baixa amb un espai buit."
+    },
+    "narrative": "B porta el conte a A perquè el guardin a la motxilla, que queda desada a la lleixa."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "9e1ddfe5133ffc755a464d3cf8150464befbbfb7f65f9b305faa01ac071630ad",
+      "file": "output/production/n11/n11-043/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUn lloc per a la motxilla. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que prepara la motxilla; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que porta el conte.\nRecurring visual anchors: Una motxilla amb butxaca semicircular, un conte amb un ocell i una lleixa baixa amb un espai buit.\n1. A té la motxilla oberta sobre el banc d’entrada. B surt de l’habitació amb el conte de l’ocell.\n2. A separa les vores de la boca i B hi introdueix el conte amb el dibuix cap enfora.\n3. B sosté la motxilla pel mànec mentre A tanca la cremallera. El conte queda a dins.\n4. A deixa la motxilla a l’espai lliure de la lleixa i B plega el banc abatible, ja buit.",
+      "review": "La dona porta el conte de l’ocell i l’introdueix mentre la nena obre la motxilla. El darrer quadre confirma motxilla a la lleixa i banc recollit.",
+      "reviewedAt": "2026-11-21T21:19:02+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nUn lloc per a la motxilla. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que prepara la motxilla; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que porta el conte.\nRecurring visual anchors: Una motxilla amb butxaca semicircular, un conte amb un ocell i una lleixa baixa amb un espai buit.\n1. A té la motxilla oberta sobre el banc d’entrada. B surt de l’habitació amb el conte de l’ocell.\n2. A separa les vores de la boca i B hi introdueix el conte amb el dibuix cap enfora.\n3. B sosté la motxilla pel mànec mentre A tanca la cremallera. El conte queda a dins.\n4. A deixa la motxilla a l’espai lliure de la lleixa i B plega el banc abatible, ja buit.",
+  "review": "La dona porta el conte de l’ocell i l’introdueix mentre la nena obre la motxilla. El darrer quadre confirma motxilla a la lleixa i banc recollit.",
+  "alt": {
+    "ca": "Una dona porta un conte i una nena obre la motxilla perquè el pugui guardar. La nena deixa la motxilla a la lleixa.",
+    "es": "Una mujer trae un cuento y una niña abre la mochila para que pueda guardarlo. La niña deja la mochila en el estante."
+  },
+  "originalSha256": "9e1ddfe5133ffc755a464d3cf8150464befbbfb7f65f9b305faa01ac071630ad",
+  "file": "output/production/n11/n11-043/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:19:02+00:00",
+  "tool": "ImageGen integrat"
+}

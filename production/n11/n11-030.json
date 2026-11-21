@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-030",
+    "number": 30,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-130",
+    "title": {
+      "ca": "El punt que surt a la foto · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "JUGAR",
+      "AJUDAR",
+      "MIRAR",
+      "CÀMERA",
+      "BÒCCIA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-e67dd0fa47ce",
+      "w-b9b63d370891",
+      "w-468cb6717208",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que acosta les boles",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que fixa el resultat amb la càmera",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-030",
+    "familyTitle": "El punt que surt a la foto",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "CÀMERA",
+        "wordId": "w-b9b63d370891"
+      },
+      {
+        "label": "BÒCCIA",
+        "wordId": "w-468cb6717208"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A acaba de deixar anar la bola de l’anell. B mira la blanca i les dues boles a terra."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B s’ajup amb la càmera i enquadra les tres boles. A indica el buit més curt sense moure-les."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mostra la pantalla amb la mateixa disposició. A acosta la mà oberta al seu costat sense tapar-la."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos comparen la captura amb les tres boles a terra, on la de l’anell continua més a prop de la blanca."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una bola blanca i dues boles toves, una amb anell enfosquit; càmera amb pantalla sense símbols."
+    },
+    "narrative": "A deixa la bola prop de la blanca i B en fa una foto que permet comparar les distàncies amb les originals."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "0c624aa81d2ad79545b23bf408dbb9ddb5467202a43ea7c0e5b232fc23fbdc37",
+      "file": "output/production/n11/n11-030/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl punt que surt a la foto. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que acosta les boles; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el resultat amb la càmera.\nRecurring visual anchors: Una bola blanca i dues boles toves, una amb anell enfosquit; càmera amb pantalla sense símbols.\n1. A acaba de deixar anar la bola de l’anell. B mira la blanca i les dues boles a terra.\n2. B s’ajup amb la càmera i enquadra les tres boles. A indica el buit més curt sense moure-les.\n3. B mostra la pantalla amb la mateixa disposició. A acosta la mà oberta al seu costat sense tapar-la.\n4. Tots dos comparen la captura amb les tres boles a terra, on la de l’anell continua més a prop de la blanca.",
+      "review": "La primera vinyeta presenta quatre boles, tres a terra i una sortint de la mà. La resta només en mostra tres.",
+      "reviewedAt": "2026-11-21T21:17:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

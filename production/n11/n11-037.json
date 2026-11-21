@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-037",
+    "number": 37,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-137",
+    "title": {
+      "ca": "La fireta amb un plat lliure · foto"
+    },
+    "labels": [
+      "NENA",
+      "NEN",
+      "JUGAR",
+      "DONAR",
+      "POSAR",
+      "FIRETA",
+      "PLAT",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b4012100fe09",
+      "w-6d90f16f5461",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-192ce25072c4",
+      "w-55d250f4cf1e",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que prepara la comanda de joguina",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que recull la comanda",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-037",
+    "familyTitle": "La fireta amb un plat lliure",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FIRETA",
+        "wordId": "w-192ce25072c4"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A passa un dels trossos al plat llis amb els dits al costat de la peça."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc."
+    },
+    "narrative": "A reparteix les peces de fireta i B porta el seu plat a la taula on acaben jugant plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "945a69a445bff29c480bb3eac733fa7b6e33e5c12c28fb44540041d4719800af",
+      "file": "output/production/n11/n11-037/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fireta amb un plat lliure. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que prepara la comanda de joguina; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que recull la comanda.\nRecurring visual anchors: Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc.\n1. A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit.\n2. A passa un dels trossos al plat llis amb els dits al costat de la peça.\n3. B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça.\n4. Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat.",
+      "review": "Dos trossos de joc i dos plats estables. La nena reparteix el segon tros i el nen porta el plat llis a la taula, on es troben.",
+      "reviewedAt": "2026-11-21T21:17:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fireta amb un plat lliure. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que prepara la comanda de joguina; B = NEN, samarreta ocre amb dues ratlles blanques al davant, participant que recull la comanda.\nRecurring visual anchors: Dos plats de fireta amb vores diferents, dues peces de pastís de joguina i un taulell de joc.\n1. A té dos trossos de joguina al plat amb vora puntejada. B acosta el seu plat llis buit.\n2. A passa un dels trossos al plat llis amb els dits al costat de la peça.\n3. B porta el plat llis fins al seient i A acosta el puntejat amb la segona peça.\n4. Tots dos comparteixen la mateixa taula de joc, amb una peça sobre cada plat.",
+  "review": "Dos trossos de joc i dos plats estables. La nena reparteix el segon tros i el nen porta el plat llis a la taula, on es troben.",
+  "alt": {
+    "ca": "Una nena posa un tros de pastís de joguina al plat d’un nen. El porten a la taula i juguen amb un tros cadascú.",
+    "es": "Una niña pone un trozo de pastel de juguete en el plato de un niño. Lo llevan a la mesa y juegan con un trozo cada uno."
+  },
+  "originalSha256": "945a69a445bff29c480bb3eac733fa7b6e33e5c12c28fb44540041d4719800af",
+  "file": "output/production/n11/n11-037/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:53+00:00",
+  "tool": "ImageGen integrat"
+}

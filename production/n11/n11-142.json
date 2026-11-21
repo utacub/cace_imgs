@@ -1,0 +1,155 @@
+{
+  "construction": {
+    "id": "n11-142",
+    "number": 142,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-042",
+    "title": {
+      "ca": "La manta al sofà · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "TORTUGA",
+      "PORTAR",
+      "AJUDAR",
+      "POSAR",
+      "MANTA",
+      "SOFÀ",
+      "HABITACIÓ",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-12dcca2ee56e",
+      "w-73b71e1ff757",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-732ff8e447b5",
+      "w-2b6bc3660479",
+      "w-23dafac8fd59",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que porta la manta",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que prepara el sofà",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-042",
+    "familyTitle": "La manta al sofà",
+    "settings": [
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "label": "SOFÀ",
+        "wordId": "w-2b6bc3660479"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça la manta plegada del llit. B assenyala el sofà visible a través de la porta."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B mou el coixí rodó cap a un extrem del sofà mentre A hi du la manta."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté els angles ratllats i B estira els angles oposats fins a cobrir dos seients."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos seuen sota la manta amb la vora ratllada visible i el coixí queda al braç de fusta."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una manta amb una vora ratllada, un coixí rodó i un sofà amb un braç de fusta."
+    },
+    "narrative": "B prepara els seients i ajuda A a estendre la manta perquè puguin seure plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "a5d31d1d5d100cd07c02567894ad7784cbcb22111062d12cfcadc2b1115b6a57",
+      "file": "output/production/n11/n11-142/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa manta al sofà. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que porta la manta; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el sofà.\nRecurring visual anchors: Una manta amb una vora ratllada, un coixí rodó i un sofà amb un braç de fusta.\n1. A alça la manta plegada del llit. B assenyala el sofà visible a través de la porta.\n2. B mou el coixí rodó cap a un extrem del sofà mentre A hi du la manta.\n3. A sosté els angles ratllats i B estira els angles oposats fins a cobrir dos seients.\n4. Tots dos seuen sota la manta amb la vora ratllada visible i el coixí queda al braç de fusta.",
+      "review": "El gat porta la manta de vores ratllades. La tortuga mou el coixí i agafa l’altra vora. Al final seuen sota la manta.",
+      "reviewedAt": "2026-11-21T21:18:58+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa manta al sofà. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, participant que porta la manta; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el sofà.\nRecurring visual anchors: Una manta amb una vora ratllada, un coixí rodó i un sofà amb un braç de fusta.\n1. A alça la manta plegada del llit. B assenyala el sofà visible a través de la porta.\n2. B mou el coixí rodó cap a un extrem del sofà mentre A hi du la manta.\n3. A sosté els angles ratllats i B estira els angles oposats fins a cobrir dos seients.\n4. Tots dos seuen sota la manta amb la vora ratllada visible i el coixí queda al braç de fusta.",
+  "review": "El gat porta la manta de vores ratllades. La tortuga mou el coixí i agafa l’altra vora. Al final seuen sota la manta.",
+  "alt": {
+    "ca": "Un gat porta una manta. Una tortuga prepara el sofà i l’ajuda a desplegar-la abans de seure junts.",
+    "es": "Un gato trae una manta. Una tortuga prepara el sofá y le ayuda a desplegarla antes de sentarse juntos."
+  },
+  "originalSha256": "a5d31d1d5d100cd07c02567894ad7784cbcb22111062d12cfcadc2b1115b6a57",
+  "file": "output/production/n11/n11-142/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:18:58+00:00",
+  "tool": "ImageGen integrat"
+}

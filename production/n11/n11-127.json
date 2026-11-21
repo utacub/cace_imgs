@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-127",
+    "number": 127,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-027",
+    "title": {
+      "ca": "El dau que torna al tauler · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "TIGRE",
+      "JUGAR",
+      "AGAFAR",
+      "DONAR",
+      "DAU",
+      "JOC DE TAULA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-7a57f3835ffd",
+      "w-6d90f16f5461",
+      "w-677819a0a32a",
+      "w-dd80e4e4de38",
+      "w-e0fc52e298ac",
+      "w-13ba0f3ba6fd",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que recull el dau",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que fa avançar la fitxa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-027",
+    "familyTitle": "El dau que torna al tauler",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      },
+      {
+        "label": "JOC DE TAULA",
+        "wordId": "w-13ba0f3ba6fd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El dau és a terra al costat del banc baix. B reté la fitxa a la primera casella mentre A el veu."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A recull el dau, deixant visible una vora escapçada característica."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el dau al tauler amb dos punts a la cara superior. B sosté la fitxa sobre la segona casella."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B acaba amb la fitxa a la tercera casella i A toca amb un dit el dau de dos punts."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un dau de cares amb punts grossos, un tauler sense lletres amb tres caselles seguides i una fitxa."
+    },
+    "narrative": "A recupera el dau i B pot reprendre la partida i moure la fitxa les dues caselles indicades."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "833351a6bb1e7167d961c07629f96eebf12a787f631bbcf19715966562568eee",
+      "file": "output/production/n11/n11-127/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl dau que torna al tauler. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que recull el dau; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que fa avançar la fitxa.\nRecurring visual anchors: Un dau de cares amb punts grossos, un tauler sense lletres amb tres caselles seguides i una fitxa.\n1. El dau és a terra al costat del banc baix. B reté la fitxa a la primera casella mentre A el veu.\n2. A recull el dau, deixant visible una vora escapçada característica.\n3. A posa el dau al tauler amb dos punts a la cara superior. B sosté la fitxa sobre la segona casella.\n4. B acaba amb la fitxa a la tercera casella i A toca amb un dit el dau de dos punts.",
+      "review": "Contorns i fitxa constants. La tortuga recupera el dau i el tigre avança per les tres caselles amb dos punts a la cara superior.",
+      "reviewedAt": "2026-11-21T21:16:58+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl dau que torna al tauler. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que recull el dau; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que fa avançar la fitxa.\nRecurring visual anchors: Un dau de cares amb punts grossos, un tauler sense lletres amb tres caselles seguides i una fitxa.\n1. El dau és a terra al costat del banc baix. B reté la fitxa a la primera casella mentre A el veu.\n2. A recull el dau, deixant visible una vora escapçada característica.\n3. A posa el dau al tauler amb dos punts a la cara superior. B sosté la fitxa sobre la segona casella.\n4. B acaba amb la fitxa a la tercera casella i A toca amb un dit el dau de dos punts.",
+  "review": "Contorns i fitxa constants. La tortuga recupera el dau i el tigre avança per les tres caselles amb dos punts a la cara superior.",
+  "alt": {
+    "ca": "Una tortuga recull un dau de terra. El tigre veu que ha sortit un dos i fa avançar la fitxa fins a la tercera casella.",
+    "es": "Una tortuga recoge un dado del suelo. El tigre ve que ha salido un dos y mueve la ficha hasta la tercera casilla."
+  },
+  "originalSha256": "833351a6bb1e7167d961c07629f96eebf12a787f631bbcf19715966562568eee",
+  "file": "output/production/n11/n11-127/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:16:58+00:00",
+  "tool": "ImageGen integrat"
+}

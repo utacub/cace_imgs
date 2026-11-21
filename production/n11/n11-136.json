@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-136",
+    "number": 136,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-036",
+    "title": {
+      "ca": "La nina al teatret · dibuix"
+    },
+    "labels": [
+      "ESQUIROL",
+      "TIGRE",
+      "JUGAR",
+      "AJUDAR",
+      "VESTIR",
+      "NINA",
+      "MOCADOR",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-7a57f3835ffd",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-4d2fcaf61d85",
+      "w-db89958a3c63",
+      "w-35e3a6c8a7fd",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que sosté la nina",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que prepara el vestuari",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-036",
+    "familyTitle": "La nina al teatret",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A seu rere el teatret amb la nina descoberta. B obre el mocador mostrant les ratlles."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A aixeca la nina pel tronc i B li posa el mocador sobre les espatlles, lluny del coll."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B plega les puntes sobre el davant mentre A posa la nina dreta a la base del teatret."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "La nina queda asseguda a escena amb el mocador posat i els dos botons visibles. A i B ensenyen les mans buides."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una nina amb dos botons visibles, un mocador de ratlles i un teatret de joguina amb front obert."
+    },
+    "narrative": "B vesteix la nina mentre A la subjecta i A la presenta a escena amb el vestuari posat."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "b869669ec85f4da5fb4f4b97e2d53b9438993dc6d171fbd6ac8ab88c22662a9c",
+      "file": "output/production/n11/n11-136/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa nina al teatret. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que sosté la nina; B = TIGRE, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el vestuari.\nRecurring visual anchors: Una nina amb dos botons visibles, un mocador de ratlles i un teatret de joguina amb front obert.\n1. A seu rere el teatret amb la nina descoberta. B obre el mocador mostrant les ratlles.\n2. A aixeca la nina pel tronc i B li posa el mocador sobre les espatlles, lluny del coll.\n3. B plega les puntes sobre el davant mentre A posa la nina dreta a la base del teatret.\n4. La nina queda asseguda a escena amb el mocador posat i els dos botons visibles. A i B ensenyen les mans buides.",
+      "review": "La tercera vinyeta duplica el cap de l’esquirol a dintre i a fora del teatret.",
+      "reviewedAt": "2026-11-21T21:16:58+00:00"
+    }
+  ],
+  "status": "rejected"
+}

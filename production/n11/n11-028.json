@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-028",
+    "number": 28,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-128",
+    "title": {
+      "ca": "La galleda del castell · foto"
+    },
+    "labels": [
+      "NEN",
+      "DONA",
+      "JUGAR",
+      "PORTAR",
+      "POSAR",
+      "GALLEDA",
+      "PALA",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-72e9fe9a8b43",
+      "w-6d90f16f5461",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-7f04619a8649",
+      "w-208167fa638f",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que omple i transporta",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que desemmotlla",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-028",
+    "familyTitle": "La galleda del castell",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A omple la galleda al sorral amb la pala. B aplana amb la mà una zona lliure per al castell."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta la galleda plena pel mànec fins al replà allisat. B hi posa la pala al costat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B gira la galleda amb les dues mans, amb la boca plana sobre la sorra preparada."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B aixeca el motlle buit i A assenyala els quatre merlets que han quedat al castell de sorra."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una galleda de motlle amb quatre merlets, una pala curta i un sorral amb marge baix."
+    },
+    "narrative": "A porta el motlle ple fins al lloc que B ha aplanat i B el desemmotlla deixant els merlets drets."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "5cba02018e3a138c4727ad04f416f61fa172556f628a03cdc0eb65303d8c3af0",
+      "file": "output/production/n11/n11-028/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa galleda del castell. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que omple i transporta; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que desemmotlla.\nRecurring visual anchors: Una galleda de motlle amb quatre merlets, una pala curta i un sorral amb marge baix.\n1. A omple la galleda al sorral amb la pala. B aplana amb la mà una zona lliure per al castell.\n2. A porta la galleda plena pel mànec fins al replà allisat. B hi posa la pala al costat.\n3. B gira la galleda amb les dues mans, amb la boca plana sobre la sorra preparada.\n4. B aixeca el motlle buit i A assenyala els quatre merlets que han quedat al castell de sorra.",
+      "review": "Una pala i un únic motlle. El nen porta el motlle ple a la sorra aplanada i la dona l’aixeca al final. La sorra desemmotllada manté les formes del castell.",
+      "reviewedAt": "2026-11-21T21:17:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa galleda del castell. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que omple i transporta; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que desemmotlla.\nRecurring visual anchors: Una galleda de motlle amb quatre merlets, una pala curta i un sorral amb marge baix.\n1. A omple la galleda al sorral amb la pala. B aplana amb la mà una zona lliure per al castell.\n2. A porta la galleda plena pel mànec fins al replà allisat. B hi posa la pala al costat.\n3. B gira la galleda amb les dues mans, amb la boca plana sobre la sorra preparada.\n4. B aixeca el motlle buit i A assenyala els quatre merlets que han quedat al castell de sorra.",
+  "review": "Una pala i un únic motlle. El nen porta el motlle ple a la sorra aplanada i la dona l’aixeca al final. La sorra desemmotllada manté les formes del castell.",
+  "alt": {
+    "ca": "Un nen omple la galleda de sorra. Una dona aplana el lloc i gira el motlle perquè hi quedi un castell.",
+    "es": "Un niño llena el cubo de arena. Una mujer alisa el lugar y gira el molde para dejar un castillo."
+  },
+  "originalSha256": "5cba02018e3a138c4727ad04f416f61fa172556f628a03cdc0eb65303d8c3af0",
+  "file": "output/production/n11/n11-028/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:01+00:00",
+  "tool": "ImageGen integrat"
+}

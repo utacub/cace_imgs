@@ -1,0 +1,154 @@
+{
+  "construction": {
+    "id": "n11-114",
+    "number": 114,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-014",
+    "title": {
+      "ca": "El titella abans de sortir · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "ESQUIROL",
+      "GUARDAR",
+      "PORTAR",
+      "JUGAR",
+      "TITELLA",
+      "CAIXA",
+      "CLASSE",
+      "TEATRE"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-cc5063e253e2",
+      "w-f0441e0dd3b0",
+      "w-73b71e1ff757",
+      "w-6d90f16f5461",
+      "w-3063ed1cff1f",
+      "w-696b7c739d30",
+      "w-3291fe2b2a8d",
+      "w-69105eb76f78"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que prepara el titella",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que obre el petit teló",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-014",
+    "familyTitle": "El titella abans de sortir",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      },
+      {
+        "label": "TEATRE",
+        "wordId": "w-69105eb76f78"
+      }
+    ],
+    "targets": [
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "TITELLA",
+        "wordId": "w-3063ed1cff1f"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el titella a la caixa oberta a la taula. B sosté la vora del teló encara tancat al teatret adjacent."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A transporta la caixa al costat del teatret i B obre un costat del teló."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A enfunda la mà al titella i l’aixeca des de darrere del plafó. B recull el teló fins que queda totalment obert."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "El titella saluda amb la corbata visible. B seu davant l’obertura i la caixa buida és al peu del plafó."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un titella de mà amb corbata de pics, una caixa baixa i un teatre escolar amb teló curt."
+    },
+    "narrative": "A porta el titella fins al teatret i B obre el teló perquè el titella pugui sortir a escena."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "2c3b4f2c1d82d9b782dd39bc4bc7a0e8180f08a9457a412e3b1994ba77686454",
+      "file": "output/production/n11/n11-114/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl titella abans de sortir. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que prepara el titella; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que obre el petit teló.\nRecurring visual anchors: Un titella de mà amb corbata de pics, una caixa baixa i un teatre escolar amb teló curt.\n1. A posa el titella a la caixa oberta a la taula. B sosté la vora del teló encara tancat al teatret adjacent.\n2. A transporta la caixa al costat del teatret i B obre un costat del teló.\n3. A enfunda la mà al titella i l’aixeca des de darrere del plafó. B recull el teló fins que queda totalment obert.\n4. El titella saluda amb la corbata visible. B seu davant l’obertura i la caixa buida és al peu del plafó.",
+      "review": "Un titella amb corbata, una caixa i un teló. L’ós prepara el titella i l’esquirol obre el teló. La caixa buida i la salutació tanquen l’acció.",
+      "reviewedAt": "2026-11-21T21:14:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl titella abans de sortir. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que prepara el titella; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, participant que obre el petit teló.\nRecurring visual anchors: Un titella de mà amb corbata de pics, una caixa baixa i un teatre escolar amb teló curt.\n1. A posa el titella a la caixa oberta a la taula. B sosté la vora del teló encara tancat al teatret adjacent.\n2. A transporta la caixa al costat del teatret i B obre un costat del teló.\n3. A enfunda la mà al titella i l’aixeca des de darrere del plafó. B recull el teló fins que queda totalment obert.\n4. El titella saluda amb la corbata visible. B seu davant l’obertura i la caixa buida és al peu del plafó.",
+  "review": "Un titella amb corbata, una caixa i un teló. L’ós prepara el titella i l’esquirol obre el teló. La caixa buida i la salutació tanquen l’acció.",
+  "alt": {
+    "ca": "Un ós porta el titella en una caixa. Un esquirol obre el teló i seu a mirar com saluda el titella.",
+    "es": "Un oso lleva la marioneta en una caja. Una ardilla abre el telón y se sienta a ver cómo saluda la marioneta."
+  },
+  "originalSha256": "2c3b4f2c1d82d9b782dd39bc4bc7a0e8180f08a9457a412e3b1994ba77686454",
+  "file": "output/production/n11/n11-114/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:14:54+00:00",
+  "tool": "ImageGen integrat"
+}

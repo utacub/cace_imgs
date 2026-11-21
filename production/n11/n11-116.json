@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-116",
+    "number": 116,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-016",
+    "title": {
+      "ca": "El xilòfon al racó de música · dibuix"
+    },
+    "labels": [
+      "ESQUIROL",
+      "CANGUR",
+      "PORTAR",
+      "POSAR",
+      "TOCAR",
+      "XILÒFON",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-cc5063e253e2",
+      "w-d5395d03acbf",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-072ecc01e120",
+      "w-dd383a63729d",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-cc5063e253e2",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "participant que transporta l’instrument",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que prepara el suport i toca",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-016",
+    "familyTitle": "El xilòfon al racó de música",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "XILÒFON",
+        "wordId": "w-dd383a63729d"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté el xilòfon agafant la base. B desplega l’estora a la taula baixa de música."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el xilòfon al centre de l’estora mentre B n’allisa un cantell apartat."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B agafa la baqueta que A li ofereix pel mànec i la du cap a la làmina més llarga."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "La punta de la baqueta toca la làmina llarga. A assegut al costat observa el gest i l’instrument queda estable."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un xilòfon de cinc làmines i una baqueta de punta rodona, una taula baixa amb estora antilliscant."
+    },
+    "narrative": "B prepara el suport perquè A hi porti el xilòfon i després el toca amb la baqueta que li passa A."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "7c0c2fa26576337bbe50d69e6f2043e8108c502eeea493028a7858449c0eee83",
+      "file": "output/production/n11/n11-116/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl xilòfon al racó de música. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que transporta l’instrument; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el suport i toca.\nRecurring visual anchors: Un xilòfon de cinc làmines i una baqueta de punta rodona, una taula baixa amb estora antilliscant.\n1. A sosté el xilòfon agafant la base. B desplega l’estora a la taula baixa de música.\n2. A posa el xilòfon al centre de l’estora mentre B n’allisa un cantell apartat.\n3. B agafa la baqueta que A li ofereix pel mànec i la du cap a la làmina més llarga.\n4. La punta de la baqueta toca la làmina llarga. A assegut al costat observa el gest i l’instrument queda estable.",
+      "review": "Cinc làmines i una baqueta. El cangur estén l’estora, l’esquirol hi deixa l’instrument i li passa la baqueta. El toc és visible.",
+      "reviewedAt": "2026-11-21T21:16:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl xilòfon al racó de música. Actors and fixed identity: A = ESQUIROL, armilla blau fosc amb un triangle clar al davant, participant que transporta l’instrument; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el suport i toca.\nRecurring visual anchors: Un xilòfon de cinc làmines i una baqueta de punta rodona, una taula baixa amb estora antilliscant.\n1. A sosté el xilòfon agafant la base. B desplega l’estora a la taula baixa de música.\n2. A posa el xilòfon al centre de l’estora mentre B n’allisa un cantell apartat.\n3. B agafa la baqueta que A li ofereix pel mànec i la du cap a la làmina més llarga.\n4. La punta de la baqueta toca la làmina llarga. A assegut al costat observa el gest i l’instrument queda estable.",
+  "review": "Cinc làmines i una baqueta. El cangur estén l’estora, l’esquirol hi deixa l’instrument i li passa la baqueta. El toc és visible.",
+  "alt": {
+    "ca": "Un esquirol porta el xilòfon i un cangur prepara la base. L’esquirol li passa la baqueta i el cangur toca.",
+    "es": "Una ardilla trae el xilófono y un canguro prepara la base. La ardilla le pasa la baqueta y el canguro toca."
+  },
+  "originalSha256": "7c0c2fa26576337bbe50d69e6f2043e8108c502eeea493028a7858449c0eee83",
+  "file": "output/production/n11/n11-116/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:16:10+00:00",
+  "tool": "ImageGen integrat"
+}

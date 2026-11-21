@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-038",
+    "number": 38,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-138",
+    "title": {
+      "ca": "El globus lligat al banc · foto"
+    },
+    "labels": [
+      "NOI",
+      "NOIA",
+      "AJUDAR",
+      "ESTIRAR",
+      "POSAR",
+      "GLOBUS",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-b38ff488f862",
+      "w-5b2ff1d40d54",
+      "w-99499cd7f270",
+      "w-c211f7486a30",
+      "w-f19cff282499",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que recupera el cordill",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant que fixa el globus",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-038",
+    "familyTitle": "El globus lligat al banc",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval."
+    },
+    "narrative": "A recupera el cordill de la branca i B el fixa al banc mentre A impedeix que el globus s’escapi."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "25b9ad180c3cbe53d48a5ec347bd0421c2dd2d4e3f9c8903b4e36bd2ac80c9bb",
+      "file": "output/production/n11/n11-038/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl globus lligat al banc. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que recupera el cordill; B = NOIA, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el globus.\nRecurring visual anchors: Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval.\n1. El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc.\n2. A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit.\n3. B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval.\n4. El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures.",
+      "review": "El noi agafa el cordill de la branca. La noia el lliga al banc mentre ell sosté el tram tens. Al final es veuen les mans buides i el nus.",
+      "reviewedAt": "2026-11-21T21:17:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl globus lligat al banc. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que recupera el cordill; B = NOIA, samarreta ocre amb dues ratlles blanques al davant, participant que fixa el globus.\nRecurring visual anchors: Un globus inflat amb un punt clar, un cordill llarg i un banc baix amb nansa oval.\n1. El globus és a poca altura, amb el cordill enganxat a una branqueta baixa. A arriba al cordill i B indica el banc.\n2. A allibera el cordill de la branca i el subjecta amb dues mans a l’altura del pit.\n3. B pren el cap lliure mentre A manté ferm el tram que va al globus. B el lliga a la nansa oval.\n4. El cordill queda tens entre globus i banc, amb el nus a la nansa. A i B se’n separen amb les mans lliures.",
+  "review": "El noi agafa el cordill de la branca. La noia el lliga al banc mentre ell sosté el tram tens. Al final es veuen les mans buides i el nus.",
+  "alt": {
+    "ca": "Un noi allibera el cordill del globus. Una noia el fixa al banc mentre ell l’aguanta.",
+    "es": "Un chico libera el cordel del globo. Una chica lo ata al banco mientras él lo sujeta."
+  },
+  "originalSha256": "25b9ad180c3cbe53d48a5ec347bd0421c2dd2d4e3f9c8903b4e36bd2ac80c9bb",
+  "file": "output/production/n11/n11-038/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:53+00:00",
+  "tool": "ImageGen integrat"
+}

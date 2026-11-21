@@ -1,0 +1,153 @@
+{
+  "construction": {
+    "id": "n11-144",
+    "number": 144,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-044",
+    "title": {
+      "ca": "La tassa que faltava · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "LLEÓ",
+      "POSAR",
+      "PORTAR",
+      "BEURE",
+      "TASSA",
+      "LLET",
+      "CUINA",
+      "MENJADOR"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-fbc89c059c15",
+      "w-c211f7486a30",
+      "w-73b71e1ff757",
+      "w-a5ddba336d84",
+      "w-adecb8403118",
+      "w-e596f4e7a6bb",
+      "w-2a34971d94b3",
+      "w-32c0089441f0"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que prepara el servei",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que afegeix la segona tassa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-044",
+    "familyTitle": "La tassa que faltava",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "targets": [
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BEURE",
+        "wordId": "w-a5ddba336d84"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "LLET",
+        "wordId": "w-e596f4e7a6bb"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té una tassa a la taula del menjador i manté la gerra dreta. B veu l’altre lloc buit."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B porta la segona tassa des de la cuina i deixa la nansa triangular cap al segon seient."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A aboca llet a la segona tassa. La primera ja és plena fins a la mateixa altura i el nivell de la gerra ha baixat."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B passa la tassa rodona cap a A i conserva la triangular. A beu de la tassa rodona i B acosta la triangular als llavis."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues tasses, una amb nansa rodona i l’altra triangular, i una gerra transparent amb dues marques de relleu."
+    },
+    "narrative": "B aporta la tassa que falta i A omple tots dos llocs perquè puguin beure plegats."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "3533098925bcb227adefb50c27aee91bbc7af34a39326f91b1518a5b6978adb9",
+      "file": "output/production/n11/n11-144/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa tassa que faltava. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que prepara el servei; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que afegeix la segona tassa.\nRecurring visual anchors: Dues tasses, una amb nansa rodona i l’altra triangular, i una gerra transparent amb dues marques de relleu.\n1. A té una tassa a la taula del menjador i manté la gerra dreta. B veu l’altre lloc buit.\n2. B porta la segona tassa des de la cuina i deixa la nansa triangular cap al segon seient.\n3. A aboca llet a la segona tassa. La primera ja és plena fins a la mateixa altura i el nivell de la gerra ha baixat.\n4. B passa la tassa rodona cap a A i conserva la triangular. A beu de la tassa rodona i B acosta la triangular als llavis.",
+      "review": "Tasses amb nanses diferents i línies de nivell a la gerra. El lleó aporta la tassa que falta i l’ós l’omple. Tots dos beuen.",
+      "reviewedAt": "2026-11-21T21:18:58+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa tassa que faltava. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que prepara el servei; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que afegeix la segona tassa.\nRecurring visual anchors: Dues tasses, una amb nansa rodona i l’altra triangular, i una gerra transparent amb dues marques de relleu.\n1. A té una tassa a la taula del menjador i manté la gerra dreta. B veu l’altre lloc buit.\n2. B porta la segona tassa des de la cuina i deixa la nansa triangular cap al segon seient.\n3. A aboca llet a la segona tassa. La primera ja és plena fins a la mateixa altura i el nivell de la gerra ha baixat.\n4. B passa la tassa rodona cap a A i conserva la triangular. A beu de la tassa rodona i B acosta la triangular als llavis.",
+  "review": "Tasses amb nanses diferents i línies de nivell a la gerra. El lleó aporta la tassa que falta i l’ós l’omple. Tots dos beuen.",
+  "alt": {
+    "ca": "Un lleó porta la segona tassa i un ós hi aboca llet. Cadascun beu de la seva tassa.",
+    "es": "Un león trae la segunda taza y un oso sirve leche. Cada uno bebe de su taza."
+  },
+  "originalSha256": "3533098925bcb227adefb50c27aee91bbc7af34a39326f91b1518a5b6978adb9",
+  "file": "output/production/n11/n11-144/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:18:58+00:00",
+  "tool": "ImageGen integrat"
+}

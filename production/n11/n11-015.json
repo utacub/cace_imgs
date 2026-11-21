@@ -1,0 +1,148 @@
+{
+  "construction": {
+    "id": "n11-015",
+    "number": 15,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-115",
+    "title": {
+      "ca": "La carpeta amb la goma · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "OBRIR",
+      "GUARDAR",
+      "AJUDAR",
+      "CARPETA",
+      "PAPER",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-a10b29af07c7",
+      "w-f0441e0dd3b0",
+      "w-5b2ff1d40d54",
+      "w-46f884632cd7",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que sosté la carpeta",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que desa les làmines",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-015",
+    "familyTitle": "La carpeta amb la goma",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "CARPETA",
+        "wordId": "w-46f884632cd7"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A manté la carpeta oberta i B intenta alinear les tres làmines, inicialment esteses una al costat de l’altra."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B recull les làmines en ventall i gira la de la lluna perquè tots els cantells coincideixin."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B insereix el ventall sota la solapa mentre A aguanta la goma estirada lluny dels dits."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A abaixa la goma i B aixeca la carpeta tancada, amb els tres cantells visibles de perfil sota la solapa."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una carpeta amb goma ampla, tres làmines amb una estrella, una fulla i una lluna."
+    },
+    "narrative": "A aguanta la carpeta i la goma mentre B alinea i hi desa les tres làmines."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "5798b7a6d328e650a0421bee4950c73d6c75c7c61c3b3b796cb1ce4ee2a433fe",
+      "file": "output/production/n11/n11-015/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa carpeta amb la goma. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que sosté la carpeta; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que desa les làmines.\nRecurring visual anchors: Una carpeta amb goma ampla, tres làmines amb una estrella, una fulla i una lluna.\n1. A manté la carpeta oberta i B intenta alinear les tres làmines, inicialment esteses una al costat de l’altra.\n2. B recull les làmines en ventall i gira la de la lluna perquè tots els cantells coincideixin.\n3. B insereix el ventall sota la solapa mentre A aguanta la goma estirada lluny dels dits.\n4. A abaixa la goma i B aixeca la carpeta tancada, amb els tres cantells visibles de perfil sota la solapa.",
+      "review": "Tres làmines i una carpeta amb goma. La dona manté la goma alta mentre l’home introdueix el feix. Al final es veuen els cantells alineats.",
+      "reviewedAt": "2026-11-21T21:17:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa carpeta amb la goma. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que sosté la carpeta; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que desa les làmines.\nRecurring visual anchors: Una carpeta amb goma ampla, tres làmines amb una estrella, una fulla i una lluna.\n1. A manté la carpeta oberta i B intenta alinear les tres làmines, inicialment esteses una al costat de l’altra.\n2. B recull les làmines en ventall i gira la de la lluna perquè tots els cantells coincideixin.\n3. B insereix el ventall sota la solapa mentre A aguanta la goma estirada lluny dels dits.\n4. A abaixa la goma i B aixeca la carpeta tancada, amb els tres cantells visibles de perfil sota la solapa.",
+  "review": "Tres làmines i una carpeta amb goma. La dona manté la goma alta mentre l’home introdueix el feix. Al final es veuen els cantells alineats.",
+  "alt": {
+    "ca": "Una dona aguanta una carpeta oberta i un home hi desa tres làmines. La tanquen amb la goma.",
+    "es": "Una mujer sujeta una carpeta abierta y un hombre guarda tres láminas. Cierran la carpeta con la goma."
+  },
+  "originalSha256": "5798b7a6d328e650a0421bee4950c73d6c75c7c61c3b3b796cb1ce4ee2a433fe",
+  "file": "output/production/n11/n11-015/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:01+00:00",
+  "tool": "ImageGen integrat"
+}

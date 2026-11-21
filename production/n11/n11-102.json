@@ -1,0 +1,135 @@
+{
+  "construction": {
+    "id": "n11-102",
+    "number": 102,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-002",
+    "title": {
+      "ca": "La capsa de peces barrejades · dibuix"
+    },
+    "labels": [
+      "GAT",
+      "GOS",
+      "CLASSIFICAR",
+      "DONAR",
+      "JUGAR",
+      "PECES",
+      "CAIXA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-11ff74d27c02",
+      "w-4761fde107a7",
+      "w-837cfa89f5df",
+      "w-dd80e4e4de38",
+      "w-6d90f16f5461",
+      "w-776ec487889f",
+      "w-696b7c739d30",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-11ff74d27c02",
+    "participants": [
+      {
+        "key": "A",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "encarregat de classificar",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GOS",
+        "wordId": "w-4761fde107a7",
+        "role": "constructor",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-002",
+    "familyTitle": "La capsa de peces barrejades",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B assenyala el buit del pont entre dos cubs de suport. El tercer cub i els tres discos són barrejats a la capsa davant d’A."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A posa els tres discos en un compartiment i treu el cub que faltava de l’altre."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A dona el tercer cub a B, que el col·loca de travesser recolzat en els dos cubs de suport."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B fa passar un dels tres discos pel túnel del pont. A acosta els altres dos dins la capsa."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una capsa amb dos compartiments, tres discos i tres cubs, de mides compatibles amb el pont baix."
+    },
+    "narrative": "A separa les peces i recupera el cub que permet a B fer un pont i provar-lo amb un disc."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "31dcc9c4a5a58350816ec00b582b2d70fe3959822e24aff0ac052fa0881b47d6",
+      "file": "output/production/n11/n11-102/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa capsa de peces barrejades. Actors and fixed identity: A = GAT, armilla blau fosc amb un triangle clar al davant, encarregat de classificar; B = GOS, samarreta ocre amb dues ratlles blanques al davant, constructor.\nRecurring visual anchors: Una capsa amb dos compartiments, tres discos i tres cubs, de mides compatibles amb el pont baix.\n1. B assenyala el buit del pont entre dos cubs de suport. El tercer cub i els tres discos són barrejats a la capsa davant d’A.\n2. A posa els tres discos en un compartiment i treu el cub que faltava de l’altre.\n3. A dona el tercer cub a B, que el col·loca de travesser recolzat en els dos cubs de suport.\n4. B fa passar un dels tres discos pel túnel del pont. A acosta els altres dos dins la capsa.",
+      "review": "El cub blau de la capsa es converteix en un travesser rectangular molt més ample. El canvi de mida és imprescindible per fer el pont.",
+      "reviewedAt": "2026-11-21T21:14:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

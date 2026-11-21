@@ -1,0 +1,154 @@
+{
+  "construction": {
+    "id": "n11-051",
+    "number": 51,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-151",
+    "title": {
+      "ca": "La planta passa a la finestra · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "PORTAR",
+      "POSAR",
+      "REGAR",
+      "PLANTA",
+      "FINESTRA",
+      "CUINA",
+      "CASA"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-00107994a0cd",
+      "w-03d524b232d7",
+      "w-59560a6c11b6",
+      "w-2a34971d94b3",
+      "w-57ca61c8d99d"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que porta el test",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que prepara la llum i hi posa aigua",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "casa",
+    "familyId": "n11-f-051",
+    "familyTitle": "La planta passa a la finestra",
+    "settings": [
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "REGAR",
+        "wordId": "w-00107994a0cd"
+      },
+      {
+        "label": "PLANTA",
+        "wordId": "w-03d524b232d7"
+      },
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alça el test amb terra seca de la taula. B mostra el platet buit al repeu ample de la finestra adjacent."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el test dins el platet. B aparta la cortina amb una mà, deixant la paret del test il·luminada."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B aboca un raig curt sobre la terra i A estabilitza el test agafant-lo per sota de la vora."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "La planta és al repeu amb tres fulles visibles i terra fosca humida. B retira la mateixa gerreta amb menys aigua."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una planta de tres fulles grosses, un test amb vora dentada, un platet i una gerreta transparent."
+    },
+    "narrative": "B prepara el repeu perquè A hi col·loqui el test i després en rega la terra."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "dd3bb2531a4816726e0b241d5cefbe7291ae9c27b2207f51d425a9e73639a639",
+      "file": "output/production/n11/n11-051/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa planta passa a la finestra. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que porta el test; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la llum i hi posa aigua.\nRecurring visual anchors: Una planta de tres fulles grosses, un test amb vora dentada, un platet i una gerreta transparent.\n1. A alça el test amb terra seca de la taula. B mostra el platet buit al repeu ample de la finestra adjacent.\n2. A posa el test dins el platet. B aparta la cortina amb una mà, deixant la paret del test il·luminada.\n3. B aboca un raig curt sobre la terra i A estabilitza el test agafant-lo per sota de la vora.\n4. La planta és al repeu amb tres fulles visibles i terra fosca humida. B retira la mateixa gerreta amb menys aigua.",
+      "review": "Les tres fulles, la vora dentada i el platet es mantenen. La dona situa el test i l’home obre la cortina i rega. El nivell de la gerra baixa.",
+      "reviewedAt": "2026-11-21T21:19:02+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa planta passa a la finestra. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que porta el test; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que prepara la llum i hi posa aigua.\nRecurring visual anchors: Una planta de tres fulles grosses, un test amb vora dentada, un platet i una gerreta transparent.\n1. A alça el test amb terra seca de la taula. B mostra el platet buit al repeu ample de la finestra adjacent.\n2. A posa el test dins el platet. B aparta la cortina amb una mà, deixant la paret del test il·luminada.\n3. B aboca un raig curt sobre la terra i A estabilitza el test agafant-lo per sota de la vora.\n4. La planta és al repeu amb tres fulles visibles i terra fosca humida. B retira la mateixa gerreta amb menys aigua.",
+  "review": "Les tres fulles, la vora dentada i el platet es mantenen. La dona situa el test i l’home obre la cortina i rega. El nivell de la gerra baixa.",
+  "alt": {
+    "ca": "Una dona porta un test fins a la finestra. Un home mou la cortina i rega la planta.",
+    "es": "Una mujer lleva una maceta hasta la ventana. Un hombre aparta la cortina y riega la planta."
+  },
+  "originalSha256": "dd3bb2531a4816726e0b241d5cefbe7291ae9c27b2207f51d425a9e73639a639",
+  "file": "output/production/n11/n11-051/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:19:02+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-006",
+    "number": 6,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-106",
+    "title": {
+      "ca": "El paraigua a l’entrada · foto"
+    },
+    "labels": [
+      "HOME",
+      "NOI",
+      "PORTAR",
+      "OBRIR",
+      "TANCAR",
+      "PARAIGUA",
+      "PATI",
+      "ESCOLA"
+    ],
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-a10b29af07c7",
+      "w-4000ec1e6d5b",
+      "w-057e09311c15",
+      "w-b8852b37e441",
+      "w-0156c87f929a"
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "participants": [
+      {
+        "key": "A",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que protegeix",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que porta el material",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-006",
+    "familyTitle": "El paraigua a l’entrada",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "PARAIGUA",
+        "wordId": "w-057e09311c15"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A desplega el paraigua sota el porxo mentre B acosta la carpeta al pit davant del pati mullat."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B es posa sota el paraigua amb la carpeta i A l’inclina prou per cobrir totes dues persones."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B obre la porta de vidre amb una mà mentre A sosté el paraigua obert encara fora del llindar."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A desa el paraigua tancat al paraigüer i B lliura la carpeta seca a A a cobert."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un paraigua amb mànec corb, una carpeta amb goma i una porta amb vidre i paraigüer baix."
+    },
+    "narrative": "A cobreix la carpeta durant el pas per la zona mullada i B obre la porta perquè arribin a cobert."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "e93f3d7b84898de825aeebefe5e25487b28d30a777815030aac962bbbbadfc38",
+      "file": "output/production/n11/n11-006/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paraigua a l’entrada. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que protegeix; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que porta el material.\nRecurring visual anchors: Un paraigua amb mànec corb, una carpeta amb goma i una porta amb vidre i paraigüer baix.\n1. A desplega el paraigua sota el porxo mentre B acosta la carpeta al pit davant del pati mullat.\n2. B es posa sota el paraigua amb la carpeta i A l’inclina prou per cobrir totes dues persones.\n3. B obre la porta de vidre amb una mà mentre A sosté el paraigua obert encara fora del llindar.\n4. A desa el paraigua tancat al paraigüer i B lliura la carpeta seca a A a cobert.",
+      "review": "El paraigua amb mànec corb cobreix tots dos. El noi obre la porta amb la carpeta al braç i, un cop a cobert, l’home desa el paraigua.",
+      "reviewedAt": "2026-11-21T21:16:13+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl paraigua a l’entrada. Actors and fixed identity: A = HOME, armilla blau fosc amb un triangle clar al davant, participant que protegeix; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que porta el material.\nRecurring visual anchors: Un paraigua amb mànec corb, una carpeta amb goma i una porta amb vidre i paraigüer baix.\n1. A desplega el paraigua sota el porxo mentre B acosta la carpeta al pit davant del pati mullat.\n2. B es posa sota el paraigua amb la carpeta i A l’inclina prou per cobrir totes dues persones.\n3. B obre la porta de vidre amb una mà mentre A sosté el paraigua obert encara fora del llindar.\n4. A desa el paraigua tancat al paraigüer i B lliura la carpeta seca a A a cobert.",
+  "review": "El paraigua amb mànec corb cobreix tots dos. El noi obre la porta amb la carpeta al braç i, un cop a cobert, l’home desa el paraigua.",
+  "alt": {
+    "ca": "Un home obre el paraigua per protegir un noi i la carpeta. El noi obre la porta i tots dos arriben a cobert.",
+    "es": "Un hombre abre el paraguas para proteger a un chico y su carpeta. El chico abre la puerta y ambos se ponen a cubierto."
+  },
+  "originalSha256": "e93f3d7b84898de825aeebefe5e25487b28d30a777815030aac962bbbbadfc38",
+  "file": "output/production/n11/n11-006/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:16:13+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-019",
+    "number": 19,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-119",
+    "title": {
+      "ca": "La pissarra per a dos · foto"
+    },
+    "labels": [
+      "NENA",
+      "DONA",
+      "DIBUIXAR",
+      "ENSENYAR",
+      "POSAR",
+      "PISSARRA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-72e9fe9a8b43",
+      "w-2e0a67ac121f",
+      "w-1eb1099a21ce",
+      "w-c211f7486a30",
+      "w-8a3a439bdb8e",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867",
+        "role": "participant que dibuixa el camí",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que situa la fitxa",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-019",
+    "familyTitle": "La pissarra per a dos",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PISSARRA",
+        "wordId": "w-8a3a439bdb8e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A dibuixa la primera part d’un camí entre dos cercles. B sosté la fitxa al cercle inicial."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A acaba l’últim revolt i mostra amb el dit per on surt el camí cap al cercle llunyà."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B fa lliscar la fitxa pel revolt mentre A retira el guix i segueix la fitxa amb la mirada."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B deixa la fitxa al cercle final. A assenyala l’inici i el traç complet queda visible entre tots dos."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pissarra amb un cercle a cada cap, guix gruixut i una fitxa amb imant quadrat."
+    },
+    "narrative": "A completa i mostra el traçat que B recorre amb la fitxa des del cercle inicial fins al final."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f296d292e9dd989286f2d5f12be45750831086e901e06e4ea1a3907387977c5d",
+      "file": "output/production/n11/n11-019/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pissarra per a dos. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que dibuixa el camí; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que situa la fitxa.\nRecurring visual anchors: Una pissarra amb un cercle a cada cap, guix gruixut i una fitxa amb imant quadrat.\n1. A dibuixa la primera part d’un camí entre dos cercles. B sosté la fitxa al cercle inicial.\n2. A acaba l’últim revolt i mostra amb el dit per on surt el camí cap al cercle llunyà.\n3. B fa lliscar la fitxa pel revolt mentre A retira el guix i segueix la fitxa amb la mirada.\n4. B deixa la fitxa al cercle final. A assenyala l’inici i el traç complet queda visible entre tots dos.",
+      "review": "Dos cercles i una sola fitxa groga. La nena mostra el punt de destí i la dona recorre amb la fitxa la corba fins al cercle dret.",
+      "reviewedAt": "2026-11-21T21:17:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa pissarra per a dos. Actors and fixed identity: A = NENA, armilla blau fosc amb un triangle clar al davant, participant que dibuixa el camí; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que situa la fitxa.\nRecurring visual anchors: Una pissarra amb un cercle a cada cap, guix gruixut i una fitxa amb imant quadrat.\n1. A dibuixa la primera part d’un camí entre dos cercles. B sosté la fitxa al cercle inicial.\n2. A acaba l’últim revolt i mostra amb el dit per on surt el camí cap al cercle llunyà.\n3. B fa lliscar la fitxa pel revolt mentre A retira el guix i segueix la fitxa amb la mirada.\n4. B deixa la fitxa al cercle final. A assenyala l’inici i el traç complet queda visible entre tots dos.",
+  "review": "Dos cercles i una sola fitxa groga. La nena mostra el punt de destí i la dona recorre amb la fitxa la corba fins al cercle dret.",
+  "alt": {
+    "ca": "Una nena dibuixa el camí a la pissarra. Una dona fa avançar la fitxa fins a l’altre cercle.",
+    "es": "Una niña dibuja el camino en la pizarra. Una mujer hace avanzar la ficha hasta el otro círculo."
+  },
+  "originalSha256": "f296d292e9dd989286f2d5f12be45750831086e901e06e4ea1a3907387977c5d",
+  "file": "output/production/n11/n11-019/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:01+00:00",
+  "tool": "ImageGen integrat"
+}

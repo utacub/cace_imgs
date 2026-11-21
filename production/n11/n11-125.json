@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-125",
+    "number": 125,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-025",
+    "title": {
+      "ca": "La torre que necessita base · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "CANGUR",
+      "JUGAR",
+      "AJUDAR",
+      "POSAR",
+      "CONSTRUCCIONS",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-d5395d03acbf",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-d92d094286cd",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "participant que replanteja la torre",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant que aporta la base",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-025",
+    "familyTitle": "La torre que necessita base",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CONSTRUCCIONS",
+        "wordId": "w-d92d094286cd"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A intenta apilar tres cubs sobre una estora tova. B sosté el bloc ample de veta visible."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa els tres cubs en fila i B recolza el bloc ample sobre el terra ferm al costat de l’estora."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A apila dos cubs sobre la base mentre B aguanta el tercer per oferir-l’hi."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa el darrer cub i B retira la mà. Es veuen els tres cubs recolzats sobre el bloc ample."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un bloc ample amb veta en ziga-zaga i tres cubs amb un punt gran cadascun, sobre una estora llisa."
+    },
+    "narrative": "B ofereix una base plana i A hi torna a apilar els tres cubs fins que se sostenen."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "1f92fb2721c326f3d09101074f7325e76344d8411ffca1e84d5abb2da910ca3f",
+      "file": "output/production/n11/n11-125/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa torre que necessita base. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, participant que replanteja la torre; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant que aporta la base.\nRecurring visual anchors: Un bloc ample amb veta en ziga-zaga i tres cubs amb un punt gran cadascun, sobre una estora llisa.\n1. A intenta apilar tres cubs sobre una estora tova. B sosté el bloc ample de veta visible.\n2. A posa els tres cubs en fila i B recolza el bloc ample sobre el terra ferm al costat de l’estora.\n3. A apila dos cubs sobre la base mentre B aguanta el tercer per oferir-l’hi.\n4. A posa el darrer cub i B retira la mà. Es veuen els tres cubs recolzats sobre el bloc ample.",
+      "review": "L’estora canvia d’amplada a mitja seqüència. Les seves vores visibles i el canvi de posició respecte al bloc fan difícil seguir la geometria.",
+      "reviewedAt": "2026-11-21T21:16:58+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-023",
+    "number": 23,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-123",
+    "title": {
+      "ca": "L’anella fora de la línia · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "JUGAR",
+      "DONAR",
+      "POSAR",
+      "ANELLES",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-6d90f16f5461",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-318e0675051a",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que torna l’anella",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que completa el llançament",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-023",
+    "familyTitle": "L’anella fora de la línia",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "ANELLES",
+        "wordId": "w-318e0675051a"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A i B miren l’anella estesa a terra fora de l’estora i lluny de la clavilla."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A recull l’anella per les estries mentre B torna amb tots dos peus darrere de l’estora."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A lliura l’anella a B i es desplaça a la banda, deixant el recorregut lliure."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "L’anella reposa al voltant de la clavilla i B acaba amb la mà oberta. A l’assenyala des de la banda."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una anella amb tres estries i una clavilla baixa, amb una estora com a línia de sortida."
+    },
+    "narrative": "A retorna l’anella perduda a B perquè pugui tornar a provar la clavilla des de la línia."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "860641a6d620fde83d13885692c40539dc5b388a44b15b16f76e2e6faf22eaf2",
+      "file": "output/production/n11/n11-023/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’anella fora de la línia. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que torna l’anella; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que completa el llançament.\nRecurring visual anchors: Una anella amb tres estries i una clavilla baixa, amb una estora com a línia de sortida.\n1. A i B miren l’anella estesa a terra fora de l’estora i lluny de la clavilla.\n2. A recull l’anella per les estries mentre B torna amb tots dos peus darrere de l’estora.\n3. A lliura l’anella a B i es desplaça a la banda, deixant el recorregut lliure.\n4. L’anella reposa al voltant de la clavilla i B acaba amb la mà oberta. A l’assenyala des de la banda.",
+      "review": "La mateixa anella estriada passa de terra al noi, a les mans de l’home i a la clavilla. El gest final de l’home és llegible.",
+      "reviewedAt": "2026-11-21T21:17:01+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’anella fora de la línia. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que torna l’anella; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que completa el llançament.\nRecurring visual anchors: Una anella amb tres estries i una clavilla baixa, amb una estora com a línia de sortida.\n1. A i B miren l’anella estesa a terra fora de l’estora i lluny de la clavilla.\n2. A recull l’anella per les estries mentre B torna amb tots dos peus darrere de l’estora.\n3. A lliura l’anella a B i es desplaça a la banda, deixant el recorregut lliure.\n4. L’anella reposa al voltant de la clavilla i B acaba amb la mà oberta. A l’assenyala des de la banda.",
+  "review": "La mateixa anella estriada passa de terra al noi, a les mans de l’home i a la clavilla. El gest final de l’home és llegible.",
+  "alt": {
+    "ca": "Un noi recull l’anella i la torna a un home, que la llança i l’encerta a la clavilla.",
+    "es": "Un chico recoge la anilla y se la devuelve a un hombre, que la lanza y acierta en la clavija."
+  },
+  "originalSha256": "860641a6d620fde83d13885692c40539dc5b388a44b15b16f76e2e6faf22eaf2",
+  "file": "output/production/n11/n11-023/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:17:01+00:00",
+  "tool": "ImageGen integrat"
+}

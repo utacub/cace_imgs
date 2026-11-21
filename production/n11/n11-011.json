@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-011",
+    "number": 11,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-111",
+    "title": {
+      "ca": "La foto al marc baix · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "PORTAR",
+      "POSAR",
+      "FOTO",
+      "CAIXA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-c211f7486a30",
+      "w-f1db5ec173b6",
+      "w-696b7c739d30",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que recupera la foto",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que prepara el marc",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-011",
+    "familyTitle": "La foto al marc baix",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A treu la foto pels cantells i la du fins al marc que B sosté dret."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable."
+    },
+    "narrative": "A recupera la foto i B prepara el marc perquè la imatge de la torre quedi exposada i dreta."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "011e0b27e1abf5663a5180d4c37e9aaf5a0bb4110e079270e642349a44a02b62",
+      "file": "output/production/n11/n11-011/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto al marc baix. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que recupera la foto; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el marc.\nRecurring visual anchors: Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable.\n1. A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula.\n2. A treu la foto pels cantells i la du fins al marc que B sosté dret.\n3. B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall.\n4. Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota.",
+      "review": "Una foto amb tres blocs i el mateix marc. El noi la treu de la caixa, l’home prepara el suport i es veu la foto dreta al final.",
+      "reviewedAt": "2026-11-21T21:16:13+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa foto al marc baix. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, participant que recupera la foto; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que prepara el marc.\nRecurring visual anchors: Una foto sense text d’una torre de tres blocs i un marc quadrat amb pota desplegable.\n1. A mostra la foto que sobresurt d’una caixa prima mentre B desplega la pota d’un marc buit a la taula.\n2. A treu la foto pels cantells i la du fins al marc que B sosté dret.\n3. B inclina el marc sobre la taula. A introdueix la foto per la guia lateral fins al topall.\n4. Tots dos veuen la foto de la torre de tres blocs en el marc dret sobre la pota.",
+  "review": "Una foto amb tres blocs i el mateix marc. El noi la treu de la caixa, l’home prepara el suport i es veu la foto dreta al final.",
+  "alt": {
+    "ca": "Un noi treu una foto de la caixa. Un home prepara el marc i el noi hi posa la foto de la torre.",
+    "es": "Un chico saca una foto de la caja. Un hombre prepara el marco y el chico coloca la foto de la torre."
+  },
+  "originalSha256": "011e0b27e1abf5663a5180d4c37e9aaf5a0bb4110e079270e642349a44a02b62",
+  "file": "output/production/n11/n11-011/image.png",
+  "width": 2164,
+  "height": 727,
+  "created": "2026-11-21T21:16:13+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,124 @@
+{
+  "construction": {
+    "id": "n11-134",
+    "number": 134,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-034",
+    "title": {
+      "ca": "El relleu amb la cinta · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "CANGUR",
+      "CÓRRER",
+      "DONAR",
+      "PORTAR",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-d5395d03acbf",
+      "w-c9b76cabfeec",
+      "w-dd80e4e4de38",
+      "w-73b71e1ff757",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant del primer tram",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "CANGUR",
+        "wordId": "w-d5395d03acbf",
+        "role": "participant del segon tram",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-034",
+    "familyTitle": "El relleu amb la cinta",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CÓRRER",
+        "wordId": "w-c9b76cabfeec"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A corre amb la cinta des del primer con. B espera amb la mà oberta al costat de l’estora."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A trepitja l’estora i lliura la cinta a B mentre els dos nusos queden visibles entre les mans."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B corre amb la cinta cap al segon con i A s’atura amb els dos peus a l’estora."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B deixa la cinta sobre el segon con baix. A hi arriba caminant i tots dos assenyalen els nusos."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una cinta de roba amb dos nusos, dos cons baixos i una estora al punt de relleu."
+    },
+    "narrative": "A arriba amb la cinta al punt acordat, la passa a B i B en completa el recorregut."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "34dfa2d01850f4c6f08702e9fb851bea2dd0c2911e8465514302d4c6423d24ee",
+      "file": "output/production/n11/n11-134/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl relleu amb la cinta. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant del primer tram; B = CANGUR, samarreta ocre amb dues ratlles blanques al davant, participant del segon tram.\nRecurring visual anchors: Una cinta de roba amb dos nusos, dos cons baixos i una estora al punt de relleu.\n1. A corre amb la cinta des del primer con. B espera amb la mà oberta al costat de l’estora.\n2. A trepitja l’estora i lliura la cinta a B mentre els dos nusos queden visibles entre les mans.\n3. B corre amb la cinta cap al segon con i A s’atura amb els dos peus a l’estora.\n4. B deixa la cinta sobre el segon con baix. A hi arriba caminant i tots dos assenyalen els nusos.",
+      "review": "Apareix un tercer con al darrer quadre i una ratlla cinètica sota el peu al segon.",
+      "reviewedAt": "2026-11-21T21:17:51+00:00"
+    }
+  ],
+  "status": "rejected"
+}

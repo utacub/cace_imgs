@@ -1,0 +1,134 @@
+{
+  "construction": {
+    "id": "n11-117",
+    "number": 117,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-017",
+    "title": {
+      "ca": "La cadira que deixava poc pas · dibuix"
+    },
+    "labels": [
+      "TORTUGA",
+      "LLEÓ",
+      "AJUDAR",
+      "PORTAR",
+      "SEURE",
+      "CADIRA",
+      "RAMPA",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-12dcca2ee56e",
+      "w-fbc89c059c15",
+      "w-5b2ff1d40d54",
+      "w-73b71e1ff757",
+      "w-045dc98b2849",
+      "w-e1efe2c4e23d",
+      "w-9079294dc56e",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-12dcca2ee56e",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que fa lloc",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "LLEÓ",
+        "wordId": "w-fbc89c059c15",
+        "role": "participant que du material a la taula",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-017",
+    "familyTitle": "La cadira que deixava poc pas",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A veu que la cadira talla el pas al replà. B espera amb una caixa subjecta a dues mans."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A agafa el respatller i reubica la cadira al costat lliure de la taula."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B travessa el replà lliure i posa la mateixa caixa de nanses sobre la taula."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B obre la caixa i n’ofereix el contingut cap a A, que seu a la mateixa cadira fora del pas."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una cadira amb travesser fosc, una caixa de nanses i una rampa curta amb replà ample."
+    },
+    "narrative": "A treu la cadira del pas perquè B pugui portar la capsa a la taula i compartir-ne el contingut."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "4d069326e0f7dacde20bbaf04aeedc4f0360be8ef64fbf34da02b7ffc7939003",
+      "file": "output/production/n11/n11-117/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa cadira que deixava poc pas. Actors and fixed identity: A = TORTUGA, armilla blau fosc amb un triangle clar al davant, participant que fa lloc; B = LLEÓ, samarreta ocre amb dues ratlles blanques al davant, participant que du material a la taula.\nRecurring visual anchors: Una cadira amb travesser fosc, una caixa de nanses i una rampa curta amb replà ample.\n1. A veu que la cadira talla el pas al replà. B espera amb una caixa subjecta a dues mans.\n2. A agafa el respatller i reubica la cadira al costat lliure de la taula.\n3. B travessa el replà lliure i posa la mateixa caixa de nanses sobre la taula.\n4. B obre la caixa i n’ofereix el contingut cap a A, que seu a la mateixa cadira fora del pas.",
+      "review": "Al darrer quadre apareixen dues cadires iguals al voltant de la taula. A havia de seure a la mateixa cadira que ha mogut.",
+      "reviewedAt": "2026-11-21T21:16:10+00:00"
+    }
+  ],
+  "status": "rejected"
+}

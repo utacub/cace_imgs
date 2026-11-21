@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-124",
+    "number": 124,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-024",
+    "title": {
+      "ca": "Tres cromos amb un sol · dibuix"
+    },
+    "labels": [
+      "ÓS",
+      "TORTUGA",
+      "JUGAR",
+      "DONAR",
+      "POSAR",
+      "CROMOS",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-a06249642996",
+      "w-12dcca2ee56e",
+      "w-6d90f16f5461",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-8797b9b05556",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-a06249642996",
+    "participants": [
+      {
+        "key": "A",
+        "label": "ÓS",
+        "wordId": "w-a06249642996",
+        "role": "participant que ofereix dos motius",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "TORTUGA",
+        "wordId": "w-12dcca2ee56e",
+        "role": "participant que completa el grup",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-024",
+    "familyTitle": "Tres cromos amb un sol",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CROMOS",
+        "wordId": "w-8797b9b05556"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats."
+    },
+    "narrative": "B cedeix el seu sol perquè A pugui reunir una sèrie de tres, i conserva la lluna."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "584c4b9bf61253ca6b07b7ac9405bbf660db9d9eea98d965198a385359c6a012",
+      "file": "output/production/n11/n11-124/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nTres cromos amb un sol. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que ofereix dos motius; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que completa el grup.\nRecurring visual anchors: Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats.\n1. A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara.\n2. B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer.\n3. A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai.\n4. A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files.",
+      "review": "Es mantenen quatre cromos. La tortuga acosta el sol i l’ós completa la fila, amb la lluna separada.",
+      "reviewedAt": "2026-11-21T21:16:10+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nTres cromos amb un sol. Actors and fixed identity: A = ÓS, armilla blau fosc amb un triangle clar al davant, participant que ofereix dos motius; B = TORTUGA, samarreta ocre amb dues ratlles blanques al davant, participant que completa el grup.\nRecurring visual anchors: Quatre cromos sense text. A té dos sols. B té una lluna i un sol. Dos espais de joc contrastats.\n1. A ensenya els dos sols i B gira els seus dos cromos amb un sol i una lluna de cara.\n2. B empeny el seu sol cap a A mentre A separa els seus dos sols per deixar lloc al tercer.\n3. A incorpora el sol de B a l’espai que ha preparat entre els seus. B reté la lluna en el seu espai.\n4. A mostra tres sols seguits. B col·loca la lluna de cara a l’altra banda i ambdós miren les dues files.",
+  "review": "Es mantenen quatre cromos. La tortuga acosta el sol i l’ós completa la fila, amb la lluna separada.",
+  "alt": {
+    "ca": "Una tortuga dona el seu sol a un ós i es queda la lluna. L’ós fa una fila amb tres sols.",
+    "es": "Una tortuga da su sol a un oso y se queda la luna. El oso forma una fila con tres soles."
+  },
+  "originalSha256": "584c4b9bf61253ca6b07b7ac9405bbf660db9d9eea98d965198a385359c6a012",
+  "file": "output/production/n11/n11-124/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:16:10+00:00",
+  "tool": "ImageGen integrat"
+}

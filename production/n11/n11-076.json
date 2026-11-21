@@ -1,0 +1,149 @@
+{
+  "construction": {
+    "id": "n11-076",
+    "number": 76,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-176",
+    "title": {
+      "ca": "L’hora de tancar la parada · foto"
+    },
+    "labels": [
+      "NEN",
+      "DONA",
+      "GUARDAR",
+      "PORTAR",
+      "TANCAR",
+      "CAIXA",
+      "NINA",
+      "FIRA"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-72e9fe9a8b43",
+      "w-f0441e0dd3b0",
+      "w-73b71e1ff757",
+      "w-4000ec1e6d5b",
+      "w-696b7c739d30",
+      "w-db89958a3c63",
+      "w-60d30b0567f1"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que recull les joguines",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que tanca la parada",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-076",
+    "familyTitle": "L’hora de tancar la parada",
+    "settings": [
+      {
+        "label": "FIRA",
+        "wordId": "w-60d30b0567f1"
+      }
+    ],
+    "targets": [
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A mira les dues nines al taulell. B sosté dreta la caixa oberta amb la vora més baixa a l’abast."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A posa les dues nines una al costat de l’altra a la caixa. B manté la base recolzada sobre el banc lateral."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B porta la caixa amb les dues nines visibles darrere del taulell. A l’aixeca per la vora inferior lliure."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "El taulell queda tancat amb el tancament alineat. A i B romanen al lateral amb la caixa oberta i les dues nines."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Dues nines amb vestits de ratlla i de punt, una caixa oberta amb dues nanses i un taulell abatible."
+    },
+    "narrative": "A retira les dues nines a la caixa que sosté B i B s’endú la caixa perquè A pugui tancar el taulell."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "567176037c6640cd5fdd77902b5fe62cee89dd6529b316a2b7248e44ebbbef49",
+      "file": "output/production/n11/n11-076/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’hora de tancar la parada. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que recull les joguines; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que tanca la parada.\nRecurring visual anchors: Dues nines amb vestits de ratlla i de punt, una caixa oberta amb dues nanses i un taulell abatible.\n1. A mira les dues nines al taulell. B sosté dreta la caixa oberta amb la vora més baixa a l’abast.\n2. A posa les dues nines una al costat de l’altra a la caixa. B manté la base recolzada sobre el banc lateral.\n3. B porta la caixa amb les dues nines visibles darrere del taulell. A l’aixeca per la vora inferior lliure.\n4. El taulell queda tancat amb el tancament alineat. A i B romanen al lateral amb la caixa oberta i les dues nines.",
+      "review": "Dues nines diferenciades per ratlles i punts. El nen les posa a la caixa i la dona n’agafa el pes perquè el nen pugui tancar la parada.",
+      "reviewedAt": "2026-11-21T21:19:35+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nL’hora de tancar la parada. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que recull les joguines; B = DONA, samarreta ocre amb dues ratlles blanques al davant, participant que tanca la parada.\nRecurring visual anchors: Dues nines amb vestits de ratlla i de punt, una caixa oberta amb dues nanses i un taulell abatible.\n1. A mira les dues nines al taulell. B sosté dreta la caixa oberta amb la vora més baixa a l’abast.\n2. A posa les dues nines una al costat de l’altra a la caixa. B manté la base recolzada sobre el banc lateral.\n3. B porta la caixa amb les dues nines visibles darrere del taulell. A l’aixeca per la vora inferior lliure.\n4. El taulell queda tancat amb el tancament alineat. A i B romanen al lateral amb la caixa oberta i les dues nines.",
+  "review": "Dues nines diferenciades per ratlles i punts. El nen les posa a la caixa i la dona n’agafa el pes perquè el nen pugui tancar la parada.",
+  "alt": {
+    "ca": "Un nen recull dues nines. Una dona sosté i porta la caixa mentre ell tanca el taulell.",
+    "es": "Un niño recoge dos muñecas. Una mujer sujeta y lleva la caja mientras él cierra el mostrador."
+  },
+  "originalSha256": "567176037c6640cd5fdd77902b5fe62cee89dd6529b316a2b7248e44ebbbef49",
+  "file": "output/production/n11/n11-076/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:19:35+00:00",
+  "tool": "ImageGen integrat"
+}

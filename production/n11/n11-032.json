@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-032",
+    "number": 32,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-132",
+    "title": {
+      "ca": "Les bombolles al replà sec · foto"
+    },
+    "labels": [
+      "NEN",
+      "HOME",
+      "OBRIR",
+      "JUGAR",
+      "PORTAR",
+      "BOMBOLLES",
+      "PARC"
+    ],
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-cfe24f6b3c38",
+      "w-a10b29af07c7",
+      "w-6d90f16f5461",
+      "w-73b71e1ff757",
+      "w-b74889cc7803",
+      "w-fb96ae342785"
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NEN",
+        "wordId": "w-b4012100fe09",
+        "role": "participant que du el pot",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que bufa des de terra ferma",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-032",
+    "familyTitle": "Les bombolles al replà sec",
+    "settings": [
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "targets": [
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "BOMBOLLES",
+        "wordId": "w-b74889cc7803"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A té el pot tancat vora el toll. B mostra el replà sec i hi posa els dos peus."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A porta el pot fins al banc sense travessar el toll i el manté dret mentre B desenrosca la tapa."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B aixeca l’anella amb pel·lícula visible i bufa cap al replà. A reté el pot amb la boca amunt."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "Tres bombolles visibles floten sobre el replà. B torna l’anella a la boca del pot que A sosté."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un pot d’anella amb tapa unida a la vareta, un banc i un replà sec contigu a un toll."
+    },
+    "narrative": "B troba un lloc sec per jugar. A hi du i sosté el pot perquè B pugui fer bombolles."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "f44d4c92b91263231498b9dd4de435395883bdd3773d19c6797f2f8af9a7b9d6",
+      "file": "output/production/n11/n11-032/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLes bombolles al replà sec. Actors and fixed identity: A = NEN, armilla blau fosc amb un triangle clar al davant, participant que du el pot; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que bufa des de terra ferma.\nRecurring visual anchors: Un pot d’anella amb tapa unida a la vareta, un banc i un replà sec contigu a un toll.\n1. A té el pot tancat vora el toll. B mostra el replà sec i hi posa els dos peus.\n2. A porta el pot fins al banc sense travessar el toll i el manté dret mentre B desenrosca la tapa.\n3. B aixeca l’anella amb pel·lícula visible i bufa cap al replà. A reté el pot amb la boca amunt.\n4. Tres bombolles visibles floten sobre el replà. B torna l’anella a la boca del pot que A sosté.",
+      "review": "El nen es manté amb els peus al costat mullat del replà fins al final. El canvi a un lloc sec que dona continuïtat al relat no és llegible.",
+      "reviewedAt": "2026-11-21T21:17:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

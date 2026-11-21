@@ -1,0 +1,143 @@
+{
+  "construction": {
+    "id": "n11-039",
+    "number": 39,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-139",
+    "title": {
+      "ca": "El carro de pilotes · foto"
+    },
+    "labels": [
+      "DONA",
+      "HOME",
+      "PORTAR",
+      "CLASSIFICAR",
+      "GUARDAR",
+      "PILOTA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-837cfa89f5df",
+      "w-f0441e0dd3b0",
+      "w-b7f578451973",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "participants": [
+      {
+        "key": "A",
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43",
+        "role": "participant que recull les pilotes",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "participant que ordena el carro",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-039",
+    "familyTitle": "El carro de pilotes",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts."
+    },
+    "narrative": "A recupera les tres pilotes i B les separa al carro segons el seu relleu abans d’endur-se-les."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "f3a3af24bf6b85c3531b06513265478707d19747a26b6ed4ccdb2b6d79691f55",
+      "file": "output/production/n11/n11-039/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl carro de pilotes. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que recull les pilotes; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que ordena el carro.\nRecurring visual anchors: Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts.\n1. A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible.\n2. A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec.\n3. B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu.\n4. B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles.",
+      "review": "Dues pilotes llises i una amb relleu. La dona recull les tres i l’home les separa al carro en els dos compartiments.",
+      "reviewedAt": "2026-11-21T21:19:02+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nEl carro de pilotes. Actors and fixed identity: A = DONA, armilla blau fosc amb un triangle clar al davant, participant que recull les pilotes; B = HOME, samarreta ocre amb dues ratlles blanques al davant, participant que ordena el carro.\nRecurring visual anchors: Tres pilotes, dues llises i una amb relleu, i un carro amb dos compartiments oberts.\n1. A veu les tres pilotes contra una paret baixa. B acosta el carro buit amb el separador visible.\n2. A hi porta les dues llises mentre B estabilitza el carro amb les dues mans al mànec.\n3. B posa les llises al compartiment ample. A li ofereix la tercera mostrant-ne el relleu.\n4. B desa la tercera al compartiment estret i A empeny el carro, amb les tres pilotes visibles.",
+  "review": "Dues pilotes llises i una amb relleu. La dona recull les tres i l’home les separa al carro en els dos compartiments.",
+  "alt": {
+    "ca": "Una dona recull tres pilotes. Un home posa les dues llises juntes i la rugosa a l’altre compartiment del carro.",
+    "es": "Una mujer recoge tres pelotas. Un hombre coloca las dos lisas juntas y la rugosa en el otro compartimento del carro."
+  },
+  "originalSha256": "f3a3af24bf6b85c3531b06513265478707d19747a26b6ed4ccdb2b6d79691f55",
+  "file": "output/production/n11/n11-039/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:19:02+00:00",
+  "tool": "ImageGen integrat"
+}

@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-071",
+    "number": 71,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-171",
+    "title": {
+      "ca": "La fotografia de la visita · foto"
+    },
+    "labels": [
+      "NOI",
+      "HOME",
+      "MIRAR",
+      "ENSENYAR",
+      "FOTO",
+      "CÀMERA",
+      "MUSEU"
+    ],
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-cfe24f6b3c38",
+      "w-e67dd0fa47ce",
+      "w-1eb1099a21ce",
+      "w-f1db5ec173b6",
+      "w-b9b63d370891",
+      "w-cebf42957604"
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "visitant que assenyala la figura",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38",
+        "role": "visitant que fa i mostra la foto",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "barri",
+    "familyId": "n11-f-071",
+    "familyTitle": "La fotografia de la visita",
+    "settings": [
+      {
+        "label": "MUSEU",
+        "wordId": "w-cebf42957604"
+      }
+    ],
+    "targets": [
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "ENSENYAR",
+        "wordId": "w-1eb1099a21ce"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "CÀMERA",
+        "wordId": "w-b9b63d370891"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A assenyala les formes de l’escultura des de darrere d’una separació baixa. B té la càmera baixa."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B enquadra des del mateix costat, amb la lent dirigida a l’escultura i A retirant la mà."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B gira la pantalla cap a A amb les dues formes ovalades capturades. A s’acosta sense passar la separació."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A"
+        ],
+        "evidence": "A mira la pantalla i mostra amb l’índex l’oval petit de la foto. L’escultura sencera és visible al rerefons."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una escultura baixa amb dues formes ovalades superposades i una càmera amb pantalla sense controls visibles."
+    },
+    "narrative": "A localitza la part de l’escultura que vol observar i B en fa una fotografia que tots dos poden mirar."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "fbe0f9d3c27f875117e35c46df67131a224cf2af495e1777403737106a1f109c",
+      "file": "output/production/n11/n11-071/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fotografia de la visita. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, visitant que assenyala la figura; B = HOME, samarreta ocre amb dues ratlles blanques al davant, visitant que fa i mostra la foto.\nRecurring visual anchors: Una escultura baixa amb dues formes ovalades superposades i una càmera amb pantalla sense controls visibles.\n1. A assenyala les formes de l’escultura des de darrere d’una separació baixa. B té la càmera baixa.\n2. B enquadra des del mateix costat, amb la lent dirigida a l’escultura i A retirant la mà.\n3. B gira la pantalla cap a A amb les dues formes ovalades capturades. A s’acosta sense passar la separació.\n4. A mira la pantalla i mostra amb l’índex l’oval petit de la foto. L’escultura sencera és visible al rerefons.",
+      "review": "Les dues formes ovalades romanen sobre la peanya. El noi indica l’escultura i l’home en fa la foto i li ensenya els mateixos ovals.",
+      "reviewedAt": "2026-11-21T21:19:35+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered white-background context.\nUse this precise Catalan storyboard. Each numbered prompt is a separate panel. Do not print any text.\nLa fotografia de la visita. Actors and fixed identity: A = NOI, armilla blau fosc amb un triangle clar al davant, visitant que assenyala la figura; B = HOME, samarreta ocre amb dues ratlles blanques al davant, visitant que fa i mostra la foto.\nRecurring visual anchors: Una escultura baixa amb dues formes ovalades superposades i una càmera amb pantalla sense controls visibles.\n1. A assenyala les formes de l’escultura des de darrere d’una separació baixa. B té la càmera baixa.\n2. B enquadra des del mateix costat, amb la lent dirigida a l’escultura i A retirant la mà.\n3. B gira la pantalla cap a A amb les dues formes ovalades capturades. A s’acosta sense passar la separació.\n4. A mira la pantalla i mostra amb l’índex l’oval petit de la foto. L’escultura sencera és visible al rerefons.",
+  "review": "Les dues formes ovalades romanen sobre la peanya. El noi indica l’escultura i l’home en fa la foto i li ensenya els mateixos ovals.",
+  "alt": {
+    "ca": "Un noi assenyala l’escultura. Un home la fotografia i li mostra les dues formes a la pantalla.",
+    "es": "Un chico señala la escultura. Un hombre la fotografía y le muestra las dos formas en la pantalla."
+  },
+  "originalSha256": "fbe0f9d3c27f875117e35c46df67131a224cf2af495e1777403737106a1f109c",
+  "file": "output/production/n11/n11-071/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:19:35+00:00",
+  "tool": "ImageGen integrat"
+}
