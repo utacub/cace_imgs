@@ -1,0 +1,130 @@
+{
+  "construction": {
+    "id": "n11-105",
+    "number": 105,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-005",
+    "title": {
+      "ca": "El puzle per capgirar · dibuix"
+    },
+    "labels": [
+      "MICO",
+      "ESQUIROL",
+      "AJUDAR",
+      "POSAR",
+      "PUZLE",
+      "PECES",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-12a87560751b",
+      "w-cc5063e253e2",
+      "w-5b2ff1d40d54",
+      "w-c211f7486a30",
+      "w-0006cf1ffdae",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-12a87560751b",
+    "participants": [
+      {
+        "key": "A",
+        "label": "MICO",
+        "wordId": "w-12a87560751b",
+        "role": "muntador del puzle",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "ESQUIROL",
+        "wordId": "w-cc5063e253e2",
+        "role": "company que orienta",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-005",
+    "familyTitle": "El puzle per capgirar",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A sosté la peça girada al costat del buit i B es fixa en el dibuix de la cua interrompuda."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B ressegueix amb el dit la corba del buit sense tapar-la i A li acosta la peça."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A gira la peça perquè continuï el traç de la cua. B subjecta el cartró amb la mà al marge."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A encaixa la peça i B assenyala la cua contínua dins del puzle complet."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un puzle de peix amb un últim buit asimètric i una peça amb el final de la cua."
+    },
+    "narrative": "B mostra com cal orientar la peça i subjecta el cartró perquè A pugui completar el peix."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "3622cf1705e6a579c3982ead4db46c6f60125fdf6918a39fa080ad27fd255362",
+      "file": "output/production/n11/n11-105/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with expressive but natural faces and consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, no gradients, grain, or 3-D, white setting.\nUse the following precise Catalan storyboard. Each numbered prompt is a separate image panel. Never print any text.\nEl puzle per capgirar. Actors and fixed identity: A = MICO, armilla blau fosc amb un triangle clar al davant, muntador del puzle; B = ESQUIROL, samarreta ocre amb dues ratlles blanques al davant, company que orienta.\nRecurring visual anchors: Un puzle de peix amb un últim buit asimètric i una peça amb el final de la cua.\n1. A sosté la peça girada al costat del buit i B es fixa en el dibuix de la cua interrompuda.\n2. B ressegueix amb el dit la corba del buit sense tapar-la i A li acosta la peça.\n3. A gira la peça perquè continuï el traç de la cua. B subjecta el cartró amb la mà al marge.\n4. A encaixa la peça i B assenyala la cua contínua dins del puzle complet.",
+      "review": "Hi ha una fletxa a la segona vinyeta. El contorn de la peça lliure no coincideix amb el buit.",
+      "reviewedAt": "2026-11-21T21:01:13+00:00"
+    }
+  ],
+  "status": "rejected"
+}

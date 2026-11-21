@@ -1,3 +1,9 @@
+# N11 · Producció i publicació autoritzades · 21/11/2026
+
+L’usuari autoritza generar, revisar i publicar per lots els estímuls del pla N11 fins a les **23:15 de Madrid** (22:15 UTC). Punt de partida: catàleg 0.1.169, 4.269 imatges i 861 entrades CACE. Una imatge de quatre vinyetes per estímul. Revisar individualment la continuïtat dels dos papers, les proves de la trama, el desenllaç, els contactes i les quantitats. El registre de progrés és a `production/n11-progress.json`, les revisions a `production/n11/` i els originals a `output/production/n11/`.
+
+---
+
 # N10 · 200 imatges completades i publicades · 21/11/2026
 
 200/200 N10 revisades individualment: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.169 amb 4269 imatges i 861 entrades CACE. Les 4069 imatges prèvies es conserven al catàleg i al banc, verificades per SHA-256. Les 200 descàrregues públiques N10 es van verificar per SHA-256 a 2026-11-21T17:33:34+00:00.

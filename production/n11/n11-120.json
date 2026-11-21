@@ -1,0 +1,136 @@
+{
+  "construction": {
+    "id": "n11-120",
+    "number": 120,
+    "level": 11,
+    "group": "insolita",
+    "kind": "drawing",
+    "variant": "pla-01",
+    "counterpartId": "n11-020",
+    "title": {
+      "ca": "El plafó de formes dobles · dibuix"
+    },
+    "labels": [
+      "TIGRE",
+      "GAT",
+      "CLASSIFICAR",
+      "DONAR",
+      "POSAR",
+      "PLAFÓ",
+      "PECES",
+      "CLASSE"
+    ],
+    "wordIds": [
+      "w-7a57f3835ffd",
+      "w-11ff74d27c02",
+      "w-837cfa89f5df",
+      "w-dd80e4e4de38",
+      "w-c211f7486a30",
+      "w-e93a2b92b1d6",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ],
+    "primaryWordId": "w-7a57f3835ffd",
+    "participants": [
+      {
+        "key": "A",
+        "label": "TIGRE",
+        "wordId": "w-7a57f3835ffd",
+        "role": "participant que ordena",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "GAT",
+        "wordId": "w-11ff74d27c02",
+        "role": "participant que completa les parelles",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "escola",
+    "familyId": "n11-f-020",
+    "familyTitle": "El plafó de formes dobles",
+    "settings": [
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "targets": [
+      {
+        "label": "CLASSIFICAR",
+        "wordId": "w-837cfa89f5df"
+      },
+      {
+        "label": "DONAR",
+        "wordId": "w-dd80e4e4de38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLAFÓ",
+        "wordId": "w-e93a2b92b1d6"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B indica al plafó el buit rodó i el triangular. A té les dues peces intercanviades sota les siluetes."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A alinea cada peça amb el seu buit i acosta el disc a la mà de B."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B encaixa el disc i A li ofereix el triangle amb la punta ja orientada al buit."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "B prem el triangle al lloc. A mostra la safata buida sota les dues peces encaixades."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Un plafó baix amb dos buits de silueta, un disc i un triangle, i les dues peces corresponents amb nansa baixa."
+    },
+    "narrative": "B indica els buits, A reorienta les formes i B les encaixa fins a completar el plafó."
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "sha256": "05bce9a538b0f7cc1031c5e87ce7fc1bdb918c23082aeaefa080ef378cc51eb2",
+      "file": "output/production/n11/n11-120/rejected-01.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two bipedal anthropomorphic animals with expressive but natural faces and consistent functional paws or hands. Flat educational illustration, simple clean color shapes and smooth dark outlines, flat colors only, no gradients, grain, or 3-D, white setting.\nUse the following precise Catalan storyboard. Each numbered prompt is a separate image panel. Never print any text.\nEl plafó de formes dobles. Actors and fixed identity: A = TIGRE, armilla blau fosc amb un triangle clar al davant, participant que ordena; B = GAT, samarreta ocre amb dues ratlles blanques al davant, participant que completa les parelles.\nRecurring visual anchors: Un plafó baix amb dos buits de silueta, un disc i un triangle, i les dues peces corresponents amb nansa baixa.\n1. B indica al plafó el buit rodó i el triangular. A té les dues peces intercanviades sota les siluetes.\n2. A alinea cada peça amb el seu buit i acosta el disc a la mà de B.\n3. B encaixa el disc i A li ofereix el triangle amb la punta ja orientada al buit.\n4. B prem el triangle al lloc. A mostra la safata buida sota les dues peces encaixades.",
+      "review": "La tercera vinyeta afegeix un element semblant a un tirador solt en contacte amb el tirador del disc.",
+      "reviewedAt": "2026-11-21T21:01:13+00:00"
+    }
+  ],
+  "status": "rejected"
+}

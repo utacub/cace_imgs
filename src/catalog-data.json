@@ -1,5 +1,5 @@
 {
-  "version": "0.1.169",
+  "version": "0.1.170",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,345 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n11-020",
+      "src": "assets/constructions/n11/n11-020.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "El plafó de formes dobles · foto",
+        "es": "NIÑO · HOMBRE · CLASIFICAR · DAR · PONER · TABLERO · PIEZAS · CLASE"
+      },
+      "alt": {
+        "ca": "Un nen dona un disc i un triangle a un home, que posa cada peça al seu buit fins a completar el plafó.",
+        "es": "Un niño da un disco y un triángulo a un hombre, que coloca cada pieza en su hueco hasta completar el tablero."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-cfe24f6b3c38",
+        "w-837cfa89f5df",
+        "w-dd80e4e4de38",
+        "w-c211f7486a30",
+        "w-e93a2b92b1d6",
+        "w-776ec487889f",
+        "w-3291fe2b2a8d"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-cfe24f6b3c38",
+        "w-837cfa89f5df",
+        "w-dd80e4e4de38",
+        "w-c211f7486a30",
+        "w-e93a2b92b1d6",
+        "w-776ec487889f",
+        "w-3291fe2b2a8d"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:01:13+00:00",
+      "target": "n11-020",
+      "constructionId": "n11-020",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B indica al plafó el buit rodó i el triangular. A té les dues peces intercanviades sota les siluetes."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A alinea cada peça amb el seu buit i acosta el disc a la mà de B."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B encaixa el disc i A li ofereix el triangle amb la punta ja orientada al buit."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "B prem el triangle al lloc. A mostra la safata buida sota les dues peces encaixades."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Un plafó baix amb dos buits de silueta, un disc i un triangle, i les dues peces corresponents amb nansa baixa."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-020",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NEN",
+            "wordId": "w-b4012100fe09",
+            "role": "participant que ordena",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "HOME",
+            "wordId": "w-cfe24f6b3c38",
+            "role": "participant que completa les parelles",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "CLASSE",
+            "wordId": "w-3291fe2b2a8d"
+          }
+        ],
+        "narrative": "B indica els buits, A reorienta les formes i B les encaixa fins a completar el plafó."
+      },
+      "originalSha256": "cc8eadfae305039f8a02dc77dbaa7ce994a6309dd84afbee1c7123180aa25d66",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6c4a4a4548fbac0d4c62d2f3b9b9d96697b64e2698fe4f42e7f434af7a99876f"
+    },
+    {
+      "id": "cace-n11-021",
+      "src": "assets/constructions/n11/n11-021.webp",
+      "kind": "photo",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La pilota sota el banc · foto",
+        "es": "CHICA · CHICO · JUGAR · AYUDAR · COGER · PELOTA · PATIO"
+      },
+      "alt": {
+        "ca": "Una noia assenyala la pilota que ha quedat sota el banc. Un noi la recupera i tots dos reprenen el joc.",
+        "es": "Una chica señala la pelota que ha quedado debajo del banco. Un chico la recupera y los dos reanudan el juego."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-01bc6dcab46b",
+        "w-6d90f16f5461",
+        "w-5b2ff1d40d54",
+        "w-677819a0a32a",
+        "w-b7f578451973",
+        "w-b8852b37e441"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-01bc6dcab46b",
+        "w-6d90f16f5461",
+        "w-5b2ff1d40d54",
+        "w-677819a0a32a",
+        "w-b7f578451973",
+        "w-b8852b37e441"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:01:13+00:00",
+      "target": "n11-021",
+      "constructionId": "n11-021",
+      "variant": "foto-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A atura el joc amb el peu estès i la pilota ja toca terra sota el banc. B veu la falca des de l’altre cantó."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A s’ajup i assenyala la pilota pel frontal. B arriba a l’extrem obert del banc."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "B"
+          ],
+          "evidence": "B l’agafa amb una mà a la falca i la fa sortir pel lateral, amb l’altra mà sobre el banc."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A reprèn el joc amb la pilota tocant-li el peu en una marca; B espera el passi al costat de l’altra."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Una pilota amb una falca blanca, un banc amb travesser i dues marques rodones de goma a terra."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-021",
+        "participants": [
+          {
+            "key": "A",
+            "label": "NOIA",
+            "wordId": "w-b38ff488f862",
+            "role": "participant a qui s’escapa la pilota",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "NOI",
+            "wordId": "w-01bc6dcab46b",
+            "role": "participant que la recupera",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "PATI",
+            "wordId": "w-b8852b37e441"
+          }
+        ],
+        "narrative": "A localitza la pilota sota el banc i B la recupera pel lateral perquè puguin reprendre el joc."
+      },
+      "originalSha256": "d91024b1e3aa9d4c82bca36e593067b483024419fc3fb0c1d888afae357551f9",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d2d0cc6e9dbb8c1d59662afb31a56d58e8548f46cd2c1935d68240d9a4795c3f"
+    },
+    {
+      "id": "cace-n11-121",
+      "src": "assets/constructions/n11/n11-121.webp",
+      "kind": "drawing",
+      "levels": [
+        11
+      ],
+      "title": {
+        "ca": "La pilota sota el banc · dibuix",
+        "es": "CONEJO · OSO · JUGAR · AYUDAR · COGER · PELOTA · PATIO"
+      },
+      "alt": {
+        "ca": "Un conill assenyala una pilota sota el banc. L’ós la treu i el conill torna a tenir-la al peu, davant de l’ós.",
+        "es": "Un conejo señala una pelota debajo del banco. El oso la saca y el conejo vuelve a tenerla al pie, frente al oso."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-a06249642996",
+        "w-6d90f16f5461",
+        "w-5b2ff1d40d54",
+        "w-677819a0a32a",
+        "w-b7f578451973",
+        "w-b8852b37e441"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-a06249642996",
+        "w-6d90f16f5461",
+        "w-5b2ff1d40d54",
+        "w-677819a0a32a",
+        "w-b7f578451973",
+        "w-b8852b37e441"
+      ],
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T21:01:13+00:00",
+      "target": "n11-121",
+      "constructionId": "n11-121",
+      "variant": "pla-01",
+      "moments": [
+        {
+          "number": 1,
+          "role": "plantejament",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A atura el joc amb el peu estès i la pilota ja toca terra sota el banc. B veu la falca des de l’altre cantó."
+        },
+        {
+          "number": 2,
+          "role": "primer-episodi",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A s’ajup i assenyala la pilota pel frontal. B arriba a l’extrem obert del banc."
+        },
+        {
+          "number": 3,
+          "role": "segon-episodi",
+          "visibleParticipants": [
+            "B"
+          ],
+          "evidence": "B l’agafa amb una mà a la falca i la fa sortir pel lateral, amb l’altra mà sobre el banc."
+        },
+        {
+          "number": 4,
+          "role": "desenllac",
+          "visibleParticipants": [
+            "A",
+            "B"
+          ],
+          "evidence": "A reprèn el joc amb la pilota tocant-li el peu en una marca; B espera el passi al costat de l’altra."
+        }
+      ],
+      "continuity": {
+        "sameParticipants": true,
+        "anchor": "Una pilota amb una falca blanca, un banc amb travesser i dues marques rodones de goma a terra."
+      },
+      "semanticRelation": {
+        "type": "relat",
+        "familyId": "n11-f-021",
+        "participants": [
+          {
+            "key": "A",
+            "label": "CONILL",
+            "wordId": "w-51a7805e979b",
+            "role": "participant a qui s’escapa la pilota",
+            "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+          },
+          {
+            "key": "B",
+            "label": "ÓS",
+            "wordId": "w-a06249642996",
+            "role": "participant que la recupera",
+            "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+          }
+        ],
+        "settings": [
+          {
+            "label": "PATI",
+            "wordId": "w-b8852b37e441"
+          }
+        ],
+        "narrative": "A localitza la pilota sota el banc i B la recupera pel lateral perquè puguin reprendre el joc."
+      },
+      "originalSha256": "3737f90ceef0d1e5a6123e9ab5745140194009a9ef365e33dbeb443705137e78",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8f62b2600e3079a282bea24b86bf16f2416a8e0c40486c1bbbb6871507596653"
+    },
     {
       "id": "cace-n10-087",
       "src": "assets/constructions/n10/n10-087.webp",
@@ -188954,6 +189293,15 @@
         "cace-n10-184",
         "cace-n10-186",
         "cace-n10-190"
+      ]
+    },
+    {
+      "id": "cace-n11-relats",
+      "name": "N11 · Relats",
+      "items": [
+        "cace-n11-020",
+        "cace-n11-021",
+        "cace-n11-121"
       ]
     }
   ]

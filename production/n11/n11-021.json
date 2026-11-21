@@ -1,0 +1,142 @@
+{
+  "construction": {
+    "id": "n11-021",
+    "number": 21,
+    "level": 11,
+    "group": "habitual",
+    "kind": "photo",
+    "variant": "foto-01",
+    "counterpartId": "n11-121",
+    "title": {
+      "ca": "La pilota sota el banc · foto"
+    },
+    "labels": [
+      "NOIA",
+      "NOI",
+      "JUGAR",
+      "AJUDAR",
+      "AGAFAR",
+      "PILOTA",
+      "PATI"
+    ],
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-01bc6dcab46b",
+      "w-6d90f16f5461",
+      "w-5b2ff1d40d54",
+      "w-677819a0a32a",
+      "w-b7f578451973",
+      "w-b8852b37e441"
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "participants": [
+      {
+        "key": "A",
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862",
+        "role": "participant a qui s’escapa la pilota",
+        "visualMarker": "armilla blau fosc amb un triangle clar al davant"
+      },
+      {
+        "key": "B",
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b",
+        "role": "participant que la recupera",
+        "visualMarker": "samarreta ocre amb dues ratlles blanques al davant"
+      }
+    ],
+    "theme": "joc",
+    "familyId": "n11-f-021",
+    "familyTitle": "La pilota sota el banc",
+    "settings": [
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "targets": [
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "AJUDAR",
+        "wordId": "w-5b2ff1d40d54"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "plantejament",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A atura el joc amb el peu estès i la pilota ja toca terra sota el banc. B veu la falca des de l’altre cantó."
+      },
+      {
+        "number": 2,
+        "role": "primer-episodi",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A s’ajup i assenyala la pilota pel frontal. B arriba a l’extrem obert del banc."
+      },
+      {
+        "number": 3,
+        "role": "segon-episodi",
+        "visibleParticipants": [
+          "B"
+        ],
+        "evidence": "B l’agafa amb una mà a la falca i la fa sortir pel lateral, amb l’altra mà sobre el banc."
+      },
+      {
+        "number": 4,
+        "role": "desenllac",
+        "visibleParticipants": [
+          "A",
+          "B"
+        ],
+        "evidence": "A reprèn el joc amb la pilota tocant-li el peu en una marca; B espera el passi al costat de l’altra."
+      }
+    ],
+    "continuity": {
+      "sameParticipants": true,
+      "anchor": "Una pilota amb una falca blanca, un banc amb travesser i dues marques rodones de goma a terra."
+    },
+    "narrative": "A localitza la pilota sota el banc i B la recupera pel lateral perquè puguin reprendre el joc."
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "sha256": "d91024b1e3aa9d4c82bca36e593067b483024419fc3fb0c1d888afae357551f9",
+      "file": "output/production/n11/n11-021/image.png",
+      "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered classroom or playground.\nUse the following precise Catalan storyboard. Each numbered prompt is a separate image panel. Never print any text.\nLa pilota sota el banc. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant a qui s’escapa la pilota; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que la recupera.\nRecurring visual anchors: Una pilota amb una falca blanca, un banc amb travesser i dues marques rodones de goma a terra.\n1. A atura el joc amb el peu estès i la pilota ja toca terra sota el banc. B veu la falca des de l’altre cantó.\n2. A s’ajup i assenyala la pilota pel frontal. B arriba a l’extrem obert del banc.\n3. B l’agafa amb una mà a la falca i la fa sortir pel lateral, amb l’altra mà sobre el banc.\n4. A reprèn el joc amb la pilota tocant-li el peu en una marca; B espera el passi al costat de l’altra.",
+      "review": "La noia indica la pilota sota el banc i el noi la treu pel costat amb la mà lliure sobre el banc. Al final la noia té la pilota al peu i el noi espera el passi. Una pilota i dos discos.",
+      "reviewedAt": "2026-11-21T21:01:13+00:00"
+    }
+  ],
+  "status": "accepted",
+  "reviewed": true,
+  "prompt": "CACE Imatges, school-friendly wordless educational narrative. Deliver one wide landscape image. EXACTLY FOUR equal vertical panels in ONE horizontal row from left to right, with pure white margins and three consistent white gutters. Never merge panels, use a second row, crop the first or last panel or insert an inset panel. Clear simplified setting against white with only needed cues. Medium-wide full-action views, eye-level slightly oblique, matching camera position, perspective, dimensions, anatomy, scale, lighting, hair/fur, clothes and object shapes across panels. Repeat the same two characters scene to scene. Favor visual evidence of their actions, visible distinct hands and physical points of contact. No cut-off hands, warped fingers, floating objects, implausible contact, lettering, branding, numbers, panel labels, arrows, speech bubbles, captions or motion graphics. The internal codes A and B are directions only. Preserve every count and all patterns. Stage the action as a natural coherent story.\nExactly two real-looking humans, natural synthetic color photography, neutral daylight, uncluttered classroom or playground.\nUse the following precise Catalan storyboard. Each numbered prompt is a separate image panel. Never print any text.\nLa pilota sota el banc. Actors and fixed identity: A = NOIA, armilla blau fosc amb un triangle clar al davant, participant a qui s’escapa la pilota; B = NOI, samarreta ocre amb dues ratlles blanques al davant, participant que la recupera.\nRecurring visual anchors: Una pilota amb una falca blanca, un banc amb travesser i dues marques rodones de goma a terra.\n1. A atura el joc amb el peu estès i la pilota ja toca terra sota el banc. B veu la falca des de l’altre cantó.\n2. A s’ajup i assenyala la pilota pel frontal. B arriba a l’extrem obert del banc.\n3. B l’agafa amb una mà a la falca i la fa sortir pel lateral, amb l’altra mà sobre el banc.\n4. A reprèn el joc amb la pilota tocant-li el peu en una marca; B espera el passi al costat de l’altra.",
+  "review": "La noia indica la pilota sota el banc i el noi la treu pel costat amb la mà lliure sobre el banc. Al final la noia té la pilota al peu i el noi espera el passi. Una pilota i dos discos.",
+  "alt": {
+    "ca": "Una noia assenyala la pilota que ha quedat sota el banc. Un noi la recupera i tots dos reprenen el joc.",
+    "es": "Una chica señala la pelota que ha quedado debajo del banco. Un chico la recupera y los dos reanudan el juego."
+  },
+  "originalSha256": "d91024b1e3aa9d4c82bca36e593067b483024419fc3fb0c1d888afae357551f9",
+  "file": "output/production/n11/n11-021/image.png",
+  "width": 2172,
+  "height": 724,
+  "created": "2026-11-21T21:01:13+00:00",
+  "tool": "ImageGen integrat"
+}
