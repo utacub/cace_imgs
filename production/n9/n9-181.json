@@ -4,8 +4,8 @@
   "prompt": "Correct only rabbit's jug and holding hand in first and last panels. Jug has exactly ONE handle, on right side, spout on left. Rabbit's raised forearm naturally reaches across behind jug, and paw grips that ONE right-side loop handle, not the spout. Remove any extra loop or protrusion by left spout. Keep middle panel unchanged; same water levels, faceted glass, jug dimensions, clothing, table and composition. No text.",
   "kind": "drawing",
   "variant": "pla-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-181",
     "number": 181,
@@ -110,5 +110,17 @@
       "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Clean flat 2D illustration of one friendly recognizable anthropomorphic animal, solid colors, clear outlines, no photo texture. Animal performs the human activity using species-appropriate limbs, no extra human limbs. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: CONILL. Continuity anchor: el got transparent de base facetada i el mateix líquid clar. Ordered moments in Catalan: PANEL 1: Got buit damunt un suport pla; gerra amb aigua ben visible. PANEL 2: Raig continu cap al got i nivell a mitja alçada. PANEL 3: Got gairebé ple i gerra dreta amb un nivell més baix.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
       "rejectedAt": "2026-11-21T14:01:27.485Z"
     }
-  ]
+  ],
+  "review": "Corregida l'agafada a la nansa única; got buit, abocament i got amb aigua mentre baixa el nivell de gerra, conill coherent.",
+  "alt": {
+    "ca": "conill · posar — aigua / got.",
+    "es": "CONEJO · PONER · AGUA · VASO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "565b7e0f9e195dfa611911d597d80e4ab00183291bf52c60eac90b8da57531c0",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T14:03:46.237Z",
+  "publicationVersion": "0.1.157",
+  "importedAt": "2026-11-21T14:11:35.786161+00:00"
 }

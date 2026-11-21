@@ -1,5 +1,5 @@
 {
-  "version": "0.1.156",
+  "version": "0.1.157",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1046 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-081",
+      "src": "assets/constructions/n9/n9-081.webp",
+      "title": {
+        "ca": "noia · posar — aigua / got",
+        "es": "CHICA · PONER · AGUA · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · posar — aigua / got.",
+        "es": "CHICA · PONER · AGUA · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-00e8b2c10536",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-c211f7486a30",
+        "w-00e8b2c10536",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:42:50.235Z",
+      "target": "n9-081",
+      "constructionId": "n9-081",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Got buit damunt un suport pla; gerra amb aigua ben visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Raig continu cap al got i nivell a mitja alçada."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Got gairebé ple i gerra dreta amb un nivell més baix."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got transparent de base facetada i el mateix líquid clar"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "b5e3822fe9cfcdfbddcc489da091e2397c18e647cd0d3b8bb84337108ac55089",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d9086f1800179a9214318d0ddcb583b073fee2985a4e52f56133d11b9264326d"
+    },
+    {
+      "id": "cace-n9-082",
+      "src": "assets/constructions/n9/n9-082.webp",
+      "title": {
+        "ca": "noi · posar — llet / tassa",
+        "es": "CHICO · PONER · LECHE · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · posar — llet / tassa.",
+        "es": "CHICO · PONER · LECHE · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-e596f4e7a6bb",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-c211f7486a30",
+        "w-e596f4e7a6bb",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:42.532Z",
+      "target": "n9-082",
+      "constructionId": "n9-082",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Interior de la tassa sense contingut, amb el fons clarament visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Un raig de llet arriba a la tassa, que ja és mig plena."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La llet arriba a prop de la vora i el recipient d’origen es veu dret i gairebé buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa transparent amb nansa escairada i la llet blanca"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "672a2209c558b0a8969e3bcff3284c9e498cfaf3f06f1c4de74c903641c7bc55",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "15b29287e82b186332f4f5d24102004e38252482feda775e7b13a2099476fec5"
+    },
+    {
+      "id": "cace-n9-083",
+      "src": "assets/constructions/n9/n9-083.webp",
+      "title": {
+        "ca": "dona · posar — suc / got",
+        "es": "MUJER · PONER · ZUMO · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · posar — suc / got.",
+        "es": "MUJER · PONER · ZUMO · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e5decd679111",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e5decd679111",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:42.777Z",
+      "target": "n9-083",
+      "constructionId": "n9-083",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Got buit complet i gerra de suc al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "La gerra aboca el suc. El nivell de líquid encara és a la primera banda."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "El suc arriba a la segona banda, mentre la gerra deixa de vessar."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got baix amb dues bandes en relleu i el suc taronja"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "63e994ba2c7c80d997269f8ba36f2585187099f12a425778ced08f7b0ca3fb17",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "58036481e558cbe2eef227ad5a898a1ef4b061760d7d1e83e2d15d68a982759e"
+    },
+    {
+      "id": "cace-n9-084",
+      "src": "assets/constructions/n9/n9-084.webp",
+      "title": {
+        "ca": "home · posar — arròs / plat",
+        "es": "HOMBRE · PONER · ARROZ · PLATO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · posar — arròs / plat.",
+        "es": "HOMBRE · PONER · ARROZ · PLATO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-d7dde06020b1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-d7dde06020b1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.166Z",
+      "target": "n9-084",
+      "constructionId": "n9-084",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Plat profund buit i arròs en un recipient secundari."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "La cullera transfereix arròs al plat, que ja conté una primera porció."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Una sola porció gran ocupa el centre del plat. El recipient de servei ha perdut volum."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat profund de vora verda i l’arròs amb grans clars"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "288d55bb4ff1f10e22090a5888e66a6a37deb9769e70b2c3c58fd942c4d800ff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "61e1121d4a3c7dd8dfc99e89d32eca03b95b79196855cb46aa6e556a6df49b47"
+    },
+    {
+      "id": "cace-n9-085",
+      "src": "assets/constructions/n9/n9-085.webp",
+      "title": {
+        "ca": "nena · posar — pèsols / carmanyola",
+        "es": "NIÑA · PONER · GUISANTES · FIAMBRERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · posar — pèsols / carmanyola.",
+        "es": "NIÑA · PONER · GUISANTES · FIAMBRERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-36d064c9a54e",
+        "w-c3b8bd56e942",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-c211f7486a30",
+        "w-36d064c9a54e",
+        "w-c3b8bd56e942",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.376Z",
+      "target": "n9-085",
+      "constructionId": "n9-085",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Recipient obert buit i cullerot ple de pèsols a la vora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "El cullerot aboca els pèsols en el recipient, que ja té una capa visible."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Capa doble de pèsols, amb el cullerot buit al costat i la tapa encara oberta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carmanyola transparent amb tanca ampla i els pèsols rodons"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "38f36811824057d62c7acb2ce91720135522936ae4820b1dcc2446d40f012950",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "813f3ff9733559c6d9c9974bafe1b2704eb5492515ebfe3bf7e362f65d6ba3c2"
+    },
+    {
+      "id": "cace-n9-086",
+      "src": "assets/constructions/n9/n9-086.webp",
+      "title": {
+        "ca": "nen · posar — maduixa / cistell",
+        "es": "NIÑO · PONER · FRESA · CESTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · posar — maduixa / cistell.",
+        "es": "NIÑO · PONER · FRESA · CESTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-c211f7486a30",
+        "w-32c8eb76f143",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-c211f7486a30",
+        "w-32c8eb76f143",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.599Z",
+      "target": "n9-086",
+      "constructionId": "n9-086",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Cistell buit i maduixes grosses sobre un plat adjacent."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "L’agent posa una maduixa al cistell. Dues ja són dins i les altres al plat."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Totes les maduixes són al cistell. El plat és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cistell de nansa baixa i les maduixes amb fulles visibles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "b80c88167567a922b8d7106299e1ccb3c31b648747ee52641c29174bd839e587",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "b77b6b0733d371067777d7d5c42b2e82aa0c6c555b39305d1bf346ad6f40aa11"
+    },
+    {
+      "id": "cace-n9-181",
+      "src": "assets/constructions/n9/n9-181.webp",
+      "title": {
+        "ca": "conill · posar — aigua / got",
+        "es": "CONEJO · PONER · AGUA · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · posar — aigua / got.",
+        "es": "CONEJO · PONER · AGUA · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-00e8b2c10536",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-c211f7486a30",
+        "w-00e8b2c10536",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:42.421Z",
+      "target": "n9-181",
+      "constructionId": "n9-181",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Got buit damunt un suport pla; gerra amb aigua ben visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Raig continu cap al got i nivell a mitja alçada."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Got gairebé ple i gerra dreta amb un nivell més baix."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got transparent de base facetada i el mateix líquid clar"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "565b7e0f9e195dfa611911d597d80e4ab00183291bf52c60eac90b8da57531c0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "78ad84dbdf081f565ab9eface2d52111b4186b698560e4194cf5ef36d0258efc"
+    },
+    {
+      "id": "cace-n9-182",
+      "src": "assets/constructions/n9/n9-182.webp",
+      "title": {
+        "ca": "gat · posar — llet / tassa",
+        "es": "GATO · PONER · LECHE · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · posar — llet / tassa.",
+        "es": "GATO · PONER · LECHE · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-c211f7486a30",
+        "w-e596f4e7a6bb",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-c211f7486a30",
+        "w-e596f4e7a6bb",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:42.645Z",
+      "target": "n9-182",
+      "constructionId": "n9-182",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Interior de la tassa sense contingut, amb el fons clarament visible."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "Un raig de llet arriba a la tassa, que ja és mig plena."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "La llet arriba a prop de la vora i el recipient d’origen es veu dret i gairebé buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa transparent amb nansa escairada i la llet blanca"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "06e4857c600ce5673d5436f0e8c9b7727743c1d8192b7773285cf8154d57a04d",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "6c36288804ae9f777b5f04208bc252be029398a300fd96b0bd33ef8e60eb1803"
+    },
+    {
+      "id": "cace-n9-183",
+      "src": "assets/constructions/n9/n9-183.webp",
+      "title": {
+        "ca": "gos · posar — suc / got",
+        "es": "PERRO · PONER · ZUMO · VASO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gos · posar — suc / got.",
+        "es": "PERRO · PONER · ZUMO · VASO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-e5decd679111",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-4761fde107a7",
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-c211f7486a30",
+        "w-e5decd679111",
+        "w-1bed9f18ebab",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.033Z",
+      "target": "n9-183",
+      "constructionId": "n9-183",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Got buit complet i gerra de suc al costat."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "La gerra aboca el suc. El nivell de líquid encara és a la primera banda."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "El suc arriba a la segona banda, mentre la gerra deixa de vessar."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el got baix amb dues bandes en relleu i el suc taronja"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "bbbd0e74e2cac7328999f83855e44ff8c5aec8157a229d24955f1a3566f80347",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "366bc74eb0d436fedef22d5ddf23898fccd226d27355454f57aa1828fd08db73"
+    },
+    {
+      "id": "cace-n9-184",
+      "src": "assets/constructions/n9/n9-184.webp",
+      "title": {
+        "ca": "ós · posar — arròs / plat",
+        "es": "OSO · PONER · ARROZ · PLATO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · posar — arròs / plat.",
+        "es": "OSO · PONER · ARROZ · PLATO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-c211f7486a30",
+        "w-d7dde06020b1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-c211f7486a30",
+        "w-d7dde06020b1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.277Z",
+      "target": "n9-184",
+      "constructionId": "n9-184",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Plat profund buit i arròs en un recipient secundari."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "La cullera transfereix arròs al plat, que ja conté una primera porció."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Una sola porció gran ocupa el centre del plat. El recipient de servei ha perdut volum."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat profund de vora verda i l’arròs amb grans clars"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "e54f83a9df417824e6034e2fcc898c439c5a2fb4e9ecf31a543246ed68788b44",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f88f49707af5f1668e7912df7474470f2b44463cce19ab9a7dc0e72dbeb38281"
+    },
+    {
+      "id": "cace-n9-185",
+      "src": "assets/constructions/n9/n9-185.webp",
+      "title": {
+        "ca": "mico · posar — pèsols / carmanyola",
+        "es": "MONO · PONER · GUISANTES · FIAMBRERA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · posar — pèsols / carmanyola.",
+        "es": "MONO · PONER · GUISANTES · FIAMBRERA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-36d064c9a54e",
+        "w-c3b8bd56e942",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-c211f7486a30",
+        "w-36d064c9a54e",
+        "w-c3b8bd56e942",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.489Z",
+      "target": "n9-185",
+      "constructionId": "n9-185",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Recipient obert buit i cullerot ple de pèsols a la vora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "El cullerot aboca els pèsols en el recipient, que ja té una capa visible."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Capa doble de pèsols, amb el cullerot buit al costat i la tapa encara oberta."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la carmanyola transparent amb tanca ampla i els pèsols rodons"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "950f0c71716c77896b4b40f761a81d773d00b25a7ed3982e3721f36a9b8063e1",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8a7ca1f061331c9a001746810a649f44846d22ce501bcb5d20c1c8a6e50ed2be"
+    },
+    {
+      "id": "cace-n9-186",
+      "src": "assets/constructions/n9/n9-186.webp",
+      "title": {
+        "ca": "esquirol · posar — maduixa / cistell",
+        "es": "ARDILLA · PONER · FRESA · CESTA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · posar — maduixa / cistell.",
+        "es": "ARDILLA · PONER · FRESA · CESTA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-c211f7486a30",
+        "w-32c8eb76f143",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-c211f7486a30",
+        "w-32c8eb76f143",
+        "w-120fb6b37e88",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.699Z",
+      "target": "n9-186",
+      "constructionId": "n9-186",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Cistell buit i maduixes grosses sobre un plat adjacent."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-c211f7486a30",
+          "evidence": "L’agent posa una maduixa al cistell. Dues ja són dins i les altres al plat."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Totes les maduixes són al cistell. El plat és buit."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el cistell de nansa baixa i les maduixes amb fulles visibles"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "56336deecbba981f922d96a872300e83e38c872044f7aaa0c80f9ec12fb90ea3",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "08560b14a218df45df9c62e03072e2373a5f9886828714c57bd86c1359132ecf"
+    },
+    {
+      "id": "cace-n9-187",
+      "src": "assets/constructions/n9/n9-187.webp",
+      "title": {
+        "ca": "elefant · guardar — llapis / caixa",
+        "es": "ELEFANTE · GUARDAR · LÁPIZ · CAJA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · guardar — llapis / caixa.",
+        "es": "ELEFANTE · GUARDAR · LÁPIZ · CAJA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-f0441e0dd3b0",
+        "w-1775aa96869e",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-f0441e0dd3b0",
+        "w-1775aa96869e",
+        "w-696b7c739d30",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:57:43.913Z",
+      "target": "n9-187",
+      "constructionId": "n9-187",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres llapis fora i capsa oberta i buida."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-f0441e0dd3b0",
+          "evidence": "Introdueix el segon llapis. Un ja és a la capsa i un encara és a la taula."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tres llapis dins. Comença a tancar la capsa, sense tapar-ne el contingut."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la capsa transparent de cantell corb i els mateixos llapis de fusta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "9b1ab7afbfad4df6ab390ddbe13109b213d792dd4a1097834d36a24a87d58bb5",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1778ff9a19e74fed7c91e14556b51eca2e1b6f397980545ada3f10884a32f620"
+    },
     {
       "id": "cace-n9-073",
       "src": "assets/constructions/n9/n9-073.webp",
@@ -170903,7 +171943,20 @@
         "cace-n9-177",
         "cace-n9-178",
         "cace-n9-179",
-        "cace-n9-180"
+        "cace-n9-180",
+        "cace-n9-081",
+        "cace-n9-082",
+        "cace-n9-083",
+        "cace-n9-084",
+        "cace-n9-085",
+        "cace-n9-086",
+        "cace-n9-181",
+        "cace-n9-182",
+        "cace-n9-183",
+        "cace-n9-184",
+        "cace-n9-185",
+        "cace-n9-186",
+        "cace-n9-187"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "constructionId": "n9-087",
   "file": "output/production/n9/n9-087/image.png",
-  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has light brown skin and curly dark hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOIA (young adult woman). Continuity anchor: la capsa transparent de cantell corb i els mateixos llapis de fusta. Ordered moments in Catalan: PANEL 1: Tres llapis fora i capsa oberta i buida. PANEL 2: Introdueix el segon llapis. Un ja és a la capsa i un encara és a la taula. PANEL 3: Tres llapis dins. Comença a tancar la capsa, sense tapar-ne el contingut.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "prompt": "Final panel currently still has FOUR pencils. Replace final box contents completely with exactly THREE clearly separated pencils, one RED-painted wooden pencil at rear, one BLUE-painted wooden pencil at middle, one GREEN-painted wooden pencil at front. Change the same three initial and middle pencils to those matching colors: first red blue green outside; middle red inside blue in hand green outside. Last only red blue green in box and no others. Same normal pencil length all panels. Preserve woman anatomy furniture box transparent lid hinge, white background and 3-panel photo. No text.",
   "kind": "photo",
   "variant": "foto-01",
   "reviewed": false,
@@ -102,5 +102,19 @@
     },
     "reviewStatus": "pendent-de-revisio-usuari"
   },
-  "created": "2026-11-21T13:57:43.809Z"
+  "created": "2026-11-21T13:57:43.809Z",
+  "rejectedAttempts": [
+    {
+      "file": "output/production/n9/n9-087/rejected-01.png",
+      "reason": "Hi ha quatre llapis finals però només tres inicials.",
+      "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has light brown skin and curly dark hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: NOIA (young adult woman). Continuity anchor: la capsa transparent de cantell corb i els mateixos llapis de fusta. Ordered moments in Catalan: PANEL 1: Tres llapis fora i capsa oberta i buida. PANEL 2: Introdueix el segon llapis. Un ja és a la capsa i un encara és a la taula. PANEL 3: Tres llapis dins. Comença a tancar la capsa, sense tapar-ne el contingut.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+      "rejectedAt": "2026-11-21T14:10:35.980Z"
+    },
+    {
+      "file": "output/production/n9/n9-087/rejected-02.png",
+      "reason": "El primer retoc manté quatre llapis finals; cal distingir-los i recomptar-los.",
+      "prompt": "Edit ONLY the final panel contents of transparent pencil box: exactly THREE wooden pencils, all same length and thickness as middle panel pencil, erasers aligned at left and tips at right. Remove the extra fourth pencil, leaving three clearly separate parallel pencils. Keep young woman, hands, box, lid hinge, table, first and middle panels unchanged. No text.",
+      "rejectedAt": "2026-11-21T14:13:13.595Z"
+    }
+  ]
 }
