@@ -1,0 +1,100 @@
+{
+  "constructionId": "n9-077",
+  "file": "output/production/n9/n9-077/image.png",
+  "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has medium brown skin and dark wavy hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: DONA (adult woman). Continuity anchor: el plat ovalat amb relleu a la vora. Ordered moments in Catalan: PANEL 1: Plat mullat amb gotes grans que segueixen el relleu. PANEL 2: Un drap absorbeix les gotes de mitja vora i deixa gotes a l’altra meitat. PANEL 3: Vora i centre secs, amb el drap humit al costat i la mateixa orientació del plat.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
+  "kind": "photo",
+  "variant": "foto-01",
+  "reviewed": false,
+  "status": "pending-generation",
+  "construction": {
+    "id": "n9-077",
+    "number": 77,
+    "level": 9,
+    "group": "habitual",
+    "sequenceType": "aspecte",
+    "familyId": "n9-f-077",
+    "counterpartId": "n9-177",
+    "kind": "photo",
+    "variant": "foto-01",
+    "title": {
+      "ca": "dona · assecar — plat"
+    },
+    "labels": [
+      "DONA",
+      "ASSECAR",
+      "PLAT",
+      "ABANS",
+      "DESPRÉS"
+    ],
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-ae417aa563dd",
+      "w-55d250f4cf1e",
+      "w-94e24987455e",
+      "w-5ed1f93250a1"
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "agent": {
+      "label": "DONA",
+      "wordId": "w-72e9fe9a8b43"
+    },
+    "actions": [
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      }
+    ],
+    "referents": [
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      }
+    ],
+    "moments": [
+      {
+        "number": 1,
+        "role": "inici",
+        "actionWordId": null,
+        "evidence": "Plat mullat amb gotes grans que segueixen el relleu."
+      },
+      {
+        "number": 2,
+        "role": "transicio",
+        "actionWordId": "w-ae417aa563dd",
+        "evidence": "Un drap absorbeix les gotes de mitja vora i deixa gotes a l’altra meitat."
+      },
+      {
+        "number": 3,
+        "role": "final",
+        "actionWordId": null,
+        "evidence": "Vora i centre secs, amb el drap humit al costat i la mateixa orientació del plat."
+      }
+    ],
+    "relation": {
+      "type": "ordre-temporal",
+      "markers": [
+        {
+          "label": "ABANS",
+          "wordId": "w-94e24987455e"
+        },
+        {
+          "label": "DESPRÉS",
+          "wordId": "w-5ed1f93250a1"
+        }
+      ],
+      "causalClaim": false
+    },
+    "continuity": {
+      "sameAgent": true,
+      "anchor": "el plat ovalat amb relleu a la vora"
+    },
+    "adultOnly": false,
+    "composition": {
+      "frameCount": 3,
+      "readingOrder": "esquerra-dreta",
+      "sharedViewpoint": true
+    },
+    "reviewStatus": "pendent-de-revisio-usuari"
+  },
+  "created": "2026-11-21T13:42:48.913Z"
+}

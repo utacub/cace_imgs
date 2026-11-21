@@ -1,5 +1,5 @@
 {
-  "version": "0.1.154",
+  "version": "0.1.155",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -11433,6 +11433,1254 @@
     }
   ],
   "assets": [
+    {
+      "id": "cace-n9-066",
+      "src": "assets/constructions/n9/n9-066.webp",
+      "title": {
+        "ca": "home · pintar — pal",
+        "es": "HOMBRE · PINTAR · PALO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · pintar — pal.",
+        "es": "HOMBRE · PINTAR · PALO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-c8538c4482a2",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-b04a48827310",
+        "w-c8538c4482a2",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:57.968Z",
+      "target": "n9-066",
+      "constructionId": "n9-066",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pal nu sobre dos suports baixos."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "El pinzell aplica una banda ampla al terç que inclou el nus."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Terç de la punta pintat, amb el nus encara visible en relleu i els altres dos terços intactes."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el pal recte amb un nus prop de la punta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "ca9cd55d20e1e41feece8b13576f0cb198efc5ab5be0c387eb6f80ad5934d5e2",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "24c78dbc9e93e771de740c7426cf1377c99e0f2975797a55a97cebeabd7f57ea"
+    },
+    {
+      "id": "cace-n9-067",
+      "src": "assets/constructions/n9/n9-067.webp",
+      "title": {
+        "ca": "nena · netejar — mirall",
+        "es": "NIÑA · LIMPIAR · ESPEJO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nena · netejar — mirall.",
+        "es": "NIÑA · LIMPIAR · ESPEJO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "targetWordIds": [
+        "w-cda6fa4a9867",
+        "w-4e6be686e7c1",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.174Z",
+      "target": "n9-067",
+      "constructionId": "n9-067",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Una capa d’escuma tapa gairebé tota la cara reflectant."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’escombreta de goma arrossega l’escuma i deixa una franja reflectant central."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veu tota la cara reflectant i l’escuma recollida al peu sobre una safata."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el mirall de marc amb quatre cantoneres"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "a1a693bad5e697c0e0c11dea2d22e7655d572c274170136496c561047f636aba",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d84660f2aef72958f16ee0f07f77dadae1b70fead7e11931717687e6bae2a9ca"
+    },
+    {
+      "id": "cace-n9-068",
+      "src": "assets/constructions/n9/n9-068.webp",
+      "title": {
+        "ca": "nen · netejar — plat",
+        "es": "NIÑO · LIMPIAR · PLATO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "nen · netejar — plat.",
+        "es": "NIÑO · LIMPIAR · PLATO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b4012100fe09",
+      "targetWordIds": [
+        "w-b4012100fe09",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.390Z",
+      "target": "n9-068",
+      "constructionId": "n9-068",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Restes grans de menjar al centre i a la vora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’esponja arrossega les restes i obre una passada ampla neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Plat sense restes. El fregall usat i les restes recollides són a la safata inferior."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat de vora ondulada amb una secció llisa curta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "9e7d92e115fb9dcf5e1f2a16f593f3615c1e7dcfbd251bf4d28ebc99d17ce327",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "a27d69218c885c9a329e2f6942108a32bd3fecbc74cbb821fd4e82471d62f8cc"
+    },
+    {
+      "id": "cace-n9-069",
+      "src": "assets/constructions/n9/n9-069.webp",
+      "title": {
+        "ca": "noia · netejar — cadira",
+        "es": "CHICA · LIMPIAR · SILLA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noia · netejar — cadira.",
+        "es": "CHICA · LIMPIAR · SILLA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b38ff488f862",
+        "w-4e6be686e7c1",
+        "w-e1efe2c4e23d",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b38ff488f862",
+      "targetWordIds": [
+        "w-b38ff488f862",
+        "w-4e6be686e7c1",
+        "w-e1efe2c4e23d",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.657Z",
+      "target": "n9-069",
+      "constructionId": "n9-069",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Terra visible en una clapa grossa del seient."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "El drap recull la terra de mitja clapa i es veu una frontera neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "El seient conserva el seu color original. La terra queda al drap replegat, que l’agent sosté a tocar del seient."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la cadira baixa amb una obertura triangular al respatller"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "06ea7e1910edcbf823ad7f99bdea0fb885db55fc563fc8ad389a299e931647b4",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "81226f2a1eb83a6ae178f296446e494ec3da909351323e0c147271a560cf0f94"
+    },
+    {
+      "id": "cace-n9-070",
+      "src": "assets/constructions/n9/n9-070.webp",
+      "title": {
+        "ca": "noi · netejar — sabates",
+        "es": "CHICO · LIMPIAR · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "noi · netejar — sabates.",
+        "es": "CHICO · LIMPIAR · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "targetWordIds": [
+        "w-01bc6dcab46b",
+        "w-4e6be686e7c1",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.926Z",
+      "target": "n9-070",
+      "constructionId": "n9-070",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Fang sec a totes dues punteres de la mateixa parella."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "El raspall desprèn engrunes de fang d’una puntera, mentre l’altra encara és bruta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Punteres netes i engrunes recollides en una safata. El passador oval i les soles es mantenen."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la parella amb un passador oval i una sola de dues capes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "e1167973da66ce8a6c01e8280eb0af58b92ffa037aa792f3aeb7d177ce6bd57f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "70464a3110b3e54a06cfa310e2a4f6eca87de3709a4d3ae01455aabb041ab36d"
+    },
+    {
+      "id": "cace-n9-071",
+      "src": "assets/constructions/n9/n9-071.webp",
+      "title": {
+        "ca": "dona · netejar — pissarra",
+        "es": "MUJER · LIMPIAR · PIZARRA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "dona · netejar — pissarra.",
+        "es": "MUJER · LIMPIAR · PIZARRA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-8a3a439bdb8e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-8a3a439bdb8e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:59.190Z",
+      "target": "n9-071",
+      "constructionId": "n9-071",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres formes de guix grans, sense lletres ni xifres."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’esborrador passa sobre una forma, que queda tallada per una zona llisa neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Pissarra llisa amb la pols de guix al recollidor inferior, sense formes visibles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pissarra amb safata estreta i marc corbat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "48ca1d6d566aaf08b272d09ebb441421dd280346628d9151c41d668cd09b747f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "e5330d57f8788d29a2a748706ea81d71642c1ee4f947ba6181f88e49450e2896"
+    },
+    {
+      "id": "cace-n9-072",
+      "src": "assets/constructions/n9/n9-072.webp",
+      "title": {
+        "ca": "home · netejar — tassa",
+        "es": "HOMBRE · LIMPIAR · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "home · netejar — tassa.",
+        "es": "HOMBRE · LIMPIAR · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "targetWordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "photo",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:42:47.635Z",
+      "target": "n9-072",
+      "constructionId": "n9-072",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tassa ajaguda amb un fang fosc en una banda exterior."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Amb una esponja, frega la meitat de la banda i manté la resta de fang visible."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tassa del mateix color de base i sense fang. El drap brut és a la mateixa safata."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa de parets clares i nansa quadrada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "foto-01",
+      "originalSha256": "6c5f6ccb696fe0ac0b9baf2f19014d28a6641102b1f0976cb2fdeb2e6adb427a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "f66891f0710c3ebd346f341d82c9a63477bfcd4ebbcee125a17d70cdbfe18ed1"
+    },
+    {
+      "id": "cace-n9-164",
+      "src": "assets/constructions/n9/n9-164.webp",
+      "title": {
+        "ca": "ós · pintar — galleda",
+        "es": "OSO · PINTAR · CUBO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ós · pintar — galleda.",
+        "es": "OSO · PINTAR · CUBO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-a06249642996",
+        "w-b04a48827310",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-a06249642996",
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-b04a48827310",
+        "w-7f04619a8649",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:57.472Z",
+      "target": "n9-164",
+      "constructionId": "n9-164",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Galleda sense motiu exterior i amb les dues ranures descobertes."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "El pinzell omple la segona de tres franges gruixudes. La primera ja és pintada."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Acabat amb tres franges grosses. El metall es manté visible al peu i al voltant de les ranures."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la galleda metàl·lica de boca ampla amb dues ranures"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "ddab6f38981a6e9d3a87046d218e50ddffb4dbacf4598093efd2cdf389f7ee66",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ed21249f0b65db35f19f67087f3c460931740cf52e7c2ad0ce599ec3f9f6a191"
+    },
+    {
+      "id": "cace-n9-165",
+      "src": "assets/constructions/n9/n9-165.webp",
+      "title": {
+        "ca": "mico · pintar — armari",
+        "es": "MONO · PINTAR · ARMARIO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "mico · pintar — armari.",
+        "es": "MONO · PINTAR · ARMARIO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12a87560751b",
+        "w-b04a48827310",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12a87560751b",
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-b04a48827310",
+        "w-2286891fbee6",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:57.835Z",
+      "target": "n9-165",
+      "constructionId": "n9-165",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Porta de fusta completament nua. Pom sense pintar."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "Un rodet cobreix una meitat de la porta, amb el pom descobert."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Porta tota pintada amb el pom i la forma d’arc intactes."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el moble baix amb porta d’arc i pom circular"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "3065fccdbdb583778aea9b17ab168c7f5999ac0928a77d170456f484ed25ad53",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "d2fc974353242cdc4a1fa32d01f74e53fe986705b722b819c646081b84ef6286"
+    },
+    {
+      "id": "cace-n9-166",
+      "src": "assets/constructions/n9/n9-166.webp",
+      "title": {
+        "ca": "esquirol · pintar — pal",
+        "es": "ARDILLA · PINTAR · PALO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "esquirol · pintar — pal.",
+        "es": "ARDILLA · PINTAR · PALO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-cc5063e253e2",
+        "w-b04a48827310",
+        "w-c8538c4482a2",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-cc5063e253e2",
+      "targetWordIds": [
+        "w-cc5063e253e2",
+        "w-b04a48827310",
+        "w-c8538c4482a2",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.068Z",
+      "target": "n9-166",
+      "constructionId": "n9-166",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Pal nu sobre dos suports baixos."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-b04a48827310",
+          "evidence": "El pinzell aplica una banda ampla al terç que inclou el nus."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Terç de la punta pintat, amb el nus encara visible en relleu i els altres dos terços intactes."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el pal recte amb un nus prop de la punta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "49f986c0535f716f8b599588e8987702838ecd6a6028ef9bd7f35184ccd32f3f",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "1798b308467fc6b21382ee9af776ebc6b9baf83e85b5772d782a56820877b896"
+    },
+    {
+      "id": "cace-n9-167",
+      "src": "assets/constructions/n9/n9-167.webp",
+      "title": {
+        "ca": "elefant · netejar — mirall",
+        "es": "ELEFANTE · LIMPIAR · ESPEJO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "elefant · netejar — mirall.",
+        "es": "ELEFANTE · LIMPIAR · ESPEJO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-b059d8ef0bc9",
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-4e6be686e7c1",
+        "w-3be1783fe5a1",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.278Z",
+      "target": "n9-167",
+      "constructionId": "n9-167",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Una capa d’escuma tapa gairebé tota la cara reflectant."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’escombreta de goma arrossega l’escuma i deixa una franja reflectant central."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Es veu tota la cara reflectant i l’escuma recollida al peu sobre una safata."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el mirall de marc amb quatre cantoneres"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "9c8b43f2efcd194ed6616eb832b25900a87c664ba6d41a9c05b2c1bf44868975",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "64fa31edf96d5e93d7b53e48ad5ba4d17fea159d9a025c0c185d7d1efc401e55"
+    },
+    {
+      "id": "cace-n9-168",
+      "src": "assets/constructions/n9/n9-168.webp",
+      "title": {
+        "ca": "ruc · netejar — plat",
+        "es": "BURRO · LIMPIAR · PLATO · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "ruc · netejar — plat.",
+        "es": "BURRO · LIMPIAR · PLATO · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-444243ea062c",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-444243ea062c",
+      "targetWordIds": [
+        "w-444243ea062c",
+        "w-4e6be686e7c1",
+        "w-55d250f4cf1e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.501Z",
+      "target": "n9-168",
+      "constructionId": "n9-168",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Restes grans de menjar al centre i a la vora."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’esponja arrossega les restes i obre una passada ampla neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Plat sense restes. El fregall usat i les restes recollides són a la safata inferior."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "el plat de vora ondulada amb una secció llisa curta"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "833d4253101267ddb80eda72c48f11558ffa35d4d6825d07b808bcc0ee7d992a",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "4ab721554e837379bebe055eeebdd152222aefd39b997ee37bb7f565ae4078f0"
+    },
+    {
+      "id": "cace-n9-169",
+      "src": "assets/constructions/n9/n9-169.webp",
+      "title": {
+        "ca": "tortuga · netejar — cadira",
+        "es": "TORTUGA · LIMPIAR · SILLA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "tortuga · netejar — cadira.",
+        "es": "TORTUGA · LIMPIAR · SILLA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-12dcca2ee56e",
+        "w-4e6be686e7c1",
+        "w-e1efe2c4e23d",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-12dcca2ee56e",
+      "targetWordIds": [
+        "w-12dcca2ee56e",
+        "w-4e6be686e7c1",
+        "w-e1efe2c4e23d",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:58.778Z",
+      "target": "n9-169",
+      "constructionId": "n9-169",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Terra visible en una clapa grossa del seient."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "El drap recull la terra de mitja clapa i es veu una frontera neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "El seient conserva el seu color original. La terra queda al drap replegat, que l’agent sosté a tocar del seient."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la cadira baixa amb una obertura triangular al respatller"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "0b79b55627269397afd5a25a8c62d99e16db01d15371c96a08e3b469c25fa5ff",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "5cb2713c5c2ff0c9a5adae2141d7e9191eeda66df870c07b46383a26de5a5508"
+    },
+    {
+      "id": "cace-n9-170",
+      "src": "assets/constructions/n9/n9-170.webp",
+      "title": {
+        "ca": "porc · netejar — sabates",
+        "es": "CERDO · LIMPIAR · ZAPATOS · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "porc · netejar — sabates.",
+        "es": "CERDO · LIMPIAR · ZAPATOS · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-7db51860bac9",
+        "w-4e6be686e7c1",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-7db51860bac9",
+      "targetWordIds": [
+        "w-7db51860bac9",
+        "w-4e6be686e7c1",
+        "w-6e2a67944770",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:30:59.090Z",
+      "target": "n9-170",
+      "constructionId": "n9-170",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Fang sec a totes dues punteres de la mateixa parella."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "El raspall desprèn engrunes de fang d’una puntera, mentre l’altra encara és bruta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Punteres netes i engrunes recollides en una safata. El passador oval i les soles es mantenen."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la parella amb un passador oval i una sola de dues capes"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "b08374c9b7bf1af562c264c1fef4086401613de0ca9f0f736b242bb97c54ce0c",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "8789fc22478decefb26cf88c270857003a5850354a7ad23b8e19aafaa0e16a0a"
+    },
+    {
+      "id": "cace-n9-171",
+      "src": "assets/constructions/n9/n9-171.webp",
+      "title": {
+        "ca": "conill · netejar — pissarra",
+        "es": "CONEJO · LIMPIAR · PIZARRA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "conill · netejar — pissarra.",
+        "es": "CONEJO · LIMPIAR · PIZARRA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-51a7805e979b",
+        "w-4e6be686e7c1",
+        "w-8a3a439bdb8e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-51a7805e979b",
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-4e6be686e7c1",
+        "w-8a3a439bdb8e",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:42:47.514Z",
+      "target": "n9-171",
+      "constructionId": "n9-171",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tres formes de guix grans, sense lletres ni xifres."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "L’esborrador passa sobre una forma, que queda tallada per una zona llisa neta."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Pissarra llisa amb la pols de guix al recollidor inferior, sense formes visibles."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la pissarra amb safata estreta i marc corbat"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "cef3667aa0eeab72600b3231a2a609fee184f3ae8a800cea2182517bee9e06e0",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "ebb7349f0eddfd6a830bffa32fd6a432bf58fbdf4f96e0f477c2d05e15d89e3a"
+    },
+    {
+      "id": "cace-n9-172",
+      "src": "assets/constructions/n9/n9-172.webp",
+      "title": {
+        "ca": "gat · netejar — tassa",
+        "es": "GATO · LIMPIAR · TAZA · ANTES · DESPUÉS"
+      },
+      "alt": {
+        "ca": "gat · netejar — tassa.",
+        "es": "GATO · LIMPIAR · TAZA · ANTES · DESPUÉS."
+      },
+      "tags": [
+        "w-11ff74d27c02",
+        "w-4e6be686e7c1",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "primaryWordId": "w-11ff74d27c02",
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-4e6be686e7c1",
+        "w-adecb8403118",
+        "w-94e24987455e",
+        "w-5ed1f93250a1"
+      ],
+      "levels": [
+        9
+      ],
+      "kind": "drawing",
+      "origin": "generated",
+      "credit": "Imatge generada amb IA per a CACE Imatges.",
+      "created": "2026-11-21T13:42:47.735Z",
+      "target": "n9-172",
+      "constructionId": "n9-172",
+      "moments": [
+        {
+          "number": 1,
+          "role": "inici",
+          "actionWordId": null,
+          "evidence": "Tassa ajaguda amb un fang fosc en una banda exterior."
+        },
+        {
+          "number": 2,
+          "role": "transicio",
+          "actionWordId": "w-4e6be686e7c1",
+          "evidence": "Amb una esponja, frega la meitat de la banda i manté la resta de fang visible."
+        },
+        {
+          "number": 3,
+          "role": "final",
+          "actionWordId": null,
+          "evidence": "Tassa del mateix color de base i sense fang. El drap brut és a la mateixa safata."
+        }
+      ],
+      "continuity": {
+        "sameAgent": true,
+        "anchor": "la tassa de parets clares i nansa quadrada"
+      },
+      "semanticRelation": {
+        "type": "ordre-temporal",
+        "markers": [
+          {
+            "label": "ABANS",
+            "wordId": "w-94e24987455e"
+          },
+          {
+            "label": "DESPRÉS",
+            "wordId": "w-5ed1f93250a1"
+          }
+        ],
+        "causalClaim": false
+      },
+      "variant": "pla-01",
+      "originalSha256": "43c609c6efd53a27d74f2c4ea42592c92a55d53f4dce7e23742c91e76c01aa63",
+      "displayEncoding": "webp-quality-93-original-dimensions",
+      "displaySha256": "00dfa66500fba79b81aefa060ef37a26c7232eb0c47de25a9de4b762df8b7b1d"
+    },
     {
       "id": "cace-n9-057",
       "src": "assets/constructions/n9/n9-057.webp",
@@ -168367,7 +169615,23 @@
         "cace-n9-160",
         "cace-n9-161",
         "cace-n9-162",
-        "cace-n9-163"
+        "cace-n9-163",
+        "cace-n9-066",
+        "cace-n9-067",
+        "cace-n9-068",
+        "cace-n9-069",
+        "cace-n9-070",
+        "cace-n9-071",
+        "cace-n9-072",
+        "cace-n9-164",
+        "cace-n9-165",
+        "cace-n9-166",
+        "cace-n9-167",
+        "cace-n9-168",
+        "cace-n9-169",
+        "cace-n9-170",
+        "cace-n9-171",
+        "cace-n9-172"
       ]
     }
   ]

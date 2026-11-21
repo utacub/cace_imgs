@@ -4,8 +4,8 @@
   "prompt": "Edit only the right end of the wooden stick. It has exactly ONE raised knot near its right tip, at identical position in all three panels, matching panel1. Panel2 brush paints that right third red INCLUDING the single knot, while left two-thirds bare. Panel3 same entire right third red with just ONE painted raised knot at the far right near tip. Remove extra central red bump in last panel and preserve single end knot. Preserve all people anatomy, supports, table, paint, three panels. No text.",
   "kind": "photo",
   "variant": "foto-01",
-  "reviewed": false,
-  "status": "pending-generation",
+  "reviewed": true,
+  "status": "accepted",
   "construction": {
     "id": "n9-066",
     "number": 66,
@@ -104,5 +104,17 @@
       "prompt": "Create ONE finished CACE educational temporal sequence image, wide horizontal composition. Synthetic photorealistic studio photography of one real human person with natural skin, fabric and anatomy. Actor has fair skin and straight chestnut hair. Preserve this identity exactly across panels. Exactly 3 equal panels from LEFT TO RIGHT separated by broad white gutters. Each panel depicts the SAME complete agent at a different moment. Same clothing, facial identity, body proportions, viewpoint, lighting, furniture and exact objects throughout. Every head, foot, hand, tail and object fully within generous white margins. Pure white background and minimal functional props. Agent CACE label in Catalan: HOME (adult man). Continuity anchor: el pal recte amb un nus prop de la punta. Ordered moments in Catalan: PANEL 1: Pal nu sobre dos suports baixos. PANEL 2: El pinzell aplica una banda ampla al terç que inclou el nus. PANEL 3: Terç de la punta pintat, amb el nus encara visible en relleu i els altres dos terços intactes.. Critical: make the temporal change and physical evidence clear in each moment. Natural limbs, grip, joints, support and reach. Furniture at accessible height. Keep object dimensions relative to hands, body and furniture constant across moments. All covers, lids and page blocks must match their base dimensions and share a physically correct hinge, spine and perspective. Zoom OUT enough for entire bodies and furniture with at least 8 percent clear margin. All book pages and packages blank. NO text, letters, numerals, logos, brands, watermarks, panel labels, arrows, motion lines or speech bubbles. One agent per panel, no additional active character. Illustrate exactly the specified objects and actions.",
       "rejectedAt": "2026-11-21T13:36:32.017Z"
     }
-  ]
+  ],
+  "review": "Corregit el nus únic; mateix pal sobre dos suports, pintura al terç de punta amb relleu conservat i agent proporcionat.",
+  "alt": {
+    "ca": "home · pintar — pal.",
+    "es": "HOMBRE · PINTAR · PALO · ANTES · DESPUÉS."
+  },
+  "originalSha256": "ca9cd55d20e1e41feece8b13576f0cb198efc5ab5be0c387eb6f80ad5934d5e2",
+  "width": 2172,
+  "height": 724,
+  "generatedWith": "built-in image_gen",
+  "reviewedAt": "2026-11-21T13:38:20.686Z",
+  "publicationVersion": "0.1.155",
+  "importedAt": "2026-11-21T13:45:53.231609+00:00"
 }
