@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-020",
+    "title": "Excavar amb el cul de la galleda",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "PATI",
+    "scene": "Sorral humit amb un clot a mig fer i una pala dreta al costat.",
+    "contact": "Prem la base exterior plana de la galleda contra el fons del clot subjectant-la pels costats.",
+    "breach": "Fer servir el cul de la galleda com a eina per excavar el clot.",
+    "cue": "La base només aplana, i l’obertura de la galleda és lluny de la sorra.",
+    "expectedResponse": {
+      "repair": "Treure la sorra del clot amb la pala.",
+      "explanation": "La fulla recull la sorra i permet aprofundir."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-7f04619a8649",
+      "w-208167fa638f",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-020/image.png",
+      "sha256": "a72551139bc5efa7fef1bab7a2753d5809406d8bdbb650a1ad8b215d5898de0c",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Una nena. Escena: Sorral humit amb un clot a mig fer i una pala dreta al costat. Gest exacte: Prem la base exterior plana de la galleda contra el fons del clot subjectant-la pels costats. Únic detall volgudament incongruent: Fer servir el cul de la galleda com a eina per excavar el clot. Indici que ha de ser visible sense text: La base només aplana, i l’obertura de la galleda és lluny de la sorra. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veu la boca de la galleda a dalt i el fons pressionant el clot. Pala separada.",
+      "reviewedAt": "2026-11-22T07:01:27+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-020/image.png",
+  "originalSha256": "a72551139bc5efa7fef1bab7a2753d5809406d8bdbb650a1ad8b215d5898de0c",
+  "alt": {
+    "ca": "Una nena pressiona la sorra d’un clot amb el cul de la galleda.",
+    "es": "Una niña presiona la arena de un hoyo con la base del cubo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:01:27+00:00"
+}

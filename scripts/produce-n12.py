@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -96,13 +97,13 @@ def reviewed_items(items):
 
 def update_progress(items, catalog):
     records = list(reviewed_items(items))
-    accepted = [item['id'] for item, record in records if record['status'] == 'accepted']
+    accepted = {item['id'] for item, record in records if record['status'] == 'accepted'}
     imported = [asset['constructionId'] for asset in catalog['assets'] if asset.get('levels') == [12]]
     write_json(PRODUCTION / 'n12-progress.json', {
         'status': 'active', 'authorization': {'generation': True, 'import': True, 'publication': True},
         'planned': len(items), 'reviewed': len(accepted), 'imported': len(imported),
         'catalogVersion': catalog['version'], 'catalogImages': len(catalog['assets']),
-        'pending': [item_id for item_id in items if item_id not in set(accepted)],
+        'pending': [item_id for item_id in items if item_id not in accepted],
         'rejectedAttempts': sum(a['status'] == 'rejected' for _, record in records for a in record['attempts']),
     })
 
@@ -198,7 +199,7 @@ def prepare_release(plan, items, catalog, version):
         [sys.executable, 'scripts/check-site.py', '--since', 'HEAD'],
         ['git', 'diff', '--check'],
     ]:
-        subprocess.run(command, cwd=ROOT, check=True)
+        subprocess.run(command, cwd=ROOT, check=True, env={**os.environ, 'PYTHONUTF8': '1'})
 
 
 def main():

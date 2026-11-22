@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-013",
+    "title": "Grapar amb una anella",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Dos fulls superposats amb una cantonada ja grapada i una grapadora manual a part sobre la taula.",
+    "contact": "Pressiona una anella de joc plana contra els fulls com si els grapés.",
+    "breach": "Fer servir una anella com a estri per grapar fulls.",
+    "cue": "L’anella només queda a sobre dels fulls i es veu com la grapa de l’altra cantonada els travessa.",
+    "expectedResponse": {
+      "repair": "Posar les vores dins la grapadora i prémer-la.",
+      "explanation": "Una grapa travessa i manté units els dos fulls."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "ANELLES",
+        "wordId": "w-318e0675051a"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-318e0675051a",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-013/image.png",
+      "sha256": "3c2256203860ec515206450e9cb1589984975b8eb7559942cd01cd70ee9d3de7",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un noi. Escena: Dos fulls superposats amb una cantonada ja grapada i una grapadora manual a part sobre la taula. Gest exacte: Pressiona una anella de joc plana contra els fulls com si els grapés. Únic detall volgudament incongruent: Fer servir una anella com a estri per grapar fulls. Indici que ha de ser visible sense text: L’anella només queda a sobre dels fulls i es veu com la grapa de l’altra cantonada els travessa. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’anella toca una cantonada i l’altra està grapada. Grapadora al costat.",
+      "reviewedAt": "2026-11-22T07:01:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-013/image.png",
+  "originalSha256": "3c2256203860ec515206450e9cb1589984975b8eb7559942cd01cd70ee9d3de7",
+  "alt": {
+    "ca": "Un nen prem una anella contra dos fulls amb l’altra cantonada grapada.",
+    "es": "Un niño presiona un aro contra dos hojas con la otra esquina grapada."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:01:24+00:00"
+}

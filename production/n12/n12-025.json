@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-025",
+    "title": "La cullera a la finestra",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Finestra baixa, amb una franja de vidre mullada i una safata a sota.",
+    "contact": "Arrossega la vora arrodonida d’una cullera de fusta contra el vidre mullat.",
+    "breach": "Fer servir una cullera per eixugar una franja ampla de vidre.",
+    "cue": "L’aigua queda a banda i banda del contacte estret de la cullera.",
+    "expectedResponse": {
+      "repair": "Passar-hi una rasqueta de goma per a vidres.",
+      "explanation": "La goma recta s’ajusta al vidre i arrossega l’aigua de tota la franja."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-9c9849fac1d3",
+      "w-59560a6c11b6",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-025/rejected-01.png",
+      "sha256": "7324c00db7bc36d953a9c9d7532c3e0469c7dfc042aad4e0384e3134c2786d91",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un home. Escena: Finestra baixa, amb una franja de vidre mullada i una safata a sota. Gest exacte: Arrossega la vora arrodonida d’una cullera de fusta contra el vidre mullat. Únic detall volgudament incongruent: Fer servir una cullera per eixugar una franja ampla de vidre. Indici que ha de ser visible sense text: L’aigua queda a banda i banda del contacte estret de la cullera. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La cullera sembla haver netejat una franja ampla sencera i la funció queda resolta.",
+      "reviewedAt": "2026-11-22T07:01:29+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,69 @@
+{
+  "construction": {
+    "id": "n12-010",
+    "title": "La tassa que empeny la patata",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CUINA",
+    "scene": "Patata cuita freda en un plat, amb una porció de puré al costat.",
+    "contact": "Pressiona la tassa de plàstic de costat damunt la patata.",
+    "breach": "Fer servir el cos arrodonit i buit d’una tassa per fer puré fi.",
+    "cue": "El lateral llis només desplaça la patata; la tassa no té superfície de trinxar.",
+    "expectedResponse": {
+      "repair": "Aixafar la patata amb un passapuré o una forquilla.",
+      "explanation": "Es pot aixafar en porcions amb una superfície que hi faci pressió controlada."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "PATATA",
+        "wordId": "w-c2834e700445"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-adecb8403118",
+      "w-c2834e700445",
+      "w-55d250f4cf1e",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-010/rejected-01.png",
+      "sha256": "be2991e81b52b6c46e025e9f5f2423aa9cfe20e270b4b1382fc470ed459de1a2",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un home. Escena: Patata cuita freda en un plat, amb una porció de puré al costat. Gest exacte: Pressiona la tassa de plàstic de costat damunt la patata. Únic detall volgudament incongruent: Fer servir el cos arrodonit i buit d’una tassa per fer puré fi. Indici que ha de ser visible sense text: El lateral llis només desplaça la patata; la tassa no té superfície de trinxar. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La tassa ha triturat visiblement la patata. Falta la pista del lateral que la desplaça sense aixafar-la.",
+      "reviewedAt": "2026-11-22T07:01:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}

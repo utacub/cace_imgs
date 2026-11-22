@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-014",
+    "title": "Els picarols a l’embut",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CUINA",
+    "scene": "Ampolla buida estable, gerra amb aigua i tira de tres picarols.",
+    "contact": "Recolza els picarols al coll i hi aboca el fil d’aigua de la gerra.",
+    "breach": "Fer servir una tira de picarols com a embut.",
+    "cue": "Es veuen l’aigua esquivant les boles i la boca parcialment tapada.",
+    "expectedResponse": {
+      "repair": "Col·locar un embut al coll i abocar-hi l’aigua.",
+      "explanation": "El con buit de l’embut condueix el raig al forat."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PICAROLS",
+        "wordId": "w-ea276c0baf48"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-ea276c0baf48",
+      "w-00e8b2c10536",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-014/rejected-01.png",
+      "sha256": "18d366b9ff2ca0f7f94f6c7cd53ae070e93bec23b3141d3842c93345deb297df",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un home. Escena: Ampolla buida estable, gerra amb aigua i tira de tres picarols. Gest exacte: Recolza els picarols al coll i hi aboca el fil d’aigua de la gerra. Únic detall volgudament incongruent: Fer servir una tira de picarols com a embut. Indici que ha de ser visible sense text: Es veuen l’aigua esquivant les boles i la boca parcialment tapada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El líquid entra pel coll sense vessar. La cinta funciona com a canal i es perd la relació prevista.",
+      "reviewedAt": "2026-11-22T07:01:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}
