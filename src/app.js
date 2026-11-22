@@ -98,6 +98,14 @@ function usesLevelOrder(){
   if(state.view!=='library'||state.level||state.category||state.kind!=='all')return false;
   return state.tags.length<=(norm(state.query)?0:1);
 }
+const concreteCategories=new Set(['animals','objectes','aliments','roba','mobles','transports']);
+const broadConcepts=new Set(['ACCIDENT','ALIMENTS','ANIMAL','BEGUDES','COSA','FRUITA','INTERNET','OBJECTES','ROBA','VEHICLE']);
+function initialConcreteLabel(asset,level){
+  const word=WORDS.get(asset.primaryWordId);
+  if(level!==1||!word?.ca||!concreteCategories.has(word.category))return '';
+  const label=word.ca.trim();
+  return /\s/.test(label)||broadConcepts.has(label)?'':label;
+}
 function textMatch(text,query){if(!text||!query)return 0;if(text===query)return 4;if((' '+text+' ').includes(' '+query+' '))return 3;if(text.split(' ').some(word=>word.startsWith(query)))return 2;return text.includes(query)?1:0}
 function relevance(a){
 const fields=searchFields(a),query=norm(state.query),terms=query.split(' ').filter(Boolean);
@@ -118,8 +126,14 @@ function results(){
   const searching=hasSearch();
   const byLevel=usesLevelOrder();
   if(!searching&&!byLevel)return list;
-  return list.map(asset=>({asset,score:searching?relevance(asset):0,level:Math.max(...asset.levels)}))
-    .sort((a,b)=>(byLevel?a.level-b.level:0)||b.score-a.score)
+  return list.map(asset=>{
+    const level=Math.max(...asset.levels);
+    return {asset,level,score:searching?relevance(asset):0,
+      concreteLabel:searching?'':initialConcreteLabel(asset,level)};
+  })
+    .sort((a,b)=>(byLevel?a.level-b.level:0)||b.score-a.score
+      ||Number(Boolean(b.concreteLabel))-Number(Boolean(a.concreteLabel))
+      ||a.concreteLabel.localeCompare(b.concreteLabel,'ca'))
     .map(row=>row.asset);
 }
 const countText=n=>n+' '+t(n===1?'image':'images');

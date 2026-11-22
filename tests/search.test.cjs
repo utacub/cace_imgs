@@ -173,11 +173,23 @@ test('Category, type, level, favorites, collections and all/any tag filters are 
   assert.deepEqual(a.read('results().map(a=>a.id)'), [id]);
 });
 
-test('The initial library groups images by displayed level and keeps catalogue order within each level', () => {
+test('The initial library starts with concrete individual words and keeps level order', () => {
   const a = app();
-  const expected = [...catalog.assets].sort((a, b) => Math.max(...a.levels) - Math.max(...b.levels));
-  assert.deepEqual(a.read('results().map(a=>a.id)'), expected.map(row => row.id));
+  const rows = a.read('results().map(a=>[a.id,Math.max(...a.levels)])');
+  const levels = rows.map(([,level]) => level);
+  assert.deepEqual(levels, [...levels].sort((a,b) => a-b));
+  const wordIds = Object.fromEntries(catalog.words.map(w => [w.ca,w.id]));
+  const byImage = new Map(catalog.assets.map(a => [a.id,a]));
+  const index = label => rows.findIndex(([id,level]) => level===1 && byImage.get(id).primaryWordId===wordIds[label]);
+  for (const concrete of ['ABELLA','LLAPIS','POMA','COTXE']) {
+    assert.ok(index(concrete) >= 0);
+    for (const other of ['COSA','INTERNET','PASSAR LLISTA','AHIR','ACCIDENT','ALIMENTS']) {
+      assert.ok(index(other) > index(concrete), `${concrete} should precede ${other}`);
+    }
+  }
   assert.match(a.read('filterToolbar()'), /Per nivell/);
+  a.run("lang='es'");
+  assert.deepEqual(a.read('results().map(a=>a.id)'), rows.map(([id])=>id));
   a.run("state.kind='photo'");
   assert.deepEqual(a.read('results().map(a=>a.id)'),
     catalog.assets.filter(row => row.kind === 'photo').map(row => row.id));
