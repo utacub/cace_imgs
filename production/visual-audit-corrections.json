@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.193",
+  "catalogVersion": "0.1.194",
   "withdrawals": [
     {
       "asset": {
@@ -544,6 +544,174 @@
       "observation": "iogurt, quallada, crema blanca",
       "reason": "El pot sense cap tret distintiu i la superfície blanca també permeten llegir QUALLADA o CREMA. No hi ha prou evidència visual per identificar IOGURT.",
       "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-ce31b156ab89-foto-02",
+        "src": "assets/individuals/persones/monitor/foto-02.webp",
+        "title": {
+          "ca": "MONITOR · fotografia 2",
+          "es": "MONITOR · fotografía 2"
+        },
+        "alt": {
+          "ca": "Un monitor guiant una activitat de grup amb una pilota.",
+          "es": "Un monitor guiando una actividad de grupo con una pelota."
+        },
+        "tags": [
+          "w-14905dd94f56"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T07:58:23.743609Z",
+        "target": "concept-ce31b156ab89",
+        "targetWordIds": [
+          "w-14905dd94f56"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "c0bc78b0cefd1d6a03c71bf9be2e0a219b39b91fd71c1ccffd333cfa094344cc",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "018cfdf43c5a75c3f91c391215239b1a74c26f39955a49a8db56a9d5c4e35fcd",
+        "primaryWordId": "w-14905dd94f56"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-ce31b156ab89-foto-02",
+      "opaque": "64b2e9a948",
+      "batch": "lectures-n1-001-003",
+      "observation": "passar la pilota, jugar a pilota",
+      "reason": "Les figures es llegeixen com persones que juguen o es passen la pilota. La posició de l’adult al centre no mostra una funció identificable de monitor.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-14ed89f049af-foto-01",
+        "src": "assets/individuals/verbs/desvestir/foto-01.webp",
+        "title": {
+          "ca": "DESVESTIR · fotografia 1",
+          "es": "DESVESTIR · fotografía 1"
+        },
+        "alt": {
+          "ca": "Una persona traient-se una jaqueta.",
+          "es": "Una persona quitándose una chaqueta."
+        },
+        "tags": [
+          "w-8fd6305d0051"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T20:27:52.237569Z",
+        "target": "concept-14ed89f049af",
+        "targetWordIds": [
+          "w-8fd6305d0051"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "093f40662321e72a41f67b957f06ab5b47b7c362918c757fd09f3cceb55839ca",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "20a0d7e3cd2f4f300b01de7311709921781640a18e4e7c0dceb15b4dc2003d70",
+        "primaryWordId": "w-8fd6305d0051"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-14ed89f049af-foto-01",
+      "opaque": "f05a19a3dd",
+      "batch": "lectures-n1-001-003",
+      "observation": "posar-se una jaqueta, vestir-se, treure’s la jaqueta",
+      "reason": "La primera lectura és posar-se una jaqueta. El fotograma permet igualment treure-se-la sense cap indici de la direcció del gest.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-a3f7ad87f2b4-foto-02",
+        "src": "assets/individuals/verbs/treballar/foto-02.webp",
+        "title": {
+          "ca": "TREBALLAR · fotografia 2",
+          "es": "TRABAJAR · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una persona treballant en un banc de fusteria.",
+          "es": "Una persona trabajando en un banco de carpintería."
+        },
+        "tags": [
+          "w-39897bdc5f51"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T18:24:54.776605Z",
+        "target": "concept-a3f7ad87f2b4",
+        "targetWordIds": [
+          "w-39897bdc5f51"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "23d2775048db430e8beb3336645ff47957925da0e108eec0489b53b01d365b7f",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f2a26e9c8c4778612b9537fe101cdd8f7b2c3916b84671534c3d01d0bdd18836",
+        "primaryWordId": "w-39897bdc5f51"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-a3f7ad87f2b4-foto-02",
+      "opaque": "cd7b08febb",
+      "batch": "lectures-n1-001-003",
+      "observation": "fuster, picar amb un mall, fer una cadira",
+      "reason": "La lectura identifica l’ofici de fuster o l’acció de picar i muntar una cadira. L’estímul aïllat no presenta prou indicis per denominar el verb general TREBALLAR.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-76ee93502b33-pla-01",
+        "src": "assets/individuals/temps/abril/pla-01.webp",
+        "title": {
+          "ca": "ABRIL · il·lustració plana",
+          "es": "ABRIL · ilustración plana"
+        },
+        "alt": {
+          "ca": "Dotze mesos amb el quart destacat, en estil pla.",
+          "es": "Doce meses con el cuarto resaltado, en estilo plano."
+        },
+        "tags": [
+          "w-6c173b1cf134"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:01:44.222734Z",
+        "target": "concept-76ee93502b33",
+        "targetWordIds": [
+          "w-6c173b1cf134"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "d6499651501c9d97835f28c1ac90e2046968d010a4af0f5f6071bc5270b5c941",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f65bd466622463e122a3ae0df2ca4cd2e2d744a3fbd752fd244f4c234458fea6",
+        "primaryWordId": "w-6c173b1cf134"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-76ee93502b33-pla-01",
+      "opaque": "e0f7c0c75f",
+      "batch": "lectures-n1-001-003",
+      "observation": "quart mes, calendari amb un mes destacat, mes",
+      "reason": "Es veu el quart calendari marcat en una quadrícula de dotze. La lectura exigeix inferir un ordre i un origen per arribar a ABRIL.",
+      "sourcePngArchived": true,
       "collectionsBefore": [
         "cace-n1-paraules-individuals"
       ]
@@ -1171,6 +1339,3015 @@
       "scene": "Dona amb gerra de suc de taronja, sabatilla oberta i got",
       "observation": "Utilitza una sabata com a got per servir el suc",
       "anatomy": "Canell i colze coherents amb la gerra inclinada, segona mà estabilitza la sabatilla sobre la taula."
+    },
+    "n12-160": {
+      "id": "n12-160",
+      "title": "La cullera com a martell",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Intenta clavar el clau amb la cullera mentre el martell és a taula.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-9c9849fac1d3",
+        "w-1544f4efec59"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        },
+        {
+          "label": "TAULA",
+          "wordId": "w-1544f4efec59"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/fdfdf1bbb1.png",
+      "originalSha256": "08f69292f4a622578134b9e4f8c0a8da6a9f822e7c967800212081eda20f9d7c",
+      "oldSrc": "assets/constructions/n12/n12-160-foto.webp",
+      "oldDisplaySha256": "9df392e0670ca960162c812cf4eaa30c8e56b2f171a8dc0411a5aa14241b6451",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-160",
+      "opaque": "fdfdf1bbb1",
+      "scene": "Home, cullera metàl·lica, clau i martell",
+      "observation": "Intenta clavar el clau amb la cullera mentre el martell és a taula.",
+      "anatomy": "Punys i canells alineats, l’altra mà sosté la fusta."
+    },
+    "n12-182": {
+      "id": "n12-182",
+      "title": "La tassa sota la pota",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Posa una pota de la taula dins la tassa com a suport.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-1544f4efec59",
+        "w-adecb8403118"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "TAULA",
+          "wordId": "w-1544f4efec59"
+        },
+        {
+          "label": "TASSA",
+          "wordId": "w-adecb8403118"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/7af0f093a1.png",
+      "originalSha256": "47fe64c5e554fe58fe4b77ef35a7b8e9c451e037ff7cb1a4adab0de3241fcc1b",
+      "oldSrc": "assets/constructions/n12/n12-182-foto.webp",
+      "oldDisplaySha256": "25374a3c28a7f41b157d787ce88d0d462d3e68d87ed08a08df861ed2b0cf6700",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-182",
+      "opaque": "7af0f093a1",
+      "scene": "Home ajupit, taula baixa i tassa",
+      "observation": "Posa una pota de la taula dins la tassa com a suport.",
+      "anatomy": "Taló i genoll sostenen la postura i dues mans arriben a la tassa."
+    },
+    "n12-105": {
+      "id": "n12-105",
+      "title": "El plàtan amb cinturó",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Lliga el plàtan a la cadira com a comensal.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e2ea3c22db68",
+        "w-e1efe2c4e23d",
+        "w-2955c024261d"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PLÀTAN",
+          "wordId": "w-e2ea3c22db68"
+        },
+        {
+          "label": "CADIRA",
+          "wordId": "w-e1efe2c4e23d"
+        },
+        {
+          "label": "CINTURÓ",
+          "wordId": "w-2955c024261d"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/d26d47dbce.png",
+      "originalSha256": "33acad7e6a8511d578c7d01053d8c3f5ca2ffe73575911b698d8231f41d8328c",
+      "oldSrc": "assets/constructions/n12/n12-105-foto.webp",
+      "oldDisplaySha256": "1beb195ebfa0f95f597b5052d83804643e10b29fba565e32fa9064552860d14e",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-105",
+      "opaque": "d26d47dbce",
+      "scene": "Dona, cadira, plàtan gran i cinturó",
+      "observation": "Lliga el plàtan a la cadira com a comensal.",
+      "anatomy": "Mans a la sivella i colzes dins l’abast, plàtan sobre seient."
+    },
+    "n12-123": {
+      "id": "n12-123",
+      "title": "Una bufanda per escombrar",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Escombra amb el serrell de la bufanda.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-0b4612bc4b9f"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "BUFANDA",
+          "wordId": "w-0b4612bc4b9f"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/5b38ef3e6e.png",
+      "originalSha256": "29e6c1fc2fca8f23038bd0d91beafe1c8f1357da4455939ea6f977d3e74a5ceb",
+      "oldSrc": "assets/constructions/n12/n12-123-foto.webp",
+      "oldDisplaySha256": "e9d430122a878a39b5b9a209cf803b3dcd3454b139143223dfc945e4c0fcfd6c",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-123",
+      "opaque": "5b38ef3e6e",
+      "scene": "Home agenollat, bufanda, engrunes i escombra",
+      "observation": "Escombra amb el serrell de la bufanda.",
+      "anatomy": "Un braç es recolza a la cuixa i l’altre arriba a la bufanda, genolls al terra."
+    },
+    "n12-150": {
+      "id": "n12-150",
+      "title": "El jersei a les cames",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Fa servir les dues mànigues com a cames de pantalons.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-da54227eac7e",
+        "w-4a0aff137783"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "JERSEI",
+          "wordId": "w-da54227eac7e"
+        },
+        {
+          "label": "CAMA",
+          "wordId": "w-4a0aff137783"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/beffd4ee32.png",
+      "originalSha256": "e7ad716458f74b3a404e98de2d7c0b99d119c162cadc76b4b18f48845ca3fb7d",
+      "oldSrc": "assets/constructions/n12/n12-150-foto.webp",
+      "oldDisplaySha256": "5108eb8d7eea4226148cda524eeda46138bcea6f340206d18339ea1a43bcded7",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-150",
+      "opaque": "beffd4ee32",
+      "scene": "Home assegut amb jersei vermell als peus",
+      "observation": "Fa servir les dues mànigues com a cames de pantalons.",
+      "anatomy": "Genolls doblegats, peus recolzats a l’estora i mans al coll del jersei."
+    },
+    "n12-194": {
+      "id": "n12-194",
+      "title": "El coixí a la paella",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Manipula un coixí a la paella com si fos un aliment.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-44260b79b61e",
+        "w-2a34971d94b3"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "COIXÍ",
+          "wordId": "w-44260b79b61e"
+        },
+        {
+          "label": "CUINA",
+          "wordId": "w-2a34971d94b3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/7bc0f08666.png",
+      "originalSha256": "611516dfb221f83816af52d782407ada89a3156fcbcd84cbb88648e538c3b560",
+      "oldSrc": "assets/constructions/n12/n12-194-foto.webp",
+      "oldDisplaySha256": "ed02bb474c8ff0f2205e6db626b1f167d300d5fe191ab7f6592dad2c276644b7",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-194",
+      "opaque": "7bc0f08666",
+      "scene": "Dona amb paella, coixí i espàtula",
+      "observation": "Manipula un coixí a la paella com si fos un aliment.",
+      "anatomy": "Colzes a l’abast i dues mans ben diferenciades al mànec i l’espàtula."
+    },
+    "n12-102": {
+      "id": "n12-102",
+      "title": "La sabata al plat",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Hi porta una sabata com si fos el menjar.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-55d250f4cf1e"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "PLAT",
+          "wordId": "w-55d250f4cf1e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/eb023179ef.png",
+      "originalSha256": "8c7d12faceb0ce4816813f0f9df84cb2aa85a13ef1bc73bc7f7d49dd5d09348f",
+      "oldSrc": "assets/constructions/n12/n12-102-foto.webp",
+      "oldDisplaySha256": "52702a1502395bdef8432826f6cfe80c31c5be4c890417f991699fd2e6b5eb86",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-102",
+      "opaque": "eb023179ef",
+      "scene": "Dona serveix un plat als comensals",
+      "observation": "Hi porta una sabata com si fos el menjar.",
+      "anatomy": "Les mans sostenen les vores del plat, tronc endavant i comensals recolzats."
+    },
+    "n12-176": {
+      "id": "n12-176",
+      "title": "La cullera per tancar la porta",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Intenta obrir el pany amb la cullereta.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4000ec1e6d5b",
+        "w-e2209c0332a6",
+        "w-9c9849fac1d3",
+        "w-49f4bdd9a93a"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "TANCAR",
+          "wordId": "w-4000ec1e6d5b"
+        },
+        {
+          "label": "PORTA",
+          "wordId": "w-e2209c0332a6"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        },
+        {
+          "label": "CLAU",
+          "wordId": "w-49f4bdd9a93a"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/dba3f19014.png",
+      "originalSha256": "855feaf6f04f2405670a0a0cfe9c65937cd542ef2bf7ed4653ccc8aecb6c072b",
+      "oldSrc": "assets/constructions/n12/n12-176-foto.webp",
+      "oldDisplaySha256": "cdc1dee563ab6396de22300269dc15197c1f6e6343bf1993d24ddbb3915d068b",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-176",
+      "opaque": "dba3f19014",
+      "scene": "Home en una porta amb cullera i clau",
+      "observation": "Intenta obrir el pany amb la cullereta.",
+      "anatomy": "Braç d’abast curt i l’altre doblegat sosté la clau."
+    },
+    "n12-157": {
+      "id": "n12-157",
+      "title": "Les ulleres del tomàquet",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Posa unes ulleres al tomàquet com si tingués cara.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-2ab74322bbef",
+        "w-d1d187dcdcb5"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "ULLERES",
+          "wordId": "w-2ab74322bbef"
+        },
+        {
+          "label": "TOMÀQUET",
+          "wordId": "w-d1d187dcdcb5"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/9013384d57.png",
+      "originalSha256": "c197444c49a50c0714418e8116b5cc1b80efb6c1f06f24aedc854107371528bc",
+      "oldSrc": "assets/constructions/n12/n12-157-foto.webp",
+      "oldDisplaySha256": "11200e66faba919ff8a1cb7cda3821149019c3edc73bab23b5a7fb24306daf80",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-157",
+      "opaque": "9013384d57",
+      "scene": "Dona, tomàquet i ulleres",
+      "observation": "Posa unes ulleres al tomàquet com si tingués cara.",
+      "anatomy": "Ambdues mans agafen les barnilles amb els colzes recolzats."
+    },
+    "n12-191": {
+      "id": "n12-191",
+      "title": "La galleda al cap",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Es posa la galleda al cap com a barret.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-7f04619a8649",
+        "w-cfabc95822cc",
+        "w-21f8574b2a01"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "GALLEDA",
+          "wordId": "w-7f04619a8649"
+        },
+        {
+          "label": "CAP",
+          "wordId": "w-cfabc95822cc"
+        },
+        {
+          "label": "GORRO",
+          "wordId": "w-21f8574b2a01"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/95751ae032.png",
+      "originalSha256": "ee8f7e812e6adab696cc372c13281bde48c5ad5f7cbe31bf87f242609f754a97",
+      "oldSrc": "assets/constructions/n12/n12-191-foto.webp",
+      "oldDisplaySha256": "14c0df25ed22783c0a91b4ddf5d6e44895a2de52c0b1f0d052a4e59c8e0e3b14",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-191",
+      "opaque": "95751ae032",
+      "scene": "Home, galleda groga i gorra",
+      "observation": "Es posa la galleda al cap com a barret.",
+      "anatomy": "Braços flexionats, mà esquerra suporta la galleda i la dreta sosté la gorra."
+    },
+    "n12-184": {
+      "id": "n12-184",
+      "title": "La pinta remena la sopa",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Remena la sopa amb la pinta en lloc de la cullera.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-b91f3bd4d776",
+        "w-ac8bd82a4040",
+        "w-9c9849fac1d3"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        },
+        {
+          "label": "SOPA",
+          "wordId": "w-ac8bd82a4040"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/aecf0fe7db.png",
+      "originalSha256": "2f66377139fe0f33a208f05cb5e33dbd5acef249a1857a89c478d80cfa19fa1e",
+      "oldSrc": "assets/constructions/n12/n12-184-foto.webp",
+      "oldDisplaySha256": "e08eb93c4454b0cb55fe2d16096af89fea754c8df8b0e037864e9e1fc43f7415",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-184",
+      "opaque": "aecf0fe7db",
+      "scene": "Dona, pinta, sopa i cullera",
+      "observation": "Remena la sopa amb la pinta en lloc de la cullera.",
+      "anatomy": "Colze de la mà activa alçat i presa curta, mà contrària a la taula."
+    },
+    "n12-192": {
+      "id": "n12-192",
+      "title": "Les tovalloles dins la nevera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Endreça les tovalloles als prestatges de la nevera.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-045fa0b1ae9d",
+        "w-e596f4e7a6bb",
+        "w-2a34971d94b3"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "TOVALLOLA",
+          "wordId": "w-045fa0b1ae9d"
+        },
+        {
+          "label": "LLET",
+          "wordId": "w-e596f4e7a6bb"
+        },
+        {
+          "label": "CUINA",
+          "wordId": "w-2a34971d94b3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/763a89f042.png",
+      "originalSha256": "af12dd87c1cc4c11d669d786471856ab36de9180ddb497de7405a14e44e504e3",
+      "oldSrc": "assets/constructions/n12/n12-192-foto.webp",
+      "oldDisplaySha256": "4f7ddfe9075360ad6b88ed5fea89b716c37ecbd1655b90ccdfb8a5b589ef9359",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-192",
+      "opaque": "763a89f042",
+      "scene": "Dona, tovalloles i nevera",
+      "observation": "Endreça les tovalloles als prestatges de la nevera.",
+      "anatomy": "Braços lleument flexionats i mans sostenen el pes de la tovallola."
+    },
+    "n12-193": {
+      "id": "n12-193",
+      "title": "La forquilla com a pinta de celles",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Es pentina la cella amb la forquilla.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-0d340ffdb6bf",
+        "w-b91f3bd4d776"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "PENTINAR",
+          "wordId": "w-83c248429f07"
+        },
+        {
+          "label": "FORQUILLA",
+          "wordId": "w-0d340ffdb6bf"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/550205529e.png",
+      "originalSha256": "99e921a17f3f1e59cb1d6c51b3aa2e97ff61963d2f4a8c07930b31930668fab7",
+      "oldSrc": "assets/constructions/n12/n12-193-foto.webp",
+      "oldDisplaySha256": "49dce7c09dff74265fbcda0424332d2312a5020bb495ed38b7c808f353b23180",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-193",
+      "opaque": "550205529e",
+      "scene": "Home amb forquilla davant mirall i pinta",
+      "observation": "Es pentina la cella amb la forquilla.",
+      "anatomy": "Espatlla, colze i canell en una mateixa cadena articulada."
+    },
+    "n12-133": {
+      "id": "n12-133",
+      "title": "La cassola com a barret",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Se sosté l’olla cap per avall al cap com a barret.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-cfabc95822cc",
+        "w-21f8574b2a01"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "CAP",
+          "wordId": "w-cfabc95822cc"
+        },
+        {
+          "label": "GORRO",
+          "wordId": "w-21f8574b2a01"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/0e77e09084.png",
+      "originalSha256": "692789201d900f1d4514508a89046747564e1402ff95f0271dc5be6d9ebbef39",
+      "oldSrc": "assets/constructions/n12/n12-133-foto.webp",
+      "oldDisplaySha256": "32bb3fff1377592595397890595d178ee3fc3a2af977a4fab2061b50350f7e76",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-133",
+      "opaque": "0e77e09084",
+      "scene": "Home, olla metàl·lica i barret",
+      "observation": "Se sosté l’olla cap per avall al cap com a barret.",
+      "anatomy": "Braços alçats simètrics, dues mans a les nanses."
+    },
+    "n12-118": {
+      "id": "n12-118",
+      "title": "El tambor entre la fruita",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "El venedor posa el tambor al mig de les caixes de fruita.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e54dc34d54dc",
+        "w-43125f4a2627"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "TAMBOR",
+          "wordId": "w-e54dc34d54dc"
+        },
+        {
+          "label": "FRUITA",
+          "wordId": "w-43125f4a2627"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/12158b89bf.png",
+      "originalSha256": "2029e8724082bb8a75e9b6b3bc14862186af1842366c106ff6c23eda0e27fdc0",
+      "oldSrc": "assets/constructions/n12/n12-118-foto.webp",
+      "oldDisplaySha256": "703dad62d02b8e573e301008d57bbaf1526b4e419ab2844075e054fcb2102c30",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-118",
+      "opaque": "12158b89bf",
+      "scene": "Venedor, clienta, fruita i tambor",
+      "observation": "El venedor posa el tambor al mig de les caixes de fruita.",
+      "anatomy": "Avantbraços envolten el tambor i l’encaixen contra la caixa."
+    },
+    "n12-093": {
+      "id": "n12-093",
+      "title": "La motxilla als peus",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Es fica un peu a la motxilla com si es calçés.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-43db0ea26088",
+        "w-d1bebb31e968",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "MOTXILLA",
+          "wordId": "w-43db0ea26088"
+        },
+        {
+          "label": "PEU",
+          "wordId": "w-d1bebb31e968"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/d1844a0c93.png",
+      "originalSha256": "e852576800176d34f3cec1fed2e3b72017da979d06fa58c91f89eee72822b0f4",
+      "oldSrc": "assets/constructions/n12/n12-093-foto.webp",
+      "oldDisplaySha256": "dc9d66728330e895b90e735c0801f5be008b3af3b69bd31f70c2defacd7a4ad0",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-093",
+      "opaque": "d1844a0c93",
+      "scene": "Home assegut, motxilla oberta i sabatilla",
+      "observation": "Es fica un peu a la motxilla com si es calçés.",
+      "anatomy": "Genolls flexionats i peus prop de terra, mans subjecten les vores."
+    },
+    "n12-073": {
+      "id": "n12-073",
+      "title": "Els peus als llibres",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Posa els peus dins dels llibres com si fossin sabates.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-d1bebb31e968",
+        "w-3bb995df42bf",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PEU",
+          "wordId": "w-d1bebb31e968"
+        },
+        {
+          "label": "LLIBRE",
+          "wordId": "w-3bb995df42bf"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/2ec056d697.png",
+      "originalSha256": "6f32ffaff34be7b56f9d4604c6d1890ab6dea0836d6d416034f67ef88dd1a0d9",
+      "oldSrc": "assets/constructions/n12/n12-073-foto.webp",
+      "oldDisplaySha256": "4ff7e0e009b6d430f57fb1f8813eed7a5ca8f71eb3da02d584dc208c33b8d5dd",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-073",
+      "opaque": "2ec056d697",
+      "scene": "Home assegut, dos llibres oberts i sabates",
+      "observation": "Posa els peus dins dels llibres com si fossin sabates.",
+      "anatomy": "Malucs al seient i mans als genolls, dos peus recolzats simètricament."
+    },
+    "n12-188": {
+      "id": "n12-188",
+      "title": "El paraigua dins del llit",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Obre i aguanta el paraigua estant sota els llençols.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-2c4809267c13",
+        "w-057e09311c15",
+        "w-5f7c1679605f"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "DORMIR",
+          "wordId": "w-2c4809267c13"
+        },
+        {
+          "label": "PARAIGUA",
+          "wordId": "w-057e09311c15"
+        },
+        {
+          "label": "LLIT",
+          "wordId": "w-5f7c1679605f"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/85a053376e.png",
+      "originalSha256": "085312d6e863ad8b6cab3f46b68339b082e27377b3bf86e4d9c28ad342ec963d",
+      "oldSrc": "assets/constructions/n12/n12-188-foto.webp",
+      "oldDisplaySha256": "04c1594c300b228ef866838a0e5e174f89604c32f762acda64394d935013b826",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-188",
+      "opaque": "85a053376e",
+      "scene": "Dona al llit, paraigua i llum de tauleta",
+      "observation": "Obre i aguanta el paraigua estant sota els llençols.",
+      "anatomy": "Mà a l’eix i colze en angle curt, tors recolzat al capçal."
+    },
+    "n12-180": {
+      "id": "n12-180",
+      "title": "La poma com a ratolí",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Mou la poma a la catifa com si fos un ratolí.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-809c680b5699",
+        "w-fd586876e91e",
+        "w-ad405c7e723f"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "POMA",
+          "wordId": "w-809c680b5699"
+        },
+        {
+          "label": "ORDINADOR",
+          "wordId": "w-fd586876e91e"
+        },
+        {
+          "label": "MÀ",
+          "wordId": "w-ad405c7e723f"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/9c40961b0e.png",
+      "originalSha256": "d00f45e9f758d4bef5e7dd95b37a4b60da1ae07bb4a0c8224124281075ce4091",
+      "oldSrc": "assets/constructions/n12/n12-180-foto.webp",
+      "oldDisplaySha256": "620db7a7ad13fe996f9c7c94b2186250b665b6cd6db97609494ab3b678573c9c",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-180",
+      "opaque": "9c40961b0e",
+      "scene": "Dona davant monitor, poma i ratolí",
+      "observation": "Mou la poma a la catifa com si fos un ratolí.",
+      "anatomy": "Colze de suport a la taula, mà pren la poma amb els dits a sobre."
+    },
+    "n12-161": {
+      "id": "n12-161",
+      "title": "El gelat com a raspall",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Frega la sabata amb el gelat en lloc del raspall.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-6e2a67944770",
+        "w-cb071abb9231"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "GELAT",
+          "wordId": "w-cb071abb9231"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/65a2ca1940.png",
+      "originalSha256": "51535736d189ea72880b3b49b46546258ef0360dea949e7009b5dfad28e4143f",
+      "oldSrc": "assets/constructions/n12/n12-161-foto.webp",
+      "oldDisplaySha256": "29114f0efce2f80ea14fdd69ebe0c97de5eb31ff5b781415c3235147b3e7810a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-161",
+      "opaque": "65a2ca1940",
+      "scene": "Home, sabata negra i cucurutxo de maduixa",
+      "observation": "Frega la sabata amb el gelat en lloc del raspall.",
+      "anatomy": "Una mà aixeca la sabata, l’altra gira el con amb canell neutre."
+    },
+    "n12-166": {
+      "id": "n12-166",
+      "title": "La motxilla com a coixí",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "S’adorm recolzant el cap a la motxilla.",
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-2c4809267c13",
+        "w-43db0ea26088",
+        "w-44260b79b61e",
+        "w-5f7c1679605f"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "terms": [
+        {
+          "label": "NENA",
+          "wordId": "w-cda6fa4a9867"
+        },
+        {
+          "label": "DORMIR",
+          "wordId": "w-2c4809267c13"
+        },
+        {
+          "label": "MOTXILLA",
+          "wordId": "w-43db0ea26088"
+        },
+        {
+          "label": "COIXÍ",
+          "wordId": "w-44260b79b61e"
+        },
+        {
+          "label": "LLIT",
+          "wordId": "w-5f7c1679605f"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/62c348819f.png",
+      "originalSha256": "99e589d987dc050f3904280142a1ed70c1a493829776bed9b23cb864dfa42f3f",
+      "oldSrc": "assets/constructions/n12/n12-166-foto.webp",
+      "oldDisplaySha256": "ede134246a86b02f4cdc439579edb67ca9111040094706d5a386b7f7d7c05e06",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-166",
+      "opaque": "62c348819f",
+      "scene": "Nena estirada, motxilla amb corretges i coixí",
+      "observation": "S’adorm recolzant el cap a la motxilla.",
+      "anatomy": "Cap recolzat sense gir extrem, colzes i genolls flexionats sobre el llit."
+    },
+    "n12-020": {
+      "id": "n12-020",
+      "title": "La pala com a cullera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Serveix la sopa de verdures amb la pala de joguina.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-208167fa638f",
+        "w-ac8bd82a4040",
+        "w-9c9849fac1d3"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PALA",
+          "wordId": "w-208167fa638f"
+        },
+        {
+          "label": "SOPA",
+          "wordId": "w-ac8bd82a4040"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/a6e9f54b9b.png",
+      "originalSha256": "252aa333e936bc7ca3b75bce25231ae61c0667e831baf557bc8b89951b9d5fda",
+      "oldSrc": "assets/constructions/n12/n12-020-foto.webp",
+      "oldDisplaySha256": "33734bc75049a35cac5f806dfd80414061da06024c748414375be91432b69c75",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-020",
+      "opaque": "a6e9f54b9b",
+      "scene": "Home, pala vermella de sorra, sopa i bol",
+      "observation": "Serveix la sopa de verdures amb la pala de joguina.",
+      "anatomy": "Canell inclina la pala mentre la mà lliure estabilitza el bol."
+    },
+    "n12-026": {
+      "id": "n12-026",
+      "title": "La poma com a pilota",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Prepara el llançament amb la poma en lloc de la bola.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-6d90f16f5461",
+        "w-809c680b5699",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "JUGAR",
+          "wordId": "w-6d90f16f5461"
+        },
+        {
+          "label": "POMA",
+          "wordId": "w-809c680b5699"
+        },
+        {
+          "label": "PILOTA",
+          "wordId": "w-b7f578451973"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/7cd6763ced.png",
+      "originalSha256": "8db55a78d9a2f4adea33fab6fa08129821e3a8bddececcbf257ab06ec45fef1c",
+      "oldSrc": "assets/constructions/n12/n12-026-foto.webp",
+      "oldDisplaySha256": "9e57436cd44a5055e90333c2888a91035a29036c80e4f8a4831b43d0f5f32248",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-026",
+      "opaque": "7cd6763ced",
+      "scene": "Home ajupit, poma, bola i bitlles",
+      "observation": "Prepara el llançament amb la poma en lloc de la bola.",
+      "anatomy": "Palmell i cama en suport, l’altre braç arriba a la poma."
+    },
+    "n12-140": {
+      "id": "n12-140",
+      "title": "Un gelat a la tassa",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Enfonsa el gelat de cucurutxo en el cafè cap per avall.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-cb071abb9231",
+        "w-adecb8403118",
+        "w-0cfa5a3e0773"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "GELAT",
+          "wordId": "w-cb071abb9231"
+        },
+        {
+          "label": "TASSA",
+          "wordId": "w-adecb8403118"
+        },
+        {
+          "label": "CAFÈ",
+          "wordId": "w-0cfa5a3e0773"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/3f90c8c75d.png",
+      "originalSha256": "dcfc0491bf12284a4a0d44aa038c87a62d69459cc19bfed71f5b66456811f222",
+      "oldSrc": "assets/constructions/n12/n12-140-foto.webp",
+      "oldDisplaySha256": "393f964dcbe63b5ccc79949310c135c36ead07d60fe1def12d19d2d2487ba284",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-140",
+      "opaque": "3f90c8c75d",
+      "scene": "Dona, tassa de cafè, cullereta i gelat",
+      "observation": "Enfonsa el gelat de cucurutxo en el cafè cap per avall.",
+      "anatomy": "Dues mans curtes a la tassa i al con, sense extensió extrema."
+    },
+    "n12-179": {
+      "id": "n12-179",
+      "title": "El raspall de dents a la torrada",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Unta la mantega amb el raspall de dents.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-ba87276d415c",
+        "w-96e21018e871",
+        "w-c9fbec9e953e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "RASPALL DE DENTS",
+          "wordId": "w-ba87276d415c"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        },
+        {
+          "label": "MANTEGA",
+          "wordId": "w-c9fbec9e953e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/2a8d56d302.png",
+      "originalSha256": "3e7a49f1e4ff6e1aee63fe40c6bcd6487d6c85b59ecd3db93f9e8e159b611910",
+      "oldSrc": "assets/constructions/n12/n12-179-foto.webp",
+      "oldDisplaySha256": "866f70b22d1aea35859dc43c557bf2ad7e5c6458f33c4971dfad9be194bc0c91",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-179",
+      "opaque": "2a8d56d302",
+      "scene": "Home, raspall de dents, torrada i mantega",
+      "observation": "Unta la mantega amb el raspall de dents.",
+      "anatomy": "Mà a l’estri i mà a la vora del plat, colzes a distància curta."
+    },
+    "n12-071": {
+      "id": "n12-071",
+      "title": "La pinya a la sabata",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Posa la pinya dins una bota posada dreta sobre la taula.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/edf61ae1b1.png",
+      "originalSha256": "587cea112859850673418a105ad453a32392975d0a6a0f9773f9bc490eb4ed87",
+      "oldSrc": "assets/constructions/n12/n12-071-foto.webp",
+      "oldDisplaySha256": "906f37de216ae00722c800782f932f92f564aa21c5e1e94f18d9bd73cbf8927f",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-071",
+      "opaque": "edf61ae1b1",
+      "scene": "Dona, pinya i dues botes",
+      "observation": "Posa la pinya dins una bota posada dreta sobre la taula.",
+      "anatomy": "Una mà aguanta la bota per la vora i l’altra la pinya, colzes flexionats."
+    },
+    "n12-120": {
+      "id": "n12-120",
+      "title": "La pinta com a cullera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Es duu la pinta plena de iogurt a la boca.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c248ebfe6f67",
+        "w-b91f3bd4d776",
+        "w-eddf876b7cc3",
+        "w-9c9849fac1d3"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "MENJAR",
+          "wordId": "w-c248ebfe6f67"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        },
+        {
+          "label": "IOGURT",
+          "wordId": "w-eddf876b7cc3"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/9db9c97bf2.png",
+      "originalSha256": "a69c4e06c3239258570703f6185e19de0fcf1313f57e84b1151840dc1ad98018",
+      "oldSrc": "assets/constructions/n12/n12-120-foto.webp",
+      "oldDisplaySha256": "b07245902bdc80d3185a9de0d0d852a2bebd6834bf297f3480a81535aeb2b3a8",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-120",
+      "opaque": "9db9c97bf2",
+      "scene": "Home, pinta rosa, iogurt i cullera",
+      "observation": "Es duu la pinta plena de iogurt a la boca.",
+      "anatomy": "Dits al mànec i mà de suport al pot, colze del gest flexionat."
+    },
+    "n12-186": {
+      "id": "n12-186",
+      "title": "El raspall de dents com a forquilla",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Agafa un espagueti amb el raspall de dents i l’acosta a la boca.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c248ebfe6f67",
+        "w-ba87276d415c",
+        "w-0d340ffdb6bf"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "MENJAR",
+          "wordId": "w-c248ebfe6f67"
+        },
+        {
+          "label": "RASPALL DE DENTS",
+          "wordId": "w-ba87276d415c"
+        },
+        {
+          "label": "FORQUILLA",
+          "wordId": "w-0d340ffdb6bf"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/da441546a6.png",
+      "originalSha256": "44ab0f5b1da09c62e94997b8f115ff656ae4f791aeee70b4f449092ba5c26326",
+      "oldSrc": "assets/constructions/n12/n12-186-foto.webp",
+      "oldDisplaySha256": "4021edc7b8e5db616ef9cd30d9140ed2c1bfa3bd829d6febc481ddce5518429d",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-186",
+      "opaque": "da441546a6",
+      "scene": "Home, raspall, plat d’espaguetis i forquilla",
+      "observation": "Agafa un espagueti amb el raspall de dents i l’acosta a la boca.",
+      "anatomy": "Presa natural del raspall i gir curt de colze."
+    },
+    "n12-175": {
+      "id": "n12-175",
+      "title": "Les tisores com a penjador",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Fa servir unes tisores penjades per aguantar la camisa pel coll.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-f33c4296204d",
+        "w-2dc987121b47"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "TISORES",
+          "wordId": "w-f33c4296204d"
+        },
+        {
+          "label": "CAMISA",
+          "wordId": "w-2dc987121b47"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/879963c36e.png",
+      "originalSha256": "16abe51c4f0dd86d93878192376ee5a0a2b8baa572789bc80e87a993b5ccedc3",
+      "oldSrc": "assets/constructions/n12/n12-175-foto.webp",
+      "oldDisplaySha256": "89e6f3fcf6e074b968e4a8f3b44f856eb6c11fd668c6bdf12e8a56f4798425ee",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-175",
+      "opaque": "879963c36e",
+      "scene": "Dona, tisores closes, ganxo i camisa",
+      "observation": "Fa servir unes tisores penjades per aguantar la camisa pel coll.",
+      "anatomy": "Braços elevats i mans a les vores del coll, suport físic d’ambdues mans."
+    },
+    "n12-099": {
+      "id": "n12-099",
+      "title": "El pa obre un pany",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Intenta obrir el pany amb una barra de pa.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-a10b29af07c7",
+        "w-e2209c0332a6",
+        "w-96e21018e871",
+        "w-49f4bdd9a93a"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "OBRIR",
+          "wordId": "w-a10b29af07c7"
+        },
+        {
+          "label": "PORTA",
+          "wordId": "w-e2209c0332a6"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        },
+        {
+          "label": "CLAU",
+          "wordId": "w-49f4bdd9a93a"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/a5b2ff558c.png",
+      "originalSha256": "45acbb4064681394a2e259bebeb1634bab9b01b5daf7ece10587bc4ff0025677",
+      "oldSrc": "assets/constructions/n12/n12-099-foto.webp",
+      "oldDisplaySha256": "fca76e38be7bdf1943e3e723705fa17f96ffc80e237e6af7de9a2965cc7613e6",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-099",
+      "opaque": "a5b2ff558c",
+      "scene": "Home davant la porta, barra de pa i clau",
+      "observation": "Intenta obrir el pany amb una barra de pa.",
+      "anatomy": "Braços a distància curta, dues mans suporten el pa."
+    },
+    "n12-106": {
+      "id": "n12-106",
+      "title": "La motxilla al cotxet",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Porta la motxilla lligada amb els arnesos, com si fos un infant.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-73b71e1ff757",
+        "w-43db0ea26088"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "PORTAR",
+          "wordId": "w-73b71e1ff757"
+        },
+        {
+          "label": "MOTXILLA",
+          "wordId": "w-43db0ea26088"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/013bb227d4.png",
+      "originalSha256": "835cc25dc99a52fce81bbc32d3ed1fc4d6fdc0d6d9f2b473714c6c7b0626442b",
+      "oldSrc": "assets/constructions/n12/n12-106-foto.webp",
+      "oldDisplaySha256": "17cbad01383d4f960f374c71dd599ce1335d2b22e244ad659fbde992d328bf3d",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-106",
+      "opaque": "013bb227d4",
+      "scene": "Dona empeny cotxet al parc amb una motxilla",
+      "observation": "Porta la motxilla lligada amb els arnesos, com si fos un infant.",
+      "anatomy": "Tors vertical i colzes a la barra, peus en marxa."
+    },
+    "n12-107": {
+      "id": "n12-107",
+      "title": "La llesca com a goma",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Frega les ratlles de llapis amb el pa com si fos la goma de la taula.",
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-3472cd3a36ee",
+        "w-96e21018e871",
+        "w-1775aa96869e",
+        "w-cd5c60f0d076"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "terms": [
+        {
+          "label": "NENA",
+          "wordId": "w-cda6fa4a9867"
+        },
+        {
+          "label": "ESCRIURE",
+          "wordId": "w-3472cd3a36ee"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        },
+        {
+          "label": "LLAPIS",
+          "wordId": "w-1775aa96869e"
+        },
+        {
+          "label": "PAPER",
+          "wordId": "w-cd5c60f0d076"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/c5039cd33f.png",
+      "originalSha256": "4194a33d439d6b1fd5de9cec28ad8796a25a1e47657b0db0512487fa6d5432c9",
+      "oldSrc": "assets/constructions/n12/n12-107-foto.webp",
+      "oldDisplaySha256": "3afd0b9ecc9bd31095f89be2e0753c6e30005f904c4c896dfd0f18e10579d567",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-107",
+      "opaque": "c5039cd33f",
+      "scene": "Nena amb pa, paper, llapis i goma",
+      "observation": "Frega les ratlles de llapis amb el pa com si fos la goma de la taula.",
+      "anatomy": "Una mà plana al pa i una al paper, braços en suport."
+    },
+    "n12-104": {
+      "id": "n12-104",
+      "title": "El llapis com a raspall de dents",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Es neteja les dents amb la goma del llapis com amb un raspall.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-41967fe13109",
+        "w-1775aa96869e",
+        "w-ba87276d415c"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "DENTS",
+          "wordId": "w-41967fe13109"
+        },
+        {
+          "label": "LLAPIS",
+          "wordId": "w-1775aa96869e"
+        },
+        {
+          "label": "RASPALL DE DENTS",
+          "wordId": "w-ba87276d415c"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/c957e7d998.png",
+      "originalSha256": "e3377842d19f0e78926855fe214ae037cf3b583c0738e81c0bd8e72a26cc6780",
+      "oldSrc": "assets/constructions/n12/n12-104-foto.webp",
+      "oldDisplaySha256": "8454478926e8cc7d44a21c72ccc1df9c1d053ea8d8a585a5e42a17e4e942ace1",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-104",
+      "opaque": "c957e7d998",
+      "scene": "Home, llapis i raspall de dents al lavabo",
+      "observation": "Es neteja les dents amb la goma del llapis com amb un raspall.",
+      "anatomy": "Canell prop de la boca, tres dits de presa visibles i colze flexionat."
+    },
+    "n12-108": {
+      "id": "n12-108",
+      "title": "Els vagons amb sabates",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Empra les sabates com a vagons i les uneix amb els cordons.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-6d90f16f5461",
+        "w-b961c4c94862",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "JUGAR",
+          "wordId": "w-6d90f16f5461"
+        },
+        {
+          "label": "TREN",
+          "wordId": "w-b961c4c94862"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/8ec01be2c9.png",
+      "originalSha256": "f9474c7e5e96aaf6a1709e2f365f10da163ac4dbfc05471c65c4441bf97c94e7",
+      "oldSrc": "assets/constructions/n12/n12-108-foto.webp",
+      "oldDisplaySha256": "5107c03fb90d825501a19146cf4b2a09f83adca1ebe8ee0920010fd928360d3a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-108",
+      "opaque": "8ec01be2c9",
+      "scene": "Home, tren de joguina i dues sabates enfilades sobre vies",
+      "observation": "Empra les sabates com a vagons i les uneix amb els cordons.",
+      "anatomy": "Genolls a terra i braços inclinats cap als cordons."
+    },
+    "n12-097": {
+      "id": "n12-097",
+      "title": "El cafè a la regadora",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Aboca el cafè a la regadora i deixa la tassa buida.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-0cfa5a3e0773",
+        "w-adecb8403118"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "CAFÈ",
+          "wordId": "w-0cfa5a3e0773"
+        },
+        {
+          "label": "TASSA",
+          "wordId": "w-adecb8403118"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/6ba1f0d63f.png",
+      "originalSha256": "08342c969faac3ebdb606624328f8a6f93bad9165052acc5f4a267521dff8de2",
+      "oldSrc": "assets/constructions/n12/n12-097-foto.webp",
+      "oldDisplaySha256": "08e948f441ea12ee6e6d0ad235c64fe2033f51165fd541fd0d9d1992f1eb14e9",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-097",
+      "opaque": "6ba1f0d63f",
+      "scene": "Home, cafetera, regadora i tassa",
+      "observation": "Aboca el cafè a la regadora i deixa la tassa buida.",
+      "anatomy": "Colze flexionat aguanta la cafetera i l’altra mà recolza la regadora."
+    },
+    "n12-081": {
+      "id": "n12-081",
+      "title": "El raspall com a cullera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Aboca sucre al cafè amb un pinzell, amb la cullereta al costat.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-33df96705776",
+        "w-0c10313724e1",
+        "w-9c9849fac1d3",
+        "w-0cfa5a3e0773"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PINZELL",
+          "wordId": "w-33df96705776"
+        },
+        {
+          "label": "SUCRE",
+          "wordId": "w-0c10313724e1"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        },
+        {
+          "label": "CAFÈ",
+          "wordId": "w-0cfa5a3e0773"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/a917dfee25.png",
+      "originalSha256": "d2fc9ecaa498fe9c0f4424f28359b2556c88c630fe944cace1dc51e1c41c5824",
+      "oldSrc": "assets/constructions/n12/n12-081-foto.webp",
+      "oldDisplaySha256": "8fc7971a6904d44fc6ee75d113f6a8123559c68bb5b8f16a85016406153c8993",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-081",
+      "opaque": "a917dfee25",
+      "scene": "Home, pinzell ample, sucre i tassa",
+      "observation": "Aboca sucre al cafè amb un pinzell, amb la cullereta al costat.",
+      "anatomy": "Una mà té presa al mànec i l’altra reposa a la taula."
+    },
+    "n12-084": {
+      "id": "n12-084",
+      "title": "El globus renta el plat",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Frega el plat amb el globus en lloc del fregall.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-f19cff282499",
+        "w-55d250f4cf1e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "GLOBUS",
+          "wordId": "w-f19cff282499"
+        },
+        {
+          "label": "PLAT",
+          "wordId": "w-55d250f4cf1e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/d9514973d3.png",
+      "originalSha256": "933984c025793c29f05fb419755c2d1df15afa437499f00732b85a030f29608d",
+      "oldSrc": "assets/constructions/n12/n12-084-foto.webp",
+      "oldDisplaySha256": "298a9623b74ea3f618c55c69e1b80ed7351bf5d8024fb83c0dc4ff54e07b253a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-084",
+      "opaque": "d9514973d3",
+      "scene": "Home, globus groc, plat brut i fregall",
+      "observation": "Frega el plat amb el globus en lloc del fregall.",
+      "anatomy": "Mans a costats diferents i canell de l’esponjat dins l’abast."
+    },
+    "n12-087": {
+      "id": "n12-087",
+      "title": "La pera per escriure",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Traça una ratlla amb la tija de la pera com a llapis.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-3472cd3a36ee",
+        "w-9630a1d828c9",
+        "w-cd5c60f0d076",
+        "w-1775aa96869e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "ESCRIURE",
+          "wordId": "w-3472cd3a36ee"
+        },
+        {
+          "label": "PERA",
+          "wordId": "w-9630a1d828c9"
+        },
+        {
+          "label": "PAPER",
+          "wordId": "w-cd5c60f0d076"
+        },
+        {
+          "label": "LLAPIS",
+          "wordId": "w-1775aa96869e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/1d1b4dbdc1.png",
+      "originalSha256": "6e783774d3ffe4487061110819ac9bbedb5e79a92a6fee721f9acdcc5e9938e7",
+      "oldSrc": "assets/constructions/n12/n12-087-foto.webp",
+      "oldDisplaySha256": "4e2d8e05c7827fb30c77508450447e05591b3040bf8ae8be9c4273f1401e4186",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-087",
+      "opaque": "1d1b4dbdc1",
+      "scene": "Home, pera, paper, llapis",
+      "observation": "Traça una ratlla amb la tija de la pera com a llapis.",
+      "anatomy": "Dits recolzen la pera i avantbraç contrari a taula."
+    },
+    "n12-089": {
+      "id": "n12-089",
+      "title": "Les ulleres a la sabata",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Fica les ulleres en una bota com si fos l’estoig.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-2ab74322bbef",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "ULLERES",
+          "wordId": "w-2ab74322bbef"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/30735b242f.png",
+      "originalSha256": "8d7c18c4e78916a46e7192747f0a0d6085d2252ad969d047d48a38037018d83d",
+      "oldSrc": "assets/constructions/n12/n12-089-foto.webp",
+      "oldDisplaySha256": "2d4462d8692d9c19b99ec460826d6f93ae20c3ec6804777729dfc125ee7ad347",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-089",
+      "opaque": "30735b242f",
+      "scene": "Dona, ulleres, bota i estoig obert",
+      "observation": "Fica les ulleres en una bota com si fos l’estoig.",
+      "anatomy": "Una mà aguanta la canya, l’altra pessiga una barnilla amb el colze flexionat."
+    },
+    "n12-082": {
+      "id": "n12-082",
+      "title": "El telèfon al peu",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Posa l’auricular contra la planta del peu.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-9f650a9a866e",
+        "w-d1bebb31e968"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "TELÈFON",
+          "wordId": "w-9f650a9a866e"
+        },
+        {
+          "label": "PEU",
+          "wordId": "w-d1bebb31e968"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/f4587fbce4.png",
+      "originalSha256": "3db8a62477b21e339e4b3423c52df5c39ad96e8758eea5c4c8ff0a1ebd5cc865",
+      "oldSrc": "assets/constructions/n12/n12-082-foto.webp",
+      "oldDisplaySha256": "8f13c293d02260550c83ad6d114ae43c332e762337198f04577cb70a573c49cb",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-082",
+      "opaque": "f4587fbce4",
+      "scene": "Dona asseguda amb telèfon, peu nu i mitjó",
+      "observation": "Posa l’auricular contra la planta del peu.",
+      "anatomy": "El genoll flexiona amb peu elevat, una mà aguanta la cama i l’altra l’auricular."
+    },
+    "n12-061": {
+      "id": "n12-061",
+      "title": "El bròquil fa de micròfon",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Parla al bròquil com si fos un micròfon.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-99745dcf7c97"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "PARLAR",
+          "wordId": "w-99745dcf7c97"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/6ccabd4cfd.png",
+      "originalSha256": "a82d8a1ef1b876defec3c8c2a64da7174d44189bc66bbc180593c2404881b596",
+      "oldSrc": "assets/constructions/n12/n12-061-foto.webp",
+      "oldDisplaySha256": "95a7386c1099d9eef86d50cb559dde818677e2e669f413a6c7fb53882faa84ae",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-061",
+      "opaque": "6ccabd4cfd",
+      "scene": "Home en un escenari, bròquil i micròfon",
+      "observation": "Parla al bròquil com si fos un micròfon.",
+      "anatomy": "Colze tancat a la presa, l’altra mà oberta a l’abast del gest."
+    },
+    "n12-029": {
+      "id": "n12-029",
+      "title": "La bossa com a bol de sopa",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Serveix la sopa a la bossa en comptes del bol.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-7db8d682fed4",
+        "w-ac8bd82a4040",
+        "w-55d250f4cf1e"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "BOSSA",
+          "wordId": "w-7db8d682fed4"
+        },
+        {
+          "label": "SOPA",
+          "wordId": "w-ac8bd82a4040"
+        },
+        {
+          "label": "PLAT",
+          "wordId": "w-55d250f4cf1e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/9637387e21.png",
+      "originalSha256": "4a8cf3e359616249c116adbad7998367ffd3e6d87fc27b49db82d9a4dd48444a",
+      "oldSrc": "assets/constructions/n12/n12-029-foto.webp",
+      "oldDisplaySha256": "cf6b6fcef9eea5508833976b5f9d55c6f55ff877b1b7dfcbae1d961c7b0c1657",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-029",
+      "opaque": "9637387e21",
+      "scene": "Dona, cullerot, sopa i bossa de tela",
+      "observation": "Serveix la sopa a la bossa en comptes del bol.",
+      "anatomy": "Braç amb cullerot i segona mà a la vora de la bossa, abast natural."
+    },
+    "n12-034": {
+      "id": "n12-034",
+      "title": "El llit parat per dinar",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Para taula al capdavall del llit, sobre la manta.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-732ff8e447b5",
+        "w-5f7c1679605f",
+        "w-55d250f4cf1e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "MANTA",
+          "wordId": "w-732ff8e447b5"
+        },
+        {
+          "label": "LLIT",
+          "wordId": "w-5f7c1679605f"
+        },
+        {
+          "label": "PLAT",
+          "wordId": "w-55d250f4cf1e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/4fe018d25a.png",
+      "originalSha256": "99b2047cb99b65f529983c24391d48e6cbf3c88cef984fbc075a5ea7064dce0b",
+      "oldSrc": "assets/constructions/n12/n12-034-foto.webp",
+      "oldDisplaySha256": "dc12df0b117b979a6a965f0c6978fc43af3d6fce4b0f14a102dfff607d425d20",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-034",
+      "opaque": "4fe018d25a",
+      "scene": "Home, llit fet, plat, tassa i coberts",
+      "observation": "Para taula al capdavall del llit, sobre la manta.",
+      "anatomy": "Braços a banda i banda del plat, inclina els malucs cap al llit."
+    },
+    "n12-112": {
+      "id": "n12-112",
+      "title": "Una sabata al gerro",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Col·loca una sabata dins del ram com si fos una flor.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-6c5def9143c8"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "FLOR",
+          "wordId": "w-6c5def9143c8"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/d0616fc548.png",
+      "originalSha256": "6fda4d63a7a97fc69db39835b0477b002d14f66d1186c3782c7e58e2b1dd325b",
+      "oldSrc": "assets/constructions/n12/n12-112-foto.webp",
+      "oldDisplaySha256": "9152343d39f363396591aa8d0b6be576a4a322bf0d5b6721e6843cef152b6029",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-112",
+      "opaque": "d0616fc548",
+      "scene": "Dona, gerro amb flors i sabata rosa",
+      "observation": "Col·loca una sabata dins del ram com si fos una flor.",
+      "anatomy": "Dues mans en presa curta al gerro i a la sabata."
+    },
+    "n12-031": {
+      "id": "n12-031",
+      "title": "La ploma com a cullera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Aboca sucre amb la ploma com si fos la cullereta.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-0c10313724e1",
+        "w-9c9849fac1d3",
+        "w-adecb8403118"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SUCRE",
+          "wordId": "w-0c10313724e1"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        },
+        {
+          "label": "TASSA",
+          "wordId": "w-adecb8403118"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/1e4d68d729.png",
+      "originalSha256": "82e7e167dd1e76100efe44ef15885667f821e1d8615bb5f591cb30f109d43ad9",
+      "oldSrc": "assets/constructions/n12/n12-031-foto.webp",
+      "oldDisplaySha256": "8e8869b5596c813f78aeee82d26ebf837e1cf22f5b6a73f3ab2f613788627476",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-031",
+      "opaque": "1e4d68d729",
+      "scene": "Home, ploma roja, tassa i sucre",
+      "observation": "Aboca sucre amb la ploma com si fos la cullereta.",
+      "anatomy": "Presa del canó de la ploma a distància curta, tors inclinat sobre la tassa."
+    },
+    "n12-022": {
+      "id": "n12-022",
+      "title": "El martell per pentinar",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Passa el martell pel floc de la perruca com si el pentinés.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-83c248429f07",
+        "w-b91f3bd4d776"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "PENTINAR",
+          "wordId": "w-83c248429f07"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/eb1c170dc2.png",
+      "originalSha256": "63df051971d6c0e86691df734b17e576e8e070b693c31a3fe87e7d26c5ff556a",
+      "oldSrc": "assets/constructions/n12/n12-022-foto.webp",
+      "oldDisplaySha256": "7db27d8feb3c8260580f14a28100897bdaa5b10e80187d5440ecc86589493de4",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-022",
+      "opaque": "eb1c170dc2",
+      "scene": "Home, martell i perruca en un suport",
+      "observation": "Passa el martell pel floc de la perruca com si el pentinés.",
+      "anatomy": "Un braç subjecta el floc i l’altre pren el martell amb colze flexionat."
+    },
+    "n12-069": {
+      "id": "n12-069",
+      "title": "El mitjó a la torradora",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Posa el mitjó dins la torradora com si fos una torrada.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-64737c439fa0",
+        "w-96e21018e871"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "MITJÓ",
+          "wordId": "w-64737c439fa0"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/cf12859fdd.png",
+      "originalSha256": "e5af3fd3c381eb5cd518d18c06576771c80c2503732f0b83f13bc68e7423761b",
+      "oldSrc": "assets/constructions/n12/n12-069-foto.webp",
+      "oldDisplaySha256": "2463fe67e72514c37d2721aa73de49a48941463183552fdfa0659ab9a253c572",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-069",
+      "opaque": "cf12859fdd",
+      "scene": "Dona, mitjó, torradora i pa",
+      "observation": "Posa el mitjó dins la torradora com si fos una torrada.",
+      "anatomy": "Dits pessiguen la vora del mitjó, colze elevat i canell inclinat."
+    },
+    "n12-032": {
+      "id": "n12-032",
+      "title": "L’ou aguanta el llibre",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Col·loca un ou al plec del llibre per aguantar-lo o marcar la pàgina.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e3836c106698",
+        "w-3bb995df42bf"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "OU",
+          "wordId": "w-e3836c106698"
+        },
+        {
+          "label": "LLIBRE",
+          "wordId": "w-3bb995df42bf"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/6bf8a6abae.png",
+      "originalSha256": "0001e0e0c37b1c5ff024822a3ec472693bbdc40243541b9117474f259f50976a",
+      "oldSrc": "assets/constructions/n12/n12-032-foto.webp",
+      "oldDisplaySha256": "6db1881370223eb90b67ac75842fd8c4181727d12a0f3ac5d383b69b1509d2db",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-032",
+      "opaque": "6bf8a6abae",
+      "scene": "Dona, llibre obert i ous",
+      "observation": "Col·loca un ou al plec del llibre per aguantar-lo o marcar la pàgina.",
+      "anatomy": "Dits envolten l’ou, el plec impedeix que rodi i l’avantbraç té abast curt."
+    },
+    "n12-021": {
+      "id": "n12-021",
+      "title": "El coixí serveix la pizza",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "context",
+      "subtype": "menjar-en-condicions-impropies",
+      "breach": "Porta la pizza directament sobre el coixí com en una safata.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-44260b79b61e",
+        "w-73267bbcc2fe"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "COIXÍ",
+          "wordId": "w-44260b79b61e"
+        },
+        {
+          "label": "PIZZA",
+          "wordId": "w-73267bbcc2fe"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/bd63db9425.png",
+      "originalSha256": "946febb8e5d2202e9d79ce0a7b8ec1e61c341d6585ba780f0553d2b276065bb1",
+      "oldSrc": "assets/constructions/n12/n12-021-foto.webp",
+      "oldDisplaySha256": "ed04bf3848723f7646aabc049d52abf96bbd4c613f43b088d6ba83f5668f7ee1",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-021",
+      "opaque": "bd63db9425",
+      "scene": "Dona, pizza sobre coixí i comensals",
+      "observation": "Porta la pizza directament sobre el coixí com en una safata.",
+      "anatomy": "Braços traginant el coixí a l’altura dels malucs, presa bilateral als cantons."
+    },
+    "n12-059": {
+      "id": "n12-059",
+      "title": "Les sabates són fitxes",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Mou una sabata com a fitxa del joc.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-6d90f16f5461",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "JUGAR",
+          "wordId": "w-6d90f16f5461"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/711e51731b.png",
+      "originalSha256": "d6ed77201831945da29cb79792a2c907d4f747834618b5ac77a14a5dd3eac19f",
+      "oldSrc": "assets/constructions/n12/n12-059-foto.webp",
+      "oldDisplaySha256": "783de597bc211ab2e090a8a2f97a610d222c2890d12a40377dd65394e46ec43c",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-059",
+      "opaque": "711e51731b",
+      "scene": "Dona, tauler gegant i tres sabates",
+      "observation": "Mou una sabata com a fitxa del joc.",
+      "anatomy": "Genolls a terra, una mà en suport i l’altra arriba al tauler."
+    },
+    "n12-035": {
+      "id": "n12-035",
+      "title": "El tambor per menjar sopa",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "context",
+      "subtype": "menjar-en-condicions-impropies",
+      "breach": "Menja sopa del damunt d’un tambor com si fos un plat.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c248ebfe6f67",
+        "w-e54dc34d54dc",
+        "w-ac8bd82a4040",
+        "w-9c9849fac1d3"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "MENJAR",
+          "wordId": "w-c248ebfe6f67"
+        },
+        {
+          "label": "TAMBOR",
+          "wordId": "w-e54dc34d54dc"
+        },
+        {
+          "label": "SOPA",
+          "wordId": "w-ac8bd82a4040"
+        },
+        {
+          "label": "CULLERA",
+          "wordId": "w-9c9849fac1d3"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/bc1dec80a3.png",
+      "originalSha256": "0f142dad1379fbb84406431575a203968da1fe6fb52f904d55a22c4a2a4e2215",
+      "oldSrc": "assets/constructions/n12/n12-035-foto.webp",
+      "oldDisplaySha256": "673b1ce480625a77ba95182c1c0c47b21fe41086c15cf4df495da141767002af",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-035",
+      "opaque": "bc1dec80a3",
+      "scene": "Home, tambor, sopa i bol buit",
+      "observation": "Menja sopa del damunt d’un tambor com si fos un plat.",
+      "anatomy": "La mà arriba a la boca amb colze en flexió, tors reclinat endavant."
+    },
+    "n12-027": {
+      "id": "n12-027",
+      "title": "La llimona com a sabó",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Es frega les mans amb una llimona com si fos una pastilla de sabó.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-4e6be686e7c1",
+        "w-ad405c7e723f",
+        "w-2bd7fe3d2570",
+        "w-8b5000ca29e9"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "MÀ",
+          "wordId": "w-ad405c7e723f"
+        },
+        {
+          "label": "LLIMONA",
+          "wordId": "w-2bd7fe3d2570"
+        },
+        {
+          "label": "SABÓ",
+          "wordId": "w-8b5000ca29e9"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/b73e98896b.png",
+      "originalSha256": "bf2b0ace55b876fbbf884371df1d3a72c0c604905502b8df1a753953006542d7",
+      "oldSrc": "assets/constructions/n12/n12-027-foto.webp",
+      "oldDisplaySha256": "8709dbe99514ab9c0e62a5066bf461d5f78e9e95ad1f4efd509cc954170eca28",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-027",
+      "opaque": "b73e98896b",
+      "scene": "Dona, llimona, escuma, sabó i aigua",
+      "observation": "Es frega les mans amb una llimona com si fos una pastilla de sabó.",
+      "anatomy": "Dues mans superposades al voltant de la llimona i canells flexionats."
+    },
+    "n12-019": {
+      "id": "n12-019",
+      "title": "La bufanda a la cassola",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Fica la bufanda dins l’olla com si la cuinés.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-0b4612bc4b9f",
+        "w-2a34971d94b3",
+        "w-626dd3bf53e5"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "BUFANDA",
+          "wordId": "w-0b4612bc4b9f"
+        },
+        {
+          "label": "CUINA",
+          "wordId": "w-2a34971d94b3"
+        },
+        {
+          "label": "PASTANAGA",
+          "wordId": "w-626dd3bf53e5"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/e13a28c310.png",
+      "originalSha256": "b48973403724d5c0bf8454deb8a58ba5f80b3524762dc823068e7bcf59c77631",
+      "oldSrc": "assets/constructions/n12/n12-019-foto.webp",
+      "oldDisplaySha256": "837207e2b3f200e0c0810ebe8e775eb872f729fdc2ea588ea10b6cda0c212e9a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-019",
+      "opaque": "e13a28c310",
+      "scene": "Dona, bufanda roja, olla i estris de cuina",
+      "observation": "Fica la bufanda dins l’olla com si la cuinés.",
+      "anatomy": "Mà al serrell i mà a la roba enrotllada, dues flexions curtes."
+    },
+    "n12-015": {
+      "id": "n12-015",
+      "title": "El diari eixuga les mans",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "S’eixuga les mans amb el diari en comptes de la tovallola.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-ae417aa563dd",
+        "w-ad405c7e723f",
+        "w-125b3c1951ac",
+        "w-045fa0b1ae9d"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "ASSECAR",
+          "wordId": "w-ae417aa563dd"
+        },
+        {
+          "label": "MÀ",
+          "wordId": "w-ad405c7e723f"
+        },
+        {
+          "label": "DIARI",
+          "wordId": "w-125b3c1951ac"
+        },
+        {
+          "label": "TOVALLOLA",
+          "wordId": "w-045fa0b1ae9d"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/b75fee886a.png",
+      "originalSha256": "6aff9cec6f49fb9a93c1f722e36a67b86d42970976cf1c415b132ef926cc7778",
+      "oldSrc": "assets/constructions/n12/n12-015-foto.webp",
+      "oldDisplaySha256": "4936ca86a31b86b21c45ec5f275288c249180e8a225774ed247ded4efb6eac82",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-015",
+      "opaque": "b75fee886a",
+      "scene": "Dona amb mans humides, diari i tovallola",
+      "observation": "S’eixuga les mans amb el diari en comptes de la tovallola.",
+      "anatomy": "La mà visible fa suport al diari i l’altra hi pressiona de darrere."
+    },
+    "n12-078": {
+      "id": "n12-078",
+      "title": "El peix al penjador",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Penja el peix de la cua com si fos una peça de roba.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-83fa1b790768",
+        "w-7dc88016e698"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PEIX",
+          "wordId": "w-83fa1b790768"
+        },
+        {
+          "label": "ROBA",
+          "wordId": "w-7dc88016e698"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/e9ff3852fc.png",
+      "originalSha256": "bbb9a1d0b5ccc27b058eeaca761c38afc8a34713ab59043945677618e42b299e",
+      "oldSrc": "assets/constructions/n12/n12-078-foto.webp",
+      "oldDisplaySha256": "179e6c22a8ed2ee7bf331c466d6424ffb720dad3421c924251c2fb4727000a82",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-078",
+      "opaque": "e9ff3852fc",
+      "scene": "Home, peix sencer, pinces, samarreta i cordill",
+      "observation": "Penja el peix de la cua com si fos una peça de roba.",
+      "anatomy": "Braç alçat al cordill i mà inferior sosté el pes del peix."
+    },
+    "n12-085": {
+      "id": "n12-085",
+      "title": "El guant com a moneder",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Guarda les monedes dins un guant en comptes de la cartera.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-bd57efcdf7f5",
+        "w-b48ec38350bc",
+        "w-1c7dc27a398b"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "GUANTS",
+          "wordId": "w-bd57efcdf7f5"
+        },
+        {
+          "label": "CÈNTIMS",
+          "wordId": "w-b48ec38350bc"
+        },
+        {
+          "label": "MONEDER",
+          "wordId": "w-1c7dc27a398b"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/17c56f02aa.png",
+      "originalSha256": "b10025e4234828b7724c75b7c00d11c166eb3cc1b3dbe52c1a173bddbc0638fe",
+      "oldSrc": "assets/constructions/n12/n12-085-foto.webp",
+      "oldDisplaySha256": "7b006eb4dd09db169e90d0bf7730fc6096c59b5a8b53f2d98e0debd720e075c9",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-085",
+      "opaque": "17c56f02aa",
+      "scene": "Dona, monedes, guant i cartera oberta",
+      "observation": "Guarda les monedes dins un guant en comptes de la cartera.",
+      "anatomy": "Dits a la boca del guant i canell contrari inclinat per deixar caure les monedes."
+    },
+    "n12-173": {
+      "id": "n12-173",
+      "title": "Els carbassons com a sabatilles",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Porta carbassons buidats com a sabatilles.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-5f5b9a1df897"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "VERD",
+          "wordId": "w-5f5b9a1df897"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/b5be63ca11.png",
+      "originalSha256": "f791bacbb783709a1775107990fd5e01fb3624faaec978b6af9cb14190a909ae",
+      "oldSrc": "assets/constructions/n12/n12-173-foto.webp",
+      "oldDisplaySha256": "f470e1cf7f391e538b703c8ad504bf8772f5fead44976d31d6c128b72a8e2490",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-173",
+      "opaque": "b5be63ca11",
+      "scene": "Dona asseguda, dos carbassons i sabatilles buides",
+      "observation": "Porta carbassons buidats com a sabatilles.",
+      "anatomy": "Cames simètriques i peus dins els carbassons recolzats contra el sòl, mans a les cuixes."
+    },
+    "n12-080": {
+      "id": "n12-080",
+      "title": "L’enciam al llum",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Col·loca l’enciam a la part superior del llum com si fos la pantalla.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-30c924a12d6f"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "LLUM",
+          "wordId": "w-30c924a12d6f"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/49dbaf5b74.png",
+      "originalSha256": "330f74372095a607bff917c95aedab7c03cd4a43dac7a5e01577bf34f996cea6",
+      "oldSrc": "assets/constructions/n12/n12-080-foto.webp",
+      "oldDisplaySha256": "8a3ee73d38896b83ac7821e59608a7f87e2cee2a0f903d46faf54bdc656d6e26",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-080",
+      "opaque": "49dbaf5b74",
+      "scene": "Dona, enciam i llum de taula amb pantalla desmuntada",
+      "observation": "Col·loca l’enciam a la part superior del llum com si fos la pantalla.",
+      "anatomy": "Dues mans sostenen les fulles i els colzes flexionen prop del tronc."
+    },
+    "n12-101": {
+      "id": "n12-101",
+      "title": "La galleda és una sabata",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Es fica un peu dins la galleda com si fos l’altra sabata.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-7f04619a8649",
+        "w-d1bebb31e968",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "GALLEDA",
+          "wordId": "w-7f04619a8649"
+        },
+        {
+          "label": "PEU",
+          "wordId": "w-d1bebb31e968"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/1a095a17b3.png",
+      "originalSha256": "9c7d4b2e9630a407aa1e111452444ae1dea3e20671523eca5689e69a265063b2",
+      "oldSrc": "assets/constructions/n12/n12-101-foto.webp",
+      "oldDisplaySha256": "296b304d59f67165afe9f517875ca14e95cfe2d57ebce4ed6c6bf2ab9b76f337",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-101",
+      "opaque": "1a095a17b3",
+      "scene": "Dona asseguda, sabata de muntanya i galleda transparent",
+      "observation": "Es fica un peu dins la galleda com si fos l’altra sabata.",
+      "anatomy": "Genolls visibles i suport al banc, el peu nu es veu sencer a través de la galleda, mans a la nansa."
+    },
+    "n12-095": {
+      "id": "n12-095",
+      "title": "La cadira amb mitjons",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Li posa un mitjó a una quarta pota com si li posés roba.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-e1efe2c4e23d",
+        "w-64737c439fa0"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "CADIRA",
+          "wordId": "w-e1efe2c4e23d"
+        },
+        {
+          "label": "MITJÓ",
+          "wordId": "w-64737c439fa0"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/3db0239386.png",
+      "originalSha256": "91e3926012e6896d21191f1de7fac4e586ee2ee9fd0fbb97343e0700dc9e5b4c",
+      "oldSrc": "assets/constructions/n12/n12-095-foto.webp",
+      "oldDisplaySha256": "96103e1416660423ca01f7d251d20135ad6669658a574bab268a475e2cb51b2a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-095",
+      "opaque": "3db0239386",
+      "scene": "Home ajupit, cadira amb mitjons a les potes",
+      "observation": "Li posa un mitjó a una quarta pota com si li posés roba.",
+      "anatomy": "Genolls flexionats i canells a l’abast del mitjó, estructura de cadira amb suport."
+    },
+    "n12-054": {
+      "id": "n12-054",
+      "title": "El coixí als plats",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Posa el coixí a l’escorreplats com si fos un plat.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-44260b79b61e",
+        "w-55d250f4cf1e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "COIXÍ",
+          "wordId": "w-44260b79b61e"
+        },
+        {
+          "label": "PLAT",
+          "wordId": "w-55d250f4cf1e"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/95d0a594e0.png",
+      "originalSha256": "64c2cbd4c8f4f2577328f0363455daf327f5f8feb5ff3f957b45b29dd5080174",
+      "oldSrc": "assets/constructions/n12/n12-054-foto.webp",
+      "oldDisplaySha256": "6e288336e6a7f4a529a0879756f5c4ee59413964cfcc9dc22cca1900d0f1a186",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-054",
+      "opaque": "95d0a594e0",
+      "scene": "Home, plats drets, pica i coixí",
+      "observation": "Posa el coixí a l’escorreplats com si fos un plat.",
+      "anatomy": "Ambdues mans a les vores superiors, braços dins l’abast i coixí recolzat a la reixeta."
+    },
+    "n12-008": {
+      "id": "n12-008",
+      "title": "La patata dins la cartera",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Fica la patata sencera dins del moneder com si la guardés amb les monedes.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-c2834e700445",
+        "w-1c7dc27a398b"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PATATA",
+          "wordId": "w-c2834e700445"
+        },
+        {
+          "label": "MONEDER",
+          "wordId": "w-1c7dc27a398b"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/80de131de0.png",
+      "originalSha256": "280eedd10cd3d46f1b9ee003ca57e1fee7e0b927c2f20bc77f522e27f95546d0",
+      "oldSrc": "assets/constructions/n12/n12-008-foto.webp",
+      "oldDisplaySha256": "d8d378f71f026385b6e27df9d2cf141d08add108cfcb58954b5ab9566819a932",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-008",
+      "opaque": "80de131de0",
+      "scene": "Dona, patata, moneder vermell i monedes",
+      "observation": "Fica la patata sencera dins del moneder com si la guardés amb les monedes.",
+      "anatomy": "Una mà agafa la patata i l’altra estira el marc a l’abast de la taula."
+    },
+    "n12-124": {
+      "id": "n12-124",
+      "title": "Una sabata a la safata del forn",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Col·loca una sabatilla al centre de la safata com si fos una galeta per enfornar.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/7efd4ec97c.png",
+      "originalSha256": "12375fac47ad543cb69bb0c71e3ed25831bddc62f740b85dd6f090c69d460fcf",
+      "oldSrc": "assets/constructions/n12/n12-124-foto.webp",
+      "oldDisplaySha256": "d1252afb7bd805e346710a5f306637199d704b5c98ffd32ad89e347d4b514ca6",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-124",
+      "opaque": "7efd4ec97c",
+      "scene": "Dona, forn obert, galetes i sabatilla blava",
+      "observation": "Col·loca una sabatilla al centre de la safata com si fos una galeta per enfornar.",
+      "anatomy": "Dos colzes flexionats i les mans arriben a la vora i a la sola de la sabata."
+    },
+    "n12-076": {
+      "id": "n12-076",
+      "title": "La ràdio a la carmanyola",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Desa la ràdio a la carmanyola com si fos part del dinar.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-819a2b3b7687",
+        "w-8e46fa6e9e1c",
+        "w-809c680b5699"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "RÀDIO",
+          "wordId": "w-819a2b3b7687"
+        },
+        {
+          "label": "MENJAR",
+          "wordId": "w-8e46fa6e9e1c"
+        },
+        {
+          "label": "POMA",
+          "wordId": "w-809c680b5699"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/ce84ce6fd7.png",
+      "originalSha256": "1a5c162cc14e4f843b98a9e79a295879eb106832a002c01d5450f2b1836f6150",
+      "oldSrc": "assets/constructions/n12/n12-076-foto.webp",
+      "oldDisplaySha256": "e17dcde9c6a7a00e4858e605000077e3a24dc68b1b4d52c0cace811a93d0ab47",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-076",
+      "opaque": "ce84ce6fd7",
+      "scene": "Home, ràdio, carmanyola, poma i entrepà",
+      "observation": "Desa la ràdio a la carmanyola com si fos part del dinar.",
+      "anatomy": "Mans en dos costats de la ràdio, colzes flexionats sobre la caixa."
+    },
+    "n12-199": {
+      "id": "n12-199",
+      "title": "La pilota al pot de cereals",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "context-o-recipient-impropi",
+      "breach": "Serveix pilotes de futbol de joguina barrejades amb els cereals.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-b7f578451973"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PILOTA",
+          "wordId": "w-b7f578451973"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/c2475821fb.png",
+      "originalSha256": "0e9dc72304566e0b9c7384cdf4775abc670b3a680528fd3e0941b05c3d5fa7d1",
+      "oldSrc": "assets/constructions/n12/n12-199-foto.webp",
+      "oldDisplaySha256": "8db2221dba0c5709ca8f0a394c91d016ea5a86721ae90ddad521767ba7ab0e24",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-199",
+      "opaque": "c2475821fb",
+      "scene": "Home, pot de cereals, bol i petites pilotes",
+      "observation": "Serveix pilotes de futbol de joguina barrejades amb els cereals.",
+      "anatomy": "Les dues mans sostenen el pot per sota i pel lateral, braços a l’abast del bol."
+    },
+    "n12-013": {
+      "id": "n12-013",
+      "title": "Els mitjons a les orelles",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Es posa un mitjó a cada orella com si fossin els auriculars.",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-64737c439fa0",
+        "w-740a08c9f720"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "MITJÓ",
+          "wordId": "w-64737c439fa0"
+        },
+        {
+          "label": "ORELLA",
+          "wordId": "w-740a08c9f720"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/a946176f4a.png",
+      "originalSha256": "2787f6fdf918a0a7d6c2fcf14adf10179614b3d9d4c65f7bdba46d4e88015b60",
+      "oldSrc": "assets/constructions/n12/n12-013-foto.webp",
+      "oldDisplaySha256": "66255b77358dfbe2518e01e8d191d8a32970ec39fb55de853b3bf624761ebe9f",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-013",
+      "opaque": "a946176f4a",
+      "scene": "Home, dos mitjons grisos i auriculars",
+      "observation": "Es posa un mitjó a cada orella com si fossin els auriculars.",
+      "anatomy": "Ambdós colzes recolzats i mans en presa simètrica, punys i talons dels mitjons clars."
+    },
+    "n12-075": {
+      "id": "n12-075",
+      "title": "Una sabata com a comandament",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "substitucio-destri",
+      "breach": "Apunta la sabatilla a la tele i en prem els cordons com si fos el comandament.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-e67dd0fa47ce",
+        "w-b0fd1b63a587",
+        "w-6e2a67944770"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "MIRAR",
+          "wordId": "w-e67dd0fa47ce"
+        },
+        {
+          "label": "TELE",
+          "wordId": "w-b0fd1b63a587"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/9eb02b2ca1.png",
+      "originalSha256": "6a97430c42db81aa0b7c5635024b848575cd839150fe97b8419bba1006f83ffc",
+      "oldSrc": "assets/constructions/n12/n12-075-foto.webp",
+      "oldDisplaySha256": "330a3d883457ab58845429fa811e252f16d9e193cfb12376f5ac2649c113d1b2",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-075",
+      "opaque": "9eb02b2ca1",
+      "scene": "Dona, sabatilla, tele i comandament",
+      "observation": "Apunta la sabatilla a la tele i en prem els cordons com si fos el comandament.",
+      "anatomy": "Braços flexionats amb avantbraç en suport al sofà, dos canells a la sabatilla."
+    },
+    "n12-096": {
+      "id": "n12-096",
+      "title": "La camisa amb cinturons a les mànigues",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "equipament",
+      "subtype": "roba-o-equipament-impropi",
+      "breach": "Corda un cinturó al voltant de cada màniga.",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-2dc987121b47",
+        "w-2955c024261d"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "CAMISA",
+          "wordId": "w-2dc987121b47"
+        },
+        {
+          "label": "CINTURÓ",
+          "wordId": "w-2955c024261d"
+        }
+      ],
+      "original": "output/visual-audit-0.1.194/candidats/d4b8881078.png",
+      "originalSha256": "7c89da01d47c7ef0b4c8969706893a61271f8f4330dc2b1e0a9b4bb02da569ea",
+      "oldSrc": "assets/constructions/n12/n12-096-foto.webp",
+      "oldDisplaySha256": "6ead6c2a10ca374d77c20f382cbfc7e450c4bbbd5ab6989c29e875a197f0c60b",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n12-096",
+      "opaque": "d4b8881078",
+      "scene": "Dona, camisa penjada i dos cinturons",
+      "observation": "Corda un cinturó al voltant de cada màniga.",
+      "anatomy": "Colzes plegats i dits dins l’abast de la sivella, la camisa queda suspesa del penjador."
     }
   }
 }
