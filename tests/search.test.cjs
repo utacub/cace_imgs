@@ -183,7 +183,7 @@ test('The initial library starts with concrete individual words and keeps level 
   const index = label => rows.findIndex(([id,level]) => level===1 && byImage.get(id).primaryWordId===wordIds[label]);
   for (const concrete of ['ABELLA','LLAPIS','POMA','COTXE']) {
     assert.ok(index(concrete) >= 0);
-    for (const other of ['COSA','INTERNET','PASSAR LLISTA','AHIR','ACCIDENT','ALIMENTS']) {
+    for (const other of ['OBJECTES','INTERNET','PASSAR LLISTA','AHIR','ACCIDENT','ALIMENTS']) {
       assert.ok(index(other) > index(concrete), `${concrete} should precede ${other}`);
     }
   }
