@@ -1,6 +1,6 @@
-# N12 · Absurds visuals · Proposta per revisar
+# N12 · Absurds visuals · Pla de producció en fotografia
 
-**«Explicar combinacions atípiques.»** Bateria de 200 estímuls descrits i preparats per a revisió textual. La base de treball és el catàleg **0.1.177** amb **4.469 imatges**, **861 entrades CACE**, **200 N11** i cap N12. L’auditoria de tancament és al commit `5e9618e`. Les imatges N11 es van publicar a partir del commit `d2c37b9`. Aquesta fase correspon al pla i a la validació local. [Catàleg](../src/catalog-data.json) · [Tancament](../PAUSA.md) · [Auditoria N11](n11-final-audit.json)
+**«Explicar combinacions atípiques.»** Bateria de 200 estímuls descrits per produir i revisar individualment. La base de treball és el catàleg **0.1.177** amb **4.469 imatges**, **861 entrades CACE**, **200 N11** i cap N12. L’auditoria de tancament és al commit `5e9618e`. Les imatges N11 es van publicar a partir del commit `d2c37b9`. El 22/11/2026 l’usuari va indicar que les 200 imatges han de ser fotografies i va demanar retirar les primeres versions en dibuix. [Catàleg](../src/catalog-data.json) · [Tancament](../PAUSA.md) · [Auditoria N11](n11-final-audit.json)
 
 ## Fonts del projecte i referències de l’usuari
 
@@ -14,7 +14,7 @@
 
 Mostrar la imatge sola i donar temps per observar-la. Preguntar «Què hi fa?», «Quina cosa no hi lliga?», «On es veu?» i «Com es faria perquè funcionés?». Acceptar parla, CACE, assenyalament, gest i combinacions. La resposta és completa quan localitza la relació que grinyola i comunica una alternativa compatible amb la situació. Si només diu «això és estrany» o n’anomena l’objecte, fer una pregunta de seguiment oberta. Per exemple, al n12-073, assenyalar la punta de grafit que queda a l’aire i indicar que la punta hauria de tocar el paper comunica la relació completa.
 
-Les respostes escrites són orientatives. Es poden donar altres reparacions igualment plausibles si resolen la mateixa relació. Les etiquetes, el títol i la reparació són metadades de consulta. Per fer l’activitat, començar amb el dibuix sol i revelar la fitxa després. Alternar mecanismes, entorns i referents en una mateixa sessió per evitar que l’ordre anticipi la resposta.
+Les respostes escrites són orientatives. Es poden donar altres reparacions igualment plausibles si resolen la mateixa relació. Les etiquetes, el títol i la reparació són metadades de consulta. Per fer l’activitat, començar amb la fotografia sola i revelar la fitxa després. Alternar mecanismes, entorns i referents en una mateixa sessió per evitar que l’ordre anticipi la resposta.
 
 | Nivell | Evidència que resol la seva pregunta |
 | --- | --- |
@@ -27,7 +27,7 @@ Les respostes escrites són orientatives. Es poden donar altres reparacions igua
 
 ## Decisions de disseny i repartiment
 
-**200 escenes independents, una imatge per escena i 200 il·lustracions planes de participants humans.** La quantitat segueix els precedents N7, N10 i N11. A cada il·lustració hi ha una incongruència amb sentit funcional. Un únic mitjà permet fixar el grau de realisme, controlar el contacte i mantenir visibles obertures i peces petites amb contrast consistent. Facilita ajustar el punt de vista per a cada cas, amb objectes recognoscibles i proporcions ordinàries. No es produeixen parelles foto/dibuix. Aquest pla proposa el dibuix pla com a decisió editorial revisable.
+**200 escenes independents, una fotografia sintètica per escena i participants humans.** La quantitat segueix els precedents N7, N10 i N11. Totes les fotografies contenen una incongruència amb sentit funcional. La fotografia és el mitjà indicat per l’usuari i coincideix amb el de les referències originals. Fer servir llum neutra, fons blanc i materials, ombres i proporcions recognoscibles. Ajustar l’angle i l’enquadrament perquè el punt de contacte sigui llegible a mida de l’app. Cada estímul té una sola versió publicada.
 
 **Un instant visual i reparació fora de la imatge.** Un sol instant permet observar el gest natural i localitzar la pista. Els escanejos amb més d’una targeta segueixen mostrant situacions independents. Si es mostrés una escena correcta al costat, la comparació aportaria part de la resposta i canviaria la tasca. Els guions especifiquen les coses que es veuen, la ubicació i els participants, el contacte observable i una única relació que es trenca. Les mans en contacte, la roba posada, els materials recolzats o un obstacle al lloc exacte de pas donen informació visual. Els models ocasionals de referència ja presents a la situació són suports locals, com l’altra frontissa o un seient del mateix tipus en bon estat.
 

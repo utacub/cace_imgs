@@ -9,6 +9,7 @@ import subprocess
 import sys
 import time
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://utacub.github.io/cace_imgs/'
@@ -60,7 +61,7 @@ def main():
     published = json.loads(''.join(parser.chunks))
     assert published == expected, (published['version'], version)
     assets = [asset for asset in expected['assets'] if asset['levels'] == [12]]
-    assert assets
+    assert all(asset['kind'] == 'photo' for asset in assets)
 
     def verify(asset):
         raw = fetch(asset['src'] + '?verify=' + version)
@@ -69,9 +70,30 @@ def main():
 
     with ThreadPoolExecutor(max_workers=6) as pool:
         verified_ids = list(pool.map(verify, assets))
+    withdrawn_ids = []
+    if len(sys.argv) > 3:
+        old_catalog = json.loads(subprocess.check_output(
+            ['git', 'show', sys.argv[3] + ':src/catalog-data.json'], cwd=ROOT
+        ))
+        old_drawings = [asset for asset in old_catalog['assets']
+                        if asset['levels'] == [12] and asset['kind'] == 'drawing']
+        live_paths = {asset['src'] for asset in expected['assets']}
+
+        def verify_removal(asset):
+            assert asset['src'] not in live_paths, asset['id']
+            try:
+                with urlopen(SITE + asset['src'] + '?withdrawal=' + version, timeout=25):
+                    raise AssertionError('Encara es pot descarregar: ' + asset['id'])
+            except HTTPError as error:
+                assert error.code in (404, 410), (asset['id'], error.code)
+            return asset['id']
+
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            withdrawn_ids = list(pool.map(verify_removal, old_drawings))
     report = {
         'status': 'verified', 'version': version, 'catalogImages': len(expected['assets']),
         'n12DownloadsVerified': len(verified_ids), 'verifiedIds': verified_ids,
+        'withdrawnDrawingUrlsVerified': len(withdrawn_ids), 'withdrawnIds': withdrawn_ids,
         'transientRetries': retries, 'verifiedAtUtc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
         'commit': commit, 'workflowRunId': int(run_id) if run_id != '-' else None,
     }

@@ -1,6 +1,7 @@
 """Record individual N12 reviews and prepare versioned batches of accepted pictures."""
 
 import argparse
+from collections import Counter
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -101,6 +102,7 @@ def update_progress(items, catalog):
     imported = [asset['constructionId'] for asset in catalog['assets'] if asset.get('levels') == [12]]
     write_json(PRODUCTION / 'n12-progress.json', {
         'status': 'active', 'authorization': {'generation': True, 'import': True, 'publication': True},
+        'format': 'photo',
         'planned': len(items), 'reviewed': len(accepted), 'imported': len(imported),
         'catalogVersion': catalog['version'], 'catalogImages': len(catalog['assets']),
         'pending': [item_id for item_id in items if item_id not in accepted],
@@ -139,7 +141,7 @@ def prepare_release(plan, items, catalog, version):
             assert existing[asset_id]['originalSha256'] == record['originalSha256'], item_id
             continue
         assert [word_lookup[key]['ca'] for key in item['wordIds']] == [t['label'] for t in item['terms']], item_id
-        relative = f'assets/constructions/n12/{item_id}.webp'
+        relative = f'assets/constructions/n12/{item_id}-foto.webp'
         display = ROOT / 'dist' / relative
         display.parent.mkdir(parents=True, exist_ok=True)
         with Image.open(source) as image:
@@ -147,12 +149,12 @@ def prepare_release(plan, items, catalog, version):
             image.convert('RGB').save(temporary, format='WEBP', quality=93, method=6)
             temporary.replace(display)
         additions.append({
-            'id': asset_id, 'src': relative, 'kind': 'drawing', 'levels': [12],
+            'id': asset_id, 'src': relative, 'kind': item['kind'], 'levels': [12],
             'title': {'ca': item['title'], 'es': ' · '.join(word_lookup[key]['es'] for key in item['wordIds'])},
             'alt': record['alt'], 'tags': item['wordIds'], 'primaryWordId': item['primaryWordId'],
             'targetWordIds': item['wordIds'], 'origin': 'generated',
             'credit': 'Imatge generada amb IA per a CACE Imatges.', 'created': record['created'],
-            'target': item_id, 'constructionId': item_id, 'variant': 'pla-01',
+            'target': item_id, 'constructionId': item_id, 'variant': 'foto-01',
             'semanticRelation': {'type': 'absurd-visual', 'mechanism': item['mechanism'], 'subtype': item['subtype']},
             'originalSha256': record['originalSha256'], 'displayEncoding': 'webp-quality-93-original-dimensions',
             'displaySha256': checksum(display),
@@ -165,6 +167,7 @@ def prepare_release(plan, items, catalog, version):
         assert catalog['version'] == version, 'Cap imatge nova revisada per al lot'
     n12 = [asset for asset in catalog['assets'] if asset.get('levels') == [12]]
     assert n12 and len({asset['originalSha256'] for asset in n12}) == len(n12)
+    assert all(asset['kind'] == 'photo' for asset in n12)
     assert len(catalog['assets']) == len(original['assets']) + len(n12)
     collection = next((c for c in catalog['collections'] if c['id'] == COLLECTION_ID), None)
     if collection is None:
@@ -202,11 +205,56 @@ def prepare_release(plan, items, catalog, version):
         subprocess.run(command, cwd=ROOT, check=True, env={**os.environ, 'PYTHONUTF8': '1'})
 
 
+def audit_release(plan, items, catalog):
+    original = git_catalog(plan['baseline']['head'])
+    verify_preservation(original, catalog)
+    assets = {asset['constructionId']: asset for asset in catalog['assets'] if asset.get('levels') == [12]}
+    assert len(catalog['assets']) == len(original['assets']) + len(assets)
+    assert set(assets) <= items.keys()
+    attempts = Counter()
+    mechanism_counts = Counter()
+    for item, record in reviewed_items(items):
+        item_id = item['id']
+        for attempt in record['attempts']:
+            assert checksum(ROOT / attempt['file']) == attempt['sha256'], attempt['file']
+            attempts[attempt['status']] += 1
+        if record['status'] == 'accepted' and item_id in assets:
+            asset = assets[item_id]
+            assert sum(attempt['status'] == 'accepted' for attempt in record['attempts']) == 1, item_id
+            assert asset['originalSha256'] == record['originalSha256'] == checksum(ROOT / record['file']), item_id
+            assert asset['tags'] == item['wordIds'] and asset['alt'] == record['alt'], item_id
+            mechanism_counts[item['mechanism']] += 1
+    for asset in catalog['assets']:
+        assert checksum(ROOT / 'dist' / asset['src']) == asset['displaySha256'], asset['id']
+    publications = read_json(PRODUCTION / 'n12-publications.json')
+    current = next(report for report in reversed(publications) if report['version'] == catalog['version'])
+    assert current['status'] == 'verified' and current['catalogImages'] == len(catalog['assets'])
+    assert git_catalog(current['commit']) == catalog
+    assert set(current['verifiedIds']) == {asset['id'] for asset in assets.values()}
+    pending = [item_id for item_id in items if item_id not in assets]
+    if not pending:
+        assert mechanism_counts == Counter({key: value['total'] for key, value in plan['distribution'].items()})
+        assert attempts['accepted'] == len(items)
+        progress = read_json(PRODUCTION / 'n12-progress.json')
+        progress.update(status='completed', publicVerification=current)
+        write_json(PRODUCTION / 'n12-progress.json', progress)
+    audit = {
+        'status': 'partial' if pending else 'valid', 'checkedAt': timestamp(),
+        'version': catalog['version'], 'catalogImages': len(catalog['assets']),
+        'preservedAssets': len(original['assets']), 'preservedWords': len(original['words']),
+        'preservedLevels': len(original['levels']), 'publicN12': len(assets),
+        'mechanismsPublished': dict(mechanism_counts), 'reviewedAttempts': dict(attempts),
+        'pending': pending, 'publicVerification': current,
+    }
+    write_json(PRODUCTION / 'n12-audit.json', audit)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     actions = parser.add_subparsers(dest='command', required=True)
     actions.add_parser('review').add_argument('decisions', type=Path)
     actions.add_parser('release').add_argument('version')
+    actions.add_parser('audit')
     args = parser.parse_args()
     plan = read_json(PRODUCTION / 'n12-plan.json')
     items = {item['id']: item for item in plan['items']}
@@ -215,8 +263,10 @@ def main():
         for decision in read_json(args.decisions):
             remember_review(items[decision['id']], decision)
         update_progress(items, catalog)
-    else:
+    elif args.command == 'release':
         prepare_release(plan, items, catalog, args.version)
+    else:
+        audit_release(plan, items, catalog)
 
 
 if __name__ == '__main__':

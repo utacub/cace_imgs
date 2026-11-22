@@ -1,3 +1,9 @@
+# N12 · Canvi a fotografia · 22/11/2026
+
+L’usuari indica que els 200 absurds visuals han de ser fotografies. Es retiren els 37 dibuixos que es van importar i s’eliminen els originals i candidats en dibuix. La nova producció aplica les mateixes fitxes amb fotografia sintètica i revisió individual.
+
+---
+
 # N12 · Producció i publicació autoritzades · 22/11/2026
 
 L’usuari aprova les 200 il·lustracions del pla N12 i autoritza generar-les, revisar-les individualment i publicar-les per lots. Es parteix del catàleg 0.1.177 amb 4.469 imatges i 861 entrades CACE. Una escena per estímul. Els prompts i les decisions individuals són a `production/n12/` i els originals a `output/production/n12/`. El progrés consta a `production/n12-progress.json`.

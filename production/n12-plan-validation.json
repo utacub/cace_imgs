@@ -11,10 +11,11 @@
     "catalogSha256": "460500c7eadea23c3460bce3033ee579e5ad96dcf343be22babf826ccdf42e4d",
     "bankArchiveSha256": "ef08f812a1211eb3544d3f2d9e0d2c2707459894dbc64561f18e5f42e3f13697"
   },
-  "catalogUnchanged": true,
+  "catalogVersion": "0.1.181",
+  "catalogPriorContentUnchanged": true,
   "vocabularyUnchanged": true,
   "levelsUnchanged": true,
-  "collectionsUnchanged": true,
+  "priorCollectionsUnchanged": true,
   "assetsByLevel": {
     "1": 2564,
     "2": 152,
@@ -37,13 +38,13 @@
     "drawing": 100
   },
   "n11PublicDownloadsInExistingAudit": 200,
-  "changesOutsidePlanningFiles": [],
+  "changesOutsideN12": [],
   "totalItems": 200,
   "imagesPlanned": 200,
   "scenesPlanned": 200,
   "byFormat": {
-    "drawing": 200,
-    "photo": 0
+    "drawing": 0,
+    "photo": 200
   },
   "distribution": {
     "estri": {
@@ -133,9 +134,9 @@
   },
   "authorization": {
     "planning": true,
-    "generation": false,
-    "import": false,
-    "publication": false,
-    "push": false
+    "generation": true,
+    "import": true,
+    "publication": true,
+    "push": true
   }
 }

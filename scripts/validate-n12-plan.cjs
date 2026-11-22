@@ -13,6 +13,11 @@ const reportPath = 'production/n12-plan-validation.json';
 const catalogPath = 'src/catalog-data.json';
 const bankPath = 'bank/manifest.json';
 const allowedPaths = [guidePath, planPath, reportPath, 'scripts/validate-n12-plan.cjs'];
+const productionPaths = [
+  'PAUSA.md', 'README.md', 'package.json', 'production/progress.json', catalogPath, bankPath,
+  'production/n12-progress.json', 'production/n12-publications.json', 'production/n12-audit.json',
+  'scripts/check-site.py', 'scripts/produce-n12.py', 'scripts/verify-n12-published.py'
+];
 const quotas = {
   estri: {'estris-de-precisio': 18, 'eines-de-forca-i-moviment': 18},
   objecte: {'materials-equivocats': 18, 'peces-i-respostes-equivocades': 18},
@@ -60,22 +65,32 @@ function verifyPreservation(plan, catalog) {
     ...git('diff', '--no-renames', '--name-only', '-z', base, '--').toString('utf8').split('\0'),
     ...git('ls-files', '--others', '--exclude-standard', '-z').toString('utf8').split('\0')
   ].filter(Boolean));
-  const outsidePlan = [...changes].filter(file => !allowedPaths.includes(file)).sort();
-  assert.deepEqual(outsidePlan, [], 'Canvis fora de la planificació N12');
+  const outsideN12 = [...changes].filter(file =>
+    !allowedPaths.includes(file) && !productionPaths.includes(file) &&
+    !/^(?:bank\/images\.zip\.part-\d{4}|production\/n12\/n12-\d{3}\.json)$/.test(file)
+  ).sort();
+  assert.deepEqual(outsideN12, [], 'Canvis fora del N12');
   for (const file of allowedPaths.filter(file => file !== reportPath)) {
     assert.ok(changes.has(file), 'Falta un lliurable N12: ' + file);
   }
 
-  for (const file of [catalogPath, bankPath, ...plan.sources]) sameAsBase(file);
-  assert.equal(normalized(read(catalogPath)), normalized(git('show', publication + ':' + catalogPath)));
+  for (const file of plan.sources.filter(file => !productionPaths.includes(file))) sameAsBase(file);
+  const originalCatalog = JSON.parse(normalized(git('show', base + ':' + catalogPath)));
+  const originalBank = JSON.parse(normalized(git('show', base + ':' + bankPath)));
+  assert.deepEqual(originalCatalog, JSON.parse(normalized(git('show', publication + ':' + catalogPath))));
   assert.equal(git('rev-parse', base + '^').toString().trim(), publication);
-  assert.deepEqual([catalog.version, catalog.assets.length, catalog.words.length, catalog.levels.length],
+  assert.deepEqual([originalCatalog.version, originalCatalog.assets.length, originalCatalog.words.length, originalCatalog.levels.length],
     ['0.1.177', 4469, 861, 12]);
+  for (const key of ['source', 'categories', 'words', 'levels']) assert.deepEqual(catalog[key], originalCatalog[key], key);
+  const publishedN12 = catalog.assets.filter(asset => asset.levels.includes(12));
+  assert.deepEqual(catalog.assets.filter(asset => !asset.levels.includes(12)), originalCatalog.assets);
+  assert.ok(publishedN12.every(asset => asset.kind === 'photo' && asset.src.endsWith('-foto.webp')));
+  assert.deepEqual(catalog.collections.filter(collection => collection.id !== 'cace-n12-absurds-visuals'), originalCatalog.collections);
 
   const audit = readJson('production/n11-final-audit.json');
   assert.equal(audit.status, 'valid');
-  assert.equal(audit.catalogVersion, catalog.version);
-  assert.equal(audit.catalogImages, catalog.assets.length);
+  assert.equal(audit.catalogVersion, originalCatalog.version);
+  assert.equal(audit.catalogImages, originalCatalog.assets.length);
   assert.equal(audit.preservedWords, catalog.words.length);
   assert.equal(audit.publishedN11, 200);
   assert.equal(audit.publicVerification.status, 'verified');
@@ -83,8 +98,9 @@ function verifyPreservation(plan, catalog) {
 
   const bank = readJson(bankPath);
   assert.equal(bank.images, catalog.assets.length);
-  assert.equal(bank.parts.length, 144);
-  assert.equal(audit.bankArchiveSha256, bank.archive_sha256);
+  assert.equal(originalBank.parts.length, 144);
+  assert.equal(audit.bankArchiveSha256, originalBank.archive_sha256);
+  if (!publishedN12.length) assert.deepEqual(bank, originalBank);
   const archiveHash = createHash('sha256');
   let archiveBytes = 0;
   for (const [index, part] of bank.parts.entries()) {
@@ -108,21 +124,21 @@ function verifyPreservation(plan, catalog) {
     if (asset.levels.includes(11)) n11ByKind[asset.kind]++;
   }
   assert.equal(assetsByLevel[11], 200);
-  assert.equal(assetsByLevel[12], 0);
+  assert.equal(assetsByLevel[12], publishedN12.length);
   assert.deepEqual(n11ByKind, {photo: 100, drawing: 100});
 
   const baseline = {
-    head: base, publication, version: catalog.version, totalAssets: catalog.assets.length,
+    head: base, publication, version: originalCatalog.version, totalAssets: originalCatalog.assets.length,
     words: catalog.words.length, publishedN11: assetsByLevel[11],
-    catalogSha256: sha256(git('show', base + ':' + catalogPath)), bankArchiveSha256: bank.archive_sha256
+    catalogSha256: sha256(git('show', base + ':' + catalogPath)), bankArchiveSha256: originalBank.archive_sha256
   };
   assert.deepEqual(plan.baseline, baseline);
   return {
-    baseline, catalogUnchanged: true, vocabularyUnchanged: true, levelsUnchanged: true,
-    collectionsUnchanged: true, assetsByLevel, localDisplayHashesChecked: catalog.assets.length,
+    baseline, catalogVersion: catalog.version, catalogPriorContentUnchanged: true, vocabularyUnchanged: true, levelsUnchanged: true,
+    priorCollectionsUnchanged: true, assetsByLevel, localDisplayHashesChecked: catalog.assets.length,
     bankPartHashesChecked: bank.parts.length, bankArchiveBytesChecked: archiveBytes,
     n11LocalByKind: n11ByKind, n11PublicDownloadsInExistingAudit: audit.publicVerification.n11DownloadsVerified,
-    changesOutsidePlanningFiles: outsidePlan
+    changesOutsideN12: outsideN12
   };
 }
 
@@ -132,12 +148,12 @@ function verifyHeader(plan, catalog) {
   assert.ok(normalized(read('scripts/extract-vocabulary.py')).includes(
     "('Absurds visuals','Absurdos visuales','Explicar combinacions atípiques.','Explicar combinaciones atípicas.')"
   ));
-  assert.equal(plan.status, 'proposal-only');
+  assert.equal(plan.status, 'approved-photo-production');
   assert.deepEqual(plan.authorization, {
-    planning: true, generation: false, import: false, publication: false, push: false
+    planning: true, generation: true, import: true, publication: true, push: true
   });
   assert.deepEqual(plan.compositionPolicy, {
-    oneImagePerItem: true, scenes: 1, kind: 'drawing', agent: 'humà', responseOutsideImage: true
+    oneImagePerItem: true, scenes: 1, kind: 'photo', agent: 'humà', responseOutsideImage: true
   });
   assert.equal(plan.reviewGuide, guidePath);
   assert.equal(plan.variantsPerConstruction, 1);
@@ -158,7 +174,7 @@ function verifyHeader(plan, catalog) {
 function verifyItem(item, index, vocabulary) {
   const id = 'n12-' + String(index + 1).padStart(3, '0');
   assert.equal(item.id, id);
-  assert.deepEqual([item.kind, item.group, item.sceneCount], ['drawing', 'insolita', 1], id);
+  assert.deepEqual([item.kind, item.group, item.sceneCount], ['photo', 'insolita', 1], id);
   assert.ok(Object.hasOwn(quotas, item.mechanism), id);
   assert.ok(Object.hasOwn(quotas[item.mechanism], item.subtype), id);
 
@@ -262,7 +278,7 @@ function verifyItems(plan, catalog) {
   assert.ok(!/[ \t]+\n/.test(guide), 'Espais sobrers al pla Markdown');
   return {
     totalItems: plan.items.length, imagesPlanned: plan.items.length, scenesPlanned: plan.items.length,
-    byFormat: {drawing: plan.items.length, photo: 0}, distribution,
+    byFormat: {drawing: 0, photo: plan.items.length}, distribution,
     uniqueIds: seen.ids.size, uniqueTitles: seen.titles.size, uniqueLabelSets: seen.tags.size,
     distinctSceneDescriptions: seen.scenes.size, distinctContactBreachCueSets: seen.scenarios.size,
     exactTermOccurrencesChecked: plan.items.reduce((total, item) => total + item.terms.length, 0),
@@ -301,7 +317,7 @@ function main() {
     status: report.status, stimuli: report.totalItems, mechanisms: Object.keys(report.distribution).length,
     wordIds: report.distinctWordIds, termsChecked: report.exactTermOccurrencesChecked,
     localDisplayHashesChecked: report.localDisplayHashesChecked, bankPartHashesChecked: report.bankPartHashesChecked,
-    changesOutsidePlanningFiles: report.changesOutsidePlanningFiles, reportPath
+    changesOutsideN12: report.changesOutsideN12, reportPath
   }, null, 2));
 }
 

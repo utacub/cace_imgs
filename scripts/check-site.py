@@ -100,7 +100,7 @@ for asset in data['assets']:
         construction = plan[asset['constructionId']]
         assert asset['origin'] == 'generated' and asset['levels'] == [level], asset['id']
         assert asset['targetWordIds'] == construction['wordIds'] == asset['tags'], asset['id']
-        expected_variant = 'pla-01' if level == 12 else construction['variant']
+        expected_variant = 'foto-01' if level == 12 else construction['variant']
         assert asset['variant'] == expected_variant and asset['kind'] == construction['kind'], asset['id']
         assert asset['primaryWordId'] == construction['wordIds'][0], asset['id']
         if level == 8:
@@ -122,7 +122,7 @@ for asset in data['assets']:
             }
             assert asset['semanticRelation'] == expected_relation, asset['id']
         if level == 12:
-            assert construction['sceneCount'] == 1 and asset['kind'] == 'drawing', asset['id']
+            assert construction['sceneCount'] == 1 and asset['kind'] == 'photo', asset['id']
             assert asset['semanticRelation'] == {
                 'type': 'absurd-visual',
                 'mechanism': construction['mechanism'],
