@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-050",
+    "title": "El gomet a la molla",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Fitxa d’aula amb tres cercles dibuixats alineats, dos dels quals ja tenen un gomet. Una llesca en un plat queda al costat de la fitxa.",
+    "contact": "Prem un gomet al centre de la molla en comptes del cercle lliure de la fitxa.",
+    "breach": "Enganxar la peça de la fitxa sobre el menjar.",
+    "cue": "Es veu l’adhesiu a la molla i el cercle buit al mateix pla.",
+    "expectedResponse": {
+      "repair": "Enganxar el gomet al cercle lliure del paper.",
+      "explanation": "El cercle de la fitxa indica on va el gomet."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GOMETS",
+        "wordId": "w-aefa398e3d70"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-aefa398e3d70",
+      "w-96e21018e871",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-050/image.png",
+      "sha256": "30a97910192926769579c1e1b48e2785520366f5f88ba3a8e23c9541739f0214",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un noi. Escena: Fitxa d’aula amb tres cercles dibuixats alineats, dos dels quals ja tenen un gomet. Una llesca en un plat queda al costat de la fitxa. Gest exacte: Prem un gomet al centre de la molla en comptes del cercle lliure de la fitxa. Únic detall volgudament incongruent: Enganxar la peça de la fitxa sobre el menjar. Indici que ha de ser visible sense text: Es veu l’adhesiu a la molla i el cercle buit al mateix pla. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La mida i forma del gomet coincideixen amb els dos de la fitxa. El dit prem el gomet contra el pa i el cercle buit queda al costat.",
+      "reviewedAt": "2026-11-22T07:06:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-050/image.png",
+  "originalSha256": "30a97910192926769579c1e1b48e2785520366f5f88ba3a8e23c9541739f0214",
+  "alt": {
+    "ca": "Un noi enganxa un gomet en una llesca de pa mentre la fitxa té un cercle buit.",
+    "es": "Un chico pega un adhesivo redondo sobre una rebanada de pan mientras queda un círculo vacío en la ficha."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:06:39+00:00"
+}

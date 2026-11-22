@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-031",
+    "title": "El pa que no pot aixecar el disc",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Taller amb un joc d’agafar discos metàl·lics grans, plans i roms dins una safata baixa. Un disc descansa pla.",
+    "contact": "Prem la molla d’una llesca de pa damunt el disc.",
+    "breach": "Fer servir pa com a capçal magnètic per aixecar el disc.",
+    "cue": "La llesca es deforma i el disc queda recolzat a la safata.",
+    "expectedResponse": {
+      "repair": "Fer servir el capçal imantat del joc.",
+      "explanation": "L’imant atrau el metall i el manté agafat."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-e12d88415c80",
+      "w-96e21018e871",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-031/rejected-01.png",
+      "sha256": "f48f13c97a062c460075b9aa914a8b343533477eff8514970c6fbf9c0319b401",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un nen. Escena: Taller amb un joc d’agafar discos metàl·lics grans, plans i roms dins una safata baixa. Un disc descansa pla. Gest exacte: Prem la molla d’una llesca de pa damunt el disc. Únic detall volgudament incongruent: Fer servir pa com a capçal magnètic per aixecar el disc. Indici que ha de ser visible sense text: La llesca es deforma i el disc queda recolzat a la safata. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La llesca sembla posar-se damunt d’un plat o pes metàl·lic. Falta el joc imantat recognoscible i el solament d’un disc objectiu.",
+      "reviewedAt": "2026-11-22T07:06:34+00:00"
+    }
+  ],
+  "status": "rejected"
+}

@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-034",
+    "title": "Tallar sobre una base tova",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "TALLER",
+    "scene": "Manta gruixuda amb serrell, estesa al taulell, i barra de plastilina.",
+    "contact": "Pressiona un tallador rom de plàstic contra la barreta directament sobre la manta.",
+    "breach": "Fer servir una manta gruixuda com a base de tall precisa.",
+    "cue": "La manta cedeix sota la barreta i la plastilina queda encastada en un plec.",
+    "expectedResponse": {
+      "repair": "Posar-hi una base de tall plana i rígida.",
+      "explanation": "Una base ferma manté la barreta plana sota el tallador."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "TALLAR",
+        "wordId": "w-7a101d803c16"
+      },
+      {
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-7a101d803c16",
+      "w-732ff8e447b5",
+      "w-0606be9fcf92",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-034/image.png",
+      "sha256": "755d83cb4851fcdd69317fcd6561ab8e239c8e9021517d0e1317c153ca3c9e39",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Una dona. Escena: Manta gruixuda amb serrell, estesa al taulell, i barra de plastilina. Gest exacte: Pressiona un tallador rom de plàstic contra la barreta directament sobre la manta. Únic detall volgudament incongruent: Fer servir una manta gruixuda com a base de tall precisa. Indici que ha de ser visible sense text: La manta cedeix sota la barreta i la plastilina queda encastada en un plec. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La barra s’enfonsa en un plec de la manta en rebre la pressió del tallador rom.",
+      "reviewedAt": "2026-11-22T07:06:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-034/image.png",
+  "originalSha256": "755d83cb4851fcdd69317fcd6561ab8e239c8e9021517d0e1317c153ca3c9e39",
+  "alt": {
+    "ca": "Una dona prova de tallar plastilina amb un tallador de plàstic damunt d’una manta gruixuda.",
+    "es": "Una mujer intenta cortar plastilina con un cortador de plástico sobre una manta gruesa."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:06:34+00:00"
+}

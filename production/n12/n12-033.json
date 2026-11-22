@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-033",
+    "title": "La pandereta com a raspador",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "TALLER",
+    "scene": "Taula de treball amb una gota seca de cola escolar i pandereta amb cèrcol gruixut de fusta.",
+    "contact": "Prova d’aixecar la cola amb el cantell arrodonit de la pandereta.",
+    "breach": "Fer servir una pandereta per raspar cola seca.",
+    "cue": "El cèrcol passa per damunt de la taca i els sonalls queden clarament visibles.",
+    "expectedResponse": {
+      "repair": "Fer servir una espàtula de plàstic de vora plana.",
+      "explanation": "Una vora fina pot passar per sota de la gota seca."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "PANDERETA",
+        "wordId": "w-f986e24ccb0e"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-f986e24ccb0e",
+      "w-1544f4efec59",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-033/image.png",
+      "sha256": "40359d16689175ebf86812375bbb881ea2fae2f9bbf4540b233fc973054be336",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Un home. Escena: Taula de treball amb una gota seca de cola escolar i pandereta amb cèrcol gruixut de fusta. Gest exacte: Prova d’aixecar la cola amb el cantell arrodonit de la pandereta. Únic detall volgudament incongruent: Fer servir una pandereta per raspar cola seca. Indici que ha de ser visible sense text: El cèrcol passa per damunt de la taca i els sonalls queden clarament visibles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El cèrcol i els sonalls es veuen. El cèrcol topa amb la taca de cola que segueix enganxada.",
+      "reviewedAt": "2026-11-22T07:06:34+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-033/image.png",
+  "originalSha256": "40359d16689175ebf86812375bbb881ea2fae2f9bbf4540b233fc973054be336",
+  "alt": {
+    "ca": "Un home passa el cèrcol d’una pandereta sobre una taca de cola seca.",
+    "es": "Un hombre pasa el aro de una pandereta sobre una mancha de pegamento seco."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:06:34+00:00"
+}

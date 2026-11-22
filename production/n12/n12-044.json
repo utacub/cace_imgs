@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-044",
+    "title": "Motlle de galetes amb sorra",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "drawing",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CUINA",
+    "scene": "Taulell de cuina amb recollidor de molles, safata freda de forn i un plat de galetes cuites. Tres peces modelades de sorra de joc ocupen la safata.",
+    "contact": "Treballa la sorra amb el motlle sobre la safata mentre hi ha un grapat de sorra solt al costat.",
+    "breach": "Preparar galetes per servir amb sorra, al lloc de massa.",
+    "cue": "La sorra cau en granets del motlle i el plat al costat identifica la recepta.",
+    "expectedResponse": {
+      "repair": "Fer galetes amb massa comestible.",
+      "explanation": "La massa conserva la forma i es pot menjar."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "GALETES",
+        "wordId": "w-eecb1a704a59"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-55d250f4cf1e",
+      "w-eecb1a704a59",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-044/image.png",
+      "sha256": "12fdb49c54e8a85a058a8b3bf56626196b0b9b2371691ebacacfa69ea29bf039",
+      "prompt": "Crea una il·lustració plana per a una activitat escolar de comunicació augmentativa. Una sola escena en format quadrat, sobre fons blanc, amb marge generós a tot el voltant dels elements rellevants. Dibuix editorial clar i amable amb colors sòlids, contorns nítids i proporcions humanes, perspectiva, distàncies i contactes físics realistes. Vista en tres quarts o de perfil que mostri nítidament el gest i els objectes. Expressió concentrada i natural. Participants: Una dona. Escena: Taulell de cuina amb recollidor de molles, safata freda de forn i un plat de galetes cuites. Tres peces modelades de sorra de joc ocupen la safata. Gest exacte: Treballa la sorra amb el motlle sobre la safata mentre hi ha un grapat de sorra solt al costat. Únic detall volgudament incongruent: Preparar galetes per servir amb sorra, al lloc de massa. Indici que ha de ser visible sense text: La sorra cau en granets del motlle i el plat al costat identifica la recepta. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Sorra granular visible al motlle i la safata, amb recollidor separat i galetes de veritat en un plat.",
+      "reviewedAt": "2026-11-22T07:06:38+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-044/image.png",
+  "originalSha256": "12fdb49c54e8a85a058a8b3bf56626196b0b9b2371691ebacacfa69ea29bf039",
+  "alt": {
+    "ca": "Una dona emmotlla sorra en una safata de forn al costat d’un plat de galetes.",
+    "es": "Una mujer moldea arena en una bandeja de horno junto a un plato de galletas."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:06:38+00:00"
+}
