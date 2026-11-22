@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.198",
+  "catalogVersion": "0.1.199",
   "withdrawals": [
     {
       "asset": {
@@ -879,6 +879,694 @@
       "batch": "lectures-altres-n1-006-007",
       "observation": "Dors o revés de la mà, amb una fletxa assenyalant el centre.",
       "reason": "PELL. La fletxa assenyala el dors de la mà i no distingeix la pell del conjunt de la mà. La primera denominació fou una part de la mà.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-14ed89f049af-pla-01",
+        "src": "assets/individuals/verbs/desvestir/pla-01.webp",
+        "title": {
+          "ca": "DESVESTIR · il·lustració plana",
+          "es": "DESVESTIR · ilustración plana"
+        },
+        "alt": {
+          "ca": "Una persona traient-se una jaqueta.",
+          "es": "Una persona quitándose una chaqueta."
+        },
+        "tags": [
+          "w-8fd6305d0051"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T20:27:52.237569Z",
+        "target": "concept-14ed89f049af",
+        "targetWordIds": [
+          "w-8fd6305d0051"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "0c686915392afef925f7fa211216223a40b56fbaa81a5346e54448de8197d0c3",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "c87f0e49acb17c99cf541bf6b20ea817da01f3023ef4aedfde174f1ecc418273",
+        "primaryWordId": "w-8fd6305d0051"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-14ed89f049af-pla-01",
+      "opaque": "4930f2d62f",
+      "batch": "lectures-altres-n1-008-010",
+      "observation": "Posar-se o treure’s la jaqueta.",
+      "anatomy": "Braç dins d’una màniga i mà contrària vora l’espatlla, peus a terra.",
+      "reason": "DESVESTIR. La postura també representa posar-se la jaqueta. El sentit del moviment queda indeterminat.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-bb1eb61daf36-realista-01",
+        "src": "assets/individuals/jocs/veig-veig/realista-01.webp",
+        "title": {
+          "ca": "VEIG-VEIG · dibuix realista",
+          "es": "VEO-VEO · dibujo realista"
+        },
+        "alt": {
+          "ca": "Dibuix a llapis d’una adulta i una nena jugant a veig-veig amb pistes visuals.",
+          "es": "Dibujo a lápiz de una adulta y una niña jugando al veo-veo con pistas visuales."
+        },
+        "tags": [
+          "w-1084c9d129f4"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:50:55.755016Z",
+        "target": "concept-bb1eb61daf36",
+        "targetWordIds": [
+          "w-1084c9d129f4"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "da65266d3b68d44c2e2af5937caf3a4747d4d60eb8ec29805d76a76c34f48ab4",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "75be2dd0d691233cfab9a6309a9d8a89fc6bec080b9bc9f6eb93c16b0cfa164f",
+        "primaryWordId": "w-1084c9d129f4"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-bb1eb61daf36-realista-01",
+      "opaque": "edf115b543",
+      "batch": "lectures-altres-n1-008-010",
+      "observation": "Veure o mirar la pilota. La dona assenyala l’ull i la nena indica la pilota.",
+      "anatomy": "Genolls de l’adulta doblegats, suport i abast coherents.",
+      "reason": "VEIG-VEIG. L’ull i la pilota es llegeixen com veure o mirar; manca un senyal que identifiqui el joc.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-f780adfdeff4-foto-01",
+        "src": "assets/individuals/cos/pell/foto-01.webp",
+        "title": {
+          "ca": "PELL · fotografia 1",
+          "es": "PIEL · fotografía 1"
+        },
+        "alt": {
+          "ca": "Una fletxa assenyala la pell de l’avantbraç.",
+          "es": "Una flecha señala la piel del antebrazo."
+        },
+        "tags": [
+          "w-7135eb196763"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:35:07.285758Z",
+        "target": "concept-f780adfdeff4",
+        "targetWordIds": [
+          "w-7135eb196763"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "c3930304f528327625b400f9eb6b2012a37fb55ba1df708c2ef98df2c3a5ab0c",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "c21b7406b96f2fbb5fe38be64aac1d5bebf0f1b4b639376ea0e59352b6cc71c1",
+        "primaryWordId": "w-7135eb196763"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-f780adfdeff4-foto-01",
+      "opaque": "40a50f5567",
+      "batch": "lectures-altres-n1-008-010",
+      "observation": "Avantbraç o braç assenyalat.",
+      "anatomy": "Canell i dits continus, enquadrament tallat al colze.",
+      "reason": "PELL. La fletxa denomina l’avantbraç o el braç i no distingeix el teixit.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-05fdf8b0b465-foto-02",
+        "src": "assets/individuals/aliments/iogurt/foto-02.webp",
+        "title": {
+          "ca": "IOGURT · fotografia 2",
+          "es": "YOGUR · fotografía 2"
+        },
+        "alt": {
+          "ca": "Un bol de iogurt rosa de maduixa.",
+          "es": "Un cuenco de yogur rosa de fresa."
+        },
+        "tags": [
+          "w-eddf876b7cc3"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-05fdf8b0b465",
+        "targetWordIds": [
+          "w-eddf876b7cc3"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "c92f83dd47a3b6562e341dc267bcf59cfaf539da30698983ef65211a745ca149",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "2a841c6c2407f577fa2bcd4c38eac6ecb03192901b0583e433a20b794c860aaa",
+        "primaryWordId": "w-eddf876b7cc3"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-05fdf8b0b465-foto-02",
+      "opaque": "0136e8dd4b",
+      "batch": "lectures-altres-n1-011-013",
+      "observation": "Iogurt de maduixa, crema o mousse rosa.",
+      "anatomy": "Sense figures; la textura sola no identifica l’aliment.",
+      "reason": "IOGURT. També pot ser crema o mousse de maduixa i no hi ha cap indici diferencial.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-e9a9c40bac56-pla-01",
+        "src": "assets/individuals/colors/tot-colors/pla-01.webp",
+        "title": {
+          "ca": "TOT · il·lustració plana",
+          "es": "TODO · ilustración plana"
+        },
+        "alt": {
+          "ca": "Nena que assenyala tot el conjunt de cercles de colors, en estil pla.",
+          "es": "Niña que señala todo el conjunto de círculos de colores, en estilo plano."
+        },
+        "tags": [
+          "w-896c081b3b33"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T21:43:33.879077Z",
+        "target": "concept-e9a9c40bac56",
+        "targetWordIds": [
+          "w-896c081b3b33"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "dc12dba135ce0e9a45a5d65270535d6fcb47f57f49cda6d4dc4632e1c37428d2",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "2e366b5eede5dca6fd6ed8ee480ea62cb2f5789a46a06592ff38b7a5e093c8b5",
+        "primaryWordId": "w-896c081b3b33"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-e9a9c40bac56-pla-01",
+      "opaque": "415e86eb2a",
+      "batch": "lectures-altres-n1-011-013",
+      "observation": "Colors, sis mostres de colors.",
+      "anatomy": "Nena dreta assenyala el grup amb el colze doblegat.",
+      "reason": "TOT. La primera lectura són els colors. Sense cap contrast, el cercle no indica la idea de totalitat de manera fiable.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-1f39c9e66ac6-foto-01",
+        "src": "assets/individuals/temps/estiu/foto-01.webp",
+        "title": {
+          "ca": "ESTIU · fotografia 1",
+          "es": "VERANO · fotografía 1"
+        },
+        "alt": {
+          "ca": "Una escena d’estiu a la platja amb para-sol i mar tranquil.",
+          "es": "Una escena de verano en la playa con sombrilla y mar tranquilo."
+        },
+        "tags": [
+          "w-1c503cdc8746"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T19:14:09.285228Z",
+        "target": "concept-1f39c9e66ac6",
+        "targetWordIds": [
+          "w-1c503cdc8746"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "4eba79083d9414fa06cee3c525241b6fa4e90e8b707b4edb49a4c3d583aa8fe5",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f395b3f4946028edbe7d8a3abdd168a2296815d1d58e3f329988acccda1fc285",
+        "primaryWordId": "w-1c503cdc8746"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-1f39c9e66ac6-foto-01",
+      "opaque": "791a4f1e03",
+      "batch": "lectures-altres-n1-014-016",
+      "observation": "Platja.",
+      "anatomy": "Sense figures.",
+      "reason": "ESTIU. La primera lectura és platja. L’estació s’ha d’inferir i no hi ha cap persona o activitat que reforci la lectura estacional.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-fb0c0fc9671c-foto-02",
+        "src": "assets/individuals/cos/desodorant/foto-02.webp",
+        "title": {
+          "ca": "DESODORANT · fotografia 2",
+          "es": "DESODORANTE · fotografía 2"
+        },
+        "alt": {
+          "ca": "Un desodorant blau en esprai.",
+          "es": "Un desodorante azul en espray."
+        },
+        "tags": [
+          "w-e285cb022313"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-30T00:00:00Z",
+        "target": "concept-fb0c0fc9671c",
+        "targetWordIds": [
+          "w-e285cb022313"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "fcb6748122b3113e6340053cdad00daaf04d1974d5525fc454c7868e144ec017",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "097508f985130a597b22ffeff068348fb2151f3acc3c1da7370529c3981a9561",
+        "primaryWordId": "w-e285cb022313"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-fb0c0fc9671c-foto-02",
+      "opaque": "6a2815d3d4",
+      "batch": "lectures-altres-n1-014-016",
+      "observation": "Aerosol, esprai; podria ser desodorant o laca.",
+      "anatomy": "Sense figures.",
+      "reason": "DESODORANT. El broc només identifica un aerosol i també podria ser laca.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-2a8b2c7d3b8e-realista-01",
+        "src": "assets/individuals/aliments/llom/realista-01.webp",
+        "title": {
+          "ca": "LLOM · dibuix realista",
+          "es": "LOMO · dibujo realista"
+        },
+        "alt": {
+          "ca": "Un tros de llom rostit amb un tall al costat.",
+          "es": "Un trozo de lomo asado con un filete al lado."
+        },
+        "tags": [
+          "w-2719b72466b6"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-2a8b2c7d3b8e",
+        "targetWordIds": [
+          "w-2719b72466b6"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "f817021962d6391aa1225fd1d6443666cb36eed31a137314257980b69c3768ba",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "4d14c83c93c904309025fe15d2fea831a4924b76d047fe0fc41429106f8f2aa0",
+        "primaryWordId": "w-2719b72466b6"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-2a8b2c7d3b8e-realista-01",
+      "opaque": "478d70128c",
+      "batch": "lectures-altres-n1-014-016",
+      "observation": "Carn rostida, llom de porc o gall dindi.",
+      "anatomy": "Sense figures.",
+      "reason": "LLOM. També pot ser gall dindi o una altra carn rostida. Falta un tret distintiu.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-57599844e3d7-pla-01",
+        "src": "assets/individuals/roba/calcotets/pla-01.webp",
+        "title": {
+          "ca": "CALÇOTETS · il·lustració plana",
+          "es": "CALZONCILLOS · ilustración plana"
+        },
+        "alt": {
+          "ca": "Uns calçotets.",
+          "es": "Unos calzoncillos."
+        },
+        "tags": [
+          "w-45b560a4d68a"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-57599844e3d7",
+        "targetWordIds": [
+          "w-45b560a4d68a"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "5322c6acc1c488381ac26a01dd8dbeea9d9f1efa40370f1bb1f2309e255c2588",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "3968512197fb60b24b0e32cd7f0537646462f41449ea3cdfbef3c76adfafc919",
+        "primaryWordId": "w-45b560a4d68a"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-57599844e3d7-pla-01",
+      "opaque": "9ca17eb2df",
+      "batch": "lectures-altres-n1-017-020",
+      "observation": "Pantalons curts o banyador.",
+      "anatomy": "Sense figures.",
+      "reason": "CALÇOTETS. El tall, la cintura i la silueta també corresponen a pantalons curts o banyador.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-7985c7bf5a0f-realista-01",
+        "src": "assets/individuals/verbs/posar/realista-01.webp",
+        "title": {
+          "ca": "POSAR · dibuix realista",
+          "es": "PONER · dibujo realista"
+        },
+        "alt": {
+          "ca": "Una persona posant una tassa damunt d’una taula.",
+          "es": "Una persona poniendo una taza sobre una mesa."
+        },
+        "tags": [
+          "w-c211f7486a30"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T11:06:12.354151Z",
+        "target": "concept-7985c7bf5a0f",
+        "targetWordIds": [
+          "w-c211f7486a30"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "bcbc0710c602012339e189c3aa9cb3717da672fb6f8d2e0f8a7f134c15c22c72",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "d24d64f33543cf530ca87e722b26191bd2a35bc0f38cdfd96c7e0ae4f45e9676",
+        "primaryWordId": "w-c211f7486a30"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-7985c7bf5a0f-realista-01",
+      "opaque": "7d9e4a4821",
+      "batch": "lectures-altres-n1-017-020",
+      "observation": "Tocar o agafar una tassa per la nansa.",
+      "anatomy": "Braç dins l’abast i peus a terra; ampliar dits i nansa.",
+      "reason": "POSAR. La primera lectura és tocar o agafar la tassa. Ja és sobre la taula i l’acció de dipositar-la no queda determinada.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-04efd2ca7cea-realista-01",
+        "src": "assets/individuals/roba/butxaca/realista-01.webp",
+        "title": {
+          "ca": "BUTXACA · dibuix realista",
+          "es": "BOLSILLO · dibujo realista"
+        },
+        "alt": {
+          "ca": "Una butxaca.",
+          "es": "Un bolsillo."
+        },
+        "tags": [
+          "w-8a10b9298158"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-04efd2ca7cea",
+        "targetWordIds": [
+          "w-8a10b9298158"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "ab961735374d4aca840f1cfdd391408c8dd6a03fb3f2cfef3f4b75687dcf4433",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "60ab6030611da2c604b03aa7cd4f6b1239d891cc2457d0ab6bd4d055f47ea0b1",
+        "primaryWordId": "w-8a10b9298158"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-04efd2ca7cea-realista-01",
+      "opaque": "511c5b5505",
+      "batch": "lectures-altres-n1-017-020",
+      "observation": "Davantal.",
+      "anatomy": "Sense figures.",
+      "reason": "BUTXACA. Es denomina el davantal sencer. La butxaca és un detall visible però no està aïllada ni assenyalada.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-6b4b1f27dc4b-pla-01",
+        "src": "assets/individuals/persones/vosaltres/pla-01.webp",
+        "title": {
+          "ca": "VOSALTRES · il·lustració plana",
+          "es": "VOSOTROS · ilustración plana"
+        },
+        "alt": {
+          "ca": "Un home parla directament a dues persones encerclades en vermell.",
+          "es": "Un hombre habla directamente a dos personas rodeadas en rojo."
+        },
+        "tags": [
+          "w-374595eb5a9e"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:57:38.690484Z",
+        "target": "concept-6b4b1f27dc4b",
+        "targetWordIds": [
+          "w-374595eb5a9e"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "ed82430ea433d65adc5307649882a60e0f63377448c5cfd657dd42f622d20e59",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "e3be46cf696d80d3b97e0e9acca7796804a2d4dcf6cda6ef6d34b4e1513129a4",
+        "primaryWordId": "w-374595eb5a9e"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-6b4b1f27dc4b-pla-01",
+      "opaque": "2ce754a547",
+      "batch": "lectures-altres-n1-021-024",
+      "observation": "Ells o ells dos, dues persones encerclades.",
+      "anatomy": "Figures dretes, braç indicador amb flexió lleu.",
+      "reason": "VOSALTRES. La primera lectura és «ells dos» i el dibuix no fixa el punt de vista que distingeix els pronoms.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-0abcd3e44f34-foto-02",
+        "src": "assets/individuals/verbs/tancar/foto-02.webp",
+        "title": {
+          "ca": "TANCAR · fotografia 2",
+          "es": "CERRAR · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una persona tancant una porta.",
+          "es": "Una persona cerrando una puerta."
+        },
+        "tags": [
+          "w-4000ec1e6d5b"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T09:29:31.403510Z",
+        "target": "concept-0abcd3e44f34",
+        "targetWordIds": [
+          "w-4000ec1e6d5b"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "080c001430b722567ee9044208a57310fb825ae51a605a65e258f72e0f25044c",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "29ad194caa810c1718dd2e4c4789529201928902e497fbefb01296afa2ebc8f1",
+        "primaryWordId": "w-4000ec1e6d5b"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-0abcd3e44f34-foto-02",
+      "opaque": "07c470211b",
+      "batch": "lectures-altres-n1-021-024",
+      "observation": "Obrir o tancar una porta, agafar el pom.",
+      "anatomy": "Braç a l’abast i peus a terra; la direcció es resol amb context.",
+      "reason": "TANCAR. La mà al pom pot estar obrint o tancant. No es pot deduir el sentit amb prou claredat.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-1f39c9e66ac6-pla-01",
+        "src": "assets/individuals/temps/estiu/pla-01.webp",
+        "title": {
+          "ca": "ESTIU · il·lustració plana",
+          "es": "VERANO · ilustración plana"
+        },
+        "alt": {
+          "ca": "Una escena d’estiu a la platja amb para-sol i mar tranquil.",
+          "es": "Una escena de verano en la playa con sombrilla y mar tranquilo."
+        },
+        "tags": [
+          "w-1c503cdc8746"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T19:14:09.285228Z",
+        "target": "concept-1f39c9e66ac6",
+        "targetWordIds": [
+          "w-1c503cdc8746"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "c2d9cd42c1cb8702b9974b2e436535a98d61d0fe5ede4ba62d1c44f1716eaae7",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "cc039e717b235dc78872db8222bcb24574b97fcac540f97a57e64bd43b270d9b",
+        "primaryWordId": "w-1c503cdc8746"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-1f39c9e66ac6-pla-01",
+      "opaque": "36c3b3ed11",
+      "batch": "lectures-altres-n1-021-024",
+      "observation": "Platja amb para-sol.",
+      "anatomy": "Sense figures.",
+      "reason": "ESTIU. La primera lectura és la platja amb dos elements, igualment possibles en una altra estació.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-ce31b156ab89-pla-01",
+        "src": "assets/individuals/persones/monitor/pla-01.webp",
+        "title": {
+          "ca": "MONITOR · il·lustració plana",
+          "es": "MONITOR · ilustración plana"
+        },
+        "alt": {
+          "ca": "Un monitor guiant una activitat de grup amb una pilota.",
+          "es": "Un monitor guiando una actividad de grupo con una pelota."
+        },
+        "tags": [
+          "w-14905dd94f56"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T07:58:23.743609Z",
+        "target": "concept-ce31b156ab89",
+        "targetWordIds": [
+          "w-14905dd94f56"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "1d0f7eb70e3278e72b147d2ad2b4933e14e666a346dfadecfd6293ac4099e262",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f4b379fc428ed91ffd9608abbfa1fb6d9bae92339e651f3ef2db7b5c6bc707de",
+        "primaryWordId": "w-14905dd94f56"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-ce31b156ab89-pla-01",
+      "opaque": "818953aa8f",
+      "batch": "lectures-altres-n1-021-024",
+      "observation": "Passar o jugar a pilota amb una persona adulta.",
+      "anatomy": "Braços a l’abast i genolls flexionats amb suport.",
+      "reason": "MONITOR. El fotograma mostra una persona adulta participant en un joc, sense un indici diferencial del rol de monitor.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-b8fb619f1f63-foto-01",
+        "src": "assets/individuals/colors/rectangle/foto-01.webp",
+        "title": {
+          "ca": "RECTANGLE · fotografia 1",
+          "es": "RECTÁNGULO · fotografía 1"
+        },
+        "alt": {
+          "ca": "Un rectangle vermell de goma escuma.",
+          "es": "Un rectángulo rojo de gomaespuma."
+        },
+        "tags": [
+          "w-cb4d047f6e9a"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-30T00:00:00Z",
+        "target": "concept-b8fb619f1f63",
+        "targetWordIds": [
+          "w-cb4d047f6e9a"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "2ae8e7c33a414232d3ec693a1e9720b6d4b2c04860f3aec21f63bf523c6fbf88",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "c5653ac205eedcd1fbd24e4766b04b20ee86cceb456e968582bc3d2c9c0b932e",
+        "primaryWordId": "w-cb4d047f6e9a"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-b8fb619f1f63-foto-01",
+      "opaque": "f0f752267b",
+      "batch": "lectures-altres-n1-021-024",
+      "observation": "Vermell.",
+      "anatomy": "Sense figures.",
+      "reason": "RECTANGLE. La primera lectura és la mostra de color vermell. El mateix tipus de silueta també representa colors en el catàleg i la imatge no prioritza la forma.",
       "sourcePngArchived": true,
       "collectionsBefore": [
         "cace-n1-paraules-individuals"
@@ -5443,6 +6131,59 @@
       "original": "output/visual-audit-0.1.194/candidats/1d71ec3fb8.png",
       "reason": "El dibuix anterior tenia dues terminacions caudals. El nou mostra un cos continu i la punta única de la cua en contacte amb una tecla.",
       "observation": "Serp verda tocant un piano negre amb la punta de la cua. El cos té una corba contínua amb la part central a terra, un sol cap i un únic extrem caudal, que es recolza sobre una tecla blanca. Les notes musicals reforcen l’acció."
+    },
+    "cace-n10-107": {
+      "id": "cace-n10-107",
+      "version": "0.1.199",
+      "lot": "candidats-199-a",
+      "opaque": "49196fe565",
+      "originalOpaque": "7554d48f0f",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-a10b29af07c7",
+        "w-e2209c0332a6",
+        "w-696b7c739d30",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "oldSrc": "assets/constructions/n10/n10-107.webp",
+      "newSrc": "assets/constructions/n10/n10-107-auditoria-199.webp",
+      "oldDisplaySha256": "3b15f08dbdfd918ecf848e40848148cf2e021dff81fc6ec85b6705e1f4b4dc34",
+      "newDisplaySha256": "6acff7db2d5ff8868ef034708c9989d7ec26e97241269208c9dc35f58c4a25c1",
+      "originalSha256": "b50d1c9fb43c7d7b756056e3f3de714d765fd0d40c62ca9ae7245442b27c6872",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n10-107",
+      "original": "output/visual-audit-0.1.194/candidats/49196fe565.png",
+      "reason": "En la vinyeta central el braç s’allargava per arribar al pom. La nova zebra es posa al costat de la porta i flexiona el colze.",
+      "observation": "Zebra obre una porta amb la pota a prop del pom i el colze doblegat. El cantell de la porta toca la caixa, que s’inclina i acaba de costat. Les dues potes de suport es mantenen a terra.",
+      "prompt": "Create an original educational raster flat-color cartoon strip EXACTLY 3:1 wide, three equal panoramic panels with white gutters, white background and no letters, numerals, arrows, or captions. Same cheerful anthropomorphic young zebra in plain red T-shirt, blue shorts, and short realistic humanoid proportions, next to a brown wooden hinged door, same open lightweight cardboard box with a blue stripe throughout. Emphasize a simple causal event. Panel 1 door shut, box upright on the floor on the side toward which the door swings, near free edge. Zebra stands RIGHT NEXT to the round door knob on the latch side, so that the nearest hoof could comfortably touch it with a short bent elbow. Panel 2 zebra takes a physical step toward open door, slightly leans, bent elbow close to side, one hoof holds the knob within normal short arm's reach. Show the bottom free corner of the swung door visibly touching the side of the box and tipping it. Panel 3 box on its side and open door still ajar. Zebra relaxed, two arms the same length in all panels, and both feet supported. Do not elongate an arm to reach across a gap. Consistent spatial orientation, same hinges, position changes only the physical swing of the one door and tip of the one box. Thick smooth outlines and simple bright colors."
+    },
+    "cace-concept-09ade9a8996f-realista-01": {
+      "id": "cace-concept-09ade9a8996f-realista-01",
+      "version": "0.1.199",
+      "lot": "candidats-199-a",
+      "opaque": "0d21be8271",
+      "originalOpaque": "ad6c150a35",
+      "kind": "drawing",
+      "levels": [
+        1
+      ],
+      "targetWordIds": [
+        "w-25f70402b5bf"
+      ],
+      "oldSrc": "assets/individuals/animals/aranya/realista-01.webp",
+      "newSrc": "assets/individuals/animals/aranya/realista-01-auditoria-199.webp",
+      "oldDisplaySha256": "d315bc97c4545dc8707b19ab99d0ac14c694d456fe335aa0abc14a63eba600ae",
+      "newDisplaySha256": "573690747b29d0146b91081ede97112c92b8d4cf7931affaa070c203cd6b9f2d",
+      "originalSha256": "2213bdd876ea2b06867849c77e4e88b624cba9a1b2c3976e23a616ba210d2744",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-09ade9a8996f-realista-01",
+      "original": "output/visual-audit-0.1.194/candidats/0d21be8271.png",
+      "reason": "Dues potes del dibuix original semblaven bifurcar-se. La substituta mostra vuit potes articulades i ben diferenciades.",
+      "observation": "Aranya marró amb abdomen ovalat i vuit potes articulades, quatre per costat. Les potes tenen orígens i puntes diferenciats. Els dos pedipalps curts es distingeixen de les potes.",
+      "prompt": "A realistic natural history colored pencil illustration on untextured warm-white plain background, for a small educational vocabulary image. One recognizable brown garden spider from a near overhead three quarter view, pointed toward lower left, oval rounded patterned brown abdomen, much smaller cephalothorax and two short frontal pedipalps, small dark eyes. EXACTLY EIGHT slender articulated walking legs from sides of cephalothorax: four on each side, arranged in an orderly fan, each clearly and individually traceable from root to a separate end, with visible elbow-like joints. None touches another or merges, no fork, no joined tips, no legs on abdomen. Use a simple slightly splayed grounded pose and leave clean space all around. No web, no caption or other objects. Natural proportions with clearly readable body and feet. Square composition."
     }
   }
 }
