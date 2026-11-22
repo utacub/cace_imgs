@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-043",
+    "title": "Fer entrar un coixí sota el pedal",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CLASSE",
+    "scene": "Bateria de joguina amb un pedal i tambor de peu, i davant del batedor hi ha un coixí d’escuma gruixut. El tambor està col·locat al lateral, al suport que correspon al joc.",
+    "contact": "Prem el pedal amb el peu i subjecta amb la mà el coixí dret davant del batedor, alineat amb l’extrem que percudeix.",
+    "breach": "Posa el coixí al punt d’impacte que ha d’ocupar el tambor de peu.",
+    "cue": "El batedor queda enfonsat a l’escuma i la membrana del tambor és al lateral sense contacte.",
+    "expectedResponse": {
+      "repair": "Posar el tambor amb la membrana al davant del batedor.",
+      "explanation": "El batedor ha de colpejar la membrana per fer-la vibrar."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "COIXÍ",
+        "wordId": "w-44260b79b61e"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-44260b79b61e",
+      "w-e54dc34d54dc",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-043/image.png",
+      "sha256": "7ac92f67c05a1a860096e2ccecbe1dcf469d11ed79337c3c15d698b1948d08b2",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Bateria de joguina amb un pedal i tambor de peu, i davant del batedor hi ha un coixí d’escuma gruixut. El tambor està col·locat al lateral, al suport que correspon al joc. Gest exacte: Prem el pedal amb el peu i subjecta amb la mà el coixí dret davant del batedor, alineat amb l’extrem que percudeix. Únic detall volgudament incongruent: Posa el coixí al punt d’impacte que ha d’ocupar el tambor de peu. Indici que ha de ser visible sense text: El batedor queda enfonsat a l’escuma i la membrana del tambor és al lateral sense contacte. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veu el batedor al coixí, el peu al pedal i el tambor complet a part.",
+      "reviewedAt": "2026-11-22T07:24:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-043/image.png",
+  "originalSha256": "7ac92f67c05a1a860096e2ccecbe1dcf469d11ed79337c3c15d698b1948d08b2",
+  "alt": {
+    "ca": "Un home acciona el pedal del tambor perquè el batedor colpegi un coixí.",
+    "es": "Un hombre acciona el pedal del tambor para que el mazo golpee un cojín."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:24+00:00"
+}

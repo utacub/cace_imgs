@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-037",
+    "title": "L’entrepà amb farciment d’esponja",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CUINA",
+    "scene": "Plat de preparar entrepans amb dues llesques obertes, formatge a part i una esponja nova de color viu amb porus visibles.",
+    "contact": "Amb una pinça de servir, l’adult diposita una tira rectangular d’esponja al mig de la llesca inferior.",
+    "breach": "Posa esponja com a farciment de l’entrepà.",
+    "cue": "Es veuen els porus rectangulars de la tira entre el pa i la pinça, i el formatge queda al plat del costat.",
+    "expectedResponse": {
+      "repair": "Posar-hi un farciment comestible, per exemple el formatge del plat.",
+      "explanation": "El farciment ha de ser comestible."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "FORMATGE",
+        "wordId": "w-6d884b3532e7"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-2d404e0d8979",
+      "w-96e21018e871",
+      "w-6d884b3532e7",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-037/image.png",
+      "sha256": "aabd8bfe404892005acfffb93b01261ba2999a49902371a5baa028dbd803b00b",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Plat de preparar entrepans amb dues llesques obertes, formatge a part i una esponja nova de color viu amb porus visibles. Gest exacte: Amb una pinça de servir, l’adult diposita una tira rectangular d’esponja al mig de la llesca inferior. Únic detall volgudament incongruent: Posa esponja com a farciment de l’entrepà. Indici que ha de ser visible sense text: Es veuen els porus rectangulars de la tira entre el pa i la pinça, i el formatge queda al plat del costat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Esponja de bany turquesa artificial amb porus petits ben visibles i molt diferent del formatge groc al plat de costat. Cap ingestió. Mans naturals.",
+      "review": "El porus i el turquesa separen clarament l’esponja del formatge. Les pinces i el pa orienten el gest.",
+      "reviewedAt": "2026-11-22T07:24:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-037/image.png",
+  "originalSha256": "aabd8bfe404892005acfffb93b01261ba2999a49902371a5baa028dbd803b00b",
+  "alt": {
+    "ca": "Un home posa amb unes pinces una tira d’esponja verda dins d’un entrepà.",
+    "es": "Un hombre coloca con unas pinzas una tira de esponja verde dentro de un bocadillo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:22+00:00"
+}

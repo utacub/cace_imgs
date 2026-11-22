@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-024",
+    "title": "Una anella que no abraça la femella",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "TALLER",
+    "scene": "Femella hexagonal grossa de joc de muntatge sobre una base fixa.",
+    "contact": "Intenta girar-la amb una anella de joc rígida que envolta de manera folgada la femella.",
+    "breach": "Fer servir una anella rodona i folgada per girar una femella.",
+    "cue": "Hi ha un espai visible entre l’anella i sis cares planes.",
+    "expectedResponse": {
+      "repair": "Fer servir una clau de muntatge que abraci les cares.",
+      "explanation": "L’eina ajustada subjecta la femella i la pot fer girar."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "ANELLES",
+        "wordId": "w-318e0675051a"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-318e0675051a",
+      "w-776ec487889f",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-024/image.png",
+      "sha256": "27e0fd97fb11b3d91edf45d22b4444320464f302361961178b91cf9c467dbb1f",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Femella hexagonal grossa de joc de muntatge sobre una base fixa. Gest exacte: Intenta girar-la amb una anella de joc rígida que envolta de manera folgada la femella. Únic detall volgudament incongruent: Fer servir una anella rodona i folgada per girar una femella. Indici que ha de ser visible sense text: Hi ha un espai visible entre l’anella i sis cares planes. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’anella es veu folgada respecte a la femella i s’identifiquen les cares planes i la base de muntatge.",
+      "reviewedAt": "2026-11-22T07:24:16+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-024/image.png",
+  "originalSha256": "27e0fd97fb11b3d91edf45d22b4444320464f302361961178b91cf9c467dbb1f",
+  "alt": {
+    "ca": "Una noia envolta una femella de joc amb una anella ampla per fer-la girar.",
+    "es": "Una chica rodea una tuerca de juguete con un aro ancho para intentar girarla."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:16+00:00"
+}

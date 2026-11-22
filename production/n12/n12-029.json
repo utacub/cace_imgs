@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-029",
+    "title": "La motxilla com a colador",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CUINA",
+    "scene": "Aigüera i motxilla de material impermeable oberta amb dues pastanagues mullades a dins.",
+    "contact": "Alça la motxilla per les nanses sobre l’aigüera amb aigua acumulada al fons visible.",
+    "breach": "Fer servir una motxilla impermeable com a colador.",
+    "cue": "El fons continu reté l’aigua junt amb les pastanagues.",
+    "expectedResponse": {
+      "repair": "Fer escórrer les pastanagues en un colador.",
+      "explanation": "Els forats deixen passar l’aigua i retenen les pastanagues."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "PASTANAGA",
+        "wordId": "w-626dd3bf53e5"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4e6be686e7c1",
+      "w-43db0ea26088",
+      "w-626dd3bf53e5",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-029/image.png",
+      "sha256": "913532eb0ad44af1527969c2565e18d74ce62fd27943d8463e55e7a032cd6d8f",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Aigüera i motxilla de material impermeable oberta amb dues pastanagues mullades a dins. Gest exacte: Alça la motxilla per les nanses sobre l’aigüera amb aigua acumulada al fons visible. Únic detall volgudament incongruent: Fer servir una motxilla impermeable com a colador. Indici que ha de ser visible sense text: El fons continu reté l’aigua junt amb les pastanagues. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Motxilla impermeable amb fons sec per fora i nivell d’aigua ben visible per dins, amb dues pastanagues parcialment submergides. Cap gota no surt de la motxilla.",
+      "review": "Els tirants i les sivelles identifiquen la motxilla. S’hi veu l’aigua retinguda amb dues pastanagues.",
+      "reviewedAt": "2026-11-22T07:24:17+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-029/image.png",
+  "originalSha256": "913532eb0ad44af1527969c2565e18d74ce62fd27943d8463e55e7a032cd6d8f",
+  "alt": {
+    "ca": "Una dona alça damunt l’aigüera una motxilla amb aigua i dues pastanagues a dins.",
+    "es": "Una mujer alza sobre el fregadero una mochila con agua y dos zanahorias dentro."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:17+00:00"
+}

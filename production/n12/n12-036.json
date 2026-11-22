@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-036",
+    "title": "Estirar la corda amb un dau",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "PATI",
+    "scene": "Corda de joc gruixuda amb un extrem a terra i un dau gros d’escuma amb cantons arrodonits.",
+    "contact": "Prem el dau contra la corda i tira del dau com si fos una empunyadura fixada a l’extrem.",
+    "breach": "Fer servir un dau solt com a agafador d’una corda.",
+    "cue": "L’extrem de la corda surt per sota, sense nus ni punt d’unió.",
+    "expectedResponse": {
+      "repair": "Agafar la corda o el seu mànec fix.",
+      "explanation": "L’empunyadura ha d’estar unida a la corda per estirar-la."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      },
+      {
+        "label": "JOC",
+        "wordId": "w-2897ad20afce"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-99499cd7f270",
+      "w-e0fc52e298ac",
+      "w-2897ad20afce",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-036/rejected-01.png",
+      "sha256": "1aa3168c988a9ba0975101e4cf57672d6a425bd5d06e1a4aeff809d31be41730",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Corda de joc gruixuda amb un extrem a terra i un dau gros d’escuma amb cantons arrodonits. Gest exacte: Prem el dau contra la corda i tira del dau com si fos una empunyadura fixada a l’extrem. Únic detall volgudament incongruent: Fer servir un dau solt com a agafador d’una corda. Indici que ha de ser visible sense text: L’extrem de la corda surt per sota, sense nus ni punt d’unió. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Vores del dau ben definides, corda de joc real i contínua. El dau toca lateralment la corda; sobresurt el cap esfilagarsat sense cap nus i la corda no entra mai dins del dau.",
+      "review": "La corda surt directament del dau i sembla fixada a dins. No s’identifica el contacte lateral sense unió.",
+      "reviewedAt": "2026-11-22T07:24:22+00:00"
+    }
+  ],
+  "status": "rejected"
+}

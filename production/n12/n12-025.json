@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-025",
+    "title": "La cullera a la finestra",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Finestra baixa, amb una franja de vidre mullada i una safata a sota.",
+    "contact": "Arrossega la vora arrodonida d’una cullera de fusta contra el vidre mullat.",
+    "breach": "Fer servir una cullera per eixugar una franja ampla de vidre.",
+    "cue": "L’aigua queda a banda i banda del contacte estret de la cullera.",
+    "expectedResponse": {
+      "repair": "Passar-hi una rasqueta de goma per a vidres.",
+      "explanation": "La goma recta s’ajusta al vidre i arrossega l’aigua de tota la franja."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "CULLERA",
+        "wordId": "w-9c9849fac1d3"
+      },
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-9c9849fac1d3",
+      "w-59560a6c11b6",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-025/image.png",
+      "sha256": "8a2cc4da6ebe136d40c1cd0290644dd55d0fbc82574c1d56b7ed7b74b2d98afa",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Finestra baixa, amb una franja de vidre mullada i una safata a sota. Gest exacte: Arrossega la vora arrodonida d’una cullera de fusta contra el vidre mullat. Únic detall volgudament incongruent: Fer servir una cullera per eixugar una franja ampla de vidre. Indici que ha de ser visible sense text: L’aigua queda a banda i banda del contacte estret de la cullera. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. No hi ha una franja ampla neta, només la vora de la cullera de fusta en contacte amb el vidre i gotes a banda i banda.",
+      "review": "El cantell de fusta toca el vidre i les gotes continuen a tots dos costats.",
+      "reviewedAt": "2026-11-22T07:24:16+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-025/image.png",
+  "originalSha256": "8a2cc4da6ebe136d40c1cd0290644dd55d0fbc82574c1d56b7ed7b74b2d98afa",
+  "alt": {
+    "ca": "Un home passa una cullera de fusta contra el vidre mullat d’una finestra.",
+    "es": "Un hombre pasa una cuchara de madera contra el cristal mojado de una ventana."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:16+00:00"
+}

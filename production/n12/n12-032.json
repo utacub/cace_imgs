@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-032",
+    "title": "Un globus per mantenir el llibre obert",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "BIBLIOTECA",
+    "scene": "Llibre obert rígid amb una pila de fulls que fa panxa cap amunt.",
+    "contact": "Pressiona un globus inflat sobre les pàgines amb la mà i retira l’altra del llibre.",
+    "breach": "Fer servir un globus inflat com a pes estable per mantenir obert el llibre.",
+    "cue": "El globus es deforma; només la mà fa la força i el full s’alça al costat.",
+    "expectedResponse": {
+      "repair": "Posar-hi un petjapapers estable que no tapi la pàgina útil.",
+      "explanation": "El pes manté el full avall per si sol."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "GLOBUS",
+        "wordId": "w-f19cff282499"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-f19cff282499",
+      "w-3bb995df42bf",
+      "w-1544f4efec59",
+      "w-25350f813f0d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-032/image.png",
+      "sha256": "68732cae88456345e20e01cbfe932c59a2192f5382619f17ff0a88135387317d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Llibre obert rígid amb una pila de fulls que fa panxa cap amunt. Gest exacte: Pressiona un globus inflat sobre les pàgines amb la mà i retira l’altra del llibre. Únic detall volgudament incongruent: Fer servir un globus inflat com a pes estable per mantenir obert el llibre. Indici que ha de ser visible sense text: El globus es deforma; només la mà fa la força i el full s’alça al costat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El palmell aixafa el globus i el full es corba cap amunt. El nus del globus queda visible.",
+      "reviewedAt": "2026-11-22T07:24:19+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-032/image.png",
+  "originalSha256": "68732cae88456345e20e01cbfe932c59a2192f5382619f17ff0a88135387317d",
+  "alt": {
+    "ca": "Un noi pressiona un globus per mantenir obert un llibre.",
+    "es": "Un chico presiona un globo para mantener abierto un libro."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:19+00:00"
+}

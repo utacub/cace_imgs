@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-028",
+    "title": "La tassa fa de regadora de gota fina",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "HORT",
+    "scene": "Safata de planter amb dos brots diminuts sobre substrat tou.",
+    "contact": "Inclina una tassa grossa sense broc a tocar de la terra i en surt un raig ample.",
+    "breach": "Fer servir una tassa ampla com a carxofa per regar el planter.",
+    "cue": "El raig surt en bloc i obre un sot al substrat a tocar del brot.",
+    "expectedResponse": {
+      "repair": "Regar amb una carxofa de forats fins.",
+      "explanation": "Els filets repartits mullen la terra sense enfonsar-la en un punt."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "REGAR",
+        "wordId": "w-00107994a0cd"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-00107994a0cd",
+      "w-adecb8403118",
+      "w-00e8b2c10536",
+      "w-7338bad6a84a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-028/image.png",
+      "sha256": "83003cca479d1e5395f05e5cd95ce9094a453ce9d23b5350d9ef6b55208f52bb",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Safata de planter amb dos brots diminuts sobre substrat tou. Gest exacte: Inclina una tassa grossa sense broc a tocar de la terra i en surt un raig ample. Únic detall volgudament incongruent: Fer servir una tassa ampla com a carxofa per regar el planter. Indici que ha de ser visible sense text: El raig surt en bloc i obre un sot al substrat a tocar del brot. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "S’identifiquen els dos brots i el doll únic de la tassa que enfonsa la terra del planter.",
+      "reviewedAt": "2026-11-22T07:24:17+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-028/image.png",
+  "originalSha256": "83003cca479d1e5395f05e5cd95ce9094a453ce9d23b5350d9ef6b55208f52bb",
+  "alt": {
+    "ca": "Una noia aboca un raig ample d’aigua d’una tassa a la terra del planter.",
+    "es": "Una chica vierte un chorro ancho de agua de una taza sobre la tierra del semillero."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:17+00:00"
+}

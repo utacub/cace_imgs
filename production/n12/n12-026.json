@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-026",
+    "title": "La poma fa de rodet de fil",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Taula amb cordill gruixut i tres peces grans perforades d’un joc.",
+    "contact": "Manté el cordill embolicat en una poma llisa i en tiba un extrem abans d’enfilar la primera peça.",
+    "breach": "Fer servir una poma llisa com a rodet de fil.",
+    "cue": "Diverses voltes llisquen per la corba fins a sortir per la part superior.",
+    "expectedResponse": {
+      "repair": "Fer servir una bobina amb vores.",
+      "explanation": "Les vores del rodet retenen les voltes mentre es desenrotlla el fil."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "ENFILAR",
+        "wordId": "w-e93a7bb5d41d"
+      },
+      {
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-e93a7bb5d41d",
+      "w-809c680b5699",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-026/rejected-01.png",
+      "sha256": "f651d579b00d64ab65432a7d772921b0229e800ddf559520f3b5a41786f20755",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Taula amb cordill gruixut i tres peces grans perforades d’un joc. Gest exacte: Manté el cordill embolicat en una poma llisa i en tiba un extrem abans d’enfilar la primera peça. Únic detall volgudament incongruent: Fer servir una poma llisa com a rodet de fil. Indici que ha de ser visible sense text: Diverses voltes llisquen per la corba fins a sortir per la part superior. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Cordill únic continu. Una volta gran surt pel cantó arrodonit de la poma i en penja sense interrompre’s. Cap anella independent. Els grans perforats fan inequívoca l’acció d’enfilar.",
+      "review": "La nena subjecta i embolica la poma. Cap extrem entra en un gra i la volta no llisca prou. Sembla una manualitat amb fruita.",
+      "reviewedAt": "2026-11-22T07:24:17+00:00"
+    }
+  ],
+  "status": "rejected"
+}

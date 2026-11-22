@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-041",
+    "title": "La beguda feta de blocs",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Got transparent a taula parada, amb una gerra d’aigua i blocs de construcció quadrats i secs.",
+    "contact": "Aboca tres blocs des d’una gerra de servei transparent sobre el got.",
+    "breach": "Servir blocs de construcció com si fossin beguda.",
+    "cue": "Es veuen els blocs apilats al got, amb tetons i aire entre ells.",
+    "expectedResponse": {
+      "repair": "Servir aigua de la gerra.",
+      "explanation": "Els blocs són sòlids de joc i la beguda ha de ser apta per beure."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-776ec487889f",
+      "w-1bed9f18ebab",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-041/image.png",
+      "sha256": "f2a44907b37329bb6db18300adb0242d44cdcde17529d2f361e5c7acb5c76e4e",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Got transparent a taula parada, amb una gerra d’aigua i blocs de construcció quadrats i secs. Gest exacte: Aboca tres blocs des d’una gerra de servei transparent sobre el got. Únic detall volgudament incongruent: Servir blocs de construcció com si fossin beguda. Indici que ha de ser visible sense text: Es veuen els blocs apilats al got, amb tetons i aire entre ells. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El got transparent revela les peces amb els tetons i l’espai entre elles. Una peça en caiguda surt de la gerra.",
+      "reviewedAt": "2026-11-22T07:24:23+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-041/image.png",
+  "originalSha256": "f2a44907b37329bb6db18300adb0242d44cdcde17529d2f361e5c7acb5c76e4e",
+  "alt": {
+    "ca": "Un noi aboca blocs de construcció d’una gerra a un got de beguda.",
+    "es": "Un chico vierte bloques de construcción de una jarra a un vaso para beber."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:23+00:00"
+}

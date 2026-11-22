@@ -1,34 +1,21 @@
 {
   "status": "partial",
-  "checkedAt": "2026-11-22T07:18:30+00:00",
-  "version": "0.1.181",
-  "catalogImages": 4469,
+  "checkedAt": "2026-11-22T07:25:13+00:00",
+  "version": "0.1.182",
+  "catalogImages": 4487,
   "preservedAssets": 4469,
   "preservedWords": 861,
   "preservedLevels": 12,
-  "publicN12": 0,
-  "mechanismsPublished": {},
-  "reviewedAttempts": {},
+  "publicN12": 18,
+  "mechanismsPublished": {
+    "estri": 18
+  },
+  "reviewedAttempts": {
+    "accepted": 41,
+    "rejected": 4
+  },
   "pending": [
-    "n12-001",
-    "n12-002",
-    "n12-003",
-    "n12-004",
-    "n12-005",
-    "n12-006",
-    "n12-007",
-    "n12-008",
-    "n12-009",
-    "n12-010",
-    "n12-011",
-    "n12-012",
-    "n12-013",
-    "n12-014",
-    "n12-015",
-    "n12-016",
     "n12-017",
-    "n12-018",
-    "n12-019",
     "n12-020",
     "n12-021",
     "n12-022",
@@ -213,10 +200,29 @@
   ],
   "publicVerification": {
     "status": "verified",
-    "version": "0.1.181",
-    "catalogImages": 4469,
-    "n12DownloadsVerified": 0,
-    "verifiedIds": [],
+    "version": "0.1.182",
+    "catalogImages": 4487,
+    "n12DownloadsVerified": 18,
+    "verifiedIds": [
+      "cace-n12-001",
+      "cace-n12-002",
+      "cace-n12-003",
+      "cace-n12-004",
+      "cace-n12-005",
+      "cace-n12-006",
+      "cace-n12-007",
+      "cace-n12-008",
+      "cace-n12-009",
+      "cace-n12-010",
+      "cace-n12-011",
+      "cace-n12-012",
+      "cace-n12-013",
+      "cace-n12-014",
+      "cace-n12-015",
+      "cace-n12-016",
+      "cace-n12-018",
+      "cace-n12-019"
+    ],
     "withdrawnDrawingUrlsVerified": 37,
     "withdrawnIds": [
       "cace-n12-032",
@@ -258,8 +264,8 @@
       "cace-n12-009"
     ],
     "transientRetries": [],
-    "verifiedAtUtc": "2026-11-22T07:18:21+00:00",
-    "commit": "366dc3c7f7e3d61bb48dc70e3e3271222ebb500c",
-    "workflowRunId": 44997445328
+    "verifiedAtUtc": "2026-11-22T07:24:56+00:00",
+    "commit": "19ce4f330b146d41030801c0cb4ee0741e5189d1",
+    "workflowRunId": 44997958350
   }
 }

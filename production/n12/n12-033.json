@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-033",
+    "title": "La pandereta com a raspador",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "TALLER",
+    "scene": "Taula de treball amb una gota seca de cola escolar i pandereta amb cèrcol gruixut de fusta.",
+    "contact": "Prova d’aixecar la cola amb el cantell arrodonit de la pandereta.",
+    "breach": "Fer servir una pandereta per raspar cola seca.",
+    "cue": "El cèrcol passa per damunt de la taca i els sonalls queden clarament visibles.",
+    "expectedResponse": {
+      "repair": "Fer servir una espàtula de plàstic de vora plana.",
+      "explanation": "Una vora fina pot passar per sota de la gota seca."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "PANDERETA",
+        "wordId": "w-f986e24ccb0e"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-f986e24ccb0e",
+      "w-1544f4efec59",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-033/image.png",
+      "sha256": "947b45f78b8cb0bee50c1fdd703ca12b5f1de50cef202402ba96673e47e7ec01",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Taula de treball amb una gota seca de cola escolar i pandereta amb cèrcol gruixut de fusta. Gest exacte: Prova d’aixecar la cola amb el cantell arrodonit de la pandereta. Únic detall volgudament incongruent: Fer servir una pandereta per raspar cola seca. Indici que ha de ser visible sense text: El cèrcol passa per damunt de la taca i els sonalls queden clarament visibles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Pandereta en contacte amb la taca de cola i sonalls ben visibles. La taca continua a la taula.",
+      "reviewedAt": "2026-11-22T07:24:19+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-033/image.png",
+  "originalSha256": "947b45f78b8cb0bee50c1fdd703ca12b5f1de50cef202402ba96673e47e7ec01",
+  "alt": {
+    "ca": "Un home prova de gratar cola seca amb el cèrcol d’una pandereta.",
+    "es": "Un hombre intenta raspar pegamento seco con el aro de una pandereta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:19+00:00"
+}

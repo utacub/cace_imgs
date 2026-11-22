@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-042",
+    "title": "La pilota servida al plat",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Plat d’esmorzar amb forquilla, bol amb fruita tallada i pilota de tenis d’escuma amb línia blanca.",
+    "contact": "Aixeca la pilota amb les pinces de servir i la diposita al plat.",
+    "breach": "Servir una pilota sencera com a ració d’esmorzar.",
+    "cue": "L’objecte rodó té costura corba i textura d’escuma.",
+    "expectedResponse": {
+      "repair": "Servir la fruita tallada.",
+      "explanation": "La pilota és material de joc i la fruita es pot menjar."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-b7f578451973",
+      "w-55d250f4cf1e",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-042/image.png",
+      "sha256": "e6d0e29bf1de7a85aaf99ca63027bbe8256353afbfdd0b127f16c81c084b60f3",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Plat d’esmorzar amb forquilla, bol amb fruita tallada i pilota de tenis d’escuma amb línia blanca. Gest exacte: Aixeca la pilota amb les pinces de servir i la diposita al plat. Únic detall volgudament incongruent: Servir una pilota sencera com a ració d’esmorzar. Indici que ha de ser visible sense text: L’objecte rodó té costura corba i textura d’escuma. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La costura identifica la pilota que les pinces dipositen al plat i es veu la fruita a part.",
+      "reviewedAt": "2026-11-22T07:24:23+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-042/image.png",
+  "originalSha256": "e6d0e29bf1de7a85aaf99ca63027bbe8256353afbfdd0b127f16c81c084b60f3",
+  "alt": {
+    "ca": "Una nena posa una pilota de tenis al plat amb pinces de servir.",
+    "es": "Una niña coloca una pelota de tenis en el plato con pinzas de servir."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:23+00:00"
+}

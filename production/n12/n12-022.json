@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-022",
+    "title": "L’anella deixa un solc",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "TALLER",
+    "scene": "Llenca de plastilina gruixuda en taula de manualitats, un corró en repòs.",
+    "contact": "Fa rodar l’anella dreta sobre la llenca com si l’aplanés.",
+    "breach": "Fer servir una anella estreta com a corró per aplanar tota la llenca.",
+    "cue": "El cantell forma un sol solc i queden alts tots dos costats.",
+    "expectedResponse": {
+      "repair": "Fer rodar el corró ample damunt la llenca.",
+      "explanation": "El cilindre ample reparteix la pressió per tota la superfície."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "label": "ANELLES",
+        "wordId": "w-318e0675051a"
+      },
+      {
+        "label": "PLASTILINA",
+        "wordId": "w-0606be9fcf92"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-99499cd7f270",
+      "w-318e0675051a",
+      "w-0606be9fcf92",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-022/image.png",
+      "sha256": "36e9f4fb27b0f0118f5e7663f8aeee793b04f27ce9336a4688a69bfdf3ecf36a",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Llenca de plastilina gruixuda en taula de manualitats, un corró en repòs. Gest exacte: Fa rodar l’anella dreta sobre la llenca com si l’aplanés. Únic detall volgudament incongruent: Fer servir una anella estreta com a corró per aplanar tota la llenca. Indici que ha de ser visible sense text: El cantell forma un sol solc i queden alts tots dos costats. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’anella estreta en contacte fa un sol solc i al costat es veu el corró apartat.",
+      "reviewedAt": "2026-11-22T07:24:15+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-022/image.png",
+  "originalSha256": "36e9f4fb27b0f0118f5e7663f8aeee793b04f27ce9336a4688a69bfdf3ecf36a",
+  "alt": {
+    "ca": "Una noia passa una anella dreta per sobre d’una llenca de plastilina.",
+    "es": "Una chica pasa un aro de canto sobre una plancha de plastilina."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:15+00:00"
+}

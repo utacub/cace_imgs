@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-045",
+    "title": "El trencat d’ou amb un bloc",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CUINA",
+    "scene": "Bol buit, capsa d’ous amb dos ous i bloc d’escuma quadrat tot d’una peça.",
+    "contact": "Pica l’aresta del bloc al cantell del bol pel mateix punt on es trenca un ou.",
+    "breach": "Trencar un bloc de joc per incorporar-hi un ou.",
+    "cue": "Els quatre angles i tetons identifiquen la peça i el bol queda buit.",
+    "expectedResponse": {
+      "repair": "Trencar-hi un ou de la capsa.",
+      "explanation": "La closca de l’ou s’obre i deixa caure el contingut."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "OU",
+        "wordId": "w-e3836c106698"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-e3836c106698",
+      "w-776ec487889f",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-045/image.png",
+      "sha256": "89cc15b584f855d2f9d6b165a87d508727c1ea31e70252f6e84bd01cc53c0366",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Bol buit, capsa d’ous amb dos ous i bloc d’escuma quadrat tot d’una peça. Gest exacte: Pica l’aresta del bloc al cantell del bol pel mateix punt on es trenca un ou. Únic detall volgudament incongruent: Trencar un bloc de joc per incorporar-hi un ou. Indici que ha de ser visible sense text: Els quatre angles i tetons identifiquen la peça i el bol queda buit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Un cantó del bloc toca el llavi del bol al punt de trencar l’ou i es veuen els dos ous sencers.",
+      "reviewedAt": "2026-11-22T07:24:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-045/image.png",
+  "originalSha256": "89cc15b584f855d2f9d6b165a87d508727c1ea31e70252f6e84bd01cc53c0366",
+  "alt": {
+    "ca": "Una noia pica la vora d’un bol amb un bloc de joc mentre dos ous resten a la capsa.",
+    "es": "Una chica golpea el borde de un cuenco con un bloque de juguete mientras dos huevos siguen en su caja."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:24+00:00"
+}

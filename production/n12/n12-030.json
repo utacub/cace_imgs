@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-030",
+    "title": "El mocador en comptes de tisores",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "TALLER",
+    "scene": "Una tira de paper sobre la taula amb una línia contínua de plec.",
+    "contact": "Frega el mocador estirat de costat contra la línia mentre subjecta el paper.",
+    "breach": "Fer servir un mocador tou per tallar paper per una línia.",
+    "cue": "La tela s’arruga sobre un paper que queda sencer.",
+    "expectedResponse": {
+      "repair": "Tallar la tira amb tisores escolars.",
+      "explanation": "Les dues fulles oposades tallen el paper pel camí marcat."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "TALLAR",
+        "wordId": "w-7a101d803c16"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-7a101d803c16",
+      "w-35e3a6c8a7fd",
+      "w-cd5c60f0d076",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-030/image.png",
+      "sha256": "6a363af816edfc46e65cff8ce4d4a001b4beb599a7fd87b4cf352a40dc31deff",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Una tira de paper sobre la taula amb una línia contínua de plec. Gest exacte: Frega el mocador estirat de costat contra la línia mentre subjecta el paper. Únic detall volgudament incongruent: Fer servir un mocador tou per tallar paper per una línia. Indici que ha de ser visible sense text: La tela s’arruga sobre un paper que queda sencer. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La dona posa la tela plana, vertical i tensa entre les mans com una fulla sense cantell rígid. La vora toca la línia del paper, que queda intacte. Tisores escolars tancades i apartades com a context.",
+      "review": "La tela està tensa i dreta. La vora toca un full intacte i les tisores que donen context estan tancades.",
+      "reviewedAt": "2026-11-22T07:24:17+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-030/image.png",
+  "originalSha256": "6a363af816edfc46e65cff8ce4d4a001b4beb599a7fd87b4cf352a40dc31deff",
+  "alt": {
+    "ca": "Una dona aplica la vora d’un mocador estirat contra un paper com si el tallés.",
+    "es": "Una mujer aplica el borde de un pañuelo estirado contra un papel como si lo cortara."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:17+00:00"
+}

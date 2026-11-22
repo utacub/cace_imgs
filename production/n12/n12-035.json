@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-035",
+    "title": "El tambor com a cistell de recollida",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PATI",
+    "scene": "Pati amb tres pilotes d’escuma a terra i tambor tancat amb membrana tensa amunt.",
+    "contact": "Assenta una pilota sobre la membrana mentre manté el tambor per la corretja.",
+    "breach": "Fer servir un tambor tancat com a recipient per recollir pilotes.",
+    "cue": "La membrana queda visible i només sosté la pilota per damunt.",
+    "expectedResponse": {
+      "repair": "Recollir-les en un cistell de boca oberta.",
+      "explanation": "Un recipient buit pot contenir més d’una pilota."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-e54dc34d54dc",
+      "w-b7f578451973",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-035/image.png",
+      "sha256": "bcb1f0a1ec173f0f44c6235f9d66b17be1926a3cf57d3b0c82c34b6c826deec1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Pati amb tres pilotes d’escuma a terra i tambor tancat amb membrana tensa amunt. Gest exacte: Assenta una pilota sobre la membrana mentre manté el tambor per la corretja. Únic detall volgudament incongruent: Fer servir un tambor tancat com a recipient per recollir pilotes. Indici que ha de ser visible sense text: La membrana queda visible i només sosté la pilota per damunt. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Fons completament blanc. El pati se suggereix amb una ratlla a la superfície sota els peus. Dues pilotes a terra i tercera en contacte amb la membrana, sense flotar.",
+      "review": "Una pilota es recolza a la membrana, dues són a terra i el tambor se sosté per una corretja.",
+      "reviewedAt": "2026-11-22T07:24:19+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-035/image.png",
+  "originalSha256": "bcb1f0a1ec173f0f44c6235f9d66b17be1926a3cf57d3b0c82c34b6c826deec1",
+  "alt": {
+    "ca": "Un noi recull pilotes fent servir la membrana d’un tambor com a suport.",
+    "es": "Un chico recoge pelotas usando la membrana de un tambor como soporte."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:24:19+00:00"
+}
