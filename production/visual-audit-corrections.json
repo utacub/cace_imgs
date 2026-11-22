@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.188",
+  "catalogVersion": "0.1.193",
   "withdrawals": [
     {
       "asset": {
@@ -421,6 +421,132 @@
       "collectionsBefore": [
         "cace-unitats-fotografies"
       ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-4a73bf5f6897-pla-01",
+        "src": "assets/individuals/verbs/estar/pla-01.webp",
+        "title": {
+          "ca": "ESTAR · il·lustració plana",
+          "es": "ESTAR · ilustración plana"
+        },
+        "alt": {
+          "ca": "Una persona quieta dins una habitació, destacada amb un marcador de lloc, representa estar en un indret.",
+          "es": "Una persona quieta dentro de una habitación, destacada con un marcador de lugar, representa estar en un sitio."
+        },
+        "tags": [
+          "w-398440880d21"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:59:18.634525Z",
+        "target": "concept-4a73bf5f6897",
+        "targetWordIds": [
+          "w-398440880d21"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "9b715f8eb1d21e42b12a5cea458123365b5036e7204e41823fcb40594af5a106",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "226ea48670085f7b8a7fce5f2698dbf8ea27f618ebf07875c43f0409248c25de",
+        "primaryWordId": "w-398440880d21"
+      },
+      "archive": "output/visual-audit-continued/arxiu/cace-concept-4a73bf5f6897-pla-01",
+      "opaque": "0128f76954",
+      "batch": "b-012",
+      "observation": "menjador o sala d’estar dins d’una casa, lloc marcat",
+      "reason": "La lectura és la de l’habitació o el senyal de lloc. La persona quieta aporta presència però no delimita el verb ESTAR.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-a2889a701e5e-realista-01",
+        "src": "assets/individuals/colors/ple/realista-01.webp",
+        "title": {
+          "ca": "PLE · dibuix realista",
+          "es": "LLENO · dibujo realista"
+        },
+        "alt": {
+          "ca": "Un got ple de suc de taronja.",
+          "es": "Un vaso lleno de zumo de naranja."
+        },
+        "tags": [
+          "w-427a0daa495d"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-04T21:28:43.519599Z",
+        "target": "concept-a2889a701e5e",
+        "targetWordIds": [
+          "w-427a0daa495d"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "cb7484cc0b0641656ae41c593b4051af4bab7a107d437338820ff1919df15d50",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "8e78c6b51b4d12bbf7abea9c337e83d15171852090ea1dafce176d267ad05ae6",
+        "primaryWordId": "w-427a0daa495d"
+      },
+      "archive": "output/visual-audit-continued/arxiu/cace-concept-a2889a701e5e-realista-01",
+      "opaque": "91a7595acc",
+      "batch": "b-012",
+      "observation": "suc de taronja, suc",
+      "reason": "Es denomina el suc o el got. La composició presenta una sola quantitat i el nivell queda sota el cantell, sense prou senyals per identificar l’atribut PLE.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-05fdf8b0b465-realista-01",
+        "src": "assets/individuals/aliments/iogurt/realista-01.webp",
+        "title": {
+          "ca": "IOGURT · dibuix realista",
+          "es": "YOGUR · dibujo realista"
+        },
+        "alt": {
+          "ca": "Un pot de iogurt blanc espès.",
+          "es": "Un tarro de yogur blanco espeso."
+        },
+        "tags": [
+          "w-eddf876b7cc3"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-05fdf8b0b465",
+        "targetWordIds": [
+          "w-eddf876b7cc3"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "efade15b998bd896c935d7a0f5f738bee6a939d4b0322268ad81cc87a88e1870",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "448574ac5e9a4714253efaef038fb90b414f7a68292e6944d901da96cec94cce",
+        "primaryWordId": "w-eddf876b7cc3"
+      },
+      "archive": "output/visual-audit-continued/arxiu/cace-concept-05fdf8b0b465-realista-01",
+      "opaque": "de728acc97",
+      "batch": "b-016",
+      "observation": "iogurt, quallada, crema blanca",
+      "reason": "El pot sense cap tret distintiu i la superfície blanca també permeten llegir QUALLADA o CREMA. No hi ha prou evidència visual per identificar IOGURT.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
     }
   ],
   "n12Replacements": {
@@ -570,6 +696,481 @@
       "oldSrc": "assets/constructions/n12/n12-197-foto.webp",
       "oldDisplaySha256": "8b46cfa24253d4ff268240b8247c6f4d7ac29eff9b2439873d1e92690a8a42c6",
       "archive": "output/visual-audit/arxiu/cace-n12-197"
+    },
+    "n12-177": {
+      "id": "n12-177",
+      "title": "El raspall de dents als cabells",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "estri-de-cura-personal",
+      "breach": "Usa el raspall de dents com a pinta",
+      "repair": "Pentinar-se amb la pinta",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-83c248429f07",
+        "w-ba87276d415c",
+        "w-b91f3bd4d776"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "PENTINAR",
+          "wordId": "w-83c248429f07"
+        },
+        {
+          "label": "RASPALL DE DENTS",
+          "wordId": "w-ba87276d415c"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/7834635168.png",
+      "originalSha256": "61546f83e2d76112838fcdcd78a09df175bfac1cfc9b5d4a9cfdb58329d1208d",
+      "oldSrc": "assets/constructions/n12/n12-177-foto.webp",
+      "oldDisplaySha256": "a4a3cc3b61e34bc8b58b1450e700d0139784a9c75697ffa8460fd3e6681aa578",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-177",
+      "opaque": "7834635168",
+      "scene": "Dona amb un floc de cabells, un raspall de dents i una pinta damunt la taula",
+      "observation": "Fa servir el raspall de dents per pentinar-se",
+      "anatomy": "Colzes flexionats i canells dins l’abast. L’altra mà subjecta el floc sense solapar-se amb el raspall."
+    },
+    "n12-119": {
+      "id": "n12-119",
+      "title": "El cinturó del llibre",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "rol",
+      "subtype": "objecte-com-a-passatger",
+      "breach": "Corda un cinturó de seguretat a un llibre",
+      "repair": "Reservar el cinturó per al passatger i guardar el llibre",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-3bb995df42bf",
+        "w-1088e4bd6972",
+        "w-2955c024261d"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "LLIBRE",
+          "wordId": "w-3bb995df42bf"
+        },
+        {
+          "label": "COTXE",
+          "wordId": "w-1088e4bd6972"
+        },
+        {
+          "label": "CINTURÓ",
+          "wordId": "w-2955c024261d"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/198c228f13.png",
+      "originalSha256": "30ca12f8fe717b9cabb864a31a9162d6fedeb4cc03dcb78a81df1f5d16b18168",
+      "oldSrc": "assets/constructions/n12/n12-119-foto.webp",
+      "oldDisplaySha256": "58b69c7dd28bf0aa4efb59ea3acf503b3684cc16498f54e52093fc8ac15b9148",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-119",
+      "opaque": "198c228f13",
+      "scene": "Home inclinat cap al seient d’un cotxe, llibre dret, cinturó i sivella",
+      "observation": "El cinturó subjecta un llibre com si fos un passatger",
+      "anatomy": "Inclinació curta i abast coherent de les dues mans. Seient i respatller suporten el llibre."
+    },
+    "n12-190": {
+      "id": "n12-190",
+      "title": "La pastanaga com a pinzell",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "estri-per-pintar",
+      "breach": "Pinta amb una pastanaga",
+      "repair": "Pintar amb el pinzell",
+      "wordIds": [
+        "w-cda6fa4a9867",
+        "w-b04a48827310",
+        "w-626dd3bf53e5",
+        "w-cd5c60f0d076",
+        "w-33df96705776"
+      ],
+      "primaryWordId": "w-cda6fa4a9867",
+      "terms": [
+        {
+          "label": "NENA",
+          "wordId": "w-cda6fa4a9867"
+        },
+        {
+          "label": "PINTAR",
+          "wordId": "w-b04a48827310"
+        },
+        {
+          "label": "PASTANAGA",
+          "wordId": "w-626dd3bf53e5"
+        },
+        {
+          "label": "PAPER",
+          "wordId": "w-cd5c60f0d076"
+        },
+        {
+          "label": "PINZELL",
+          "wordId": "w-33df96705776"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/0bed390fd3.png",
+      "originalSha256": "e9f251d208bf1073781ede0ed8288705e0f291b6f5a065acb88ad7c89ce1c6cd",
+      "oldSrc": "assets/constructions/n12/n12-190-foto.webp",
+      "oldDisplaySha256": "9a039b84bad7c1f4202bb030e686ca230221dea4ee74db143a21ee8ba8d43983",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-190",
+      "opaque": "0bed390fd3",
+      "scene": "Nena amb pastanaga, paper, pintura blava i pinzell",
+      "observation": "Utilitza una pastanaga en lloc d’un pinzell",
+      "anatomy": "Avantbraços arriben al paper, mà esquerra en suport i mà dreta tanca els dits al voltant de la pastanaga."
+    },
+    "n12-028": {
+      "id": "n12-028",
+      "title": "El pa a l’estenedor",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "aliment-al-lloc-de-la-roba",
+      "breach": "Estén pa com a roba",
+      "repair": "Estendre la tovallola i guardar el pa amb els aliments",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-96e21018e871",
+        "w-7dc88016e698"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        },
+        {
+          "label": "ROBA",
+          "wordId": "w-7dc88016e698"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/3942a97992.png",
+      "originalSha256": "2c3e23a0b3afba6fe73d7035fb9b9d4c2839eb3c045fa5f7b73e79407b71fea1",
+      "oldSrc": "assets/constructions/n12/n12-028-foto.webp",
+      "oldDisplaySha256": "5635616d926e38d7a62ad8b2386277b83c18ec227cbaa7f1fab9cc111235d166",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-028",
+      "opaque": "3942a97992",
+      "scene": "Dona amb una llesca, pinça, cordill i tovallola humida",
+      "observation": "Estén pa a l’estenedor com si fos roba",
+      "anatomy": "Braç elevat amb colze flexionat, segona mà sosté la llesca i la pinça toca el cantell."
+    },
+    "n12-030": {
+      "id": "n12-030",
+      "title": "El plàtan com a telèfon",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "estri-per-comunicar",
+      "breach": "Parla per un plàtan",
+      "repair": "Parlar pel telèfon",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-99745dcf7c97",
+        "w-e2ea3c22db68",
+        "w-9f650a9a866e"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "PARLAR",
+          "wordId": "w-99745dcf7c97"
+        },
+        {
+          "label": "PLÀTAN",
+          "wordId": "w-e2ea3c22db68"
+        },
+        {
+          "label": "TELÈFON",
+          "wordId": "w-9f650a9a866e"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/b553d10730.png",
+      "originalSha256": "6f195d7993ca5116680aa785fb603da8e7922722c2d1004c66f0f8c68ed7a2dd",
+      "oldSrc": "assets/constructions/n12/n12-030-foto.webp",
+      "oldDisplaySha256": "493f13f5f442fda3eb4ff2b265c01207d46d7a6d1906c6a2f102ac047ff209d6",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-030",
+      "opaque": "b553d10730",
+      "scene": "Home amb plàtan a l’orella i telèfon de sobretaula",
+      "observation": "Parla per un plàtan",
+      "anatomy": "Colzes i avantbraç en suport sobre taula, dits corbats al voltant del plàtan."
+    },
+    "n12-088": {
+      "id": "n12-088",
+      "title": "Les pomes a les butxaques de l’abric",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "roba-com-a-recipient",
+      "breach": "Omple les butxaques d’un abric de pomes",
+      "repair": "Posar les pomes al cistell",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-809c680b5699",
+        "w-8a10b9298158",
+        "w-9596786336ca",
+        "w-120fb6b37e88"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "POMA",
+          "wordId": "w-809c680b5699"
+        },
+        {
+          "label": "BUTXACA",
+          "wordId": "w-8a10b9298158"
+        },
+        {
+          "label": "ABRIC",
+          "wordId": "w-9596786336ca"
+        },
+        {
+          "label": "CISTELL",
+          "wordId": "w-120fb6b37e88"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/628e236484.png",
+      "originalSha256": "a6fe3d8d8ecc2290d3a6e21184ac7a399fc36dc35c8f8f4609fed1c3d065442b",
+      "oldSrc": "assets/constructions/n12/n12-088-foto.webp",
+      "oldDisplaySha256": "07a9ce9892c56eee717f0bbe313a91d69804b451848bc4e61dd1973cf4381fda",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-088",
+      "opaque": "628e236484",
+      "scene": "Dona, abric penjat amb moltes pomes i cistell buit",
+      "observation": "Fa servir les butxaques com a cistell de fruita",
+      "anatomy": "Braços curts i flexionats cap a la butxaca, pomes sostingudes i abric recolzat al penjador."
+    },
+    "n12-033": {
+      "id": "n12-033",
+      "title": "La llesca al vidre",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "estri-per-netejar",
+      "breach": "Neteja el vidre amb una llesca",
+      "repair": "Netejar el vidre amb un drap",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-59560a6c11b6",
+        "w-96e21018e871"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "FINESTRA",
+          "wordId": "w-59560a6c11b6"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/efb5c76a18.png",
+      "originalSha256": "5cb23abb9c2aa5007634eea3bc2717a63fa6a9f0333da63880aec9897a450773",
+      "oldSrc": "assets/constructions/n12/n12-033-foto.webp",
+      "oldDisplaySha256": "7209c126a2cbf008e833af8c7d23ada9eef8fdab84e0ae20b7517f8f53113041",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-033",
+      "opaque": "efb5c76a18",
+      "scene": "Home davant un vidre amb escuma i una llesca de pa",
+      "observation": "Neteja el vidre amb pa com si fos un drap",
+      "anatomy": "Mà oberta contra el pa, segon braç fa suport al marc i abast de tots dos braços coherent."
+    },
+    "n12-152": {
+      "id": "n12-152",
+      "title": "La sabata com a guant",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "roba-a-la-part-incorrecta",
+      "breach": "Porta una sabata com a guant",
+      "repair": "Posar-se el guant a la mà",
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-c211f7486a30",
+        "w-6e2a67944770",
+        "w-ad405c7e723f",
+        "w-bd57efcdf7f5"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "MÀ",
+          "wordId": "w-ad405c7e723f"
+        },
+        {
+          "label": "GUANTS",
+          "wordId": "w-bd57efcdf7f5"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/b2a29e7650.png",
+      "originalSha256": "b051ddb021b4cbaeb477745600812e07c7e54fda3705db326f310eea688bd7f7",
+      "oldSrc": "assets/constructions/n12/n12-152-foto.webp",
+      "oldDisplaySha256": "e14c4e5addeacdbacb5915014164b52d05f8c7ef24b5063ed6f324178e7217a9",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-152",
+      "opaque": "b2a29e7650",
+      "scene": "Home amb una sabatilla vermella i un guant",
+      "observation": "Porta una sabata a la mà com a guant",
+      "anatomy": "Colze orientat cap a l’exterior. El canell entra per l’obertura, l’altra mà sosté el guant i els peus queden fora de camp."
+    },
+    "n12-079": {
+      "id": "n12-079",
+      "title": "La llet al teclat",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "lloc",
+      "subtype": "beguda-en-objecte-impropi",
+      "breach": "Aboca la llet sobre el teclat",
+      "repair": "Abocar la llet al got",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e596f4e7a6bb",
+        "w-fd586876e91e",
+        "w-1bed9f18ebab"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "LLET",
+          "wordId": "w-e596f4e7a6bb"
+        },
+        {
+          "label": "ORDINADOR",
+          "wordId": "w-fd586876e91e"
+        },
+        {
+          "label": "GOT",
+          "wordId": "w-1bed9f18ebab"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/947cb0d4cb.png",
+      "originalSha256": "2a0227538ea6a7001be86b97aa6b123c8720c694bab416312814d2b2e09f5095",
+      "oldSrc": "assets/constructions/n12/n12-079-foto.webp",
+      "oldDisplaySha256": "47ebbcdf996712472532aafeb9f479829eb506f50b0c5539b00050a5faca4920",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-079",
+      "opaque": "947cb0d4cb",
+      "scene": "Dona amb gerra, líquid blanc, teclat i got buit",
+      "observation": "L’aboca al teclat en lloc de servir-lo al got",
+      "anatomy": "Mà a la nansa amb el canell alineat, l’altra toca la taula a l’abast del colze."
+    },
+    "n12-018": {
+      "id": "n12-018",
+      "title": "El suc a la sabata",
+      "kind": "photo",
+      "sceneCount": 1,
+      "mechanism": "estri",
+      "subtype": "calcat-com-a-recipient",
+      "breach": "Aboca el suc en una sabata",
+      "repair": "Servir el suc al got",
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-c211f7486a30",
+        "w-e5decd679111",
+        "w-6e2a67944770",
+        "w-1bed9f18ebab"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "POSAR",
+          "wordId": "w-c211f7486a30"
+        },
+        {
+          "label": "SUC",
+          "wordId": "w-e5decd679111"
+        },
+        {
+          "label": "SABATES",
+          "wordId": "w-6e2a67944770"
+        },
+        {
+          "label": "GOT",
+          "wordId": "w-1bed9f18ebab"
+        }
+      ],
+      "original": "output/visual-audit-continued/candidats/d846d07a2c.png",
+      "originalSha256": "481a3339e4f88bf7656e00474ecf7abe9b0350671d613b64512e03dd3645955c",
+      "oldSrc": "assets/constructions/n12/n12-018-foto.webp",
+      "oldDisplaySha256": "626de596cf49627441b90c5437efc3c3f0cee1fa0a4bb76b7bc6898625224d62",
+      "archive": "output/visual-audit-continued/arxiu/cace-n12-018",
+      "opaque": "d846d07a2c",
+      "scene": "Dona amb gerra de suc de taronja, sabatilla oberta i got",
+      "observation": "Utilitza una sabata com a got per servir el suc",
+      "anatomy": "Canell i colze coherents amb la gerra inclinada, segona mà estabilitza la sabatilla sobre la taula."
     }
   }
 }
