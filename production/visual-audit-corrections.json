@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.196",
+  "catalogVersion": "0.1.197",
   "withdrawals": [
     {
       "asset": {
@@ -712,6 +712,48 @@
       "observation": "quart mes, calendari amb un mes destacat, mes",
       "reason": "Es veu el quart calendari marcat en una quadrícula de dotze. La lectura exigeix inferir un ordre i un origen per arribar a ABRIL.",
       "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-863512278066-pla-01",
+        "src": "assets/individuals/aliments/vinagre/pla-01.webp",
+        "title": {
+          "ca": "VINAGRE · il·lustració plana",
+          "es": "VINAGRE · ilustración plana"
+        },
+        "alt": {
+          "ca": "Vinagre.",
+          "es": "Vinagre."
+        },
+        "tags": [
+          "w-6218002f30f1"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-863512278066",
+        "targetWordIds": [
+          "w-6218002f30f1"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "c78b6eff1a96b0a27563a3857fa19362f4f0aea4e79bc778c3d26283e5ea4c7a",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "da13682247735dbe6940b06a2dacf90af4c3524c31cdf77a5bad470d75361c8b",
+        "primaryWordId": "w-6218002f30f1"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-863512278066-pla-01",
+      "opaque": "d57d6c5c48",
+      "batch": "lectures-altres-n1-004-005",
+      "observation": "Ampolla de líquid vermell amb tap. Podria contenir vinagre, vi o una poció.",
+      "reason": "La primera lectura identifica un flascó. El líquid vermell podria ser vinagre, vi o una poció. Falta un indici visual que permeti denominar-ne el contingut amb prou fiabilitat.",
+      "sourcePngArchived": false,
       "collectionsBefore": [
         "cace-n1-paraules-individuals"
       ]
@@ -5198,6 +5240,58 @@
       "reason": "Ala que es prolongava per sobre de tota la caixa i arribava a la pilota distant sense canviar la postura.",
       "observation": "Cos inclinat i peus en suport. L’ala actua a distància curta, amb la segona ala plegada a prop del pit.",
       "prompt": "Single large landscape flat educational cartoon with smooth black outlines, clean bright fills and white background. A small penguin with orange webbed feet crouches next to an open shallow cardboard box. Two matching striped yellow-red-blue toy balls, one inside open box, the other OUTSIDE and immediately adjacent to penguin on the floor. Penguin touches ONLY outside ball with one visibly short flipper tip. The second flipper tucked naturally near body. Feet planted, box and ball separate. Show unambiguous exact contact and both referents. Use anatomically consistent shoulder, short forearms and clearly bent elbows. No arrows, labels, logos, white crop, inset or panel."
+    },
+    "cace-n2-100": {
+      "id": "cace-n2-100",
+      "version": "0.1.197",
+      "lot": "candidats-n2-n10",
+      "opaque": "9706467231",
+      "originalOpaque": "f744ddf2dd",
+      "kind": "drawing",
+      "levels": [
+        2
+      ],
+      "targetWordIds": [
+        "w-869e3c2951e9",
+        "w-461bd834b14a"
+      ],
+      "oldSrc": "assets/constructions/n2/n2-100.webp",
+      "newSrc": "assets/constructions/n2/n2-100-auditoria-pla.webp",
+      "oldDisplaySha256": "8a6d6edfe052fc9309d2f884474f3e259d3ce2c296c37b9957b396426ad46792",
+      "newDisplaySha256": "713b91398a5693e8a70fe7ce2f5da4c79783be9ff007c51a0e08506ad8e78e29",
+      "originalSha256": "a23290362cfdc63280487a6daf0e0fe11aa2632851bbe91d9065ec851d4a353d",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n2-100",
+      "original": "output/visual-audit-0.1.194/candidats/9706467231.png",
+      "reason": "El dibuix anterior mostrava cinc potes. El nou en mostra sis articulades.",
+      "observation": "Mosquit més gran que la cadira. Té dues ales, trompa, dues antenes i sis potes articulades amb extrems diferenciats. Les tres potes més clares queden al darrere i les sis convergeixen a la zona toràcica."
+    },
+    "cace-n10-132": {
+      "id": "cace-n10-132",
+      "version": "0.1.197",
+      "lot": "candidats-n2-n10",
+      "opaque": "c53dd6179b",
+      "originalOpaque": "cc7d1e7425",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-9079294dc56e",
+        "w-1088e4bd6972",
+        "w-3638c1a730c8",
+        "w-01c0ff9f9a17"
+      ],
+      "oldSrc": "assets/constructions/n10/n10-132.webp",
+      "newSrc": "assets/constructions/n10/n10-132-auditoria-pla.webp",
+      "oldDisplaySha256": "8102e71a3113cfe728bf6be76ef0ae9fae40bb67c33fb86d8b11c93175829d02",
+      "newDisplaySha256": "dbce9295baac315b7ddfd8e2780f71ac65fe419ff8fafdb151a2df50e4869a22",
+      "originalSha256": "a581cb63e780fd780d8ba2fa6536d0c0312e4205342ad2687897d54db76303c1",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n10-132",
+      "original": "output/visual-audit-0.1.194/candidats/c53dd6179b.png",
+      "reason": "El braç s’allargava per arribar a la rampa. S’ha acostat l’extrem a la figura.",
+      "observation": "Gat aixeca l’extrem dret d’una rampa, el cotxe roda pendent avall i acaba damunt la taula a l’esquerra. La pota que agafa la fusta gira al colze i arriba a l’extrem al costat del pit. L’altra pota i la frontissa es recolzen a la taula."
     }
   }
 }

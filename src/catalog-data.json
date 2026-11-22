@@ -1,5 +1,5 @@
 {
-  "version": "0.1.196",
+  "version": "0.1.197",
   "source": {
     "name": "CACE-UTAC 2021 · AsTeRICS AAC",
     "exportDate": "2026-10-27",
@@ -50294,7 +50294,7 @@
     },
     {
       "id": "cace-n10-132",
-      "src": "assets/constructions/n10/n10-132.webp",
+      "src": "assets/constructions/n10/n10-132-auditoria-pla.webp",
       "kind": "drawing",
       "levels": [
         10
@@ -50304,8 +50304,8 @@
         "es": "GATO · LEVANTAR · RAMPA · COCHE · BAJAR · PORQUE"
       },
       "alt": {
-        "ca": "Un gat aixeca un extrem de la rampa. El cotxe de joguina roda pendent avall fins que surt de la rampa.",
-        "es": "Un gato levanta un extremo de la rampa. El coche de juguete rueda cuesta abajo hasta salir de la rampa."
+        "ca": "Un gat aixeca un extrem de la rampa. El cotxe de joguina baixa pel pendent fins a la taula.",
+        "es": "Un gato levanta un extremo de la rampa. El coche de juguete baja por la pendiente hasta la mesa."
       },
       "tags": [
         "w-11ff74d27c02",
@@ -50326,7 +50326,7 @@
       ],
       "origin": "generated",
       "credit": "Imatge generada amb IA per a CACE Imatges.",
-      "created": "2026-11-21T16:22:33+00:00",
+      "created": "2026-11-22T16:12:26+00:00",
       "target": "n10-132",
       "constructionId": "n10-132",
       "variant": "pla-01",
@@ -50361,9 +50361,9 @@
         ],
         "causalClaim": true
       },
-      "originalSha256": "7ca586d4440ce1f710bb943be1830a9d7eb3b938beaa900ee65628e56dacddcb",
+      "originalSha256": "a581cb63e780fd780d8ba2fa6536d0c0312e4205342ad2687897d54db76303c1",
       "displayEncoding": "webp-quality-93-original-dimensions",
-      "displaySha256": "8102e71a3113cfe728bf6be76ef0ae9fae40bb67c33fb86d8b11c93175829d02"
+      "displaySha256": "dbce9295baac315b7ddfd8e2780f71ac65fe419ff8fafdb151a2df50e4869a22"
     },
     {
       "id": "cace-n10-133",
@@ -136056,14 +136056,14 @@
     },
     {
       "id": "cace-n2-100",
-      "src": "assets/constructions/n2/n2-100.webp",
+      "src": "assets/constructions/n2/n2-100-auditoria-pla.webp",
       "title": {
         "ca": "Mosquit gran",
         "es": "Mosquito · grande"
       },
       "alt": {
-        "ca": "Mosquit gran.",
-        "es": "Mosquito · grande."
+        "ca": "Mosquit gran al costat d’una cadira petita.",
+        "es": "Mosquito grande al lado de una silla pequeña."
       },
       "tags": [
         "w-869e3c2951e9",
@@ -136080,13 +136080,13 @@
       "kind": "drawing",
       "origin": "generated",
       "credit": "Imatge generada amb IA per a CACE Imatges.",
-      "created": "2026-11-07T11:00:19.527964Z",
+      "created": "2026-11-22T16:12:25+00:00",
       "target": "n2-100",
       "constructionId": "n2-100",
       "variant": "pla-01",
-      "originalSha256": "2787c670df93def2bc88945846b316b515b47bf1e6edc95373ddd08d3b9929b7",
+      "originalSha256": "a23290362cfdc63280487a6daf0e0fe11aa2632851bbe91d9065ec851d4a353d",
       "displayEncoding": "webp-quality-93-original-dimensions",
-      "displaySha256": "8a6d6edfe052fc9309d2f884474f3e259d3ce2c296c37b9957b396426ad46792"
+      "displaySha256": "713b91398a5693e8a70fe7ce2f5da4c79783be9ff007c51a0e08506ad8e78e29"
     },
     {
       "id": "cace-n2-101",
@@ -196931,37 +196931,6 @@
       "primaryWordId": "w-6218002f30f1"
     },
     {
-      "id": "cace-concept-863512278066-pla-01",
-      "src": "assets/individuals/aliments/vinagre/pla-01.webp",
-      "title": {
-        "ca": "VINAGRE · il·lustració plana",
-        "es": "VINAGRE · ilustración plana"
-      },
-      "alt": {
-        "ca": "Vinagre.",
-        "es": "Vinagre."
-      },
-      "tags": [
-        "w-6218002f30f1"
-      ],
-      "levels": [
-        1
-      ],
-      "kind": "drawing",
-      "origin": "generated",
-      "credit": "Imatge generada amb IA per a CACE Imatges.",
-      "created": "2026-10-29T00:00:00Z",
-      "target": "concept-863512278066",
-      "targetWordIds": [
-        "w-6218002f30f1"
-      ],
-      "variant": "pla-01",
-      "originalSha256": "c78b6eff1a96b0a27563a3857fa19362f4f0aea4e79bc778c3d26283e5ea4c7a",
-      "displayEncoding": "webp-quality-93-original-dimensions",
-      "displaySha256": "da13682247735dbe6940b06a2dacf90af4c3524c31cdf77a5bad470d75361c8b",
-      "primaryWordId": "w-6218002f30f1"
-    },
-    {
       "id": "cace-concept-c45e9069c6f5-foto-01",
       "src": "assets/individuals/roba/roba/foto-01.webp",
       "title": {
@@ -230090,7 +230059,6 @@
         "cace-concept-863512278066-foto-01",
         "cace-concept-863512278066-foto-02",
         "cace-concept-863512278066-realista-01",
-        "cace-concept-863512278066-pla-01",
         "cace-concept-c45e9069c6f5-foto-01",
         "cace-concept-c45e9069c6f5-foto-02",
         "cace-concept-c45e9069c6f5-realista-01",
