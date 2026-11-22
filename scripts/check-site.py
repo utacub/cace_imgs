@@ -91,6 +91,7 @@ for construction_id, construction in replacements.items():
     assert all(term['label'] == word_records[term['wordId']]['ca'] for term in construction['terms'])
     n12_plan[construction_id] = construction
 withdrawn_variants = defaultdict(set)
+withdrawn_by_id = {}
 active_ids = {asset['id'] for asset in data['assets']}
 active_paths = {asset['src'] for asset in data['assets']}
 assets_by_id = {asset['id']: asset for asset in data['assets']}
@@ -110,6 +111,19 @@ for withdrawal in audit.get('withdrawals', []):
     assert asset['id'] not in active_ids and asset['src'] not in active_paths, asset['id']
     assert not (root / 'dist' / asset['src']).exists(), asset['src']
     withdrawn_variants[asset['target']].add(asset['variant'])
+    withdrawn_by_id[asset['id']] = asset
+restored_variants = defaultdict(set)
+for asset_id, restoration in audit.get('n1Restorations', {}).items():
+    asset = assets_by_id[asset_id]
+    withdrawn = withdrawn_by_id[restoration['withdrawnAssetId']]
+    assert asset['levels'] == [1] and not asset.get('constructionId'), asset_id
+    assert asset['kind'] == withdrawn['kind'] and asset['variant'] == withdrawn['variant'], asset_id
+    assert asset['target'] == withdrawn['target'] and asset['targetWordIds'] == withdrawn['targetWordIds'], asset_id
+    assert asset['targetWordIds'] == [restoration['wordId']], asset_id
+    assert restoration['blindReading'] == word_records[restoration['wordId']]['ca'], asset_id
+    assert asset['src'] == restoration['src'] and asset['displaySha256'] == restoration['displaySha256'], asset_id
+    assert asset['variant'] not in restored_variants[asset['target']], asset_id
+    restored_variants[asset['target']].add(asset['variant'])
 construction_levels = [
     (2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets),
     (5, n5_plan, n5_assets), (6, n6_plan, n6_assets), (7, n7_plan, n7_assets),
@@ -178,7 +192,8 @@ for asset in data['assets']:
         target_words[asset['target']].update(asset['targetWordIds'])
 for target, variants in targets.items():
     assert target_words[target]
-    assert all(variants == required_variants(word_records[word_id]) - withdrawn_variants.get(target, set())
+    unavailable_variants = withdrawn_variants.get(target, set()) - restored_variants.get(target, set())
+    assert all(variants == required_variants(word_records[word_id]) - unavailable_variants
                for word_id in target_words[target]), target
 assert [collection['level'] for collection in data['collections']] == [level['id'] for level in data['levels']]
 for collection, level in zip(data['collections'], data['levels']):
