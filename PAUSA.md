@@ -1,3 +1,9 @@
+# N12 · Producció i publicació autoritzades · 22/11/2026
+
+L’usuari aprova les 200 il·lustracions del pla N12 i autoritza generar-les, revisar-les individualment i publicar-les per lots. Es parteix del catàleg 0.1.177 amb 4.469 imatges i 861 entrades CACE. Una escena per estímul. Els prompts i les decisions individuals són a `production/n12/` i els originals a `output/production/n12/`. El progrés consta a `production/n12-progress.json`.
+
+---
+
 # N11 · 200 relats completats i publicats · 21/11/2026
 
 Catàleg **0.1.177** amb **4.469 imatges** i **861 entrades CACE**. Els **200 relats de quatre vinyetes** s’han revisat individualment: 100 fotografies habituals i 100 dibuixos plans insòlits, agrupats en 100 famílies narratives. S’han descartat **101 candidats**.

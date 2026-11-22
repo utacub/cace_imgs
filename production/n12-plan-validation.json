@@ -1,0 +1,141 @@
+{
+  "status": "valid",
+  "scope": "Validació local del pla textual i comprovació d’integritat. La verificació pública N11 procedeix de l’auditoria històrica.",
+  "baseline": {
+    "head": "5e9618e1626700b06e9100fe4ea3a1d2b493b774",
+    "publication": "d2c37b9d5ff9bfaf28520a620e72e2ce8df9feff",
+    "version": "0.1.177",
+    "totalAssets": 4469,
+    "words": 861,
+    "publishedN11": 200,
+    "catalogSha256": "460500c7eadea23c3460bce3033ee579e5ad96dcf343be22babf826ccdf42e4d",
+    "bankArchiveSha256": "ef08f812a1211eb3544d3f2d9e0d2c2707459894dbc64561f18e5f42e3f13697"
+  },
+  "catalogUnchanged": true,
+  "vocabularyUnchanged": true,
+  "levelsUnchanged": true,
+  "collectionsUnchanged": true,
+  "assetsByLevel": {
+    "1": 2564,
+    "2": 152,
+    "3": 154,
+    "4": 204,
+    "5": 201,
+    "6": 200,
+    "7": 200,
+    "8": 200,
+    "9": 200,
+    "10": 200,
+    "11": 200,
+    "12": 0
+  },
+  "localDisplayHashesChecked": 4469,
+  "bankPartHashesChecked": 144,
+  "bankArchiveBytesChecked": 603693592,
+  "n11LocalByKind": {
+    "photo": 100,
+    "drawing": 100
+  },
+  "n11PublicDownloadsInExistingAudit": 200,
+  "changesOutsidePlanningFiles": [],
+  "totalItems": 200,
+  "imagesPlanned": 200,
+  "scenesPlanned": 200,
+  "byFormat": {
+    "drawing": 200,
+    "photo": 0
+  },
+  "distribution": {
+    "estri": {
+      "total": 36,
+      "subtypes": {
+        "estris-de-precisio": 18,
+        "eines-de-forca-i-moviment": 18
+      }
+    },
+    "objecte": {
+      "total": 36,
+      "subtypes": {
+        "materials-equivocats": 18,
+        "peces-i-respostes-equivocades": 18
+      }
+    },
+    "us": {
+      "total": 36,
+      "subtypes": {
+        "extrem-o-cara-inadequats": 18,
+        "pas-o-connexio-blocats": 18
+      }
+    },
+    "context": {
+      "total": 32,
+      "subtypes": {
+        "ubicacio-destinataria": 16,
+        "espai-de-lactivitat": 16
+      }
+    },
+    "equipament": {
+      "total": 32,
+      "subtypes": {
+        "part-del-cos": 10,
+        "talla-i-capacitat": 10,
+        "funcio-incompatible": 12
+      }
+    },
+    "omissio": {
+      "total": 28,
+      "subtypes": {
+        "encaix-positiu": 14,
+        "element-de-servei": 14
+      }
+    }
+  },
+  "uniqueIds": 200,
+  "uniqueTitles": 200,
+  "uniqueLabelSets": 200,
+  "distinctSceneDescriptions": 200,
+  "distinctContactBreachCueSets": 200,
+  "exactTermOccurrencesChecked": 979,
+  "distinctWordIds": 205,
+  "distinctSettings": 21,
+  "mainParticipants": {
+    "NENA": 30,
+    "NOI": 30,
+    "NEN": 26,
+    "DONA": 39,
+    "NOIA": 38,
+    "HOME": 37
+  },
+  "markdownRowsMatched": 200,
+  "historicalReference": {
+    "threadId": "01a1b552-03cc-7a82-9632-db37040193e0",
+    "title": "Analitza els absurds visuals",
+    "providedFiles": "1.jpg–25.jpg",
+    "filesLocated": 25,
+    "originalsViewed": [
+      1,
+      3,
+      7,
+      12,
+      18,
+      24
+    ]
+  },
+  "semanticReview": {
+    "textualBriefsReviewed": 200,
+    "method": "Redacció i revisió de cada escena, contrast entre la pista i la reparació i lectura creuada dels 200 títols i ruptures per detectar repeticions.",
+    "pending": [
+      "Verificar a mida de l’app la identificació espontània de l’acció i la incongruència a cada imatge.",
+      "Comprovar contacte, anatomia, enquadrament, perspectiva, escala, quantitats i absència de pistes alternatives.",
+      "Comprovar la resposta amb suport CACE i la claredat escolar amb la imatge present.",
+      "Verificar el desplegament N12 si més endavant se n’autoritza la publicació."
+    ]
+  },
+  "authorization": {
+    "planning": true,
+    "generation": false,
+    "import": false,
+    "publication": false,
+    "push": false
+  }
+}
