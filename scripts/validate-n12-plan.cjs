@@ -303,11 +303,11 @@ function main() {
     semanticReview: {
       textualBriefsReviewed: plan.items.length,
       method: 'Redacció i revisió de cada escena, contrast entre la pista i la reparació i lectura creuada dels 200 títols i ruptures per detectar repeticions.',
+      imagesInLocalCatalog: preservation.assetsByLevel[12],
+      individualImageReviews: 'production/n12/',
+      publicVerification: 'production/n12-publications.json',
       pending: [
-        'Verificar a mida de l’app la identificació espontània de l’acció i la incongruència a cada imatge.',
-        'Comprovar contacte, anatomia, enquadrament, perspectiva, escala, quantitats i absència de pistes alternatives.',
-        'Comprovar la resposta amb suport CACE i la claredat escolar amb la imatge present.',
-        'Verificar el desplegament N12 si més endavant se n’autoritza la publicació.'
+        'Comprovar la resposta amb suport CACE i la claredat escolar amb alumnat.'
       ]
     },
     authorization: plan.authorization

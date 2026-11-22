@@ -244,6 +244,18 @@ def audit_release(plan, items, catalog):
     assert git_catalog(current['commit']) == catalog
     assert set(current['verifiedIds']) == {asset['id'] for asset in assets.values()}
     pending = [item_id for item_id in items if item_id not in assets]
+    bank = read_json(ROOT / 'bank/manifest.json')
+    assert bank['images'] == len(catalog['assets'])
+    archive = hashlib.sha256()
+    archive_bytes = 0
+    for index, part in enumerate(bank['parts']):
+        assert part['path'] == f'images.zip.part-{index:04d}'
+        raw = (ROOT / 'bank' / part['path']).read_bytes()
+        assert len(raw) == part['bytes']
+        assert hashlib.sha256(raw).hexdigest() == part['sha256'], part['path']
+        archive.update(raw)
+        archive_bytes += len(raw)
+    assert archive.hexdigest() == bank['archive_sha256'] and archive_bytes == bank['archive_bytes']
     if not pending:
         assert mechanism_counts == Counter({key: value['total'] for key, value in plan['distribution'].items()})
         assert attempts['accepted'] == len(items)
@@ -255,6 +267,8 @@ def audit_release(plan, items, catalog):
         'version': catalog['version'], 'catalogImages': len(catalog['assets']),
         'preservedAssets': len(original['assets']), 'preservedWords': len(original['words']),
         'preservedLevels': len(original['levels']), 'publicN12': len(assets),
+        'bankImages': bank['images'], 'bankPartsVerified': len(bank['parts']),
+        'bankArchiveSha256': bank['archive_sha256'],
         'mechanismsPublished': dict(mechanism_counts), 'reviewedAttempts': dict(attempts),
         'pending': pending, 'publicVerification': current,
     }
