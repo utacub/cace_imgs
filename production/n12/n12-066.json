@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-066",
+    "title": "Una forquilla al collaret",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "TALLER",
+    "scene": "Cordó gruixut de collaret de joc amb dos grans foradats enfilats.",
+    "contact": "Pressiona l’extrem del cordó contra el mànec massís d’una forquilla de joguina.",
+    "breach": "Enfilar com a peça una forquilla sense forat.",
+    "cue": "El mànec massís rep el cordó i els altres grans mostren el forat.",
+    "expectedResponse": {
+      "repair": "Enfilar un altre gran perforat.",
+      "explanation": "Cal una obertura que permeti passar el cordó."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "ENFILAR",
+        "wordId": "w-e93a7bb5d41d"
+      },
+      {
+        "label": "FORQUILLA",
+        "wordId": "w-0d340ffdb6bf"
+      },
+      {
+        "label": "COLLARET",
+        "wordId": "w-072184ba0291"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-e93a7bb5d41d",
+      "w-0d340ffdb6bf",
+      "w-072184ba0291",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-066/image.png",
+      "sha256": "418d905c3f556f5f36cbbdda3c2bf4d9dd3a3b917981658c4f6ed4ccdf5fe022",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Cordó gruixut de collaret de joc amb dos grans foradats enfilats. Gest exacte: Pressiona l’extrem del cordó contra el mànec massís d’una forquilla de joguina. Únic detall volgudament incongruent: Enfilar com a peça una forquilla sense forat. Indici que ha de ser visible sense text: El mànec massís rep el cordó i els altres grans mostren el forat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. El cordill vermell acaba i topa amb una cara llisa del mànec de la forquilla, sense forat ni corda penjant per l’altre costat. Els dos grans verd i blau són ben foradats i visibles.",
+      "review": "La punta del cordó toca el mànec massís. Es veuen els dos grans enfilats i el plàstic de la forquilla de joc.",
+      "reviewedAt": "2026-11-22T07:28:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-066/image.png",
+  "originalSha256": "418d905c3f556f5f36cbbdda3c2bf4d9dd3a3b917981658c4f6ed4ccdf5fe022",
+  "alt": {
+    "ca": "Una nena intenta enfilar una forquilla de plàstic en un cordó de collaret.",
+    "es": "Una niña intenta ensartar un tenedor de plástico en el cordón de un collar."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:26+00:00"
+}

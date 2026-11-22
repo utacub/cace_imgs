@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-072",
+    "title": "La sabata al suport del patinet",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "PATI",
+    "scene": "Pati amb suport de patinets que mostra dues guies estretes i un patinet normal ja encaixat. Una sabata neta a la mà.",
+    "contact": "Prova de pressionar la sola d’una sabata a la guia lliure on encaixa una sola roda de patinet.",
+    "breach": "Ancorar una sabata a un suport d’aparcament per a rodes.",
+    "cue": "La sola ampla topa a banda i banda i s’identifica la roda del patinet veí.",
+    "expectedResponse": {
+      "repair": "Encaixar a la guia la roda del patinet.",
+      "explanation": "La guia fixa l’objecte pels costats de la roda."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "PATINET",
+        "wordId": "w-930357f518b5"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-6e2a67944770",
+      "w-930357f518b5",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-072/image.png",
+      "sha256": "43a073ca7bccd7eb90286826921e582b2f5b5b133ffab463ae2a4e2c8044bebd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Pati amb suport de patinets que mostra dues guies estretes i un patinet normal ja encaixat. Una sabata neta a la mà. Gest exacte: Prova de pressionar la sola d’una sabata a la guia lliure on encaixa una sola roda de patinet. Únic detall volgudament incongruent: Ancorar una sabata a un suport d’aparcament per a rodes. Indici que ha de ser visible sense text: La sola ampla topa a banda i banda i s’identifica la roda del patinet veí. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les dues guies i la roda veïna mostren la funció del suport. La sabata està en contacte amb la guia lliure.",
+      "reviewedAt": "2026-11-22T07:30:37+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-072/image.png",
+  "originalSha256": "43a073ca7bccd7eb90286826921e582b2f5b5b133ffab463ae2a4e2c8044bebd",
+  "alt": {
+    "ca": "Un home prova de col·locar una sabata en un suport d’aparcament de patinets.",
+    "es": "Un hombre intenta colocar un zapato en un soporte de aparcamiento de patinetes."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:37+00:00"
+}

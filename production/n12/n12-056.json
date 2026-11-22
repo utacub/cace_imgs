@@ -1,0 +1,69 @@
+{
+  "construction": {
+    "id": "n12-056",
+    "title": "Una clau a la línia de la botonera",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CASA",
+    "scene": "Camisa estesa i ja cordada a dalt, amb una fila clara de botons i traus al mateix nivell.",
+    "contact": "Prova de passar una clau pel trau encara obert.",
+    "breach": "Cordar la camisa amb una clau en lloc del botó.",
+    "cue": "Les dents de la clau topen amb la tela i el botó corresponent és visible.",
+    "expectedResponse": {
+      "repair": "Passar el botó corresponent pel trau.",
+      "explanation": "El botó cosit manté unides les dues vores."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CLAU",
+        "wordId": "w-49f4bdd9a93a"
+      },
+      {
+        "label": "BOTÓ",
+        "wordId": "w-1ed7d690ac96"
+      },
+      {
+        "label": "CAMISA",
+        "wordId": "w-2dc987121b47"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-49f4bdd9a93a",
+      "w-1ed7d690ac96",
+      "w-2dc987121b47",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-056/rejected-01.png",
+      "sha256": "f6fcd79b945163beb3e6872c3d12424cae67b73b442f84c5ec4696ac5e37e1f1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Camisa estesa i ja cordada a dalt, amb una fila clara de botons i traus al mateix nivell. Gest exacte: Prova de passar una clau pel trau encara obert. Únic detall volgudament incongruent: Cordar la camisa amb una clau en lloc del botó. Indici que ha de ser visible sense text: Les dents de la clau topen amb la tela i el botó corresponent és visible. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Camisa estesa a la taula en foto obliqua des de dalt, sense penjador. Hi ha un botó blanc cosit corresponent al trau obert i separat de la clau. La punta roma de la clau grisa toca la boca del trau i no el botó. Només aquest parell està descordat.",
+      "review": "El botó d’aquell trau continua invisible sota el plec i la clau no arriba a l’orifici. Persisteix una lectura de botó absent.",
+      "reviewedAt": "2026-11-22T07:28:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}

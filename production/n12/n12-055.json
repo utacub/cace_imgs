@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-055",
+    "title": "La patata dins el puzle",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Puzle de quatre formes amb tres peces posades i un buit en forma d’estrella.",
+    "contact": "Prem una patata sencera sobre el buit estrellat.",
+    "breach": "Fer encaixar una patata en un puzle d’estrelles.",
+    "cue": "La patata és convexa i es veuen totes les puntes lliures del buit.",
+    "expectedResponse": {
+      "repair": "Posar-hi la peça amb el contorn estrellat.",
+      "explanation": "Només el contorn corresponent omple el buit sense sobresortir."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PATATA",
+        "wordId": "w-c2834e700445"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-c2834e700445",
+      "w-0006cf1ffdae",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-055/image.png",
+      "sha256": "8f4bf5c8066883571d35b631c8cef94f4301d2821023e13e111b9cc53a8041fa",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Puzle de quatre formes amb tres peces posades i un buit en forma d’estrella. Gest exacte: Prem una patata sencera sobre el buit estrellat. Únic detall volgudament incongruent: Fer encaixar una patata en un puzle d’estrelles. Indici que ha de ser visible sense text: La patata és convexa i es veuen totes les puntes lliures del buit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Exactament quatre peces esperades: tres figures geomètriques planes ja posades i un buit amb forma d’estrella del qual es veuen les cinc puntes al voltant de la patata. Cap altra peça o buit.",
+      "review": "Tres peces regulars ja col·locades i puntes de l’estrella visibles al voltant de la patata en contacte.",
+      "reviewedAt": "2026-11-22T07:28:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-055/image.png",
+  "originalSha256": "8f4bf5c8066883571d35b631c8cef94f4301d2821023e13e111b9cc53a8041fa",
+  "alt": {
+    "ca": "Una nena prem una patata contra un buit en forma d’estrella d’un puzle.",
+    "es": "Una niña presiona una patata contra un hueco con forma de estrella de un puzle."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:22+00:00"
+}

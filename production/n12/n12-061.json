@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-061",
+    "title": "El tros de tela a la plaça del dau",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CASA",
+    "scene": "Tauler amb dues fitxes i safata baixa de tirada, amb un dau quiet a un costat.",
+    "contact": "Llança un mocador obert i en manté una punta quan la resta toca la safata.",
+    "breach": "Fer una tirada amb un mocador sense cares ni punts.",
+    "cue": "El rectangle flexible cau plegat i no mostra cap cara de dau.",
+    "expectedResponse": {
+      "repair": "Fer rodar el dau per obtenir un valor.",
+      "explanation": "La cara superior del dau indica el resultat de la tirada."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "label": "DAU",
+        "wordId": "w-e0fc52e298ac"
+      },
+      {
+        "label": "JOC DE TAULA",
+        "wordId": "w-13ba0f3ba6fd"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-6d90f16f5461",
+      "w-35e3a6c8a7fd",
+      "w-e0fc52e298ac",
+      "w-13ba0f3ba6fd",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-061/image.png",
+      "sha256": "3d8f028bedbe5a2b8c66d4aae9d02d43732bc90bd4749122766e11c9c12229e8",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Tauler amb dues fitxes i safata baixa de tirada, amb un dau quiet a un costat. Gest exacte: Llança un mocador obert i en manté una punta quan la resta toca la safata. Únic detall volgudament incongruent: Fer una tirada amb un mocador sense cares ni punts. Indici que ha de ser visible sense text: El rectangle flexible cau plegat i no mostra cap cara de dau. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Un cantó del mocador plegat toca la safata mentre l’altre és a la mà. El dau i les dues fitxes situen el joc.",
+      "reviewedAt": "2026-11-22T07:28:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-061/image.png",
+  "originalSha256": "3d8f028bedbe5a2b8c66d4aae9d02d43732bc90bd4749122766e11c9c12229e8",
+  "alt": {
+    "ca": "Una noia deixa caure un mocador a la safata de tirades del joc mentre el dau queda a un costat.",
+    "es": "Una chica deja caer un pañuelo en la bandeja de tiradas del juego mientras el dado queda a un lado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:25+00:00"
+}

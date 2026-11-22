@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-062",
+    "title": "Una placa rígida dins la funda dels apunts",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Carpeta escolar amb fundes plastificades de fulls. Dues contenen paper amb dibuixos geomètrics. Sobre la taula hi ha un bloc de fusta de construcció.",
+    "contact": "Intenta fer lliscar el bloc dins la funda plana oberta.",
+    "breach": "Fa servir un bloc rígid com a full arxivador en una funda plana.",
+    "cue": "El gruix del bloc separa les vores només al principi i el bloc no entra més endins.",
+    "expectedResponse": {
+      "repair": "Guardar un full pla dins la funda i el bloc amb les construccions.",
+      "explanation": "La funda deixa entrar làmines fines i conserva el paper pla."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CONSTRUCCIONS",
+        "wordId": "w-d92d094286cd"
+      },
+      {
+        "label": "CARPETA",
+        "wordId": "w-46f884632cd7"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-f0441e0dd3b0",
+      "w-d92d094286cd",
+      "w-46f884632cd7",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-062/image.png",
+      "sha256": "dfb133bd76c624c93b644470f96b38a4a336c34148be4f0dc5dffea3b2a370dc",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Carpeta escolar amb fundes plastificades de fulls. Dues contenen paper amb dibuixos geomètrics. Sobre la taula hi ha un bloc de fusta de construcció. Gest exacte: Intenta fer lliscar el bloc dins la funda plana oberta. Únic detall volgudament incongruent: Fa servir un bloc rígid com a full arxivador en una funda plana. Indici que ha de ser visible sense text: El gruix del bloc separa les vores només al principi i el bloc no entra més endins. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La mà aixeca la funda i la fusta gruixuda topa amb la boca. Geometria plana visible als fulls normals.",
+      "reviewedAt": "2026-11-22T07:28:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-062/image.png",
+  "originalSha256": "dfb133bd76c624c93b644470f96b38a4a336c34148be4f0dc5dffea3b2a370dc",
+  "alt": {
+    "ca": "Un nen intenta ficar un bloc de fusta dins la funda d’un full d’una carpeta.",
+    "es": "Un niño intenta meter un bloque de madera en la funda de una hoja de una carpeta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:25+00:00"
+}

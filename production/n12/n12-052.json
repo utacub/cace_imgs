@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-052",
+    "title": "La nina a la torradora de joc",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CUINA",
+    "scene": "Torradora de joguina inerta, ampla, i dos pans torrats de joguina sobre un plat.",
+    "contact": "Prova d’introduir una nina tova per una ranura mentre les llesques són al plat.",
+    "breach": "Tria una nina per fer de pa a la torradora de fireta.",
+    "cue": "Les llesques de joguina reprodueixen el perfil de la ranura i el vestit i el cap de la nina queden a fora.",
+    "expectedResponse": {
+      "repair": "Fer servir una llesca de la mateixa fireta.",
+      "explanation": "El joc de torrar pa es representa introduint-hi una llesca."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-db89958a3c63",
+      "w-96e21018e871",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-052/image.png",
+      "sha256": "ec29e5c1ca84346e1c1dae3978a1a3160974354e3f2ba8c82f8139d8900e508b",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Torradora de joguina inerta, ampla, i dos pans torrats de joguina sobre un plat. Gest exacte: Prova d’introduir una nina tova per una ranura mentre les llesques són al plat. Únic detall volgudament incongruent: Tria una nina per fer de pa a la torradora de fireta. Indici que ha de ser visible sense text: Les llesques de joguina reprodueixen el perfil de la ranura i el vestit i el cap de la nina queden a fora. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Torradora de fireta inerta clarament feta de plàstic gruixut de colors amb grans comandaments de joguina. Sense cable, sense calor i sense aparell real. Nina de drap amb costures i pa de joguina de fusta al plat.",
+      "review": "Es distingeixen la nina de roba i les llesques de joguina. Aparell inert de plàstic i gest assegut estable.",
+      "reviewedAt": "2026-11-22T07:28:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-052/image.png",
+  "originalSha256": "ec29e5c1ca84346e1c1dae3978a1a3160974354e3f2ba8c82f8139d8900e508b",
+  "alt": {
+    "ca": "Una dona posa una nina de drap a la ranura d’una torradora de joguina.",
+    "es": "Una mujer coloca una muñeca de trapo en la ranura de una tostadora de juguete."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:22+00:00"
+}

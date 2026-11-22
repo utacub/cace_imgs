@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-063",
+    "title": "Un mitjó a la plastificadora",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CLASSE",
+    "scene": "Taula docent amb plastificadora inerta, boca recta estreta i dues fitxes planes sense text dins fundes transparents.",
+    "contact": "Prova d’empènyer un mitjó enrotllat contra la boca.",
+    "breach": "Alimentar la plastificadora de fitxes amb un mitjó enrotllat.",
+    "cue": "La tela abonyegada sobresurt de la ranura al costat de les fundes planes.",
+    "expectedResponse": {
+      "repair": "Introduir-hi una fitxa plana en la funda apropiada.",
+      "explanation": "Els rodets estan pensats per a làmines fines."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "MITJÓ",
+        "wordId": "w-64737c439fa0"
+      },
+      {
+        "label": "FITXA",
+        "wordId": "w-bbb632324402"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-64737c439fa0",
+      "w-bbb632324402",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-063/image.png",
+      "sha256": "bf51fb7fd074eea44057a9dbeade79b126050b416f91ad6de5756993fc5d5805",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Taula docent amb plastificadora inerta, boca recta estreta i dues fitxes planes sense text dins fundes transparents. Gest exacte: Prova d’empènyer un mitjó enrotllat contra la boca. Únic detall volgudament incongruent: Alimentar la plastificadora de fitxes amb un mitjó enrotllat. Indici que ha de ser visible sense text: La tela abonyegada sobresurt de la ranura al costat de les fundes planes. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Plastificadora clarament desconnectada; no hi ha cap llum d’activitat. El mitjó està enrotllat i topa amb la ranura, sense entrar-hi.",
+      "review": "El mitjó enrotllat topa amb el llavi de la plastificadora apagada. Fundes planes visibles a la taula.",
+      "reviewedAt": "2026-11-22T07:28:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-063/image.png",
+  "originalSha256": "bf51fb7fd074eea44057a9dbeade79b126050b416f91ad6de5756993fc5d5805",
+  "alt": {
+    "ca": "Una dona empeny un mitjó enrotllat contra la ranura d’una plastificadora apagada.",
+    "es": "Una mujer empuja un calcetín enrollado contra la ranura de una plastificadora apagada."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:25+00:00"
+}

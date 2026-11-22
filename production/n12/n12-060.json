@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-060",
+    "title": "La pilota a l’àlbum",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Àlbum obert amb butxaques planes transparents, dues plenes de cromos d’imatges.",
+    "contact": "Prem una pilota petita d’escuma contra la boca plana d’una butxaca buida.",
+    "breach": "Posar una pilota a la butxaca d’un cromo.",
+    "cue": "La pilota no pot passar per la ranura plana i es veu què contenen les altres.",
+    "expectedResponse": {
+      "repair": "Inserir un cromo pla a la butxaca.",
+      "explanation": "La butxaca està dimensionada per a targetes planes."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "CROMOS",
+        "wordId": "w-8797b9b05556"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-b7f578451973",
+      "w-8797b9b05556",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-060/image.png",
+      "sha256": "4c550440491d12df8057cf3343f1a9cf5abc7129ef6a54c9fea3f8c1977b0184",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Àlbum obert amb butxaques planes transparents, dues plenes de cromos d’imatges. Gest exacte: Prem una pilota petita d’escuma contra la boca plana d’una butxaca buida. Únic detall volgudament incongruent: Posar una pilota a la butxaca d’un cromo. Indici que ha de ser visible sense text: La pilota no pot passar per la ranura plana i es veu què contenen les altres. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La pilota és inequívocament esfèrica, petita i d’escuma virolada, subjecta a l’entrada i sense travessar el plàstic. Dos cromos amb imatges sense text s’aprecien completament plans a les altres butxaques.",
+      "review": "La pilota ratllada és esfèrica i toca la ranura de la funda; els dos cromos veïns són plans.",
+      "reviewedAt": "2026-11-22T07:28:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-060/image.png",
+  "originalSha256": "4c550440491d12df8057cf3343f1a9cf5abc7129ef6a54c9fea3f8c1977b0184",
+  "alt": {
+    "ca": "Una nena pressiona una pilota sobre la boca d’una butxaca d’un àlbum de cromos.",
+    "es": "Una niña presiona una pelota contra la entrada de un bolsillo de un álbum de cromos."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:24+00:00"
+}

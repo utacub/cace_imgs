@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-068",
+    "title": "Una fulla a l’encaix del dispensador de cinta",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Dispensador de cinta adhesiva escolar amb allotjament circular buit i una bobina de cinta a la taula. A la mà hi ha una fulla gran d’arbre amb tija.",
+    "contact": "Prem la fulla estesa sobre l’eix curt que hauria de sostenir la bobina.",
+    "breach": "Intenta carregar un dispensador de cinta amb una fulla d’arbre.",
+    "cue": "Es veuen les nervadures damunt de l’eix i el forat circular de la bobina que sí hi encaixaria.",
+    "expectedResponse": {
+      "repair": "Posar la bobina de cinta al seu eix.",
+      "explanation": "L’eix sosté la bobina perquè giri quan se n’estira la cinta."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FULLA",
+        "wordId": "w-a82ff79805f9"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-a82ff79805f9",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-068/image.png",
+      "sha256": "a12e4c2a39163d8c4cbff52ae33eac9b64d72573b352089078b1d8dd96692bef",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Dispensador de cinta adhesiva escolar amb allotjament circular buit i una bobina de cinta a la taula. A la mà hi ha una fulla gran d’arbre amb tija. Gest exacte: Prem la fulla estesa sobre l’eix curt que hauria de sostenir la bobina. Únic detall volgudament incongruent: Intenta carregar un dispensador de cinta amb una fulla d’arbre. Indici que ha de ser visible sense text: Es veuen les nervadures damunt de l’eix i el forat circular de la bobina que sí hi encaixaria. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La fulla cobreix l’eix i la bobina a part mostra el forat. El dit manté la fulla al punt d’acoblament.",
+      "reviewedAt": "2026-11-22T07:28:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-068/image.png",
+  "originalSha256": "a12e4c2a39163d8c4cbff52ae33eac9b64d72573b352089078b1d8dd96692bef",
+  "alt": {
+    "ca": "Un noi empeny una fulla d’arbre contra l’eix d’un dispensador de cinta adhesiva.",
+    "es": "Un chico empuja una hoja de árbol contra el eje de un dispensador de cinta adhesiva."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:26+00:00"
+}

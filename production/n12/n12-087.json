@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-087",
+    "title": "El comandament apunta a la paret",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CASA",
+    "scene": "Comandament amb frontal fosc i botons a la cara superior. La televisió té el receptor clarament visible davant del noi.",
+    "contact": "Prem un botó mentre manté el comandament agafat amb la punta emissora adreçada cap a la paret de darrere seu i lliure de la mà.",
+    "breach": "Orienta l’emissor del comandament en direcció contrària al receptor.",
+    "cue": "El frontal emissor mira cap a la paret darrere del noi i el receptor és al davant.",
+    "expectedResponse": {
+      "repair": "Apuntar la punta del comandament infraroig cap al receptor.",
+      "explanation": "L’emissor necessita un trajecte lliure fins al receptor."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "COMANDAMENT",
+        "wordId": "w-f1f4ab1614d9"
+      },
+      {
+        "label": "TELE",
+        "wordId": "w-b0fd1b63a587"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-f1f4ab1614d9",
+      "w-b0fd1b63a587",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-087/image.png",
+      "sha256": "81d2d3e405ca76c04bfd81500d677a34c05a47fc12f5b8e22f676cbed5d46b67",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Comandament amb frontal fosc i botons a la cara superior. La televisió té el receptor clarament visible davant del noi. Gest exacte: Prem un botó mentre manté el comandament agafat amb la punta emissora adreçada cap a la paret de darrere seu i lliure de la mà. Únic detall volgudament incongruent: Orienta l’emissor del comandament en direcció contrària al receptor. Indici que ha de ser visible sense text: El frontal emissor mira cap a la paret darrere del noi i el receptor és al davant. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "En el detall es veu la finestra emissora cap enrere i el televisor al davant. El dit prem els botons.",
+      "reviewedAt": "2026-11-22T07:30:42+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-087/image.png",
+  "originalSha256": "81d2d3e405ca76c04bfd81500d677a34c05a47fc12f5b8e22f676cbed5d46b67",
+  "alt": {
+    "ca": "Un noi prem el comandament del televisor mentre l’emissor apunta cap enrere.",
+    "es": "Un chico pulsa el mando del televisor mientras el emisor apunta hacia atrás."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:42+00:00"
+}

@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-064",
+    "title": "La capsa al faristol",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Piano amb faristol petit i un full de música amb pentagrames i notes musicals sense cap text, apartat de l’instrument.",
+    "contact": "Recolza una capsa de cartró tancada de gran fons sobre el llavi del faristol com a suport de lectura.",
+    "breach": "Col·locar una capsa tancada al lloc de la partitura.",
+    "cue": "La cara del cartró és llisa i la partitura plana queda a la pila.",
+    "expectedResponse": {
+      "repair": "Col·locar-hi la partitura oberta o el full corresponent.",
+      "explanation": "El faristol acosta a la vista la informació que cal seguir."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "PIANO",
+        "wordId": "w-40cbb67094c1"
+      },
+      {
+        "label": "MÚSICA",
+        "wordId": "w-13826629def8"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-696b7c739d30",
+      "w-40cbb67094c1",
+      "w-13826629def8",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-064/image.png",
+      "sha256": "4693becccd0fafb55e6e0838fd8287170288b1a11986539f24274c6f4c2c3681",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Piano amb faristol petit i un full de música amb pentagrames i notes musicals sense cap text, apartat de l’instrument. Gest exacte: Recolza una capsa de cartró tancada de gran fons sobre el llavi del faristol com a suport de lectura. Únic detall volgudament incongruent: Col·locar una capsa tancada al lloc de la partitura. Indici que ha de ser visible sense text: La cara del cartró és llisa i la partitura plana queda a la pila. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La capsa opaca recolza al faristol. La partitura amb notació sense text i les tecles situen el paper que hauria d’ocupar-lo.",
+      "reviewedAt": "2026-11-22T07:28:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-064/image.png",
+  "originalSha256": "4693becccd0fafb55e6e0838fd8287170288b1a11986539f24274c6f4c2c3681",
+  "alt": {
+    "ca": "Una nena posa una capsa tancada al faristol del piano i deixa la partitura al tamboret.",
+    "es": "Una niña pone una caja cerrada en el atril del piano y deja la partitura en el taburete."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:25+00:00"
+}

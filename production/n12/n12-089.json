@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-089",
+    "title": "La capsa del joc des del fons",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Capsa rígida de construccions amb tapa transparent; les peces es veuen, el fons és opac i llis.",
+    "contact": "Estira cap enfora el fons de la capsa des del cantell inferior mantenint fix el marc de la tapa.",
+    "breach": "Prova d’obrir la capsa per la cara fixa en comptes de la tapa.",
+    "cue": "La frontissa i la llengüeta estan desplaçades a la cara transparent.",
+    "expectedResponse": {
+      "repair": "Aixecar la tapa per la llengüeta.",
+      "explanation": "L’única articulació que dona accés és la tapa."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-a10b29af07c7",
+      "w-696b7c739d30",
+      "w-776ec487889f",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-089/image.png",
+      "sha256": "97fc0b2144d81f1be60d2734e413f4806007e9b9880eedb7ae9f5f79939f5482",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Capsa rígida de construccions amb tapa transparent; les peces es veuen, el fons és opac i llis. Gest exacte: Estira cap enfora el fons de la capsa des del cantell inferior mantenint fix el marc de la tapa. Únic detall volgudament incongruent: Prova d’obrir la capsa per la cara fixa en comptes de la tapa. Indici que ha de ser visible sense text: La frontissa i la llengüeta estan desplaçades a la cara transparent. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els dits estiren el cos blau al davant i la tapa transparent queda fixa, amb llengüeta i frontissa visibles.",
+      "reviewedAt": "2026-11-22T07:30:43+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-089/image.png",
+  "originalSha256": "97fc0b2144d81f1be60d2734e413f4806007e9b9880eedb7ae9f5f79939f5482",
+  "alt": {
+    "ca": "Un nen estira el cantell inferior d’una capsa de peces per intentar obrir-la.",
+    "es": "Un niño tira del borde inferior de una caja de piezas para intentar abrirla."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:43+00:00"
+}

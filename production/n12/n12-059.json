@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-059",
+    "title": "Un llapis ocupa tres caselles",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Tauler de parxís sense números, amb fitxes rodones en les caselles de color corresponents.",
+    "contact": "Agafa un llapis llarg i en recolza el lateral creuant tres caselles d’una tirada.",
+    "breach": "Moure un llapis llarg com si fos la fitxa d’una sola casella.",
+    "cue": "El llapis travessa els límits de tres espais i les fitxes hi caben una a una.",
+    "expectedResponse": {
+      "repair": "Moure una fitxa rodona a una sola casella.",
+      "explanation": "La fitxa identifica sense ambigüitat la posició del jugador."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "label": "PARXÍS",
+        "wordId": "w-ef7a02dfdb6c"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c211f7486a30",
+      "w-1775aa96869e",
+      "w-ef7a02dfdb6c",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-059/image.png",
+      "sha256": "d98192c1cf05408bd60d27bfa379ecf4c2c1108bc9dc38d5f5b50f945b84f996",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Tauler de parxís sense números, amb fitxes rodones en les caselles de color corresponents. Gest exacte: Agafa un llapis llarg i en recolza el lateral creuant tres caselles d’una tirada. Únic detall volgudament incongruent: Moure un llapis llarg com si fos la fitxa d’una sola casella. Indici que ha de ser visible sense text: El llapis travessa els límits de tres espais i les fitxes hi caben una a una. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El llapis travessa diverses caselles i es distingeix la mida de la fitxa normal.",
+      "reviewedAt": "2026-11-22T07:28:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-059/image.png",
+  "originalSha256": "d98192c1cf05408bd60d27bfa379ecf4c2c1108bc9dc38d5f5b50f945b84f996",
+  "alt": {
+    "ca": "Un nen travessa diverses caselles d’un parxís amb un llapis agafat com a fitxa.",
+    "es": "Un niño atraviesa varias casillas de un parchís con un lápiz que usa como ficha."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:24+00:00"
+}

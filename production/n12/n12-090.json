@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-090",
+    "title": "Seure al cantell del respatller",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Cadira simple d’aula amb seient pla, respatller i quatre potes.",
+    "contact": "Des d’una postura estable amb els dos peus a terra, intenta recolzar-se amb la part alta de la cuixa al cantell del respatller i es manté amb una mà sobre el taulell.",
+    "breach": "Tria el cantell del respatller com a lloc de seure.",
+    "cue": "El seient pla buit és més avall i es veu tota la seva amplada.",
+    "expectedResponse": {
+      "repair": "Seure al seient estable amb l’esquena cap al respatller.",
+      "explanation": "La part horitzontal ampla és la que suporta el pes assegut."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-045dc98b2849",
+      "w-e1efe2c4e23d",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-090/image.png",
+      "sha256": "1209dda2f0f02bb6ef6b1fd98089831ac8ec57762bd0c57a453e7a60374cde46",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Cadira simple d’aula amb seient pla, respatller i quatre potes. Gest exacte: Des d’una postura estable amb els dos peus a terra, intenta recolzar-se amb la part alta de la cuixa al cantell del respatller i es manté amb una mà sobre el taulell. Únic detall volgudament incongruent: Tria el cantell del respatller com a lloc de seure. Indici que ha de ser visible sense text: El seient pla buit és més avall i es veu tota la seva amplada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La cuixa toca la vora del respatller, el seient queda buit i els dos peus i una mà donen suport.",
+      "reviewedAt": "2026-11-22T07:30:43+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-090/image.png",
+  "originalSha256": "1209dda2f0f02bb6ef6b1fd98089831ac8ec57762bd0c57a453e7a60374cde46",
+  "alt": {
+    "ca": "Una nena intenta seure recolzant-se al cantell del respatller de la cadira.",
+    "es": "Una niña intenta sentarse apoyándose en el borde del respaldo de la silla."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:43+00:00"
+}

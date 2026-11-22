@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-085",
+    "title": "El conte mirat pel llom",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "BIBLIOTECA",
+    "scene": "Llibre de conte de cartró amb una gran imatge muda a la coberta i llom frontal ben visible.",
+    "contact": "Sosté el llibre tancat al revés del sentit de lectura, prement les tapes una contra l’altra mentre mira fixament el llom.",
+    "breach": "Intenta seguir el conte pel llom d’un llibre fermament tancat.",
+    "cue": "El llom opac queda davant dels ulls i el bloc de pàgines queda dintre.",
+    "expectedResponse": {
+      "repair": "Obrir el llibre i mirar les pàgines.",
+      "explanation": "Les escenes del conte són a les pàgines."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-ef0bd41d6ee3",
+      "w-22f3876c9741",
+      "w-25350f813f0d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-085/image.png",
+      "sha256": "5c2e00ba60ca8d8c8f94b41a65fd767293a72587705e385893f7cc161ff85412",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Llibre de conte de cartró amb una gran imatge muda a la coberta i llom frontal ben visible. Gest exacte: Sosté el llibre tancat al revés del sentit de lectura, prement les tapes una contra l’altra mentre mira fixament el llom. Únic detall volgudament incongruent: Intenta seguir el conte pel llom d’un llibre fermament tancat. Indici que ha de ser visible sense text: El llom opac queda davant dels ulls i el bloc de pàgines queda dintre. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El llibre queda tancat amb els dos cantells pressionats. La noia té els ulls a l’alçada del llom de color groc.",
+      "reviewedAt": "2026-11-22T07:30:42+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-085/image.png",
+  "originalSha256": "5c2e00ba60ca8d8c8f94b41a65fd767293a72587705e385893f7cc161ff85412",
+  "alt": {
+    "ca": "Una noia intenta llegir un conte pel llom del llibre tancat.",
+    "es": "Una chica intenta leer un cuento por el lomo del libro cerrado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:42+00:00"
+}

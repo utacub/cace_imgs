@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-074",
+    "title": "Pintar amb el mànec",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Paper amb una taca blava i pinzell carregat.",
+    "contact": "Frega el mànec amb el paper mentre subjecta la virolla per darrere de les cerres.",
+    "breach": "El mànec toca la zona que vol pintar.",
+    "cue": "Les cerres amb pintura apunten enrere i no toquen el full.",
+    "expectedResponse": {
+      "repair": "Passar les cerres per damunt del paper.",
+      "explanation": "Les cerres hi dipositen la pintura."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "label": "PINZELL",
+        "wordId": "w-33df96705776"
+      },
+      {
+        "label": "DIBUIX",
+        "wordId": "w-07181748ab10"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b04a48827310",
+      "w-33df96705776",
+      "w-07181748ab10",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-074/image.png",
+      "sha256": "50c87486dad4d3e56437ad9873775327f93f65ca43c41e5eabdf24b086f41b9d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Paper amb una taca blava i pinzell carregat. Gest exacte: Frega el mànec amb el paper mentre subjecta la virolla per darrere de les cerres. Únic detall volgudament incongruent: El mànec toca la zona que vol pintar. Indici que ha de ser visible sense text: Les cerres amb pintura apunten enrere i no toquen el full. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El mànec llis toca la taca i les cerres blaves queden ben separades del paper.",
+      "reviewedAt": "2026-11-22T07:30:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-074/image.png",
+  "originalSha256": "50c87486dad4d3e56437ad9873775327f93f65ca43c41e5eabdf24b086f41b9d",
+  "alt": {
+    "ca": "Una nena toca la pintura del paper amb el mànec del pinzell.",
+    "es": "Una niña toca la pintura del papel con el mango del pincel."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:39+00:00"
+}

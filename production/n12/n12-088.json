@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-088",
+    "title": "Tamís per la vora llisa",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CUINA",
+    "scene": "Sedàs de malla circular sobre bol, i dos grapats de farina.",
+    "contact": "Frega suaument la farina sobre el cèrcol metàl·lic massís del sedàs, que sosté inclinat.",
+    "breach": "Fa passar la farina per un cantell massís i no per la zona perforada.",
+    "cue": "La pols cau pel lateral i la malla és visible, neta i seca.",
+    "expectedResponse": {
+      "repair": "Abocar la farina damunt la malla amb el sedàs horitzontal.",
+      "explanation": "Els forats deixen passar la farina fina."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "FARINA",
+        "wordId": "w-597d62285b22"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-597d62285b22",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-088/image.png",
+      "sha256": "039289243b369e6accc5ab66fd20bc2bb7c8f323d19c54042f3bdd1045893323",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Sedàs de malla circular sobre bol, i dos grapats de farina. Gest exacte: Frega suaument la farina sobre el cèrcol metàl·lic massís del sedàs, que sosté inclinat. Únic detall volgudament incongruent: Fa passar la farina per un cantell massís i no per la zona perforada. Indici que ha de ser visible sense text: La pols cau pel lateral i la malla és visible, neta i seca. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La farina cau des del cèrcol exterior i la malla sencera apunta al costat. Assaig sobre bol i farina visible.",
+      "reviewedAt": "2026-11-22T07:30:43+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-088/image.png",
+  "originalSha256": "039289243b369e6accc5ab66fd20bc2bb7c8f323d19c54042f3bdd1045893323",
+  "alt": {
+    "ca": "Una dona fa passar farina per la vora massissa d’un sedàs inclinat.",
+    "es": "Una mujer echa harina por el borde macizo de un tamiz inclinado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:43+00:00"
+}

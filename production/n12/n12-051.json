@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-051",
+    "title": "La foto sabonosa",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "LAVABO",
+    "scene": "Lavabo de mans amb pastilla de sabó i foto en paper no plastificat, mostrant el revers mig moll.",
+    "contact": "Frega el paper amb la barra fins que fa escuma al cantell.",
+    "breach": "Rentar una foto de paper amb sabó de mans.",
+    "cue": "Es veu el rostre imprès al cantó girat i paper ondulat al contacte.",
+    "expectedResponse": {
+      "repair": "Rentar-se les mans amb el sabó i guardar la foto seca.",
+      "explanation": "El paper fotogràfic es fa malbé quan es mulla."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "SABÓ",
+        "wordId": "w-8b5000ca29e9"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4e6be686e7c1",
+      "w-8b5000ca29e9",
+      "w-f1db5ec173b6",
+      "w-d8afb3f68b37"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-051/image.png",
+      "sha256": "f9366263e1198ac2bd37309a7a6f86a97020d3e312eb1b10cd49f5a20aa01e20",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Lavabo de mans amb pastilla de sabó i foto en paper no plastificat, mostrant el revers mig moll. Gest exacte: Frega el paper amb la barra fins que fa escuma al cantell. Únic detall volgudament incongruent: Rentar una foto de paper amb sabó de mans. Indici que ha de ser visible sense text: Es veu el rostre imprès al cantó girat i paper ondulat al contacte. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La cara impresa identifica la foto, doblegada a prop del sabó. Escuma a la cara posterior i contacte llegible.",
+      "reviewedAt": "2026-11-22T07:28:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-051/image.png",
+  "originalSha256": "f9366263e1198ac2bd37309a7a6f86a97020d3e312eb1b10cd49f5a20aa01e20",
+  "alt": {
+    "ca": "Un home frega una fotografia de paper amb una pastilla de sabó damunt la pica.",
+    "es": "Un hombre frota una fotografía de papel con una pastilla de jabón encima del lavabo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:22+00:00"
+}

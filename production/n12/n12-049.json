@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-049",
+    "title": "Regar unes sabates",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "HORT",
+    "scene": "Parterre amb regadora i parell de sabates seques en un clot sense planta.",
+    "contact": "Aboca aigua amb la carxofa directament a dins d’una sabata.",
+    "breach": "Regar unes sabates com si fossin plantes del parterre.",
+    "cue": "El raig entra per l’obertura que deixa veure la plantilla, sense terra ni brot.",
+    "expectedResponse": {
+      "repair": "Dirigir l’aigua a la terra al peu de les plantes.",
+      "explanation": "Les arrels de les plantes necessiten l’aigua."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "REGAR",
+        "wordId": "w-00107994a0cd"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-00107994a0cd",
+      "w-00e8b2c10536",
+      "w-6e2a67944770",
+      "w-7338bad6a84a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-049/image.png",
+      "sha256": "78ae8c24d23a1ef3f1e68da964f92b1145105b2ff8447571118c6c52ef088b8f",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Parterre amb regadora i parell de sabates seques en un clot sense planta. Gest exacte: Aboca aigua amb la carxofa directament a dins d’una sabata. Únic detall volgudament incongruent: Regar unes sabates com si fossin plantes del parterre. Indici que ha de ser visible sense text: El raig entra per l’obertura que deixa veure la plantilla, sense terra ni brot. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El broc dirigeix el doll a la boca d’una sabata. Parell de sabates complet sobre el parterre.",
+      "reviewedAt": "2026-11-22T07:28:21+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-049/image.png",
+  "originalSha256": "78ae8c24d23a1ef3f1e68da964f92b1145105b2ff8447571118c6c52ef088b8f",
+  "alt": {
+    "ca": "Una nena rega una sabata amb una regadora.",
+    "es": "Una niña riega un zapato con una regadera."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:21+00:00"
+}

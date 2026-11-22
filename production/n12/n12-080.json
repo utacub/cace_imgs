@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-080",
+    "title": "El segell per la fusta",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Segell infantil amb base de goma d’estrella, coixinet de tinta i full amb un cercle buit.",
+    "contact": "Prem la part plana superior de fusta contra el full i abraça el cos del segell amb els dits.",
+    "breach": "Estampa amb el dors del segell.",
+    "cue": "La goma entintada mira amunt i l’estrella és ben visible.",
+    "expectedResponse": {
+      "repair": "Posar la goma entintada contra el paper.",
+      "explanation": "La figura només es transfereix des de la goma."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "DIBUIX",
+        "wordId": "w-07181748ab10"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-07181748ab10",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-080/image.png",
+      "sha256": "37c095409eeb96280558ceb4eb3c7fa2e9cf1b939998faba43e615a084e493f5",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Segell infantil amb base de goma d’estrella, coixinet de tinta i full amb un cercle buit. Gest exacte: Prem la part plana superior de fusta contra el full i abraça el cos del segell amb els dits. Únic detall volgudament incongruent: Estampa amb el dors del segell. Indici que ha de ser visible sense text: La goma entintada mira amunt i l’estrella és ben visible. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’estrella entintada és visible al capdamunt. El dors toca el full i el coixinet de tinta es veu a part.",
+      "reviewedAt": "2026-11-22T07:30:40+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-080/image.png",
+  "originalSha256": "37c095409eeb96280558ceb4eb3c7fa2e9cf1b939998faba43e615a084e493f5",
+  "alt": {
+    "ca": "Un noi estampa un full amb la part de fusta d’un segell, amb l’estrella entintada cap amunt.",
+    "es": "Un chico estampa una hoja con la parte de madera de un sello, con la estrella entintada hacia arriba."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:40+00:00"
+}

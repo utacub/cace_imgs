@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-073",
+    "title": "El llapis pel lateral",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Dos traços fins iniciats en una fitxa muda i un llapis sense goma.",
+    "contact": "Frega el lateral de fusta per damunt del tercer traç guia.",
+    "breach": "El costat del llapis ocupa el lloc de la punta.",
+    "cue": "La punta de grafit és ben visible a l’aire.",
+    "expectedResponse": {
+      "repair": "Posar la punta de grafit al paper.",
+      "explanation": "El grafit en contacte deixa el traç."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "ESCRIURE",
+        "wordId": "w-3472cd3a36ee"
+      },
+      {
+        "label": "LLAPIS",
+        "wordId": "w-1775aa96869e"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-3472cd3a36ee",
+      "w-1775aa96869e",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-073/image.png",
+      "sha256": "c0850d44d5f804caf022a9d95079489896d69aed3e58fc99647b0ea416d19e4c",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Dos traços fins iniciats en una fitxa muda i un llapis sense goma. Gest exacte: Frega el lateral de fusta per damunt del tercer traç guia. Únic detall volgudament incongruent: El costat del llapis ocupa el lloc de la punta. Indici que ha de ser visible sense text: La punta de grafit és ben visible a l’aire. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Llapis de fusta horitzontal de costat, amb la punta de grafit a uns centímetres del full. Ha de ser el lateral de fusta el que toqui el full. La mà el subjecta en pla. No facis servir el cul ni la punta.",
+      "review": "El llapis jau pla a través de la zona d’escriptura i la punta no toca el full.",
+      "reviewedAt": "2026-11-22T07:30:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-073/image.png",
+  "originalSha256": "c0850d44d5f804caf022a9d95079489896d69aed3e58fc99647b0ea416d19e4c",
+  "alt": {
+    "ca": "Un nen intenta escriure fregant el lateral del llapis pla contra el paper.",
+    "es": "Un niño intenta escribir frotando el lateral del lápiz tumbado contra el papel."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:39+00:00"
+}

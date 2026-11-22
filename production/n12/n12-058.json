@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-058",
+    "title": "L’entrepà de la bústia",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CORREUS",
+    "scene": "Bústia de correus amb ranura estreta i dues cartes de paper al prestatget.",
+    "contact": "Empeny un entrepà sense embolicar contra el llavi de la ranura.",
+    "breach": "Enviar un entrepà sense preparar per la ranura de cartes.",
+    "cue": "El pa i el farciment sobresurten molt i les cartes són planes.",
+    "expectedResponse": {
+      "repair": "Dipositar-hi una carta ensobrada.",
+      "explanation": "La ranura admet correspondència plana."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "ENTREPÀ",
+        "wordId": "w-0c47f11deffa"
+      },
+      {
+        "label": "CARTA",
+        "wordId": "w-c80ed8fe0391"
+      },
+      {
+        "label": "CORREUS",
+        "wordId": "w-672b6da3feee"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-0c47f11deffa",
+      "w-c80ed8fe0391",
+      "w-672b6da3feee"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-058/image.png",
+      "sha256": "a810edbb03731b92585e194d000acb8d9db56186b23df6427736415040597d32",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Bústia de correus amb ranura estreta i dues cartes de paper al prestatget. Gest exacte: Empeny un entrepà sense embolicar contra el llavi de la ranura. Únic detall volgudament incongruent: Enviar un entrepà sense preparar per la ranura de cartes. Indici que ha de ser visible sense text: El pa i el farciment sobresurten molt i les cartes són planes. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veuen la correspondència a la mà, la ranura i el farciment que sobresurt.",
+      "reviewedAt": "2026-11-22T07:28:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-058/image.png",
+  "originalSha256": "a810edbb03731b92585e194d000acb8d9db56186b23df6427736415040597d32",
+  "alt": {
+    "ca": "Un home introdueix un entrepà sense embolicar per la ranura d’una bústia.",
+    "es": "Un hombre introduce un bocadillo sin envolver por la ranura de un buzón."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:24+00:00"
+}

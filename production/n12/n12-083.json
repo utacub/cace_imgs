@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-083",
+    "title": "Omplir una galleda invertida",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "PATI",
+    "scene": "Galleda de sorral amb obertura i base contrastades, i pala amb sorra.",
+    "contact": "Aboca la pala carregada sobre el cul de la galleda invertida.",
+    "breach": "Fa servir el cul exterior com a boca del recipient.",
+    "cue": "Els grans vessen pels laterals del cul tancat.",
+    "expectedResponse": {
+      "repair": "Girar la galleda i abocar per l’obertura.",
+      "explanation": "La boca dona accés al volum interior."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "GALLEDA",
+        "wordId": "w-7f04619a8649"
+      },
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-6d90f16f5461",
+      "w-7f04619a8649",
+      "w-208167fa638f",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-083/image.png",
+      "sha256": "78a2ab624e0a22113138d8f518167bad53af31fab137ebed249cba7a443db5af",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Galleda de sorral amb obertura i base contrastades, i pala amb sorra. Gest exacte: Aboca la pala carregada sobre el cul de la galleda invertida. Únic detall volgudament incongruent: Fa servir el cul exterior com a boca del recipient. Indici que ha de ser visible sense text: Els grans vessen pels laterals del cul tancat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La sorra es vessa a banda i banda del cul tancat. La galleda invertida i la pala són senceres.",
+      "reviewedAt": "2026-11-22T07:30:42+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-083/image.png",
+  "originalSha256": "78a2ab624e0a22113138d8f518167bad53af31fab137ebed249cba7a443db5af",
+  "alt": {
+    "ca": "Un nen aboca sorra de la pala sobre el cul d’una galleda cap per avall.",
+    "es": "Un niño echa arena de la pala sobre la base de un cubo volteado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:42+00:00"
+}

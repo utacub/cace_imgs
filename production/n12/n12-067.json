@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-067",
+    "title": "El got a la corda d’estendre",
+    "mechanism": "objecte",
+    "subtype": "peces-i-respostes-equivocades",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CASA",
+    "scene": "Estenedor baix amb dues peces molles pinçades i un got rígid de plàstic.",
+    "contact": "Tanca una pinça sobre el cantell gruixut del got, que encara sosté amb l’altra mà.",
+    "breach": "Penjar un got com a peça de bugada a la fila de roba.",
+    "cue": "El got no és tela i impedeix que la pinça s’hi tanqui del tot.",
+    "expectedResponse": {
+      "repair": "Pinçar-hi una peça de roba i deixar el got a l’escorredor.",
+      "explanation": "La pinça subjecta la vora flexible de la roba."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "ROBA",
+        "wordId": "w-7dc88016e698"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-1bed9f18ebab",
+      "w-7dc88016e698",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-067/image.png",
+      "sha256": "3ad7fb79eb3109e87e8cc5a92ec6764b02c66e84292c9001d455d491bef6fb43",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Estenedor baix amb dues peces molles pinçades i un got rígid de plàstic. Gest exacte: Tanca una pinça sobre el cantell gruixut del got, que encara sosté amb l’altra mà. Únic detall volgudament incongruent: Penjar un got com a peça de bugada a la fila de roba. Indici que ha de ser visible sense text: El got no és tela i impedeix que la pinça s’hi tanqui del tot. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La pinça es recolza a la vora del got i la mà lliure encara aguanta el got. Dues peces de roba situen la bugada.",
+      "reviewedAt": "2026-11-22T07:28:26+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-067/image.png",
+  "originalSha256": "3ad7fb79eb3109e87e8cc5a92ec6764b02c66e84292c9001d455d491bef6fb43",
+  "alt": {
+    "ca": "Una dona prova de penjar un got de plàstic amb una pinça a l’estenedor.",
+    "es": "Una mujer intenta colgar un vaso de plástico con una pinza en el tendedero."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:26+00:00"
+}

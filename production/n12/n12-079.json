@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-079",
+    "title": "La maleta arrossega la carcassa",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "ESTACIÓ",
+    "scene": "Maleta de rodet amb dues rodes a l’extrem contrari del mànec, en terra llis d’estació.",
+    "contact": "Estira el mànec de manera que arrossega el costat oposat a les rodes.",
+    "breach": "L’equipatge roda amb el costat de les rodes aixecat.",
+    "cue": "Dues rodes visibles no toquen el terra i la carcassa hi frega.",
+    "expectedResponse": {
+      "repair": "Inclinar la maleta sobre les seves rodes.",
+      "explanation": "Les rodes han de tocar a terra per substituir el fregament per rodolament."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "ESTACIÓ",
+        "wordId": "w-9b3c255b8732"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-73b71e1ff757",
+      "w-696b7c739d30",
+      "w-9b3c255b8732"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-079/image.png",
+      "sha256": "7879d5ec6e44348312f655dc9fb8401e3dac9290a5a1d1a516a50a789f76808d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Maleta de rodet amb dues rodes a l’extrem contrari del mànec, en terra llis d’estació. Gest exacte: Estira el mànec de manera que arrossega el costat oposat a les rodes. Únic detall volgudament incongruent: L’equipatge roda amb el costat de les rodes aixecat. Indici que ha de ser visible sense text: Dues rodes visibles no toquen el terra i la carcassa hi frega. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Fons d’estudi blanc, banc senzill com únic context. És visible que les dues rodes queden enlairades i la cantonada oposada toca terra. No hi ha moviment impossible.",
+      "review": "La cantonada de la maleta toca el terra i les dues rodes són a l’aire al darrere. Passa de perfil amb banc de context.",
+      "reviewedAt": "2026-11-22T07:30:40+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-079/image.png",
+  "originalSha256": "7879d5ec6e44348312f655dc9fb8401e3dac9290a5a1d1a516a50a789f76808d",
+  "alt": {
+    "ca": "Un home arrossega la maleta amb les rodes aixecades.",
+    "es": "Un hombre arrastra la maleta con las ruedas levantadas."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:40+00:00"
+}

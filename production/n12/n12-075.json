@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-075",
+    "title": "Assecar els fulls darrere del ventilador",
+    "mechanism": "us",
+    "subtype": "extrem-o-cara-inadequats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "TALLER",
+    "scene": "Ventilador de taula amb reixeta i dos papers humits pinçats al costat de la presa d’aire.",
+    "contact": "Col·loca la pinça d’un full sobre el suport situat darrere del cos del ventilador.",
+    "breach": "Situa el paper pel costat que aspira en l’assecat amb aire dirigit.",
+    "cue": "El frontal orientable apunta clarament al costat oposat als fulls.",
+    "expectedResponse": {
+      "repair": "Orientar el frontal cap als fulls.",
+      "explanation": "El corrent de sortida és el que es pot dirigir sobre els papers."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "VENTILADOR",
+        "wordId": "w-dde24b127364"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-ae417aa563dd",
+      "w-dde24b127364",
+      "w-cd5c60f0d076",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-075/image.png",
+      "sha256": "2b4c3b2181421540881101a4d8f6f3f111dc61402e7523a32898f3fce6d472a8",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Ventilador de taula amb reixeta i dos papers humits pinçats al costat de la presa d’aire. Gest exacte: Col·loca la pinça d’un full sobre el suport situat darrere del cos del ventilador. Únic detall volgudament incongruent: Situa el paper pel costat que aspira en l’assecat amb aire dirigit. Indici que ha de ser visible sense text: El frontal orientable apunta clarament al costat oposat als fulls. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els fulls humits es pengen al costat contrari a la reixeta principal, que apunta cap a l’altra banda.",
+      "reviewedAt": "2026-11-22T07:30:39+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-075/image.png",
+  "originalSha256": "2b4c3b2181421540881101a4d8f6f3f111dc61402e7523a32898f3fce6d472a8",
+  "alt": {
+    "ca": "Una dona penja dos fulls humits darrere del ventilador, al costat oposat a la sortida d’aire.",
+    "es": "Una mujer cuelga dos hojas húmedas detrás del ventilador, en el lado opuesto a la salida de aire."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:30:39+00:00"
+}

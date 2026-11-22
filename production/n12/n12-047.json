@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-047",
+    "title": "Pasta de dents sobre la carmanyola",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "LAVABO",
+    "scene": "Mirall i lavabo de bany amb tub de pasta obert i una carmanyola tancada amb tapa llisa.",
+    "contact": "Frega la tapa amb el raspall de dents carregat de pasta mentre mira cap a la carmanyola.",
+    "breach": "Raspallar la carmanyola com si tingués dents.",
+    "cue": "S’observen el cordó de pasta i la tapa contínua sota les cerres.",
+    "expectedResponse": {
+      "repair": "Raspallar-se les dents al lavabo.",
+      "explanation": "La pasta dental i el raspall són per netejar dents."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "RASPALL DE DENTS",
+        "wordId": "w-ba87276d415c"
+      },
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4e6be686e7c1",
+      "w-ba87276d415c",
+      "w-c3b8bd56e942",
+      "w-d8afb3f68b37"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-047/image.png",
+      "sha256": "e5ce23cde2e598e045f2f365830baa77cb4fb50975478ad6a3af2490e5c41fc3",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Mirall i lavabo de bany amb tub de pasta obert i una carmanyola tancada amb tapa llisa. Gest exacte: Frega la tapa amb el raspall de dents carregat de pasta mentre mira cap a la carmanyola. Únic detall volgudament incongruent: Raspallar la carmanyola com si tingués dents. Indici que ha de ser visible sense text: S’observen el cordó de pasta i la tapa contínua sota les cerres. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Distingir la carmanyola dura i rectangular, la pasta blanca i el raspall. Mirall opcional només si el reflex correspon exactament a l’angle de la persona; és preferible ometre’l si queda massa a prop del punt de contacte.",
+      "review": "Es reconeixen la pasta, les cerres en contacte i la carmanyola tancada. El lavabo acompanya el gest.",
+      "reviewedAt": "2026-11-22T07:28:21+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-047/image.png",
+  "originalSha256": "e5ce23cde2e598e045f2f365830baa77cb4fb50975478ad6a3af2490e5c41fc3",
+  "alt": {
+    "ca": "Un noi raspalla la tapa d’una carmanyola amb raspall i pasta de dents.",
+    "es": "Un chico cepilla la tapa de una fiambrera con cepillo y pasta de dientes."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:21+00:00"
+}

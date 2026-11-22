@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-053",
+    "title": "Melmelada a la pell de síndria",
+    "mechanism": "objecte",
+    "subtype": "materials-equivocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CUINA",
+    "scene": "Safata amb galetes planes i un pot obert de melmelada; mitja síndria reposa amb la cara tallada avall.",
+    "contact": "Amb una espàtula roma escampa una capa de melmelada per l’exterior verd de la síndria.",
+    "breach": "Untar melmelada sobre l’escorça inservible com a suport del berenar.",
+    "cue": "Les ratlles verdes continuen sota la melmelada i les galetes són a la safata.",
+    "expectedResponse": {
+      "repair": "Untar la melmelada sobre les galetes.",
+      "explanation": "La melmelada va en una superfície comestible que es pugui servir."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "MELMELADA",
+        "wordId": "w-b111412f6d35"
+      },
+      {
+        "label": "SÍNDRIA",
+        "wordId": "w-0521272a5534"
+      },
+      {
+        "label": "GALETES",
+        "wordId": "w-eecb1a704a59"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-b111412f6d35",
+      "w-0521272a5534",
+      "w-eecb1a704a59",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-053/image.png",
+      "sha256": "822625b1025cef89c750e6afa4d818b3c954c743d02818bff31e4c49fad55bfb",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Safata amb galetes planes i un pot obert de melmelada; mitja síndria reposa amb la cara tallada avall. Gest exacte: Amb una espàtula roma escampa una capa de melmelada per l’exterior verd de la síndria. Únic detall volgudament incongruent: Untar melmelada sobre l’escorça inservible com a suport del berenar. Indici que ha de ser visible sense text: Les ratlles verdes continuen sota la melmelada i les galetes són a la safata. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La pell ratllada de la síndria és visible sota la capa i la safata de galetes queda separada.",
+      "reviewedAt": "2026-11-22T07:28:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-053/image.png",
+  "originalSha256": "822625b1025cef89c750e6afa4d818b3c954c743d02818bff31e4c49fad55bfb",
+  "alt": {
+    "ca": "Un home unta melmelada a la pell verda de mitja síndria.",
+    "es": "Un hombre unta mermelada en la cáscara verde de media sandía."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:28:22+00:00"
+}
