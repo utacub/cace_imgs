@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-109",
+    "title": "Una cadira talla el pas",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Entrada interior amb porta oberta, pas ample de terra i dues cadires alineades contra la paret.",
+    "contact": "Empeny una tercera cadira fins al centre del llindar i la deixa amb les quatre potes a terra.",
+    "breach": "Desa la cadira al pas d’una porta en ús.",
+    "cue": "El respatller i el seient ocupen tot l’ample del pas que segueix al corredor.",
+    "expectedResponse": {
+      "repair": "Posar la cadira a l’espai lateral amb les altres.",
+      "explanation": "Les persones necessiten el llindar lliure per passar."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-e1efe2c4e23d",
+      "w-e2209c0332a6",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-109/image.png",
+      "sha256": "e03744ab254e35ca84ecc8f6221ee2496a6343ca0802e61bf5c07f6eacc4dda4",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Entrada interior amb porta oberta, pas ample de terra i dues cadires alineades contra la paret. Gest exacte: Empeny una tercera cadira fins al centre del llindar i la deixa amb les quatre potes a terra. Únic detall volgudament incongruent: Desa la cadira al pas d’una porta en ús. Indici que ha de ser visible sense text: El respatller i el seient ocupen tot l’ample del pas que segueix al corredor. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. No capgiris la cadira i no tallis el llindar. La cadira dreta té les quatre potes a terra, ocupa el centre i hi ha una fila de cadires en una paret lateral lliure.",
+      "review": "La cadira ocupa tot el camí del llindar i dues cadires del mateix tipus es veuen al costat.",
+      "reviewedAt": "2026-11-22T07:33:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-109/image.png",
+  "originalSha256": "e03744ab254e35ca84ecc8f6221ee2496a6343ca0802e61bf5c07f6eacc4dda4",
+  "alt": {
+    "ca": "Un home col·loca una cadira al mig del pas d’una porta oberta.",
+    "es": "Un hombre coloca una silla en medio del paso de una puerta abierta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:07+00:00"
+}

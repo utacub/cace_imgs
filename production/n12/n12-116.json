@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-116",
+    "title": "Les sabates al faristol",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Faristol ample de fusta davant de piano, sabater baix al costat i partitura muda al costat de l’instrument.",
+    "contact": "Alinea el parell de sabates seques amb les soles sobre el llavi del faristol.",
+    "breach": "Desa sabates a la superfície reservada a la lectura musical.",
+    "cue": "Les dues soles ocupen la lleixa inclinada on ha de descansar el full.",
+    "expectedResponse": {
+      "repair": "Desar les sabates al sabater.",
+      "explanation": "La lleixa és un suport per mantenir la partitura visible."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "MÚSICA",
+        "wordId": "w-13826629def8"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-f0441e0dd3b0",
+      "w-6e2a67944770",
+      "w-13826629def8",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-116/image.png",
+      "sha256": "f5582cdb2a031ca1e3ab21d4a04bca8f231761045a367e7fb0df74cdf7e3cea3",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Faristol ample de fusta davant de piano, sabater baix al costat i partitura muda al costat de l’instrument. Gest exacte: Alinea el parell de sabates seques amb les soles sobre el llavi del faristol. Únic detall volgudament incongruent: Desa sabates a la superfície reservada a la lectura musical. Indici que ha de ser visible sense text: Les dues soles ocupen la lleixa inclinada on ha de descansar el full. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veuen les dues soles contra la lleixa del faristol i la partitura a prop del piano.",
+      "reviewedAt": "2026-11-22T07:33:08+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-116/image.png",
+  "originalSha256": "f5582cdb2a031ca1e3ab21d4a04bca8f231761045a367e7fb0df74cdf7e3cea3",
+  "alt": {
+    "ca": "Una nena posa les sabates sobre el faristol al costat d’un piano.",
+    "es": "Una niña coloca sus zapatos sobre el atril junto a un piano."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:08+00:00"
+}

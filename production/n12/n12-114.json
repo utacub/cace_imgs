@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-114",
+    "title": "Motxilles a la porteria",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "PATI",
+    "scene": "Porteria baixa amb xarxa i línia clara de camp, i taquilles de pati al lateral. Dues motxilles en fila al fons de la porteria.",
+    "contact": "En posa una tercera a la línia de boca, completant una fila que bloqueja l’entrada.",
+    "breach": "Desa les motxilles dins una porteria en ús.",
+    "cue": "La xarxa i la pilota davant revelen el pas bloquejat.",
+    "expectedResponse": {
+      "repair": "Desar-les a la zona de taquilles fora del camp.",
+      "explanation": "La pilota necessita una boca de porteria lliure."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "FUTBOL",
+        "wordId": "w-f098afce8a56"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-f0441e0dd3b0",
+      "w-43db0ea26088",
+      "w-f098afce8a56",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-114/image.png",
+      "sha256": "cffa67ee5b73b5e768e8975b4429a8405c1ab624813216d4eab4b36a6cb9dd78",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Porteria baixa amb xarxa i línia clara de camp, i taquilles de pati al lateral. Dues motxilles en fila al fons de la porteria. Gest exacte: En posa una tercera a la línia de boca, completant una fila que bloqueja l’entrada. Únic detall volgudament incongruent: Desa les motxilles dins una porteria en ús. Indici que ha de ser visible sense text: La xarxa i la pilota davant revelen el pas bloquejat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Tres motxilles ocupen la boca de la porteria i la pilota es troba al davant de la ratlla.",
+      "reviewedAt": "2026-11-22T07:33:08+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-114/image.png",
+  "originalSha256": "cffa67ee5b73b5e768e8975b4429a8405c1ab624813216d4eab4b36a6cb9dd78",
+  "alt": {
+    "ca": "Una noia desa una tercera motxilla dins d’una porteria de futbol.",
+    "es": "Una chica guarda una tercera mochila dentro de una portería de fútbol."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:08+00:00"
+}

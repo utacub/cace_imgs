@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-103",
+    "title": "La grapadora amb la safata al darrere",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CLASSE",
+    "scene": "Grapadora sense grapes per a la representació i dos fulls apilats sota la frontissa posterior.",
+    "contact": "Prem la part superior mentre els fulls toquen la frontissa i la boca anterior queda buida.",
+    "breach": "Posa el paper fora de la boca de la grapadora durant l’acció.",
+    "cue": "L’espai de grapat és visible davant i el paper queda darrere.",
+    "expectedResponse": {
+      "repair": "Introduir els fulls pel costat de la boca.",
+      "explanation": "Allà coincideixen la grapa i la base que la doblega."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-072ecc01e120",
+      "w-cd5c60f0d076",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-103/rejected-01.png",
+      "sha256": "0ae95e0e537f47ce34cc0c9a8de005e5a07dc05214afb0d065f822902a2c6e68",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Grapadora sense grapes per a la representació i dos fulls apilats sota la frontissa posterior. Gest exacte: Prem la part superior mentre els fulls toquen la frontissa i la boca anterior queda buida. Únic detall volgudament incongruent: Posa el paper fora de la boca de la grapadora durant l’acció. Indici que ha de ser visible sense text: L’espai de grapat és visible davant i el paper queda darrere. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els fulls queden davant del cos articulat. Semblen entrar per la boca de grapat i la relació prevista no es veu.",
+      "reviewedAt": "2026-11-22T07:33:05+00:00"
+    }
+  ],
+  "status": "rejected"
+}

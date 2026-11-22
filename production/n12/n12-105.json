@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-105",
+    "title": "El polsador rere la tapa",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Timbre de prova a una porta interior, amb tapa protectora transparent rígida abaixada.",
+    "contact": "Pressiona amb l’índex la tapa separada del botó per uns mil·límetres.",
+    "breach": "Prem el protector, que no transmet la pressió al timbre.",
+    "cue": "L’angle de perfil mostra la tapa i el botó separats.",
+    "expectedResponse": {
+      "repair": "Aixecar la tapa i prémer el botó.",
+      "explanation": "El dit ha d’arribar al polsador."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TIMBRE",
+        "wordId": "w-060bce9fd6c3"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-060bce9fd6c3",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-105/rejected-01.png",
+      "sha256": "fbde1965a358c85affe69ff23ea0067e73ba86dde70d6375972506a13c85cc59",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Timbre de prova a una porta interior, amb tapa protectora transparent rígida abaixada. Gest exacte: Pressiona amb l’índex la tapa separada del botó per uns mil·límetres. Únic detall volgudament incongruent: Prem el protector, que no transmet la pressió al timbre. Indici que ha de ser visible sense text: L’angle de perfil mostra la tapa i el botó separats. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La tapa ja queda mig alçada i el dit sembla estar-la obrint correctament. S’ha de veure el protector tancat i el botó inaccesible.",
+      "reviewedAt": "2026-11-22T07:33:05+00:00"
+    }
+  ],
+  "status": "rejected"
+}

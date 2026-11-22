@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-107",
+    "title": "El guix darrere la funda",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Guix dins un portaguixos amb tapa transparent de protecció tancada i una pissarra amb traços.",
+    "contact": "Frega l’extrem protegit contra la pissarra a la zona on vol fer un traç.",
+    "breach": "Dibuixa sense destapar l’extrem de guix.",
+    "cue": "Al contacte només hi ha plàstic i la punta blanca queda a dins.",
+    "expectedResponse": {
+      "repair": "Destapar la punta de guix abans de dibuixar.",
+      "explanation": "Cal transferir pols de guix a la pissarra."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "DIBUIXAR",
+        "wordId": "w-2e0a67ac121f"
+      },
+      {
+        "label": "PISSARRA",
+        "wordId": "w-8a3a439bdb8e"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-2e0a67ac121f",
+      "w-8a3a439bdb8e",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-107/image.png",
+      "sha256": "a9d248428dc19bf52c4a15007c3766d94f3ed4771547041b646f5fee7a3bc383",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Guix dins un portaguixos amb tapa transparent de protecció tancada i una pissarra amb traços. Gest exacte: Frega l’extrem protegit contra la pissarra a la zona on vol fer un traç. Únic detall volgudament incongruent: Dibuixa sense destapar l’extrem de guix. Indici que ha de ser visible sense text: Al contacte només hi ha plàstic i la punta blanca queda a dins. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La punta blanca es veu dins el plàstic transparent i és la tapa la que toca la pissarra.",
+      "reviewedAt": "2026-11-22T07:33:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-107/image.png",
+  "originalSha256": "a9d248428dc19bf52c4a15007c3766d94f3ed4771547041b646f5fee7a3bc383",
+  "alt": {
+    "ca": "Un noi prova de dibuixar amb una barra de guix encara tapada.",
+    "es": "Un chico intenta dibujar con una barra de tiza que sigue tapada."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:07+00:00"
+}

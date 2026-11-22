@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-108",
+    "title": "Una porta tancada entre les dues peces del tren",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CLASSE",
+    "scene": "Tren de fusta amb dos vagons acoblables sobre una via de sobretaula. Una porta basculant del túnel de joguina queda tancada entre un vagó i l’altre.",
+    "contact": "Fa avançar un vagó fins que el seu enganxall toca la porta tancada. El segon enganxall queda alineat a l’altra banda.",
+    "breach": "Intenta unir els vagons a través de la porta del túnel tancada.",
+    "cue": "La porta ocupa tot l’espai entre els dos enganxalls que coincideixen a la mateixa alçada.",
+    "expectedResponse": {
+      "repair": "Obrir la porta del túnel i acostar els dos enganxalls.",
+      "explanation": "Els enganxalls s’han de tocar perquè els vagons quedin units."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "TREN",
+        "wordId": "w-b961c4c94862"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-b961c4c94862",
+      "w-e2209c0332a6",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-108/image.png",
+      "sha256": "99bc6e1a2bc6eaad7840dbf26ca438c36eff0f7d01990d9ee6f3fde3665365fb",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Tren de fusta amb dos vagons acoblables sobre una via de sobretaula. Una porta basculant del túnel de joguina queda tancada entre un vagó i l’altre. Gest exacte: Fa avançar un vagó fins que el seu enganxall toca la porta tancada. El segon enganxall queda alineat a l’altra banda. Únic detall volgudament incongruent: Intenta unir els vagons a través de la porta del túnel tancada. Indici que ha de ser visible sense text: La porta ocupa tot l’espai entre els dos enganxalls que coincideixen a la mateixa alçada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El túnel i la porta entre vagons es veuen. L’enganxall de l’altre vagó queda alineat amb el que empeny.",
+      "reviewedAt": "2026-11-22T07:33:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-108/image.png",
+  "originalSha256": "99bc6e1a2bc6eaad7840dbf26ca438c36eff0f7d01990d9ee6f3fde3665365fb",
+  "alt": {
+    "ca": "Un home empeny un vagó de joguina per unir-lo amb un altre amb la porta del túnel tancada al mig.",
+    "es": "Un hombre empuja un vagón de juguete para unirlo a otro con la puerta del túnel cerrada en medio."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:07+00:00"
+}

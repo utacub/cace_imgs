@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-099",
+    "title": "La clau al disc llis",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Porta amb un pany i una peça metàl·lica circular llisa al mateix nivell, a una distància clara.",
+    "contact": "Prem la punta de la clau contra el disc llis en comptes de fer-la entrar al bombí.",
+    "breach": "Intenta desbloquejar la porta en un punt sense ranura.",
+    "cue": "El disc llis és continu i la ranura real queda visible.",
+    "expectedResponse": {
+      "repair": "Introduir la clau a la ranura del pany.",
+      "explanation": "La clau ha d’entrar al mecanisme que acciona."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "CLAU",
+        "wordId": "w-49f4bdd9a93a"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-49f4bdd9a93a",
+      "w-e2209c0332a6",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-099/image.png",
+      "sha256": "76b70ad6aad3818144f1259bb248c480a4ba16f14a27a07db72f612e2b95bd7b",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Porta amb un pany i una peça metàl·lica circular llisa al mateix nivell, a una distància clara. Gest exacte: Prem la punta de la clau contra el disc llis en comptes de fer-la entrar al bombí. Únic detall volgudament incongruent: Intenta desbloquejar la porta en un punt sense ranura. Indici que ha de ser visible sense text: El disc llis és continu i la ranura real queda visible. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "A mida gran, la punta fa contacte amb el disc massís. La ranura de clau és visible al disc inferior.",
+      "reviewedAt": "2026-11-22T07:33:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-099/image.png",
+  "originalSha256": "76b70ad6aad3818144f1259bb248c480a4ba16f14a27a07db72f612e2b95bd7b",
+  "alt": {
+    "ca": "Un nen prem la clau contra un disc llis de la porta per damunt del pany.",
+    "es": "Un niño presiona la llave contra un disco liso de la puerta que está encima de la cerradura."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:04+00:00"
+}

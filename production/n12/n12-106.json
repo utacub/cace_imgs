@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-106",
+    "title": "La pista de la rampa bloquejada",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Circuit de joguina, rampa baixa amb barrera pivotant abaixada i un cotxe.",
+    "contact": "Empeny amb suavitat el cotxe fins que el para-xocs toca la barrera.",
+    "breach": "Fa sortir el cotxe sense aixecar el travesser de sortida.",
+    "cue": "La barrera continua perpendicular a la trajectòria.",
+    "expectedResponse": {
+      "repair": "Aixecar la barrera abans de fer sortir el cotxe.",
+      "explanation": "El cotxe necessita una pista lliure."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "COTXE",
+        "wordId": "w-1088e4bd6972"
+      },
+      {
+        "label": "RAMPA",
+        "wordId": "w-9079294dc56e"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-1088e4bd6972",
+      "w-9079294dc56e",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-106/image.png",
+      "sha256": "9ed93e2d93a6b59f0435e3dba193f688b7731a9858f52c07afa80855ca650e57",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Circuit de joguina, rampa baixa amb barrera pivotant abaixada i un cotxe. Gest exacte: Empeny amb suavitat el cotxe fins que el para-xocs toca la barrera. Únic detall volgudament incongruent: Fa sortir el cotxe sense aixecar el travesser de sortida. Indici que ha de ser visible sense text: La barrera continua perpendicular a la trajectòria. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Un perfil amb el cotxe de joguina sencer. El para-xocs toca la barrera abaixada quan el nen l’empeny amb un sol dit. Escala de sobretaula i vores de rampa, sense vehicles reals.",
+      "review": "El cotxe és a l’extrem de la rampa en contacte amb la barrera i el dit l’empeny des de darrere.",
+      "reviewedAt": "2026-11-22T07:33:05+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-106/image.png",
+  "originalSha256": "9ed93e2d93a6b59f0435e3dba193f688b7731a9858f52c07afa80855ca650e57",
+  "alt": {
+    "ca": "Una nena empeny un cotxe de joguina contra la barrera abaixada de la pista.",
+    "es": "Una niña empuja un coche de juguete contra la barrera bajada de la pista."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:05+00:00"
+}

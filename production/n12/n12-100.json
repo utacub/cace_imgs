@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-100",
+    "title": "La manta topa amb la reixa",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Transportí buit d’animal, porta reixada tancada i manta plegada de la mida del fons.",
+    "contact": "Empeny la manta plegada contra les barres per l’exterior.",
+    "breach": "Prepara el llit de l’animal sense obrir la porta del transportí.",
+    "cue": "La manta topa amb les barres i es veu el passador al costat.",
+    "expectedResponse": {
+      "repair": "Obrir la porta i estendre la manta al fons.",
+      "explanation": "L’obertura deixa passar tota la manta."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "LLIT",
+        "wordId": "w-5f7c1679605f"
+      },
+      {
+        "label": "MANTA",
+        "wordId": "w-732ff8e447b5"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-5f7c1679605f",
+      "w-732ff8e447b5",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-100/image.png",
+      "sha256": "5edbb7b6dbeba76971e1374da33b2455d0e7fec79fc2a62cd0b736c5977dc67e",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Transportí buit d’animal, porta reixada tancada i manta plegada de la mida del fons. Gest exacte: Empeny la manta plegada contra les barres per l’exterior. Únic detall volgudament incongruent: Prepara el llit de l’animal sense obrir la porta del transportí. Indici que ha de ser visible sense text: La manta topa amb les barres i es veu el passador al costat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les mans premen la manta contra les barres i el passador complet queda visible al cantó.",
+      "reviewedAt": "2026-11-22T07:33:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-100/image.png",
+  "originalSha256": "5edbb7b6dbeba76971e1374da33b2455d0e7fec79fc2a62cd0b736c5977dc67e",
+  "alt": {
+    "ca": "Un home vol posar una manta dins d’un transportí mantenint tancada la porta reixada.",
+    "es": "Un hombre quiere poner una manta en un transportín con la puerta de rejilla cerrada."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:04+00:00"
+}

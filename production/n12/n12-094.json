@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-094",
+    "title": "El got protegit de la beguda",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Gerra oberta amb aigua, got de plàstic i tapadora plana transparent ben ajustada.",
+    "contact": "Aboca un petit raig que arriba just al centre de la tapa.",
+    "breach": "Intenta omplir el got mantenint la tapa posada.",
+    "cue": "El raig s’aplana sobre la tapa i l’interior queda buit.",
+    "expectedResponse": {
+      "repair": "Aixecar la tapa i abocar a dins.",
+      "explanation": "La tapa és una barrera entre el raig i l’interior."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "AIGUA",
+        "wordId": "w-00e8b2c10536"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-c211f7486a30",
+      "w-00e8b2c10536",
+      "w-1bed9f18ebab",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-094/image.png",
+      "sha256": "33d0918d5cd9b1ef6c6f8a1fae9a106b3758d34cac40ae95bb8b5c1f2b4c4c21",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Gerra oberta amb aigua, got de plàstic i tapadora plana transparent ben ajustada. Gest exacte: Aboca un petit raig que arriba just al centre de la tapa. Únic detall volgudament incongruent: Intenta omplir el got mantenint la tapa posada. Indici que ha de ser visible sense text: El raig s’aplana sobre la tapa i l’interior queda buit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El raig toca el centre de la tapa transparent i el got de sota continua buit.",
+      "reviewedAt": "2026-11-22T07:33:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-094/image.png",
+  "originalSha256": "33d0918d5cd9b1ef6c6f8a1fae9a106b3758d34cac40ae95bb8b5c1f2b4c4c21",
+  "alt": {
+    "ca": "Una nena aboca aigua sobre la tapa transparent posada en un got.",
+    "es": "Una niña vierte agua sobre la tapa transparente colocada en un vaso."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:03+00:00"
+}

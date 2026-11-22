@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-096",
+    "title": "Pinces sobre els mànecs",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CUINA",
+    "scene": "Dues llesques de pa i pinces curtes de servir amb la molla visible.",
+    "contact": "Estreny les dues puntes amb una mà i acosta la frontissa d’unió al pa.",
+    "breach": "Fa servir el punt fix de les pinces per agafar el pa.",
+    "cue": "A les puntes unides per la mà hi ha les dues pales; el plec de la molla toca el pa.",
+    "expectedResponse": {
+      "repair": "Agafar les pinces pels braços i tancar les pales sobre el pa.",
+      "explanation": "Només les dues puntes mòbils poden subjectar-lo."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "AGAFAR",
+        "wordId": "w-677819a0a32a"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-677819a0a32a",
+      "w-96e21018e871",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-096/image.png",
+      "sha256": "9513b4e1c6be8a1b0abd362ffc1652b0288e8f6b1c3d933416da47edaea4f448",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Dues llesques de pa i pinces curtes de servir amb la molla visible. Gest exacte: Estreny les dues puntes amb una mà i acosta la frontissa d’unió al pa. Únic detall volgudament incongruent: Fa servir el punt fix de les pinces per agafar el pa. Indici que ha de ser visible sense text: A les puntes unides per la mà hi ha les dues pales; el plec de la molla toca el pa. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La molla toca el pa i les dues pales de les pinces apunten amunt, fora del pa.",
+      "reviewedAt": "2026-11-22T07:33:03+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-096/image.png",
+  "originalSha256": "9513b4e1c6be8a1b0abd362ffc1652b0288e8f6b1c3d933416da47edaea4f448",
+  "alt": {
+    "ca": "Una noia prova d’agafar una llesca amb la frontissa d’unes pinces.",
+    "es": "Una chica intenta coger una rebanada con la bisagra de unas pinzas."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:03+00:00"
+}

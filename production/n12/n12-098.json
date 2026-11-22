@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-098",
+    "title": "La pantalla sense presa",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Ordinador de joc escolar amb pantalla simulada, cable flexible i dispositiu de joc amb un connector gros de plàstic inert de forma característica.",
+    "contact": "Prem un connector gros, arrodonit i sense metall, contra el panell frontal de joguina amb pantalla just a la vora.",
+    "breach": "Fa servir el vidre de pantalla com a presa física.",
+    "cue": "El connector queda contra superfície llisa; més al lateral es veu la presa de la mateixa forma.",
+    "expectedResponse": {
+      "repair": "Introduir el connector en la presa corresponent.",
+      "explanation": "La connexió necessita el contacte amb la presa adequada."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "ORDINADOR",
+        "wordId": "w-fd586876e91e"
+      },
+      {
+        "label": "COMANDAMENT",
+        "wordId": "w-f1f4ab1614d9"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-fd586876e91e",
+      "w-f1f4ab1614d9",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-098/image.png",
+      "sha256": "f5a272d8bed89a4339ef6e921967bb8b983a1327eb979b86c528bd47bf783150",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Ordinador de joc escolar amb pantalla simulada, cable flexible i dispositiu de joc amb un connector gros de plàstic inert de forma característica. Gest exacte: Prem un connector gros, arrodonit i sense metall, contra el panell frontal de joguina amb pantalla just a la vora. Únic detall volgudament incongruent: Fa servir el vidre de pantalla com a presa física. Indici que ha de ser visible sense text: El connector queda contra superfície llisa; més al lateral es veu la presa de la mateixa forma. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Aparell totalment inert de joguina, connector gros de plàstic i pantalla de plàstic. Deixa veure el port corresponent del mateix perfil i el connector de perfil contra el vidre, sense cables electrificats.",
+      "review": "Connector gros inert contra el panell llis i presa circular visible al lateral de la joguina.",
+      "reviewedAt": "2026-11-22T07:33:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-098/image.png",
+  "originalSha256": "f5a272d8bed89a4339ef6e921967bb8b983a1327eb979b86c528bd47bf783150",
+  "alt": {
+    "ca": "Un noi intenta connectar un cable de joguina a la pantalla de l’ordinador de joc.",
+    "es": "Un chico intenta enchufar un cable de juguete a la pantalla de un ordenador de juguete."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:04+00:00"
+}

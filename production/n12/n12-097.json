@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-097",
+    "title": "El mitjó contra la puntera",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Mitjó amb puntera cosida d’un altre color i obertura elàstica ben visible.",
+    "contact": "Empeny el dit gros del peu contra l’exterior de la puntera mentre sosté el mitjó tens.",
+    "breach": "Intenta introduir el peu per l’extrem cosit.",
+    "cue": "La costura de la puntera queda aixafada i l’obertura apunta en direcció oposada.",
+    "expectedResponse": {
+      "repair": "Fer entrar els dits per la boca elàstica del mitjó.",
+      "explanation": "La boca oberta dona accés a l’interior."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "MITJÓ",
+        "wordId": "w-64737c439fa0"
+      },
+      {
+        "label": "PEU",
+        "wordId": "w-d1bebb31e968"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-4d2fcaf61d85",
+      "w-64737c439fa0",
+      "w-d1bebb31e968",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-097/image.png",
+      "sha256": "e3dc9e829584fbcfe41bf934bf613f298294192b947c0157c94b9ab1d06d068d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Mitjó amb puntera cosida d’un altre color i obertura elàstica ben visible. Gest exacte: Empeny el dit gros del peu contra l’exterior de la puntera mentre sosté el mitjó tens. Únic detall volgudament incongruent: Intenta introduir el peu per l’extrem cosit. Indici que ha de ser visible sense text: La costura de la puntera queda aixafada i l’obertura apunta en direcció oposada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veu en el detall que la puntera vermella cosida toca el peu per fora i la boca elàstica buida mira en direcció contrària.",
+      "reviewedAt": "2026-11-22T07:33:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-097/image.png",
+  "originalSha256": "e3dc9e829584fbcfe41bf934bf613f298294192b947c0157c94b9ab1d06d068d",
+  "alt": {
+    "ca": "Una nena empeny els dits del peu contra l’extrem cosit d’un mitjó.",
+    "es": "Una niña empuja los dedos del pie contra la punta cosida de un calcetín."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:04+00:00"
+}

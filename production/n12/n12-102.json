@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-102",
+    "title": "La grapa fora del ressalt",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Carmanyola tancable amb tapa dues grapes; una grapa ja fixada i l’altra abaixada a fora.",
+    "contact": "Empeny la grapa pendent cap al buit sota un costat perquè queda abatuda cap enfora.",
+    "breach": "Força el tancament amb una grapa apartada del seu ressalt.",
+    "cue": "El ganxo cau al costat del ressalt i la grapa veïna sí que hi encaixa.",
+    "expectedResponse": {
+      "repair": "Alinear la grapa i pressionar-la sobre el ressalt.",
+      "explanation": "Les dues peces de tancament s’han d’enganxar entre elles."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "CARMANYOLA",
+        "wordId": "w-c3b8bd56e942"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4000ec1e6d5b",
+      "w-c3b8bd56e942",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-102/rejected-01.png",
+      "sha256": "3841c9ec5d6a18c87f5a76fa3f9edaebb19f48e0b274705a05321a384ba3ad3c",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Carmanyola tancable amb tapa dues grapes; una grapa ja fixada i l’altra abaixada a fora. Gest exacte: Empeny la grapa pendent cap al buit sota un costat perquè queda abatuda cap enfora. Únic detall volgudament incongruent: Força el tancament amb una grapa apartada del seu ressalt. Indici que ha de ser visible sense text: El ganxo cau al costat del ressalt i la grapa veïna sí que hi encaixa. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Grapa i mans són visibles, però el gest estira la grapa cap enfora pel sentit habitual d’obertura. Es podria interpretar que obre la carmanyola.",
+      "reviewedAt": "2026-11-22T07:33:05+00:00"
+    }
+  ],
+  "status": "rejected"
+}

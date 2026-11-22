@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-110",
+    "title": "Pilotes de pati a l’aigüera",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Lavabo d’escola amb aixeta, pastilla de sabó i dues pilotes de bàsquet netes ocupant la pica. Un cistell de pilotes està buit al llindar.",
+    "contact": "Hi col·loca la tercera pilota seca perquè reposa sobre les altres.",
+    "breach": "Desa les pilotes en una pica destinada al rentat de mans.",
+    "cue": "Les pilotes netes ocupen el lloc de les mans sota l’aixeta.",
+    "expectedResponse": {
+      "repair": "Desar-les al cistell de pilotes.",
+      "explanation": "Així es manté l’aigüera lliure per rentar-se."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-f0441e0dd3b0",
+      "w-b7f578451973",
+      "w-d8afb3f68b37",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-110/image.png",
+      "sha256": "a9060176dc5669bee0fb1db5f541ccbbf28712190ed77ab6cdc1a5b7f7c2cb80",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Lavabo d’escola amb aixeta, pastilla de sabó i dues pilotes de bàsquet netes ocupant la pica. Un cistell de pilotes està buit al llindar. Gest exacte: Hi col·loca la tercera pilota seca perquè reposa sobre les altres. Únic detall volgudament incongruent: Desa les pilotes en una pica destinada al rentat de mans. Indici que ha de ser visible sense text: Les pilotes netes ocupen el lloc de les mans sota l’aixeta. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Dues pilotes són dins la pica i la tercera està a les mans. El cistell buit i l’aixeta són visibles.",
+      "reviewedAt": "2026-11-22T07:33:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-110/image.png",
+  "originalSha256": "a9060176dc5669bee0fb1db5f541ccbbf28712190ed77ab6cdc1a5b7f7c2cb80",
+  "alt": {
+    "ca": "Un nen desa tres pilotes de bàsquet a la pica del lavabo.",
+    "es": "Un niño guarda tres balones de baloncesto en el lavabo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:07+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-112",
+    "title": "El passamà ple d’esponges",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "PISCINA",
+    "scene": "Vestidor sec amb passamà d’accés al nivell del terra i prestatge amb cistell d’esponges. Tres esponges seques reposen en fila sobre l’agafador superior pla.",
+    "contact": "Col·loca una quarta esponja seca al pas de la mà sobre el passamà.",
+    "breach": "Converteix el passamà d’accés en prestatge.",
+    "cue": "Les esponges cobreixen de punta a punta la banda que s’ha d’agafar.",
+    "expectedResponse": {
+      "repair": "Desar les esponges al cistell de material.",
+      "explanation": "Un passamà ha de quedar accessible per agafar-s’hi."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "ESPONJA",
+        "wordId": "w-2d404e0d8979"
+      },
+      {
+        "label": "PISCINA",
+        "wordId": "w-53f621529345"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-f0441e0dd3b0",
+      "w-2d404e0d8979",
+      "w-53f621529345"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-112/image.png",
+      "sha256": "e04cfe3a030af6659e05c6aaf134986375c3fa5250fa7b182eba33b2797a35fe",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Vestidor sec amb passamà d’accés al nivell del terra i prestatge amb cistell d’esponges. Tres esponges seques reposen en fila sobre l’agafador superior pla. Gest exacte: Col·loca una quarta esponja seca al pas de la mà sobre el passamà. Únic detall volgudament incongruent: Converteix el passamà d’accés en prestatge. Indici que ha de ser visible sense text: Les esponges cobreixen de punta a punta la banda que s’ha d’agafar. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La nova esponja baixa sobre una fila que cobreix el passamà. El cistell penja en un prestatge diferent.",
+      "reviewedAt": "2026-11-22T07:33:08+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-112/image.png",
+  "originalSha256": "e04cfe3a030af6659e05c6aaf134986375c3fa5250fa7b182eba33b2797a35fe",
+  "alt": {
+    "ca": "Una dona posa esponges en fila damunt del passamà del vestidor.",
+    "es": "Una mujer coloca esponjas en fila sobre el pasamanos del vestuario."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:08+00:00"
+}

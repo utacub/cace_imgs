@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-115",
+    "title": "Cadires al carril de retorn",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "BIBLIOTECA",
+    "scene": "Biblioteca amb punt de retorn i canaleta ampla que desemboca en un carro per als llibres.",
+    "contact": "Introdueix la pota d’una cadira fins a recolzar-la a l’inici del canal, al costat d’una pila de cadires contra la paret.",
+    "breach": "Emmagatzema una cadira al canal de retorn funcional.",
+    "cue": "La pota creua la boca de la canaleta i talla el recorregut del llibre.",
+    "expectedResponse": {
+      "repair": "Guardar la cadira amb les altres, apartada del canal.",
+      "explanation": "El canal ha de quedar disponible per als llibres."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-f0441e0dd3b0",
+      "w-e1efe2c4e23d",
+      "w-25350f813f0d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-115/image.png",
+      "sha256": "26a6e26a300824c8957bcb3a084d5bc354a81e1cf477a614c5de7243ee8532dd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Biblioteca amb punt de retorn i canaleta ampla que desemboca en un carro per als llibres. Gest exacte: Introdueix la pota d’una cadira fins a recolzar-la a l’inici del canal, al costat d’una pila de cadires contra la paret. Únic detall volgudament incongruent: Emmagatzema una cadira al canal de retorn funcional. Indici que ha de ser visible sense text: La pota creua la boca de la canaleta i talla el recorregut del llibre. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El punt de retorn i el carro de llibres es reconeixen i la pota de la cadira recolza dins la canaleta.",
+      "reviewedAt": "2026-11-22T07:33:08+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-115/image.png",
+  "originalSha256": "26a6e26a300824c8957bcb3a084d5bc354a81e1cf477a614c5de7243ee8532dd",
+  "alt": {
+    "ca": "Un home col·loca la pota d’una cadira a la rampa de devolució dels llibres de la biblioteca.",
+    "es": "Un hombre coloca la pata de una silla en la rampa de devolución de libros de la biblioteca."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:08+00:00"
+}

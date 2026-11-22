@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-101",
+    "title": "El peu sobre el fre del carro",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "MERCAT",
+    "scene": "Cistell de compra amb rodes grans i fre de peu que pressiona una roda, en terra horitzontal.",
+    "contact": "Agafa la nansa i en tira mentre el seu peu encara manté el fre pressionat.",
+    "breach": "Intenta moure el cistell amb la roda bloquejada.",
+    "cue": "La sabata, el pedal i la roda figuren en contacte clar.",
+    "expectedResponse": {
+      "repair": "Treure el peu i deixar el fre alliberat abans d’estirar.",
+      "explanation": "La roda ha de poder girar per desplaçar el cistell."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "ESTIRAR",
+        "wordId": "w-99499cd7f270"
+      },
+      {
+        "label": "CISTELL",
+        "wordId": "w-120fb6b37e88"
+      },
+      {
+        "label": "MERCAT",
+        "wordId": "w-d6951854cbf7"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-99499cd7f270",
+      "w-120fb6b37e88",
+      "w-d6951854cbf7"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-101/image.png",
+      "sha256": "db157352e7ea0fb9ebd2830fc1e1f57f7a9de3448f010c7d3c9dffd062db0383",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Cistell de compra amb rodes grans i fre de peu que pressiona una roda, en terra horitzontal. Gest exacte: Agafa la nansa i en tira mentre el seu peu encara manté el fre pressionat. Únic detall volgudament incongruent: Intenta moure el cistell amb la roda bloquejada. Indici que ha de ser visible sense text: La sabata, el pedal i la roda figuren en contacte clar. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veu la sola en contacte amb el pedal vermell mentre les dues mans estiren la nansa.",
+      "reviewedAt": "2026-11-22T07:33:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-101/image.png",
+  "originalSha256": "db157352e7ea0fb9ebd2830fc1e1f57f7a9de3448f010c7d3c9dffd062db0383",
+  "alt": {
+    "ca": "Una dona estira un cistell amb rodes mentre prem el fre vermell amb el peu.",
+    "es": "Una mujer tira de un cesto con ruedas mientras pisa el freno rojo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:04+00:00"
+}

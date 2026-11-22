@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-111",
+    "title": "Els llibres ben drets al sorral",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "PATI",
+    "scene": "Pati amb sorral humit, i prestatgeria seca visible a través de la porta immediata de l’aula.",
+    "contact": "Planta un llibre dret a la sorra al costat de dos llibres en fila com a prestatgeria.",
+    "breach": "Fa servir el sorral humit com a lloc per desar llibres de classe.",
+    "cue": "Les vores de les pàgines toquen sorra humida en una fila de llibres.",
+    "expectedResponse": {
+      "repair": "Desar-los a la prestatgeria interior.",
+      "explanation": "Els llibres es conserven drets, nets i secs."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-f0441e0dd3b0",
+      "w-3bb995df42bf",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-111/image.png",
+      "sha256": "e9a9fade0db224d139ac1998661da674a4854960294966886651d927f797ac6c",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Pati amb sorral humit, i prestatgeria seca visible a través de la porta immediata de l’aula. Gest exacte: Planta un llibre dret a la sorra al costat de dos llibres en fila com a prestatgeria. Únic detall volgudament incongruent: Fa servir el sorral humit com a lloc per desar llibres de classe. Indici que ha de ser visible sense text: Les vores de les pàgines toquen sorra humida en una fila de llibres. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Tres llibres drets entren en contacte amb la sorra. Una prestatgeria queda visible al darrere del llindar.",
+      "reviewedAt": "2026-11-22T07:33:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-111/image.png",
+  "originalSha256": "e9a9fade0db224d139ac1998661da674a4854960294966886651d927f797ac6c",
+  "alt": {
+    "ca": "Una noia desa llibres drets a la sorra del pati.",
+    "es": "Una chica guarda libros de pie en la arena del patio."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:07+00:00"
+}

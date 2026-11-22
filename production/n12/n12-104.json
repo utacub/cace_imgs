@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-104",
+    "title": "El calaix amb trava",
+    "mechanism": "us",
+    "subtype": "pas-o-connexio-blocats",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CASA",
+    "scene": "Calaix baix amb pom i passador mòbil exterior ben visible quan entra pel frontal.",
+    "contact": "Estira el pom amb una mà i manté el passador atravessat amb l’altra.",
+    "breach": "Intenta obrir sense alliberar la trava.",
+    "cue": "El passador travessa la unió entre el calaix i el marc fix.",
+    "expectedResponse": {
+      "repair": "Retirar el passador abans d’estirar el pom.",
+      "explanation": "El passador impedeix que el calaix es desplaci."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "ARMARI",
+        "wordId": "w-2286891fbee6"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-a10b29af07c7",
+      "w-2286891fbee6",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-104/image.png",
+      "sha256": "07a53d26335b52e0813f560ba8de62e511cab4f921529458a903fa43d72303a7",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Calaix baix amb pom i passador mòbil exterior ben visible quan entra pel frontal. Gest exacte: Estira el pom amb una mà i manté el passador atravessat amb l’altra. Únic detall volgudament incongruent: Intenta obrir sense alliberar la trava. Indici que ha de ser visible sense text: El passador travessa la unió entre el calaix i el marc fix. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El passador travessa la unió entre paquet i estructura, mentre la mà lliure estira el pom.",
+      "reviewedAt": "2026-11-22T07:33:05+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-104/image.png",
+  "originalSha256": "07a53d26335b52e0813f560ba8de62e511cab4f921529458a903fa43d72303a7",
+  "alt": {
+    "ca": "Un noi estira el pom d’un calaix amb el passador de bloqueig posat.",
+    "es": "Un chico tira del pomo de un cajón con el pasador de bloqueo puesto."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:33:05+00:00"
+}
