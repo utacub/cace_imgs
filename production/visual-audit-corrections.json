@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.197",
+  "catalogVersion": "0.1.198",
   "withdrawals": [
     {
       "asset": {
@@ -754,6 +754,132 @@
       "observation": "Ampolla de líquid vermell amb tap. Podria contenir vinagre, vi o una poció.",
       "reason": "La primera lectura identifica un flascó. El líquid vermell podria ser vinagre, vi o una poció. Falta un indici visual que permeti denominar-ne el contingut amb prou fiabilitat.",
       "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-a4cae709162b-pla-01",
+        "src": "assets/individuals/verbs/estimar/pla-01.webp",
+        "title": {
+          "ca": "ESTIMAR · il·lustració plana",
+          "es": "AMAR · ilustración plana"
+        },
+        "alt": {
+          "ca": "Un pare s’agenolla per abraçar el seu fill i el nen també l’abraça.",
+          "es": "Un padre se arrodilla para abrazar a su hijo y el niño también lo abraza."
+        },
+        "tags": [
+          "w-7b6c4288b97d"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-03T21:35:29.572836Z",
+        "target": "concept-a4cae709162b",
+        "targetWordIds": [
+          "w-7b6c4288b97d"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "4a85f26562ef7107953aee24c091797488288c2e1453504febea4fd68d5a053e",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "4d26f45d8a0c7097752c8df49b0af756dfddbedab19712e4174b658591334d2b",
+        "primaryWordId": "w-7b6c4288b97d"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-a4cae709162b-pla-01",
+      "opaque": "60bc7ac321",
+      "batch": "lectures-altres-n1-006-007",
+      "observation": "Abraçar. Home agenollat abraçant un nen, que també el sosté.",
+      "reason": "ESTIMAR. L’abraçada identifica l’acció d’abraçar, que ja té una altra entrada CACE. El sentiment s’ha d’inferir.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-77cd9908c54c-foto-02",
+        "src": "assets/individuals/verbs/veure/foto-02.webp",
+        "title": {
+          "ca": "VEURE · fotografia 2",
+          "es": "VER · fotografía 2"
+        },
+        "alt": {
+          "ca": "Un home gran amb jaqueta blava mira un ocell vermell posat en una branca.",
+          "es": "Un hombre mayor con chaqueta azul mira un pájaro rojo posado en una rama."
+        },
+        "tags": [
+          "w-c53e5833e5d3"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:11:14.214224Z",
+        "target": "concept-77cd9908c54c",
+        "targetWordIds": [
+          "w-c53e5833e5d3"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "bf98cc8aa10486a0762b2e6415e097ab6a0df1d60476c93bb2dc2e8e1bfa5afa",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "80e7007b97fc1da0c933e3720754a5ae1201bcff89c5bad3ddde9e48c4f52784",
+        "primaryWordId": "w-c53e5833e5d3"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-77cd9908c54c-foto-02",
+      "opaque": "2be2ff31b4",
+      "batch": "lectures-altres-n1-006-007",
+      "observation": "Mirar o observar un ocell. Home gran inclinat cap a un ocell vermell damunt d’una branca.",
+      "reason": "VEURE. La postura dirigida cap a l’ocell representa millor mirar o observar. MIRAR i VEURE tenen entrades CACE diferents.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-f780adfdeff4-foto-02",
+        "src": "assets/individuals/cos/pell/foto-02.webp",
+        "title": {
+          "ca": "PELL · fotografia 2",
+          "es": "PIEL · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una fletxa assenyala la pell del dors d’una mà de pell fosca.",
+          "es": "Una flecha señala la piel del dorso de una mano de piel oscura."
+        },
+        "tags": [
+          "w-7135eb196763"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:35:07.285758Z",
+        "target": "concept-f780adfdeff4",
+        "targetWordIds": [
+          "w-7135eb196763"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "dc9befe3ef10ed408144ba1dd9fe56623c66bfddabeb056f16dff5b6633135fa",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "1cb67cdce0496a949d110b99ce490d9cf614e8c0c83aa0db686f8cd7ab694060",
+        "primaryWordId": "w-7135eb196763"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-f780adfdeff4-foto-02",
+      "opaque": "17db124bee",
+      "batch": "lectures-altres-n1-006-007",
+      "observation": "Dors o revés de la mà, amb una fletxa assenyalant el centre.",
+      "reason": "PELL. La fletxa assenyala el dors de la mà i no distingeix la pell del conjunt de la mà. La primera denominació fou una part de la mà.",
+      "sourcePngArchived": true,
       "collectionsBefore": [
         "cace-n1-paraules-individuals"
       ]
@@ -5292,6 +5418,31 @@
       "original": "output/visual-audit-0.1.194/candidats/c53dd6179b.png",
       "reason": "El braç s’allargava per arribar a la rampa. S’ha acostat l’extrem a la figura.",
       "observation": "Gat aixeca l’extrem dret d’una rampa, el cotxe roda pendent avall i acaba damunt la taula a l’esquerra. La pota que agafa la fusta gira al colze i arriba a l’extrem al costat del pit. L’altra pota i la frontissa es recolzen a la taula."
+    },
+    "cace-n4-198": {
+      "id": "cace-n4-198",
+      "version": "0.1.198",
+      "lot": "candidata-n4-serp",
+      "opaque": "1d71ec3fb8",
+      "originalOpaque": "656151d297",
+      "kind": "drawing",
+      "levels": [
+        4
+      ],
+      "targetWordIds": [
+        "w-ba60e898df9a",
+        "w-072ecc01e120",
+        "w-40cbb67094c1"
+      ],
+      "oldSrc": "assets/constructions/n4/n4-198.webp",
+      "newSrc": "assets/constructions/n4/n4-198-auditoria-pla.webp",
+      "oldDisplaySha256": "bfaadeab98ed1e141cb758f775ef84aa6aaa277b0b3d3319bdd4ce08752c433f",
+      "newDisplaySha256": "125f66d4b68673b28671cd01077eb1664b66f669067d65f84dd9c210422739f4",
+      "originalSha256": "89b1d4f687be686e9c60d9a13b5a849fea01d73c3562b4d0645acd3894934285",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n4-198",
+      "original": "output/visual-audit-0.1.194/candidats/1d71ec3fb8.png",
+      "reason": "El dibuix anterior tenia dues terminacions caudals. El nou mostra un cos continu i la punta única de la cua en contacte amb una tecla.",
+      "observation": "Serp verda tocant un piano negre amb la punta de la cua. El cos té una corba contínua amb la part central a terra, un sol cap i un únic extrem caudal, que es recolza sobre una tecla blanca. Les notes musicals reforcen l’acció."
     }
   }
 }
