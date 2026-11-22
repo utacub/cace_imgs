@@ -1,3 +1,11 @@
+# N12 · 200 fotografies publicades i verificades · 22/11/2026
+
+El catàleg 0.1.187 conté 4.669 imatges i 861 entrades CACE. El N12 té 200 fotografies sintètiques revisades individualment i 34 candidats descartats. S’han verificat les 200 descàrregues públiques per SHA-256 a les 08:54:38 h de Madrid i s’ha comprovat que les adreces dels 37 dibuixos retirats tornen 404 o 410.
+
+Es conserven les 4.469 imatges i les 861 entrades prèvies. Les decisions i els prompts són a `production/n12/`, els originals a `output/production/n12/` i les comprovacions finals a `production/n12-audit.json` i `production/n12-publications.json`.
+
+---
+
 # N12 · Canvi a fotografia · 22/11/2026
 
 L’usuari indica que els 200 absurds visuals han de ser fotografies. Es retiren els 37 dibuixos que es van importar i s’eliminen els originals i candidats en dibuix. La nova producció aplica les mateixes fitxes amb fotografia sintètica i revisió individual.

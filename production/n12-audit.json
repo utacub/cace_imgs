@@ -1,66 +1,65 @@
 {
-  "status": "partial",
-  "checkedAt": "2026-11-22T07:50:12+00:00",
-  "version": "0.1.186",
-  "catalogImages": 4638,
+  "status": "valid",
+  "checkedAt": "2026-11-22T07:55:00+00:00",
+  "version": "0.1.187",
+  "catalogImages": 4669,
   "preservedAssets": 4469,
   "preservedWords": 861,
   "preservedLevels": 12,
-  "publicN12": 169,
-  "bankImages": 4638,
-  "bankPartsVerified": 154,
-  "bankArchiveSha256": "e879dadc5dea11f7bfdd624e9957ca395ea6dfdbe3a2966c261d756fe25b196c",
+  "publicN12": 200,
+  "bankImages": 4669,
+  "bankPartsVerified": 155,
+  "bankArchiveSha256": "cef1fcb0f4f36772fd772da6ed2a1028d24368d74116592a4057d8b94eccb615",
   "mechanismsPublished": {
-    "estri": 35,
+    "estri": 36,
     "objecte": 36,
-    "us": 32,
-    "context": 31,
-    "equipament": 23,
-    "omissio": 12
+    "us": 36,
+    "context": 32,
+    "equipament": 32,
+    "omissio": 28
   },
   "reviewedAttempts": {
     "accepted": 200,
     "rejected": 34
   },
-  "pending": [
-    "n12-036",
-    "n12-078",
-    "n12-102",
-    "n12-103",
-    "n12-105",
-    "n12-123",
-    "n12-150",
-    "n12-156",
-    "n12-157",
-    "n12-159",
-    "n12-160",
-    "n12-164",
-    "n12-165",
-    "n12-171",
-    "n12-172",
-    "n12-173",
-    "n12-176",
-    "n12-178",
-    "n12-182",
-    "n12-184",
-    "n12-190",
-    "n12-191",
-    "n12-192",
-    "n12-193",
-    "n12-194",
-    "n12-195",
-    "n12-196",
-    "n12-197",
-    "n12-198",
-    "n12-199",
-    "n12-200"
-  ],
+  "pending": [],
   "publicVerification": {
     "status": "verified",
-    "version": "0.1.186",
-    "catalogImages": 4638,
-    "n12DownloadsVerified": 169,
+    "version": "0.1.187",
+    "catalogImages": 4669,
+    "n12DownloadsVerified": 200,
     "verifiedIds": [
+      "cace-n12-036",
+      "cace-n12-078",
+      "cace-n12-102",
+      "cace-n12-103",
+      "cace-n12-105",
+      "cace-n12-123",
+      "cace-n12-150",
+      "cace-n12-156",
+      "cace-n12-157",
+      "cace-n12-159",
+      "cace-n12-160",
+      "cace-n12-164",
+      "cace-n12-165",
+      "cace-n12-171",
+      "cace-n12-172",
+      "cace-n12-173",
+      "cace-n12-176",
+      "cace-n12-178",
+      "cace-n12-182",
+      "cace-n12-184",
+      "cace-n12-190",
+      "cace-n12-191",
+      "cace-n12-192",
+      "cace-n12-193",
+      "cace-n12-194",
+      "cace-n12-195",
+      "cace-n12-196",
+      "cace-n12-197",
+      "cace-n12-198",
+      "cace-n12-199",
+      "cace-n12-200",
       "cace-n12-046",
       "cace-n12-056",
       "cace-n12-065",
@@ -231,11 +230,115 @@
       "cace-n12-018",
       "cace-n12-019"
     ],
-    "withdrawnDrawingUrlsVerified": 0,
-    "withdrawnIds": [],
-    "transientRetries": [],
-    "verifiedAtUtc": "2026-11-22T07:49:24+00:00",
-    "commit": "ec04f59770b4df44aa72c4dc0dcde7cdc9b46304",
-    "workflowRunId": 44999725102
+    "withdrawnDrawingUrlsVerified": 37,
+    "withdrawnIds": [
+      "cace-n12-032",
+      "cace-n12-033",
+      "cace-n12-034",
+      "cace-n12-038",
+      "cace-n12-040",
+      "cace-n12-041",
+      "cace-n12-042",
+      "cace-n12-043",
+      "cace-n12-044",
+      "cace-n12-045",
+      "cace-n12-046",
+      "cace-n12-047",
+      "cace-n12-048",
+      "cace-n12-049",
+      "cace-n12-050",
+      "cace-n12-011",
+      "cace-n12-012",
+      "cace-n12-013",
+      "cace-n12-015",
+      "cace-n12-016",
+      "cace-n12-018",
+      "cace-n12-019",
+      "cace-n12-020",
+      "cace-n12-021",
+      "cace-n12-022",
+      "cace-n12-023",
+      "cace-n12-024",
+      "cace-n12-028",
+      "cace-n12-001",
+      "cace-n12-002",
+      "cace-n12-003",
+      "cace-n12-004",
+      "cace-n12-005",
+      "cace-n12-006",
+      "cace-n12-007",
+      "cace-n12-008",
+      "cace-n12-009"
+    ],
+    "transientRetries": [
+      {
+        "resource": "assets/constructions/n12/n12-040.webp?withdrawal=0.1.187&check=1795334069554976800",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-041.webp?withdrawal=0.1.187&check=1795334069554976800",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-047.webp?withdrawal=0.1.187&check=1795334069808150000",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-050.webp?withdrawal=0.1.187&check=1795334070025952300",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-018.webp?withdrawal=0.1.187&check=1795334070401163300",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-021.webp?withdrawal=0.1.187&check=1795334070890022000",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-047.webp?withdrawal=0.1.187&check=1795334069808150000",
+        "attempt": 2,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-024.webp?withdrawal=0.1.187&check=1795334072070851900",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-050.webp?withdrawal=0.1.187&check=1795334070025952300",
+        "attempt": 2,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-001.webp?withdrawal=0.1.187&check=1795334072264920000",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-018.webp?withdrawal=0.1.187&check=1795334070401163300",
+        "attempt": 2,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-003.webp?withdrawal=0.1.187&check=1795334073495455600",
+        "attempt": 1,
+        "error": "HTTP Error 503: Service Unavailable"
+      },
+      {
+        "resource": "assets/constructions/n12/n12-024.webp?withdrawal=0.1.187&check=1795334072070851900",
+        "attempt": 2,
+        "error": "HTTP Error 503: Service Unavailable"
+      }
+    ],
+    "verifiedAtUtc": "2026-11-22T07:54:38+00:00",
+    "commit": "4a4999183fd3266e8a11a75daad3c99c0cc00a60",
+    "workflowRunId": 45000104706
   }
 }

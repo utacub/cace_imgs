@@ -44,13 +44,15 @@ def main():
     version = expected['version']
     retries = []
 
-    def fetch(resource):
+    def fetch(resource, *, missing_ok=False):
         for attempt in range(1, 6):
             try:
                 request = Request(SITE + resource, headers={'User-Agent': 'CACE-publication-verification'})
                 with urlopen(request, timeout=25) as response:
                     return response.read()
             except OSError as error:
+                if missing_ok and isinstance(error, HTTPError) and error.code in (404, 410):
+                    return None
                 if attempt == 5:
                     raise
                 retries.append({'resource': resource, 'attempt': attempt, 'error': str(error)})
@@ -81,11 +83,8 @@ def main():
 
         def verify_removal(asset):
             assert asset['src'] not in live_paths, asset['id']
-            try:
-                with urlopen(SITE + asset['src'] + '?withdrawal=' + version, timeout=25):
-                    raise AssertionError('Encara es pot descarregar: ' + asset['id'])
-            except HTTPError as error:
-                assert error.code in (404, 410), (asset['id'], error.code)
+            resource = asset['src'] + '?withdrawal=' + version + '&check=' + str(time.time_ns())
+            assert fetch(resource, missing_ok=True) is None, 'Encara es pot descarregar: ' + asset['id']
             return asset['id']
 
         with ThreadPoolExecutor(max_workers=6) as pool:
