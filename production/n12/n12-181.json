@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-181",
+    "title": "El tambor amb la boca buida",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Tambor de mà circular amb cos buit, anella de tensió i quatre punts de fixació de la membrana a la vora superior.",
+    "contact": "Abaixa una baqueta fins que la punta passa per sota de l’anella i entra al buit.",
+    "breach": "Falta la membrana superior de percussió del tambor.",
+    "cue": "Es veu el buit sencer del cos entre la punta i la vora amb les fixacions.",
+    "expectedResponse": {
+      "repair": "Muntar i tensar-hi la membrana del tambor.",
+      "explanation": "El so del cop requereix una superfície tensa."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      },
+      {
+        "label": "MÚSICA",
+        "wordId": "w-13826629def8"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-072ecc01e120",
+      "w-e54dc34d54dc",
+      "w-13826629def8",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-181/image.png",
+      "sha256": "1e636fe34d1493b3d9a8b0c5c5183ae5a3c33ef75bab6a332431ac17c74970bb",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Tambor de mà circular amb cos buit, anella de tensió i quatre punts de fixació de la membrana a la vora superior. Gest exacte: Abaixa una baqueta fins que la punta passa per sota de l’anella i entra al buit. Únic detall volgudament incongruent: Falta la membrana superior de percussió del tambor. Indici que ha de ser visible sense text: Es veu el buit sencer del cos entre la punta i la vora amb les fixacions. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. L’únic que falta és la membrana superior, un buit visible de cap a cap, cos rodó de tambor de mà ben recognoscible i tensadors exteriors. Una baqueta travessa l’anella cap a l’interior, no la fusta.",
+      "review": "La punta de la baqueta està dins del tambor i l’anella superior es veu completament oberta.",
+      "reviewedAt": "2026-11-22T07:42:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-181/image.png",
+  "originalSha256": "1e636fe34d1493b3d9a8b0c5c5183ae5a3c33ef75bab6a332431ac17c74970bb",
+  "alt": {
+    "ca": "Una nena baixa la baqueta dins d’un tambor que no té la membrana superior.",
+    "es": "Una niña baja la baqueta dentro de un tambor al que le falta la membrana superior."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:53+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-180",
+    "title": "La tercera pedana de rebot",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PATI",
+    "scene": "Joc de tres rebots amb dues pedanes d’escuma encaixades a dos rebaixos idèntics i tercer rebaix completament descobert.",
+    "contact": "Recolza la pilota a la vora del tercer rebaix, a punt de rebotar-hi com als altres punts.",
+    "breach": "Falta la tercera pedana de rebot.",
+    "cue": "L’encaix mostra el fons tou i coincideix amb les vores de les dues pedanes instal·lades.",
+    "expectedResponse": {
+      "repair": "Afegir la tercera pedana del joc.",
+      "explanation": "La superfície de rebot completa el recorregut dels tres punts."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-c211f7486a30",
+      "w-b7f578451973",
+      "w-776ec487889f",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-180/image.png",
+      "sha256": "57627feba57a358113c121847c20ca5d510491183e0e2920517ce36ea4206a83",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Joc de tres rebots amb dues pedanes d’escuma encaixades a dos rebaixos idèntics i tercer rebaix completament descobert. Gest exacte: Recolza la pilota a la vora del tercer rebaix, a punt de rebotar-hi com als altres punts. Únic detall volgudament incongruent: Falta la tercera pedana de rebot. Indici que ha de ser visible sense text: L’encaix mostra el fons tou i coincideix amb les vores de les dues pedanes instal·lades. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El tercer rebaix buit contrasta amb els dos discos instal·lats. La pilota és al cantell del buit.",
+      "reviewedAt": "2026-11-22T07:42:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-180/image.png",
+  "originalSha256": "57627feba57a358113c121847c20ca5d510491183e0e2920517ce36ea4206a83",
+  "alt": {
+    "ca": "Un noi posa una pilota al cantell d’un rebaix on falta una pedana de rebot.",
+    "es": "Un chico coloca una pelota en el borde de un hueco donde falta una plataforma de rebote."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:53+00:00"
+}

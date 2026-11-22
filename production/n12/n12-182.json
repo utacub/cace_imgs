@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-182",
+    "title": "Al cavallet li falta la pota posterior",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "TALLER",
+    "scene": "Cavallet petit de sobretaula per sostenir una fitxa. Té dues potes davanteres, buit articulat al darrere i tros de panell recolzat.",
+    "contact": "El subjecta amb una mà mentre amb l’altra presenta la fitxa. Es veu el cavallet vençut cap enrere.",
+    "breach": "Falta la pota posterior del cavallet.",
+    "cue": "El punt de frontissa posterior és buit i només queden dues bases de suport en una línia.",
+    "expectedResponse": {
+      "repair": "Instal·lar la pota posterior de suport.",
+      "explanation": "Tres punts amb separació permeten que el cavallet es mantingui dret."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-c211f7486a30",
+      "w-776ec487889f",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-182/rejected-01.png",
+      "sha256": "4533917894bd447076a9b32fbf03ff22139244325061cc7d576281a59ea0f24a",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Cavallet petit de sobretaula per sostenir una fitxa. Té dues potes davanteres, buit articulat al darrere i tros de panell recolzat. Gest exacte: El subjecta amb una mà mentre amb l’altra presenta la fitxa. Es veu el cavallet vençut cap enrere. Únic detall volgudament incongruent: Falta la pota posterior del cavallet. Indici que ha de ser visible sense text: El punt de frontissa posterior és buit i només queden dues bases de suport en una línia. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El cavallet queda dret sobre una base posterior semblant a dues potes. No s’identifica la frontissa buida del tercer suport.",
+      "reviewedAt": "2026-11-22T07:42:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

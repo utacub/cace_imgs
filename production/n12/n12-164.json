@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-164",
+    "title": "L’impermeable cordat per nedar",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "PISCINA",
+    "scene": "Vestidor de piscina amb tovallola, vestit de bany ja posat, impermeable sobreposat i aigua del vas a distància darrere un vidre interior.",
+    "contact": "Asseguda al banc, agafa el tirador i acaba de pujar la cremallera de l’impermeable sobre el banyador.",
+    "breach": "Es prepara per nedar amb una peça d’exterior que no és roba de bany.",
+    "cue": "La caputxa, les mànigues i la cremallera cobreixen el vestit de bany al vestidor.",
+    "expectedResponse": {
+      "repair": "Deixar l’impermeable al vestidor i dur roba de bany a l’aigua.",
+      "explanation": "La roba de bany permet moure’s bé dins l’aigua."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "IMPERMEABLE",
+        "wordId": "w-8932081f116a"
+      },
+      {
+        "label": "PISCINA",
+        "wordId": "w-53f621529345"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-8932081f116a",
+      "w-53f621529345"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-164/rejected-01.png",
+      "sha256": "84be61805e4ff44ec7f7d386aeab77c5466312a4aecbd7829dc226a537cb42b4",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Vestidor de piscina amb tovallola, vestit de bany ja posat, impermeable sobreposat i aigua del vas a distància darrere un vidre interior. Gest exacte: Asseguda al banc, agafa el tirador i acaba de pujar la cremallera de l’impermeable sobre el banyador. Únic detall volgudament incongruent: Es prepara per nedar amb una peça d’exterior que no és roba de bany. Indici que ha de ser visible sense text: La caputxa, les mànigues i la cremallera cobreixen el vestit de bany al vestidor. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La postura i el banc del vestidor permeten interpretar que s’abriga per sortir després de nedar. Cal un gest orientat inequívocament a entrar al vas.",
+      "reviewedAt": "2026-11-22T07:40:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

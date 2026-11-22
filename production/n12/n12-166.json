@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-166",
+    "title": "Una motxilla de viatge per al seient estret",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CLASSE",
+    "scene": "Cadira d’aula amb respatller, motxilla rígida carregada i volum clar per darrere de l’esquena.",
+    "contact": "Recolza el cul al cantell davanter del seient i la motxilla posada queda premuda contra el respatller.",
+    "breach": "Manté posada la motxilla de càrrega per seure en una cadira amb poc fons.",
+    "cue": "El cos no pot recular perquè el volum rígid toca el respatller.",
+    "expectedResponse": {
+      "repair": "Treure’s la motxilla i deixar-la al lloc d’emmagatzematge.",
+      "explanation": "Sense el volum a l’esquena es pot aprofitar el fons del seient."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-43db0ea26088",
+      "w-045dc98b2849",
+      "w-e1efe2c4e23d",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-166/image.png",
+      "sha256": "ebe05ff520a80b81f23471d06176923b22b6bd9de7d08d54916da017ed0934da",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Cadira d’aula amb respatller, motxilla rígida carregada i volum clar per darrere de l’esquena. Gest exacte: Recolza el cul al cantell davanter del seient i la motxilla posada queda premuda contra el respatller. Únic detall volgudament incongruent: Manté posada la motxilla de càrrega per seure en una cadira amb poc fons. Indici que ha de ser visible sense text: El cos no pot recular perquè el volum rígid toca el respatller. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El cos recolza al davant del seient mentre la motxilla carregada toca el respatller al darrere.",
+      "reviewedAt": "2026-11-22T07:40:56+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-166/image.png",
+  "originalSha256": "ebe05ff520a80b81f23471d06176923b22b6bd9de7d08d54916da017ed0934da",
+  "alt": {
+    "ca": "Una noia seu al cantell de la cadira perquè la motxilla li ocupa l’espai de l’esquena.",
+    "es": "Una chica se sienta en el borde de la silla porque la mochila ocupa el espacio del respaldo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:56+00:00"
+}

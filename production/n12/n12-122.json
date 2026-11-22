@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-122",
+    "title": "El bol de berenar al seient del gronxador",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "PARC",
+    "scene": "Zona de joc amb un gronxador buit aturat i una taula de pícnic buida a pocs passos. La dona porta un bol de peres tallades.",
+    "contact": "Deixa el bol estable sobre el seient del gronxador, amb una mà encara a sota del bol.",
+    "breach": "Tria un seient mòbil de joc com a lloc per deixar preparat el berenar.",
+    "cue": "Les cadenes i l’espai mínim de seient revelen que el suport es mou i el bol ocupa el lloc de seure.",
+    "expectedResponse": {
+      "repair": "Deixar el bol en una taula estable de pícnic.",
+      "explanation": "La taula manté el bol estable i el seient del gronxador queda lliure."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PERA",
+        "wordId": "w-9630a1d828c9"
+      },
+      {
+        "label": "GRONXADOR",
+        "wordId": "w-d4238a750022"
+      },
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-9630a1d828c9",
+      "w-d4238a750022",
+      "w-fb96ae342785"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-122/image.png",
+      "sha256": "54995dfa2335200aae82ea2311b89371e97e38e0841e25aab83770892ab2aa97",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Zona de joc amb un gronxador buit aturat i una taula de pícnic buida a pocs passos. La dona porta un bol de peres tallades. Gest exacte: Deixa el bol estable sobre el seient del gronxador, amb una mà encara a sota del bol. Únic detall volgudament incongruent: Tria un seient mòbil de joc com a lloc per deixar preparat el berenar. Indici que ha de ser visible sense text: Les cadenes i l’espai mínim de seient revelen que el suport es mou i el bol ocupa el lloc de seure. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El bol té suport al seient buit i les dues cadenes i la taula de pícnic a part emmarquen la ubicació.",
+      "reviewedAt": "2026-11-22T07:37:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-122/image.png",
+  "originalSha256": "54995dfa2335200aae82ea2311b89371e97e38e0841e25aab83770892ab2aa97",
+  "alt": {
+    "ca": "Una dona deixa un bol de pera tallada damunt del seient d’un gronxador.",
+    "es": "Una mujer deja un cuenco con pera cortada encima del asiento de un columpio."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:07+00:00"
+}

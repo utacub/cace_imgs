@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-178",
+    "title": "L’última peça del puzle",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CASA",
+    "scene": "Puzle de sis peces sobre safata amb marc, cinc posades i un buit interior d’una sola peça. Capsa buida oberta sencera al costat.",
+    "contact": "Recorre el contorn del buit amb un dit quan intenta acabar el puzle.",
+    "breach": "Falta una peça al puzle amb totes les peces disponibles col·locades.",
+    "cue": "El buit interior té contorn complet de peça i la capsa buida sencera és visible.",
+    "expectedResponse": {
+      "repair": "Afegir la peça del contorn i dibuix corresponents.",
+      "explanation": "Una peça completa la figura i encaixa amb les altres cinc."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-c211f7486a30",
+      "w-0006cf1ffdae",
+      "w-776ec487889f",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-178/rejected-01.png",
+      "sha256": "b687a3420ac7a3c7f61bb1db5e9decda90c21924c732305ba40012a7738a5892",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Puzle de sis peces sobre safata amb marc, cinc posades i un buit interior d’una sola peça. Capsa buida oberta sencera al costat. Gest exacte: Recorre el contorn del buit amb un dit quan intenta acabar el puzle. Únic detall volgudament incongruent: Falta una peça al puzle amb totes les peces disponibles col·locades. Indici que ha de ser visible sense text: El buit interior té contorn complet de peça i la capsa buida sencera és visible. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El buit d’una sola peça és clar, però les vores mostren més peces posades que les cinc de la fitxa.",
+      "reviewedAt": "2026-11-22T07:42:51+00:00"
+    }
+  ],
+  "status": "rejected"
+}

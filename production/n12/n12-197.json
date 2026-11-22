@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-197",
+    "title": "Les ulleres amb una barnilla",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Ulleres de dues lents intactes, una barnilla posada i un petit bloc de frontissa buit al costat que mira l’espectador.",
+    "contact": "Subjecta el vidre d’aquest costat amb dos dits mantenint l’altra barnilla darrere l’orella.",
+    "breach": "Falta una de les dues barnilles de les ulleres.",
+    "cue": "Es veuen l’orella lliure i la frontissa sense barnilla, davant del suport muntat a l’altra banda.",
+    "expectedResponse": {
+      "repair": "Muntar la barnilla de recanvi.",
+      "explanation": "Les barnilles estabilitzen la muntura sobre les orelles."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "ULLERES",
+        "wordId": "w-2ab74322bbef"
+      },
+      {
+        "label": "ORELLA",
+        "wordId": "w-740a08c9f720"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4d2fcaf61d85",
+      "w-2ab74322bbef",
+      "w-740a08c9f720",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-197/rejected-01.png",
+      "sha256": "e326633ff7fa9d49f854cff2aee9d60c4c6e507d8e951f55be897bcf77a954d7",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Ulleres de dues lents intactes, una barnilla posada i un petit bloc de frontissa buit al costat que mira l’espectador. Gest exacte: Subjecta el vidre d’aquest costat amb dos dits mantenint l’altra barnilla darrere l’orella. Únic detall volgudament incongruent: Falta una de les dues barnilles de les ulleres. Indici que ha de ser visible sense text: Es veuen l’orella lliure i la frontissa sense barnilla, davant del suport muntat a l’altra banda. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La muntura sembla incompleta al costat que mira a càmera, però els dits subjecten l’altra banda i no es veu prou bé la barnilla de suport present.",
+      "reviewedAt": "2026-11-22T07:45:25+00:00"
+    }
+  ],
+  "status": "rejected"
+}

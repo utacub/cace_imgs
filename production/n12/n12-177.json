@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-177",
+    "title": "La pala sense mànec",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "PATI",
+    "scene": "Sorral amb fulla de pala infantil i casquet tubular buit en lloc de mànec.",
+    "contact": "Pressiona la fulla arran del casquet subjectant només l’arrel que queda arran de sorra.",
+    "breach": "Falta el mànec de la pala.",
+    "cue": "El tub d’acoblament està descobert i el seu fons es veu en tres quarts.",
+    "expectedResponse": {
+      "repair": "Encaixar-hi el mànec de la pala.",
+      "explanation": "El mànec permet subjectar i moure la fulla sense posar la mà a la sorra."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PALA",
+        "wordId": "w-208167fa638f"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-6d90f16f5461",
+      "w-208167fa638f",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-177/image.png",
+      "sha256": "aba8b77d872dc73d6790dd10d8c3e2091f7405a1b113e47bd997b4ec8d1729db",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Sorral amb fulla de pala infantil i casquet tubular buit en lloc de mànec. Gest exacte: Pressiona la fulla arran del casquet subjectant només l’arrel que queda arran de sorra. Únic detall volgudament incongruent: Falta el mànec de la pala. Indici que ha de ser visible sense text: El tub d’acoblament està descobert i el seu fons es veu en tres quarts. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veu sencer el casquet obert on encaixaria el mànec i la fulla fa contacte amb la sorra.",
+      "reviewedAt": "2026-11-22T07:42:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-177/image.png",
+  "originalSha256": "aba8b77d872dc73d6790dd10d8c3e2091f7405a1b113e47bd997b4ec8d1729db",
+  "alt": {
+    "ca": "Una nena empeny la fulla d’una pala de sorral a la qual falta el mànec.",
+    "es": "Una niña empuja la pala del arenero a la que le falta el mango."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:51+00:00"
+}

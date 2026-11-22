@@ -53,7 +53,24 @@
       "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Carmanyola tancable amb tapa dues grapes; una grapa ja fixada i l’altra abaixada a fora. Gest exacte: Empeny la grapa pendent cap al buit sota un costat perquè queda abatuda cap enfora. Únic detall volgudament incongruent: Força el tancament amb una grapa apartada del seu ressalt. Indici que ha de ser visible sense text: El ganxo cau al costat del ressalt i la grapa veïna sí que hi encaixa. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
       "review": "Grapa i mans són visibles, però el gest estira la grapa cap enfora pel sentit habitual d’obertura. Es podria interpretar que obre la carmanyola.",
       "reviewedAt": "2026-11-22T07:33:05+00:00"
+    },
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-102/image.png",
+      "sha256": "c282020c40ce1ffd6dcd9e4bcb237806f126c36e57a1ebc5adb4b92e52722133",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Carmanyola tancable amb tapa dues grapes; una grapa ja fixada i l’altra abaixada a fora. Gest exacte: Empeny la grapa pendent cap al buit sota un costat perquè queda abatuda cap enfora. Únic detall volgudament incongruent: Força el tancament amb una grapa apartada del seu ressalt. Indici que ha de ser visible sense text: El ganxo cau al costat del ressalt i la grapa veïna sí que hi encaixa. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Carmanyola rectangular amb dues grapes de pressió clarament separades, una de posada a l’esquerra. La de la dreta ha quedat articulada massa cap enfora i el seu ganxo és visible més enllà del ressalt lateral. La noia no l’estira. Té un únic polze al cantell superior de la grapa mal alineada i fa PRESSIÓ VERTICAL CAP AVALL com per cordar-la; l’altra mà pressiona la tapa plana. Vista propera de tres quarts per veure el buit entre el ressalt i el ganxo.",
+      "review": "La pressió del polze és cap avall. El ressalt i el ganxo girat són separats i la grapa esquerra roman tancada.",
+      "reviewedAt": "2026-11-22T07:45:22+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "file": "output/production/n12/n12-102/image.png",
+  "originalSha256": "c282020c40ce1ffd6dcd9e4bcb237806f126c36e57a1ebc5adb4b92e52722133",
+  "alt": {
+    "ca": "Una noia prem una grapa de la carmanyola que ha quedat fora del seu ressalt.",
+    "es": "Una chica presiona un broche de la fiambrera que ha quedado fuera de su encaje."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:45:22+00:00"
 }

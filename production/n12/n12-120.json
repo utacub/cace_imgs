@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-120",
+    "title": "Gots al carril de la finestra",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CASA",
+    "scene": "Finestra corredissa baixa, oberta, amb carril vist i dos gots de plàstic encaixats en fila al carril; armariet de gots visible.",
+    "contact": "Hi assenta el tercer got, dins el trajecte de la fulla.",
+    "breach": "Desa gots dintre del carril de tancament de finestra.",
+    "cue": "La base de cada got cobreix la guia i toparia amb la fulla.",
+    "expectedResponse": {
+      "repair": "Desar els gots a l’armariet.",
+      "explanation": "El carril ha de quedar net d’obstacles perquè la fulla es mogui."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "FINESTRA",
+        "wordId": "w-59560a6c11b6"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-f0441e0dd3b0",
+      "w-1bed9f18ebab",
+      "w-59560a6c11b6",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-120/image.png",
+      "sha256": "f92279737953c8e7274e03b6cfd2051169be06621c4ded07be81c02e84160b4b",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Finestra corredissa baixa, oberta, amb carril vist i dos gots de plàstic encaixats en fila al carril; armariet de gots visible. Gest exacte: Hi assenta el tercer got, dins el trajecte de la fulla. Únic detall volgudament incongruent: Desa gots dintre del carril de tancament de finestra. Indici que ha de ser visible sense text: La base de cada got cobreix la guia i toparia amb la fulla. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La finestra corredissa s’ha de reconèixer per una fulla i el carril empotrat continu. Els gots, petits i de plàstic, reposen just a la guia de pas de la fulla, no a l’ampit superior.",
+      "review": "Al detall es veuen les bases damunt la guia en el trajecte de la fulla i els gots que són al seu armari.",
+      "reviewedAt": "2026-11-22T07:37:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-120/image.png",
+  "originalSha256": "f92279737953c8e7274e03b6cfd2051169be06621c4ded07be81c02e84160b4b",
+  "alt": {
+    "ca": "Una nena col·loca tres gots a la guia d’una finestra corredissa oberta.",
+    "es": "Una niña coloca tres vasos en la guía de una ventana corredera abierta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:07+00:00"
+}

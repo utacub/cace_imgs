@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-198",
+    "title": "El capçal del dispensador de sabó",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "LAVABO",
+    "scene": "Dispensador de sabó transparent ple, cos roscat i tub interior intacte amb encaix superior de bomba descobert.",
+    "contact": "Manté un palmell obert al costat i prem amb l’índex la zona buida sobre el coll del recipient.",
+    "breach": "Falta el capçal que cal prémer per dosificar el sabó.",
+    "cue": "El tub acaba al coll nu sense polsador ni broc.",
+    "expectedResponse": {
+      "repair": "Muntar el capçal de bomba adequat.",
+      "explanation": "El capçal impulsa el sabó pel tub i el dirigeix a la mà."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "SABÓ",
+        "wordId": "w-8b5000ca29e9"
+      },
+      {
+        "label": "MÀ",
+        "wordId": "w-ad405c7e723f"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4e6be686e7c1",
+      "w-8b5000ca29e9",
+      "w-ad405c7e723f",
+      "w-d8afb3f68b37"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-198/image.png",
+      "sha256": "deb4344a6c08d786306351b4805f47f832b5e8919604ec0db21b129f33371dde",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Dispensador de sabó transparent ple, cos roscat i tub interior intacte amb encaix superior de bomba descobert. Gest exacte: Manté un palmell obert al costat i prem amb l’índex la zona buida sobre el coll del recipient. Únic detall volgudament incongruent: Falta el capçal que cal prémer per dosificar el sabó. Indici que ha de ser visible sense text: El tub acaba al coll nu sense polsador ni broc. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "En el detall es veu el tub dins el recipient, el coll nu i el palmell que espera el sabó.",
+      "reviewedAt": "2026-11-22T07:45:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-198/image.png",
+  "originalSha256": "deb4344a6c08d786306351b4805f47f832b5e8919604ec0db21b129f33371dde",
+  "alt": {
+    "ca": "Una dona pressiona el coll obert d’un dispensador de sabó al qual falta el polsador.",
+    "es": "Una mujer presiona el cuello abierto de un dispensador de jabón al que le falta el pulsador."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:45:25+00:00"
+}

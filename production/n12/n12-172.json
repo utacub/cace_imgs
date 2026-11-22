@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-172",
+    "title": "Un gorro de paper sota la pluja",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "MUNTANYA",
+    "scene": "Racó d’excursió amb pluja fina visible pels regalims d’un banc de fusta. Noi amb un gorro de paper plegat sobre el cap i impermeable posat.",
+    "contact": "Manté el gorro contra el cap amb una mà quan la vora de paper s’estova amb una gota.",
+    "breach": "Escull un gorro de paper per mantenir el cap sec sota la pluja.",
+    "cue": "Els plecs de paper mostren una taca humida a tocar del cabell.",
+    "expectedResponse": {
+      "repair": "Cobrir-se el cap amb la caputxa impermeable.",
+      "explanation": "Una coberta impermeable no absorbeix l’aigua com el paper."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "GORRO",
+        "wordId": "w-21f8574b2a01"
+      },
+      {
+        "label": "MUNTANYA",
+        "wordId": "w-97b4e23f647c"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4d2fcaf61d85",
+      "w-21f8574b2a01",
+      "w-97b4e23f647c"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-172/rejected-01.png",
+      "sha256": "2debbab562030c04d6572a2e51783909238b12a3ed6e6237977568aa536dad3d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Racó d’excursió amb pluja fina visible pels regalims d’un banc de fusta. Noi amb un gorro de paper plegat sobre el cap i impermeable posat. Gest exacte: Manté el gorro contra el cap amb una mà quan la vora de paper s’estova amb una gota. Únic detall volgudament incongruent: Escull un gorro de paper per mantenir el cap sec sota la pluja. Indici que ha de ser visible sense text: Els plecs de paper mostren una taca humida a tocar del cabell. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El gorro humit es reconeix, però el bosc fosc ocupa tot el fons. Cal mostrar la pluja sobre un fons blanc o molt clar i només el banc necessari.",
+      "reviewedAt": "2026-11-22T07:42:50+00:00"
+    }
+  ],
+  "status": "rejected"
+}

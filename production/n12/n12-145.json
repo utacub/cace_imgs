@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-145",
+    "title": "Les ulleres als colzes",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CASA",
+    "scene": "Ulleres de lectura corrents amb pont i barnilles obertes, una dona amb llibre obert sobre taula.",
+    "contact": "Subjecta les ulleres contra el colze i passa una barnilla rere l’avantbraç com si se les ajustés.",
+    "breach": "Posa les ulleres de lectura en un colze.",
+    "cue": "Les dues lents queden al mateix pla que el colze i lluny de la mirada.",
+    "expectedResponse": {
+      "repair": "Posar el pont sobre el nas i les barnilles a les orelles.",
+      "explanation": "Els ulls han de mirar a través de les lents."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "ULLERES",
+        "wordId": "w-2ab74322bbef"
+      },
+      {
+        "label": "BRAÇ",
+        "wordId": "w-cb2dacf32d56"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-2ab74322bbef",
+      "w-cb2dacf32d56",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-145/image.png",
+      "sha256": "9970807e57a1fa3e293ce47fe1c06d3467a04a0f6ad13021225760b999867f63",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Ulleres de lectura corrents amb pont i barnilles obertes, una dona amb llibre obert sobre taula. Gest exacte: Subjecta les ulleres contra el colze i passa una barnilla rere l’avantbraç com si se les ajustés. Únic detall volgudament incongruent: Posa les ulleres de lectura en un colze. Indici que ha de ser visible sense text: Les dues lents queden al mateix pla que el colze i lluny de la mirada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El pont i les dues lents queden al colze mentre la mirada va cap al llibre. Les ulleres es veuen senceres.",
+      "reviewedAt": "2026-11-22T07:40:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-145/image.png",
+  "originalSha256": "9970807e57a1fa3e293ce47fe1c06d3467a04a0f6ad13021225760b999867f63",
+  "alt": {
+    "ca": "Una dona es posa les ulleres de lectura al colze, davant d’un llibre obert.",
+    "es": "Una mujer se coloca las gafas de lectura en el codo, delante de un libro abierto."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:49+00:00"
+}

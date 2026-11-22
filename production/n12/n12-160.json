@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-160",
+    "title": "L’anell de més d’un dit",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CASA",
+    "scene": "Anell decoratiu rígid amb pedra, massa ample per a un dit i massa estret per al canell.",
+    "contact": "Intenta ajustar-lo al dit però el sosté amb el polze abans que rellisqui fins a la taula.",
+    "breach": "Tria la mida d’anell equivocada per al dit.",
+    "cue": "Es veu un buit ample entre l’anell i tot el perímetre del dit.",
+    "expectedResponse": {
+      "repair": "Escollir un anell que s’aguanti al dit sense estrènyer.",
+      "explanation": "La mida interior determina si l’anell es manté posat."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "ANELL",
+        "wordId": "w-3637247e36f7"
+      },
+      {
+        "label": "DIT",
+        "wordId": "w-e8f9919fd797"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-3637247e36f7",
+      "w-e8f9919fd797",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-160/rejected-01.png",
+      "sha256": "5d320b699cfaf8f3b6a66e91a9e767644d26d21fe49e75c3d97077a5bf52f989",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Anell decoratiu rígid amb pedra, massa ample per a un dit i massa estret per al canell. Gest exacte: Intenta ajustar-lo al dit però el sosté amb el polze abans que rellisqui fins a la taula. Únic detall volgudament incongruent: Tria la mida d’anell equivocada per al dit. Indici que ha de ser visible sense text: Es veu un buit ample entre l’anell i tot el perímetre del dit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El diàmetre útil de l’anell queda tapat entre dos dits i no es veu l’espai lliure que provaria l’excés de mida.",
+      "reviewedAt": "2026-11-22T07:40:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

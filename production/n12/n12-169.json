@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-169",
+    "title": "Seure a taula amb el sac de dormir",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Taula parada i cadira ampla; nen assegut amb un sac de dormir de camp tancat de cintura a peus.",
+    "contact": "Subjecta la vora del sac i intenta separar els peus per situar-los als dos costats del travesser baix de la cadira.",
+    "breach": "Manté embolicades les dues cames dins un sac per adoptar la postura de dinar a la cadira.",
+    "cue": "La costura inferior uneix els peus i impedeix separar-los.",
+    "expectedResponse": {
+      "repair": "Sortir del sac abans de seure a taula.",
+      "explanation": "La peça per dormir manté les cames juntes i dificulta moure-les."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "SAC DE DORMIR",
+        "wordId": "w-569e63515616"
+      },
+      {
+        "label": "SEURE",
+        "wordId": "w-045dc98b2849"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4d2fcaf61d85",
+      "w-569e63515616",
+      "w-045dc98b2849",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-169/image.png",
+      "sha256": "7bca36cbfb38a558eaccac104d53e44b7b615281613cefeecf758f5143093b5e",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Taula parada i cadira ampla; nen assegut amb un sac de dormir de camp tancat de cintura a peus. Gest exacte: Subjecta la vora del sac i intenta separar els peus per situar-los als dos costats del travesser baix de la cadira. Únic detall volgudament incongruent: Manté embolicades les dues cames dins un sac per adoptar la postura de dinar a la cadira. Indici que ha de ser visible sense text: La costura inferior uneix els peus i impedeix separar-los. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El sac tancat manté els dos peus junts. La cadira i la taula parada romanen ben suportades.",
+      "reviewedAt": "2026-11-22T07:42:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-169/image.png",
+  "originalSha256": "7bca36cbfb38a558eaccac104d53e44b7b615281613cefeecf758f5143093b5e",
+  "alt": {
+    "ca": "Un nen seu a taula amb les cames tancades dins d’un sac de dormir.",
+    "es": "Un niño se sienta a la mesa con las piernas dentro de un saco de dormir cerrado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:49+00:00"
+}

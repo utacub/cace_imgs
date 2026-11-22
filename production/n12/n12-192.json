@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-192",
+    "title": "L’estenedor amb el fil que falta",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CASA",
+    "scene": "Estenedor petit amb dues cordes tibants i dos orificis oposats buits a la tercera línia; els únics dos fils tenen roba.",
+    "contact": "Subjecta una tovallola amb dues mans ben estesa entre els orificis buits, i la vora s’abaixa sense suport al mig.",
+    "breach": "Falta el fil de la tercera línia necessària per penjar la tovallola.",
+    "cue": "Els orificis sense corda i les altres dues línies defineixen exactament l’espai que falta.",
+    "expectedResponse": {
+      "repair": "Instal·lar el fil entre els dos orificis o deixar lliure una línia intacta.",
+      "explanation": "La roba necessita un suport continu per quedar penjada."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "TOVALLOLA",
+        "wordId": "w-045fa0b1ae9d"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-045fa0b1ae9d",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-192/rejected-01.png",
+      "sha256": "ad8339622e28613debfa35fca34c48af7b3ba43c2d9fccb9116a36fb9be5f8b6",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Estenedor petit amb dues cordes tibants i dos orificis oposats buits a la tercera línia; els únics dos fils tenen roba. Gest exacte: Subjecta una tovallola amb dues mans ben estesa entre els orificis buits, i la vora s’abaixa sense suport al mig. Únic detall volgudament incongruent: Falta el fil de la tercera línia necessària per penjar la tovallola. Indici que ha de ser visible sense text: Els orificis sense corda i les altres dues línies defineixen exactament l’espai que falta. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El detall mostra una tercera mà separada a l’esquerra de la tovallola, a més de les dues de la noia.",
+      "reviewedAt": "2026-11-22T07:45:24+00:00"
+    }
+  ],
+  "status": "rejected"
+}

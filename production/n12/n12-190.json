@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-190",
+    "title": "El carretó sense safata",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PATI",
+    "scene": "Carretó de pati baix amb quatre suports buits per a una safata, nansa i dues rodes. Dues pilotes d’escuma a terra.",
+    "contact": "Prova de posar una pilota entre els dos rails laterals i la sosté amb els dits a mig pas entre els rails.",
+    "breach": "Falta la safata que permet carregar les pilotes.",
+    "cue": "Els rails i els quatre punts de suport deixen el centre obert.",
+    "expectedResponse": {
+      "repair": "Muntar la safata de càrrega abans d’omplir el carretó.",
+      "explanation": "La safata ofereix una base contínua per a la càrrega."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "PORTAR",
+        "wordId": "w-73b71e1ff757"
+      },
+      {
+        "label": "PILOTA",
+        "wordId": "w-b7f578451973"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-73b71e1ff757",
+      "w-b7f578451973",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-190/image.png",
+      "sha256": "9c84a3009be960c0cc988b24026772aa56382b045f61be9e03141b92081685c1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Carretó de pati baix amb quatre suports buits per a una safata, nansa i dues rodes. Dues pilotes d’escuma a terra. Gest exacte: Prova de posar una pilota entre els dos rails laterals i la sosté amb els dits a mig pas entre els rails. Únic detall volgudament incongruent: Falta la safata que permet carregar les pilotes. Indici que ha de ser visible sense text: Els rails i els quatre punts de suport deixen el centre obert. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els dos rails i els punts d’unió buits deixen clar què ha de sostenir la pilota. Aquesta se subjecta entre els dos rails.",
+      "reviewedAt": "2026-11-22T07:45:22+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-190/image.png",
+  "originalSha256": "9c84a3009be960c0cc988b24026772aa56382b045f61be9e03141b92081685c1",
+  "alt": {
+    "ca": "Un noi posa una pilota al buit d’un carretó de pati que no té safata de càrrega.",
+    "es": "Un chico coloca una pelota en el hueco de un carrito de patio que no tiene bandeja de carga."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:45:22+00:00"
+}

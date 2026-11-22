@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-139",
+    "title": "El llit a l’itinerari de l’aula",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Aula amb una porta interior oberta, espai lateral lliure i màrfega estesa de cantó a cantó del llindar.",
+    "contact": "S’estira a la màrfega amb mà i galta en contacte en postura de repòs natural.",
+    "breach": "Es posa a descansar bloquejant el llindar que comunica les sales.",
+    "cue": "La màrfega travessa tot el camí i hi ha espai lliure lateral.",
+    "expectedResponse": {
+      "repair": "Estendre-la a la zona lateral de descans.",
+      "explanation": "La porta conserva un pas accessible."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "DORMIR",
+        "wordId": "w-2c4809267c13"
+      },
+      {
+        "label": "MÀRFEGA",
+        "wordId": "w-61588d5b9bb9"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-2c4809267c13",
+      "w-61588d5b9bb9",
+      "w-e2209c0332a6",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-139/image.png",
+      "sha256": "f42f01791642c07240f7dcd5f8bc9ef14110f796fd87138bda470171d08130e2",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Aula amb una porta interior oberta, espai lateral lliure i màrfega estesa de cantó a cantó del llindar. Gest exacte: S’estira a la màrfega amb mà i galta en contacte en postura de repòs natural. Únic detall volgudament incongruent: Es posa a descansar bloquejant el llindar que comunica les sales. Indici que ha de ser visible sense text: La màrfega travessa tot el camí i hi ha espai lliure lateral. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La màrfega travessa tot el pas immediat sota una porta oberta. Gest neutre i cap teatre. A l’altre costat del llindar hi ha un tros de passadís blanc buit.",
+      "review": "La màrfega travessa tota la porta i el cos de la nena està prou visible en repòs natural.",
+      "reviewedAt": "2026-11-22T07:37:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-139/image.png",
+  "originalSha256": "f42f01791642c07240f7dcd5f8bc9ef14110f796fd87138bda470171d08130e2",
+  "alt": {
+    "ca": "Una nena s’estira en una màrfega que talla el pas d’una porta oberta.",
+    "es": "Una niña se tumba en una esterilla que corta el paso de una puerta abierta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:24+00:00"
+}

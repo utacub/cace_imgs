@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-170",
+    "title": "El guant de boxa davant del timbre",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Porta amb timbre encastat en un rebaix estret; dona amb un guant rígid i encoixinat d’entrenament de boxa en una mà. L’altra és lliure.",
+    "contact": "Acosta la punta voluminosa del guant al rebaix mentre el dit cobert no pot arribar al botó.",
+    "breach": "Tria un guant d’entrenament per prémer un botó que requereix un dit lliure.",
+    "cue": "El guant recolza als llavis del rebaix i el botó queda al fons.",
+    "expectedResponse": {
+      "repair": "Prémer el timbre amb la punta d’un dit lliure.",
+      "explanation": "Un dit pot entrar i arribar al polsador."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "GUANTS",
+        "wordId": "w-bd57efcdf7f5"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TIMBRE",
+        "wordId": "w-060bce9fd6c3"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-bd57efcdf7f5",
+      "w-072ecc01e120",
+      "w-060bce9fd6c3",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-170/image.png",
+      "sha256": "ebe8b0ac5893c7f02e423d8718712993f96e58ffe9e23130a4475ff4113dfe01",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Porta amb timbre encastat en un rebaix estret; dona amb un guant rígid i encoixinat d’entrenament de boxa en una mà. L’altra és lliure. Gest exacte: Acosta la punta voluminosa del guant al rebaix mentre el dit cobert no pot arribar al botó. Únic detall volgudament incongruent: Tria un guant d’entrenament per prémer un botó que requereix un dit lliure. Indici que ha de ser visible sense text: El guant recolza als llavis del rebaix i el botó queda al fons. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El detall mostra el botó al fons, separat de la closca voluminosa del guant que toca el perfil.",
+      "reviewedAt": "2026-11-22T07:42:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-170/image.png",
+  "originalSha256": "ebe8b0ac5893c7f02e423d8718712993f96e58ffe9e23130a4475ff4113dfe01",
+  "alt": {
+    "ca": "Una dona intenta tocar el timbre encastat amb un guant de boxa.",
+    "es": "Una mujer intenta llamar a un timbre empotrado con un guante de boxeo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:50+00:00"
+}

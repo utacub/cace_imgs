@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-158",
+    "title": "Les ulleres massa amples",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CASA",
+    "scene": "Ulleres de lectura adultes de barnilles rígides molt separades sobre un nen que mira un llibre.",
+    "contact": "Sosté una barnilla amb una mà mentre el pont ha baixat fins a la punta del nas i l’altra barnilla penja fora de l’orella.",
+    "breach": "Tria una muntura massa ampla per mantenir les lents a l’alçada dels ulls.",
+    "cue": "La distància de les barnilles supera l’ample del cap al mateix pla.",
+    "expectedResponse": {
+      "repair": "Triar una muntura que reposi al nas i a les orelles.",
+      "explanation": "Els punts de suport mantenen les lents davant dels ulls."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "ULLERES",
+        "wordId": "w-2ab74322bbef"
+      },
+      {
+        "label": "NAS",
+        "wordId": "w-2c9c9f46b9e8"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4d2fcaf61d85",
+      "w-2ab74322bbef",
+      "w-2c9c9f46b9e8",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-158/image.png",
+      "sha256": "29f3c02e6f2dfa16012c2139fad95a36e12f1231f917f15401ea088b73f3c548",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Ulleres de lectura adultes de barnilles rígides molt separades sobre un nen que mira un llibre. Gest exacte: Sosté una barnilla amb una mà mentre el pont ha baixat fins a la punta del nas i l’altra barnilla penja fora de l’orella. Únic detall volgudament incongruent: Tria una muntura massa ampla per mantenir les lents a l’alçada dels ulls. Indici que ha de ser visible sense text: La distància de les barnilles supera l’ample del cap al mateix pla. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El pont ha baixat pel nas i la barnilla de l’altre costat no arriba a l’orella. Conte obert i montura ampla.",
+      "reviewedAt": "2026-11-22T07:40:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-158/image.png",
+  "originalSha256": "29f3c02e6f2dfa16012c2139fad95a36e12f1231f917f15401ea088b73f3c548",
+  "alt": {
+    "ca": "Un nen fa servir unes ulleres massa amples que li llisquen pel nas quan llegeix.",
+    "es": "Un niño usa unas gafas demasiado anchas que le resbalan por la nariz al leer."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:53+00:00"
+}

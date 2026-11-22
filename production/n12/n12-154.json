@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-154",
+    "title": "La motxilla arriba a terra",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Nen dret amb una motxilla d’adult, la base de la qual toca el terra. Tapes i costures simples.",
+    "contact": "S’estira les corretges fins que es veu el topall de totes dues sivelles.",
+    "breach": "Tria una motxilla que continua massa baixa fins i tot completament ajustada.",
+    "cue": "La base descansa a terra i els topalls visibles impedeixen escurçar més les tires.",
+    "expectedResponse": {
+      "repair": "Triar una motxilla que quedi recolzada a l’esquena sense arrossegar.",
+      "explanation": "Les corretges necessiten un rang d’ajust adequat al cos de qui la porta."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "MOTXILLA",
+        "wordId": "w-43db0ea26088"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4d2fcaf61d85",
+      "w-43db0ea26088",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-154/image.png",
+      "sha256": "a7c9d40e275b79d2ac88d6f4fc5febdee51c84b5a3c143f68243de9e60aa10fd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Nen dret amb una motxilla d’adult, la base de la qual toca el terra. Tapes i costures simples. Gest exacte: S’estira les corretges fins que es veu el topall de totes dues sivelles. Únic detall volgudament incongruent: Tria una motxilla que continua massa baixa fins i tot completament ajustada. Indici que ha de ser visible sense text: La base descansa a terra i els topalls visibles impedeixen escurçar més les tires. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Mostra la part inferior de la motxilla de costat tocant el terra mentre el nen és dret, amb l’esquena natural. Que sigui motxilla escolar real de talla gran per al nen, sense deformar el seu cos. Amb totes dues mans mostra les corretges ajustades i els topalls de les sivelles.",
+      "review": "El nen està dret amb l’esquena normal i les mans a les corretges. La base reposa a terra.",
+      "reviewedAt": "2026-11-22T07:40:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-154/image.png",
+  "originalSha256": "a7c9d40e275b79d2ac88d6f4fc5febdee51c84b5a3c143f68243de9e60aa10fd",
+  "alt": {
+    "ca": "Un nen porta una motxilla tan llarga que la base toca a terra.",
+    "es": "Un niño lleva una mochila tan larga que la base toca el suelo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:51+00:00"
+}

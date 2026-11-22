@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-155",
+    "title": "Guants curts pels palmells",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "HORT",
+    "scene": "Dos guants infantils de jardineria posats damunt la taula del planter i dues mans adultes.",
+    "contact": "Introdueix tres puntes dels dits al guant sense que el teixit arribi a cobrir el palmell.",
+    "breach": "Fa servir guants d’una talla que no permet introduir bé la mà.",
+    "cue": "El taló de la mà queda fora i els dits ja són contra la punta cosida.",
+    "expectedResponse": {
+      "repair": "Posar-se guants de jardineria de la seva talla.",
+      "explanation": "El guant ha de cobrir tota la part que es vol protegir."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "GUANTS",
+        "wordId": "w-bd57efcdf7f5"
+      },
+      {
+        "label": "MÀ",
+        "wordId": "w-ad405c7e723f"
+      },
+      {
+        "label": "HORT",
+        "wordId": "w-7338bad6a84a"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-bd57efcdf7f5",
+      "w-ad405c7e723f",
+      "w-7338bad6a84a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-155/image.png",
+      "sha256": "2080cb1aa8a4d64fffbbb48a9a9aa6f0b9a02a38e8fa4de9f8083e52196fa9aa",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Dos guants infantils de jardineria posats damunt la taula del planter i dues mans adultes. Gest exacte: Introdueix tres puntes dels dits al guant sense que el teixit arribi a cobrir el palmell. Únic detall volgudament incongruent: Fa servir guants d’una talla que no permet introduir bé la mà. Indici que ha de ser visible sense text: El taló de la mà queda fora i els dits ja són contra la punta cosida. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El guant infantil no arriba al palmell i la mà contrària n’estira la boca. Segon guant i planter visibles.",
+      "reviewedAt": "2026-11-22T07:40:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-155/image.png",
+  "originalSha256": "2080cb1aa8a4d64fffbbb48a9a9aa6f0b9a02a38e8fa4de9f8083e52196fa9aa",
+  "alt": {
+    "ca": "Una dona prova de posar-se uns guants de jardineria massa petits per a les seves mans.",
+    "es": "Una mujer intenta ponerse unos guantes de jardinería demasiado pequeños para sus manos."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:51+00:00"
+}

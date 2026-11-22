@@ -1,0 +1,59 @@
+{
+  "construction": {
+    "id": "n12-176",
+    "title": "La tapa amb un eix menys",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "TALLER",
+    "scene": "Capsa escolar de frontissa doble sobre taula, tapa alineada pel costat fix i solta per l’altre. Eix absent en una frontissa.",
+    "contact": "Manté la tapa alineada prement lleument el cantó solt per tancar-la.",
+    "breach": "Falta l’eix d’una de les dues frontisses de la tapa.",
+    "cue": "Una frontissa té eix. A l’altra es veuen separades les orelles amb els orificis buits.",
+    "expectedResponse": {
+      "repair": "Col·locar l’eix a la frontissa buida.",
+      "explanation": "L’eix reuneix els ullals i permet que la tapa giri alineada."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "TANCAR",
+        "wordId": "w-4000ec1e6d5b"
+      },
+      {
+        "label": "CAIXA",
+        "wordId": "w-696b7c739d30"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4000ec1e6d5b",
+      "w-696b7c739d30",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-176/rejected-01.png",
+      "sha256": "a8b19946033577c97f901e98cdffc8adca87a0a2e9b18bed8d26fd3e746e2184",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Capsa escolar de frontissa doble sobre taula, tapa alineada pel costat fix i solta per l’altre. Eix absent en una frontissa. Gest exacte: Manté la tapa alineada prement lleument el cantó solt per tancar-la. Únic detall volgudament incongruent: Falta l’eix d’una de les dues frontisses de la tapa. Indici que ha de ser visible sense text: Una frontissa té eix. A l’altra es veuen separades les orelles amb els orificis buits. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les dues frontisses semblen completes i iguals. El punt buit de l’eix no es distingeix i la tapa queda ben alineada.",
+      "reviewedAt": "2026-11-22T07:42:51+00:00"
+    }
+  ],
+  "status": "rejected"
+}

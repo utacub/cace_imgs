@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-185",
+    "title": "El seient que penja només d’un costat",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PARC",
+    "scene": "Gronxador buit i aturat. Seient de fusta amb dues anelles simètriques, una fixada a una cadena i l’altra lliure. Estructura exterior a la vista.",
+    "contact": "Manté el costat lliure a l’alçada de l’encaix amb els dos palmells, des de terra, sense pujar-hi.",
+    "breach": "Falta el segon tirant del seient d’un gronxador de dues cadenes.",
+    "cue": "L’anella buida del seient i el ganxo superior d’aquest mateix costat queden visibles.",
+    "expectedResponse": {
+      "repair": "Reposar el tirant amb el muntatge adequat abans d’utilitzar el gronxador.",
+      "explanation": "Un seient de dos punts ha de penjar dels dos costats per quedar estable."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "GRONXADOR",
+        "wordId": "w-d4238a750022"
+      },
+      {
+        "label": "PARC",
+        "wordId": "w-fb96ae342785"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-072ecc01e120",
+      "w-d4238a750022",
+      "w-fb96ae342785"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-185/image.png",
+      "sha256": "ac78d3ae0bc54834a8af20279122e9c1977271a321a8bdd51cb850e0a335c0ea",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Gronxador buit i aturat. Seient de fusta amb dues anelles simètriques, una fixada a una cadena i l’altra lliure. Estructura exterior a la vista. Gest exacte: Manté el costat lliure a l’alçada de l’encaix amb els dos palmells, des de terra, sense pujar-hi. Únic detall volgudament incongruent: Falta el segon tirant del seient d’un gronxador de dues cadenes. Indici que ha de ser visible sense text: L’anella buida del seient i el ganxo superior d’aquest mateix costat queden visibles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Fotografia de joc buit i aturat. Exactament dues anelles al seient i dos ganxos a l’estructura. Només una cadena posada, sempre visible. Subjecta el seient amb totes dues mans des del terra, sense pujar-hi.",
+      "review": "Les dues anelles i els dos ganxos són visibles i només hi ha una cadena. No hi ha pes al seient.",
+      "reviewedAt": "2026-11-22T07:42:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-185/image.png",
+  "originalSha256": "ac78d3ae0bc54834a8af20279122e9c1977271a321a8bdd51cb850e0a335c0ea",
+  "alt": {
+    "ca": "Un noi subjecta el costat d’un seient de gronxador que ha perdut una cadena.",
+    "es": "Un chico sujeta el lado del asiento de un columpio que ha perdido una cadena."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:54+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-130",
+    "title": "La pintura al cercle de bàsquet",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PATI",
+    "scene": "Pista en ús amb cistella, pilota quieta i punt central envoltat de la ratlla circular. Fora de la pista es veu una taula buida de taller.",
+    "contact": "De genolls, cobreix el cercle amb els papers i la safata de pintar, i hi fa una pinzellada.",
+    "breach": "Estén un taller de pintura al centre d’una pista preparada per jugar.",
+    "cue": "La safata i els fulls ocupen el punt de joc sota la cistella.",
+    "expectedResponse": {
+      "repair": "Fer la pintura a la taula lateral.",
+      "explanation": "La superfície de joc ha de quedar sense materials que s’hi trepitgin."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "BÀSQUET",
+        "wordId": "w-38e559a79a6f"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-b04a48827310",
+      "w-4e39a6280b90",
+      "w-38e559a79a6f",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-130/image.png",
+      "sha256": "228f3bb76d985ffa8b2b8e8b11744cc0fdee3e20e183f8fe7614ee667aeec7f9",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Pista en ús amb cistella, pilota quieta i punt central envoltat de la ratlla circular. Fora de la pista es veu una taula buida de taller. Gest exacte: De genolls, cobreix el cercle amb els papers i la safata de pintar, i hi fa una pinzellada. Únic detall volgudament incongruent: Estén un taller de pintura al centre d’una pista preparada per jugar. Indici que ha de ser visible sense text: La safata i els fulls ocupen el punt de joc sota la cistella. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Cistella, pilota i ratlles identifiquen la pista. El pinzell toca un full dins el punt de joc.",
+      "reviewedAt": "2026-11-22T07:37:15+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-130/image.png",
+  "originalSha256": "228f3bb76d985ffa8b2b8e8b11744cc0fdee3e20e183f8fe7614ee667aeec7f9",
+  "alt": {
+    "ca": "Un noi pinta papers amb un pinzell al mig de la pista de bàsquet.",
+    "es": "Un chico pinta papeles con un pincel en medio de la pista de baloncesto."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:15+00:00"
+}

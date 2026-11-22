@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-174",
+    "title": "La peça que tanca el pont del tren",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "CLASSE",
+    "scene": "Via de tren de joguina amb dos pilars baixos i un buit a l’alçada de la via entre els pilars.",
+    "contact": "Mou el tren fins que una roda arriba al final visible de la via, recolzada abans de caure.",
+    "breach": "Falta el tram de via que ha d’unir els dos pilars.",
+    "cue": "Es veuen dos extrems oposats amb encaixos iguals i buits, al mateix nivell.",
+    "expectedResponse": {
+      "repair": "Unir els extrems amb el tram de via de pont.",
+      "explanation": "El tren només pot avançar amb una via contínua."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "TREN",
+        "wordId": "w-b961c4c94862"
+      },
+      {
+        "label": "PONT",
+        "wordId": "w-887bf8a73186"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-6d90f16f5461",
+      "w-b961c4c94862",
+      "w-887bf8a73186",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-174/image.png",
+      "sha256": "08c43bfb83ac1cada58ac973aa0ca3787ec1e04512ef01d479a17ce3f9ae6054",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Via de tren de joguina amb dos pilars baixos i un buit a l’alçada de la via entre els pilars. Gest exacte: Mou el tren fins que una roda arriba al final visible de la via, recolzada abans de caure. Únic detall volgudament incongruent: Falta el tram de via que ha d’unir els dos pilars. Indici que ha de ser visible sense text: Es veuen dos extrems oposats amb encaixos iguals i buits, al mateix nivell. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Dues seccions de via alineades i cadascuna plenament recolzada en un pilar propi just abans del buit. Tren de joguina aturat en una secció i totes les rodes recolzades. El buit central i els dos encaixos buits s’han de veure simultàniament.",
+      "review": "Totes les rodes del tren reposen sobre la via i els extrems oposats amb encaix queden separats sobre pilars.",
+      "reviewedAt": "2026-11-22T07:42:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-174/image.png",
+  "originalSha256": "08c43bfb83ac1cada58ac973aa0ca3787ec1e04512ef01d479a17ce3f9ae6054",
+  "alt": {
+    "ca": "Una nena fa arribar el tren de joguina fins al buit que queda entre dos trams de via.",
+    "es": "Una niña lleva el tren de juguete hasta el hueco que queda entre dos tramos de vía."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:50+00:00"
+}

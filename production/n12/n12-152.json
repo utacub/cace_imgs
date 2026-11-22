@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-152",
+    "title": "El casc de bicicleta diminut",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "PATI",
+    "scene": "Casc de bicicleta de nina amb escuma i sivella grans respecte a la seva closca; bicicleta aturada en suport.",
+    "contact": "Pressiona la closca minúscula al cap mirant d’abaixar la vora fins al front.",
+    "breach": "Prova de posar-se un casc massa petit per cobrir el cap.",
+    "cue": "Les vores no arriben ni als costats del front i el casc no entra.",
+    "expectedResponse": {
+      "repair": "Posar-se un casc de talla adequada abans de fer servir la bicicleta.",
+      "explanation": "Per protegir, la closca ha d’ajustar-se a la mida del cap."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CAP",
+        "wordId": "w-cfabc95822cc"
+      },
+      {
+        "label": "BICICLETA",
+        "wordId": "w-77e4851b2d97"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-cfabc95822cc",
+      "w-77e4851b2d97",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-152/image.png",
+      "sha256": "75fa3d7dd8c70fed73ac3710c8d30187ce0b3c2fce8507064a7b1c7bfca2a339",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Casc de bicicleta de nina amb escuma i sivella grans respecte a la seva closca; bicicleta aturada en suport. Gest exacte: Pressiona la closca minúscula al cap mirant d’abaixar la vora fins al front. Únic detall volgudament incongruent: Prova de posar-se un casc massa petit per cobrir el cap. Indici que ha de ser visible sense text: Les vores no arriben ni als costats del front i el casc no entra. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El casc clarament infantil no abraça el cap i les mans pressionen la peça. La bicicleta està quieta.",
+      "reviewedAt": "2026-11-22T07:40:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-152/image.png",
+  "originalSha256": "75fa3d7dd8c70fed73ac3710c8d30187ce0b3c2fce8507064a7b1c7bfca2a339",
+  "alt": {
+    "ca": "Una noia prova de posar-se un casc de bicicleta massa petit.",
+    "es": "Una chica intenta ponerse un casco de bicicleta demasiado pequeño."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:51+00:00"
+}

@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-167",
+    "title": "Un vestit amb cua per fer un circuit de cons",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "PATI",
+    "scene": "Circuit de cons en un pati cobert amb passos estrets. Una alumna amb sabates esportives porta un vestit llarg de roba amb cua sobre el xandall.",
+    "contact": "Pren la primera corba en pas lent i la cua del vestit s’enganxa sota la base visible d’un con d’escuma tou.",
+    "breach": "Tria una peça amb cua que arrossega per a un circuit que demana passar a prop dels cons.",
+    "cue": "La cua surt sencera de darrere del vestit i queda pinçada, a ras de terra, pel con.",
+    "expectedResponse": {
+      "repair": "Fer el circuit amb roba que deixi lliure el moviment i no arrossegui.",
+      "explanation": "La roba que queda arran del cos no queda atrapada a les bases dels cons."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "VESTIT",
+        "wordId": "w-cba3fc5cb245"
+      },
+      {
+        "label": "XANDALL",
+        "wordId": "w-b3568f15f0f0"
+      },
+      {
+        "label": "EDUCACIÓ FÍSICA",
+        "wordId": "w-b67c7aecede6"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-cba3fc5cb245",
+      "w-b3568f15f0f0",
+      "w-b67c7aecede6",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-167/image.png",
+      "sha256": "f23456abbe79dfd920c6ca486e48f34f4032fb58f498a30fa0a1060e3609ba61",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Circuit de cons en un pati cobert amb passos estrets. Una alumna amb sabates esportives porta un vestit llarg de roba amb cua sobre el xandall. Gest exacte: Pren la primera corba en pas lent i la cua del vestit s’enganxa sota la base visible d’un con d’escuma tou. Únic detall volgudament incongruent: Tria una peça amb cua que arrossega per a un circuit que demana passar a prop dels cons. Indici que ha de ser visible sense text: La cua surt sencera de darrere del vestit i queda pinçada, a ras de terra, pel con. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La cua toca i queda atrapada a la base del con. Els altres cons i el xandall identifiquen el circuit.",
+      "reviewedAt": "2026-11-22T07:42:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-167/image.png",
+  "originalSha256": "f23456abbe79dfd920c6ca486e48f34f4032fb58f498a30fa0a1060e3609ba61",
+  "alt": {
+    "ca": "Una noia fa un circuit de cons amb un vestit llarg que queda enganxat sota un con.",
+    "es": "Una chica hace un circuito de conos con un vestido largo que queda enganchado bajo un cono."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:49+00:00"
+}

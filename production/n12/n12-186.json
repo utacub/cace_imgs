@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-186",
+    "title": "La sabonera sense fons",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "LAVABO",
+    "scene": "Sabonera de paret amb marc i guies laterals que normalment sostenen una safata perforada. Marc buit.",
+    "contact": "Fa baixar una pastilla de sabó amb els dits fins a l’obertura inferior visible.",
+    "breach": "Falta la safata inferior de la sabonera.",
+    "cue": "Les dues guies simètriques estan buides i es veu la pica per l’obertura entre elles.",
+    "expectedResponse": {
+      "repair": "Posar la safata de suport abans de deixar-hi el sabó.",
+      "explanation": "El marc sol no sosté la pastilla."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "SABÓ",
+        "wordId": "w-8b5000ca29e9"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-8b5000ca29e9",
+      "w-d8afb3f68b37"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-186/image.png",
+      "sha256": "1dc77e303e4e791fb101cccb903f0f6198031da5c297bd3867834dd813a44d12",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Sabonera de paret amb marc i guies laterals que normalment sostenen una safata perforada. Marc buit. Gest exacte: Fa baixar una pastilla de sabó amb els dits fins a l’obertura inferior visible. Únic detall volgudament incongruent: Falta la safata inferior de la sabonera. Indici que ha de ser visible sense text: Les dues guies simètriques estan buides i es veu la pica per l’obertura entre elles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les guies buides queden visibles i hi ha espai lliure fins a la pica per sota de la pastilla.",
+      "reviewedAt": "2026-11-22T07:42:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-186/image.png",
+  "originalSha256": "1dc77e303e4e791fb101cccb903f0f6198031da5c297bd3867834dd813a44d12",
+  "alt": {
+    "ca": "Una dona prova de posar la pastilla a una sabonera que no té la safata inferior.",
+    "es": "Una mujer intenta poner la pastilla en una jabonera que no tiene bandeja inferior."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:54+00:00"
+}

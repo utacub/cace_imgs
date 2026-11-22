@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-156",
+    "title": "El gorro que no baixa del capdamunt",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Gorro de punt de nina, petit, cap i mans de l’adult al mateix pla.",
+    "contact": "Estira amb els dits el cèrcol que amb prou feines cobreix un petit floc del capdamunt.",
+    "breach": "Intenta abrigar-se amb un gorro massa petit per al cap.",
+    "cue": "L’obertura de punt queda presa en un floc i el front està descobert.",
+    "expectedResponse": {
+      "repair": "Escollir un gorro que abasti el cap.",
+      "explanation": "La vora de punt s’ha d’assentar al voltant del cap."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "GORRO",
+        "wordId": "w-21f8574b2a01"
+      },
+      {
+        "label": "CAP",
+        "wordId": "w-cfabc95822cc"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4d2fcaf61d85",
+      "w-21f8574b2a01",
+      "w-cfabc95822cc",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-156/rejected-01.png",
+      "sha256": "5ab5b613528367c05f02d0129cb26b2179adfb210c89f5ebddb7e0846a58441d",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Gorro de punt de nina, petit, cap i mans de l’adult al mateix pla. Gest exacte: Estira amb els dits el cèrcol que amb prou feines cobreix un petit floc del capdamunt. Únic detall volgudament incongruent: Intenta abrigar-se amb un gorro massa petit per al cap. Indici que ha de ser visible sense text: L’obertura de punt queda presa en un floc i el front està descobert. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El gorro és recognoscible i petit, però l’home fa una ganyota molt exagerada que es converteix en una pista de resposta.",
+      "reviewedAt": "2026-11-22T07:40:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

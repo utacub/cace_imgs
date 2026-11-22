@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-168",
+    "title": "La careta davant l’ocular",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "CLASSE",
+    "scene": "Taula de ciències amb microscopi escolar, i careta d’animal opaca amb musell que sobresurt molt, forats laterals oberts.",
+    "contact": "Acosta l’ull a l’ocular amb les mans als costats del microscopi i el musell de la careta topa amb l’aparell.",
+    "breach": "Porta una careta voluminosa per mirar per un ocular petit.",
+    "cue": "La protuberància manté els ulls clarament separats de l’ocular.",
+    "expectedResponse": {
+      "repair": "Retirar la careta i aproximar un ull a l’ocular.",
+      "explanation": "L’ull ha de quedar prou a prop i alineat."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CARETA",
+        "wordId": "w-b5de70706a4f"
+      },
+      {
+        "label": "ULLS",
+        "wordId": "w-e3ff5fc7f89c"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4d2fcaf61d85",
+      "w-b5de70706a4f",
+      "w-e3ff5fc7f89c",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-168/image.png",
+      "sha256": "f45d0be13dff26555a198d76e93868e5c8dd5ff02d9ff5456ff272b130ee2732",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Taula de ciències amb microscopi escolar, i careta d’animal opaca amb musell que sobresurt molt, forats laterals oberts. Gest exacte: Acosta l’ull a l’ocular amb les mans als costats del microscopi i el musell de la careta topa amb l’aparell. Únic detall volgudament incongruent: Porta una careta voluminosa per mirar per un ocular petit. Indici que ha de ser visible sense text: La protuberància manté els ulls clarament separats de l’ocular. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El musell de la careta topa amb l’ocular. L’ull queda clarament apartat tot i la posició de mirar.",
+      "reviewedAt": "2026-11-22T07:42:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-168/image.png",
+  "originalSha256": "f45d0be13dff26555a198d76e93868e5c8dd5ff02d9ff5456ff272b130ee2732",
+  "alt": {
+    "ca": "Un noi prova de mirar pel microscopi amb una careta d’animal que topa amb l’ocular.",
+    "es": "Un chico intenta mirar por el microscopio con una máscara de animal que choca contra el ocular."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:49+00:00"
+}

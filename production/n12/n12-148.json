@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-148",
+    "title": "El cinturó dels canells",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Cinturó amb sivella ampla i pantalons de vestir amb passadors visibles.",
+    "contact": "Intenta cordar el cinturó com un braçalet gran en un sol canell, amb la mà lliure a la sivella i l’extrem lluny de la pell.",
+    "breach": "Ajusta un cinturó al canell en vestir uns pantalons amb passadors buits.",
+    "cue": "La sivella i les perforacions queden al canell; els passadors dels pantalons són visibles.",
+    "expectedResponse": {
+      "repair": "Passar el cinturó pels passadors i cordar-lo a la cintura.",
+      "explanation": "El cinturó permet ajustar la roba a la cintura."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CINTURÓ",
+        "wordId": "w-2955c024261d"
+      },
+      {
+        "label": "PANTALONS",
+        "wordId": "w-3466ab37b759"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4d2fcaf61d85",
+      "w-2955c024261d",
+      "w-3466ab37b759",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-148/image.png",
+      "sha256": "f3fabf41fcd6f23f7b36eeb0c1a32d8898710aafb09452f86993816caf87e2a1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Cinturó amb sivella ampla i pantalons de vestir amb passadors visibles. Gest exacte: Intenta cordar el cinturó com un braçalet gran en un sol canell, amb la mà lliure a la sivella i l’extrem lluny de la pell. Únic detall volgudament incongruent: Ajusta un cinturó al canell en vestir uns pantalons amb passadors buits. Indici que ha de ser visible sense text: La sivella i les perforacions queden al canell; els passadors dels pantalons són visibles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’amplada, la sivella i la filera de forats identifiquen el cinturó. El canell i els passadors buits són visibles.",
+      "reviewedAt": "2026-11-22T07:40:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-148/image.png",
+  "originalSha256": "f3fabf41fcd6f23f7b36eeb0c1a32d8898710aafb09452f86993816caf87e2a1",
+  "alt": {
+    "ca": "Un noi es corda un cinturó de pantalons al voltant d’un canell.",
+    "es": "Un chico se abrocha un cinturón de pantalón alrededor de una muñeca."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:50+00:00"
+}

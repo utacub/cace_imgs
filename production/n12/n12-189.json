@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-189",
+    "title": "La paperera sense recipient",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Paperera de paret amb anella de retenció, tapa alçada, capsa exterior de reixa i cubell rígid interior absent. El fons de l’anella és totalment obert.",
+    "contact": "Deixa caure un paper gros arrugat a través de l’anella i encara manté dos dits a la vora.",
+    "breach": "Falta el recipient interior que reté el paper.",
+    "cue": "El paper ha passat a través de l’anella i es veu el camí lliure fins a terra.",
+    "expectedResponse": {
+      "repair": "Instal·lar el cubell interior abans de llençar-hi paper.",
+      "explanation": "L’anella de suport no reté residus sense recipient."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "ESCOMBRARIES",
+        "wordId": "w-e3340935e286"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-cd5c60f0d076",
+      "w-e3340935e286",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-189/image.png",
+      "sha256": "d1929a94f7275b7b91becc8be6d2bd68b02dae6f523d0189262d650a7980816c",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Paperera de paret amb anella de retenció, tapa alçada, capsa exterior de reixa i cubell rígid interior absent. El fons de l’anella és totalment obert. Gest exacte: Deixa caure un paper gros arrugat a través de l’anella i encara manté dos dits a la vora. Únic detall volgudament incongruent: Falta el recipient interior que reté el paper. Indici que ha de ser visible sense text: El paper ha passat a través de l’anella i es veu el camí lliure fins a terra. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La vista permet comprovar l’obertura a baix i la bola de paper a terra, sota el recipient absent. La tapa i la forma identifiquen la paperera.",
+      "reviewedAt": "2026-11-22T07:42:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-189/image.png",
+  "originalSha256": "d1929a94f7275b7b91becc8be6d2bd68b02dae6f523d0189262d650a7980816c",
+  "alt": {
+    "ca": "Una dona deixa paper en una paperera que té l’anella i la reixa però no el recipient interior.",
+    "es": "Una mujer deja papel en una papelera que conserva el aro y la rejilla pero no tiene el recipiente interior."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:54+00:00"
+}

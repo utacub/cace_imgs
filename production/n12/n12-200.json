@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-200",
+    "title": "El xilòfon i el forat al mig",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "CLASSE",
+    "scene": "Xilòfon escolar amb llistons ordenats de llarg a curt i dos punts de cautxú descoberts entre els llistons centrals.",
+    "contact": "Porta la baqueta al punt buit fins a tocar el cautxú de suport en comptes d’un llistó.",
+    "breach": "Falta un dels llistons del xilòfon.",
+    "cue": "El buit té l’amplada d’un llistó i conserva els dos suports dels extrems.",
+    "expectedResponse": {
+      "repair": "Restituir-hi la làmina de la longitud corresponent.",
+      "explanation": "La làmina és la part que vibra i dona aquesta nota."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "XILÒFON",
+        "wordId": "w-dd383a63729d"
+      },
+      {
+        "label": "MÚSICA",
+        "wordId": "w-13826629def8"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-072ecc01e120",
+      "w-dd383a63729d",
+      "w-13826629def8",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-200/image.png",
+      "sha256": "9616ab014969870b54c71c3a7418ad997294e17039d3f5c77c3ef89b688ab013",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Xilòfon escolar amb llistons ordenats de llarg a curt i dos punts de cautxú descoberts entre els llistons centrals. Gest exacte: Porta la baqueta al punt buit fins a tocar el cautxú de suport en comptes d’un llistó. Únic detall volgudament incongruent: Falta un dels llistons del xilòfon. Indici que ha de ser visible sense text: El buit té l’amplada d’un llistó i conserva els dos suports dels extrems. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El buit a l’alçada d’un llistó contrasta amb el patró de la resta i la baqueta hi està dirigida.",
+      "reviewedAt": "2026-11-22T07:45:25+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-200/image.png",
+  "originalSha256": "9616ab014969870b54c71c3a7418ad997294e17039d3f5c77c3ef89b688ab013",
+  "alt": {
+    "ca": "Un nen prova de tocar un xilòfon just on falta un dels llistons.",
+    "es": "Un niño intenta tocar un xilófono justo donde falta una de las láminas."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:45:25+00:00"
+}

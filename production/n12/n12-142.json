@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-142",
+    "title": "Els pantalons als braços",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Pantalons amb cintura i dues cames, noia vestida amb roba bàsica opaca.",
+    "contact": "Té cada braç introduït en una cama i empeny fins acostar les mans als baixos.",
+    "breach": "Posa les cames dels pantalons als braços.",
+    "cue": "Els baixos queden als canells i la cintura amb botó penja de les espatlles.",
+    "expectedResponse": {
+      "repair": "Introduir-hi les cames i tancar la cintura als malucs.",
+      "explanation": "Cada tub cobreix una cama i la cintura ajusta el tronc inferior."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "PANTALONS",
+        "wordId": "w-3466ab37b759"
+      },
+      {
+        "label": "BRAÇ",
+        "wordId": "w-cb2dacf32d56"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-3466ab37b759",
+      "w-cb2dacf32d56",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-142/image.png",
+      "sha256": "17c92a605e0d1c00681a7c82a4090eb831b3545e62744e3973eb5562834b4bd3",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Pantalons amb cintura i dues cames, noia vestida amb roba bàsica opaca. Gest exacte: Té cada braç introduït en una cama i empeny fins acostar les mans als baixos. Únic detall volgudament incongruent: Posa les cames dels pantalons als braços. Indici que ha de ser visible sense text: Els baixos queden als canells i la cintura amb botó penja de les espatlles. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Es veuen botó i cintura al tronc superior i baixos de texà als canells. Els braços tenen proporció natural.",
+      "reviewedAt": "2026-11-22T07:37:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-142/image.png",
+  "originalSha256": "17c92a605e0d1c00681a7c82a4090eb831b3545e62744e3973eb5562834b4bd3",
+  "alt": {
+    "ca": "Una noia introdueix tots dos braços per les cames d’uns pantalons texans.",
+    "es": "Una chica introduce los dos brazos por las perneras de unos vaqueros."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:24+00:00"
+}

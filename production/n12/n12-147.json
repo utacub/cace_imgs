@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-147",
+    "title": "El davantal al cap",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CUINA",
+    "scene": "Davantal amb pitet i butxaca grans i taula de pastar amb farina.",
+    "contact": "Estira la cinta per sobre del cap i manté el pitet sobre el clatell, amb cara i visió lliures.",
+    "breach": "Posa el cos del davantal al clatell per començar a pastar.",
+    "cue": "La butxaca penja rere l’orella i el tronc queda descobert davant la taula.",
+    "expectedResponse": {
+      "repair": "Penjar el davantal del coll i lligar-lo a la cintura, amb el pitet davant.",
+      "explanation": "El pitet protegeix la roba que queda davant la feina."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "DAVANTAL",
+        "wordId": "w-df5e5b442a24"
+      },
+      {
+        "label": "CAP",
+        "wordId": "w-cfabc95822cc"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-4d2fcaf61d85",
+      "w-df5e5b442a24",
+      "w-cfabc95822cc",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-147/image.png",
+      "sha256": "d1c099ea88969d5d2b75f5dbdc09bc6f5236ed279c7f5c9dde559a9908a63f08",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Davantal amb pitet i butxaca grans i taula de pastar amb farina. Gest exacte: Estira la cinta per sobre del cap i manté el pitet sobre el clatell, amb cara i visió lliures. Únic detall volgudament incongruent: Posa el cos del davantal al clatell per començar a pastar. Indici que ha de ser visible sense text: La butxaca penja rere l’orella i el tronc queda descobert davant la taula. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Lligam del davantal sobre el cap i peça tèxtil penjant darrere. El tronc queda a la vista davant de la farina.",
+      "reviewedAt": "2026-11-22T07:40:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-147/image.png",
+  "originalSha256": "d1c099ea88969d5d2b75f5dbdc09bc6f5236ed279c7f5c9dde559a9908a63f08",
+  "alt": {
+    "ca": "Una dona puja la cinta del davantal al cap i en deixa el pitet al darrere.",
+    "es": "Una mujer se sube la cinta del delantal a la cabeza y deja el peto detrás."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:50+00:00"
+}

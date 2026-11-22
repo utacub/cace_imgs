@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-151",
+    "title": "Calçat de nina per a un peu adult",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Sabata de nina amb cordó i sola detallats, a la mà d’un adult assegut que duu mitjons.",
+    "contact": "Acosta la boca de la miniatura al dit gros i intenta fer-hi entrar el peu.",
+    "breach": "S’ha triat una sabata de nina per calçar un peu adult.",
+    "cue": "Tota la sabata és més curta que els dits junts i mà i peu són al mateix pla.",
+    "expectedResponse": {
+      "repair": "Triar una sabata que admeti el peu sencer.",
+      "explanation": "La mida interior ha de correspondre al peu."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "label": "PEU",
+        "wordId": "w-d1bebb31e968"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4d2fcaf61d85",
+      "w-6e2a67944770",
+      "w-db89958a3c63",
+      "w-d1bebb31e968",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-151/image.png",
+      "sha256": "fe4d674e4bfbd783ed6b503bcbb9719b800d8bb2d98b819055e059245b605084",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Sabata de nina amb cordó i sola detallats, a la mà d’un adult assegut que duu mitjons. Gest exacte: Acosta la boca de la miniatura al dit gros i intenta fer-hi entrar el peu. Únic detall volgudament incongruent: S’ha triat una sabata de nina per calçar un peu adult. Indici que ha de ser visible sense text: Tota la sabata és més curta que els dits junts i mà i peu són al mateix pla. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Sabata de nina realista nen molt petita a les mans d'un home adult, amb tots dos al mateix pla. No inventis un peu gran ni facis dificultat només de foto. El dit gros toca l'obertura de la sabata de nina, i la resta del peu és visiblement més ample.",
+      "review": "A distància igual, la sabata de nina només arriba al dit gros. Peça, peu i mans es distingeixen.",
+      "reviewedAt": "2026-11-22T07:40:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-151/image.png",
+  "originalSha256": "fe4d674e4bfbd783ed6b503bcbb9719b800d8bb2d98b819055e059245b605084",
+  "alt": {
+    "ca": "Un home intenta encabir un peu dins d’una sabata diminuta de nina.",
+    "es": "Un hombre intenta meter un pie dentro de un zapato diminuto de muñeca."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:51+00:00"
+}

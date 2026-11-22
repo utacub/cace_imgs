@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-124",
+    "title": "Un trencaclosques al compartiment de les sabates",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Vestidor amb cubetes de calçat moll. Una sola enfangada sobresurt d’un compartiment.",
+    "contact": "Introdueix un tauler de puzle muntat en pla fins que una cantonada toca el fang d’una sola.",
+    "breach": "Desa un puzle de cartró al mateix compartiment que el calçat enfangat.",
+    "cue": "El fang de la sola és visible just al contacte amb el cartró del tauler.",
+    "expectedResponse": {
+      "repair": "Desar el puzle al prestatge de jocs net i sec.",
+      "explanation": "La humitat i el fang fan malbé el cartró."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "GUARDAR",
+        "wordId": "w-f0441e0dd3b0"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-f0441e0dd3b0",
+      "w-0006cf1ffdae",
+      "w-6e2a67944770",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-124/image.png",
+      "sha256": "8d664f676ecbcbb3429be2ba4db9d61115a61d1ba67c240c0f8ab280710a3727",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Vestidor amb cubetes de calçat moll. Una sola enfangada sobresurt d’un compartiment. Gest exacte: Introdueix un tauler de puzle muntat en pla fins que una cantonada toca el fang d’una sola. Únic detall volgudament incongruent: Desa un puzle de cartró al mateix compartiment que el calçat enfangat. Indici que ha de ser visible sense text: El fang de la sola és visible just al contacte amb el cartró del tauler. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El fang es veu al punt on la sola toca el cantell del puzle, dins de la mateixa cubeta.",
+      "reviewedAt": "2026-11-22T07:37:12+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-124/image.png",
+  "originalSha256": "8d664f676ecbcbb3429be2ba4db9d61115a61d1ba67c240c0f8ab280710a3727",
+  "alt": {
+    "ca": "Un nen posa un puzle de cartró en una cubeta de sabates enfangades.",
+    "es": "Un niño pone un puzle de cartón en una cubeta de zapatos embarrados."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:12+00:00"
+}

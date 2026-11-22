@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-118",
+    "title": "Panderetes al calaix de la fruita",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "MERCAT",
+    "scene": "Parada de fruita amb dos cubells de pomes i balança; un tercer cubell idèntic, ple de panderetes.",
+    "contact": "Afegeix una pandereta visible per damunt de la fila de fruita mentre sosté el cubell.",
+    "breach": "Situa material de música al compartiment de fruita fresca de la parada.",
+    "cue": "El cèrcol amb sonalls sobresurt entre contenidors de pomes.",
+    "expectedResponse": {
+      "repair": "Desar la pandereta a l’espai de material musical.",
+      "explanation": "Els cubells de la parada mostren la fruita a la venda."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PANDERETA",
+        "wordId": "w-f986e24ccb0e"
+      },
+      {
+        "label": "POMA",
+        "wordId": "w-809c680b5699"
+      },
+      {
+        "label": "MERCAT",
+        "wordId": "w-d6951854cbf7"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-c211f7486a30",
+      "w-f986e24ccb0e",
+      "w-809c680b5699",
+      "w-d6951854cbf7"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-118/image.png",
+      "sha256": "a983528777ae83ee5d0626c7d214b26e3de199dbe69247fe9cfa7763f4894b6e",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Parada de fruita amb dos cubells de pomes i balança; un tercer cubell idèntic, ple de panderetes. Gest exacte: Afegeix una pandereta visible per damunt de la fila de fruita mentre sosté el cubell. Únic detall volgudament incongruent: Situa material de música al compartiment de fruita fresca de la parada. Indici que ha de ser visible sense text: El cèrcol amb sonalls sobresurt entre contenidors de pomes. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els sonalls amb metall són visibles entre la fruita de la parada i hi ha més panderetes al cistell sostingut.",
+      "reviewedAt": "2026-11-22T07:37:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-118/image.png",
+  "originalSha256": "a983528777ae83ee5d0626c7d214b26e3de199dbe69247fe9cfa7763f4894b6e",
+  "alt": {
+    "ca": "Una dona posa una pandereta al compartiment de les pomes d’una parada de fruita.",
+    "es": "Una mujer coloca una pandereta en el compartimento de las manzanas de un puesto de fruta."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:07+00:00"
+}

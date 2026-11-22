@@ -1,0 +1,79 @@
+{
+  "construction": {
+    "id": "n12-132",
+    "title": "Un assaig a la sala de lectura",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia",
+      "Una segona persona llegeix asseguda a la taula."
+    ],
+    "setting": "BIBLIOTECA",
+    "scene": "Racó de lectura silenciosa d’una biblioteca amb taula, prestatges i una segona persona asseguda a l’altre costat llegint. La percussionista té un tambor de mà damunt la taula compartida.",
+    "contact": "Percudeix la membrana amb la punta d’una baqueta a tocar del llibre obert de l’altra persona, que continua llegint.",
+    "breach": "Assaja percussió al mateix punt on la biblioteca ofereix lectura tranquil·la.",
+    "cue": "Comparteixen el mateix espai de treball i amb prou feines queda un pam entre la membrana i el llibre.",
+    "expectedResponse": {
+      "repair": "Practicar percussió en una aula de música o espai autoritzat.",
+      "explanation": "El so fort interromp la funció de lectura tranquil·la d’aquest racó."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "PERSONA",
+        "wordId": "w-7f48ecda78c4"
+      },
+      {
+        "label": "TAMBOR",
+        "wordId": "w-e54dc34d54dc"
+      },
+      {
+        "label": "LLIBRE",
+        "wordId": "w-3bb995df42bf"
+      },
+      {
+        "label": "BIBLIOTECA",
+        "wordId": "w-25350f813f0d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-072ecc01e120",
+      "w-7f48ecda78c4",
+      "w-e54dc34d54dc",
+      "w-3bb995df42bf",
+      "w-25350f813f0d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-132/image.png",
+      "sha256": "be491fd2829484cf3614a9337df13cb1069bcf42b50bad554085862b6c1330f1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia; Una segona persona llegeix asseguda a la taula.. Escena: Racó de lectura silenciosa d’una biblioteca amb taula, prestatges i una segona persona asseguda a l’altre costat llegint. La percussionista té un tambor de mà damunt la taula compartida. Gest exacte: Percudeix la membrana amb la punta d’una baqueta a tocar del llibre obert de l’altra persona, que continua llegint. Únic detall volgudament incongruent: Assaja percussió al mateix punt on la biblioteca ofereix lectura tranquil·la. Indici que ha de ser visible sense text: Comparteixen el mateix espai de treball i amb prou feines queda un pam entre la membrana i el llibre. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. El tambor de mà i el llibre obert són a tocar sobre la mateixa taula. La punta d’una baqueta toca la membrana. L’altra persona llegeix amb gest neutre. Fons blanc amb només una columna de llibres de context.",
+      "review": "La baqueta fa contacte i el conte obert de l’altra persona és a pocs centímetres del tambor.",
+      "reviewedAt": "2026-11-22T07:37:15+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-132/image.png",
+  "originalSha256": "be491fd2829484cf3614a9337df13cb1069bcf42b50bad554085862b6c1330f1",
+  "alt": {
+    "ca": "Una noia toca un tambor a la mateixa taula on una altra persona llegeix a la biblioteca.",
+    "es": "Una chica toca un tambor en la misma mesa donde otra persona lee en la biblioteca."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:15+00:00"
+}

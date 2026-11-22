@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-146",
+    "title": "La corbata al turmell",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Persona vestint-se amb camisa de coll botonat i soleu del terra visible.",
+    "contact": "Fa el nus de corbata al turmell en posició asseguda, amb la pala ampla que penja a tocar de la sabata.",
+    "breach": "Nua una corbata formal al turmell en preparar la camisa.",
+    "cue": "El coll de camisa és buit i la pala triangular de la corbata es veu al peu.",
+    "expectedResponse": {
+      "repair": "Nuar la corbata al voltant del coll de la camisa.",
+      "explanation": "La peça està confeccionada per quedar al davant de la camisa."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CORBATA",
+        "wordId": "w-e4c6a45d79ed"
+      },
+      {
+        "label": "PEU",
+        "wordId": "w-d1bebb31e968"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4d2fcaf61d85",
+      "w-e4c6a45d79ed",
+      "w-d1bebb31e968",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-146/image.png",
+      "sha256": "d56af8bcca2dd0973329d92e1d148c839339543ef3522569163cf15e702380aa",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Persona vestint-se amb camisa de coll botonat i soleu del terra visible. Gest exacte: Fa el nus de corbata al turmell en posició asseguda, amb la pala ampla que penja a tocar de la sabata. Únic detall volgudament incongruent: Nua una corbata formal al turmell en preparar la camisa. Indici que ha de ser visible sense text: El coll de camisa és buit i la pala triangular de la corbata es veu al peu. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La camisa amb coll buit i la pala de la corbata es veuen juntes en la mateixa posició; la corbata es nua al turmell.",
+      "reviewedAt": "2026-11-22T07:40:50+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-146/image.png",
+  "originalSha256": "d56af8bcca2dd0973329d92e1d148c839339543ef3522569163cf15e702380aa",
+  "alt": {
+    "ca": "Un home es nua una corbata formal al turmell mentre porta una camisa.",
+    "es": "Un hombre se anuda una corbata formal al tobillo mientras lleva camisa."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:50+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "construction": {
+    "id": "n12-140",
+    "title": "Les peces de joc al seient ocupat",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen",
+      "Una segona criatura està asseguda a la cadira."
+    ],
+    "setting": "CLASSE",
+    "scene": "Dues cadires pròximes i taula buida. Una segona criatura roman asseguda normalment.",
+    "contact": "Recolza una construcció de blocs sobre la part estreta lliure del seient, en contacte amb la cuixa de l’altre participant.",
+    "breach": "Munta la construcció damunt d’un seient que una persona està fent servir.",
+    "cue": "La cuixa i els blocs comparteixen el petit seient i el taulell queda buit.",
+    "expectedResponse": {
+      "repair": "Muntar-la damunt de la taula.",
+      "explanation": "La taula dona superfície de treball sense ocupar l’espai d’una persona."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PERSONA",
+        "wordId": "w-7f48ecda78c4"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "CADIRA",
+        "wordId": "w-e1efe2c4e23d"
+      },
+      {
+        "label": "CLASSE",
+        "wordId": "w-3291fe2b2a8d"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-6d90f16f5461",
+      "w-7f48ecda78c4",
+      "w-776ec487889f",
+      "w-e1efe2c4e23d",
+      "w-3291fe2b2a8d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-140/image.png",
+      "sha256": "b5960ce1c16fdd32ee17aa4b8782c298d06afa3efd9d33ec12063135b1cbbd48",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen; Una segona criatura està asseguda a la cadira.. Escena: Dues cadires pròximes i taula buida. Una segona criatura roman asseguda normalment. Gest exacte: Recolza una construcció de blocs sobre la part estreta lliure del seient, en contacte amb la cuixa de l’altre participant. Únic detall volgudament incongruent: Munta la construcció damunt d’un seient que una persona està fent servir. Indici que ha de ser visible sense text: La cuixa i els blocs comparteixen el petit seient i el taulell queda buit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "En el detall, la torre reposa sobre la cadira de la nena i toca el seu maluc. Taulell completament lliure.",
+      "reviewedAt": "2026-11-22T07:37:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-140/image.png",
+  "originalSha256": "b5960ce1c16fdd32ee17aa4b8782c298d06afa3efd9d33ec12063135b1cbbd48",
+  "alt": {
+    "ca": "Un nen munta una torre de blocs al seient on ja hi ha asseguda una nena.",
+    "es": "Un niño monta una torre de bloques en el asiento donde ya está sentada una niña."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:24+00:00"
+}

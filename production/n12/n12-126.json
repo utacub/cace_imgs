@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-126",
+    "title": "El conte dins de la pica seca",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Pica de mans seca amb aixeta vista, zona de lectura amb coixí a la porta.",
+    "contact": "Recolza les pàgines obertes al fons de la pica, a tocar del desguàs, mentre les llegeix.",
+    "breach": "Fa servir l’interior de la pica com a superfície estable de lectura.",
+    "cue": "L’aixeta i el desguàs encerclen el llibre obert.",
+    "expectedResponse": {
+      "repair": "Llegir el llibre a la zona de lectura o damunt una taula seca.",
+      "explanation": "El llibre es conserva sec i la pica queda disponible."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-ef0bd41d6ee3",
+      "w-22f3876c9741",
+      "w-d8afb3f68b37",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-126/image.png",
+      "sha256": "bb4dfbd10bfbdc9bf3346704d694ff9d35b2edb8f91d0d61c84c0ff20fc93f22",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Pica de mans seca amb aixeta vista, zona de lectura amb coixí a la porta. Gest exacte: Recolza les pàgines obertes al fons de la pica, a tocar del desguàs, mentre les llegeix. Únic detall volgudament incongruent: Fa servir l’interior de la pica com a superfície estable de lectura. Indici que ha de ser visible sense text: L’aixeta i el desguàs encerclen el llibre obert. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Mostra llibre de cartró obert dins una pica seca, posició ergonòmica al costat des d’un tamboret estable. El desguàs és al costat del llibre i la persona mira les pàgines.",
+      "review": "El llibre obert recolza dins la pica prop de l’aixeta i el desguàs. La nena seu de manera estable.",
+      "reviewedAt": "2026-11-22T07:37:12+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-126/image.png",
+  "originalSha256": "bb4dfbd10bfbdc9bf3346704d694ff9d35b2edb8f91d0d61c84c0ff20fc93f22",
+  "alt": {
+    "ca": "Una nena llegeix un conte obert dins de la pica del lavabo.",
+    "es": "Una niña lee un cuento abierto dentro del lavabo."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:12+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-179",
+    "title": "Al ninot de fusta li falta un peu",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "TALLER",
+    "scene": "Ninot articulat de fusta en una base de dues clavilles. Conserva una sola peça de peu i tota la resta del cos està completa.",
+    "contact": "Sosté el ninot dret i fa coincidir el peu que té amb una clavilla, mentre l’altra cama acaba en un encaix nu.",
+    "breach": "Falta el peu desmuntable del ninot per fixar-lo al suport.",
+    "cue": "Al final de la segona cama es veu un piu igual al del primer costat i queda lliure la clavilla de la base.",
+    "expectedResponse": {
+      "repair": "Tornar a encaixar el peu del ninot.",
+      "explanation": "Els dos peus donen suport als encaixos de la base."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "NINA",
+        "wordId": "w-db89958a3c63"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-db89958a3c63",
+      "w-776ec487889f",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-179/image.png",
+      "sha256": "12a2d06928ddc6c6707486a1aa500b5d139f5eb40e4516f4daae979d95308ef0",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Ninot articulat de fusta en una base de dues clavilles. Conserva una sola peça de peu i tota la resta del cos està completa. Gest exacte: Sosté el ninot dret i fa coincidir el peu que té amb una clavilla, mentre l’altra cama acaba en un encaix nu. Únic detall volgudament incongruent: Falta el peu desmuntable del ninot per fixar-lo al suport. Indici que ha de ser visible sense text: Al final de la segona cama es veu un piu igual al del primer costat i queda lliure la clavilla de la base. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Queden visibles el piu de la cama sense peu i la segona clavilla lliure de la plataforma del ninot.",
+      "reviewedAt": "2026-11-22T07:42:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-179/image.png",
+  "originalSha256": "12a2d06928ddc6c6707486a1aa500b5d139f5eb40e4516f4daae979d95308ef0",
+  "alt": {
+    "ca": "Una noia intenta recolzar un ninot de fusta que ha perdut un peu desmuntable.",
+    "es": "Una chica intenta apoyar un muñeco de madera que ha perdido un pie desmontable."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:51+00:00"
+}

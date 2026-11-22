@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-127",
+    "title": "El parxís a la cinta de la caixa",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "BOTIGA",
+    "scene": "Caixa de botiga d’aliments, cinta aturada amb una compra al darrere i parxís desplegat al mig.",
+    "contact": "Mou una fitxa pel tauler, recolzat sobre la cinta, amb l’altra mà subjectant el tauler.",
+    "breach": "Organitza una partida al carril de compra de la caixa.",
+    "cue": "La compra queda físicament darrere del tauler que barra l’ample de la cinta.",
+    "expectedResponse": {
+      "repair": "Jugar al parxís damunt una taula fora de la caixa.",
+      "explanation": "Cal mantenir lliure el recorregut dels articles."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PARXÍS",
+        "wordId": "w-ef7a02dfdb6c"
+      },
+      {
+        "label": "BOTIGA",
+        "wordId": "w-c299f0f22ee8"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-6d90f16f5461",
+      "w-ef7a02dfdb6c",
+      "w-c299f0f22ee8"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-127/image.png",
+      "sha256": "1bf8574a6d89c86635b175fcffb8cb0b43a716df5df3324ca111dbc804e414fd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Caixa de botiga d’aliments, cinta aturada amb una compra al darrere i parxís desplegat al mig. Gest exacte: Mou una fitxa pel tauler, recolzat sobre la cinta, amb l’altra mà subjectant el tauler. Únic detall volgudament incongruent: Organitza una partida al carril de compra de la caixa. Indici que ha de ser visible sense text: La compra queda físicament darrere del tauler que barra l’ample de la cinta. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El noi mou una fitxa i la compra queda a l’altra banda del tauler damunt la cinta.",
+      "reviewedAt": "2026-11-22T07:37:12+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-127/image.png",
+  "originalSha256": "1bf8574a6d89c86635b175fcffb8cb0b43a716df5df3324ca111dbc804e414fd",
+  "alt": {
+    "ca": "Un noi juga a parxís damunt de la cinta d’una caixa de botiga.",
+    "es": "Un chico juega al parchís sobre la cinta de una caja de tienda."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:12+00:00"
+}

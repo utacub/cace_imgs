@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-183",
+    "title": "La maneta que no hi és",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "CASA",
+    "scene": "Porta interior lleugera amb placa intacta i eix quadrat descobert, sense maneta al costat de la dona.",
+    "contact": "Intenta prémer el petit eix quadrat amb la mà a l’alçada de la placa.",
+    "breach": "Falta la maneta que permet moure el mecanisme amb la mà.",
+    "cue": "L’eix curt sobresurt de l’orifici central de la placa i es veu on s’hi fixa la maneta.",
+    "expectedResponse": {
+      "repair": "Muntar la maneta adequada a l’eix.",
+      "explanation": "La maneta ofereix una palanca per girar l’eix."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-a10b29af07c7",
+      "w-e2209c0332a6",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-183/image.png",
+      "sha256": "ddac9306c25e69b067edf5eca4ab7dc0c59ed4fee2e0ab0413fa563ce68ececa",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Porta interior lleugera amb placa intacta i eix quadrat descobert, sense maneta al costat de la dona. Gest exacte: Intenta prémer el petit eix quadrat amb la mà a l’alçada de la placa. Únic detall volgudament incongruent: Falta la maneta que permet moure el mecanisme amb la mà. Indici que ha de ser visible sense text: L’eix curt sobresurt de l’orifici central de la placa i es veu on s’hi fixa la maneta. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "L’eix nu és central i el dit arriba al metall. El marc i la placa formen una porta real recognoscible.",
+      "reviewedAt": "2026-11-22T07:42:53+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-183/image.png",
+  "originalSha256": "ddac9306c25e69b067edf5eca4ab7dc0c59ed4fee2e0ab0413fa563ce68ececa",
+  "alt": {
+    "ca": "Una dona prem amb el dit l’eix que ha quedat al lloc de la maneta de la porta.",
+    "es": "Una mujer presiona con el dedo el eje que ha quedado donde debería estar la manilla."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:53+00:00"
+}

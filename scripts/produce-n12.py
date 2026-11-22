@@ -11,6 +11,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 
 from PIL import Image
 
@@ -25,11 +26,22 @@ def read_json(path):
     return json.loads(path.read_text(encoding='utf-8-sig'))
 
 
+def replace_file(temporary, destination):
+    for attempt in range(6):
+        try:
+            temporary.replace(destination)
+            return
+        except PermissionError:
+            if attempt == 5:
+                raise
+            time.sleep(0.25 * (attempt + 1))
+
+
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + '.tmp')
     temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    temporary.replace(path)
+    replace_file(temporary, path)
 
 
 def checksum(path):
@@ -71,7 +83,7 @@ def remember_review(item, decision):
     else:
         temporary = destination.with_suffix('.tmp')
         shutil.copyfile(source, temporary)
-        temporary.replace(destination)
+        replace_file(temporary, destination)
     relative = destination.relative_to(ROOT).as_posix()
     record['attempts'].append({
         'status': decision['status'], 'file': relative, 'sha256': digest,
@@ -147,7 +159,7 @@ def prepare_release(plan, items, catalog, version):
         with Image.open(source) as image:
             temporary = display.with_suffix('.tmp')
             image.convert('RGB').save(temporary, format='WEBP', quality=93, method=6)
-            temporary.replace(display)
+            replace_file(temporary, display)
         additions.append({
             'id': asset_id, 'src': relative, 'kind': item['kind'], 'levels': [12],
             'title': {'ca': item['title'], 'es': ' · '.join(word_lookup[key]['es'] for key in item['wordIds'])},

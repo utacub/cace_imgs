@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-195",
+    "title": "Una sabata de cordó sense cordó",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Dues sabates de cordons iguals posades. En una, nuset acabat. L’altra mostra tots els ullets sense cordó.",
+    "contact": "Pessiga les dues solapes d’ullets buits amb una mà a cada costat.",
+    "breach": "Falta el cordó necessari per ajustar una de les sabates.",
+    "cue": "Els ullets visibles són del mateix tipus als dos peus i només un costat té fil.",
+    "expectedResponse": {
+      "repair": "Enfilar un cordó pels ullets i lligar-lo.",
+      "explanation": "El cordó manté juntes les dues parts de la sabata."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "SABATES",
+        "wordId": "w-6e2a67944770"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4d2fcaf61d85",
+      "w-6e2a67944770",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-195/image.png",
+      "sha256": "63192181a14e89c136c81887f0d7a1c1939abe992148d6d457fb456fb29180af",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Dues sabates de cordons iguals posades. En una, nuset acabat. L’altra mostra tots els ullets sense cordó. Gest exacte: Pessiga les dues solapes d’ullets buits amb una mà a cada costat. Únic detall volgudament incongruent: Falta el cordó necessari per ajustar una de les sabates. Indici que ha de ser visible sense text: Els ullets visibles són del mateix tipus als dos peus i només un costat té fil. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Una sabata té un nus visible i l’altra mostra totes les anelles buides, subjectades amb els dits.",
+      "reviewedAt": "2026-11-22T07:45:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-195/image.png",
+  "originalSha256": "63192181a14e89c136c81887f0d7a1c1939abe992148d6d457fb456fb29180af",
+  "alt": {
+    "ca": "Un nen intenta ajustar-se una sabata sense cordó mentre l’altra ja està lligada.",
+    "es": "Un niño intenta ajustarse un zapato sin cordón mientras el otro ya está atado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:45:24+00:00"
+}

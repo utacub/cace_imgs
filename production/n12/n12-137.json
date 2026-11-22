@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-137",
+    "title": "El brodat a la safata de dinar",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Una safata de menú amb bol de sopa freda i espai limitat. Mocador de teixit de brodar a tocar del plat.",
+    "contact": "Passa fil gruixut amb una agulla de plàstic roma per un forat de la tela sobre la safata amb menjar.",
+    "breach": "Fa servir com a taula de manualitats una safata que ja conté el dinar.",
+    "cue": "Els cabdells i la tela es trepitgen amb la vaixella dins del mateix espai.",
+    "expectedResponse": {
+      "repair": "Treballar la tela en una taula de manualitats separada.",
+      "explanation": "Els estris i el menjar necessiten superfícies separades."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "COSIR",
+        "wordId": "w-b591637a58a1"
+      },
+      {
+        "label": "MOCADOR",
+        "wordId": "w-35e3a6c8a7fd"
+      },
+      {
+        "label": "SOPA",
+        "wordId": "w-ac8bd82a4040"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-b591637a58a1",
+      "w-35e3a6c8a7fd",
+      "w-ac8bd82a4040",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-137/image.png",
+      "sha256": "b253e4447a6b3bb86577bc9af8851e387b7c2d957c9a50feb875ae1e4a1e1d1e",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Una safata de menú amb bol de sopa freda i espai limitat. Mocador de teixit de brodar a tocar del plat. Gest exacte: Passa fil gruixut amb una agulla de plàstic roma per un forat de la tela sobre la safata amb menjar. Únic detall volgudament incongruent: Fa servir com a taula de manualitats una safata que ja conté el dinar. Indici que ha de ser visible sense text: Els cabdells i la tela es trepitgen amb la vaixella dins del mateix espai. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els dits guien fil i roba dins de la mateixa safata que bol i plat. Agulla de manualitats de plàstic.",
+      "reviewedAt": "2026-11-22T07:37:19+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-137/image.png",
+  "originalSha256": "b253e4447a6b3bb86577bc9af8851e387b7c2d957c9a50feb875ae1e4a1e1d1e",
+  "alt": {
+    "ca": "Una dona broda un mocador sobre la mateixa safata on té el dinar.",
+    "es": "Una mujer borda un pañuelo sobre la misma bandeja donde tiene la comida."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:19+00:00"
+}

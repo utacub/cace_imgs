@@ -1,0 +1,69 @@
+{
+  "construction": {
+    "id": "n12-123",
+    "title": "El cartell que tapa el timbre",
+    "mechanism": "context",
+    "subtype": "ubicacio-destinataria",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Porta de classe amb un botó de timbre sobresortint i espai lliure de paret al costat.",
+    "contact": "Encola un full il·lustrat de dibuixos muts sobre el botó, marcant-lo com un bony.",
+    "breach": "Penja el full just sobre la zona que cal prémer.",
+    "cue": "El botó queda cobert sota el plec i al costat hi ha una superfície lliure.",
+    "expectedResponse": {
+      "repair": "Col·locar el full al costat deixant lliure el timbre.",
+      "explanation": "Tothom ha de poder trobar i prémer el botó."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "POSAR",
+        "wordId": "w-c211f7486a30"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "TIMBRE",
+        "wordId": "w-060bce9fd6c3"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-c211f7486a30",
+      "w-cd5c60f0d076",
+      "w-060bce9fd6c3",
+      "w-e2209c0332a6",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-123/rejected-01.png",
+      "sha256": "211e44352168a9d6314301bb443e6b322ecbf7f184ef0cc4b7d4f2cef183acd1",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Porta de classe amb un botó de timbre sobresortint i espai lliure de paret al costat. Gest exacte: Encola un full il·lustrat de dibuixos muts sobre el botó, marcant-lo com un bony. Únic detall volgudament incongruent: Penja el full just sobre la zona que cal prémer. Indici que ha de ser visible sense text: El botó queda cobert sota el plec i al costat hi ha una superfície lliure. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El cartell inclou un dit que assenyala directament el botó. Sembla un senyal dissenyat per indicar com tocar el timbre.",
+      "reviewedAt": "2026-11-22T07:37:12+00:00"
+    }
+  ],
+  "status": "rejected"
+}

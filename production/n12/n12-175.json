@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-175",
+    "title": "Un collaret sense peça de tancament",
+    "mechanism": "omissio",
+    "subtype": "encaix-positiu",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "TALLER",
+    "scene": "Collaret amb grans grossos, mosquetó en un extrem i nus buit visible al final de l’altre.",
+    "contact": "Sosté els extrems molt a prop i pressiona la palanca del mosquetó.",
+    "breach": "Falta l’anella on ha d’enganxar el mosquetó.",
+    "cue": "La palanca s’obre clarament davant un nus que no conté anella.",
+    "expectedResponse": {
+      "repair": "Afegir-hi l’anella de tancament del collaret.",
+      "explanation": "El mosquetó necessita una peça complementària per quedar fixat."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "COLLARET",
+        "wordId": "w-072184ba0291"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-072184ba0291",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-175/image.png",
+      "sha256": "55455f7a7d7ee56115031089ad07f92670c26a0b1b75748fc782176b178b4491",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Collaret amb grans grossos, mosquetó en un extrem i nus buit visible al final de l’altre. Gest exacte: Sosté els extrems molt a prop i pressiona la palanca del mosquetó. Únic detall volgudament incongruent: Falta l’anella on ha d’enganxar el mosquetó. Indici que ha de ser visible sense text: La palanca s’obre clarament davant un nus que no conté anella. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El nus buit es veu al davant del mosquetó mentre els dits sostenen el collaret.",
+      "reviewedAt": "2026-11-22T07:42:51+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-175/image.png",
+  "originalSha256": "55455f7a7d7ee56115031089ad07f92670c26a0b1b75748fc782176b178b4491",
+  "alt": {
+    "ca": "Una noia prova de cordar un collaret que ha perdut l’anella del tancament.",
+    "es": "Una chica intenta abrochar un collar que ha perdido la anilla del cierre."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:51+00:00"
+}

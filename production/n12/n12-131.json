@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-131",
+    "title": "Pastar a la vora del sorral",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una dona"
+    ],
+    "setting": "PATI",
+    "scene": "Sorral amb marques de pala, i una pasta de pa real i farina sobre la vora sorrosa de fusta sense safata.",
+    "contact": "Aixafa amb el palmell una massa clarament elàstica que s’enganxa a la sorra de la vora.",
+    "breach": "Prepara massa comestible en una superfície de joc bruta de sorra.",
+    "cue": "Els grans de sorra s’adhereixen al contorn de la massa i encara es veu la farina.",
+    "expectedResponse": {
+      "repair": "Pastar sobre un taulell net de cuina.",
+      "explanation": "La massa que es menja ha de quedar lliure de sorra."
+    },
+    "terms": [
+      {
+        "label": "DONA",
+        "wordId": "w-72e9fe9a8b43"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "FARINA",
+        "wordId": "w-597d62285b22"
+      },
+      {
+        "label": "PA",
+        "wordId": "w-96e21018e871"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-72e9fe9a8b43",
+    "wordIds": [
+      "w-72e9fe9a8b43",
+      "w-072ecc01e120",
+      "w-597d62285b22",
+      "w-96e21018e871",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-131/image.png",
+      "sha256": "be271c820a08eacac91eecced94b2f8764a5c6c867a3cec30f80835a1e530685",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una dona. Escena: Sorral amb marques de pala, i una pasta de pa real i farina sobre la vora sorrosa de fusta sense safata. Gest exacte: Aixafa amb el palmell una massa clarament elàstica que s’enganxa a la sorra de la vora. Únic detall volgudament incongruent: Prepara massa comestible en una superfície de joc bruta de sorra. Indici que ha de ser visible sense text: Els grans de sorra s’adhereixen al contorn de la massa i encara es veu la farina. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El palmell prem la massa; el contorn reposa a la vora amb grans de sorra al costat del munt i la pala.",
+      "reviewedAt": "2026-11-22T07:37:15+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-131/image.png",
+  "originalSha256": "be271c820a08eacac91eecced94b2f8764a5c6c867a3cec30f80835a1e530685",
+  "alt": {
+    "ca": "Una dona pasta una massa de pa sobre la vora de fusta del sorral.",
+    "es": "Una mujer amasa pan sobre el borde de madera del arenero."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:15+00:00"
+}

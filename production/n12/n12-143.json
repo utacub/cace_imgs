@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-143",
+    "title": "El casc dels genolls",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "PATI",
+    "scene": "Banc de pista, un casc rígid de patinatge amb corretges i un patinet estacionat al costat.",
+    "contact": "Assegut amb els peus a terra, prem l’escuma del casc contra una ròtula i tensa les corretges fluixes a la cuixa.",
+    "breach": "Situa el casc de patinatge en un genoll en vestir-se.",
+    "cue": "El perfil del casc amb ventilacions abraça la ròtula i la barbeta queda lliure.",
+    "expectedResponse": {
+      "repair": "Posar el casc al cap i ajustar les corretges segons el seu disseny.",
+      "explanation": "El casc està fet per protegir el cap."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CAMA",
+        "wordId": "w-4a0aff137783"
+      },
+      {
+        "label": "PATINET",
+        "wordId": "w-930357f518b5"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4d2fcaf61d85",
+      "w-4a0aff137783",
+      "w-930357f518b5",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-143/image.png",
+      "sha256": "d481f8f3d37d4ce09df9a2bdf2cc7f0c4f6f3082df2da95d46042f515f84a3ae",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Banc de pista, un casc rígid de patinatge amb corretges i un patinet estacionat al costat. Gest exacte: Assegut amb els peus a terra, prem l’escuma del casc contra una ròtula i tensa les corretges fluixes a la cuixa. Únic detall volgudament incongruent: Situa el casc de patinatge en un genoll en vestir-se. Indici que ha de ser visible sense text: El perfil del casc amb ventilacions abraça la ròtula i la barbeta queda lliure. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El casc amb ventilacions toca un genoll i el noi tensa la corretja. Patinet aturat i tots dos peus a terra.",
+      "reviewedAt": "2026-11-22T07:37:38+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-143/image.png",
+  "originalSha256": "d481f8f3d37d4ce09df9a2bdf2cc7f0c4f6f3082df2da95d46042f515f84a3ae",
+  "alt": {
+    "ca": "Un noi es posa un casc de patinatge al genoll al costat d’un patinet estacionat.",
+    "es": "Un chico se pone un casco de patinaje en la rodilla junto a un patinete aparcado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:38+00:00"
+}

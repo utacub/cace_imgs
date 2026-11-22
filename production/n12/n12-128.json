@@ -1,0 +1,79 @@
+{
+  "construction": {
+    "id": "n12-128",
+    "title": "La partida al capdamunt del tobogan",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena",
+      "Una segona criatura espera dreta al costat de l’accés."
+    ],
+    "setting": "PATI",
+    "scene": "Tobogan infantil baix i ample, amb superfície inicial plana. Una altra criatura espera dreta al terra al costat de l’accés.",
+    "contact": "En una posició estable, encaixa una peça del puzle al tauler fixat pel seu pes sobre el replà inicial.",
+    "breach": "Munta el puzle exactament al punt de sortida del tobogan.",
+    "cue": "El tauler ocupa tot l’inici de la baixada.",
+    "expectedResponse": {
+      "repair": "Muntar el puzle en una taula baixa lateral.",
+      "explanation": "El replà del tobogan ha de quedar lliure per als torns."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "JUGAR",
+        "wordId": "w-6d90f16f5461"
+      },
+      {
+        "label": "PERSONA",
+        "wordId": "w-7f48ecda78c4"
+      },
+      {
+        "label": "PUZLE",
+        "wordId": "w-0006cf1ffdae"
+      },
+      {
+        "label": "TOBOGAN",
+        "wordId": "w-72ef210216af"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-6d90f16f5461",
+      "w-7f48ecda78c4",
+      "w-0006cf1ffdae",
+      "w-72ef210216af",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-128/image.png",
+      "sha256": "c44e349976c730c96e3ee7e5b4a59fea5d6de7fd291b5d9883d83857ad93c259",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena; Una segona criatura espera dreta al costat de l’accés.. Escena: Tobogan infantil baix i ample, amb superfície inicial plana. Una altra criatura espera dreta al terra al costat de l’accés. Gest exacte: En una posició estable, encaixa una peça del puzle al tauler fixat pel seu pes sobre el replà inicial. Únic detall volgudament incongruent: Munta el puzle exactament al punt de sortida del tobogan. Indici que ha de ser visible sense text: El tauler ocupa tot l’inici de la baixada. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Un petit tobogan de pati de plàstic, repòs i plataforma molt baixos a prop de terra. Dues criatures. La que munta el puzle no es troba en cap punt elevat o perillós. Cal veure el tauler a l’inici del recorregut.",
+      "review": "Les mans encaixen la peça al tauler a l’inici de la baixada. El segon infant és a terra i queda lliure de contacte.",
+      "reviewedAt": "2026-11-22T07:37:15+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-128/image.png",
+  "originalSha256": "c44e349976c730c96e3ee7e5b4a59fea5d6de7fd291b5d9883d83857ad93c259",
+  "alt": {
+    "ca": "Una nena munta un puzle a l’inici d’un tobogan baix mentre un nen espera al costat.",
+    "es": "Una niña monta un puzle al comienzo de un tobogán bajo mientras un niño espera al lado."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:15+00:00"
+}

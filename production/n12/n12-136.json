@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-136",
+    "title": "Assecar paper dins la dutxa activa",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CASA",
+    "scene": "Dutxa buida de persones, capçal deixant caure un filet fi, i paper mullat que sobresurt d’una tovallola seca a la mà.",
+    "contact": "Prem el paper amb la tovallola dins el mateix raig, amb els dos braços fora del raig principal.",
+    "breach": "Tria el raig actiu com a lloc per eixugar paper.",
+    "cue": "El raig torna a caure sobre el punt que està eixugant.",
+    "expectedResponse": {
+      "repair": "Eixugar-lo en sec fora de la dutxa.",
+      "explanation": "L’assecat requereix deixar de mullar el paper."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "DUTXA",
+        "wordId": "w-f32f7efa9c37"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-ae417aa563dd",
+      "w-cd5c60f0d076",
+      "w-f32f7efa9c37",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-136/image.png",
+      "sha256": "746e4ec745f52935537af3c1a43357c65a360ec76f4a79b75acc63ed950ece75",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Dutxa buida de persones, capçal deixant caure un filet fi, i paper mullat que sobresurt d’una tovallola seca a la mà. Gest exacte: Prem el paper amb la tovallola dins el mateix raig, amb els dos braços fora del raig principal. Únic detall volgudament incongruent: Tria el raig actiu com a lloc per eixugar paper. Indici que ha de ser visible sense text: El raig torna a caure sobre el punt que està eixugant. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El paper blanc es distingeix de la tovallola i l’aigua n’impacta la vora mentre la mà prem.",
+      "reviewedAt": "2026-11-22T07:37:18+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-136/image.png",
+  "originalSha256": "746e4ec745f52935537af3c1a43357c65a360ec76f4a79b75acc63ed950ece75",
+  "alt": {
+    "ca": "Una noia intenta eixugar un paper amb una tovallola sota el raig de la dutxa.",
+    "es": "Una chica intenta secar un papel con una toalla bajo el chorro de la ducha."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:18+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "construction": {
+    "id": "n12-144",
+    "title": "Les genolleres a les galtes",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "PATI",
+    "scene": "Banc de pista i dues genolleres de patinatge amb closca articulada i gomes llargues.",
+    "contact": "Se subjecta una genollera a cada galta amb les mans, sense tapar nas ni boca.",
+    "breach": "Assigna les genolleres a les galtes durant l’equipament.",
+    "cue": "Les cassoletes rígides i gomes de cames es veuen al costat del nas.",
+    "expectedResponse": {
+      "repair": "Col·locar les genolleres sobre els genolls.",
+      "explanation": "La seva forma s’ajusta a la ròtula quan el genoll es flexiona."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "CARA",
+        "wordId": "w-7c1d3d6f943d"
+      },
+      {
+        "label": "PATI",
+        "wordId": "w-b8852b37e441"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-7c1d3d6f943d",
+      "w-b8852b37e441"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-144/image.png",
+      "sha256": "c30c8b7daf711c1e29d6bbb87d1e32ebd31cb9bb50df10a3a25e05228367d3fd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Banc de pista i dues genolleres de patinatge amb closca articulada i gomes llargues. Gest exacte: Se subjecta una genollera a cada galta amb les mans, sense tapar nas ni boca. Únic detall volgudament incongruent: Assigna les genolleres a les galtes durant l’equipament. Indici que ha de ser visible sense text: Les cassoletes rígides i gomes de cames es veuen al costat del nas. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les closques dures i les corretges de cama es veuen junt amb la cara, sense tapar nas, visió ni boca.",
+      "reviewedAt": "2026-11-22T07:40:49+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-144/image.png",
+  "originalSha256": "c30c8b7daf711c1e29d6bbb87d1e32ebd31cb9bb50df10a3a25e05228367d3fd",
+  "alt": {
+    "ca": "Una noia es posa una genollera a cada galta.",
+    "es": "Una chica se pone una rodillera en cada mejilla."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:40:49+00:00"
+}

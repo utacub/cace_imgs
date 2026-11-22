@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-159",
+    "title": "Les mans atrapades a les mànigues",
+    "mechanism": "equipament",
+    "subtype": "talla-i-capacitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Jaqueta d’adult amb cremallera i punys que pengen més d’un avantbraç en una nena dreta amb roba de carrer posada.",
+    "contact": "Pressiona els dits contra el teixit d’una màniga molt llarga a l’alçada normal del canell.",
+    "breach": "Tria una talla de jaqueta que li impedeix treure les mans pels punys.",
+    "cue": "La forma dels dits es marca dins la tela, molt abans del puny buit.",
+    "expectedResponse": {
+      "repair": "Triar una jaqueta que deixi lliures les mans.",
+      "explanation": "La màniga acaba prop del canell quan la peça s’ajusta."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "JAQUETA",
+        "wordId": "w-baf6d3603bb3"
+      },
+      {
+        "label": "MÀ",
+        "wordId": "w-ad405c7e723f"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-4d2fcaf61d85",
+      "w-baf6d3603bb3",
+      "w-ad405c7e723f",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-159/rejected-01.png",
+      "sha256": "da6f05cd39ecd16848d131d431603291997f3dfcda141ecf158d13dc56e05685",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Jaqueta d’adult amb cremallera i punys que pengen més d’un avantbraç en una nena dreta amb roba de carrer posada. Gest exacte: Pressiona els dits contra el teixit d’una màniga molt llarga a l’alçada normal del canell. Únic detall volgudament incongruent: Tria una talla de jaqueta que li impedeix treure les mans pels punys. Indici que ha de ser visible sense text: La forma dels dits es marca dins la tela, molt abans del puny buit. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Jaqueta de roba normal, amb punys massa llargs clars i dits que només es marquen sota la tela a l'altura esperada del canell. No afegeixis dits ni extremitats.",
+      "review": "Les mans queden amagades, però no es veuen els dits marcats a la tela ni cap intent de treure’ls. Sembla una jaqueta ampla portada amb normalitat.",
+      "reviewedAt": "2026-11-22T07:40:53+00:00"
+    }
+  ],
+  "status": "rejected"
+}

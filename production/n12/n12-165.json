@@ -1,0 +1,69 @@
+{
+  "construction": {
+    "id": "n12-165",
+    "title": "Les lents de sol davant del conte",
+    "mechanism": "equipament",
+    "subtype": "funcio-incompatible",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Racó interior de lectura amb llum local de taula. Llibre i postura orientats cap a la superfície il·luminada. Les ulleres de sol tenen lents fetes especialment opaques, gairebé negres.",
+    "contact": "Sosté un conte obert a distància normal i mira a través del centre de les lents fosques.",
+    "breach": "Tria lents molt opaques per veure les pàgines en lectura de prop.",
+    "cue": "El costat visible de les lents es veu fosc i opac, mentre el llum il·lumina la pàgina.",
+    "expectedResponse": {
+      "repair": "Per llegir amb claror suficient, usar lents transparents amb la correcció visual que calgui.",
+      "explanation": "Veure el detall del conte requereix llum suficient."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "ULLERES",
+        "wordId": "w-2ab74322bbef"
+      },
+      {
+        "label": "LLEGIR",
+        "wordId": "w-ef0bd41d6ee3"
+      },
+      {
+        "label": "CONTE",
+        "wordId": "w-22f3876c9741"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-4d2fcaf61d85",
+      "w-2ab74322bbef",
+      "w-ef0bd41d6ee3",
+      "w-22f3876c9741",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-165/rejected-01.png",
+      "sha256": "fcb542504530f895553bca84417809409ceca422b361cb11ca19545aa2179c60",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Racó interior de lectura amb llum local de taula. Llibre i postura orientats cap a la superfície il·luminada. Les ulleres de sol tenen lents fetes especialment opaques, gairebé negres. Gest exacte: Sosté un conte obert a distància normal i mira a través del centre de les lents fosques. Únic detall volgudament incongruent: Tria lents molt opaques per veure les pàgines en lectura de prop. Indici que ha de ser visible sense text: El costat visible de les lents es veu fosc i opac, mentre el llum il·lumina la pàgina. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Ulleres de sol totalment opaques i font de llum local al llibre, ulls orientats a la pàgina i contorns claríssims. L’absurd és l’opacitat extreme de la lent durant la lectura. Fotografia en fons blanc, sense enfosquir-ho tot.",
+      "review": "Les ulleres semblen ulleres de sol corrents amb una mica de reflex. No queda acreditat que les lents siguin totalment opaques.",
+      "reviewedAt": "2026-11-22T07:40:54+00:00"
+    }
+  ],
+  "status": "rejected"
+}

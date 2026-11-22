@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-134",
+    "title": "Raspallar-se a la taula d’esmorzar",
+    "mechanism": "context",
+    "subtype": "espai-de-lactivitat",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un noi"
+    ],
+    "setting": "MENJADOR",
+    "scene": "Taula parada per esmorzar amb aliments i got de beguda; lavabo fora de la composició.",
+    "contact": "S’asseu a taula i frega les dents amb raspall i escuma de dents, sobre el plat de menjar preparat.",
+    "breach": "Fa la higiene dental damunt del menjar preparat a taula.",
+    "cue": "Les cerres toquen les dents i l’escuma està alineada sobre el plat.",
+    "expectedResponse": {
+      "repair": "Raspallar-se les dents al lavabo.",
+      "explanation": "La pica permet esbandir-se sense embrutar el menjar."
+    },
+    "terms": [
+      {
+        "label": "NOI",
+        "wordId": "w-01bc6dcab46b"
+      },
+      {
+        "label": "NETEJAR",
+        "wordId": "w-4e6be686e7c1"
+      },
+      {
+        "label": "RASPALL DE DENTS",
+        "wordId": "w-ba87276d415c"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "MENJADOR",
+        "wordId": "w-32c0089441f0"
+      }
+    ],
+    "primaryWordId": "w-01bc6dcab46b",
+    "wordIds": [
+      "w-01bc6dcab46b",
+      "w-4e6be686e7c1",
+      "w-ba87276d415c",
+      "w-adecb8403118",
+      "w-32c0089441f0"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-134/image.png",
+      "sha256": "705acf6aa5469a3f1aa18fcc2536bd363d9e3d1ca78ee04023e856666d9c1fbd",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un noi. Escena: Taula parada per esmorzar amb aliments i got de beguda; lavabo fora de la composició. Gest exacte: S’asseu a taula i frega les dents amb raspall i escuma de dents, sobre el plat de menjar preparat. Únic detall volgudament incongruent: Fa la higiene dental damunt del menjar preparat a taula. Indici que ha de ser visible sense text: Les cerres toquen les dents i l’escuma està alineada sobre el plat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les cerres toquen la boca i l’escuma cau cap al plat amb l’esmorzar. El raspall queda clarament separat dels coberts.",
+      "reviewedAt": "2026-11-22T07:37:18+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-134/image.png",
+  "originalSha256": "705acf6aa5469a3f1aa18fcc2536bd363d9e3d1ca78ee04023e856666d9c1fbd",
+  "alt": {
+    "ca": "Un noi es raspalla les dents damunt de la taula parada per esmorzar.",
+    "es": "Un chico se cepilla los dientes sobre la mesa puesta para desayunar."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:18+00:00"
+}

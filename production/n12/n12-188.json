@@ -1,0 +1,63 @@
+{
+  "construction": {
+    "id": "n12-188",
+    "title": "La tenda sense travesser",
+    "mechanism": "omissio",
+    "subtype": "element-de-servei",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CÀMPING",
+    "scene": "Tenda de joc a terra amb dos arcs instal·lats i dues vetes buides penjants al llarg del carener enfonsat.",
+    "contact": "Aixeca el teixit central amb una mà des de fora i hi mostra les vetes a l’altre costat.",
+    "breach": "Falta el travesser que manté desplegat el carener d’aquesta tenda.",
+    "cue": "Les vetes buides queden alineades al mateix nivell entre els arcs, amb el teixit enfonsat.",
+    "expectedResponse": {
+      "repair": "Passar la vareta compatible pel carener i assegurar-la als arcs.",
+      "explanation": "El travesser impedeix que el teixit s’enfonsi entre els dos arcs."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "AIXECAR",
+        "wordId": "w-e12d88415c80"
+      },
+      {
+        "label": "CÀMPING",
+        "wordId": "w-83beeb602e46"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-e12d88415c80",
+      "w-83beeb602e46"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-188/image.png",
+      "sha256": "68115f85df29075279fc8090393d865761f331f6ec066a9a3c975a4784d0b0d6",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Tenda de joc a terra amb dos arcs instal·lats i dues vetes buides penjants al llarg del carener enfonsat. Gest exacte: Aixeca el teixit central amb una mà des de fora i hi mostra les vetes a l’altre costat. Únic detall volgudament incongruent: Falta el travesser que manté desplegat el carener d’aquesta tenda. Indici que ha de ser visible sense text: Les vetes buides queden alineades al mateix nivell entre els arcs, amb el teixit enfonsat. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Els dos arcs i les vetes buides mostren l’espai enfonsat que hauria de sostenir el travesser. La mà aixeca la tela.",
+      "reviewedAt": "2026-11-22T07:42:54+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-188/image.png",
+  "originalSha256": "68115f85df29075279fc8090393d865761f331f6ec066a9a3c975a4784d0b0d6",
+  "alt": {
+    "ca": "Un home alça la tela enfonsada d’una tenda a la qual falta el travesser central.",
+    "es": "Un hombre levanta la tela hundida de una tienda a la que le falta el travesaño central."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:54+00:00"
+}

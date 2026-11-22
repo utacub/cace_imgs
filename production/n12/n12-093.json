@@ -53,7 +53,24 @@
       "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Motxilla convencional amb cremalleres a davant i dues corretges a l’esquena, dreta sobre un tamboret. Gest exacte: Prova de passar un braç per la bossa principal ja tancada, mantenint la corretja a fora a l’altra mà. Únic detall volgudament incongruent: Fa passar el braç per la bossa en lloc de per la corretja de càrrega. Indici que ha de ser visible sense text: El puny topa contra la tela tancada, al costat d’una corretja amb espai lliure. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
       "review": "L’avantbraç travessa la tela tancada i desapareix. Cal mostrar el puny aturat a fora amb la corretja a part.",
       "reviewedAt": "2026-11-22T07:30:44+00:00"
+    },
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-093/image.png",
+      "sha256": "53646012a0a56bfbff4e5efb228ec93f6cfba84bd6b9d224d7fa16f564733349",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Motxilla convencional amb cremalleres a davant i dues corretges a l’esquena, dreta sobre un tamboret. Gest exacte: Prova de passar un braç per la bossa principal ja tancada, mantenint la corretja a fora a l’altra mà. Únic detall volgudament incongruent: Fa passar el braç per la bossa en lloc de per la corretja de càrrega. Indici que ha de ser visible sense text: El puny topa contra la tela tancada, al costat d’una corretja amb espai lliure. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La motxilla es veu sencera i està tancada per totes bandes. La mà dreta fa puny i empeny des de FORA contra la cara tèxtil frontal, que només es deforma una mica. Tota la mà i l’avantbraç romanen visibles. L’altra mà sosté una corretja en l’aire per la dreta, amb l’espai lliure entre corretja i motxilla molt clar. La persona posa cara neutra.",
+      "review": "El puny queda completament fora de la motxilla tancada i en pressiona la tela. L’altra mà mostra la corretja separada.",
+      "reviewedAt": "2026-11-22T07:42:49+00:00"
     }
   ],
-  "status": "rejected"
+  "status": "accepted",
+  "file": "output/production/n12/n12-093/image.png",
+  "originalSha256": "53646012a0a56bfbff4e5efb228ec93f6cfba84bd6b9d224d7fa16f564733349",
+  "alt": {
+    "ca": "Una noia empeny el puny contra la roba de la motxilla en comptes de passar el braç per la corretja.",
+    "es": "Una chica empuja el puño contra la tela de la mochila en lugar de pasar el brazo por la correa."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:42:49+00:00"
 }

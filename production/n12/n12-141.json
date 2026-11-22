@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-141",
+    "title": "Botes de les mans",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un nen"
+    ],
+    "setting": "HABITACIÓ",
+    "scene": "Banc de l’habitació, dos peus amb mitjons i dues botes de pluja de mida normal per als peus.",
+    "contact": "Introdueix totes dues mans a les canyes de les botes, recolzades sobre el banc, com si se les calçàs.",
+    "breach": "Assigna les botes a les mans en vestir-se per sortir.",
+    "cue": "Els dits són dins les canyes, els peus queden amb mitjons i es veuen les soles de les botes.",
+    "expectedResponse": {
+      "repair": "Introduir cada peu en una bota.",
+      "explanation": "La sola està dissenyada per recolzar el peu quan es camina."
+    },
+    "terms": [
+      {
+        "label": "NEN",
+        "wordId": "w-b4012100fe09"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "BOTES",
+        "wordId": "w-a644e017ea31"
+      },
+      {
+        "label": "MÀ",
+        "wordId": "w-ad405c7e723f"
+      },
+      {
+        "label": "HABITACIÓ",
+        "wordId": "w-23dafac8fd59"
+      }
+    ],
+    "primaryWordId": "w-b4012100fe09",
+    "wordIds": [
+      "w-b4012100fe09",
+      "w-4d2fcaf61d85",
+      "w-a644e017ea31",
+      "w-ad405c7e723f",
+      "w-23dafac8fd59"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-141/image.png",
+      "sha256": "102bc79cab1a37bf3c95ed1823534ef9aa6c264d01b1dd0c4360ba6cfd49f452",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un nen. Escena: Banc de l’habitació, dos peus amb mitjons i dues botes de pluja de mida normal per als peus. Gest exacte: Introdueix totes dues mans a les canyes de les botes, recolzades sobre el banc, com si se les calçàs. Únic detall volgudament incongruent: Assigna les botes a les mans en vestir-se per sortir. Indici que ha de ser visible sense text: Els dits són dins les canyes, els peus queden amb mitjons i es veuen les soles de les botes. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "Les mans entren a les canyes i la sola i els peus amb mitjons són visibles.",
+      "reviewedAt": "2026-11-22T07:37:24+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-141/image.png",
+  "originalSha256": "102bc79cab1a37bf3c95ed1823534ef9aa6c264d01b1dd0c4360ba6cfd49f452",
+  "alt": {
+    "ca": "Un nen es posa dues botes de pluja a les mans mentre els peus porten mitjons.",
+    "es": "Un niño se pone dos botas de lluvia en las manos mientras lleva calcetines en los pies."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:37:24+00:00"
+}

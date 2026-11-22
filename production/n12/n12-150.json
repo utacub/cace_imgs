@@ -1,0 +1,64 @@
+{
+  "construction": {
+    "id": "n12-150",
+    "title": "La caputxa a la cintura",
+    "mechanism": "equipament",
+    "subtype": "part-del-cos",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "CASA",
+    "scene": "Impermeable de caputxa cosida i porta amb pluja visible per una finestra; noia vestida amb roba bàsica.",
+    "contact": "Fa lliscar l’obertura de la caputxa darrere del maluc i en manté el contorn contra la cintura mentre les mànigues pengen cap avall.",
+    "breach": "Prova d’enfundar-se la cintura a la caputxa en vestir l’impermeable.",
+    "cue": "La costura uneix la caputxa al coll buit de l’abric i les mànigues queden sense braços.",
+    "expectedResponse": {
+      "repair": "Vestir l’impermeable i pujar la caputxa al cap.",
+      "explanation": "La caputxa protegeix el cap i el cos de l’impermeable cobreix el tronc."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "VESTIR",
+        "wordId": "w-4d2fcaf61d85"
+      },
+      {
+        "label": "IMPERMEABLE",
+        "wordId": "w-8932081f116a"
+      },
+      {
+        "label": "COLL",
+        "wordId": "w-5c8726619240"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-4d2fcaf61d85",
+      "w-8932081f116a",
+      "w-5c8726619240",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "rejected",
+      "file": "output/production/n12/n12-150/rejected-01.png",
+      "sha256": "2a503e387ad802b74ee6b122715a9eca444912074ac47bd538792132088246eb",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Impermeable de caputxa cosida i porta amb pluja visible per una finestra; noia vestida amb roba bàsica. Gest exacte: Fa lliscar l’obertura de la caputxa darrere del maluc i en manté el contorn contra la cintura mentre les mànigues pengen cap avall. Únic detall volgudament incongruent: Prova d’enfundar-se la cintura a la caputxa en vestir l’impermeable. Indici que ha de ser visible sense text: La costura uneix la caputxa al coll buit de l’abric i les mànigues queden sense braços. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La peça sembla un impermeable sostingut per l’obertura del tronc com si se’l volgués lligar a la cintura. No s’identifica la caputxa com a punt d’entrada.",
+      "reviewedAt": "2026-11-22T07:40:50+00:00"
+    }
+  ],
+  "status": "rejected"
+}
