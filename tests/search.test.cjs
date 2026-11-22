@@ -393,6 +393,32 @@ test('N1 keeps both drawing subcategories inside the level collection', () => {
   }
 });
 
+test('The image and search indexes refresh after editing local assets', () => {
+  const a = app();
+  const id = 'personal-index';
+  a.run(`stored.assets=[{id:'${id}',title:{ca:'clauprimera',es:'claveprimera'},
+    tags:['${appleId}'],levels:[1],kind:'photo'}]; state.query='clauprimera'`);
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [id]);
+  a.run("state.viewerIds=['personal-index']; viewerIndex(); lang='es'; state.query='claveprimera'");
+  assert.deepEqual(a.read('results().map(row=>row.id)'), [id]);
+  a.run("stored.assets=[{...stored.assets[0],title:{ca:'clausegona',es:'clavesegunda'}}]");
+  assert.equal(a.read('results().length'), 0);
+  assert.equal(a.read("assetById('personal-index').title.es"), 'clavesegunda');
+  assert.equal(a.read('viewerIndex().rows[0].title.ca'), 'clausegona');
+});
+
+test('The viewer keeps gallery order and breaks ties in related images in that order', () => {
+  const a = app();
+  const images = catalog.assets.slice(0, 12);
+  const current = images[5];
+  const overlap = image => image.tags.filter(tag => current.tags.includes(tag)).length;
+  const expected = images.filter(image => image.id!==current.id).sort((a,b)=>overlap(b)-overlap(a)).slice(0,5);
+  a.run(`state.viewerIds=${JSON.stringify(images.map(image=>image.id))}`);
+  assert.equal(a.read(`viewerIndex().positions.get('${current.id}')`), 5);
+  assert.deepEqual(a.read(`relatedImages(assetById('${current.id}'),viewerIndex()).map(image=>image.id)`),
+    [current.id,...expected.map(image=>image.id)]);
+});
+
 test('New backups preserve the chosen primary keyword and older backups remain compatible', () => {
   const a = app();
   const row = structuredClone(catalog.assets.find(row => row.id === 'sample-girl-photo'));

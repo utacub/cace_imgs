@@ -89,8 +89,22 @@ if(preferred)return preferred;
 // Older personal images and backups have tags but no explicit primary word.
 return tags.find(id=>['ca','es'].some(language=>WORDS.get(id)[language]&&a.title?.[language]&&norm(WORDS.get(id)[language])===norm(a.title[language].split('·')[0])))||tags[0];
 }
-function assets(){const all=new Map(BASE);for(const a of stored.assets)all.set(a.id,BASE.has(a.id)?{...BASE.get(a.id),...a}:a);return [...all.values()].map(a=>a.primaryWordId===primaryWordIdFor(a)?a:{...a,primaryWordId:primaryWordIdFor(a)})}
-function assetById(id){return assets().find(a=>a.id===id)}
+let indexedAssets;
+function assetIndex(){
+  if(indexedAssets?.local===stored.assets)return indexedAssets;
+  const byId=new Map(BASE);
+  for(const a of stored.assets)byId.set(a.id,BASE.has(a.id)?{...BASE.get(a.id),...a}:a);
+  const tagCounts=new Map();
+  for(const [id,a] of byId){
+    const primaryWordId=primaryWordIdFor(a);
+    if(a.primaryWordId!==primaryWordId)byId.set(id,{...a,primaryWordId});
+    for(const tag of new Set(a.tags))tagCounts.set(tag,(tagCounts.get(tag)||0)+1);
+  }
+  indexedAssets={local:stored.assets,byId,tagCounts,rows:[...byId.values()]};
+  return indexedAssets;
+}
+function assets(){return assetIndex().rows}
+function assetById(id){return assetIndex().byId.get(id)}
 function collectionById(id){return stored.collections.find(c=>c.id===id)}
 function collectionName(collection){
   if(!collection)return t('collection');
@@ -141,10 +155,25 @@ function syncCatalogCollections(){
 }
 const isFavorite=id=>stored.favorites.includes(id);
 const tagName=id=>loc(WORDS.get(id));
-const assetCategories=a=>[...new Set(a.tags.map(id=>WORDS.get(id)?.category).filter(Boolean))];
+const categoryIndex=new WeakMap();
+function assetCategories(a){
+  if(!categoryIndex.has(a))categoryIndex.set(a,[...new Set(a.tags.map(id=>WORDS.get(id)?.category).filter(Boolean))]);
+  return categoryIndex.get(a);
+}
 // Display labels may fall back to a translation; the search index must not.
 const searchLocal=value=>norm(value?.[lang]);
-function searchFields(a){return{primary:searchLocal(WORDS.get(primaryWordIdFor(a))),tags:a.tags.map(id=>searchLocal(WORDS.get(id))),title:searchLocal(a.title),description:searchLocal(a.alt)}}
+const wordIndex=new Map(CATALOG.words.map(w=>[w.id,{ca:norm(w.ca),es:norm(w.es)}]));
+const textIndex={ca:new WeakMap(),es:new WeakMap()};
+function searchFields(a){
+  const index=textIndex[lang];
+  if(index.has(a))return index.get(a);
+  const primary=wordIndex.get(a.primaryWordId)?.[lang]||'';
+  const tags=a.tags.map(id=>wordIndex.get(id)?.[lang]||'');
+  const title=searchLocal(a.title),description=searchLocal(a.alt);
+  const fields={primary,tags,title,description,text:[primary,...tags,title,description].join(' ')};
+  index.set(a,fields);
+  return fields;
+}
 const hasSearch=()=>Boolean(norm(state.query)||state.tags.length);
 function usesLevelOrder(){
   if(state.view!=='library'||state.level||state.category||state.kind!=='all')return false;
@@ -159,28 +188,29 @@ function initialConcreteLabel(asset,level){
   return /\s/.test(label)||broadConcepts.has(label)?'':label;
 }
 function textMatch(text,query){if(!text||!query)return 0;if(text===query)return 4;if((' '+text+' ').includes(' '+query+' '))return 3;if(text.split(' ').some(word=>word.startsWith(query)))return 2;return text.includes(query)?1:0}
-function relevance(a){
-const fields=searchFields(a),query=norm(state.query),terms=query.split(' ').filter(Boolean);
+function relevance(a,query,terms){
+const fields=searchFields(a);
 const best=term=>Math.max(textMatch(fields.primary,term)*100,...fields.tags.map(tag=>textMatch(tag,term)*60),textMatch(fields.title,term)*45,textMatch(fields.description,term)*10);
 // Exact primary concepts outrank secondary tags, titles and incidental mentions.
 // A phrase match wins over scattered terms; term scores break ties for longer queries.
 const queryScore=terms.length?best(query)*1000+terms.reduce((sum,term)=>sum+best(term),0)/terms.length:0;
-return queryScore+(state.tags.includes(primaryWordIdFor(a))?500000:0);
+return queryScore+(state.tags.includes(a.primaryWordId)?500000:0);
 }
 function baseAssets(){let list=assets();if(state.view==='favorites')list=list.filter(a=>isFavorite(a.id));if(state.view==='collection'){const items=new Set(collectionById(state.collection)?.items);list=list.filter(a=>items.has(a.id))}return list}
-function matches(a){if(state.kind!=='all'&&a.kind!==state.kind)return false;if(state.drawingStyle&&!a.variant?.startsWith(state.drawingStyle))return false;if(state.level&&!a.levels.includes(state.level))return false;if(state.category&&!assetCategories(a).includes(state.category))return false;
+function matches(a,terms){if(state.kind!=='all'&&a.kind!==state.kind)return false;if(state.drawingStyle&&!a.variant?.startsWith(state.drawingStyle))return false;if(state.level&&!a.levels.includes(state.level))return false;if(state.category&&!assetCategories(a).includes(state.category))return false;
 if(state.tags.length){const checks=state.tags.map(id=>a.tags.includes(id));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}
-const terms=norm(state.query).split(' ').filter(Boolean);if(terms.length){const fields=searchFields(a),text=[fields.primary,...fields.tags,fields.title,fields.description].join(' ');const checks=terms.map(term=>text.includes(term));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}return true}
+if(terms.length){const {text}=searchFields(a);const checks=terms.map(term=>text.includes(term));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}return true}
 function results(){
-  const list=baseAssets().filter(matches);
+  const query=norm(state.query),terms=query?query.split(' '):[];
+  const list=baseAssets().filter(asset=>matches(asset,terms));
   if(state.sort==='alpha')return list.sort((a,b)=>loc(a.title).localeCompare(loc(b.title),lang));
   if(state.sort==='new')return list.sort((a,b)=>(b.created||'').localeCompare(a.created||''));
-  const searching=hasSearch();
+  const searching=Boolean(query||state.tags.length);
   const byLevel=usesLevelOrder();
   if(!searching&&!byLevel)return list;
   return list.map(asset=>{
     const level=Math.max(...asset.levels);
-    return {asset,level,score:searching?relevance(asset):0,
+    return {asset,level,score:searching?relevance(asset,query,terms):0,
       concreteLabel:searching?'':initialConcreteLabel(asset,level)};
   })
     .sort((a,b)=>(byLevel?a.level-b.level:0)||b.score-a.score
@@ -221,31 +251,106 @@ return ids.slice(0,limit).map(id=>{const label=id===primary?t('primaryWord')+' �
 }
 function card(a){return `<article class="image-card"><div class="kind-mark" title="${t(a.kind==='photo'?'photo':'drawing')}">${icon(a.kind==='photo'?'camera':'pencil')}<span>${t(a.kind==='photo'?'photo':'drawing')}</span></div><div class="card-hover-actions"><button class="icon-btn" data-action="fullscreen-card" data-id="${esc(a.id)}" aria-label="${t('fullscreen')} · ${esc(loc(a.title))}" title="${t('fullscreen')}">${icon('expand')}</button><button class="icon-btn ${isFavorite(a.id)?'starred':''}" data-action="favorite" data-id="${esc(a.id)}" aria-label="${t('favorites')} · ${esc(loc(a.title))}" aria-pressed="${isFavorite(a.id)}" title="${t('favorites')}">${icon('heart')}</button></div><button class="card-open" data-action="open-image" data-id="${esc(a.id)}" aria-label="${t('view')} · ${esc(loc(a.title))}"><img src="${esc(a.src)}" alt="${esc(loc(a.alt)||loc(a.title))}" loading="lazy" width="1448" height="1086"></button><div class="card-text"><button class="card-title" data-action="open-image" data-id="${esc(a.id)}">${esc(loc(a.title))}</button><div class="card-bottom"><div class="tags">${tagsHTML(a,3)}</div><span class="level-pill" title="${a.levels.map(id=>esc(loc(LEVELS.get(id)))).join(' · ')}">${t('level')} ${String(Math.max(...a.levels)).padStart(2,'0')}</span></div><div class="card-meta-actions"><button class="card-add" data-action="add-to-collection" data-id="${esc(a.id)}">${icon('folder')}<span>${t('addTo')}</span></button><button class="meta-link" data-action="fullscreen-card" data-id="${esc(a.id)}" aria-label="${t('fullscreen')} · ${esc(loc(a.title))}">${icon('expand')}<span>${t('fullscreen')}</span></button></div></div></article>`}
 function empty(iconName,title,desc,actions){return `<section class="empty-state">${icon(iconName)}<h2>${esc(title)}</h2><p>${esc(desc)}</p><div class="empty-actions">${actions}</div></section>`}
-function renderGallery(){const list=results(),filtered=state.query||state.tags.length||state.level||state.category||state.kind!=='all';let content;
+const galleryBatchSize=120;
+let galleryObserver;
+function attachGalleryBatches(list,displayed){
+  if(displayed>=list.length)return;
+  const grid=$('#main .image-grid'),more=$('#galleryMore');
+  const append=()=>{
+    if(!more.isConnected)return;
+    const next=displayed+galleryBatchSize;
+    grid.insertAdjacentHTML('beforeend',list.slice(displayed,next).map(card).join(''));
+    displayed=next;
+    if(displayed>=list.length){
+      galleryObserver?.disconnect();
+      more.remove();
+    }
+  };
+  more.onclick=append;
+  if(window.IntersectionObserver){
+    galleryObserver=new window.IntersectionObserver(entries=>{
+      if(entries.some(entry=>entry.isIntersecting))append();
+    },{rootMargin:'400px'});
+    galleryObserver.observe(more);
+  }
+}
+function renderGallery(){
+galleryObserver?.disconnect();
+const list=results(),filtered=state.query||state.tags.length||state.level||state.category||state.kind!=='all';
+const displayed=list.length>2*galleryBatchSize?galleryBatchSize:list.length;
+let content;
 if(!list.length){const special=state.view==='favorites'&&!filtered?'Favorites':state.view==='collection'&&!filtered?'Collection':null;content=empty(special==='Favorites'?'heart':special==='Collection'?'folder':'search',special?t(special==='Favorites'?'noFavorites':'emptyCollection'):t('noResults'),special?t(special==='Favorites'?'noFavoritesDesc':'emptyCollectionDesc'):t('noResultsDesc'),special?`<button class="btn primary" data-action="library">${t('browseLibrary')}</button>`:`<button class="btn" data-action="reset-filters">${t('clearFilters')}</button><button class="btn primary" data-action="import-images">${icon('plus')}${t('addImages')}</button>`)}
-else content=`<div class="image-grid ${state.layout==='list'?'list-view':''}">${list.map(card).join('')}</div>`;
-$('#main').innerHTML=heading()+filterToolbar()+filters()+`<div class="result-meta"><span role="status" aria-live="polite">${countText(list.length)}</span><label class="word-mode">${t('contains')} <select id="wordMode" aria-label="${t('contains')}"><option value="all">${t('allWords')}</option><option value="any" ${state.wordMode==='any'?'selected':''}>${t('anyWord')}</option></select></label></div>`+content+`<footer class="catalog-note"><span>${t('note')}</span><button class="text-button" data-action="about">${icon('info')}${t('readMore')}</button></footer>`}
-function renderCollections(){const list=stored.collections,all=assets();$('#main').innerHTML=`<div class="page-heading"><div><h1>${t('collections')}</h1><p class="subtitle">${t('noCollectionsDesc')}</p></div><button class="btn primary" data-action="new-collection">${icon('plus')}${t('newCollection')}</button></div>`+(list.length?`<div class="collections-grid">${list.map(c=>{const items=c.items.map(id=>all.find(a=>a.id===id)).filter(Boolean);return `<article class="collection-card"><button class="collection-cover" data-action="open-collection" data-id="${esc(c.id)}" aria-label="${esc(collectionName(c))}">${items.length?items.slice(0,4).map(a=>`<img src="${esc(a.src)}" alt="" loading="lazy">`).join(''):`<span class="placeholder">${icon('folder')}</span>`}</button><div class="collection-info"><div><button class="collection-title" data-action="open-collection" data-id="${esc(c.id)}">${esc(collectionName(c))}</button><small>${countText(items.length)}</small></div><button class="icon-btn" data-action="rename-collection" data-id="${esc(c.id)}" aria-label="${t('rename')} · ${esc(collectionName(c))}">${icon('edit')}</button></div></article>`}).join('')}</div>`:empty('folder',t('noCollections'),t('noCollectionsDesc'),`<button class="btn primary" data-action="new-collection">${icon('plus')}${t('newCollection')}</button>`))}
-function renderViewer(){const a=assetById(state.viewer);if(!a){state.viewer=null;renderGallery();return}const pool=state.viewerIds.map(assetById).filter(Boolean);const index=pool.findIndex(x=>x.id===a.id);const related=[a,...pool.filter(x=>x.id!==a.id).sort((x,y)=>y.tags.filter(id=>a.tags.includes(id)).length-x.tags.filter(id=>a.tags.includes(id)).length)].slice(0,6);
-$('#main').innerHTML=`<div class="focus-heading"><div class="breadcrumb"><button data-action="close-viewer">${state.view==='collection'?esc(collectionName(collectionById(state.collection))):t('library')}</button>${icon('chevron')}<span>${esc(loc(LEVELS.get(Math.max(...a.levels))))}</span></div><div class="focus-actions"><button class="icon-btn" data-action="previous" aria-label="${t('previous')}" title="${t('previous')}" ${index<=0?'disabled':''}>${icon('back')}</button><span class="focus-count">${index+1} / ${pool.length}</span><button class="icon-btn" data-action="next" aria-label="${t('next')}" title="${t('next')}" ${index>=pool.length-1?'disabled':''}>${icon('chevron')}</button>${iconButton('expand','fullscreen',t('fullscreen'))}</div></div>
+else content=`<div class="image-grid ${state.layout==='list'?'list-view':''}">${list.slice(0,displayed).map(card).join('')}</div>`+
+  (displayed<list.length?`<div class="gallery-more"><button class="btn" id="galleryMore">${lang==='ca'?'Mostra més imatges':'Mostrar más imágenes'}</button></div>`:'');
+$('#main').innerHTML=heading()+filterToolbar()+filters()+`<div class="result-meta"><span role="status" aria-live="polite">${countText(list.length)}</span><label class="word-mode">${t('contains')} <select id="wordMode" aria-label="${t('contains')}"><option value="all">${t('allWords')}</option><option value="any" ${state.wordMode==='any'?'selected':''}>${t('anyWord')}</option></select></label></div>`+content+`<footer class="catalog-note"><span>${t('note')}</span><button class="text-button" data-action="about">${icon('info')}${t('readMore')}</button></footer>`;attachGalleryBatches(list,displayed)}
+function renderCollections(){const list=stored.collections;$('#main').innerHTML=`<div class="page-heading"><div><h1>${t('collections')}</h1><p class="subtitle">${t('noCollectionsDesc')}</p></div><button class="btn primary" data-action="new-collection">${icon('plus')}${t('newCollection')}</button></div>`+(list.length?`<div class="collections-grid">${list.map(c=>{const items=c.items.map(assetById).filter(Boolean);return `<article class="collection-card"><button class="collection-cover" data-action="open-collection" data-id="${esc(c.id)}" aria-label="${esc(collectionName(c))}">${items.length?items.slice(0,4).map(a=>`<img src="${esc(a.src)}" alt="" loading="lazy">`).join(''):`<span class="placeholder">${icon('folder')}</span>`}</button><div class="collection-info"><div><button class="collection-title" data-action="open-collection" data-id="${esc(c.id)}">${esc(collectionName(c))}</button><small>${countText(items.length)}</small></div><button class="icon-btn" data-action="rename-collection" data-id="${esc(c.id)}" aria-label="${t('rename')} · ${esc(collectionName(c))}">${icon('edit')}</button></div></article>`}).join('')}</div>`:empty('folder',t('noCollections'),t('noCollectionsDesc'),`<button class="btn primary" data-action="new-collection">${icon('plus')}${t('newCollection')}</button>`))}
+let indexedViewer;
+function viewerIndex(){
+  const index=assetIndex();
+  if(indexedViewer?.ids===state.viewerIds&&indexedViewer.index===index)return indexedViewer;
+  const rows=state.viewerIds.map(id=>index.byId.get(id)).filter(Boolean);
+  const positions=new Map(),byTag=new Map();
+  for(const [position,image] of rows.entries()){
+    positions.set(image.id,position);
+    for(const tag of image.tags){
+      if(!byTag.has(tag))byTag.set(tag,[]);
+      byTag.get(tag).push(position);
+    }
+  }
+  indexedViewer={ids:state.viewerIds,index,rows,positions,byTag};
+  return indexedViewer;
+}
+function relatedImages(image,viewer){
+  const current=viewer.positions.get(image.id),scores=new Map();
+  for(const tag of new Set(image.tags)){
+    for(const position of viewer.byTag.get(tag)||[]){
+      if(position!==current)scores.set(position,(scores.get(position)||0)+1);
+    }
+  }
+  const nearest=[...scores.keys()].sort((a,b)=>scores.get(b)-scores.get(a)||a-b).slice(0,5);
+  for(let i=0;i<viewer.rows.length&&nearest.length<5;i++){
+    if(i!==current&&!scores.has(i))nearest.push(i);
+  }
+  return [image,...nearest.map(position=>viewer.rows[position])];
+}
+let preloadedNeighbors=new Map();
+function preloadNeighbors(pool,index){
+  if(!window.Image)return;
+  const neighbors=new Map();
+  for(const asset of [pool[index+1],pool[index-1]].filter(Boolean)){
+    let image=preloadedNeighbors.get(asset.src);
+    if(!image){
+      image=new window.Image();
+      image.fetchPriority='low';
+      image.src=asset.src;
+    }
+    neighbors.set(asset.src,image);
+  }
+  preloadedNeighbors=neighbors;
+}
+function renderViewer(){
+const a=assetById(state.viewer);if(!a){state.viewer=null;renderGallery();return}
+const viewer=viewerIndex(),pool=viewer.rows,index=viewer.positions.get(a.id)??-1;
+const related=relatedImages(a,viewer);
+$('#main').innerHTML=`<div class="focus-heading"><div class="breadcrumb"><button data-action="close-viewer">${state.view==='collection'?esc(collectionName(collectionById(state.collection))):t('library')}</button>${icon('chevron')}<span>${esc(loc(LEVELS.get(Math.max(...a.levels))))}</span></div><div class="focus-actions"><button class="icon-btn" data-action="previous" aria-label="${t('previous')}" title="${t('previous')}" ${index<=0?'disabled':''}>${icon('back')}</button><span class="focus-count">${index+1} / ${pool.length}</span><button class="icon-btn" data-action="next" aria-label="${t('next')}" title="${t('next')}" ${index>=pool.length-1?'disabled':''}>${icon('arrow')}</button>${iconButton('expand','fullscreen',t('fullscreen'))}</div></div>
 <div class="focus-layout"><div><section class="focus-main"><div class="image-stage" data-action="stage"><img id="viewerImage" src="${esc(a.src)}" alt="${esc(loc(a.alt)||loc(a.title))}" width="1448" height="1086"></div><div class="focus-caption"><div class="focus-caption-top"><h1>${esc(loc(a.title))}</h1><span class="badge amber">${t('level')} ${String(Math.max(...a.levels)).padStart(2,'0')}</span></div><div class="tags">${tagsHTML(a,30)}</div><div class="focus-categories">${assetCategories(a).map(id=>{const c=CATEGORIES.get(id);return `<button data-action="category" data-id="${id}">${icon(c.icon)}${esc(loc(c))}</button>`}).join('')}<span style="margin-left:auto;font-size:10px">${['sample','generated'].includes(a.origin)?t('imageCredit'):''}</span></div></div></section><div class="focus-footer"><div class="focus-tools"><button class="text-button" data-action="download-image" data-id="${a.id}">${icon('download')}${t('download')}</button><button class="text-button" data-action="edit-image" data-id="${a.id}">${icon('edit')}${t('edit')}</button><button class="text-button" data-action="print">${icon('print')}${t('print')}</button></div><div style="display:flex;gap:7px"><button class="icon-btn ${isFavorite(a.id)?'starred':''}" data-action="favorite" data-id="${a.id}" aria-label="${t('favorites')}" aria-pressed="${isFavorite(a.id)}">${icon('heart')}</button><button class="btn primary" data-action="add-to-collection" data-id="${a.id}">${icon('folder')}${t('addTo')}</button></div></div></div><aside class="related-panel" aria-label="${t('otherImages')}"><h2>${t('otherImages')}</h2><div class="related-list">${related.map(x=>`<button class="related-item ${x.id===a.id?'active':''}" data-action="related-image" data-id="${x.id}" aria-label="${t('view')} · ${esc(loc(x.title))}" aria-pressed="${x.id===a.id}"><img src="${esc(x.src)}" alt="" loading="lazy"><small>${esc(loc(x.title))}</small></button>`).join('')}</div></aside></div>
-<div class="present-bar"><span class="present-brand">CACE Imatges</span><div class="present-right"><button class="btn" data-action="toggle-labels">${icon(state.labels?'eyeoff':'eye')}${t(state.labels?'hideLabels':'showLabels')}</button>${iconButton('eyeoff','toggle-controls',t('hideControls'))}<button class="btn" data-action="exit-presentation">${icon('shrink')}${t('exit')}</button></div></div><div class="presentation-caption"><p>${esc(loc(a.title))}</p></div><div class="presentation-controls"><button class="icon-btn" data-action="previous" aria-label="${t('previous')}" ${index<=0?'disabled':''}>${icon('back')}</button><span class="focus-count">${index+1} / ${pool.length}</span><button class="icon-btn" data-action="next" aria-label="${t('next')}" ${index>=pool.length-1?'disabled':''}>${icon('chevron')}</button></div>`;syncPresentation()}
+<div class="present-bar"><span class="present-brand">CACE Imatges</span><div class="present-right"><button class="btn" data-action="toggle-labels">${icon(state.labels?'eyeoff':'eye')}${t(state.labels?'hideLabels':'showLabels')}</button>${iconButton('eyeoff','toggle-controls',t('hideControls'))}<button class="btn" data-action="exit-presentation">${icon('shrink')}${t('exit')}</button></div></div><div class="presentation-caption"><p>${esc(loc(a.title))}</p></div><div class="presentation-controls"><button class="icon-btn" data-action="previous" aria-label="${t('previous')}" ${index<=0?'disabled':''}>${icon('back')}</button><span class="focus-count">${index+1} / ${pool.length}</span><button class="icon-btn" data-action="next" aria-label="${t('next')}" ${index>=pool.length-1?'disabled':''}>${icon('arrow')}</button></div>`;syncPresentation();preloadNeighbors(pool,index)}
 function syncPresentation(){document.body.classList.toggle('presenting',state.present);document.body.classList.toggle('labels-visible',state.labels);document.body.classList.toggle('controls-hidden',state.controlsHidden);if(state.present&&state.controlsHidden&&document.activeElement?.closest('.present-bar,.presentation-controls'))$('#main').focus({preventScroll:true})}
-function renderMain(){if(state.viewer)renderViewer();else if(state.view==='collections')renderCollections();else renderGallery()}
+function renderMain(){galleryObserver?.disconnect();if(state.viewer)renderViewer();else if(state.view==='collections')renderCollections();else renderGallery()}
 function render(){renderTop();renderSidebar();renderMain()}
 function resetFilters(){state.level=null;state.category=null;state.tags=[];state.query='';state.kind='all';state.drawingStyle='';$('#search').value='';$('#clearSearch').hidden=true;closeSuggestions()}
 function rootView(view){if(state.present)exitPresentation();state.viewer=null;state.view=view;state.collection=null;resetFilters();render();closeSidebar()}
 function openViewer(id,full=false){const list=results();state.viewerIds=list.map(a=>a.id);if(!state.viewerIds.includes(id))state.viewerIds.unshift(id);state.viewer=id;closeSuggestions();renderMain();window.scrollTo(0,0);if(full)enterPresentation()}
-function stepViewer(delta){const index=state.viewerIds.indexOf(state.viewer);const next=state.viewerIds[index+delta];if(next){state.viewer=next;state.controlsHidden=false;renderViewer()}}
+function stepViewer(delta){const viewer=viewerIndex();const index=viewer.positions.get(state.viewer);const next=viewer.rows[index+delta];if(next){state.viewer=next.id;state.controlsHidden=false;renderViewer()}}
 function enterPresentation(){if(!state.viewer)return;state.present=true;state.controlsHidden=false;syncPresentation();if(!document.fullscreenElement&&document.documentElement.requestFullscreen){document.documentElement.requestFullscreen().catch(()=>{/* Edge-to-edge viewport mode remains available. */})}}
 function exitPresentation(){state.present=false;state.controlsHidden=false;syncPresentation();if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen().catch(()=>{})}
-function closeViewer(){exitPresentation();state.viewer=null;renderMain();window.scrollTo(0,0)}
+function closeViewer(){exitPresentation();state.viewer=null;preloadedNeighbors.clear();renderMain();window.scrollTo(0,0)}
 function toggleFavorite(id){if(isFavorite(id))stored.favorites=stored.favorites.filter(x=>x!==id);else stored.favorites.push(id);persist();renderSidebar();renderMain()}
 function chooseTag(id){if(!WORDS.has(id))return;state.viewer=null;if(state.present)exitPresentation();if(state.view==='collections')state.view='library';if(!state.tags.includes(id))state.tags.push(id);state.query='';renderTop();closeSuggestions();renderSidebar();renderMain()}
 function closeSidebar(){$('#sidebar').classList.remove('open')}
 function closeSuggestions(){$('#searchSuggestions').hidden=true;$('#search').setAttribute('aria-expanded','false');$('#search').removeAttribute('aria-activedescendant');suggestionIndex=-1}
-function wordCandidates(query,exclude=[]){const q=norm(query);if(!q)return[];return CATALOG.words.filter(w=>!exclude.includes(w.id)&&searchLocal(w).includes(q)).sort((a,b)=>textMatch(searchLocal(b),q)-textMatch(searchLocal(a),q)||a[lang].localeCompare(b[lang],lang)).slice(0,8)}
-function showSuggestions(){const input=$('#search'),list=wordCandidates(input.value,state.tags),box=$('#searchSuggestions');suggestionIndex=-1;if(!input.value.trim()){closeSuggestions();return}box.innerHTML=list.map((w,i)=>{const count=assets().filter(a=>a.tags.includes(w.id)).length;return `<button class="suggestion" role="option" id="suggestion-${i}" data-action="search-word" data-id="${w.id}" aria-selected="false">${icon(CATEGORIES.get(w.category)?.icon)}<span><strong>${esc(loc(w))}</strong><small>${esc(loc(CATEGORIES.get(w.category)))}</small></span><span class="mini-count">${count?countText(count):t('wordNoImages')}</span></button>`}).join('')+(list.length?'':`<div class="suggestion-note">${t('noWord')}</div>`);box.hidden=false;input.setAttribute('aria-expanded','true')}
+function wordCandidates(query,exclude=[]){const q=norm(query);if(!q)return[];return CATALOG.words.filter(w=>!exclude.includes(w.id)&&wordIndex.get(w.id)[lang].includes(q)).sort((a,b)=>textMatch(wordIndex.get(b.id)[lang],q)-textMatch(wordIndex.get(a.id)[lang],q)||a[lang].localeCompare(b[lang],lang)).slice(0,8)}
+function showSuggestions(){const input=$('#search'),list=wordCandidates(input.value,state.tags),box=$('#searchSuggestions');suggestionIndex=-1;if(!input.value.trim()){closeSuggestions();return}box.innerHTML=list.map((w,i)=>{const count=assetIndex().tagCounts.get(w.id)||0;return `<button class="suggestion" role="option" id="suggestion-${i}" data-action="search-word" data-id="${w.id}" aria-selected="false">${icon(CATEGORIES.get(w.category)?.icon)}<span><strong>${esc(loc(w))}</strong><small>${esc(loc(CATEGORIES.get(w.category)))}</small></span><span class="mini-count">${count?countText(count):t('wordNoImages')}</span></button>`}).join('')+(list.length?'':`<div class="suggestion-note">${t('noWord')}</div>`);box.hidden=false;input.setAttribute('aria-expanded','true')}
 function highlightSuggestion(delta){const opts=[...$('#searchSuggestions').querySelectorAll('.suggestion')];if(!opts.length)return;suggestionIndex=Math.max(0,Math.min(opts.length-1,suggestionIndex+delta));opts.forEach((el,i)=>{el.classList.toggle('highlighted',i===suggestionIndex);el.setAttribute('aria-selected',i===suggestionIndex)});$('#search').setAttribute('aria-activedescendant',opts[suggestionIndex].id);opts[suggestionIndex].scrollIntoView({block:'nearest'})}
 function openDialog(title,body,footer='',wide=false){lastFocus=document.activeElement;const d=$('#dialog');d.classList.toggle('wide',wide);d.innerHTML=`<div class="dialog-head"><h2>${esc(title)}</h2>${iconButton('close','close-dialog',t('close'))}</div><div class="dialog-body">${body}</div>${footer?`<div class="dialog-foot">${footer}</div>`:''}`;if(!d.open)d.showModal();setTimeout(()=>{const el=d.querySelector('[autofocus]')||d.querySelector('input:not([type=file]):not([type=checkbox])')||d.querySelector('button');el?.focus()},30)}
 function closeDialog(){const d=$('#dialog');if(d.open)d.close();if(lastFocus?.isConnected)lastFocus.focus()}
@@ -269,7 +374,7 @@ select.value=editPrimaryWordId||'';select.onchange=()=>{editPrimaryWordId=select
 function renderTagResults(){const box=$('#tagResults');if(!box)return;const q=$('#tagSearch').value;const list=wordCandidates(q,editTags);box.hidden=!q.trim();box.innerHTML=list.map(w=>`<button class="suggestion" type="button" data-editor-add="${w.id}">${icon('plus')}<span><strong>${esc(loc(w))}</strong><small>${esc(loc(CATEGORIES.get(w.category)))}</small></span></button>`).join('')||`<p class="suggestion-note">${t('noWord')}</p>`;box.querySelectorAll('[data-editor-add]').forEach(b=>b.onclick=()=>{editTags.push(b.dataset.editorAdd);$('#tagSearch').value='';renderEditorTags();renderTagResults();$('#tagSearch').focus()})}
 function readDataURL(file){return new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=()=>reject(r.error);r.readAsDataURL(file)})}
 async function saveImageEditor(){const levels=[...$('#dialog').querySelectorAll('[name=imageLevel]:checked')].map(x=>Number(x.value));if(!editTags.length)return errorInDialog(t('selectWords'));if(!editTags.includes(editPrimaryWordId)||!WORDS.has(editPrimaryWordId))return errorInDialog(t('selectPrimaryWord'));if(!levels.length)return errorInDialog(t('selectLevels'));if(!editId&&!importFiles.length)return errorInDialog(t('pickFile'));const title=$('#imageName').value.trim();if(!title)return errorInDialog(t('minimumName'));const other=$('#imageNameOther').value.trim();const kind=$('#imageKind').value;const alt=$('#imageAlt').value.trim()||title;const names=lang==='ca'?{ca:title,es:other}:{ca:other,es:title};const button=$('#saveImage');button.disabled=true;
-try{if(editId){const previous=assetById(editId);const updated={...previous,title:names,alt:{...(previous.alt||{}),[lang]:alt},kind,tags:[...editTags],primaryWordId:editPrimaryWordId,levels};stored.assets=stored.assets.filter(a=>a.id!==editId);stored.assets.push(updated)}else{for(const file of importFiles){const src=await readDataURL(file);const autoTitle=importFiles.length>1?file.name.replace(/\.[^.]+$/,'').replace(/[_-]+/g,' '):null;stored.assets.push({id:'image-'+uid(),src,title:autoTitle?{...names,[lang]:autoTitle}:names,alt:{ca:'',es:'',[lang]:alt},kind,tags:[...editTags],primaryWordId:editPrimaryWordId,levels,origin:'personal',created:new Date().toISOString(),credit:''})}}await persist();closeDialog();renderSidebar();renderMain();toast(t(editId?'saved':'addedImages'))}catch{errorInDialog(t('unexpectedError'));button.disabled=false}}
+try{if(editId){const previous=assetById(editId);const updated={...previous,title:names,alt:{...(previous.alt||{}),[lang]:alt},kind,tags:[...editTags],primaryWordId:editPrimaryWordId,levels};stored.assets=[...stored.assets.filter(a=>a.id!==editId),updated]}else{const added=[];for(const file of importFiles){const src=await readDataURL(file);const autoTitle=importFiles.length>1?file.name.replace(/\.[^.]+$/,'').replace(/[_-]+/g,' '):null;added.push({id:'image-'+uid(),src,title:autoTitle?{...names,[lang]:autoTitle}:names,alt:{ca:'',es:'',[lang]:alt},kind,tags:[...editTags],primaryWordId:editPrimaryWordId,levels,origin:'personal',created:new Date().toISOString(),credit:''})}stored.assets=[...stored.assets,...added]}await persist();closeDialog();renderSidebar();renderMain();toast(t(editId?'saved':'addedImages'))}catch{errorInDialog(t('unexpectedError'));button.disabled=false}}
 function downloadBlob(blob,name){const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),20000)}
 function filename(title){return norm(title).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,90)||'cace-imatge'}
 async function downloadImage(id){const a=assetById(id);if(!a)return;try{const blob=await(await fetch(a.src)).blob();downloadBlob(blob,filename(loc(a.title))+'.'+(blob.type==='image/jpeg'?'jpg':blob.type==='image/webp'?'webp':'png'))}catch{toast(t('unexpectedError'))}}
