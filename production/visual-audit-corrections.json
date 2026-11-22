@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.199",
+  "catalogVersion": "0.1.200",
   "withdrawals": [
     {
       "asset": {
@@ -1567,6 +1567,307 @@
       "observation": "Vermell.",
       "anatomy": "Sense figures.",
       "reason": "RECTANGLE. La primera lectura és la mostra de color vermell. El mateix tipus de silueta també representa colors en el catàleg i la imatge no prioritza la forma.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-f780adfdeff4-realista-01",
+        "src": "assets/individuals/cos/pell/realista-01.webp",
+        "title": {
+          "ca": "PELL · dibuix realista",
+          "es": "PIEL · dibujo realista"
+        },
+        "alt": {
+          "ca": "Dibuix a llapis de la pell de l’avantbraç assenyalada amb una fletxa.",
+          "es": "Dibujo a lápiz de la piel del antebrazo señalada con una flecha."
+        },
+        "tags": [
+          "w-7135eb196763"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:35:07.285758Z",
+        "target": "concept-f780adfdeff4",
+        "targetWordIds": [
+          "w-7135eb196763"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "6424c98848e2a2b3944d55e6a1bbd174edac6213a7bb0d4322b3a8c86404e454",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "37d07ead95737a18ed4c3b807b37ce5846a71a2ec82cb4d23720908b7a8a73b0",
+        "primaryWordId": "w-7135eb196763"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-f780adfdeff4-realista-01",
+      "opaque": "6001b40427",
+      "batch": "lectures-altres-n1-025-028",
+      "observation": "Avantbraç o braç assenyalat.",
+      "anatomy": "Canell, dits i colze visibles.",
+      "reason": "PELL. La fletxa assenyala l’avantbraç i no hi ha cap referència diferencial a la pell.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-1f39c9e66ac6-foto-02",
+        "src": "assets/individuals/temps/estiu/foto-02.webp",
+        "title": {
+          "ca": "ESTIU · fotografia 2",
+          "es": "VERANO · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una escena d’estiu a la platja amb para-sol i mar tranquil.",
+          "es": "Una escena de verano en la playa con sombrilla y mar tranquilo."
+        },
+        "tags": [
+          "w-1c503cdc8746"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T19:14:09.285228Z",
+        "target": "concept-1f39c9e66ac6",
+        "targetWordIds": [
+          "w-1c503cdc8746"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "f1538d3e4e8ec645f2e595438e88f02f6bdde08bb67965a8b0671bd9003deb1d",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f41d83afc86d3047482feb779bcd730e37d0ae8739003aae3566fc18e93fae7e",
+        "primaryWordId": "w-1c503cdc8746"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-1f39c9e66ac6-foto-02",
+      "opaque": "2b3cda9f25",
+      "batch": "lectures-altres-n1-025-028",
+      "observation": "Platja amb para-sol.",
+      "anatomy": "Sense figures.",
+      "reason": "ESTIU. La primera lectura és platja amb para-sol. No permet distingir l’estació amb prou fiabilitat.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-6dbd71b48308-foto-02",
+        "src": "assets/individuals/verbs/vendre/foto-02.webp",
+        "title": {
+          "ca": "VENDRE · fotografia 2",
+          "es": "VENDER · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una venedora ven una bossa de pomes a una clienta.",
+          "es": "Una vendedora vende una bolsa de manzanas a una clienta."
+        },
+        "tags": [
+          "w-84babcc35ef8"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-03T21:24:37.589761Z",
+        "target": "concept-6dbd71b48308",
+        "targetWordIds": [
+          "w-84babcc35ef8"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "eef111e2041b7e6cf8bf1f101658df3fe4f120759a894bd6e61fbd7662291076",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "f9759bf1571e2ed964558c4dc4639181b5ea2569e7fd604eab058837867ec4a1",
+        "primaryWordId": "w-84babcc35ef8"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-6dbd71b48308-foto-02",
+      "opaque": "a0370b8cdd",
+      "batch": "lectures-altres-n1-025-028",
+      "observation": "Comprar fruita, traspàs d’una bossa.",
+      "anatomy": "Mans a banda i banda del paquet i peus a terra.",
+      "reason": "VENDRE. La primera lectura és comprar fruita. Les dues persones toquen la bossa i la imatge no prioritza l’acció de la venedora.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-588a23541bf4-foto-02",
+        "src": "assets/individuals/colors/buit/foto-02.webp",
+        "title": {
+          "ca": "BUIT · fotografia 2",
+          "es": "VACÍO · fotografía 2"
+        },
+        "alt": {
+          "ca": "Un pot de vidre obert i buit.",
+          "es": "Un tarro de cristal abierto y vacío."
+        },
+        "tags": [
+          "w-1d8378757b29"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-04T21:28:47.267489Z",
+        "target": "concept-588a23541bf4",
+        "targetWordIds": [
+          "w-1d8378757b29"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "b133d9c55faaf141e8848057d915d704a410052145750fefa6b193dbcff4add2",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "18ad0b1430f9c999f403f871c74f5b293adc98e72c4f516162451aae63f7381c",
+        "primaryWordId": "w-1d8378757b29"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-588a23541bf4-foto-02",
+      "opaque": "8bd24e1858",
+      "batch": "lectures-altres-n1-025-028",
+      "observation": "Pot de vidre.",
+      "anatomy": "Sense figures.",
+      "reason": "BUIT. La primera lectura és pot de vidre. Falta un contrast o un senyal que faci destacar l’absència de contingut.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-1a600fd85f69-realista-01",
+        "src": "assets/individuals/verbs/pegar/realista-01.webp",
+        "title": {
+          "ca": "PEGAR · dibuix realista",
+          "es": "PEGAR · dibujo realista"
+        },
+        "alt": {
+          "ca": "Dibuix a llapis d’un home que pega al braç d’un altre home.",
+          "es": "Dibujo a lápiz de un hombre que pega en el brazo de otro hombre."
+        },
+        "tags": [
+          "w-f2a87d0edeb1"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T21:36:31.798430Z",
+        "target": "concept-1a600fd85f69",
+        "targetWordIds": [
+          "w-f2a87d0edeb1"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "2077414af1e2f952394a609e72b91bce1e44e4ee13c6bf17b2609b1bedb35c37",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "5d1ac5442650300fb56f2b7ccc6007d741d50a6c1d2401517b3498b3c0f9dc7c",
+        "primaryWordId": "w-f2a87d0edeb1"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-1a600fd85f69-realista-01",
+      "opaque": "06d2ab1e6d",
+      "batch": "lectures-altres-n1-029-030",
+      "observation": "Empènyer o apartar",
+      "anatomy": "Mà sobre espatlla i pas del receptor plausible.",
+      "reason": "PEGAR. El palmell obert desplaça l'altra persona a l'espatlla i la lectura espontània és empènyer. El moviment no diferencia un cop d'una empenta.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-2dfc023ec17c-foto-01",
+        "src": "assets/individuals/verbs/explicar/foto-01.webp",
+        "title": {
+          "ca": "EXPLICAR · fotografia 1",
+          "es": "EXPLICAR · fotografía 1"
+        },
+        "alt": {
+          "ca": "Una persona explicant com funciona un cotxe de joguina.",
+          "es": "Una persona explicando cómo funciona un coche de juguete."
+        },
+        "tags": [
+          "w-2ded676c50fc"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T07:34:24.460052Z",
+        "target": "concept-2dfc023ec17c",
+        "targetWordIds": [
+          "w-2ded676c50fc"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "b486e95205fa3c8303c1298814682810bec7b4dd2e62fb6808c4414ea55b91fb",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "1d18a9535b57c7d02a672c40711f92fa18dd8e61051ac6dcb3f70e5581c9aff8",
+        "primaryWordId": "w-2ded676c50fc"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-2dfc023ec17c-foto-01",
+      "opaque": "a74a9057b8",
+      "batch": "lectures-altres-n1-029-030",
+      "observation": "Ensenyar o mostrar una joguina",
+      "anatomy": "Presa amb dues mans i colzes plegats.",
+      "reason": "EXPLICAR. La dona presenta una joguina a un observador. Ensenyar o mostrar expliquen sencers els indicis visibles i manca una explicació identificable.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-n1-paraules-individuals"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-1ae1e826b301-pla-01",
+        "src": "assets/individuals/temps/despres/pla-01.webp",
+        "title": {
+          "ca": "DESPRÉS · il·lustració plana",
+          "es": "DESPUÉS · ilustración plana"
+        },
+        "alt": {
+          "ca": "Taronja pelada destacada com l'estat de després, en estil pla.",
+          "es": "Naranja pelada resaltada como el estado de después, en estilo plano."
+        },
+        "tags": [
+          "w-5ed1f93250a1"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:25:53.829281Z",
+        "target": "concept-1ae1e826b301",
+        "targetWordIds": [
+          "w-5ed1f93250a1"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "22cfa86e309f11664b495dd366d0bb676ab0b894d72c3d7a5765974cf8336007",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "d8ff023168f602a8dfbae8c7b0540a9807096077755ee0f67a112438d3a0cbd1",
+        "primaryWordId": "w-5ed1f93250a1"
+      },
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-concept-1ae1e826b301-pla-01",
+      "opaque": "cbf14016cb",
+      "batch": "lectures-altres-n1-029-030",
+      "observation": "Pelar, pelada o mandarina pelada.",
+      "anatomy": "Sense figures.",
+      "reason": "DESPRÉS. La fletxa assenyala una mandarina pelada. La lectura és pelar, pelada o mandarina pelada i la figura no aïlla l'ordre temporal.",
       "sourcePngArchived": true,
       "collectionsBefore": [
         "cace-n1-paraules-individuals"
@@ -6184,6 +6485,212 @@
       "reason": "Dues potes del dibuix original semblaven bifurcar-se. La substituta mostra vuit potes articulades i ben diferenciades.",
       "observation": "Aranya marró amb abdomen ovalat i vuit potes articulades, quatre per costat. Les potes tenen orígens i puntes diferenciats. Els dos pedipalps curts es distingeixen de les potes.",
       "prompt": "A realistic natural history colored pencil illustration on untextured warm-white plain background, for a small educational vocabulary image. One recognizable brown garden spider from a near overhead three quarter view, pointed toward lower left, oval rounded patterned brown abdomen, much smaller cephalothorax and two short frontal pedipalps, small dark eyes. EXACTLY EIGHT slender articulated walking legs from sides of cephalothorax: four on each side, arranged in an orderly fan, each clearly and individually traceable from root to a separate end, with visible elbow-like joints. None touches another or merges, no fork, no joined tips, no legs on abdomen. Use a simple slightly splayed grounded pose and leave clean space all around. No web, no caption or other objects. Natural proportions with clearly readable body and feet. Square composition."
+    },
+    "cace-n3-107": {
+      "id": "cace-n3-107",
+      "version": "0.1.200",
+      "lot": "candidats-200-a",
+      "opaque": "79ef830a4e",
+      "originalOpaque": "a9c1562faf",
+      "kind": "drawing",
+      "levels": [
+        3
+      ],
+      "targetWordIds": [
+        "w-ac6f4aab061e",
+        "w-8f17529d890a"
+      ],
+      "oldSrc": "assets/constructions/n3/n3-107.webp",
+      "newSrc": "assets/constructions/n3/n3-107-auditoria-200.webp",
+      "oldDisplaySha256": "1bef28b7b0063c55d46cfb20903a85b2a9a7491be76b9ae8dbb6f288c43a889f",
+      "newDisplaySha256": "a8b2c548e81bf66d68024dad99b9d483ee31201cd8d2e830c908f1c120113c85",
+      "originalSha256": "e73a77120cfbaa5f3a408fead23bbc1ebda5260f6b092052123472af0147391c",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n3-107",
+      "original": "output/visual-audit-0.1.194/candidats/79ef830a4e.png",
+      "reason": "El cuc original subjectava un cub amb un braç. La substituta conserva l'acció de comptar mitjançant cubs ordenats i un cos segmentat sense extremitats.",
+      "observation": "Cuc compta tres blocs amb punts d’un a tres. El cos segmentat és continu, sense extremitats.",
+      "prompt": "One flat educational drawing on clean pale background, matching classroom vector-like picture cards with bold dark outlines. Friendly pink earthworm counting three identical wooden blocks arranged in one horizontal line. Anatomically a worm has ONE UNBRANCHED limbless segmented body: it gently curves up from the ground and bends its head down toward exactly one of the three blocks, lightly touching that block with the front of its nose. It has eyes and a smile as a cartoon convention but no arms, hands, feet, tentacles, antennae, or branched tail. Make counting unmistakable by adding a tiny simple dot array above each of the three blocks in order from left to right: one dot, two dots, three dots. No numerals, letters, captions or labels. Full view of all three blocks and both ends of the worm, plenty of white space, consistent perspective. 3:2 landscape."
+    },
+    "cace-n2-096": {
+      "id": "cace-n2-096",
+      "version": "0.1.200",
+      "lot": "candidats-200-a",
+      "opaque": "92b3459d65",
+      "originalOpaque": "a82c0e39d1",
+      "kind": "drawing",
+      "levels": [
+        2
+      ],
+      "targetWordIds": [
+        "w-6c970751f5b7",
+        "w-461bd834b14a"
+      ],
+      "oldSrc": "assets/constructions/n2/n2-096.webp",
+      "newSrc": "assets/constructions/n2/n2-096-auditoria-200.webp",
+      "oldDisplaySha256": "8adb52e8798e8fb6cd7624ffd6fcbcd57edd068c011601dd6fdbfcfa954e9f73",
+      "newDisplaySha256": "07a34e151f8a5a2368ddc272fadc4632db9198e5ac7c1c56883ded1d260bf5a2",
+      "originalSha256": "94f0d7ecd23daa35d522ea206168d35fc52ee0b405b8156d836a339c1e333b7d",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n2-096",
+      "original": "output/visual-audit-0.1.194/candidats/92b3459d65.png",
+      "reason": "L’original mostrava cinc potes. La nova mosca conserva el contrast de mida amb la cadira i mostra els tres parells.",
+      "observation": "Mosca gran al costat d’una cadira petita. Sis potes amb articulacions i contorns diferenciats.",
+      "prompt": "A flat vector-like educational illustration on clean white background of a single large charcoal gray housefly (NOT mosquito or bee) next to one tiny gray chair for a clear visual comparison, image landscape 3:2. Big red compound eyes and short antennae, small rounded separate darker thorax, segmented abdomen, two translucent blue wings, slightly friendly. EXACTLY SIX thin articulated legs: a three-quarter view so ALL six feet are visible touching white ground (3 on nearer side in black, 3 on further side lighter gray). The farther feet appear a little higher up than near feet for perspective. Each leg is distinct and separately traceable from thorax to foot without fusion, no extra ends. Make the fly clearly many times larger than the tiny chair at right, chair with four legs of its own. Keep pose simple, strong black outlines, classroom picture card, no label or text."
+    },
+    "cace-n3-104": {
+      "id": "cace-n3-104",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "e256cdedd3",
+      "originalOpaque": "c703b89f48",
+      "kind": "drawing",
+      "levels": [
+        3
+      ],
+      "targetWordIds": [
+        "w-869e3c2951e9",
+        "w-7808c37127c0"
+      ],
+      "oldSrc": "assets/constructions/n3/n3-104.webp",
+      "newSrc": "assets/constructions/n3/n3-104-auditoria-200.webp",
+      "oldDisplaySha256": "59826d7631ed7831e5ca9885d9ce2ebc57bfd7b6fb6fefde4ab42fb2eaa02bc0",
+      "newDisplaySha256": "7d48c3dcd04afa8f7e3ae85c96761b7d3a5579b5d4be5ceb3241f299881c6e12",
+      "originalSha256": "6ddd52e0369ca49d712fa68b6c36d659e9cccd7d38a7cf1874b3848087f366ca",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n3-104",
+      "original": "output/visual-audit-0.1.194/candidats/e256cdedd3.png",
+      "reason": "L’original tenia quatre extremitats. La substituta mostra els tres parells i realitza el pas amb una pota alçada.",
+      "observation": "Mosquit de trompa llarga balla entre notes amb un peu alçat. Tres parells de potes articulades i dues ales.",
+      "prompt": "Educational classroom picture-card art on blank white, full isolated anthropomorphic insect in flat vector-like colors, bold dark outlines, three-quarter frontal view. Clear head, thorax, abdomen. It has precisely six articulated limbs, three originating from EACH side of the thorax. Keep all six leg endpoints separately visible, with a distinct upper pair, middle pair, and lower pair. Do not put legs on abdomen. Clear white between all leg tips. No labels or letters. Friendly brown mosquito with long thin proboscis, thin segmented abdomen, two antennae, a pair of translucent wings. It is DANCING, one lower leg with foot on floor and other lower leg raised in a sideways dance step. Both middle legs reach sideways lower than the shoulder-like upper legs. Both upper legs are raised like dancer arms. All six must be traceable from thorax and distinct. Add two small motion strokes and two eighth note shapes to make dance unambiguous."
+    },
+    "cace-n4-102": {
+      "id": "cace-n4-102",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "415b898166",
+      "originalOpaque": "30ad9271c0",
+      "kind": "drawing",
+      "levels": [
+        4
+      ],
+      "targetWordIds": [
+        "w-318bdb3c2983",
+        "w-73b71e1ff757",
+        "w-120fb6b37e88"
+      ],
+      "oldSrc": "assets/constructions/n4/n4-102.webp",
+      "newSrc": "assets/constructions/n4/n4-102-auditoria-200.webp",
+      "oldDisplaySha256": "8cd2c71cb76e70438a286d5c2a7cbe56e373b3713421db5282a702bffb235af9",
+      "newDisplaySha256": "1740e5d73ff97400d09c4949b7b44e27f04aa017492f043fbfa6db6b53132e58",
+      "originalSha256": "054bad3813046aaa7a48a5ed712d126c47dfc9a192cd2b758f0fce106db751b0",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n4-102",
+      "original": "output/visual-audit-0.1.194/candidats/415b898166.png",
+      "reason": "La papallona original tenia dues potes de suport i dos braços. Ara presenta sis extremitats i porta el cistell amb el parell anterior.",
+      "observation": "Una papallona porta un cistell de vímet agafat amb dues potes. Quatre potes més i quatre ales.",
+      "prompt": "Single friendly anthropomorphic butterfly carrying a woven basket by the handle while walking, white background, bold flat classroom vector-style colors, landscape. Anatomical priority: FOUR colorful orange and purple wings and exactly SIX distinct articulated LEGS. Clearly visible central thorax with three limb connections on each side. Upper pair of legs hold the same curved basket handle in front, both middle legs visible and angled gently sideways (leave white gap between tips and body/basket), BOTH lower legs are engaged in a walking step with one foot planted and one foot forward. Six separate limb ends. No legs emerging from abdomen. Two antennae. Basket handled within reach, body compact and balanced. No captions or labels."
+    },
+    "cace-n3-103": {
+      "id": "cace-n3-103",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "8fbffc1bd3",
+      "originalOpaque": "2791584f72",
+      "kind": "drawing",
+      "levels": [
+        3
+      ],
+      "targetWordIds": [
+        "w-6c970751f5b7",
+        "w-7f95476c01ce"
+      ],
+      "oldSrc": "assets/constructions/n3/n3-103.webp",
+      "newSrc": "assets/constructions/n3/n3-103-auditoria-200.webp",
+      "oldDisplaySha256": "f694886e518b8dd404091e242ededaac9d899065071e31f9a97558547618a9a0",
+      "newDisplaySha256": "4116689c730a6ed3767d80d55b29c537c2ee71d4413dcd1aa9e07e47735bf96a",
+      "originalSha256": "48203378e0ede0840360c43272546020e7300d7362af37263a6ed70fbc63c50e",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n3-103",
+      "original": "output/visual-audit-0.1.194/candidats/8fbffc1bd3.png",
+      "reason": "La mosca original tenia quatre extremitats. La substituta manté el cant i mostra sis potes i dues ales.",
+      "observation": "Mosca negra d'ulls vermells canta en un micròfon. Es compten sis potes articulades i dues ales.",
+      "prompt": "Educational classroom picture-card art on blank white, full isolated anthropomorphic insect in flat vector-like colors, bold dark outlines, three-quarter frontal view. Clear head, thorax, abdomen. It has precisely six articulated limbs, three originating from EACH side of the thorax. Keep all six leg endpoints separately visible, with a distinct upper pair, middle pair, and lower pair. Do not put legs on abdomen. Clear white between all leg tips. No labels or letters. Housefly with charcoal gray body, red compound eyes and a single pair of translucent blue wings. Fly is SINGING with an open smiling mouth and a microphone in one upper limb, raised toward the mouth. The opposite upper limb gestures outward, BOTH middle legs emerge to the sides and point outward and down, BOTH lower legs have separated feet supporting it on the ground. Make the act unambiguously singing."
+    },
+    "cace-n3-101": {
+      "id": "cace-n3-101",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "560121cc51",
+      "originalOpaque": "3529683a23",
+      "kind": "drawing",
+      "levels": [
+        3
+      ],
+      "targetWordIds": [
+        "w-c86560d24fea",
+        "w-ef0bd41d6ee3"
+      ],
+      "oldSrc": "assets/constructions/n3/n3-101.webp",
+      "newSrc": "assets/constructions/n3/n3-101-auditoria-200.webp",
+      "oldDisplaySha256": "619a3e295161c61e66f462ae3932eea20fd70dd66ea6a83b530409e031b26590",
+      "newDisplaySha256": "35a6cba3a099fb9f9e199110631c3c88705236f403d119b68305d5ad605200e9",
+      "originalSha256": "8afd3e3303d237943036ceabcd27abb8a827c406b9815aa540268597800d19d5",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n3-101",
+      "original": "output/visual-audit-0.1.194/candidats/560121cc51.png",
+      "reason": "L’abella original tenia quatre extremitats. La substituta afegeix el parell que mancava i conserva la lectura.",
+      "observation": "Abella mira un llibre obert. Dos apèndixs el sostenen, dos queden als costats i dos es dobleguen cap al davant.",
+      "prompt": "Educational classroom picture-card art on blank white, full isolated anthropomorphic insect in flat vector-like colors, bold dark outlines, three-quarter frontal view. Clear head, thorax, abdomen. It has precisely six articulated limbs, three originating from EACH side of the thorax. Keep all six leg endpoints separately visible, with a distinct upper pair, middle pair, and lower pair. Do not put legs on abdomen. Clear white between all leg tips. No labels or letters. Golden bee with black abdominal stripes, two antennae and wings, seated upright on white ground, reading an open red book. Its UPPER two articulated legs hold the two top corners of the red book from behind, clearly visible over the corners. Its MIDDLE two articulated legs visible projecting sideways with rounded ends, not hidden by the book. Its LOWER two articulated legs have feet pointing toward the viewer, visible beneath the book. Four translucent wing lobes. The bee looks into the book."
+    },
+    "cace-n3-102": {
+      "id": "cace-n3-102",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "78e6f44ce8",
+      "originalOpaque": "a7f55b8f8e",
+      "kind": "drawing",
+      "levels": [
+        3
+      ],
+      "targetWordIds": [
+        "w-318bdb3c2983",
+        "w-2e0a67ac121f"
+      ],
+      "oldSrc": "assets/constructions/n3/n3-102.webp",
+      "newSrc": "assets/constructions/n3/n3-102-auditoria-200.webp",
+      "oldDisplaySha256": "8b54bba1a993439b2e7627ab63cb1f378d61834e10848e5adbeb84e9710ebc66",
+      "newDisplaySha256": "ac91dba75ee824a8ad99fa164f2f5930b31b4319491e28d6a51c064a59d304f0",
+      "originalSha256": "614a92a57b4cf3cf947e72a6f8c3ae1e13eb4da7d5c7de38bb30589a2081d14d",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n3-102",
+      "original": "output/visual-audit-0.1.194/candidats/78e6f44ce8.png",
+      "reason": "L’original tenia quatre extremitats. La nova papallona dibuixa una flor amb un llapis i té tres parells d’extremitats.",
+      "observation": "Papallona dibuixa una flor amb llapis en un full que subjecta. Tres parells d'extremitats diferenciades.",
+      "prompt": "Educational classroom picture-card art on blank white, full isolated anthropomorphic insect in flat vector-like colors, bold dark outlines, three-quarter frontal view. Clear head, thorax, abdomen. It has precisely six articulated limbs, three originating from EACH side of the thorax. Keep all six leg endpoints separately visible, with a distinct upper pair, middle pair, and lower pair. Do not put legs on abdomen. Clear white between all leg tips. No labels or letters. Friendly colorful butterfly with two pairs of orange and purple wings and two antennae. Butterfly DRAWS a simple flower on a single white piece of paper with a yellow pencil held in an upper adapted leg. The other upper leg steadies the paper. Both middle legs project sideways and both lower legs are visible below the thorax, not overlapped by the wings or paper. Make the paper nod toward foreground with visible pencil tip at flower. No captions."
+    },
+    "cace-n10-123": {
+      "id": "cace-n10-123",
+      "version": "0.1.200",
+      "lot": "candidats-200-b",
+      "opaque": "bb5ae73f92",
+      "originalOpaque": "4ed2eb66cb",
+      "kind": "drawing",
+      "levels": [
+        10
+      ],
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-a10b29af07c7",
+        "w-696b7c739d30",
+        "w-7f04619a8649",
+        "w-776ec487889f",
+        "w-71979f4e95bc",
+        "w-01c0ff9f9a17"
+      ],
+      "oldSrc": "assets/constructions/n10/n10-123.webp",
+      "newSrc": "assets/constructions/n10/n10-123-auditoria-200.webp",
+      "oldDisplaySha256": "6435c9e41d9559d02b2c4fe2435177e56ceef3159fd25149447b5787cc532abd",
+      "newDisplaySha256": "9115a1f30ecb40f4627fe2fddab912660a8ef8783bdda0d311daefacdc42e6cd",
+      "originalSha256": "4cdf9158b2d10a756962d9c7879bd09652a20862b2863276715b807ea09a60ec",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n10-123",
+      "original": "output/visual-audit-0.1.194/candidats/bb5ae73f92.png",
+      "reason": "El braç anterior s’estirava excessivament a la seqüència original. Ara el gos té el mecanisme a prop, la presa és clara i els peus es mantenen en suport.",
+      "observation": "Un gos obre una tapa corredissa i un cub cau al cubell de sota. Els braços surten d'espatlles oposades i el que mou la tapa queda doblegat.",
+      "prompt": "Flat educational 3:1 three-panel sequential illustration. Short red-haired and cream cartoon beagle wearing blue overalls, on the right side of the apparatus all three scenes. Use a straightforward frontal three-quarter view so both independent shoulders are visible. Anatomical priority: the dog's right arm (viewer-left arm), the near arm by the box, is the ONLY arm interacting with the apparatus and is short with a very clearly bent elbow. The other arm hangs down at the outside of the body with its hand alongside its right hip, visibly disconnected from the apparatus. Never change arms. One transparent toy box with a light brown sliding lid and a blue bucket inside, visible through its front. Panel 1 red wooden block rests on a fully closed sliding lid. Panel 2 puppy pulls the short handle toward itself at waist height, opening a gap under the red block. Show the block tipping and dropping through the opening toward the bucket. Panel 3 the block has landed clearly within the blue bucket. Same lid with open gap, same character, same blue bucket. Both feet of the dog on ground. No captions, words, arrows or numbers. Bold black outlines, simple flat cartoon primary colors and off-white backdrop."
     }
   }
 }
