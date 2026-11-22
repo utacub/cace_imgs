@@ -217,7 +217,7 @@ test('N2 constructions work with both CACE tags, the level filter and their cata
   assert.equal(a.read('results().length'), 0);
   a.run("state.level=2; state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n2-entitat-atribut'");
   const ids = a.read('results().map(row=>row.id)');
-  assert.deepEqual(new Set(ids), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n2-')).map(row => row.id)));
+  assert.deepEqual(new Set(ids), new Set(catalog.assets.filter(row => row.levels.includes(2)).map(row => row.id)));
 });
 
 test('N3 subject and action combinations respect both tags, the level and their own collection', () => {
@@ -229,7 +229,7 @@ test('N3 subject and action combinations respect both tags, the level and their 
   a.run("state.level=2");
   assert.equal(a.read('results().length'), 0);
   a.run("state.tags=[]; state.level=3; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n3-subjecte-accio'");
-  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n3-')).map(row => row.id)));
+  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.levels.includes(3)).map(row => row.id)));
 });
 
 test('N4 combines subject, action and object with the level and collection filters', () => {
@@ -242,7 +242,7 @@ test('N4 combines subject, action and object with the level and collection filte
   a.run('state.level=3');
   assert.equal(a.read('results().length'), 0);
   a.run("state.tags=[]; state.level=4; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n4-subjecte-accio-objecte'");
-  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.constructionId?.startsWith('n4-')).map(row => row.id)));
+  assert.deepEqual(new Set(a.read('results().map(row=>row.id)')), new Set(catalog.assets.filter(row => row.levels.includes(4)).map(row => row.id)));
 });
 
 test('N5 relations support exact CACE tags, search and their collection without mixing levels', () => {
@@ -258,7 +258,7 @@ test('N5 relations support exact CACE tags, search and their collection without 
   a.run("state.level=5; state.tags=[]; state.query='elefant dins tassa'; lang='ca'");
   assert.deepEqual(a.read('results().map(x=>x.constructionId)'), ['n5-112']);
   a.run("state.query=''; stored.collections=[]; stored.catalogImports={}; syncCatalogCollections(); state.view='collection'; state.collection='cace-n5-relacions'");
-  const expected = catalog.assets.filter(x => x.constructionId?.startsWith('n5-')).map(x => x.id);
+  const expected = catalog.assets.filter(x => x.levels.includes(5)).map(x => x.id);
   assert.ok(expected.length >= 95);
   assert.deepEqual(new Set(a.read('results().map(x=>x.id)')), new Set(expected));
 });
@@ -342,6 +342,55 @@ test('N13 can be browsed by level and collection and searched in both active lan
   assert.ok(a.read('results().some(row=>row.id==="cace-n13-001")'));
   a.run("state.query=''; state.level=null; syncCatalogCollections(); state.view='collection'; state.collection='cace-n13-escenes-completes'");
   assert.deepEqual(a.read('results().map(row=>row.id)'), expected);
+});
+
+test('The sidebar shows all default collections as levels without a second hierarchy', () => {
+  const a = app();
+  a.run('syncCatalogCollections(); renderSidebar()');
+  const sidebar = a.read("$('#sidebar').innerHTML");
+  assert.doesNotMatch(sidebar, /Jerarquia|data-action="expand-levels"/);
+  assert.deepEqual([...sidebar.matchAll(/<span>(N\d+ - [^<]+)<\/span>/g)].map(match => match[1]),
+    catalog.collections.map(c => c.name));
+  assert.equal(catalog.collections.length, 13);
+  assert.equal(catalog.collections[0].name, 'N1 - Paraules individuals');
+  a.run("lang='es'; renderSidebar()");
+  assert.match(a.read("$('#sidebar').innerHTML"), /N1 - Palabras individuales/);
+});
+
+test('Existing default media collections merge into N1 while customized collections survive', () => {
+  const photos = catalog.assets.filter(a => a.target && !a.constructionId && a.variant?.startsWith('foto-'))
+    .map(a => a.id);
+  const n2 = catalog.collections[1];
+  const priorN2 = n2.items.filter(id => id.startsWith('cace-'));
+  const legacy = [
+    { id:'cace-unitats-fotografies',name:'Fotografies · paraules individuals',items:[...photos,'removed-image'] },
+    { id:'cace-unitats-planes',name:'Planeres per a classe',items:[photos[0]] },
+    { id:n2.id,name:'N2 · Entitat i atribut',items:priorN2 },
+    { id:'personal-collection',name:'La meva tria',items:[photos[0]] },
+  ];
+  const a = app();
+  a.run(`stored.collections=${JSON.stringify(legacy)};
+    stored.catalogImports=${JSON.stringify({'cace-unitats-fotografies':photos,[n2.id]:priorN2})};
+    syncCatalogCollections()`);
+  assert.deepEqual(a.read('stored.collections.map(c=>c.id)'),
+    [...catalog.collections.map(c=>c.id),'cace-unitats-planes','personal-collection']);
+  assert.deepEqual(a.read(`collectionById('${n2.id}').items.sort()`), [...n2.items].sort());
+  assert.equal(a.read(`collectionById('${n2.id}').name`), n2.name);
+  assert.equal(a.read('syncCatalogCollections()'), false);
+});
+
+test('N1 keeps both drawing subcategories inside the level collection', () => {
+  const a = app();
+  a.run("syncCatalogCollections(); state.view='collection'; state.collection='cace-n1-paraules-individuals'");
+  assert.equal(a.read('results().length'), catalog.assets.filter(asset=>asset.levels.includes(1)).length);
+  a.run("state.kind='drawing'");
+  assert.match(a.read('filterToolbar()'), /Dibuix realista.*Il·lustració plana/);
+  for (const variant of ['realista-', 'pla-']) {
+    a.run(`state.drawingStyle='${variant}'`);
+    const ids = a.read('results().map(asset=>asset.id)');
+    assert.deepEqual(ids, catalog.assets.filter(asset=>asset.levels.includes(1)
+      && asset.kind==='drawing' && asset.variant?.startsWith(variant)).map(asset=>asset.id));
+  }
 });
 
 test('New backups preserve the chosen primary keyword and older backups remain compatible', () => {

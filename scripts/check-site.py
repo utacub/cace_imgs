@@ -170,8 +170,11 @@ for target, variants in targets.items():
     assert target_words[target]
     assert all(variants == required_variants(word_records[word_id]) - withdrawn_variants.get(target, set())
                for word_id in target_words[target]), target
-for collection in data['collections']:
-    assert set(collection['items']) <= active_ids, collection['id']
+assert [collection['level'] for collection in data['collections']] == [level['id'] for level in data['levels']]
+for collection, level in zip(data['collections'], data['levels']):
+    title = 'Paraules individuals' if level['id'] == 1 else level['ca']
+    assert collection['name'] == f"N{level['id']} - {title}", collection['id']
+    assert collection['items'] == [asset['id'] for asset in data['assets'] if level['id'] in asset['levels']], collection['id']
 assert all(len(assets) == 1 for assets in n2_assets.values()), 'Each N2 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n3_assets.values()), 'Each N3 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n4_assets.values()), 'Each N4 construction must have exactly one image'
