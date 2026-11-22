@@ -1,6 +1,6 @@
 {
   "baseVersion": "0.1.187",
-  "catalogVersion": "0.1.194",
+  "catalogVersion": "0.1.195",
   "withdrawals": [
     {
       "asset": {
@@ -4348,6 +4348,405 @@
       "scene": "Dona, camisa penjada i dos cinturons",
       "observation": "Corda un cinturó al voltant de cada màniga.",
       "anatomy": "Colzes plegats i dits dins l’abast de la sivella, la camisa queda suspesa del penjador."
+    }
+  },
+  "anatomyReplacements": {
+    "cace-n7-182": {
+      "id": "cace-n7-182",
+      "version": "0.1.195",
+      "lot": "n7-001",
+      "opaque": "d1c6b5a623",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-072ecc01e120",
+        "w-9c9849fac1d3",
+        "w-9daa4c89a9c6",
+        "w-c3b8bd56e942"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-182.webp",
+      "newSrc": "assets/constructions/n7/n7-182-auditoria-pla.webp",
+      "oldDisplaySha256": "41d0ca04a0e5b0027f7b9b59366be80ed8466b0265877543eb0bcce30a82f6da",
+      "newDisplaySha256": "8e16fe52df59d3e0d5785fc10d34fcb3fd2b3e4d633c77041b80c0c3b3c36658",
+      "originalSha256": "4837289fac71726819ca6982a48dbacb6a2644777f36295209ca1a30e4459c4a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-182",
+      "original": "output/visual-audit-0.1.194/candidats/n7-182-anatomia.png",
+      "reason": "El braç que tocava la cullera de fora era desproporcionadament llarg i sense colze llegible.",
+      "observation": "El gat toca el mànec de la cullera que és fora de la carmanyola i no toca la cullera de dins. Ambdós peus recolzen a terra. El braç actiu és curt i queda a l’abast de la taula, i l’altre es manté al costat del cos.",
+      "prompt": "Single simple clean flat cartoon educational illustration on pure white. Landscape or square. A cheerful small ginger anthropomorphic tabby cat standing on its two feet in short red shorts and blue t-shirt, visible full body. A low tabletop directly at the cat's waist, right next to its hip. On the table a blue open rectangular lunchbox containing a gray metal teaspoon numbered by nothing, and outside the lunchbox on the table lies a second equally sized gray metal teaspoon right next to the cat's hip. Cat places the tip of one short paw in unmistakable contact with the handle of the OUTSIDE spoon. The inside spoon remains clearly separate and untouched. Move the outside spoon very close to the cat so its upper arm hangs down naturally at its side and the short forearm bends normally at the elbow toward the nearby spoon. Do not make any arm long. The other arm hangs loose at its side, equally short. The cat's long tail is clearly behind its hip and cannot be confused with an arm. Emphasize clearly distinct locations for the two spoons. Strong smooth dark clean outlines and plain bright uniform fill, no gradients, no text, no arrows, no logos, no chart, no panels."
+    },
+    "cace-n7-192": {
+      "id": "cace-n7-192",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "e8b6ec4e89",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-072ecc01e120",
+        "w-44260b79b61e",
+        "w-e0a6aeb46069",
+        "w-1544f4efec59"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-192.webp",
+      "newSrc": "assets/constructions/n7/n7-192-auditoria-pla.webp",
+      "oldDisplaySha256": "d55d73c7d6f22448bb54f092901a52cb55b0f2f194e324086096fcff3e601bcc",
+      "newDisplaySha256": "0020fcafaa5604773c3dbdd3ae610774e107548fb4a5752685fc1c949f0265ec",
+      "originalSha256": "f425024e0f81595a886d904be10631aee27fd0d60060726751392e71eaa9c59a",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-192",
+      "original": "output/visual-audit-0.1.194/candidats/n7-192-anatomia.png",
+      "reason": "L’ala activa es prolongava cap al coixí de sota la taula amb una diferència de llargada molt visible.",
+      "observation": "El pingüí inclina el cos, manté els dos peus a terra i toca el coixí amb una ala curta.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. Cartoon penguin with compact natural flippers bends slightly forward at the hips next to a low wooden table. Two matching blue cushions, one on tabletop and one ON THE FLOOR UNDER the table with the near edge protruding a bit. With the natural short tip of its nearer flipper, the penguin clearly touches only the edge of the cushion UNDER the table. Its other flipper remains by side. Both orange feet clearly on the ground just beside the cushion. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-190": {
+      "id": "cace-n7-190",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "a3090cc55c",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-12a87560751b",
+        "w-072ecc01e120",
+        "w-3bb995df42bf",
+        "w-e0a6aeb46069",
+        "w-e1efe2c4e23d"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-190.webp",
+      "newSrc": "assets/constructions/n7/n7-190-auditoria-pla.webp",
+      "oldDisplaySha256": "eb7317cf3f4bf348b149bd11a933a4f4c8bc17ebf35aee50b84c1e2812e59cdc",
+      "newDisplaySha256": "070d7f837484ac9d78712b909d230b51533df0a774abe7955db2f0155dae492f",
+      "originalSha256": "de0be1bd06e9dbebe5df1c91f866c41d268c0eabebb5c28a81693847be02d6de",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-190",
+      "original": "output/visual-audit-0.1.194/candidats/n7-190-anatomia.png",
+      "reason": "El braç del mico es prolongava per sota de la cadira mentre el cos es mantenia dret.",
+      "observation": "Mico ajupit, tres punts de suport i braç actiu flexionat a poca distància del llibre.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small anthropomorphic brown monkey in yellow shirt and blue shorts crouches just beside the front leg of a wooden chair. Two identical closed plain red hardcover books, one flat on seat, one under chair visibly partially protruding at bottom. With a SHORT bent arm the monkey touches the near edge of the book UNDER the chair, not the top book. Knees show natural flex, both feet grounded, the other hand stable on floor. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-178": {
+      "id": "cace-n7-178",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "5ccb3872bb",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-d5395d03acbf",
+        "w-072ecc01e120",
+        "w-db89958a3c63",
+        "w-9daa4c89a9c6",
+        "w-696b7c739d30"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-178.webp",
+      "newSrc": "assets/constructions/n7/n7-178-auditoria-pla.webp",
+      "oldDisplaySha256": "1e481cb7c7a061fb3e80f752edd4766494286ae4612358701d14fd29f4ffcda1",
+      "newDisplaySha256": "dff65a4443a5e61a1a604a586daf26223c8228e399a25ffc72c0d93a6e1bfce5",
+      "originalSha256": "66e7dbfb0e40675fb5898116bd3fa863aed186fcea5f6fe175af887a695220db",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-178",
+      "original": "output/visual-audit-0.1.194/candidats/n7-178-anatomia.png",
+      "reason": "El braç actiu del cangur arribava massa lluny per tocar la nina exterior.",
+      "observation": "Potes posteriors i cua recolzades. Braç actiu té un abast curt fins al cap de la nina, l’altre queda flexionat.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small tan cartoon kangaroo wearing a blue T-shirt crouches on two rear paws with the tail on ground. Two matching recognizable rag dolls with pigtails, one inside an open yellow shoebox and one on the floor OUTSIDE beside it immediately by the kangaroo’s knee. His short near forepaw actually touches the OUTSIDE doll’s head with a distinct bent elbow; other forepaw remains near the chest. No crossing over the box. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-124": {
+      "id": "cace-n7-124",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "c505d435a4",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-072ecc01e120",
+        "w-1775aa96869e",
+        "w-617a2c98adb5"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-124.webp",
+      "newSrc": "assets/constructions/n7/n7-124-auditoria-pla.webp",
+      "oldDisplaySha256": "1f039bffaa95732a5c0ab3dbcbf7bc50bbabe7824ead157adc039325385c6c3f",
+      "newDisplaySha256": "2aa8a21b885e1169e456b36a94bbe3acbcc9fe233ddabe08bf69508983c2557d",
+      "originalSha256": "197ccbb0314bc07279d06486537f962da3069ae2ede4bd522753ef9384e24b00",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-124",
+      "original": "output/visual-audit-0.1.194/candidats/n7-124-anatomia.png",
+      "reason": "El braç recte arribava per sota de les sabates i allargava el membre per fer possible el contacte.",
+      "observation": "Cos sostingut pel tamboret i dos peus a terra. Colze curt i dit en contacte amb el llapis.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small tan-and-white anthropomorphic puppy wearing a blue shirt and red shorts sits on a low stool in front of a low flat table. Two identically-colored unobstructed pencils, a short yellow pencil closest to the puppy’s right elbow and a long yellow pencil clearly separated from it. The puppy touches only the SHORT pencil with a naturally bent short elbow and visible fingertip. Puppy’s feet rest on floor, other forepaw stays on its lap. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-156": {
+      "id": "cace-n7-156",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "32e4d37a2f",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-0dc8fba9677d",
+        "w-e12d88415c80",
+        "w-2d404e0d8979",
+        "w-8d5a009dde27"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-156.webp",
+      "newSrc": "assets/constructions/n7/n7-156-auditoria-pla.webp",
+      "oldDisplaySha256": "4e9b22a401a2716c4aa618237435ba31f388e523415adb621c5c9e1c4c8b2711",
+      "newDisplaySha256": "8114ec151a933a517e8a72ad921841b616fe069af0b9264a60b8666483be517e",
+      "originalSha256": "b27d72c129269ae39bdfd9f8bfcf7a90f12ce57795bf5378844dee75af316023",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-156",
+      "original": "output/visual-audit-0.1.194/candidats/n7-156-anatomia.png",
+      "reason": "L’avantbraç de la zebra travessava la taula amb una corba llarga i sense colze llegible.",
+      "observation": "Colze i canell en flexió curta, es veuen gotes i suport dels dos peus.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. Cartoon zebra with short arms, bright blue shirt and dark blue shorts stands immediately beside a low wooden table. Zebra is lifting ONE yellow rectangular wet sponge just high enough for fat blue water drops to fall from it to small clear blue puddle UNDER it on tabletop, held with a bent elbow close to body. Nearly identical dry yellow rectangular sponge untouched on the far side of the table. All four zebra limbs identifiable, both feet on ground. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-122": {
+      "id": "cace-n7-122",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "a7661909fe",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-11ff74d27c02",
+        "w-e12d88415c80",
+        "w-7f04619a8649",
+        "w-12c5f9c8621a"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-122.webp",
+      "newSrc": "assets/constructions/n7/n7-122-auditoria-pla.webp",
+      "oldDisplaySha256": "2af80f6ee4a59feb168f53caed6359e2e4deb675fff1be27bbfe8d6e4fa47797",
+      "newDisplaySha256": "32080c8b8fc11eb1c911cc4557787b0eb24cea9b36788ab47567c14d16496108",
+      "originalSha256": "475486eafefcf4b02ac2ac5bce217b4f9b1b17e18da1d6234687bd12204e6793",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-122",
+      "original": "output/visual-audit-0.1.194/candidats/n7-122-anatomia.png",
+      "reason": "El braç dret quedava recte i massa allargat per deixar la galleda petita al costat de la gran.",
+      "observation": "Avantbraç flexionat i nansa centrada sota la mà, suport sobre dos peus.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small anthropomorphic orange tabby cat with blue shirt and red shorts stands immediately beside a low table. The cat is lifting one clearly SMALL red bucket a short distance above the surface by its handle, its bent elbow remains beside its own waist. A matching but approximately twice as large red bucket sits untouched on the far side of table. Shoes or bare cat feet visibly stand on ground. Show both bucket shapes apart and clearly readable. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-200": {
+      "id": "cace-n7-200",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "8b765fe979",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-072ecc01e120",
+        "w-c3b8bd56e942",
+        "w-e0a6aeb46069",
+        "w-e1efe2c4e23d"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-200.webp",
+      "newSrc": "assets/constructions/n7/n7-200-auditoria-pla.webp",
+      "oldDisplaySha256": "a9e4c555788b1befb68bf5278d38abc10622b43e2b08dd7db39cec062b2da546",
+      "newDisplaySha256": "d84f20365e90dad3d5e3416c2b7fd798d3299c10518f82253ed7d67b4de968d8",
+      "originalSha256": "d439b4f80f607d6189c0b3ebbbd5e81649a3ca035379e4d04a6e08035f92ef12",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-200",
+      "original": "output/visual-audit-0.1.194/candidats/n7-200-anatomia.png",
+      "reason": "El braç de la girafa arribava a prop de terra mentre els genolls i el maluc quedaven drets.",
+      "observation": "Genolls i malucs flexionats, un braç es recolza a la cadira i l’altre arriba a la nansa.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. Anthropomorphic yellow cartoon giraffe with purple shirt and blue trousers crouches beside a plain wooden chair, standing on its rear hooves with flexed knees and leaning at hips. Two matching red rigid lunchboxes, one on seat and the other UNDER the chair, visible on the floor, slightly sticking out from behind the legs. Giraffe touches handle of the box UNDER the chair with a SHORT forearm and flexed elbow. Other hand on the chair side for support if needed. Visible bent legs and joints. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-168": {
+      "id": "cace-n7-168",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "6d0bfd1147",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-a06249642996",
+        "w-072ecc01e120",
+        "w-c3b8bd56e942",
+        "w-1d8378757b29"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-168.webp",
+      "newSrc": "assets/constructions/n7/n7-168-auditoria-pla.webp",
+      "oldDisplaySha256": "46dbd50048a670c97e36528d886699de2dca4aed483bdb317df5ecb38f241249",
+      "newDisplaySha256": "00c81da5bb50ddc6d7cd8742bf4c8949c43796001a0805083cf524ee476a9735",
+      "originalSha256": "02022b909a9d37b8c4f0e0ba13f57aad7dd6c676fc94f1edf710240ee2851cc8",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-168",
+      "original": "output/visual-audit-0.1.194/candidats/n7-168-anatomia.png",
+      "reason": "El braç travessava tota la carmanyola plena per arribar a la buida, amb una extensió desproporcionada.",
+      "observation": "Abast curt a la vora, carmanyoles obertes i braços proporcionats.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small brown cartoon bear wearing a yellow T-shirt and blue trousers reaches only to the near rim of an open, visibly EMPTY blue lunchbox placed immediately in front of its hip on a low desk. Another matching box containing cubed pieces of bread sits separated farther away and untouched. The bear stands close to the selected empty box with both feet grounded, its elbow flexed and forearm short. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-123": {
+      "id": "cace-n7-123",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "60af3b4551",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-4761fde107a7",
+        "w-072ecc01e120",
+        "w-1775aa96869e",
+        "w-8c01add53f6c"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-123.webp",
+      "newSrc": "assets/constructions/n7/n7-123-auditoria-pla.webp",
+      "oldDisplaySha256": "4264b9d37675d43845f22000f86fc320c3be6c2cb34d1a9e9a065271a5d64342",
+      "newDisplaySha256": "f5c2367558313c2ea5e7059f4a54a2b9b3db9e29106dcf7e63a8c44a72401076",
+      "originalSha256": "09d01ce9505a74ab7b97248fb518e05ada07f3542cb72ed9dc8914b90eb631e3",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-123",
+      "original": "output/visual-audit-0.1.194/candidats/n7-123-anatomia.png",
+      "reason": "El braç arribava per sota de les sabates amb el cos dret i apareixia molt més llarg que l’altre.",
+      "observation": "Potes en suport sobre el seient i terra, braç actiu amb colze poc alçat i contacte del dit.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small tan-and-white cartoon puppy wearing blue shirt and red shorts sits at a low table, stable feet grounded. Two separate yellow pencils identical except length: a clearly LONG pencil close to the dog, and a much shorter pencil elsewhere on the table. The puppy with a naturally bent elbow rests one fingertip on the LONG pencil only. Other paw on lap, keep both visible and short. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-186": {
+      "id": "cace-n7-186",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "40128ebf55",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-51a7805e979b",
+        "w-072ecc01e120",
+        "w-2d404e0d8979",
+        "w-9daa4c89a9c6",
+        "w-7f04619a8649"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-186.webp",
+      "newSrc": "assets/constructions/n7/n7-186-auditoria-pla.webp",
+      "oldDisplaySha256": "5e65c06eb14860cf1b87107953505d59d51bac1d173d8759a6fab91f33c23a02",
+      "newDisplaySha256": "209cf40bfad2de8656a568912a553a1ed5c01b1e86fe23d39094540e02a1207e",
+      "originalSha256": "48397f9f449345cf55694edf24f0a3fc2962fcf2128e16e66d967efc6d808ae1",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-186",
+      "original": "output/visual-audit-0.1.194/candidats/n7-186-anatomia.png",
+      "reason": "El braç del conill travessava el gibrell i arribava a l’esponja de fora amb una extensió desproporcionada.",
+      "observation": "Ajupit sobre les dues potes amb una mà de suport, l’altra en flexió curta fins a l’esponja exterior.",
+      "prompt": "One landscape flat vector-like educational cartoon on white background, match bright simple color fills and thick dark outlines of CACE educational clip art. A small white cartoon rabbit with red shirt and blue shorts. A blue open bucket to the RIGHT with one yellow sponge partially visible inside standing beside a second identical sponge OUTSIDE the bucket to the LEFT, very close to the rabbit. The rabbit kneels beside the outside sponge and bends one short versatile elbow so its fingertip directly touches the OUTSIDE sponge, the other paw is on the floor for support. Both knees or toes physically supported. Show the inside sponge unobstructed. Use a medium-wide framing with the whole character, short limbs that can bend, realistic support and only the requested objects. No captions, lettering, shading, comparison signs, panels, white crop, annotations, watermarks or decoration."
+    },
+    "cace-n7-152": {
+      "id": "cace-n7-152",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "d7f5c95aea",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-5993b1ea57aa",
+        "w-677819a0a32a",
+        "w-045fa0b1ae9d",
+        "w-8d5a009dde27"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-152.webp",
+      "newSrc": "assets/constructions/n7/n7-152-auditoria-pla.webp",
+      "oldDisplaySha256": "cc4b53e1cea25b143dc91bcfa73ab328e7825b3980c4df6a2f4abf99ca97079c",
+      "newDisplaySha256": "38865b2b8e098fac35f384b329efa5ec93b522f7848000029eaa7c01dbe6c336",
+      "originalSha256": "dad62030a334bdf8e8779f3d9423d5fce5e285c31ed6abdf88590a0de4d86b28",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-152",
+      "original": "output/visual-audit-0.1.194/candidats/n7-152-anatomia.png",
+      "reason": "L’ala del pingüí travessava gairebé tot el suport sense flexionar-se.",
+      "observation": "Dues potes recolzades i ala pròxima agafa la vora de la roba sense estirar-se a través de l’estenedor.",
+      "prompt": "One flat landscape cartoon with thick dark outlines, plain bright fills and white background. A friendly cartoon penguin stands immediately next to a low two-bar towel stand with two identical bright yellow towels hung side by side. The nearer towel is visibly wet at its bottom edge and has distinct blue droplets falling and a little puddle. The other towel is clean and dry and farther from the penguin. The penguin grips only the corner of the WET towel with its near SHORT flipper, so the wet edge lifts slightly. Both orange feet planted. Torso close to towel, no arm stretched across a towel. Emphasize the specified contrast by physically impeccable contact and composition. No labels, text, overlays, multiple panels or arrows."
+    },
+    "cace-n7-140": {
+      "id": "cace-n7-140",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "ac1d1ce772",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-e60f76be7b6c",
+        "w-e12d88415c80",
+        "w-b7f578451973",
+        "w-69c93e868621"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-140.webp",
+      "newSrc": "assets/constructions/n7/n7-140-auditoria-pla.webp",
+      "oldDisplaySha256": "2f4812b4ddfe371b6712f9173938032f9233772e04e83843b7a35ac25ec1563f",
+      "newDisplaySha256": "6fd781786f28f5206d823fccd3a0fd79251b90a938c9b126f112dee1314560e3",
+      "originalSha256": "b3bbd99374a94cc1c17cc46596e7aa65b0514ec1ee2c85e1daf297885180086b",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-140",
+      "original": "output/visual-audit-0.1.194/candidats/n7-140-anatomia.png",
+      "reason": "El braç de la girafa era recte i llarg i la pilota quedava amb un suport visual insuficient.",
+      "observation": "Colzes flexionats i peülles a sota de la pilota, amb dues potes en suport.",
+      "prompt": "One flat landscape cartoon with thick dark outlines, plain bright fills and white background. Friendly anthropomorphic yellow giraffe wearing a purple T-shirt and blue shorts stands beside a low wooden table. Two PURPLE balls identical size, one with pale yellow large polished dots immediately next to the giraffe at natural waist level, the farther with pale yellow stripes. The giraffe directly supports the ball WITH DOTS by its short forehooves at lower sides, clearly lifted off tabletop. Flex both elbows near torso. The striped one remains untouched on table. Both feet planted. Emphasize the specified contrast by physically impeccable contact and composition. No labels, text, overlays, multiple panels or arrows."
+    },
+    "cace-n7-174": {
+      "id": "cace-n7-174",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "3b65faebe4",
+      "kind": "drawing",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-b059d8ef0bc9",
+        "w-072ecc01e120",
+        "w-1775aa96869e",
+        "w-9daa4c89a9c6",
+        "w-1bed9f18ebab"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-174.webp",
+      "newSrc": "assets/constructions/n7/n7-174-auditoria-pla.webp",
+      "oldDisplaySha256": "d087840fdf044264500bd1bf0593a8c5ce100a8b68a11d3edd27dca9b7ae515e",
+      "newDisplaySha256": "f0343274a13e81580e1a1448d8158d559f61c79c819ed73ce5e9d4ed8964b5ad",
+      "originalSha256": "e27fb009299059a11805f5cbebb8e4497d696f8250f14a91dfafc9feb679e545",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-174",
+      "original": "output/visual-audit-0.1.194/candidats/n7-174-anatomia.png",
+      "reason": "El braç de l’elefant travessava el got i era molt llarg, amb contorn corbat sense articulació.",
+      "observation": "Braç actiu flexionat, dit i llapis en contacte i trompa separada. Peus plantats.",
+      "prompt": "One flat landscape cartoon with thick dark outlines, plain bright fills and white background. A friendly small cartoon elephant in red T-shirt and blue shorts stands beside a low plain table. Two IDENTICAL upright-length yellow pencils, one vertical inside a light blue transparent drinking glass, and a second lying OUTSIDE the glass on the part of the table closest to the elephant. With a very short anatomically natural forearm and bent elbow, the elephant touches only the pencil OUTSIDE the glass. Free arm relaxed, two feet grounded. Keep trunk visually separate and not touching either pencil. Emphasize the specified contrast by physically impeccable contact and composition. No labels, text, overlays, multiple panels or arrows."
+    },
+    "cace-n7-070": {
+      "id": "cace-n7-070",
+      "version": "0.1.195",
+      "lot": "n7-002-004",
+      "opaque": "74b2863d76",
+      "kind": "photo",
+      "levels": [
+        7
+      ],
+      "targetWordIds": [
+        "w-72e9fe9a8b43",
+        "w-072ecc01e120",
+        "w-120fb6b37e88",
+        "w-1d8378757b29"
+      ],
+      "oldSrc": "assets/constructions/n7/n7-070.webp",
+      "newSrc": "assets/constructions/n7/n7-070-auditoria-foto.webp",
+      "oldDisplaySha256": "e50b2741944490a7ae7fbe8514857cd2e71dd2ace81667116d01a0bff569419d",
+      "newDisplaySha256": "a677318231a26a37a96e04c5827f683f7659275c95998bcced35a0d189733a61",
+      "originalSha256": "36ef768bf7b1fa7ebfcb6716fb27741c0ddd2290d416d3270981fd9f5f84737b",
+      "archive": "output/visual-audit-0.1.194/arxiu/cace-n7-070",
+      "original": "output/visual-audit-0.1.194/candidats/n7-070-anatomia.png",
+      "reason": "La dona tenia un braç excessivament allargat per arribar al cistell buit més llunyà.",
+      "observation": "Espatlla, colze i canell formen una cadena en abast curt, l’altre braç cau a la vora del cos. Tots dos peus plantats.",
+      "prompt": "One full-body clean educational PHOTOGRAPH. A realistic photograph of a middle aged woman with dark curly hair and a gray knit sweater, standing behind a small wooden table, near the two objects. Two identical round wicker baskets side by side, one visibly empty, one full of small lightly colored wooden blocks. The empty basket is on the viewer-left and very close to the woman’s right hip. The woman touches only the rim of the EMPTY basket with the fingertips of one hand using a short natural reach and a clearly bent elbow. The other arm loosely at her side, hand visible away from both baskets. White studio backdrop, softly diffused daylight, full body including two planted shoes, landscape photo. Emphasize the specified contrast by physically impeccable contact and composition. No labels, text, overlays, multiple panels or arrows."
     }
   }
 }

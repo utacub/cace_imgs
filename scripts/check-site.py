@@ -93,6 +93,16 @@ for construction_id, construction in replacements.items():
 withdrawn_variants = defaultdict(set)
 active_ids = {asset['id'] for asset in data['assets']}
 active_paths = {asset['src'] for asset in data['assets']}
+assets_by_id = {asset['id']: asset for asset in data['assets']}
+for asset_id, replacement in audit.get('anatomyReplacements', {}).items():
+    asset = assets_by_id[asset_id]
+    assert replacement['id'] == asset_id
+    for field in ('kind', 'levels', 'targetWordIds', 'originalSha256'):
+        assert asset[field] == replacement[field], (asset_id, field)
+    assert asset['src'] == replacement['newSrc']
+    assert asset['displaySha256'] == replacement['newDisplaySha256']
+    assert replacement['oldSrc'] not in active_paths
+    assert not (root / 'dist' / replacement['oldSrc']).exists()
 for withdrawal in audit.get('withdrawals', []):
     asset = withdrawal['asset']
     assert asset['levels'] == [1] and not asset.get('constructionId'), asset['id']
