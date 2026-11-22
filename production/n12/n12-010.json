@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-010",
+    "title": "La tassa que empeny la patata",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CUINA",
+    "scene": "Patata cuita freda en un plat, amb una porció de puré al costat.",
+    "contact": "Pressiona la tassa de plàstic de costat damunt la patata.",
+    "breach": "Fer servir el cos arrodonit i buit d’una tassa per fer puré fi.",
+    "cue": "El lateral llis només desplaça la patata; la tassa no té superfície de trinxar.",
+    "expectedResponse": {
+      "repair": "Aixafar la patata amb un passapuré o una forquilla.",
+      "explanation": "Es pot aixafar en porcions amb una superfície que hi faci pressió controlada."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "TASSA",
+        "wordId": "w-adecb8403118"
+      },
+      {
+        "label": "PATATA",
+        "wordId": "w-c2834e700445"
+      },
+      {
+        "label": "PLAT",
+        "wordId": "w-55d250f4cf1e"
+      },
+      {
+        "label": "CUINA",
+        "wordId": "w-2a34971d94b3"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-adecb8403118",
+      "w-c2834e700445",
+      "w-55d250f4cf1e",
+      "w-2a34971d94b3"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-010/image.png",
+      "sha256": "aad2a170a66bbb9820e84ad6c33b1a450056cf98382aeaf99738b550e76346cc",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Patata cuita freda en un plat, amb una porció de puré al costat. Gest exacte: Pressiona la tassa de plàstic de costat damunt la patata. Únic detall volgudament incongruent: Fer servir el cos arrodonit i buit d’una tassa per fer puré fi. Indici que ha de ser visible sense text: El lateral llis només desplaça la patata; la tassa no té superfície de trinxar. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. La patata cuita sencera queda al cantell del plat quan el lateral de la tassa tombada la desplaça. El puré preparat reposa separat a l’altre costat.",
+      "review": "La tassa queda tombada i empeny el lateral de la patata, que és sencera. El puré reposa separat.",
+      "reviewedAt": "2026-11-22T07:21:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-010/image.png",
+  "originalSha256": "aad2a170a66bbb9820e84ad6c33b1a450056cf98382aeaf99738b550e76346cc",
+  "alt": {
+    "ca": "Un home empeny una patata sencera amb una tassa tombada sobre un plat.",
+    "es": "Un hombre empuja una patata entera con una taza tumbada sobre un plato."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:06+00:00"
+}

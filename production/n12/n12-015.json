@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-015",
+    "title": "El moneder a la pell",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "LAVABO",
+    "scene": "Lavabo amb mans mullades i un moneder rígid de plàstic llis.",
+    "contact": "Frega el dors de la mà mullada amb el lateral del moneder.",
+    "breach": "Fer servir un moneder rígid per eixugar-se les mans.",
+    "cue": "Les gotes queden visibles i es veuen la cremallera i la forma de moneder.",
+    "expectedResponse": {
+      "repair": "Eixugar-se amb una tovallola o paper absorbent.",
+      "explanation": "Un material absorbent recull l’aigua de la pell."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "ASSECAR",
+        "wordId": "w-ae417aa563dd"
+      },
+      {
+        "label": "MONEDER",
+        "wordId": "w-1c7dc27a398b"
+      },
+      {
+        "label": "MÀ",
+        "wordId": "w-ad405c7e723f"
+      },
+      {
+        "label": "LAVABO",
+        "wordId": "w-d8afb3f68b37"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-ae417aa563dd",
+      "w-1c7dc27a398b",
+      "w-ad405c7e723f",
+      "w-d8afb3f68b37"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-015/image.png",
+      "sha256": "af0eb5d6a3ec3ea6c7effac0c02934ae5e7ba0434b518b3911335e1b39ca08a5",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Lavabo amb mans mullades i un moneder rígid de plàstic llis. Gest exacte: Frega el dors de la mà mullada amb el lateral del moneder. Únic detall volgudament incongruent: Fer servir un moneder rígid per eixugar-se les mans. Indici que ha de ser visible sense text: Les gotes queden visibles i es veuen la cremallera i la forma de moneder. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "El moneder es reconeix per la cremallera. El lateral toca el dors de la mà sobre la pica, amb humitat visible.",
+      "reviewedAt": "2026-11-22T07:21:07+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-015/image.png",
+  "originalSha256": "af0eb5d6a3ec3ea6c7effac0c02934ae5e7ba0434b518b3911335e1b39ca08a5",
+  "alt": {
+    "ca": "Una noia frega la mà mullada amb un moneder de plàstic.",
+    "es": "Una chica se frota la mano mojada con un monedero de plástico."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:07+00:00"
+}

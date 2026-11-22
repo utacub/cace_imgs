@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-019",
+    "title": "La bufanda fa de martell",
+    "mechanism": "estri",
+    "subtype": "eines-de-forca-i-moviment",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "TALLER",
+    "scene": "Peça de fusta amb un piu de joguina que sobresurt, ben recolzada.",
+    "contact": "Colpeja suaument el piu amb l’extrem flonjo d’una bufanda sense nus.",
+    "breach": "Fer servir una bufanda per clavar un piu de joc.",
+    "cue": "La tela es doblega al contacte i no hi ha cap capçal rígid.",
+    "expectedResponse": {
+      "repair": "Donar-hi cops suaus amb el mall del joc.",
+      "explanation": "Un capçal rígid pot empènyer el piu dins el forat."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "TOCAR",
+        "wordId": "w-072ecc01e120"
+      },
+      {
+        "label": "BUFANDA",
+        "wordId": "w-0b4612bc4b9f"
+      },
+      {
+        "label": "PECES",
+        "wordId": "w-776ec487889f"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-072ecc01e120",
+      "w-0b4612bc4b9f",
+      "w-776ec487889f",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-019/image.png",
+      "sha256": "8e8f7a3449f920816fc67ca09ae397bb011a134a734f42cc8bbd08e854caf311",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Peça de fusta amb un piu de joguina que sobresurt, ben recolzada. Gest exacte: Colpeja suaument el piu amb l’extrem flonjo d’una bufanda sense nus. Únic detall volgudament incongruent: Fer servir una bufanda per clavar un piu de joc. Indici que ha de ser visible sense text: La tela es doblega al contacte i no hi ha cap capçal rígid. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La tela es plega al pressió sobre el piu i la peça de muntatge reposa plana al suport.",
+      "reviewedAt": "2026-11-22T07:21:09+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-019/image.png",
+  "originalSha256": "8e8f7a3449f920816fc67ca09ae397bb011a134a734f42cc8bbd08e854caf311",
+  "alt": {
+    "ca": "Un home fa servir l’extrem d’una bufanda per colpejar un piu de joc.",
+    "es": "Un hombre usa el extremo de una bufanda para golpear una clavija de juguete."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:09+00:00"
+}

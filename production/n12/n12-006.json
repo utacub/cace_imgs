@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-006",
+    "title": "La mandarina fa una taca ampla",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una nena"
+    ],
+    "setting": "TALLER",
+    "scene": "Taller amb un full i un potet obert de pintura blava. Una línia blava fina queda sense acabar.",
+    "contact": "Passa una mandarina sencera amb la pell tacada de blau pel final de la línia.",
+    "breach": "Fer servir una mandarina sencera per continuar una línia fina.",
+    "cue": "L’esfera fa contacte en una àrea ampla i deixa una taca ampla al final.",
+    "expectedResponse": {
+      "repair": "Continuar el traç amb un pinzell fi.",
+      "explanation": "Un pinzell fi controla l’amplada del traç."
+    },
+    "terms": [
+      {
+        "label": "NENA",
+        "wordId": "w-cda6fa4a9867"
+      },
+      {
+        "label": "PINTAR",
+        "wordId": "w-b04a48827310"
+      },
+      {
+        "label": "MANDARINA",
+        "wordId": "w-3e6fe7410a4f"
+      },
+      {
+        "label": "PINTURA",
+        "wordId": "w-4e39a6280b90"
+      },
+      {
+        "label": "PAPER",
+        "wordId": "w-cd5c60f0d076"
+      },
+      {
+        "label": "TALLER",
+        "wordId": "w-2b087864d4ff"
+      }
+    ],
+    "primaryWordId": "w-cda6fa4a9867",
+    "wordIds": [
+      "w-cda6fa4a9867",
+      "w-b04a48827310",
+      "w-3e6fe7410a4f",
+      "w-4e39a6280b90",
+      "w-cd5c60f0d076",
+      "w-2b087864d4ff"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-006/image.png",
+      "sha256": "ac7e80529d2b995bc52fe80cec140dc2cdd28dfa80df0e453a7713166bc92941",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una nena. Escena: Taller amb un full i un potet obert de pintura blava. Una línia blava fina queda sense acabar. Gest exacte: Passa una mandarina sencera amb la pell tacada de blau pel final de la línia. Únic detall volgudament incongruent: Fer servir una mandarina sencera per continuar una línia fina. Indici que ha de ser visible sense text: L’esfera fa contacte en una àrea ampla i deixa una taca ampla al final. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La mandarina sencera toca la taca que eixampla la ratlla blava. El pot i les taques de pintura concorden amb el gest.",
+      "reviewedAt": "2026-11-22T07:21:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-006/image.png",
+  "originalSha256": "ac7e80529d2b995bc52fe80cec140dc2cdd28dfa80df0e453a7713166bc92941",
+  "alt": {
+    "ca": "Una nena continua una línia blava amb una mandarina i hi deixa una taca ampla.",
+    "es": "Una niña continúa una línea azul con una mandarina y deja una mancha ancha."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:06+00:00"
+}

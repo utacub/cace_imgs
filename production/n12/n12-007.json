@@ -1,0 +1,78 @@
+{
+  "construction": {
+    "id": "n12-007",
+    "title": "Buscar una cara a través del got",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Un home"
+    ],
+    "setting": "CASA",
+    "scene": "Foto de grup sense text plana a la taula i got opac amb base sencera.",
+    "contact": "Sosté el got vertical ben arran de la foto amb l’ull orientat cap a l’obertura superior.",
+    "breach": "Fer servir un got opac per ampliar una foto.",
+    "cue": "El cul tancat i fosc queda entre l’ull i la foto.",
+    "expectedResponse": {
+      "repair": "Mirar la foto amb una lupa.",
+      "explanation": "La lent transparent permet veure i ampliar la imatge."
+    },
+    "terms": [
+      {
+        "label": "HOME",
+        "wordId": "w-cfe24f6b3c38"
+      },
+      {
+        "label": "MIRAR",
+        "wordId": "w-e67dd0fa47ce"
+      },
+      {
+        "label": "GOT",
+        "wordId": "w-1bed9f18ebab"
+      },
+      {
+        "label": "FOTO",
+        "wordId": "w-f1db5ec173b6"
+      },
+      {
+        "label": "TAULA",
+        "wordId": "w-1544f4efec59"
+      },
+      {
+        "label": "CASA",
+        "wordId": "w-57ca61c8d99d"
+      }
+    ],
+    "primaryWordId": "w-cfe24f6b3c38",
+    "wordIds": [
+      "w-cfe24f6b3c38",
+      "w-e67dd0fa47ce",
+      "w-1bed9f18ebab",
+      "w-f1db5ec173b6",
+      "w-1544f4efec59",
+      "w-57ca61c8d99d"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-007/image.png",
+      "sha256": "b3e8f3693afe9a149951adc2cc1db0c02a51e2d70ee81cf4184f73eb7a8fd358",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Un home. Escena: Foto de grup sense text plana a la taula i got opac amb base sencera. Gest exacte: Sosté el got vertical ben arran de la foto amb l’ull orientat cap a l’obertura superior. Únic detall volgudament incongruent: Fer servir un got opac per ampliar una foto. Indici que ha de ser visible sense text: El cul tancat i fosc queda entre l’ull i la foto. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. Vista de perfil en què l’home posa clarament UN ULL, lluny dels llavis, sobre l’obertura del got opac i en dirigeix la base tancada cap a una fotografia plana sobre la taula.",
+      "review": "El got es recolza al costat d’un ull, separat de la boca i amb el cul davant de la foto. El retrat queda al pla de la taula.",
+      "reviewedAt": "2026-11-22T07:21:06+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-007/image.png",
+  "originalSha256": "b3e8f3693afe9a149951adc2cc1db0c02a51e2d70ee81cf4184f73eb7a8fd358",
+  "alt": {
+    "ca": "Un home intenta mirar una fotografia a través d’un got opac.",
+    "es": "Un hombre intenta mirar una fotografía a través de un vaso opaco."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:06+00:00"
+}

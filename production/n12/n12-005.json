@@ -1,0 +1,73 @@
+{
+  "construction": {
+    "id": "n12-005",
+    "title": "El mitjó al pany",
+    "mechanism": "estri",
+    "subtype": "estris-de-precisio",
+    "kind": "photo",
+    "group": "insolita",
+    "sceneCount": 1,
+    "participants": [
+      "Una noia"
+    ],
+    "setting": "ESCOLA",
+    "scene": "Porta amb pany de bombí visible i un mitjó petit sense peu a dins.",
+    "contact": "Pressiona la punta del mitjó contra la ranura amb dos dits.",
+    "breach": "Fer servir un mitjó com a clau.",
+    "cue": "La tela es plega contra el bombí en comptes d’entrar-hi.",
+    "expectedResponse": {
+      "repair": "Introduir-hi la clau corresponent.",
+      "explanation": "La forma rígida de la clau pot accionar el pany."
+    },
+    "terms": [
+      {
+        "label": "NOIA",
+        "wordId": "w-b38ff488f862"
+      },
+      {
+        "label": "OBRIR",
+        "wordId": "w-a10b29af07c7"
+      },
+      {
+        "label": "MITJÓ",
+        "wordId": "w-64737c439fa0"
+      },
+      {
+        "label": "PORTA",
+        "wordId": "w-e2209c0332a6"
+      },
+      {
+        "label": "ESCOLA",
+        "wordId": "w-0156c87f929a"
+      }
+    ],
+    "primaryWordId": "w-b38ff488f862",
+    "wordIds": [
+      "w-b38ff488f862",
+      "w-a10b29af07c7",
+      "w-64737c439fa0",
+      "w-e2209c0332a6",
+      "w-0156c87f929a"
+    ]
+  },
+  "attempts": [
+    {
+      "status": "accepted",
+      "file": "output/production/n12/n12-005/image.png",
+      "sha256": "b9a50bee7b50a9c15f512ac826d5b623288a03c51487ee710de409ada59778a9",
+      "prompt": "Crea una FOTOGRAFIA SINTÈTICA FOTOREALISTA per a una activitat escolar de comunicació augmentativa, com feta amb una càmera de 50 mm amb llum d’estudi suau i objectes autèntics. Persones amb textura de pell i cabell reals, roba de tela real amb plecs i objectes quotidians de mida i material reals. Una sola fotografia quadrada en un fons blanc d’estudi amb marge generós. Cap dibuix, il·lustració, vinyeta, estil còmic, render 3D, marques, text ni símbols. Només els elements de context imprescindibles per entendre l’acció. Enquadrament de tres quarts o de perfil, rostre natural, contacte inequívoc, gravetat, anatomia i suport físic reals. Participants: Una noia. Escena: Porta amb pany de bombí visible i un mitjó petit sense peu a dins. Gest exacte: Pressiona la punta del mitjó contra la ranura amb dos dits. Únic detall volgudament incongruent: Fer servir un mitjó com a clau. Indici que ha de ser visible sense text: La tela es plega contra el bombí en comptes d’entrar-hi. La resta ha de ser coherent i funcional. Sense paraules, números, lletres, marques, fletxes, bafarades, vinyetes, filigranes ni solució representada. ",
+      "review": "La forma curta amb plec de puntera i teixit de mitjó contrasta amb el bombí. La punta toca la ranura.",
+      "reviewedAt": "2026-11-22T07:21:04+00:00"
+    }
+  ],
+  "status": "accepted",
+  "file": "output/production/n12/n12-005/image.png",
+  "originalSha256": "b9a50bee7b50a9c15f512ac826d5b623288a03c51487ee710de409ada59778a9",
+  "alt": {
+    "ca": "Una noia prova d’obrir una porta prement un mitjó contra el pany.",
+    "es": "Una chica intenta abrir una puerta presionando un calcetín contra la cerradura."
+  },
+  "reviewed": true,
+  "tool": "ImageGen integrat",
+  "created": "2026-11-22T07:21:04+00:00"
+}
