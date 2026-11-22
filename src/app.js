@@ -176,7 +176,8 @@ function searchFields(a){
 }
 const hasSearch=()=>Boolean(norm(state.query)||state.tags.length);
 function usesLevelOrder(){
-  if(state.view!=='library'||state.level||state.category||state.kind!=='all')return false;
+  // A CACE category filter keeps the N1→N13 order so each category opens with its individual words.
+  if(state.view!=='library'||state.level||state.kind!=='all')return false;
   return state.tags.length<=(norm(state.query)?0:1);
 }
 const concreteCategories=new Set(['animals','objectes','aliments','roba','mobles','transports']);
@@ -196,13 +197,18 @@ const best=term=>Math.max(textMatch(fields.primary,term)*100,...fields.tags.map(
 const queryScore=terms.length?best(query)*1000+terms.reduce((sum,term)=>sum+best(term),0)/terms.length:0;
 return queryScore+(state.tags.includes(a.primaryWordId)?500000:0);
 }
+// Fragments inside a word («or» in «porta») are kept only when no image in the current view
+// has the term as a whole word or at the start of a word; ranking still puts whole words first.
+function termHit(text,term){if(!text||!term)return 0;const words=text.split(/[\s'’]+/);if(words.includes(term)||(' '+text+' ').includes(' '+term+' '))return 3;if(words.some(word=>word.startsWith(term)))return 2;return text.includes(term)?1:0}
+function matchMode(pool,term){for(const asset of pool)if(termHit(searchFields(asset).text,term)>=2)return 2;return 1}
 function baseAssets(){let list=assets();if(state.view==='favorites')list=list.filter(a=>isFavorite(a.id));if(state.view==='collection'){const items=new Set(collectionById(state.collection)?.items);list=list.filter(a=>items.has(a.id))}return list}
-function matches(a,terms){if(state.kind!=='all'&&a.kind!==state.kind)return false;if(state.drawingStyle&&!a.variant?.startsWith(state.drawingStyle))return false;if(state.level&&!a.levels.includes(state.level))return false;if(state.category&&!assetCategories(a).includes(state.category))return false;
+function matches(a,terms,modes){if(state.kind!=='all'&&a.kind!==state.kind)return false;if(state.drawingStyle&&!a.variant?.startsWith(state.drawingStyle))return false;if(state.level&&!a.levels.includes(state.level))return false;if(state.category&&!assetCategories(a).includes(state.category))return false;
 if(state.tags.length){const checks=state.tags.map(id=>a.tags.includes(id));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}
-if(terms.length){const {text}=searchFields(a);const checks=terms.map(term=>text.includes(term));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}return true}
+if(terms.length){const {text}=searchFields(a);const checks=terms.map((term,i)=>termHit(text,term)>=(modes?.[i]||1));if(!(state.wordMode==='all'?checks.every(Boolean):checks.some(Boolean)))return false}return true}
 function results(){
   const query=norm(state.query),terms=query?query.split(' '):[];
-  const list=baseAssets().filter(asset=>matches(asset,terms));
+  const pool=baseAssets(),modes=terms.map(term=>matchMode(pool,term));
+  const list=pool.filter(asset=>matches(asset,terms,modes));
   if(state.sort==='alpha')return list.sort((a,b)=>loc(a.title).localeCompare(loc(b.title),lang));
   if(state.sort==='new')return list.sort((a,b)=>(b.created||'').localeCompare(a.created||''));
   const searching=Boolean(query||state.tags.length);
@@ -210,10 +216,12 @@ function results(){
   if(!searching&&!byLevel)return list;
   return list.map(asset=>{
     const level=Math.max(...asset.levels);
-    return {asset,level,score:searching?relevance(asset,query,terms):0,
+    // Inside a category, images whose main word belongs to it come before those that only mention it.
+    const own=state.category&&WORDS.get(asset.primaryWordId)?.category===state.category?1:0;
+    return {asset,level,own,score:searching?relevance(asset,query,terms):0,
       concreteLabel:searching?'':initialConcreteLabel(asset,level)};
   })
-    .sort((a,b)=>(byLevel?a.level-b.level:0)||b.score-a.score
+    .sort((a,b)=>(byLevel?a.level-b.level:0)||b.own-a.own||b.score-a.score
       ||Number(Boolean(b.concreteLabel))-Number(Boolean(a.concreteLabel))
       ||a.concreteLabel.localeCompare(b.concreteLabel,'ca'))
     .map(row=>row.asset);
@@ -349,8 +357,9 @@ function toggleFavorite(id){if(isFavorite(id))stored.favorites=stored.favorites.
 function chooseTag(id){if(!WORDS.has(id))return;state.viewer=null;if(state.present)exitPresentation();if(state.view==='collections')state.view='library';if(!state.tags.includes(id))state.tags.push(id);state.query='';renderTop();closeSuggestions();renderSidebar();renderMain()}
 function closeSidebar(){$('#sidebar').classList.remove('open')}
 function closeSuggestions(){$('#searchSuggestions').hidden=true;$('#search').setAttribute('aria-expanded','false');$('#search').removeAttribute('aria-activedescendant');suggestionIndex=-1}
-function wordCandidates(query,exclude=[]){const q=norm(query);if(!q)return[];return CATALOG.words.filter(w=>!exclude.includes(w.id)&&wordIndex.get(w.id)[lang].includes(q)).sort((a,b)=>textMatch(wordIndex.get(b.id)[lang],q)-textMatch(wordIndex.get(a.id)[lang],q)||a[lang].localeCompare(b[lang],lang)).slice(0,8)}
-function showSuggestions(){const input=$('#search'),list=wordCandidates(input.value,state.tags),box=$('#searchSuggestions');suggestionIndex=-1;if(!input.value.trim()){closeSuggestions();return}box.innerHTML=list.map((w,i)=>{const count=assetIndex().tagCounts.get(w.id)||0;return `<button class="suggestion" role="option" id="suggestion-${i}" data-action="search-word" data-id="${w.id}" aria-selected="false">${icon(CATEGORIES.get(w.category)?.icon)}<span><strong>${esc(loc(w))}</strong><small>${esc(loc(CATEGORIES.get(w.category)))}</small></span><span class="mini-count">${count?countText(count):t('wordNoImages')}</span></button>`}).join('')+(list.length?'':`<div class="suggestion-note">${t('noWord')}</div>`);box.hidden=false;input.setAttribute('aria-expanded','true')}
+function wordCandidates(query,exclude=[],withImagesOnly=false){const q=norm(query);if(!q)return[];const counts=withImagesOnly?assetIndex().tagCounts:null;return CATALOG.words.filter(w=>!exclude.includes(w.id)&&(!counts||counts.get(w.id))&&wordIndex.get(w.id)[lang].includes(q)).sort((a,b)=>textMatch(wordIndex.get(b.id)[lang],q)-textMatch(wordIndex.get(a.id)[lang],q)||a[lang].localeCompare(b[lang],lang)).slice(0,8)}
+// Vocabulary entries without any image stay in the catalogue but are not offered as search suggestions.
+function showSuggestions(){const input=$('#search'),list=wordCandidates(input.value,state.tags,true),box=$('#searchSuggestions');suggestionIndex=-1;if(!input.value.trim()){closeSuggestions();return}box.innerHTML=list.map((w,i)=>{const count=assetIndex().tagCounts.get(w.id)||0;return `<button class="suggestion" role="option" id="suggestion-${i}" data-action="search-word" data-id="${w.id}" aria-selected="false">${icon(CATEGORIES.get(w.category)?.icon)}<span><strong>${esc(loc(w))}</strong><small>${esc(loc(CATEGORIES.get(w.category)))}</small></span><span class="mini-count">${count?countText(count):t('wordNoImages')}</span></button>`}).join('')+(list.length?'':`<div class="suggestion-note">${t('noWord')}</div>`);box.hidden=false;input.setAttribute('aria-expanded','true')}
 function highlightSuggestion(delta){const opts=[...$('#searchSuggestions').querySelectorAll('.suggestion')];if(!opts.length)return;suggestionIndex=Math.max(0,Math.min(opts.length-1,suggestionIndex+delta));opts.forEach((el,i)=>{el.classList.toggle('highlighted',i===suggestionIndex);el.setAttribute('aria-selected',i===suggestionIndex)});$('#search').setAttribute('aria-activedescendant',opts[suggestionIndex].id);opts[suggestionIndex].scrollIntoView({block:'nearest'})}
 function openDialog(title,body,footer='',wide=false){lastFocus=document.activeElement;const d=$('#dialog');d.classList.toggle('wide',wide);d.innerHTML=`<div class="dialog-head"><h2>${esc(title)}</h2>${iconButton('close','close-dialog',t('close'))}</div><div class="dialog-body">${body}</div>${footer?`<div class="dialog-foot">${footer}</div>`:''}`;if(!d.open)d.showModal();setTimeout(()=>{const el=d.querySelector('[autofocus]')||d.querySelector('input:not([type=file]):not([type=checkbox])')||d.querySelector('button');el?.focus()},30)}
 function closeDialog(){const d=$('#dialog');if(d.open)d.close();if(lastFocus?.isConnected)lastFocus.focus()}
