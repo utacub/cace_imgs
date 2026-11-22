@@ -1,0 +1,575 @@
+{
+  "baseVersion": "0.1.187",
+  "catalogVersion": "0.1.188",
+  "withdrawals": [
+    {
+      "asset": {
+        "id": "cace-concept-a3f7ad87f2b4-realista-01",
+        "src": "assets/individuals/verbs/treballar/realista-01.webp",
+        "title": {
+          "ca": "TREBALLAR · dibuix realista",
+          "es": "TRABAJAR · dibujo realista"
+        },
+        "alt": {
+          "ca": "Una persona treballant en un banc de fusteria.",
+          "es": "Una persona trabajando en un banco de carpintería."
+        },
+        "tags": [
+          "w-39897bdc5f51"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T18:24:54.776605Z",
+        "target": "concept-a3f7ad87f2b4",
+        "targetWordIds": [
+          "w-39897bdc5f51"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "2053bd4474b146dff32408837208fb3b9d8ed3692453406be22f820bef0b80f4",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "1637a82db289df9bee5b6dc36745a7eb42d779b69436ea5958d06de9eb0206ec",
+        "primaryWordId": "w-39897bdc5f51"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-a3f7ad87f2b4-realista-01",
+      "opaque": "e030807ef1",
+      "batch": "b-002",
+      "observation": "fusteria, clavar amb maça, muntar una caixa",
+      "reason": "La fusteria i el gest de clavar o muntar dominen. TREBALLAR es pot inferir de qualsevol feina, però aquesta variant no discrimina el verb.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-realistes"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-82696aefbbe3-foto-01",
+        "src": "assets/individuals/activitats/encarrec/foto-01.webp",
+        "title": {
+          "ca": "ENCÀRREC · fotografia 1",
+          "es": "ENCARGO · fotografía 1"
+        },
+        "alt": {
+          "ca": "Dona que fa l'encàrrec de portar la compra a una dona gran.",
+          "es": "Mujer que hace el encargo de llevar la compra a una mujer mayor."
+        },
+        "tags": [
+          "w-b24c98d3ef26"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T21:44:05.359595Z",
+        "target": "concept-82696aefbbe3",
+        "targetWordIds": [
+          "w-b24c98d3ef26"
+        ],
+        "variant": "foto-01",
+        "originalSha256": "e0d7a247026d5d0311eaae49641bf27e814a444e265b360b1c526147d26946f6",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "aad1dfcf22aff8be4bf1839a0af5c84629cb5f4e52b2a480c1dae8d06b12ae0c",
+        "primaryWordId": "w-b24c98d3ef26"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-82696aefbbe3-foto-01",
+      "opaque": "224c18f3c8",
+      "batch": "b-002",
+      "observation": "donar, lliurar la compra, porta",
+      "reason": "Es veu un lliurament a la porta. La imatge no permet inferir que algú havia encomanat la tasca.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-fotografies"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-65ad99e60fc6-pla-01",
+        "src": "assets/individuals/temps/dilluns/pla-01.webp",
+        "title": {
+          "ca": "DILLUNS · il·lustració plana",
+          "es": "LUNES · ilustración plana"
+        },
+        "alt": {
+          "ca": "Set dies de la setmana amb el primer dia destacat, en estil pla.",
+          "es": "Siete días de la semana con el primer día resaltado, en estilo plano."
+        },
+        "tags": [
+          "w-742896b6d8d3"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T19:43:30.895265Z",
+        "target": "concept-65ad99e60fc6",
+        "targetWordIds": [
+          "w-742896b6d8d3"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "97d63e699ff1eef627497e1314d82aedc5e2daba6f2a4a0f14c6d7ea3018f7c4",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "fb1cdd72ff67e55af693c5893b2137e377e159eabfd120fad8d35445d37d6d06",
+        "primaryWordId": "w-742896b6d8d3"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-65ad99e60fc6-pla-01",
+      "opaque": "7a789aa618",
+      "batch": "b-004",
+      "observation": "dilluns si la setmana comença en dilluns, primer dia",
+      "reason": "Set dies indistingibles i una fletxa sobre el primer. DILLUNS depèn de conèixer la convenció de començar-hi la setmana.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-planes"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-7916d8f1f9f9-foto-02",
+        "src": "assets/individuals/verbs/mullar/foto-02.webp",
+        "title": {
+          "ca": "MULLAR · fotografia 2",
+          "es": "MOJAR · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una persona mullant un drap en un recipient amb aigua.",
+          "es": "Una persona mojando un paño en un recipiente con agua."
+        },
+        "tags": [
+          "w-0f8bf7297a41"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-31T10:09:17.982266Z",
+        "target": "concept-7916d8f1f9f9",
+        "targetWordIds": [
+          "w-0f8bf7297a41"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "55bd85645cb567cd7b5f11166d73c8b31c9050304a16822fe5f98d447cd07bb0",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "e32dbbefd1ee8c6ccea473a07bf4199107d1c3c5fd8df0fca1f43a55c64c1fc8",
+        "primaryWordId": "w-0f8bf7297a41"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-7916d8f1f9f9-foto-02",
+      "opaque": "bd383ae2d1",
+      "batch": "b-006",
+      "observation": "rentar roba a mà, esbandir",
+      "reason": "S’hi veu un home que treu roba d’un gibrell. Sembla que la renta o l’esbandeix i l’acció de mullar queda indeterminada.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-fotografies"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-15ed5924122f-foto-02",
+        "src": "assets/individuals/roba/calces/foto-02.webp",
+        "title": {
+          "ca": "CALCES · fotografia 2",
+          "es": "BRAGAS · fotografía 2"
+        },
+        "alt": {
+          "ca": "Unes calces.",
+          "es": "Unas bragas."
+        },
+        "tags": [
+          "w-e7590c880e27"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-29T00:00:00Z",
+        "target": "concept-15ed5924122f",
+        "targetWordIds": [
+          "w-e7590c880e27"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "412fd7813c44c8c42d22eb133ff386d78b808b3ce1318f87d154739ad81c85d5",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "bf794172c855c11b2b41be99f9b5b1cab45cc28ebd494e6b8d785d1a950e83dd",
+        "primaryWordId": "w-e7590c880e27"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-15ed5924122f-foto-02",
+      "opaque": "94e3fad367",
+      "batch": "b-006",
+      "observation": "calçotets, eslip",
+      "reason": "La lectura espontània és calçotets o eslip. La imatge no discrimina l’entrada CALCES.",
+      "sourcePngArchived": false,
+      "collectionsBefore": [
+        "cace-unitats-fotografies"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-6dcf00753e4c-pla-01",
+        "src": "assets/individuals/temps/octubre/pla-01.webp",
+        "title": {
+          "ca": "OCTUBRE · il·lustració plana",
+          "es": "OCTUBRE · ilustración plana"
+        },
+        "alt": {
+          "ca": "Dotze mesos amb el desè destacat, en estil pla.",
+          "es": "Doce meses con el décimo resaltado, en estilo plano."
+        },
+        "tags": [
+          "w-7164f6718048"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:01:48.291191Z",
+        "target": "concept-6dcf00753e4c",
+        "targetWordIds": [
+          "w-7164f6718048"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "6d6cc9f1957a1169ccaa1946e57de2ab945776852d3cfc3b02acf96e0bb89834",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "7dd05fa2365c2388bbe3cf6e51f0875183a9ab74668f0f8eb275df0e6af29994",
+        "primaryWordId": "w-7164f6718048"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-6dcf00753e4c-pla-01",
+      "opaque": "10f9c66ecf",
+      "batch": "b-007",
+      "observation": "desè mes, octubre si la fila comença al gener",
+      "reason": "Dotze mesos sense trets diferenciadors. La denominació depèn de comptar la desena posició amb un origen assumit.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-planes"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-fca8a3cb6396-foto-02",
+        "src": "assets/individuals/llocs/esplai/foto-02.webp",
+        "title": {
+          "ca": "ESPLAI · fotografia 2",
+          "es": "ESPLAI · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una monitora acompanya tres infants fent manualitats a l’esplai.",
+          "es": "Una monitora acompaña a tres niños haciendo manualidades en un centro de ocio."
+        },
+        "tags": [
+          "w-a584ee1b6c27"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-05T20:57:16.162952Z",
+        "target": "concept-fca8a3cb6396",
+        "targetWordIds": [
+          "w-a584ee1b6c27"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "c1fcb2aa267a0cdb6c8df177a8bff384e0f727296be312164e09ca05d12427bd",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "4d903e26db15faa293af468b4289353e049fcee78be123eb023158cbdb1f7fd0",
+        "primaryWordId": "w-a584ee1b6c27"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-fca8a3cb6396-foto-02",
+      "opaque": "e963990f23",
+      "batch": "b-008",
+      "observation": "manualitats, campament, taller",
+      "reason": "El grup fa manualitats a l’aire lliure, un context compatible amb un taller escolar, un campament o un esplai.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-fotografies"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-03c2a7fead3f-pla-01",
+        "src": "assets/individuals/temps/juny/pla-01.webp",
+        "title": {
+          "ca": "JUNY · il·lustració plana",
+          "es": "JUNIO · ilustración plana"
+        },
+        "alt": {
+          "ca": "Dotze mesos amb el sisè destacat, en estil pla.",
+          "es": "Doce meses con el sexto resaltado, en estilo plano."
+        },
+        "tags": [
+          "w-be9ff8d00b8e"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-06T20:01:45.560029Z",
+        "target": "concept-03c2a7fead3f",
+        "targetWordIds": [
+          "w-be9ff8d00b8e"
+        ],
+        "variant": "pla-01",
+        "originalSha256": "3aa50a2bda2cdd54d9400f913b384b2e10d2b8025c0752ac10e327031c42426c",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "fda3e35bc6ee534026a5684bb56ac6ba6a6638bb279a27badd17e59ef4b101f3",
+        "primaryWordId": "w-be9ff8d00b8e"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-03c2a7fead3f-pla-01",
+      "opaque": "26ee60fbd6",
+      "batch": "b-008",
+      "observation": "sisè mes, juny si la graella comença al gener",
+      "reason": "Dotze mesos sense trets diferenciadors. La denominació depèn de comptar la sisena posició amb un origen assumit.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-planes"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-588a23541bf4-realista-01",
+        "src": "assets/individuals/colors/buit/realista-01.webp",
+        "title": {
+          "ca": "BUIT · dibuix realista",
+          "es": "VACÍO · dibujo realista"
+        },
+        "alt": {
+          "ca": "Una dona mostra un got transparent buit i el senyala amb la mà.",
+          "es": "Una mujer muestra un vaso transparente vacío y lo señala con la mano."
+        },
+        "tags": [
+          "w-1d8378757b29"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "drawing",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-11-04T21:28:47.267489Z",
+        "target": "concept-588a23541bf4",
+        "targetWordIds": [
+          "w-1d8378757b29"
+        ],
+        "variant": "realista-01",
+        "originalSha256": "e748c159a88a9ae95b0993ce10bf28ffa1677cd383d4e916973f0f33ad04cd1b",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "24e4486d5cd8f893c0b72cdb8b5e2a98148dff74504a724edb22c46a0b2ee96e",
+        "primaryWordId": "w-1d8378757b29"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-588a23541bf4-realista-01",
+      "opaque": "2d84c3ba51",
+      "batch": "b-009",
+      "observation": "ensenyar un got, mostrar",
+      "reason": "El gest d’ensenyar el got domina i la transparència no fa evident que estigui buit.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-realistes"
+      ]
+    },
+    {
+      "asset": {
+        "id": "cace-concept-2ed6c95ee65c-foto-02",
+        "src": "assets/individuals/colors/plata/foto-02.webp",
+        "title": {
+          "ca": "PLATA · fotografia 2",
+          "es": "PLATA · fotografía 2"
+        },
+        "alt": {
+          "ca": "Una mostra platejada rodona.",
+          "es": "Una muestra plateada redonda."
+        },
+        "tags": [
+          "w-c1f819347ec0"
+        ],
+        "levels": [
+          1
+        ],
+        "kind": "photo",
+        "origin": "generated",
+        "credit": "Imatge generada amb IA per a CACE Imatges.",
+        "created": "2026-10-30T00:00:00Z",
+        "target": "concept-2ed6c95ee65c",
+        "targetWordIds": [
+          "w-c1f819347ec0"
+        ],
+        "variant": "foto-02",
+        "originalSha256": "55b1abdf45887a5258663084c12a8ef25dc0da3034ceb2a1fe0622e3020c628a",
+        "displayEncoding": "webp-quality-93-original-dimensions",
+        "displaySha256": "7a227806182bfbee7c53a4a297eb08a16e7a9bd15613d34ba6404c6f40f57da5",
+        "primaryWordId": "w-c1f819347ec0"
+      },
+      "archive": "output/visual-audit/arxiu/cace-concept-2ed6c95ee65c-foto-02",
+      "opaque": "0f41189a54",
+      "batch": "b-009",
+      "observation": "gris, cercle, fitxa metàl·lica",
+      "reason": "Sembla gris o metall. La reflectància de plata no es distingeix prou de l’acabat gris genèric.",
+      "sourcePngArchived": true,
+      "collectionsBefore": [
+        "cace-unitats-fotografies"
+      ]
+    }
+  ],
+  "n12Replacements": {
+    "n12-187": {
+      "id": "n12-187",
+      "title": "La pinta a la sopa",
+      "mechanism": "estri",
+      "subtype": "estris-de-precisio",
+      "breach": "Fer servir una pinta per menjar sopa.",
+      "repair": "Fer servir una cullera.",
+      "observation": "Un noi intenta menjar o pescar sopa amb una pinta, amb fils de líquid que cauen de les pues sobre el bol.",
+      "anatomy": "Incongruència clara. Braç dret flexionat i agafada creïble, mà esquerra sobre la taula. Sopa i pinta llegibles.",
+      "opaque": "d45c750102",
+      "scene": "A person sits at a breakfast table and is clearly trying to scoop soup using a clean hair comb held by its spine, with the teeth visibly immersed at one end and broth visibly draining between the wide teeth. White bowl, one natural hand holding the comb and the other beside the bowl. No spoon anywhere.",
+      "kind": "photo",
+      "sceneCount": 1,
+      "wordIds": [
+        "w-01bc6dcab46b",
+        "w-c248ebfe6f67",
+        "w-b91f3bd4d776",
+        "w-ac8bd82a4040",
+        "w-1544f4efec59"
+      ],
+      "primaryWordId": "w-01bc6dcab46b",
+      "terms": [
+        {
+          "label": "NOI",
+          "wordId": "w-01bc6dcab46b"
+        },
+        {
+          "label": "MENJAR",
+          "wordId": "w-c248ebfe6f67"
+        },
+        {
+          "label": "PINTA",
+          "wordId": "w-b91f3bd4d776"
+        },
+        {
+          "label": "SOPA",
+          "wordId": "w-ac8bd82a4040"
+        },
+        {
+          "label": "TAULA",
+          "wordId": "w-1544f4efec59"
+        }
+      ],
+      "original": "output/visual-audit/candidats/d45c750102.png",
+      "originalSha256": "617c1fc6024ef0c3aef7f54ab76ed9514f71795abfbfd94c9901c7698140347e",
+      "oldSrc": "assets/constructions/n12/n12-187-foto.webp",
+      "oldDisplaySha256": "8a4f64847d72667c83939c6bad5625d67bd7a8017f96cf29d802f5c71bbd9257",
+      "archive": "output/visual-audit/arxiu/cace-n12-187"
+    },
+    "n12-086": {
+      "id": "n12-086",
+      "title": "El raspall de dents i el plàtan",
+      "mechanism": "objecte",
+      "subtype": "materials-equivocats",
+      "breach": "Raspalla la pell d’un plàtan amb el raspall de dents.",
+      "repair": "Fer servir el raspall de dents per netejar les dents.",
+      "observation": "Un home raspalla la pell d’un plàtan amb un raspall de dents i el subjecta contra el taulell.",
+      "anatomy": "La incongruència es llegeix directament. Dits, pinça i flexió del canell plausibles. El raspall recolza sobre la pell del plàtan.",
+      "opaque": "f58b9fffc9",
+      "scene": "A single adult man at a domestic kitchen counter carefully brushes the bristles of a blue toothbrush directly across the teeth of a full-size yellow banana with the peel on. Make the toothbrush bristles pressing against the middle of the curved peel unmistakable and show its long handle. His other hand steadies the banana against the counter. Only one banana, no other food.",
+      "kind": "photo",
+      "sceneCount": 1,
+      "wordIds": [
+        "w-cfe24f6b3c38",
+        "w-4e6be686e7c1",
+        "w-ba87276d415c",
+        "w-e2ea3c22db68",
+        "w-2a34971d94b3"
+      ],
+      "primaryWordId": "w-cfe24f6b3c38",
+      "terms": [
+        {
+          "label": "HOME",
+          "wordId": "w-cfe24f6b3c38"
+        },
+        {
+          "label": "NETEJAR",
+          "wordId": "w-4e6be686e7c1"
+        },
+        {
+          "label": "RASPALL DE DENTS",
+          "wordId": "w-ba87276d415c"
+        },
+        {
+          "label": "PLÀTAN",
+          "wordId": "w-e2ea3c22db68"
+        },
+        {
+          "label": "CUINA",
+          "wordId": "w-2a34971d94b3"
+        }
+      ],
+      "original": "output/visual-audit/candidats/f58b9fffc9.png",
+      "originalSha256": "f9ae878dfcc0d158657b38b4a994bd5c5db560e3f15f34425e35257df67bc3e9",
+      "oldSrc": "assets/constructions/n12/n12-086-foto.webp",
+      "oldDisplaySha256": "0b7b7224121c0cc299682a3dd93eb153c0ee2f50d57493c4e511d9c47795bb3f",
+      "archive": "output/visual-audit/arxiu/cace-n12-086"
+    },
+    "n12-197": {
+      "id": "n12-197",
+      "title": "El llibre a la torradora",
+      "mechanism": "objecte",
+      "subtype": "materials-equivocats",
+      "breach": "Introdueix un llibre a la torradora en lloc d’una llesca de pa.",
+      "repair": "Posar-hi una llesca de pa.",
+      "observation": "Una dona fica un llibre vermell dret a la torradora mentre el pa és al plat.",
+      "anatomy": "La incongruència es llegeix directament. Llibre subjectat des de dalt, canell i avantbraç coherents i mà lliure al taulell.",
+      "opaque": "90d9bed932",
+      "scene": "A single adult woman deliberately places a fully closed red book upright into a metal toaster slot, with the unmistakable book spine, cover and white pages visible and most of the book above the toaster. Two slices of regular bread sit on a plate next to it. Her other hand rests naturally on the counter. No heat or smoke, an unplugged staged toaster.",
+      "kind": "photo",
+      "sceneCount": 1,
+      "wordIds": [
+        "w-72e9fe9a8b43",
+        "w-65f82def1308",
+        "w-3bb995df42bf",
+        "w-96e21018e871",
+        "w-2a34971d94b3"
+      ],
+      "primaryWordId": "w-72e9fe9a8b43",
+      "terms": [
+        {
+          "label": "DONA",
+          "wordId": "w-72e9fe9a8b43"
+        },
+        {
+          "label": "TORRAR",
+          "wordId": "w-65f82def1308"
+        },
+        {
+          "label": "LLIBRE",
+          "wordId": "w-3bb995df42bf"
+        },
+        {
+          "label": "PA",
+          "wordId": "w-96e21018e871"
+        },
+        {
+          "label": "CUINA",
+          "wordId": "w-2a34971d94b3"
+        }
+      ],
+      "original": "output/visual-audit/candidats/90d9bed932.png",
+      "originalSha256": "9e17cb55dcf741dda7249395474888b205e614b771cd5da1d820ce8ee5d9cec9",
+      "oldSrc": "assets/constructions/n12/n12-197-foto.webp",
+      "oldDisplaySha256": "8b46cfa24253d4ff268240b8247c6f4d7ac29eff9b2439873d1e92690a8a42c6",
+      "archive": "output/visual-audit/arxiu/cace-n12-197"
+    }
+  }
+}

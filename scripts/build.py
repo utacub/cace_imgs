@@ -17,11 +17,13 @@ app=(root/'src/app.js').read_text()
 def compile(data):
     payload=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
     return template.replace('/*__STYLES__*/',css).replace('/*__DATA__*/',payload).replace('/*__APP__*/',app)
+word_ids = {word['id'] for word in data['words']}
+level_ids = {level['id'] for level in data['levels']}
 for a in data['assets']:
     assert (root/'dist'/a['src']).is_file(),a['src']
     assert a['tags'] and a['levels']
-    assert all(x in {w['id'] for w in data['words']} for x in a['tags'])
-    assert all(x in range(1,13) for x in a['levels'])
+    assert set(a['tags']) <= word_ids
+    assert set(a['levels']) <= level_ids
 (root/'dist/index.html').write_text(compile(data))
 if args.site_only:
     print(json.dumps({'site_html_bytes':(root/'dist/index.html').stat().st_size,'images':len(data['assets']),'vocabulary_entries':len(data['words'])}))

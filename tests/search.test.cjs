@@ -53,28 +53,54 @@ test('Spanish search is symmetric, including after a language change', () => {
   assert.equal(a.read('results().length'), 0);
 });
 
-test('Primary apple concepts rank ahead of incidental apple mentions in both languages', () => {
+test('Primary apple images rank first within N1 and related scenes remain searchable', () => {
   const direct = catalog.assets.filter(a => a.targetWordIds?.includes(appleId) || a.id === 'sample-apple').map(a => a.id);
-  assert.ok(direct.length >= 5);
+  const individual = catalog.assets.filter(a => a.primaryWordId === appleId && a.levels.length === 1 && a.levels[0] === 1)
+    .map(a => a.id);
+  assert.ok(individual.length >= 4);
   for (const [language, query] of [['ca', 'poma'], ['es', 'manzana']]) {
     const a = app();
     a.run(`lang=${JSON.stringify(language)}; state.query=${JSON.stringify(query)}`);
     const ids = a.read('results().map(a=>a.id)');
-    assert.deepEqual(new Set(ids.slice(0, direct.length)), new Set(direct));
+    assert.deepEqual(new Set(ids.slice(0, individual.length)), new Set(individual));
+    assert.ok(direct.every(id => ids.includes(id)));
     assert.ok(ids.length > direct.length, 'Related scenes should remain available after the direct images');
   }
 });
 
-test('Selecting a suggested word also puts its primary images first', () => {
+test('Selecting a suggested word ranks by level and then by primary concept', () => {
   const a = app();
   a.run(`state.tags=[${JSON.stringify(appleId)}]`);
   const rows = a.read('results()');
   const expected = catalog.assets.filter(row => row.tags.includes(appleId));
-  const primaryCount = expected.filter(row => row.primaryWordId === appleId).length;
   assert.deepEqual(new Set(rows.map(row => row.id)), new Set(expected.map(row => row.id)));
-  assert.ok(rows.slice(0, primaryCount).every(row => row.primaryWordId === appleId));
-  assert.ok(rows.slice(primaryCount).every(row => row.primaryWordId !== appleId));
-  assert.match(a.read('filterToolbar()'), /Rellevància/);
+  const sorted = expected.sort((a, b) => Math.max(...a.levels) - Math.max(...b.levels)
+    || Number(b.primaryWordId === appleId) - Number(a.primaryWordId === appleId));
+  assert.deepEqual(rows.map(row => row.id), sorted.map(row => row.id));
+  assert.match(a.read('filterToolbar()'), /Per nivell/);
+});
+
+test('Unfiltered searches group results by displayed level in both languages', () => {
+  const pear = catalog.words.find(w => w.ca === 'PERA');
+  const image = (id, levels, primaryWordId) => ({
+    id, levels, primaryWordId, tags: [...new Set([primaryWordId, appleId])],
+    title: { ca: 'Fruita', es: 'Fruta' }, kind: 'photo',
+  });
+  const a = app({ ...catalog, assets: [
+    image('higher-exact', [3], appleId),
+    image('multi-level', [1, 2], appleId),
+    image('lower-secondary', [1], pear.id),
+    image('lower-exact', [1], appleId),
+  ] });
+  for (const [language, query, label] of [['ca', 'poma', /Per nivell/], ['es', 'manzana', /Por nivel/]]) {
+    a.run(`lang='${language}'; state.query='${query}'; state.kind='all'`);
+    assert.deepEqual(a.read('results().map(row=>row.id)'),
+      ['lower-exact', 'lower-secondary', 'multi-level', 'higher-exact']);
+    assert.match(a.read('filterToolbar()'), label);
+    a.run("state.kind='photo'");
+    assert.deepEqual(a.read('results().map(row=>row.id)'),
+      ['higher-exact', 'multi-level', 'lower-exact', 'lower-secondary']);
+  }
 });
 
 test('Multiword queries cannot combine Catalan and Spanish descriptions', () => {
@@ -112,6 +138,16 @@ test('Missing translations do not fall back to the other language while searchin
   assert.deepEqual(a.read('results().map(a=>a.id)'), ['personal']);
 });
 
+test('Metadata without a language label is not indexed in either language', () => {
+  const a = app({ ...catalog, assets: [] });
+  a.run(`stored.assets=[{id:'personal', title:'nom privat', alt:'descripció privada',
+    tags:[${JSON.stringify(appleId)}], levels:[1], kind:'photo'}]`);
+  for (const language of ['ca', 'es']) {
+    a.run(`lang='${language}'; state.query='privat'`);
+    assert.equal(a.read('results().length'), 0);
+  }
+});
+
 test('Accents, exact suggestions and exclusions still work in the active language', () => {
   const hand = catalog.words.find(w => w.ca === 'MÀ');
   const a = app();
@@ -137,10 +173,19 @@ test('Category, type, level, favorites, collections and all/any tag filters are 
   assert.deepEqual(a.read('results().map(a=>a.id)'), [id]);
 });
 
-test('Explicit alphabetical/recent order works and an empty search retains catalogue order', () => {
+test('The initial library groups images by displayed level and keeps catalogue order within each level', () => {
   const a = app();
-  assert.deepEqual(a.read('results().map(a=>a.id)'), catalog.assets.map(row => row.id));
-  a.run("state.query='poma'; state.sort='alpha'");
+  const expected = [...catalog.assets].sort((a, b) => Math.max(...a.levels) - Math.max(...b.levels));
+  assert.deepEqual(a.read('results().map(a=>a.id)'), expected.map(row => row.id));
+  assert.match(a.read('filterToolbar()'), /Per nivell/);
+  a.run("state.kind='photo'");
+  assert.deepEqual(a.read('results().map(a=>a.id)'),
+    catalog.assets.filter(row => row.kind === 'photo').map(row => row.id));
+});
+
+test('Explicit alphabetical and recent orders override the default library order', () => {
+  const a = app();
+  a.run("state.sort='alpha'");
   const titles = a.read('results().map(a=>a.title.ca)');
   assert.deepEqual(titles, [...titles].sort((a, b) => a.localeCompare(b, 'ca')));
   a.run("state.sort='new'");
@@ -269,6 +314,22 @@ test('Every catalogue asset has a valid primary keyword, including the initial s
   }
   const scene = catalog.assets.find(a => a.id === 'sample-girl-photo');
   assert.equal(catalog.words.find(w => w.id === scene.primaryWordId).ca, 'MENJAR');
+});
+
+test('N13 can be browsed by level and collection and searched in both active languages', () => {
+  const expected = catalog.assets.filter(row => row.levels.includes(13)).map(row => row.id);
+  assert.equal(expected.length, 228);
+  const a = app();
+  a.run('state.level=13');
+  assert.deepEqual(a.read('results().map(row=>row.id)'), expected);
+  a.run("state.query='llibre'");
+  assert.ok(a.read('results().some(row=>row.id==="cace-n13-001")'));
+  a.run("lang='es'");
+  assert.ok(!a.read('results().some(row=>row.id==="cace-n13-001")'));
+  a.run("state.query='libro'");
+  assert.ok(a.read('results().some(row=>row.id==="cace-n13-001")'));
+  a.run("state.query=''; state.level=null; syncCatalogCollections(); state.view='collection'; state.collection='cace-n13-escenes-completes'");
+  assert.deepEqual(a.read('results().map(row=>row.id)'), expected);
 });
 
 test('New backups preserve the chosen primary keyword and older backups remain compatible', () => {

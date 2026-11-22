@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.187 conté **4669 imatges**: 2561 estímuls de conceptes individuals per a 704 entrades completes, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12** i 8 mostres inicials. Els conceptes individuals concrets mantenen quatre variants i els abstractes una sola il·lustració plana. Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11 o N12 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.189 conté **4887 imatges**: 2551 estímuls de conceptes individuals per a 701 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -18,7 +18,7 @@ Per autorització explícita del 6 de novembre, només LLETRES, BARÇA, COLA-CAO
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
-La cerca consulta només els noms, les paraules clau i les descripcions de l’idioma actiu. Cada imatge té una paraula clau CACE principal, editable a la fitxa: les coincidències amb aquest concepte tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció. Quan hi ha una cerca, l’ordre predeterminat és per rellevància; l’ordre alfabètic i per data es poden triar explícitament.
+La cerca i els suggeriments consulten els camps de l’idioma actiu. La biblioteca sense filtres s’ordena per nivell, del N1 en amunt, tant a la vista inicial com quan es fa una cerca. Dins de cada nivell, es manté l’ordre del catàleg a la vista inicial i s’aplica la rellevància quan es fa una cerca. Una imatge assignada a diversos nivells s’ordena pel nivell que mostra la seva fitxa. En cerques amb altres filtres, l’ordre predeterminat és per rellevància. Les coincidències amb la paraula clau CACE principal tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció dins de l’ordre aplicat. També es pot triar l’ordre alfabètic o per data.
 
 El N5 incorpora **200 de les 200 construccions proposades**: 100 fotografies habituals i 100 dibuixos insòlits. «N5 · Relacions» treballa espai, possessió i contingut amb tres etiquetes CACE exactes per estímul. Es troben al nivell 5 i a la col·lecció «N5 · Relacions». Pla: `production/n5-plan.json`; progrés: `production/n5-progress.json`; prompts i revisions: `production/n5/`. El pla N5 està complet.
 
@@ -32,10 +32,12 @@ El N9 incorpora **200 de les 200 seqüències aprovades**: 100 fotografies habit
 
 La col·lecció «N10 · Causes» i el filtre de nivell 10 agrupen estímuls de tres vinyetes amb un estat inicial, un desencadenant visible i la seva conseqüència. Pla a `production/n10-plan.json`, progrés a `production/n10-progress.json` i revisions individuals a `production/n10/`.
 
+La col·lecció «N13 · Escenes completes» agrupa 228 fotografies horitzontals. Inclou les 200 escenes de la bateria inicial i 28 de l’ampliació de llocs. Cada fitxa utilitza les etiquetes CACE exactes del pla i té una descripció en català i un resum de vocabulari en castellà. El manifest de publicació és a `production/n13-release.json`.
+
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 4669 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les 4887 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.

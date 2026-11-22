@@ -40,7 +40,8 @@ parser = CatalogueParser()
 parser.feed(html)
 assert json.loads(''.join(parser.chunks)) == data, 'Built HTML contains an outdated catalogue'
 assert len({a['id'] for a in data['assets']}) == len(data['assets'])
-words = {w['id'] for w in data['words']}
+word_records = {word['id']: word for word in data['words']}
+words = set(word_records)
 targets = defaultdict(set)
 target_words = defaultdict(set)
 n2_plan_path = root / 'production/n2-plan.json'
@@ -76,13 +77,35 @@ n11_assets = defaultdict(list)
 n12_plan_path = root / 'production/n12-plan.json'
 n12_plan = {item['id']: item for item in json.loads(n12_plan_path.read_text(encoding='utf-8'))['items']} if n12_plan_path.exists() else {}
 n12_assets = defaultdict(list)
+n13_release_path = root / 'production/n13-release.json'
+n13_release = json.loads(n13_release_path.read_text(encoding='utf-8')) if n13_release_path.exists() else {}
+n13_plan = {item['id']: item for item in n13_release.get('items', [])}
+n13_assets = defaultdict(list)
+level_ids = {level['id'] for level in data['levels']}
+audit_path = root / 'production/visual-audit-corrections.json'
+audit = json.loads(audit_path.read_text(encoding='utf-8')) if audit_path.exists() else {}
+replacements = audit.get('n12Replacements', {})
+for construction_id, construction in replacements.items():
+    assert construction_id in n12_plan and construction['id'] == construction_id
+    assert [term['wordId'] for term in construction['terms']] == construction['wordIds']
+    assert all(term['label'] == word_records[term['wordId']]['ca'] for term in construction['terms'])
+    n12_plan[construction_id] = construction
+withdrawn_variants = defaultdict(set)
+active_ids = {asset['id'] for asset in data['assets']}
+active_paths = {asset['src'] for asset in data['assets']}
+for withdrawal in audit.get('withdrawals', []):
+    asset = withdrawal['asset']
+    assert asset['levels'] == [1] and not asset.get('constructionId'), asset['id']
+    assert all(len(word_records[word_id]['ca'].split()) == 1 for word_id in asset['targetWordIds'])
+    assert asset['id'] not in active_ids and asset['src'] not in active_paths, asset['id']
+    assert not (root / 'dist' / asset['src']).exists(), asset['src']
+    withdrawn_variants[asset['target']].add(asset['variant'])
 construction_levels = [
     (2, n2_plan, n2_assets), (3, n3_plan, n3_assets), (4, n4_plan, n4_assets),
     (5, n5_plan, n5_assets), (6, n6_plan, n6_assets), (7, n7_plan, n7_assets),
     (8, n8_plan, n8_assets), (9, n9_plan, n9_assets), (10, n10_plan, n10_assets),
-    (11, n11_plan, n11_assets), (12, n12_plan, n12_assets),
+    (11, n11_plan, n11_assets), (12, n12_plan, n12_assets), (13, n13_plan, n13_assets),
 ]
-word_records = {word['id']: word for word in data['words']}
 for asset in data['assets']:
     relative = PurePosixPath(asset['src'])
     assert not relative.is_absolute() and '..' not in relative.parts, relative
@@ -92,9 +115,11 @@ for asset in data['assets']:
     if previous_hashes.get(asset['src']) != asset['displaySha256']:
         with Image.open(image_path) as image:
             image.load()
+            if asset['levels'] == [13] and asset.get('constructionId'):
+                assert image.width * 9 == image.height * 16, asset['id']
     assert asset['tags'] and set(asset['tags']) <= words
     assert asset.get('primaryWordId') in asset['tags'], asset['id']
-    assert asset['levels'] and all(level in range(1, 13) for level in asset['levels'])
+    assert asset['levels'] and set(asset['levels']) <= level_ids
     if asset.get('constructionId'):
         level, plan, level_assets = next(entry for entry in construction_levels if asset['constructionId'] in entry[1])
         construction = plan[asset['constructionId']]
@@ -128,13 +153,25 @@ for asset in data['assets']:
                 'mechanism': construction['mechanism'],
                 'subtype': construction['subtype'],
             }, asset['id']
+            if asset['constructionId'] in replacements:
+                assert asset['originalSha256'] == construction['originalSha256'], asset['id']
+                assert construction['oldSrc'] not in active_paths
+                assert not (root / 'dist' / construction['oldSrc']).exists(), construction['oldSrc']
+        if level == 13:
+            assert asset['originalSha256'] == construction['originalSha256'], asset['id']
+            assert asset['semanticRelation'] == {
+                'type': 'escena-completa', 'peopleCount': construction['peopleCount'],
+            }, asset['id']
         level_assets[asset['constructionId']].append(asset['id'])
     elif asset.get('origin') == 'generated':
         targets[asset['target']].add(asset['variant'])
         target_words[asset['target']].update(asset['targetWordIds'])
 for target, variants in targets.items():
     assert target_words[target]
-    assert all(variants == required_variants(word_records[word_id]) for word_id in target_words[target]), target
+    assert all(variants == required_variants(word_records[word_id]) - withdrawn_variants.get(target, set())
+               for word_id in target_words[target]), target
+for collection in data['collections']:
+    assert set(collection['items']) <= active_ids, collection['id']
 assert all(len(assets) == 1 for assets in n2_assets.values()), 'Each N2 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n3_assets.values()), 'Each N3 construction must have exactly one image'
 assert all(len(assets) == 1 for assets in n4_assets.values()), 'Each N4 construction must have exactly one image'
@@ -158,6 +195,13 @@ if n12_assets:
     collection = next(collection for collection in data['collections'] if collection['id'] == 'cace-n12-absurds-visuals')
     assert len(collection['items']) == len(n12_assets)
     assert set(collection['items']) == {ids[0] for ids in n12_assets.values()}
+assert set(replacements) <= n12_assets.keys(), 'An audited N12 replacement is absent from the catalogue'
+if 13 in level_ids:
+    assert len(n13_plan) == len(n13_release['items']) == n13_release['accepted']
+    assert n13_plan.keys() == n13_assets.keys()
+    assert all(len(ids) == 1 for ids in n13_assets.values())
+    collection = next(collection for collection in data['collections'] if collection['id'] == 'cace-n13-escenes-completes')
+    assert collection['items'] == [n13_assets[item['id']][0] for item in n13_release['items']]
 assert not any(path.stat().st_size == 0 for path in (root / 'dist/assets').rglob('*') if path.is_file())
 assert not list((root / 'dist').rglob('*.tmp'))
 print(json.dumps({'version': data['version'], 'images_verified': len(data['assets']), 'generated_images': sum(a.get('origin') == 'generated' for a in data['assets']), 'complete_words': len(targets), 'complete_n2_constructions': len(n2_assets), 'complete_n3_constructions': len(n3_assets), 'complete_n4_constructions': len(n4_assets), 'complete_n5_constructions': len(n5_assets), 'complete_n6_constructions': len(n6_assets), 'complete_n8_constructions': len(n8_assets), 'complete_n9_constructions': len(n9_assets), 'complete_n10_constructions': len(n10_assets), 'vocabulary_entries': len(data['words'])}))
