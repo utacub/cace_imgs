@@ -437,3 +437,43 @@ test('New backups preserve the chosen primary keyword and older backups remain c
   row.primaryWordId = 'unknown-word';
   assert.throws(() => a.run(`validateBackup(${JSON.stringify(backup)})`), /Primary word/);
 });
+
+test('Fragments inside a word are dropped when the term starts a word elsewhere', () => {
+  const data = { ...catalog, words: [...catalog.words] };
+  const image = (id, title) => ({ id, primaryWordId: appleId, tags: [appleId], title: { ca: title }, alt: { ca: title }, kind: 'drawing', levels: [1] });
+  data.assets = [image('whole', 'Or'), image('start', 'Orella'), image('inside', 'Porta')];
+  const a = app(data);
+  a.run("lang='ca'; state.query='or'");
+  assert.deepEqual(a.read('results().map(a=>a.id)'), ['whole', 'start']);
+  a.run("state.query='rta'");
+  assert.deepEqual(a.read('results().map(a=>a.id)'), ['inside']);
+});
+
+test('Search suggestions skip entries without images while the image editor still offers them', () => {
+  const a = app();
+  const empty = catalog.words.find(w => w.ca === 'DILLUNS');
+  const used = new Set(catalog.assets.flatMap(x => x.tags));
+  assert.ok(!used.has(empty.id));
+  a.run("lang='ca'");
+  assert.ok(!a.read("wordCandidates('dilluns',[],true).map(w=>w.id)").includes(empty.id));
+  assert.ok(a.read("wordCandidates('dilluns').map(w=>w.id)").includes(empty.id));
+});
+
+test('A CACE category filter orders images from N1 upwards, main-word images first', () => {
+  const a = app();
+  a.run("state.category='animals'");
+  const rows = a.read("results().map(x=>[Math.max(...x.levels),x.primaryWordId])");
+  const levels = rows.map(([level]) => level);
+  assert.ok(rows.length > 0 && levels[0] === 1);
+  assert.deepEqual(levels, [...levels].sort((x,y) => x-y));
+  const cat = new Map(catalog.words.map(w => [w.id,w.category]));
+  const n1 = rows.filter(([level]) => level === 1).map(([,id]) => cat.get(id) === 'animals');
+  assert.deepEqual(n1, [...n1].sort((x,y) => Number(y)-Number(x)));
+  assert.match(a.read('filterToolbar()'), /Per nivell/);
+});
+
+test('The add-to-collection button keeps an accessible name when its label is hidden', () => {
+  const a = app();
+  const html = a.read(`card(CATALOG.assets[0])`);
+  assert.match(html, /class="card-add"[^>]*aria-label="Afegir a una col·lecció · /);
+});

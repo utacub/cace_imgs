@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.203 conté **4789 imatges**: 2453 estímuls de conceptes individuals per a 684 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.204 conté **4773 imatges**: 2437 estímuls de conceptes individuals per a 680 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Els textos alternatius dels nivells N5 a N9 són frases descriptives en català i castellà, generades per `scripts/write-descriptive-alts.py` a partir dels plans de producció (N9: `production/alt-n9.json`). Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -18,7 +18,7 @@ Per autorització explícita del 6 de novembre, només LLETRES, BARÇA, COLA-CAO
 
 La revisió visual de producció no equival a una validació clínica o psicomètrica dels estímuls. Les imatges generades amb IA s'identifiquen a l'aplicació.
 
-La cerca i els suggeriments consulten els camps de l’idioma actiu. La biblioteca sense filtres s’ordena per nivell, del N1 en amunt, tant a la vista inicial com quan es fa una cerca. A la vista inicial, el N1 comença amb paraules úniques de categories concretes, com animals, objectes, aliments, roba, mobles i transports. Aquest primer grup segueix l’ordre alfabètic del terme català. La resta manté l’ordre del catàleg dins de cada nivell. Quan es fa una cerca, s’aplica la rellevància dins de cada nivell. Una imatge assignada a diversos nivells s’ordena pel nivell que mostra la seva fitxa. En cerques amb altres filtres, l’ordre predeterminat és per rellevància. Les coincidències amb la paraula clau CACE principal tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció dins de l’ordre aplicat. També es pot triar l’ordre alfabètic o per data.
+La cerca i els suggeriments consulten els camps de l’idioma actiu. La biblioteca sense filtres s’ordena per nivell, del N1 en amunt, tant a la vista inicial com quan es fa una cerca. A la vista inicial, el N1 comença amb paraules úniques de categories concretes, com animals, objectes, aliments, roba, mobles i transports. Aquest primer grup segueix l’ordre alfabètic del terme català. La resta manté l’ordre del catàleg dins de cada nivell. Quan es fa una cerca, s’aplica la rellevància dins de cada nivell. Una imatge assignada a diversos nivells s’ordena pel nivell que mostra la seva fitxa. Quan es filtra per una categoria CACE, la galeria també s’ordena del N1 en amunt i, dins de cada nivell, primer apareixen les imatges la paraula principal de les quals pertany a la categoria. En cerques amb altres filtres, l’ordre predeterminat és per rellevància. Les coincidències amb la paraula clau CACE principal tenen prioritat sobre les etiquetes secundàries i les mencions a la descripció dins de l’ordre aplicat. També es pot triar l’ordre alfabètic o per data. Si algun resultat de la vista conté el terme com a paraula sencera o com a inici de paraula, s’ometen les coincidències a l’interior d’una paraula («or» no retorna «porta»). Els suggeriments de cerca només ofereixen entrades que tenen almenys una imatge; les entrades sense imatge es conserven al catàleg i a l’editor d’imatges.
 
 El N5 incorpora **200 de les 200 construccions proposades**: 100 fotografies habituals i 100 dibuixos insòlits. «N5 · Relacions» treballa espai, possessió i contingut amb tres etiquetes CACE exactes per estímul. Es troben al nivell 5 i a la col·lecció «N5 · Relacions». Pla: `production/n5-plan.json`; progrés: `production/n5-progress.json`; prompts i revisions: `production/n5/`. El pla N5 està complet.
 
@@ -41,7 +41,7 @@ Les galeries grans incorporen les imatges per blocs al desplaçar-se o en préme
 ## Estructura
 
 - `src/`: aplicació, estils, plantilla i catàleg editable.
-- `bank/`: les 4789 imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
+- `bank/`: les imatges de la web, empaquetades en parts de 4 MiB amb comprovacions SHA-256.
 - `dist/`: web construïda; es genera automàticament i no es versiona.
 - `scripts/`: construcció, validació i importació dels paquets de producció.
 - `.github/workflows/pages.yml`: construcció, verificació i publicació automàtiques amb GitHub Pages.
@@ -91,3 +91,9 @@ El repositori canònic és [utacub/cace_imgs](https://github.com/utacub/cace_img
 ## Procedència
 
 El vocabulari parteix de CACE-UTAC 2021, exportat d'AsTeRICS AAC el 27 d'octubre de 2026. `src/catalog-data.json` conserva els identificadors de vocabulari, les categories, les referències dels taulers i les metadades dels estímuls. La migració a GitHub conserva els fitxers d'imatge utilitzats per la versió 0.1.10.
+
+## Llicències i crèdits
+
+El codi de l’aplicació té la llicència GNU GPL 3.0 o posterior (`LICENSE`). Les imatges, les seves descripcions i el catàleg tenen la llicència Creative Commons Reconeixement 4.0 Internacional (`LICENSE-IMATGES.md`); cal citar «CACE Imatges, UTAC». Els logotips de `src/brand/` pertanyen a les seves institucions i en queden fora. El botó «Crèdits» de la barra lateral mostra l’origen, les institucions, les eines, les llicències i les referències, adaptats de la finestra d’informació d’UTAC Keryx.
+
+A la versió 0.1.204 es retiren les 16 imatges de COCA-COLA, FANTA, COLA-CAO i BARÇA perquè reproduïen marques i escuts registrats. Consten a `production/visual-audit-corrections.json` amb el lot `marques-registrades-0.1.204`.
