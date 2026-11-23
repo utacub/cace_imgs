@@ -28,6 +28,12 @@ for a in data['assets']:
 import shutil
 shutil.copytree(root/'src/brand',root/'dist/brand',dirs_exist_ok=True)
 (root/'dist/index.html').write_text(compile(data))
+# Installable app (PWA): the service worker and the sizes the install window shows.
+brand_files=sorted(p.relative_to(root/'dist').as_posix() for p in (root/'dist/brand').iterdir() if p.is_file())
+core=['./','./index.html']+['./'+f for f in brand_files]
+(root/'dist/sw.js').write_text((root/'src/sw.js').read_text().replace('__VERSION__',data['version']).replace('__CORE__',json.dumps(core)))
+app_bytes=(root/'dist/index.html').stat().st_size+sum((root/'dist'/f).stat().st_size for f in brand_files)
+(root/'dist/offline.json').write_text(json.dumps({'version':data['version'],'app':app_bytes,'images':{a['src']:(root/'dist'/a['src']).stat().st_size for a in data['assets']}},separators=(',',':')))
 if args.site_only:
     print(json.dumps({'site_html_bytes':(root/'dist/index.html').stat().st_size,'images':len(data['assets']),'vocabulary_entries':len(data['words'])}))
     raise SystemExit(0)
