@@ -1,3 +1,9 @@
+# N1 · Sensacions i sentiments · autorització del 23/11/2026
+
+L’usuari autoritza generar, revisar i publicar quatre variants N1 per a aquestes 16 entrades: POR, ESPANTAT, SORPRÈS, ENFADAT, CONTENT, TRIST, NERVIÓS, CANSAT, CALOR, FRED, CONGELAT, CALENT, CREMANT, MAREJAT, PICOR, PREOCUPAT. Les emocions s’han de representar amb cares de persones. Fons blanc, sense text ni marques, dues fotografies de persones o exemplars diferents, un dibuix realista i una il·lustració plana. Aquesta autorització aixeca l’exclusió històrica només per a aquestes entrades. PICA es reanomena PICOR en català i castellà conservant-ne l’ID w-d846fa264b3d. Preservar la versió més recent del repositori i els canvis concurrents. Registre: production/sensacions-release-2026-11-23.json.
+
+---
+
 # N9 · 200 imatges completades i publicades · 21/11/2026
 
 200/200 N9 revisades i publicades: 100 fotografies habituals i 100 dibuixos plans insòlits. Catàleg 0.1.159: 4069 imatges i 861 entrades CACE. Les 3869 imatges anteriors i les quatre N9 existents en reprendre es preserven exactament. Les 200 descàrregues públiques han estat verificades amb SHA-256 a 2026-11-21T14:58:37Z.

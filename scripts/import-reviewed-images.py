@@ -40,7 +40,7 @@ for variant, record in brief['images'].items():
     assert not destination.exists()
     with Image.open(original) as image:
         image.save(destination, 'WEBP', quality=93, method=6)
-    template = next(a for a in catalog['assets'] if a.get('variant') == variant)
+    template = next(a for a in catalog['assets'] if a.get('variant') == variant and a.get('levels') == [1] and not a.get('constructionId'))
     row = copy.deepcopy(template)
     row.update(id=f'cace-{target}-{variant}', src=source,
                title={lang: word[lang] + ' · ' + template['title'][lang].split(' · ')[1] for lang in ('ca','es')},
@@ -50,8 +50,14 @@ for variant, record in brief['images'].items():
                displaySha256=hashlib.sha256(destination.read_bytes()).hexdigest())
     rows.append(row)
     collection_id = 'cace-unitats-' + ('fotografies' if variant.startswith('foto') else 'realistes' if variant.startswith('realista') else 'planes')
-    next(c for c in catalog['collections'] if c['id'] == collection_id)['items'].append(row['id'])
+    n1_collection = next((c for c in catalog['collections'] if c['id'] == 'cace-n1-paraules-individuals'), None)
+    if n1_collection is None:
+        n1_collection = next(c for c in catalog['collections'] if c['id'] == collection_id)
+    n1_collection['items'].append(row['id'])
 catalog['assets'] = rows + catalog['assets']
+for collection in catalog['collections']:
+    if collection['id'] == 'cace-n1-paraules-individuals':
+        collection['items'] = [a['id'] for a in catalog['assets'] if 1 in a['levels']]
 catalog['version'] = brief['version']
 catalog_text = json.dumps(catalog, ensure_ascii=False, indent=2) + '\n'
 temporary_catalog = catalog_path.with_suffix('.json.tmp')

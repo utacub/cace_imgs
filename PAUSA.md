@@ -1,3 +1,9 @@
+# 23/11/2026 · Lot N1 Sensacions i sentiments
+
+64 imatges noves per a 16 entrades, revisades i importades localment sobre f57d9bdb58710993b09b42fd1d26a5a9e319f72b (0.1.210). PICOR amb el mateix ID de PICA. Cap imatge anterior ni entrada fora d’aquest canvi lèxic s’ha modificat. Autorització específica a CRITERIS.md; registre a production/sensacions-release-2026-11-23.json. Estat de publicació: consultar la verificació del lot i GitHub Actions.
+
+---
+
 # N12 · 200 fotografies publicades i verificades · 22/11/2026
 
 El catàleg 0.1.187 conté 4.669 imatges i 861 entrades CACE. El N12 té 200 fotografies sintètiques revisades individualment i 34 candidats descartats. S’han verificat les 200 descàrregues públiques per SHA-256 a les 08:54:38 h de Madrid i s’ha comprovat que les adreces dels 37 dibuixos retirats tornen 404 o 410.

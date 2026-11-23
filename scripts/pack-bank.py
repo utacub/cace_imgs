@@ -49,15 +49,22 @@ with tempfile.TemporaryFile() as assembled:
         with zipfile.ZipFile(assembled) as previous_archive:
             names = previous_archive.namelist()
             existing_names = set(names)
-            incremental = len(names) == len(existing_names) and existing_names <= expected.keys()
+            incremental = len(names) == len(existing_names)
             if incremental:
-                incremental = all(hashlib.sha256(previous_archive.read(name)).hexdigest() == expected[name]['displaySha256'] for name in names)
+                incremental = all(hashlib.sha256(previous_archive.read(name)).hexdigest() == expected[name]['displaySha256'] for name in names if name in expected)
     if not incremental:
         assembled.seek(0)
         assembled.truncate()
         existing_names = set()
+    # Retire obsolete entries from the ZIP directory without rewriting retained image bytes.
+    removed_names = existing_names - expected.keys() if incremental else set()
+    existing_names -= removed_names
     added = 0
     with zipfile.ZipFile(assembled, 'a' if incremental else 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+        if removed_names:
+            archive.filelist = [entry for entry in archive.filelist if entry.filename not in removed_names]
+            archive.NameToInfo = {entry.filename: entry for entry in archive.filelist}
+            archive._didModify = True
         for asset in sorted(data['assets'], key=lambda asset: asset['src']):
             if asset['src'] in existing_names:
                 continue
