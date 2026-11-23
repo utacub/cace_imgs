@@ -459,16 +459,16 @@ test('Search suggestions skip entries without images while the image editor stil
   assert.ok(a.read("wordCandidates('dilluns').map(w=>w.id)").includes(empty.id));
 });
 
-test('A CACE category filter orders images from N1 upwards, main-word images first', () => {
+test('A CACE category filter orders images from N1 upwards, with N1 words in alphabetical order', () => {
   const a = app();
   a.run("state.category='animals'");
   const rows = a.read("results().map(x=>[Math.max(...x.levels),x.primaryWordId])");
   const levels = rows.map(([level]) => level);
   assert.ok(rows.length > 0 && levels[0] === 1);
   assert.deepEqual(levels, [...levels].sort((x,y) => x-y));
-  const cat = new Map(catalog.words.map(w => [w.id,w.category]));
-  const n1 = rows.filter(([level]) => level === 1).map(([,id]) => cat.get(id) === 'animals');
-  assert.deepEqual(n1, [...n1].sort((x,y) => Number(y)-Number(x)));
+  const names = new Map(catalog.words.map(w => [w.id,w.ca]));
+  const n1 = rows.filter(([level]) => level === 1).map(([,id]) => names.get(id));
+  assert.deepEqual(n1, [...n1].sort((x,y) => x.localeCompare(y,'ca')));
   assert.match(a.read('filterToolbar()'), /Per nivell/);
 });
 
