@@ -22,7 +22,7 @@ function app(data = catalog) {
   };
   const context = vm.createContext({
     document: {
-      getElementById: () => ({ textContent: JSON.stringify(data) }),
+      getElementById: () => ({ textContent: JSON.stringify(data) }), documentElement: {},
       querySelector: element, addEventListener() {},
     },
     window: {}, localStorage: { getItem() { return null; } },

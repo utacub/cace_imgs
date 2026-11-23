@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.211 conté **4802 imatges**: 2466 estímuls de conceptes individuals per a 683 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Els textos alternatius dels nivells N5 a N9 són frases descriptives en català i castellà, generades per `scripts/write-descriptive-alts.py` a partir dels plans de producció (N9: `production/alt-n9.json`). Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva 795 de les 861 entrades CACE originals: les 66 entrades de les categories «Sobre mi» i «Expressions» es van retirar a la versió 0.1.210, juntament amb les seves 35 imatges (vegeu `categoryWithdrawals` a production/visual-audit-corrections.json).
+La versió 0.1.212 conté **4802 imatges**: 2466 estímuls de conceptes individuals per a 683 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Els textos alternatius dels nivells N5 a N9 són frases descriptives en català i castellà, generades per `scripts/write-descriptive-alts.py` a partir dels plans de producció (N9: `production/alt-n9.json`). Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva 795 de les 861 entrades CACE originals: les 66 entrades de les categories «Sobre mi» i «Expressions» es van retirar a la versió 0.1.210, juntament amb les seves 35 imatges (vegeu `categoryWithdrawals` a production/visual-audit-corrections.json).
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen, amb l’excepció de les 16 entrades de Sensacions i sentiments autoritzades el 23/11/2026.
 
@@ -92,7 +92,17 @@ El repositori canònic és [utacub/cace_imgs](https://github.com/utacub/cace_img
 
 El vocabulari parteix de CACE-UTAC 2021, exportat d'AsTeRICS AAC el 27 d'octubre de 2026. `src/catalog-data.json` conserva els identificadors de vocabulari, les categories, les referències dels taulers i les metadades dels estímuls. La migració a GitHub conserva els fitxers d'imatge utilitzats per la versió 0.1.10.
 
-La franja superior mostra la versió actual (per exemple, «v0.1.211»); en prémer-la s’obre la finestra d’informació.
+La franja superior mostra la versió actual (per exemple, «v0.1.212»); en prémer-la s’obre la finestra d’informació.
+
+## App instal·lable (PWA)
+
+CACE Imatges es pot instal·lar com una app a Windows, Android, ChromeOS, macOS i iOS/iPadOS. El botó «Instal·lar» de la franja superior obre una finestra que diu quant d'espai ocupa l'app, recomana la wifi, mostra l'espai disponible al navegador i avisa si potser no n'hi ha prou. També permet triar quines imatges es volen tenir sense connexió: cap per avançat (cada imatge es desa el primer cop que s'obre), totes, o només algunes col·leccions (N1 a N13), amb la mida de cadascuna.
+
+- A Chrome, Edge i altres navegadors Chromium (Windows, Android, ChromeOS, macOS i Linux), la finestra obre la instal·lació del navegador i després descarrega les imatges triades, amb una barra de progrés.
+- A Safari (iPhone, iPad i Mac amb macOS Sonoma o posterior), la finestra explica els passos («Afegir a la pantalla d'inici» o «Afegir al Dock»). Com que l'app instal·lada desa les dades a part, la tria d'imatges es fa el primer cop que s'obre.
+- Dins l'app instal·lada, el mateix botó es diu «Imatges sense connexió» i permet canviar la tria. Quan l'app s'obre amb connexió, completa sense preguntar el que hagi quedat a mitges i les imatges noves de les col·leccions triades.
+
+El service worker és `src/sw.js`. `scripts/build.py` el copia a `dist/sw.js` amb la versió i la llista de fitxers de la pàgina, i escriu `dist/offline.json` amb la mida de l'app i de cada imatge. El manifest és `src/brand/manifest.webmanifest`.
 
 ## Marca
 

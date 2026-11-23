@@ -44,3 +44,31 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 .brand-mark{height:54px;width:auto;flex:none;display:block}
 @media(max-width:1200px){.brand-mark{height:46px}}
 .credits-logo .credits-mark{height:56px;width:auto}
+/* 0.1.212: installable app. «Instal·lar» button in the top bar and its window. */
+.install-btn{min-height:34px;padding:7px 13px;font-size:12px;gap:7px}
+.install-btn svg{width:16px;height:16px}
+@media(max-width:700px){.install-btn{padding:7px 9px}.install-btn span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
+.install-dialog p{margin:0 0 14px;line-height:1.5}
+.install-options{border:0;margin:0 0 14px;padding:0;display:grid;gap:10px}
+.install-options legend{font-weight:650;margin-bottom:10px;padding:0}
+.install-option{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:10px;cursor:pointer}
+.install-option:has(input:checked){border-color:var(--petrol);background:#17676b0d}
+.install-option input{margin-top:3px;accent-color:var(--petrol)}
+.install-size{color:var(--muted);font-weight:500;font-variant-numeric:tabular-nums}
+.install-hint{display:block;color:var(--muted);font-size:12.5px;margin-top:3px;line-height:1.45}
+.install-collections{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:6px 14px;padding:4px 4px 0 30px}
+.install-collection{display:flex;gap:8px;align-items:center;font-size:13px;cursor:pointer}
+.install-collection input{accent-color:var(--petrol)}
+.install-collection .install-size{margin-left:auto;font-size:12px}
+.install-wifi{color:var(--muted);font-size:13px}
+.install-space{font-size:13px}
+.install-space.warn,.install-message.warn{color:#9a3412}
+.install-message.done{color:var(--petrol);font-weight:600}
+.install-progress{display:flex;align-items:center;gap:12px;margin:0 0 12px}
+.install-progress progress{flex:1;height:10px;accent-color:var(--petrol)}
+.install-progress span{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.install-steps{margin:0 0 14px;padding-left:22px;display:grid;gap:10px;line-height:1.5}
+.dialog-body label.install-option,.dialog-body label.install-collection{display:flex;font-weight:500}
+.dialog-body .install-option input,.dialog-body .install-collection input{width:auto;min-height:0;height:auto;margin:3px 0 0;padding:0;flex:none;box-shadow:none}
+.dialog-body .install-collection input{margin:0}
+.install-option strong{font-weight:650}
