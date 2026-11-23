@@ -92,6 +92,8 @@ El repositori canònic és [utacub/cace_imgs](https://github.com/utacub/cace_img
 
 El vocabulari parteix de CACE-UTAC 2021, exportat d'AsTeRICS AAC el 27 d'octubre de 2026. `src/catalog-data.json` conserva els identificadors de vocabulari, les categories, les referències dels taulers i les metadades dels estímuls. La migració a GitHub conserva els fitxers d'imatge utilitzats per la versió 0.1.10.
 
+La franja superior mostra la versió actual (per exemple, «v0.1.207»); en prémer-la s’obre la finestra d’informació.
+
 ## Llicències i crèdits
 
 El codi de l’aplicació té la llicència GNU GPL 3.0 o posterior (`LICENSE`). Les imatges, les seves descripcions i el catàleg tenen la llicència Creative Commons Reconeixement-CompartirIgual 4.0 Internacional (CC BY-SA 4.0, `LICENSE-IMATGES.md`): cal citar «CACE Imatges, UTAC» i compartir les adaptacions amb la mateixa llicència. Els logotips de `src/brand/` pertanyen a les seves institucions i en queden fora. La finestra d’informació (botó ⓘ) mostra, a més de la descripció, l’origen, les institucions, les eines, les llicències i les referències, adaptats de la finestra d’informació d’UTAC Keryx.
