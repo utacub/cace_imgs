@@ -4,7 +4,7 @@ Biblioteca visual de vocabulari CACE per a professionals. Interfície en català
 
 ## Estat del banc
 
-La versió 0.1.207 conté **4773 imatges**: 2437 estímuls de conceptes individuals per a 680 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Els textos alternatius dels nivells N5 a N9 són frases descriptives en català i castellà, generades per `scripts/write-descriptive-alts.py` a partir dels plans de producció (N9: `production/alt-n9.json`). Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
+La versió 0.1.208 conté **4773 imatges**: 2437 estímuls de conceptes individuals per a 680 entrades amb imatges, **150 construccions N2**, **150 construccions N3**, **200 construccions N4**, **200 construccions N5**, **200 construccions N6**, **200 construccions N7**, **200 construccions N8**, **200 seqüències N9**, **200 seqüències causals N10**, **200 relats N11**, **200 absurds visuals N12**, **228 escenes completes N13** i 8 mostres inicials. Els conceptes individuals concrets es produeixen amb quatre variants i els abstractes amb una il·lustració plana. Les retirades per manca de denominabilitat consten a production/visual-audit-corrections.json. Els textos alternatius dels nivells N5 a N9 són frases descriptives en català i castellà, generades per `scripts/write-descriptive-alts.py` a partir dels plans de producció (N9: `production/alt-n9.json`). Cada construcció N2, N3, N4, N5, N6, N7, N8, N9, N10, N11, N12 o N13 té una sola fotografia o un sol dibuix. El catàleg conserva les 861 entrades CACE originals.
 
 El N2 conté **150 de les 150 construccions previstes** (75 habituals i 75 insòlites), cadascuna descrita amb dues entrades CACE existents. Es poden trobar al filtre de nivell 2 i a la col·lecció «N2 · Entitat i atribut». La selecció és a `production/n2-plan.json`, el progrés a `production/n2-progress.json` i els prompts i revisions a `production/n2/`. Les exclusions de paraules individuals es mantenen.
 
@@ -92,7 +92,11 @@ El repositori canònic és [utacub/cace_imgs](https://github.com/utacub/cace_img
 
 El vocabulari parteix de CACE-UTAC 2021, exportat d'AsTeRICS AAC el 27 d'octubre de 2026. `src/catalog-data.json` conserva els identificadors de vocabulari, les categories, les referències dels taulers i les metadades dels estímuls. La migració a GitHub conserva els fitxers d'imatge utilitzats per la versió 0.1.10.
 
-La franja superior mostra la versió actual (per exemple, «v0.1.207»); en prémer-la s’obre la finestra d’informació.
+La franja superior mostra la versió actual (per exemple, «v0.1.208»); en prémer-la s’obre la finestra d’informació.
+
+## Marca
+
+El kit de marca complet és a `marca/`: logotips en SVG, PNG i PDF (principal, horitzontal, compacte i símbol), icones, aplicacions, paleta i manual de marca (`marca/05_Manual/`). La web fa servir el logotip horitzontal en color (`src/brand/cace-horitzontal.svg`, amb el marge exterior retallat) a la barra lateral i a la finestra d’informació, i les icones del kit com a favicon, icona d’accés directe i manifest. La imatge `src/brand/portada_social.png` es mostra com a previsualització quan es comparteix l’enllaç.
 
 ## Llicències i crèdits
 

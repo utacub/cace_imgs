@@ -36,8 +36,9 @@ path.parent.mkdir(parents=True,exist_ok=True)
 # Stream each original image separately so a growing catalogue does not require
 # several copies of the complete embedded-image document in memory.
 # The offline file embeds the logos too, so it works without the brand/ folder.
-for logo in sorted((root/'src/brand').glob('*.webp')):
-    app=app.replace('brand/'+logo.name,'data:image/webp;base64,'+base64.b64encode(logo.read_bytes()).decode())
+for logo in sorted([*(root/'src/brand').glob('*.webp'),*(root/'src/brand').glob('*.svg')]):
+    mime='image/svg+xml' if logo.suffix=='.svg' else 'image/webp'
+    app=app.replace('brand/'+logo.name,'data:'+mime+';base64,'+base64.b64encode(logo.read_bytes()).decode())
 prefix,suffix=template.split('/*__DATA__*/')
 prefix=prefix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)
 suffix=suffix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)
