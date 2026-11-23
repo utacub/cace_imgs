@@ -34,3 +34,8 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 .credits-tools .use{grid-row:span 3;font-size:13px}.credits-tools a{font-size:13px;overflow-wrap:anywhere}
 .credits-ref{font-size:13px;overflow-wrap:anywhere}.credits-version{font-size:12px;margin-top:16px}
 @media(max-width:560px){.credits-tools li{grid-template-columns:1fr}.credits-tools .use{grid-row:auto}}
+
+/* Current version in the top bar; it opens the information window. */
+.top-version{font-size:11px;font-weight:600;color:#4a5f67;font-variant-numeric:tabular-nums;white-space:nowrap;padding:4px 6px;border-radius:6px}
+.top-version:hover{color:var(--petrol);background:var(--mint-soft)}
+@media(max-width:420px){.top-version{font-size:10px;padding:2px 3px}}
