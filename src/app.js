@@ -175,6 +175,7 @@ function searchFields(a){
   return fields;
 }
 const hasSearch=()=>Boolean(norm(state.query)||state.tags.length);
+const N1_COLLECTION='cace-n1-paraules-individuals';
 function usesLevelOrder(){
   // A CACE category filter keeps the N1→N13 order so each category opens with its individual words.
   if(state.view!=='library'||state.level||state.kind!=='all')return false;
@@ -213,13 +214,15 @@ function results(){
   if(state.sort==='new')return list.sort((a,b)=>(b.created||'').localeCompare(a.created||''));
   const searching=Boolean(query||state.tags.length);
   const byLevel=usesLevelOrder();
-  if(!searching&&!byLevel)return list;
+  // A category filter or the N1 collection lists N1 images alphabetically by their main word.
+  const n1Collection=state.view==='collection'&&state.collection===N1_COLLECTION;
+  const n1Alpha=!searching&&Boolean(state.category||n1Collection);
+  if(!searching&&!byLevel&&!n1Alpha)return list;
   return list.map(asset=>{
     const level=Math.max(...asset.levels);
     // Inside a category, images whose main word belongs to it come before those that only mention it.
     const own=state.category&&WORDS.get(asset.primaryWordId)?.category===state.category?1:0;
-    // With a category and no search, N1 images are listed alphabetically by their main word.
-    const alpha=state.category&&!searching&&level===1?loc(WORDS.get(asset.primaryWordId))||loc(asset.title):'';
+    const alpha=n1Alpha&&(level===1||n1Collection)?loc(WORDS.get(asset.primaryWordId))||loc(asset.title):'';
     return {asset,level,own,alpha,score:searching?relevance(asset,query,terms):0,
       concreteLabel:searching?'':initialConcreteLabel(asset,level)};
   })
