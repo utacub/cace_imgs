@@ -24,6 +24,9 @@ for a in data['assets']:
     assert a['tags'] and a['levels']
     assert set(a['tags']) <= word_ids
     assert set(a['levels']) <= level_ids
+# Logos for the header and the credits window are copied next to the page.
+import shutil
+shutil.copytree(root/'src/brand',root/'dist/brand',dirs_exist_ok=True)
 (root/'dist/index.html').write_text(compile(data))
 if args.site_only:
     print(json.dumps({'site_html_bytes':(root/'dist/index.html').stat().st_size,'images':len(data['assets']),'vocabulary_entries':len(data['words'])}))
@@ -32,6 +35,9 @@ path=args.offline_output.expanduser().resolve()
 path.parent.mkdir(parents=True,exist_ok=True)
 # Stream each original image separately so a growing catalogue does not require
 # several copies of the complete embedded-image document in memory.
+# The offline file embeds the logos too, so it works without the brand/ folder.
+for logo in sorted((root/'src/brand').glob('*.webp')):
+    app=app.replace('brand/'+logo.name,'data:image/webp;base64,'+base64.b64encode(logo.read_bytes()).decode())
 prefix,suffix=template.split('/*__DATA__*/')
 prefix=prefix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)
 suffix=suffix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)

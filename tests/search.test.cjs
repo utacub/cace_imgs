@@ -471,3 +471,9 @@ test('A CACE category filter orders images from N1 upwards, main-word images fir
   assert.deepEqual(n1, [...n1].sort((x,y) => Number(y)-Number(x)));
   assert.match(a.read('filterToolbar()'), /Per nivell/);
 });
+
+test('The add-to-collection button keeps an accessible name when its label is hidden', () => {
+  const a = app();
+  const html = a.read(`card(CATALOG.assets[0])`);
+  assert.match(html, /class="card-add"[^>]*aria-label="Afegir a una col·lecció · /);
+});

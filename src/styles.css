@@ -18,3 +18,19 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 
 .tag.primary-keyword{font-weight:750}.primary-word-field{display:block;margin-top:16px}
 .gallery-more{display:flex;justify-content:center;margin:20px 0}
+
+/* 0.1.204: UTAC logo before the title, credits window (adapted from UTAC Keryx) and footer actions. */
+.brand{display:flex;align-items:center;gap:9px;padding-left:20px;padding-right:16px}.brand-logo{height:30px;width:auto;flex:none}.brand-text{min-width:0}.brand strong{font-size:22px;white-space:nowrap;letter-spacing:-.9px}
+@media(max-width:1200px){.brand{padding-left:18px;padding-right:12px;gap:8px}.brand-logo{height:26px}.brand strong{font-size:19px}}
+.credits-button{margin-top:2px}
+.credits h3{font-size:15px;margin:20px 0 8px}.credits p{line-height:1.5;margin:0 0 10px}
+.credits-logo{display:flex;align-items:center;gap:12px;margin-bottom:6px}.credits-logo img{height:48px;width:auto}.credits-logo strong{font-size:26px;font-weight:760;letter-spacing:-1px}
+.credits-institutions{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px 18px;margin:14px 0}
+.credits-institutions figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center}
+.credits-institutions a{display:flex;align-items:center;justify-content:center;height:76px;width:100%;padding:6px 10px;border-radius:10px;background:#fff;border:1px solid var(--line)}
+.credits-institutions img{max-height:100%;max-width:100%;object-fit:contain}
+.credits-institutions figcaption{font-size:12px;color:var(--ink)}
+.credits-tools{list-style:none;margin:0;padding:0}.credits-tools li{display:grid;grid-template-columns:9rem 1fr;gap:0 14px;padding:8px 0;border-bottom:1px solid var(--line)}
+.credits-tools .use{grid-row:span 3;font-size:13px}.credits-tools a{font-size:13px;overflow-wrap:anywhere}
+.credits-ref{font-size:13px;overflow-wrap:anywhere}.credits-version{font-size:12px;margin-top:16px}
+@media(max-width:560px){.credits-tools li{grid-template-columns:1fr}.credits-tools .use{grid-row:auto}}
