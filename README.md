@@ -92,7 +92,7 @@ El repositori canònic és [utacub/cace_imgs](https://github.com/utacub/cace_img
 
 El vocabulari parteix de CACE-UTAC 2021, exportat d'AsTeRICS AAC el 27 d'octubre de 2026. `src/catalog-data.json` conserva els identificadors de vocabulari, les categories, les referències dels taulers i les metadades dels estímuls. La migració a GitHub conserva els fitxers d'imatge utilitzats per la versió 0.1.10.
 
-La franja superior mostra la versió actual (per exemple, «v0.1.210»); en prémer-la s’obre la finestra d’informació.
+La franja superior mostra la versió actual (per exemple, «v0.1.211»); en prémer-la s’obre la finestra d’informació.
 
 ## Marca
 
