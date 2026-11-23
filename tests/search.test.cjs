@@ -388,8 +388,8 @@ test('N1 keeps both drawing subcategories inside the level collection', () => {
   for (const variant of ['realista-', 'pla-']) {
     a.run(`state.drawingStyle='${variant}'`);
     const ids = a.read('results().map(asset=>asset.id)');
-    assert.deepEqual(ids, catalog.assets.filter(asset=>asset.levels.includes(1)
-      && asset.kind==='drawing' && asset.variant?.startsWith(variant)).map(asset=>asset.id));
+    assert.deepEqual([...ids].sort(), catalog.assets.filter(asset=>asset.levels.includes(1)
+      && asset.kind==='drawing' && asset.variant?.startsWith(variant)).map(asset=>asset.id).sort());
   }
 });
 
@@ -470,6 +470,17 @@ test('A CACE category filter orders images from N1 upwards, with N1 words in alp
   const n1 = rows.filter(([level]) => level === 1).map(([,id]) => names.get(id));
   assert.deepEqual(n1, [...n1].sort((x,y) => x.localeCompare(y,'ca')));
   assert.match(a.read('filterToolbar()'), /Per nivell/);
+});
+
+test('The N1 collection lists its images alphabetically by main word', () => {
+  const a = app();
+  a.run("syncCatalogCollections(); state.view='collection'; state.collection='cace-n1-paraules-individuals'");
+  assert.equal(a.read('state.view'), 'collection');
+  const ids = a.read("results().map(x=>x.primaryWordId)");
+  assert.ok(ids.length > 100);
+  const names = new Map(catalog.words.map(w => [w.id,w.ca]));
+  const words = ids.map(id => names.get(id));
+  assert.deepEqual(words, [...words].sort((x,y) => x.localeCompare(y,'ca')));
 });
 
 test('The add-to-collection button keeps an accessible name when its label is hidden', () => {

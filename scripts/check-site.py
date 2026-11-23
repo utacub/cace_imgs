@@ -104,14 +104,26 @@ for asset_id, replacement in audit.get('anatomyReplacements', {}).items():
     assert asset['displaySha256'] == replacement['newDisplaySha256']
     assert replacement['oldSrc'] not in active_paths
     assert not (root / 'dist' / replacement['oldSrc']).exists()
+# Earlier withdrawals may name words whose whole category was later retired.
+historic_words = {**{word['id']: word for word in audit.get('categoryWithdrawals', {}).get('words', [])}, **word_records}
 for withdrawal in audit.get('withdrawals', []):
     asset = withdrawal['asset']
     assert asset['levels'] == [1] and not asset.get('constructionId'), asset['id']
-    assert all(len(word_records[word_id]['ca'].split()) == 1 for word_id in asset['targetWordIds'])
+    assert all(len(historic_words[word_id]['ca'].split()) == 1 for word_id in asset['targetWordIds'])
     assert asset['id'] not in active_ids and asset['src'] not in active_paths, asset['id']
     assert not (root / 'dist' / asset['src']).exists(), asset['src']
     withdrawn_variants[asset['target']].add(asset['variant'])
     withdrawn_by_id[asset['id']] = asset
+category_withdrawals = audit.get('categoryWithdrawals', {})
+withdrawn_categories = set(category_withdrawals.get('categories', []))
+assert not withdrawn_categories & {category['id'] for category in data['categories']}
+assert not withdrawn_categories & {word['category'] for word in data['words']}
+for word in category_withdrawals.get('words', []):
+    assert word['id'] not in words and word['category'] in withdrawn_categories, word['id']
+for record in category_withdrawals.get('assets', []):
+    asset = record['asset']
+    assert asset['id'] not in active_ids and asset['src'] not in active_paths, asset['id']
+    assert not (root / 'dist' / asset['src']).exists(), asset['src']
 restored_variants = defaultdict(set)
 for asset_id, restoration in audit.get('n1Restorations', {}).items():
     asset = assets_by_id[asset_id]

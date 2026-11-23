@@ -20,8 +20,8 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 .gallery-more{display:flex;justify-content:center;margin:20px 0}
 
 /* 0.1.204: UTAC logo before the title, credits window (adapted from UTAC Keryx) and footer actions. */
-.brand{display:flex;align-items:center;gap:9px;padding-left:20px;padding-right:16px}.brand-logo{height:30px;width:auto;flex:none}.brand-text{min-width:0}.brand strong{font-size:22px;white-space:nowrap;letter-spacing:-.9px}
-@media(max-width:1200px){.brand{padding-left:18px;padding-right:12px;gap:8px}.brand-logo{height:26px}.brand strong{font-size:19px}}
+.brand{display:flex;align-items:center;gap:8px;padding-left:16px;padding-right:16px}.brand-logo{height:38px;width:auto;flex:none}.brand-text{min-width:0}.brand strong{font-size:22px;white-space:nowrap;letter-spacing:-.9px}
+@media(max-width:1200px){.brand{padding-left:14px;padding-right:12px;gap:8px}.brand-logo{height:33px}.brand strong{font-size:19px}}
 
 .credits h3{font-size:15px;margin:20px 0 8px}.credits p{line-height:1.5;margin:0 0 10px}
 .credits-logo{display:flex;align-items:center;gap:12px;margin-bottom:6px}.credits-logo img{height:48px;width:auto}.credits-logo strong{font-size:26px;font-weight:760;letter-spacing:-1px}
@@ -42,5 +42,5 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 
 /* 0.1.208: horizontal logo from the brand kit (marca/) replaces the text title. */
 .brand-mark{height:54px;width:auto;flex:none;display:block}
-@media(max-width:1200px){.brand-mark{height:48px}}
+@media(max-width:1200px){.brand-mark{height:46px}}
 .credits-logo .credits-mark{height:56px;width:auto}
