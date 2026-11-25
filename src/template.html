@@ -10,6 +10,8 @@
 <link rel="icon" href="brand/icona_32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="brand/icona_180.png">
 <link rel="manifest" href="brand/manifest.webmanifest">
+<link rel="preload" as="image" href="brand/utac.webp" fetchpriority="high">
+<link rel="preload" as="image" href="brand/cace-horitzontal.svg" fetchpriority="high">
 <meta name="application-name" content="CACE Imatges">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,7 +31,9 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Anar al contingut</a>
-<aside id="sidebar" class="sidebar" aria-label="Navegació principal"></aside>
+<!-- The logos are written here, before the catalogue data, so they show while the page is still loading;
+     src/app.js redraws the sidebar with the same logos once the catalogue is ready. -->
+<aside id="sidebar" class="sidebar" aria-label="Navegació principal"><a href="#" class="brand" data-action="library"><img class="brand-logo" src="brand/utac.webp" alt="UTAC" width="223" height="128"><img class="brand-mark" src="brand/cace-horitzontal.svg" alt="CACE Imatges · Biblioteca visual" width="1544.8" height="531.3"></a></aside>
 <button class="sidebar-shade" id="sidebarShade" aria-label="Tancar menú"></button>
 <div class="app-column">
   <header class="topbar">

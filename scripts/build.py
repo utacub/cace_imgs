@@ -44,7 +44,9 @@ path.parent.mkdir(parents=True,exist_ok=True)
 # The offline file embeds the logos too, so it works without the brand/ folder.
 for logo in sorted([*(root/'src/brand').glob('*.webp'),*(root/'src/brand').glob('*.svg')]):
     mime='image/svg+xml' if logo.suffix=='.svg' else 'image/webp'
-    app=app.replace('brand/'+logo.name,'data:'+mime+';base64,'+base64.b64encode(logo.read_bytes()).decode())
+    embedded='data:'+mime+';base64,'+base64.b64encode(logo.read_bytes()).decode()
+    app=app.replace('brand/'+logo.name,embedded)
+    template=template.replace('brand/'+logo.name,embedded)
 prefix,suffix=template.split('/*__DATA__*/')
 prefix=prefix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)
 suffix=suffix.replace('/*__STYLES__*/',css).replace('/*__APP__*/',app)
