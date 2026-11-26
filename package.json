@@ -1,12 +1,12 @@
 {
   "name": "cace-imatges",
-  "version": "0.1.217",
+  "version": "0.1.218",
   "private": true,
   "scripts": {
     "build": "python3 scripts/build.py --site-only",
     "build:offline": "python3 scripts/build.py",
     "check": "python3 scripts/check-site.py",
-    "test": "node --test tests/search.test.cjs"
+    "test": "node --test tests/search.test.cjs tests/sw.test.cjs"
   },
   "license": "GPL-3.0-or-later"
 }

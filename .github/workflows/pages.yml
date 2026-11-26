@@ -34,6 +34,8 @@ jobs:
         run: python scripts/build.py --site-only --since HEAD^
       - name: Test search language and relevance
         run: node --test tests/search.test.cjs
+      - name: Test that the service worker does not slow down the logos and images
+        run: node --test tests/sw.test.cjs
       - name: Test incremental image validation
         run: python tests/optimize-catalog.test.py
       - name: Verify the complete catalogue
