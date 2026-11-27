@@ -33,6 +33,7 @@ body.presenting{overflow:hidden;background:#f7f6f1}body.presenting .sidebar,body
 .credits-tools{list-style:none;margin:0;padding:0}.credits-tools li{display:grid;grid-template-columns:9rem 1fr;gap:0 14px;padding:8px 0;border-bottom:1px solid var(--line)}
 .credits-tools .use{grid-row:span 3;font-size:13px}.credits-tools a{font-size:13px;overflow-wrap:anywhere}
 .credits-ref{font-size:13px;overflow-wrap:anywhere}.credits-version{font-size:12px;margin-top:16px}
+.credits-cite{font-size:13px;overflow-wrap:anywhere;padding:8px 12px;border-left:3px solid var(--line);margin-left:0}
 @media(max-width:560px){.credits-tools li{grid-template-columns:1fr}.credits-tools .use{grid-row:auto}}
 
 /* Current version in the top bar; it opens the information window. */
